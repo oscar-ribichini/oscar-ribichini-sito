@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Scheda Valutazione Prodotto AI — AI WEEK 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', serif;
+    font-size: 10pt;
+    background: white;
+  }
+
+  .foglio {
+    width: 210mm;
+    height: 297mm;
+    page-break-after: always;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scheda {
+    width: 100%;
+    height: 148.5mm;
+    padding: 8mm 12mm;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5mm;
+    overflow: hidden;
+  }
+
+  .scheda:first-child {
+    border-bottom: 1px dashed #aaa;
+  }
+
+  .intestazione {
+    border-bottom: 2px solid #1a1a2e;
+    padding-bottom: 2.5mm;
+  }
+
+  .intestazione h1 {
+    font-size: 13pt;
+    color: #1a1a2e;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+
+  .intestazione p {
+    font-size: 8pt;
+    color: #555;
+    margin-top: 1mm;
+  }
+
+  .sezione {
+    background: #1a1a2e;
+    color: white;
+    font-size: 7.5pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 1.5mm 3mm;
+  }
+
+  .griglia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2mm 6mm;
+  }
+
+  .griglia3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2mm 4mm;
+  }
+
+  .campo {
+    display: flex;
+    flex-direction: column;
+    gap: 1mm;
+  }
+
+  .campo label {
+    font-size: 7pt;
+    font-weight: bold;
+    color: #1a1a2e;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+
+  .linea {
+    border-bottom: 1px solid #aaa;
+    height: 5.5mm;
+    width: 100%;
+  }
+
+  .voto {
+    display: flex;
+    align-items: center;
+    gap: 2mm;
+  }
+
+  .voto label {
+    font-size: 7pt;
+    font-weight: bold;
+    color: #1a1a2e;
+    text-transform: uppercase;
+  }
+
+  .cerchi {
+    display: flex;
+    gap: 2mm;
+  }
+
+  .cerchio {
+    width: 5mm;
+    height: 5mm;
+    border-radius: 50%;
+    border: 1px solid #1a1a2e;
+    display: inline-block;
+  }
+
+  .note {
+    flex: 1;
+    border: 1px solid #aaa;
+    padding: 2mm;
+    min-height: 14mm;
+  }
+
+  .footer {
+    margin-top: auto;
+    border-top: 1px solid #ddd;
+    padding-top: 2mm;
+    font-size: 7pt;
+    color: #999;
+    text-align: center;
+  }
+
+  @media print {
+    @page { size: A4; margin: 0; }
+    body { margin: 0; }
+    .foglio { page-break-after: always; }
+  }
+</style>
+</head>
+<body>
+<script>
+const totale = 30;
+const fogli = Math.ceil(totale / 2);
+
+for (let f = 0; f < fogli; f++) {
+  document.write('<div class="foglio">');
+  for (let s = 0; s < 2; s++) {
+    const n = f * 2 + s + 1;
+    if (n > totale) break;
+    document.write(`
+    <div class="scheda">
+      <div class="intestazione">
+        <h1>Scheda Valutazione Prodotto AI</h1>
+        <p>AI WEEK Milano &mdash; 19-20 maggio 2026 &nbsp;|&nbsp; Scheda ${n} di ${totale}</p>
+      </div>
+
+      <div class="griglia">
+        <div class="campo" style="grid-column: span 2">
+          <label>Nome prodotto</label>
+          <div class="linea"></div>
+        </div>
+        <div class="campo">
+          <label>Azienda</label>
+          <div class="linea"></div>
+        </div>
+        <div class="campo">
+          <label>Stand / Contatto</label>
+          <div class="linea"></div>
+        </div>
+        <div class="campo" style="grid-column: span 2">
+          <label>Sito web</label>
+          <div class="linea"></div>
+        </div>
+      </div>
+
+      <div class="sezione">1. Cosa fa</div>
+      <div class="linea"></div>
+
+      <div class="griglia">
+        <div class="sezione" style="grid-column: span 2">2. A chi serve &nbsp;&nbsp; 3. Utilità &amp; semplicità</div>
+        <div class="campo">
+          <label>Settore / target</label>
+          <div class="linea"></div>
+        </div>
+        <div class="campo">
+          <label>Dimensione minima</label>
+          <div class="linea"></div>
+        </div>
+        <div class="voto">
+          <label>Utilità</label>
+          <div class="cerchi">
+            <div class="cerchio"></div><div class="cerchio"></div><div class="cerchio"></div><div class="cerchio"></div><div class="cerchio"></div>
+          </div>
+        </div>
+        <div class="campo">
+          <label>Usabile senza tecnici?</label>
+          <div class="linea"></div>
+        </div>
+      </div>
+
+      <div class="sezione">4. Modello di business per me</div>
+      <div class="griglia3">
+        <div class="campo">
+          <label>Fee ricorrente?</label>
+          <div class="linea"></div>
+        </div>
+        <div class="campo">
+          <label>Commissione %</label>
+          <div class="linea"></div>
+        </div>
+        <div class="campo">
+          <label>Programma partner?</label>
+          <div class="linea"></div>
+        </div>
+        <div class="campo">
+          <label>Prezzo cliente finale</label>
+          <div class="linea"></div>
+        </div>
+        <div class="campo" style="grid-column: span 2">
+          <label>Mio guadagno stimato</label>
+          <div class="linea"></div>
+        </div>
+      </div>
+
+      <div class="sezione">5. Solidità &amp; impressione finale</div>
+      <div class="griglia">
+        <div class="campo">
+          <label>Clienti reali attivi?</label>
+          <div class="linea"></div>
+        </div>
+        <div class="campo">
+          <label>Anni sul mercato</label>
+          <div class="linea"></div>
+        </div>
+      </div>
+      <div class="voto">
+        <label>Prima impressione</label>
+        <div class="cerchi">
+          <div class="cerchio"></div><div class="cerchio"></div><div class="cerchio"></div><div class="cerchio"></div><div class="cerchio"></div>
+        </div>
+      </div>
+
+      <div class="sezione">Note libere</div>
+      <div class="note"></div>
+
+      <div class="footer">Oscar Ribichini &mdash; Consulente AI &amp; Aziendale &mdash; AI WEEK Milano 2026</div>
+    </div>
+    `);
+  }
+  document.write('</div>');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carta Intestata — Oscar Ribichini</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', serif;
+    font-size: 11pt;
+    color: #1a1a2e;
+    background: #fff;
+  }
+
+  .pagina {
+    width: 210mm;
+    height: 297mm;
+    max-height: 297mm;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 15mm 20mm 20mm 20mm;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* INTESTAZIONE */
+  .intestazione {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 3px solid #c9a96e;
+    padding-bottom: 10mm;
+    margin-bottom: 8mm;
+  }
+
+  .nome-blocco h1 {
+    font-size: 22pt;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: #1a1a2e;
+    text-transform: uppercase;
+  }
+
+  .nome-blocco h2 {
+    font-size: 8pt;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #c9a96e;
+    text-transform: uppercase;
+    margin-top: 3px;
+    white-space: nowrap;
+  }
+
+  .contatti-blocco {
+    text-align: right;
+    font-size: 8.5pt;
+    color: #555;
+    line-height: 1.7;
+  }
+
+  .contatti-blocco strong {
+    color: #1a1a2e;
+  }
+
+  /* SOTTOTITOLO COLLABORAZIONE */
+  .collaborazione {
+    font-size: 8pt;
+    color: #888;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 12mm;
+    text-transform: uppercase;
+  }
+
+  /* CORPO DOCUMENTO */
+  .corpo {
+    flex: 1;
+    line-height: 1.8;
+    color: #1a1a2e;
+  }
+
+  .data-luogo {
+    text-align: right;
+    margin-bottom: 8mm;
+    font-size: 10pt;
+    color: #555;
+  }
+
+  .oggetto {
+    font-weight: bold;
+    margin-bottom: 6mm;
+    font-size: 10.5pt;
+  }
+
+  .testo {
+    margin-bottom: 6mm;
+    text-align: justify;
+    color: #1a1a2e;
+  }
+
+  /* FIRMA */
+  .firma {
+    margin-top: 15mm;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .firma-blocco {
+    text-align: center;
+    min-width: 60mm;
+  }
+
+  .firma-linea {
+    border-top: 1px solid #1a1a2e;
+    margin-bottom: 3mm;
+  }
+
+  .firma-nome {
+    font-size: 9pt;
+    color: #555;
+  }
+
+  /* PIÈ DI PAGINA */
+  .pie-pagina {
+    border-top: 1px solid #c9a96e;
+    margin-top: 10mm;
+    padding-top: 4mm;
+    display: flex;
+    justify-content: space-between;
+    font-size: 7.5pt;
+    color: #999;
+  }
+
+  /* STAMPA */
+  @media print {
+    @page {
+      size: A4;
+      margin: 0;
+    }
+    body { background: white; }
+    .pagina {
+      width: 210mm;
+      height: 297mm;
+      max-height: 297mm;
+      overflow: hidden;
+      margin: 0;
+      padding: 15mm 20mm 20mm 20mm;
+      page-break-after: avoid;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="pagina">
+
+  <!-- INTESTAZIONE -->
+  <div class="intestazione">
+    <div class="nome-blocco">
+      <h1>Oscar Ribichini</h1>
+      <h2>Consulente Aziendale &amp; Advisor AI per le PMI</h2>
+    </div>
+    <div class="contatti-blocco">
+      <strong>Via Fontanella 20 — 62012 Civitanova Marche (MC)</strong><br>
+      +39 327 611 3167<br>
+      oscar.ribichini@quantumadvisor.it<br>
+      P.IVA 01785850437
+    </div>
+  </div>
+
+  <!-- COLLABORAZIONE -->
+  <div class="collaborazione">
+    Mandatario per Quantum S.r.l. &nbsp;|&nbsp; C.F./P.IVA 18439461007 &nbsp;|&nbsp; Via Castelfondo 13, Roma
+  </div>
+
+  <!-- CORPO -->
+  <div class="corpo">
+
+    <div class="data-luogo">Civitanova Marche, 9 maggio 2026</div>
+
+    <div class="oggetto">Oggetto: _______________________________________________</div>
+
+    <div class="testo">
+      Gentile _______________________________________________,
+    </div>
+
+    <div class="testo">
+      &nbsp;
+    </div>
+
+    <div class="testo">
+      &nbsp;
+    </div>
+
+    <div class="testo">
+      &nbsp;
+    </div>
+
+    <div class="testo">
+      &nbsp;
+    </div>
+
+    <div class="testo">
+      &nbsp;
+    </div>
+
+    <div class="testo">
+      &nbsp;
+    </div>
+
+    <div class="testo">
+      Cordiali saluti,
+    </div>
+
+  </div>
+
+  <!-- FIRMA -->
+  <div class="firma">
+    <div class="firma-blocco">
+      <div class="firma-linea"></div>
+      <div class="firma-nome">Oscar Ribichini</div>
+    </div>
+  </div>
+
+  <!-- PIÈ DI PAGINA -->
+  <div class="pie-pagina">
+    <span>Oscar Ribichini — P.IVA 01785850437 — C.F. RBCSCR68M08E783U</span>
+    <span>Mandatario Quantum S.r.l. — P.IVA 18439461007</span>
+  </div>
+
+</div>
+
+
+</body>
+</html>

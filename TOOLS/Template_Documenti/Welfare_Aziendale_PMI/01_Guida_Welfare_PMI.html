@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guida al Welfare Aziendale per le PMI — Oscar Ribichini</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', serif;
+    font-size: 11pt;
+    color: #1a1a2e;
+    background: #fff;
+  }
+
+  .pagina {
+    width: 210mm;
+    margin: 0 auto;
+    padding: 10mm 12mm 10mm 12mm;
+  }
+
+  /* INTESTAZIONE */
+  .intestazione {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 3px solid #c9a96e;
+    padding-bottom: 5mm;
+    margin-bottom: 5mm;
+  }
+
+  .nome-blocco h1 {
+    font-size: 18pt;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: #1a1a2e;
+    text-transform: uppercase;
+  }
+
+  .nome-blocco h2 {
+    font-size: 7.5pt;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #c9a96e;
+    text-transform: uppercase;
+    margin-top: 2px;
+    white-space: nowrap;
+  }
+
+  .contatti-blocco {
+    text-align: right;
+    font-size: 8pt;
+    color: #555;
+    line-height: 1.7;
+  }
+
+  /* TITOLO DOCUMENTO */
+  .titolo-doc {
+    text-align: center;
+    margin-bottom: 5mm;
+    padding-bottom: 4mm;
+    border-bottom: 1px solid #e0d5c0;
+  }
+
+  .titolo-doc h3 {
+    font-size: 15pt;
+    font-weight: normal;
+    color: #1a1a2e;
+    letter-spacing: 1px;
+    margin-bottom: 2mm;
+  }
+
+  .titolo-doc .edizione {
+    font-size: 8pt;
+    color: #c9a96e;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  /* SEZIONI */
+  .sezione {
+    margin-bottom: 6mm;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .sezione-nuova-pagina {
+    margin-bottom: 6mm;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .sezione h4 {
+    font-size: 11pt;
+    color: #1a1a2e;
+    border-left: 3px solid #c9a96e;
+    padding-left: 3mm;
+    margin-bottom: 3mm;
+    font-weight: bold;
+  }
+
+  .sezione p {
+    line-height: 1.7;
+    margin-bottom: 2mm;
+    text-align: justify;
+  }
+
+  .sezione ul {
+    margin-left: 5mm;
+    line-height: 1.8;
+  }
+
+  .sezione ul li {
+    margin-bottom: 1mm;
+  }
+
+  /* BOX EVIDENZA */
+  .box-oro {
+    background: #fdf8f0;
+    border-left: 4px solid #c9a96e;
+    padding: 4mm 5mm;
+    margin: 4mm 0;
+    font-size: 10.5pt;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .box-oro strong {
+    color: #1b6ca8;
+  }
+
+  /* TABELLA */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 3mm 0;
+    font-size: 9.5pt;
+  }
+
+  th {
+    background: #1a1a2e;
+    color: #c9a96e;
+    padding: 2mm 3mm;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 8.5pt;
+  }
+
+  td {
+    padding: 2mm 3mm;
+    border-bottom: 1px solid #e8e8e8;
+    vertical-align: top;
+  }
+
+  tr:nth-child(even) td {
+    background: #fafafa;
+  }
+
+  /* CONTATTO FINALE */
+  .contatto-finale {
+    margin-top: 8mm;
+    padding: 4mm 5mm;
+    background: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    font-size: 9pt;
+    line-height: 1.8;
+  }
+
+  .contatto-finale span {
+    color: #c9a96e;
+  }
+
+  /* PIÈ DI PAGINA */
+  .pie-pagina {
+    border-top: 1px solid #c9a96e;
+    margin-top: 8mm;
+    padding-top: 3mm;
+    display: flex;
+    justify-content: space-between;
+    font-size: 7pt;
+    color: #999;
+  }
+
+  @media print {
+    @page { size: A4; margin: 10mm 12mm; }
+    body { background: white; }
+    .pagina { margin: 0; padding: 0; width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="pagina">
+
+  <div class="intestazione">
+    <div class="nome-blocco">
+      <h1>Oscar Ribichini</h1>
+      <h2>Consulente Aziendale &amp; Advisor AI per le PMI</h2>
+    </div>
+    <div class="contatti-blocco">
+      oscar.ribichini@quantumadvisor.it<br>
+      +39 327 611 3167<br>
+      P.IVA 01785850437
+    </div>
+  </div>
+
+  <div class="titolo-doc">
+    <h3>Guida al Welfare Aziendale per le PMI</h3>
+    <div class="edizione">Edizione 2026</div>
+  </div>
+
+  <div class="sezione">
+    <h4>Cos'è il welfare aziendale</h4>
+    <p>Il welfare aziendale è l'insieme di beni e servizi che un'azienda offre ai propri dipendenti in aggiunta alla retribuzione. Non è un costo — è un investimento che riduce le tasse, fidelizza il personale e rende l'azienda più competitiva.</p>
+    <p>La legge italiana prevede agevolazioni fiscali significative: molti benefit sono completamente esenti da contributi e imposte, sia per l'azienda che per il dipendente.</p>
+  </div>
+
+  <div class="sezione">
+    <h4>Perché conviene alle PMI</h4>
+    <ul>
+      <li><strong>Risparmio fiscale</strong> — i benefit welfare non sono soggetti a contributi INPS (risparmio del 30-35% rispetto alla busta paga)</li>
+      <li><strong>Fidelizzazione</strong> — i dipendenti che ricevono benefit restano più a lungo e sono più produttivi</li>
+      <li><strong>Attrazione di talenti</strong> — il welfare è il secondo fattore nella scelta del lavoro dopo lo stipendio</li>
+      <li><strong>Clima aziendale</strong> — riduce assenteismo e conflittualità</li>
+    </ul>
+  </div>
+
+  <div class="sezione">
+    <h4>Le novità 2026 da conoscere subito</h4>
+    <div class="box-oro">
+      <strong>Flexible benefit — tetto alzato a 250 euro</strong><br>
+      Ogni dipendente può ricevere fino a 250 euro netti di benefit esenti (era 200). Per chi ha figli a carico il tetto sale a 1.000 euro.
+    </div>
+    <div class="box-oro">
+      <strong>Adesione automatica previdenza complementare — dal 1° luglio</strong><br>
+      Dal 1° luglio 2026 tutti i nuovi assunti vengono automaticamente iscritti al fondo di previdenza complementare. Ogni imprenditore deve adeguare i contratti.
+    </div>
+    <div class="box-oro">
+      <strong>Deducibilità alzata a 5.300 euro</strong><br>
+      I contributi versati alla previdenza complementare sono deducibili fino a 5.300 euro annui (era 5.164 euro).
+    </div>
+  </div>
+
+  <div class="sezione">
+    <h4>I benefit più efficaci per le PMI</h4>
+    <ul>
+      <li><strong>Sanità integrativa</strong> — il benefit più apprezzato. Costo medio: 200-600 euro/anno per dipendente</li>
+      <li><strong>Previdenza complementare</strong> — deducibile fiscalmente, ideale per dipendenti maturi</li>
+      <li><strong>Flexible benefit</strong> — buoni acquisto, trasporti, palestra, asilo nido. Esenti fino a 250 euro</li>
+      <li><strong>Formazione</strong> — corsi e aggiornamenti, deducibili al 100%</li>
+      <li><strong>Flessibilità oraria e smart working</strong> — costo zero, alto valore percepito</li>
+    </ul>
+  </div>
+
+  <div class="sezione-nuova-pagina">
+    <h4>Il benefit giusto per ogni generazione</h4>
+    <table>
+      <tr><th>Generazione</th><th>Età</th><th>Benefit prioritari</th></tr>
+      <tr><td>Baby Boomer</td><td>Over 55</td><td>Previdenza complementare, sanità</td></tr>
+      <tr><td>Generazione X</td><td>40–55</td><td>Sanità, formazione, flessibilità</td></tr>
+      <tr><td>Millennials</td><td>28–40</td><td>Work-life balance, formazione</td></tr>
+      <tr><td>Gen Z</td><td>Under 28</td><td>Flexible benefit, supporto psicologico</td></tr>
+    </table>
+  </div>
+
+  <div class="sezione">
+    <h4>Come iniziare in 3 passi</h4>
+    <ul>
+      <li><strong>Passo 1</strong> — Analizza la situazione: quanti dipendenti hai, quali benefit hai già, qual è il budget</li>
+      <li><strong>Passo 2</strong> — Scegli i benefit prioritari: inizia da sanità integrativa e flexible benefit</li>
+      <li><strong>Passo 3</strong> — Formalizza il piano nel regolamento aziendale con il supporto di un consulente</li>
+    </ul>
+  </div>
+
+  <div class="contatto-finale">
+    Hai bisogno di supporto per costruire il piano welfare della tua azienda?<br>
+    <span>Oscar Ribichini — oscar.ribichini@quantumadvisor.it — +39 327 611 3167</span>
+  </div>
+
+  <div class="pie-pagina">
+    <span>Oscar Ribichini — P.IVA 01785850437 — Mandatario Quantum S.r.l.</span>
+    <span>Documento aggiornato a maggio 2026</span>
+  </div>
+
+</div>
+</body>
+</html>

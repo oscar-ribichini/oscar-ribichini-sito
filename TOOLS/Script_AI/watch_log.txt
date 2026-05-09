@@ -1,0 +1,92 @@
+﻿2026-05-07 08:48:13 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-07 08:48:13 - Pronto. Premi Ctrl+C per fermare.
+2026-05-07 08:48:46 - Nuovo video rilevato: E:\Lavori Code\VIDEO\2026-05-06 21-58-26.mp4
+2026-05-07 08:48:46 - Avvio trascrizione: 2026-05-06 21-58-26
+2026-05-07 08:50:30 - Trascrizione completata: 2026-05-06 21-58-26
+2026-05-07 08:50:32 - Nuovo video rilevato: E:\Lavori Code\VIDEO\2026-05-06 21-58-26.mp4
+2026-05-07 08:50:32 - Avvio trascrizione: 2026-05-06 21-58-26
+2026-05-07 08:52:02 - Trascrizione completata: 2026-05-06 21-58-26
+2026-05-07 08:53:54 - Nuovo video rilevato: E:\Lavori Code\VIDEO\2026-05-06 21-59-47.mp4
+2026-05-07 08:53:54 - Avvio trascrizione: 2026-05-06 21-59-47
+2026-05-07 09:18:21 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-07 09:18:22 - Pronto. In ascolto...
+2026-05-07 09:20:34 - Nuovo video: E:\Lavori Code\VIDEO\2026-05-06 21-59-47.mp4
+2026-05-07 09:37:04 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-07 09:37:05 - Pronto. In ascolto...
+2026-05-07 09:41:32 - Nuovo video: E:\Lavori Code\VIDEO\2026-05-06 21-59-47.mp4
+2026-05-07 09:59:26 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-07 09:59:28 - Nuovo video rilevato: 2026-05-06 18-04-48.mp4
+2026-05-07 09:59:28 - Avvio Whisper...
+2026-05-07 10:12:39 - Trascrizione completata: 2026-05-06 18-04-48.mp4
+2026-05-07 10:23:30 - Rinomina saltata
+2026-05-07 10:23:32 - Nuovo video rilevato: 2026-05-06 21-58-26.mp4
+2026-05-07 10:23:32 - Avvio Whisper...
+2026-05-07 10:23:52 - Trascrizione completata: 2026-05-06 21-58-26.mp4
+2026-05-07 10:24:18 - Rinominato in: 2026-05-07_VIDEO CORSO CONOSCI CLAUDE CODE_Lezione-1
+2026-05-07 10:24:20 - Nuovo video rilevato: 2026-05-06 21-59-47.mp4
+2026-05-07 10:24:20 - Avvio Whisper...
+2026-05-07 10:48:46 - Trascrizione completata: 2026-05-06 21-59-47.mp4
+2026-05-07 10:52:21 - Rinomina saltata
+2026-05-07 10:59:22 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-07 10:59:25 - Nuovo video rilevato: 2026-05-06 21-59-47.mp4
+2026-05-07 10:59:25 - Avvio Whisper...
+2026-05-07 11:01:45 - Nuovo video rilevato: 2026-05-06 21-59-47Video corso CONOSCI CLAUDE 01.mp4
+2026-05-07 11:01:45 - Avvio Whisper...
+2026-05-07 11:09:07 - Trascrizione completata: 2026-05-06 21-59-47Video corso CONOSCI CLAUDE 01.mp4
+2026-05-07 11:10:20 - Rinomina saltata
+2026-05-07 11:16:31 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-07 11:23:11 - File non accessibile dopo 60s, salto: 2026-05-07 11-22-10.mp4
+2026-05-07 11:23:11 - File non accessibile dopo 60s, salto: 2026-05-07 11-22-10.mp4
+2026-05-07 11:23:29 - Nuovo video rilevato: 2026-05-07 11-22-10.mp4
+2026-05-07 11:23:29 - Avvio Whisper...
+2026-05-07 11:23:29 - Nuovo video rilevato: 2026-05-07 11-22-10.mp4
+2026-05-07 11:23:29 - Avvio Whisper...
+2026-05-07 11:30:58 - Trascrizione completata: 2026-05-07 11-22-10.mp4
+2026-05-07 11:31:39 - Rinominato in: 2026-05-07_Video Corso Conosci Claude_Lezione-1
+2026-05-07 11:31:51 - Nuovo video rilevato: 2026-05-07 11-29-04.mp4
+2026-05-07 11:31:51 - Avvio Whisper...
+2026-05-07 11:33:50 - Trascrizione completata: 2026-05-07 11-29-04.mp4
+2026-05-07 11:34:35 - Rinomina saltata
+2026-05-07 11:47:26 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-07 11:49:07 - File non accessibile, salto: 2026-05-07 11-48-05.mp4
+2026-05-07 11:49:16 - File non accessibile dopo 60s, salto: 2026-05-07 11-48-05.mp4
+2026-05-07 11:49:25 - Nuovo video rilevato: 2026-05-07 11-48-05.mp4
+2026-05-07 11:49:25 - Avvio Whisper...
+2026-05-07 11:49:28 - Nuovo video rilevato: 2026-05-07 11-48-05.mp4
+2026-05-07 11:49:28 - Avvio Whisper...
+2026-05-07 11:52:56 - Trascrizione completata: 2026-05-07 11-48-05.txt
+2026-05-07 11:56:03 - Trascrizione completata: 2026-05-07 11-48-05.mp4
+2026-05-07 12:15:23 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-07 12:15:25 - Nuovo video rilevato: 2026-05-07 11-48-05.mp4
+2026-05-07 12:15:25 - Avvio Whisper...
+2026-05-07 12:18:02 - Trascrizione completata: 2026-05-07 11-48-05.txt
+2026-05-07 12:20:20 - Rinomina saltata
+2026-05-07 12:22:04 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-07 12:22:06 - Nuovo video rilevato: 2026-05-07 11-48-05.mp4
+2026-05-07 12:22:06 - Avvio Whisper...
+2026-05-07 12:24:52 - Trascrizione completata: 2026-05-07 11-48-05.txt
+2026-05-07 12:26:30 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-07 12:28:23 - Nuovo video rilevato: 2026-05-07 12-27-45.mp4
+2026-05-07 12:28:23 - Avvio Whisper...
+2026-05-07 12:30:04 - Trascrizione completata: 2026-05-07 12-27-45.txt
+2026-05-07 12:31:27 - Nuovo video rilevato: Prova Vodeo 2026-05-07 12-27-45.mp4
+2026-05-07 12:31:27 - Avvio Whisper...
+2026-05-07 12:33:06 - Trascrizione completata: Prova Vodeo 2026-05-07 12-27-45.txt
+2026-05-07 12:34:16 - File non accessibile, salto: 2026-05-07 12-32-21.mp4
+2026-05-07 12:35:27 - File non accessibile, salto: 2026-05-07 12-32-21.mp4
+2026-05-07 12:36:37 - File non accessibile, salto: 2026-05-07 12-32-21.mp4
+2026-05-07 12:37:47 - File non accessibile, salto: 2026-05-07 12-32-21.mp4
+2026-05-07 12:38:58 - File non accessibile, salto: 2026-05-07 12-32-21.mp4
+2026-05-07 12:40:08 - File non accessibile, salto: 2026-05-07 12-32-21.mp4
+2026-05-07 12:41:18 - File non accessibile, salto: 2026-05-07 12-32-21.mp4
+2026-05-07 12:42:28 - File non accessibile, salto: 2026-05-07 12-32-21.mp4
+2026-05-07 12:43:39 - File non accessibile, salto: 2026-05-07 12-32-21.mp4
+2026-05-07 12:44:49 - File non accessibile, salto: 2026-05-07 12-32-21.mp4
+2026-05-07 12:45:55 - Nuovo video rilevato: 2026-05-07 12-32-21.mp4
+2026-05-07 12:45:55 - Avvio Whisper...
+2026-05-07 13:10:09 - Trascrizione completata: 2026-05-07 12-32-21.txt
+2026-05-07 14:28:05 - Nuovo video rilevato: 2026-05-07 14-27-55.mp4
+2026-05-07 14:28:05 - Avvio Whisper...
+2026-05-07 14:28:49 - Trascrizione completata: 2026-05-07 14-27-55.txt
+2026-05-07 14:30:21 - Nuovo video rilevato: Video Conosci Claude 01 2026-05-07 12-32-21.mp4
+2026-05-07 14:30:21 - Avvio Whisper...

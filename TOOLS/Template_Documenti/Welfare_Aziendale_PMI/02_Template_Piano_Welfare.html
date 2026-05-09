@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Template Piano Welfare Aziendale — Oscar Ribichini</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', serif;
+    font-size: 11pt;
+    color: #1a1a2e;
+    background: #fff;
+  }
+
+  .pagina {
+    width: 210mm;
+    margin: 0 auto;
+    padding: 10mm 12mm 10mm 12mm;
+  }
+
+  .intestazione {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 3px solid #c9a96e;
+    padding-bottom: 5mm;
+    margin-bottom: 5mm;
+  }
+
+  .nome-blocco h1 {
+    font-size: 18pt;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: #1a1a2e;
+    text-transform: uppercase;
+  }
+
+  .nome-blocco h2 {
+    font-size: 7.5pt;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #c9a96e;
+    text-transform: uppercase;
+    margin-top: 2px;
+    white-space: nowrap;
+  }
+
+  .contatti-blocco {
+    text-align: right;
+    font-size: 8pt;
+    color: #555;
+    line-height: 1.7;
+  }
+
+  .titolo-doc {
+    text-align: center;
+    margin-bottom: 5mm;
+    padding-bottom: 4mm;
+    border-bottom: 1px solid #e0d5c0;
+  }
+
+  .titolo-doc h3 {
+    font-size: 14pt;
+    font-weight: normal;
+    color: #1a1a2e;
+    letter-spacing: 1px;
+    margin-bottom: 2mm;
+  }
+
+  .titolo-doc .edizione {
+    font-size: 8pt;
+    color: #c9a96e;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .sezione {
+    margin-bottom: 5mm;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .sezione h4 {
+    font-size: 10.5pt;
+    color: #1a1a2e;
+    border-left: 3px solid #c9a96e;
+    padding-left: 3mm;
+    margin-bottom: 3mm;
+    font-weight: bold;
+    background: #fdf8f0;
+    padding: 2mm 3mm;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9.5pt;
+    margin-top: 2mm;
+  }
+
+  th {
+    background: #1a1a2e;
+    color: #c9a96e;
+    padding: 2mm 3mm;
+    text-align: left;
+    font-weight: normal;
+    font-size: 8.5pt;
+    letter-spacing: 0.5px;
+  }
+
+  td {
+    padding: 2mm 3mm;
+    border-bottom: 1px solid #e8e8e8;
+    vertical-align: middle;
+  }
+
+  td.campo {
+    border-bottom: 1px solid #1a1a2e;
+    min-width: 50mm;
+  }
+
+  tr:nth-child(even) td {
+    background: #fafafa;
+  }
+
+  .check-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1mm 5mm;
+    font-size: 10pt;
+    margin-top: 2mm;
+  }
+
+  .check-item {
+    display: flex;
+    align-items: center;
+    gap: 2mm;
+  }
+
+  .check-box {
+    width: 3.5mm;
+    height: 3.5mm;
+    border: 1px solid #1a1a2e;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+
+  .riga-vuota {
+    border-bottom: 1px solid #aaa;
+    min-height: 5mm;
+    margin: 2mm 0;
+  }
+
+  .contatto-finale {
+    margin-top: 5mm;
+    padding: 3mm 5mm;
+    background: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    font-size: 9pt;
+    line-height: 1.8;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .contatto-finale span {
+    color: #c9a96e;
+  }
+
+  .pie-pagina {
+    border-top: 1px solid #c9a96e;
+    margin-top: 5mm;
+    padding-top: 2mm;
+    display: flex;
+    justify-content: space-between;
+    font-size: 7pt;
+    color: #999;
+  }
+
+  @media print {
+    @page { size: A4; margin: 10mm 12mm; }
+    body { background: white; }
+    .pagina { margin: 0; padding: 0; width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="pagina">
+
+  <div class="intestazione">
+    <div class="nome-blocco">
+      <h1>Oscar Ribichini</h1>
+      <h2>Consulente Aziendale &amp; Advisor AI per le PMI</h2>
+    </div>
+    <div class="contatti-blocco">
+      oscar.ribichini@quantumadvisor.it<br>
+      +39 327 611 3167<br>
+      P.IVA 01785850437
+    </div>
+  </div>
+
+  <div class="titolo-doc">
+    <h3>Template — Piano Welfare Aziendale</h3>
+    <div class="edizione">Da compilare a cura dell'imprenditore — Edizione 2026</div>
+  </div>
+
+  <div class="sezione">
+    <h4>1. Dati Azienda</h4>
+    <table>
+      <tr><td>Ragione sociale</td><td class="campo"></td><td>Settore</td><td class="campo"></td></tr>
+      <tr><td>N. dipendenti totali</td><td class="campo"></td><td>CCNL applicato</td><td class="campo"></td></tr>
+      <tr><td>Referente interno</td><td class="campo"></td><td>Data compilazione</td><td class="campo"></td></tr>
+    </table>
+  </div>
+
+  <div class="sezione">
+    <h4>2. Benefit già attivi in azienda</h4>
+    <div class="check-grid">
+      <div class="check-item"><span class="check-box"></span> Buoni pasto</div>
+      <div class="check-item"><span class="check-box"></span> Rimborso trasporti</div>
+      <div class="check-item"><span class="check-box"></span> Polizza sanitaria integrativa</div>
+      <div class="check-item"><span class="check-box"></span> Fondo pensione complementare</div>
+      <div class="check-item"><span class="check-box"></span> Piattaforma welfare</div>
+      <div class="check-item"><span class="check-box"></span> Formazione professionale</div>
+      <div class="check-item"><span class="check-box"></span> Smart working / flessibilità</div>
+      <div class="check-item"><span class="check-box"></span> Supporto psicologico</div>
+      <div class="check-item"><span class="check-box"></span> Rimborso asilo nido</div>
+      <div class="check-item"><span class="check-box"></span> Altro: _______________</div>
+    </div>
+  </div>
+
+  <div class="sezione">
+    <h4>3. Obiettivi del Piano Welfare</h4>
+    <div class="check-grid">
+      <div class="check-item"><span class="check-box"></span> Ridurre il costo del lavoro</div>
+      <div class="check-item"><span class="check-box"></span> Fidelizzare i dipendenti</div>
+      <div class="check-item"><span class="check-box"></span> Attrarre nuovi talenti</div>
+      <div class="check-item"><span class="check-box"></span> Migliorare il clima aziendale</div>
+      <div class="check-item"><span class="check-box"></span> Adeguarmi alle novità 2026</div>
+      <div class="check-item"><span class="check-box"></span> Aumentare la produttività</div>
+    </div>
+    <div style="margin-top:3mm; font-size:9.5pt;">
+      Budget disponibile: € _____________ annui &nbsp;&nbsp;|&nbsp;&nbsp; Per dipendente: € _____________ annui
+    </div>
+  </div>
+
+  <div class="sezione">
+    <h4>4. Composizione del Personale per Fascia d'Età</h4>
+    <table>
+      <tr><th>Fascia d'età</th><th>N. dipendenti</th><th>% sul totale</th><th>Benefit consigliati</th></tr>
+      <tr><td>Under 30 (Gen Z)</td><td class="campo"></td><td class="campo"></td><td>Flexible benefit, supporto psicologico</td></tr>
+      <tr><td>30–40 (Millennials)</td><td class="campo"></td><td class="campo"></td><td>Flessibilità, formazione</td></tr>
+      <tr><td>40–55 (Gen X)</td><td class="campo"></td><td class="campo"></td><td>Sanità, formazione</td></tr>
+      <tr><td>Over 55 (Baby Boomer)</td><td class="campo"></td><td class="campo"></td><td>Previdenza, sanità</td></tr>
+    </table>
+  </div>
+
+  <div class="sezione">
+    <h4>5. Piano Benefit Scelti</h4>
+    <table>
+      <tr><th>Benefit</th><th>Attivare?</th><th>Budget annuo</th><th>Priorità</th></tr>
+      <tr><td>Sanità integrativa</td><td>Sì / No</td><td>€</td><td></td></tr>
+      <tr><td>Previdenza complementare</td><td>Sì / No</td><td>€</td><td></td></tr>
+      <tr><td>Flexible benefit</td><td>Sì / No</td><td>€</td><td></td></tr>
+      <tr><td>Formazione professionale</td><td>Sì / No</td><td>€</td><td></td></tr>
+      <tr><td>Smart working / flessibilità</td><td>Sì / No</td><td>€</td><td></td></tr>
+      <tr><td>Supporto psicologico</td><td>Sì / No</td><td>€</td><td></td></tr>
+      <tr><td>Premi di produttività</td><td>Sì / No</td><td>€</td><td></td></tr>
+    </table>
+    <div style="margin-top:3mm; font-size:9.5pt;">
+      <strong>Budget totale piano: € _____________</strong> &nbsp;&nbsp;|&nbsp;&nbsp; Risparmio contributivo stimato (30%): € _____________
+    </div>
+  </div>
+
+  <div class="sezione">
+    <h4>6. Scadenze e Adempimenti 2026</h4>
+    <table>
+      <tr><th>Adempimento</th><th>Scadenza</th><th>Fatto</th></tr>
+      <tr><td>Verifica adesione previdenza complementare nuovi assunti</td><td>1° luglio 2026</td><td><span class="check-box"></span></td></tr>
+      <tr><td>Aggiornamento regolamento aziendale</td><td>Da definire</td><td><span class="check-box"></span></td></tr>
+      <tr><td>Comunicazione ai dipendenti del nuovo piano</td><td>Da definire</td><td><span class="check-box"></span></td></tr>
+      <tr><td>Verifica CCNL per benefit obbligatori</td><td>Immediato</td><td><span class="check-box"></span></td></tr>
+    </table>
+  </div>
+
+  <div class="sezione">
+    <h4>7. Note e Prossimi Passi</h4>
+    <div class="riga-vuota"></div>
+    <div class="riga-vuota"></div>
+    <div class="riga-vuota"></div>
+    <div style="margin-top:3mm; font-size:9pt; color:#555;">
+      Compilato da: _________________________ &nbsp;&nbsp; Data: _____________
+    </div>
+  </div>
+
+  <div class="contatto-finale">
+    Hai bisogno di supporto per costruire il piano welfare della tua azienda?<br>
+    <span>Oscar Ribichini — oscar.ribichini@quantumadvisor.it — +39 327 611 3167</span>
+  </div>
+
+  <div class="pie-pagina">
+    <span>Oscar Ribichini — P.IVA 01785850437 — Mandatario Quantum S.r.l.</span>
+    <span>Documento aggiornato a maggio 2026</span>
+  </div>
+
+</div>
+</body>
+</html>
