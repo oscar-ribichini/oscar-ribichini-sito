@@ -80,6 +80,45 @@ Obiettivo specifico AI: padroneggiare l'AI usandola ogni giorno sul lavoro reale
 
 ## Strumenti operativi costruiti
 
+### Strumenti di Analisi per Oscar
+
+Elenco completo di siti e tool per ricerche di mercato sui prodotti digitali.
+Nota: Claude non può accedere a nessuno di questi strumenti direttamente — sono per Oscar.
+File: TOOLS\Strumenti_Analisi_Per_Te\2026-05-10_Strumenti_Ricerca_Mercato.md
+
+Categorie coperte: analisi competitor, spy ads, marketplace digitali, keyword research, Amazon, social media analytics, strumenti italiani.
+Stack gratuito prioritario: Facebook Ad Library, Gumroad Discover, Etsy, Google Trends, Google Keyword Planner, Pinterest Trends, TikTok Creative Center.
+
+### Procedura Standard Ricerca Prodotto
+
+Procedura da seguire prima di creare qualsiasi prodotto digitale.
+File: TOOLS\Strumenti_Analisi_Per_Te\2026-05-10_Procedura_Ricerca_Prodotto.md
+
+Struttura: tronco comune (5 domande valide per tutti i prodotti) + rami specifici per tipo:
+- Ramo A: Template / Checklist / Kit
+- Ramo B: Corso Online
+- Ramo C: Prompt Pack
+
+Al termine di ogni ricerca compilare la scheda di valutazione finale e salvarla in TOOLS\Ricerche_Mercato\AAAA-MM-GG_Ricerca_[NomeProdotto].md
+Regola: mai iniziare a creare un prodotto senza aver completato questa procedura.
+
+### Archivio Ads e Contenuti Social
+
+Oscar porta screenshot dal feed Facebook (e altri social) ogni giorno.
+Claude analizza e registra tutto in: TOOLS\Archivio_Ads_Social\REGISTRO_OSSERVAZIONI.md
+
+Scopo: costruire nel tempo un archivio di riferimento su angoli vincenti, formati visivi, prezzi osservati, competitor attivi italiani e internazionali. Da usare quando si creano i nostri contenuti e ads.
+
+### Sistema dei Codici — metodo originale Oscar (10/05/2026)
+
+Oscar ha elaborato un sistema originale per classificare la realtà attraverso "codici" (valori, contesti, fonti).
+Documento completo: OBIETTIVI\2026-05-10_Idee_Notte_Oscar.md
+
+Principi: la fonte è tutto — analisi per maggioranza — cercare sempre cosa manca o cosa non viene detto.
+Applicazioni: account social satira/filosofia, test di personalità, personalità artificiali, metodo come prodotto.
+Nuovi progetti identificati: sondaggio scolastico, curriculum come libro, vizi di forma, domotica semplice, tarocchi, scuola sessuale.
+Regola operativa: chiedersi sempre cosa manca — di serio, di utile, di scherzoso, di satirico.
+
 ### Report Analisi Mercato
 
 Generato su richiesta con "dammi il report di oggi". 12 sezioni con fonti fisse:
@@ -160,6 +199,14 @@ Analisi completa: TOOLS\Ricerche_Mercato\2026-05-09_Analisi_Concorrenza_Prodotti
 - Formazione AI per PMI: mercato 760M€, solo 18% PMI ha adottato AI
 - Bando MIMIT 2026: 50M€ per formazione digitale PMI
 - Cliente ideale: imprenditore 50-65 anni, PMI 10-50 dipendenti, Marche
+
+### Strategia espansione mercato spagnolo (decisa il 10/05/2026)
+
+Dopo aver validato un prodotto in italiano, tradurlo in spagnolo è la mossa successiva naturale.
+- Spagna: nessun marketplace locale dominante, concorrenza quasi zero
+- Spagnolo: 500 milioni di parlanti nativi (Spagna + America Latina)
+- Costo marginale basso: il prodotto è già creato, serve solo la traduzione
+- Sequenza: Italia prima → validare che vende → tradurre in spagnolo → lanciare
 
 ## Priorità attuale
 
@@ -265,6 +312,14 @@ La data all'inizio ordina i file automaticamente per data, la categoria li raggr
 - Preferire file .md per note, registri e documentazione testuale
 - Quando si lavora su un cliente, verificare sempre se esiste già una cartella in _CLIENTI\
 - Questo file va perfezionato nel tempo man mano che l'attività cresce
+
+## Regola fonti non verificate
+
+Ogni volta che un dato numerico preciso o un'affermazione fattuale proviene da AI Overview di Google, sintesi automatiche di AI, o fonti non primarie, segnalarlo esplicitamente PRIMA di usarlo.
+
+Formula: "questo dato viene da [fonte non verificata], non è una fonte primaria — controlla direttamente su [piattaforma originale]."
+
+Fonti di rango basso da segnalare sempre: AI Overview Google, sintesi automatiche AI, titoli senza link verificabile, dati senza fonte citata. Non ignorarle — leggerle, ma etichettarle chiaramente.
 
 ## Cosa si aggiorna automaticamente
 

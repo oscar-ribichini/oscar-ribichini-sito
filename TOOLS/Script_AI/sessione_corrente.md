@@ -1,48 +1,86 @@
 # Sessione corrente — punto di ripresa
 
-Aggiornato il 09/05/2026 (fine sessione)
+Aggiornato il 11/05/2026 (fine sessione 10/05)
 
-## Cosa abbiamo fatto oggi
+## Cosa abbiamo fatto il 10/05/2026
 
-Sessione fondamentale. Due grandi risultati:
+Sessione ricchissima. Tre grandi risultati:
 
-### 1. Metodo di lavoro risolto
+### 1. Sistema dei Codici — elaborato e documentato
 
-- Claude ora ha regole di precisione permanenti (7 regole)
-- 3 hook automatici configurati (SessionStart, Stop, PostToolUse)
-- Due guide comandi create (completa + clienti) che si aggiornano automaticamente
-- Il punto di ripresa viene salvato automaticamente a fine sessione
+Oscar ha strutturato il suo metodo originale di analisi della realtà.
+Documento completo: OBIETTIVI\2026-05-10_Idee_Notte_Oscar.md
 
-### 2. Metodo prodotti digitali definito
+Comprende:
+- Elenco completo dei codici (primari, legali, sociali, emotivi, binari, creativi)
+- 7 contesti principali
+- 6 passi operativi del metodo
+- Analisi competitiva (campo libero in Italia)
+- Psicologia del comportamento (bias di conferma, paura di inganni, identità tribale)
+- Sociologia della diffusione (4 tribù italiane: disillusi, giovani critici, professionisti, satirici)
+- Economia in 5 livelli (prodotti digitali → pubblicità → consulenza → community → licensing)
+- Mappatura MBTI + Enneagramma + filosofia sui codici
+- **Nome scelto: Codice Reale — handle @codicereale**
 
-- Filo logico in 6 passi definito e salvato
-- Prima ricerca di mercato completata
-- Analisi concorrenza completata su 5 prodotti candidati
-- Classifica finale definita
+### 2. Pagina Facebook Codice Reale — creata e live
 
-## Classifica prodotti (da ricontrollare settembre 2026)
+- Pagina aperta e attiva
+- Identità visiva: nero #1a1a1a, bianco, oro #C9A96E, font Montserrat Bold
+- Logo CR creato su Canva
+- Prima copertina pubblicata
+- Primo post pubblicato
+- Follower: 0 — pagina appena nata
 
-1. Template Welfare PMI — PRIORITARIO
-2. Mini Corso AI per Consulenti — OBIETTIVO MEDIO TERMINE
-3. Prompt Pack Settoriale Consulenti — DA FARE
-4. Checklist Bandi PMI — COMPLEMENTARE
-5. Prompt Pack Generico — SCARTATO
+Strategia salvata in memoria: project_codice_reale_facebook.md
 
-## Prossimo passo concreto
+### 3. Template grafico Canva — in lavorazione
 
-Passo 4 del metodo — costruire la presenza su tutti i canali prima di vendere:
+Oscar sta imparando Canva lavorando direttamente sul progetto.
+Ultima cosa fatta: copertina Facebook con logo e testo.
+Suggerimento dato ma non ancora eseguito: aggiungere corona bianca sulla E finale di REALE anche nella copertina (come già fatto nel template post).
 
-- LinkedIn: completare il profilo (già a metà)
-- Instagram: creare account professionale
-- TikTok: creare account professionale
-- Facebook: impostare in chiave professionale
-- Gumroad: aprire lo store digitale
-- Sito web: in attesa di dominio
+La sessione si è bloccata su un errore "Request too large (max 32MB)" mentre si caricavano screenshot di Canva.
 
-## File importanti di questa sessione
+---
 
-- TOOLS\Ricerche_Mercato\2026-05-09_Ricerca_Prodotti-Digitali-AI.md
-- TOOLS\Ricerche_Mercato\2026-05-09_Ricerca_Servizi-Quantum.md
-- TOOLS\Ricerche_Mercato\2026-05-09_Analisi_Concorrenza_Prodotti-Digitali.md
-- TOOLS\Script_AI\2026-05-09_Guida_Comandi-Claude.md
-- TOOLS\Script_AI\2026-05-09_Guida_Comandi-Claude_CLIENTI.md
+## Da fare — prossima sessione
+
+### Completamento pagina Facebook (urgente)
+- Aggiungere corona bianca sulla E di REALE nella copertina
+- Aggiungere URL personalizzato: facebook.com/codicereale
+- Impostare pulsante call-to-action (Segui / Invia messaggio)
+- Creare la sezione "In evidenza" con il post di presentazione
+- Collegare a Instagram quando viene creato
+
+### Ricorrenze immediate
+- ~~10 maggio: Festa della Mamma~~ — già passata ieri
+- 15 maggio: Giornata Mondiale della Famiglia
+- 17 maggio: Giornata contro l'Omofobia
+
+### Ritmo di pubblicazione da avviare
+3 post al giorno: mattina (9-10), pomeriggio (13-14), sera (20-21)
+Mix: 1 grafico + 1 testo + 1 domanda o ricorrenza
+
+### Da fare ancora (metodo prodotti digitali)
+- Passo 4 ancora in corso: Instagram e TikTok @codicereale da aprire
+- Gumroad store da aprire
+
+---
+
+## File importanti di questa sessione (10/05)
+
+- OBIETTIVI\2026-05-10_Idee_Notte_Oscar.md — Sistema dei Codici completo
+- TOOLS\Script_AI\2026-05-10_18_Lenti_Di_Analisi.md — strumento 18 lenti
+- TOOLS\Strumenti_Analisi_Per_Te\2026-05-10_Procedura_Ricerca_Prodotto.md
+- TOOLS\Strumenti_Analisi_Per_Te\2026-05-10_Strumenti_Ricerca_Mercato.md
+- Memoria: project_codice_reale_facebook.md
+
+---
+
+## Stato avanzamento metodo prodotti digitali (aggiornato 10/05)
+
+- Passo 1: ricerca mercato completata ✓
+- Passo 2: analisi economica completata ✓
+- Passo 3: selezione fatta ✓
+- Passo 4: LinkedIn a metà, Instagram/TikTok/Facebook Codice Reale aperto, Gumroad da fare
+- Passi 5 e 6: da fare
