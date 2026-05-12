@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Quaderno Valutazione Prodotti AI — AI WEEK Milano 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #fff;
+    font-family: 'Georgia', serif;
+    font-size: 9pt;
+    color: #111;
+  }
+
+  @media print {
+    body { background: #fff; }
+    .scheda { page-break-after: always; }
+    .scheda:last-child { page-break-after: avoid; }
+  }
+
+  .scheda {
+    width: 190mm;
+    margin: 0 auto;
+    padding: 12mm 14mm 10mm 14mm;
+    min-height: 277mm;
+  }
+
+  .titolo {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-family: Georgia, serif;
+  }
+
+  .sottotitolo {
+    font-size: 8pt;
+    color: #555;
+    margin-bottom: 10px;
+    border-bottom: 1.5px solid #111;
+    padding-bottom: 6px;
+  }
+
+  .campo-label {
+    font-size: 7pt;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    margin-top: 8px;
+  }
+
+  .campo-riga {
+    border-bottom: 1px solid #aaa;
+    height: 18px;
+    width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .campo-riga-alta {
+    border-bottom: 1px solid #aaa;
+    height: 28px;
+    width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .due-colonne {
+    display: flex;
+    gap: 16px;
+  }
+
+  .due-colonne .col {
+    flex: 1;
+  }
+
+  .tre-colonne {
+    display: flex;
+    gap: 12px;
+  }
+
+  .tre-colonne .col {
+    flex: 1;
+  }
+
+  .sezione-header {
+    background: #111;
+    color: #fff;
+    font-size: 7.5pt;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+  }
+
+  .cerchi {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 6px;
+  }
+
+  .cerchio {
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid #111;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .campo-finale {
+    border: 1px solid #aaa;
+    height: 38px;
+    width: 100%;
+    margin-top: 4px;
+  }
+
+  .utilita-label {
+    font-size: 7pt;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 6px;
+  }
+
+  .separatore {
+    border: none;
+    border-top: 1.5px dashed #ccc;
+    margin: 14px 0 0 0;
+  }
+</style>
+</head>
+<body>
+
+<!-- Genera 30 schede -->
+<script>
+  const totale = 30;
+  for (let i = 1; i <= totale; i++) {
+    document.write(`
+    <div class="scheda">
+      <div class="titolo">Scheda Valutazione Prodotto AI</div>
+      <div class="sottotitolo">AI WEEK Milano &mdash; 19&ndash;20 maggio 2026 &nbsp;|&nbsp; Scheda ${i} di ${totale}</div>
+
+      <div class="campo-label">Nome Prodotto</div>
+      <div class="campo-riga"></div>
+
+      <div class="due-colonne">
+        <div class="col">
+          <div class="campo-label">Azienda</div>
+          <div class="campo-riga"></div>
+        </div>
+        <div class="col">
+          <div class="campo-label">Stand / Contatto</div>
+          <div class="campo-riga"></div>
+        </div>
+      </div>
+
+      <div class="campo-label">Sito Web</div>
+      <div class="campo-riga"></div>
+
+      <div class="sezione-header">1. Cosa Fa</div>
+      <div class="campo-riga-alta"></div>
+
+      <div class="sezione-header">2. A Chi Serve &nbsp;&nbsp;&nbsp; 3. Utilità &amp; Semplicità</div>
+
+      <div class="due-colonne">
+        <div class="col">
+          <div class="campo-label">Settore / Target</div>
+          <div class="campo-riga"></div>
+        </div>
+        <div class="col">
+          <div class="campo-label">Dimensione Minima</div>
+          <div class="campo-riga"></div>
+        </div>
+      </div>
+
+      <div class="due-colonne" style="margin-top:4px;">
+        <div class="col">
+          <div class="utilita-label">Utilità</div>
+          <div class="cerchi">
+            <span class="cerchio"></span>
+            <span class="cerchio"></span>
+            <span class="cerchio"></span>
+            <span class="cerchio"></span>
+            <span class="cerchio"></span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="campo-label">Usabile Senza Tecnici?</div>
+          <div class="campo-riga"></div>
+        </div>
+      </div>
+
+      <div class="sezione-header">4. Modello di Business per Me</div>
+
+      <div class="tre-colonne">
+        <div class="col">
+          <div class="campo-label">Fee Ricorrente?</div>
+          <div class="campo-riga"></div>
+        </div>
+        <div class="col">
+          <div class="campo-label">Commissione %</div>
+          <div class="campo-riga"></div>
+        </div>
+        <div class="col">
+          <div class="campo-label">Programma Partner?</div>
+          <div class="campo-riga"></div>
+        </div>
+      </div>
+
+      <div class="due-colonne">
+        <div class="col">
+          <div class="campo-label">Prezzo Cliente Finale</div>
+          <div class="campo-riga"></div>
+        </div>
+        <div class="col">
+          <div class="campo-label">Mio Guadagno Stimato</div>
+          <div class="campo-riga"></div>
+        </div>
+      </div>
+
+      <div class="sezione-header">5. Solidità &amp; Impressione Finale</div>
+      <div class="campo-finale"></div>
+
+      <hr class="separatore">
+    </div>
+    `);
+  }
+</script>
+
+</body>
+</html>

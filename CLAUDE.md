@@ -175,21 +175,35 @@ I 6 passi da seguire sempre in ordine:
 Regola: non proporre mai di creare un prodotto senza aver completato i passi 1 e 2.
 Dettaglio completo: vedi memoria project_metodo_prodotti_digitali.md
 
-### Stato avanzamento (09/05/2026)
+### Stato avanzamento (aggiornato 11/05/2026)
 
 - Passo 1: ricerca mercato + analisi concorrenza completata (TOOLS\Ricerche_Mercato\)
 - Passo 2: analisi economica completata
-- Passo 3: selezione fatta — vedi classifica sotto
-- Passo 4: LinkedIn a metà, Instagram/TikTok/Facebook da creare, sito pronto ma offline
-- Passi 5 e 6: da fare
+- Passo 3: selezione fatta — vedi classifica sotto. Nota: strumento di ricerca da perfezionare
+- Passo 4: LinkedIn quasi completo, Facebook Codice Reale live, Instagram @codicereale APERTO. TikTok sospeso per ora.
+- Passi 5 e 6: da fare — PRIORITARI
 
 ### Classifica prodotti (09/05/2026 — ricontrollare settembre 2026)
 
-1. Template Welfare PMI — PRIORITARIO (già quasi pronto, concorrenza zero, 500–1.500€/mese)
-2. Mini Corso AI per Consulenti — OBIETTIVO MEDIO TERMINE (unico in Italia, 1.000–3.000€/mese)
-3. Prompt Pack Settoriale Consulenti — DA FARE (veloce, 300–800€/mese)
-4. Checklist Bandi PMI — COMPLEMENTARE (buono in bundle)
-5. Prompt Pack Generico — SCARTATO (mercato saturo)
+1. Template Welfare PMI — PRIORITARIO (va perfezionato con documentazione Quantum, 500–1.500€/mese)
+2. Mini Corso AI per Consulenti — DA FARE, non ancora creato (unico in Italia, 1.000–3.000€/mese)
+3. Prompt Pack Settoriale Consulenti — DA RIVEDERE E PERFEZIONARE (300–800€/mese)
+4. Checklist Bandi PMI — DA FARE PER ULTIMO (buono in bundle)
+5. Prompt Pack Generico — SCARTATO (mercato saturo) — Oscar vuole capire cos'è: da spiegare
+
+### Nuovi prodotti digitali dal Sistema dei Codici (da OBIETTIVI\2026-05-10_Idee_Notte_Oscar.md)
+
+Da sviluppare dopo i prodotti principali:
+- Sondaggio scolastico — cosa non va nella scuola, gap enorme di contenuto serio
+- Curriculum come libro con foto — nessun competitor diretto
+- Il libro della tua vita — 50 domande per raccontare la propria storia
+- Vizi di forma in vari settori — nicchia remunerativa poco esplorata
+- Personalità artificiali — prompt pack personalizzati per ogni tipo di personalità
+- Guida domotica semplice — mercato in crescita, istruzioni mancanti
+- Libro sui tarocchi — nicchia fedele
+- Guida sul tema della simpatia
+
+Regola: prima di sviluppare qualunque prodotto, completare la ricerca di mercato su "metodi e modalità già in vendita".
 
 Analisi completa: TOOLS\Ricerche_Mercato\2026-05-09_Analisi_Concorrenza_Prodotti-Digitali.md
 
