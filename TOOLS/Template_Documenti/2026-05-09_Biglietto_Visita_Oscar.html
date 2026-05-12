@@ -2,8 +2,8 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css2?family=Georgia&family=Playfair+Display:wght@400;700&family=Cormorant+Garamond:wght@400;600&family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
-<title>Biglietto da Visita — Oscar Ribichini — 3 Versioni</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<title>Biglietto da Visita — Oscar Ribichini</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -13,17 +13,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
   }
-
-  h2 {
-    color: #444;
-    font-size: 11pt;
-    margin-bottom: 4px;
-    font-family: sans-serif;
-  }
-
-  .gruppo { display: flex; flex-direction: column; align-items: center; gap: 6px; }
 
   .biglietto {
     width: 85mm;
@@ -31,6 +22,7 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    font-family: 'Playfair Display', serif;
     box-shadow: 0 3px 16px rgba(0,0,0,0.25), 0 0 18px rgba(201,168,76,0.45), 0 0 4px rgba(201,168,76,0.3);
     border: 1px solid rgba(201,168,76,0.5);
   }
@@ -79,7 +71,6 @@
     align-items: center;
     gap: 1mm;
     flex-shrink: 0;
-    margin-left: 3mm;
   }
 
   .qr-box img {
@@ -96,32 +87,41 @@
     text-align: center;
   }
 
+  .qr-group {
+    display: flex;
+    flex-direction: row;
+    gap: 2mm;
+    margin-left: 3mm;
+    flex-shrink: 0;
+  }
+
   .bottom {
     background: #f9f5ec;
-    flex: 1;
     padding: 2.5mm 5mm;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top: 2px solid #c9a84c;
+    min-height: 18mm;
   }
 
   .col-sx {
     display: flex;
     flex-direction: column;
-    gap: 3mm;
+    gap: 1mm;
   }
 
-  .col-sx span {
-    font-size: 7pt;
+  .telefono {
+    font-size: 9pt;
+    font-weight: bold;
     color: #1a1a2e;
-    line-height: 1.4;
+    letter-spacing: 0.3px;
     white-space: nowrap;
   }
 
-  .col-sx span strong {
+  .telefono .cornetta {
     color: #c9a84c;
-    font-weight: bold;
+    font-size: 9pt;
   }
 
   .col-dx {
@@ -142,67 +142,53 @@
     font-weight: bold;
   }
 
-  .email {
-    color: #1a6ca8 !important;
+  .email { color: #1a6ca8 !important; }
+
+  /* RETRO */
+  .retro {
+    width: 85mm;
+    height: 55mm;
+    background: #1a1a2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7mm 8mm;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.25), 0 0 18px rgba(201,168,76,0.45);
+    border: 1px solid rgba(201,168,76,0.5);
+    position: relative;
+    overflow: hidden;
   }
 
-  /* FONT versione 1 — Georgia classica */
-  .v1 { font-family: 'Georgia', serif; }
-  .v1 .top-sinistra h1 { font-family: 'Georgia', serif; }
+  .retro p {
+    font-size: 7.5pt;
+    color: #e0e0e0;
+    line-height: 1.7;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+  }
 
-  /* FONT versione 2 — Playfair Display elegante */
-  .v2 { font-family: 'Playfair Display', serif; }
-  .v2 .top-sinistra h1 { font-family: 'Playfair Display', serif; }
+  .retro .accento { color: #c9a84c; font-style: normal; font-weight: bold; }
 
-  /* FONT versione 3 — Cormorant Garamond raffinato */
-  .v3 { font-family: 'Cormorant Garamond', serif; }
-  .v3 .top-sinistra h1 { font-family: 'Cormorant Garamond', serif; font-size: 15pt; }
+  .retro .linea {
+    width: 12mm;
+    height: 2px;
+    background: #c9a84c;
+    margin-bottom: 4mm;
+  }
 
   @media print {
     @page { size: A4; margin: 10mm; }
     body { background: white; padding: 0; }
-    h2 { display: none; }
-    .gruppo { page-break-inside: avoid; }
+    .biglietto, .retro { page-break-inside: avoid; }
   }
 </style>
 </head>
 <body>
 
-<!-- VERSIONE 1 — Georgia -->
-<div class="gruppo">
-<h2>Versione 1 — Georgia (classica)</h2>
-<div class="biglietto v1">
-  <div class="top">
-    <div class="top-sinistra">
-      <h1>Oscar Ribichini</h1>
-      <p>Consulente Aziendale<br>&amp; Advisor AI per le PMI</p>
-      <div class="logo-quantum">
-        <img src="../../QUANTUM/Marketing/Materiale_Grafico/logo quantum logo.png">
-        <img src="../../QUANTUM/Marketing/Materiale_Grafico/logo quantum scritta.png">
-      </div>
-    </div>
-    <div class="qr-box">
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.linkedin.com/in/oscar-ribichini-6307341a" alt="QR LinkedIn">
-      <span>LinkedIn</span>
-    </div>
-  </div>
-  <div class="bottom">
-    <div class="col-sx">
-      <span><strong>Tel</strong> &nbsp;+39 327 611 3167</span>
-      <span><strong>P.IVA</strong> &nbsp;01785850437</span>
-    </div>
-    <div class="col-dx">
-      <span><strong>Sede</strong> Via Fontanella 20, Civitanova Marche<br><span class="email">globalarea@gmail.com</span></span>
-      <span><strong>Quantum</strong> Via Castelfondo 13, Roma<br><span class="email">oscar.ribichini@quantumadvisor.it</span></span>
-    </div>
-  </div>
-</div>
-</div>
+<!-- FRONTE —  1 QR sito davanti, frase + QR LinkedIn dietro -->
 
-<!-- VERSIONE 2 — Playfair Display — DEFINITIVA -->
-<div class="gruppo">
-<h2>Versione definitiva — Playfair Display</h2>
-<div class="biglietto v2">
+<!-- FRONTE C -->
+<div class="biglietto">
   <div class="top">
     <div class="top-sinistra">
       <h1>Oscar Ribichini</h1>
@@ -213,14 +199,13 @@
       </div>
     </div>
     <div class="qr-box">
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://oscar.it" alt="QR Sito">
-      <span>oscar.it</span>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://oscar-ribichini.it" alt="QR Sito">
+      <span>Sito web</span>
     </div>
   </div>
   <div class="bottom">
     <div class="col-sx">
-      <span><strong>Tel:</strong> &nbsp;<span style="font-size:7.5pt; font-weight:bold; color:#1a1a2e;">+39 327 611 3167</span></span>
-      <span><strong>P.IVA:</strong> &nbsp;01785850437</span>
+      <span class="telefono"><span class="cornetta">&#9990;</span> +39 327 611 3167</span>
     </div>
     <div class="col-dx">
       <span><strong>Sede:</strong> Via Fontanella 20, Civitanova Marche<br><span class="email">globalarea@gmail.com</span></span>
@@ -229,10 +214,9 @@
   </div>
 </div>
 
-<!-- RETRO versione 2 -->
-<div class="retro v2" style="width:85mm; height:55mm; background:#1a1a2e; display:flex; flex-direction:column; justify-content:center; padding:7mm 8mm; box-shadow:0 3px 16px rgba(0,0,0,0.25), 0 0 18px rgba(201,168,76,0.45); border:1px solid rgba(201,168,76,0.5); position:relative; overflow:hidden; margin-top:6px;">
-  <!-- Elemento geometrico circuitale -->
-  <svg style="position:absolute; right:4mm; top:50%; transform:translateY(-50%); opacity:0.12;" width="40" height="40" viewBox="0 0 40 40">
+<!-- RETRO C — frase + QR LinkedIn -->
+<div class="retro">
+  <svg style="position:absolute; right:4mm; top:50%; transform:translateY(-50%); opacity:0.08;" width="40" height="40" viewBox="0 0 40 40">
     <circle cx="20" cy="20" r="18" stroke="#c9a84c" stroke-width="1" fill="none"/>
     <circle cx="20" cy="20" r="12" stroke="#c9a84c" stroke-width="0.8" fill="none"/>
     <circle cx="20" cy="20" r="4" fill="#c9a84c"/>
@@ -241,40 +225,16 @@
     <line x1="2" y1="20" x2="8" y2="20" stroke="#c9a84c" stroke-width="1"/>
     <line x1="32" y1="20" x2="38" y2="20" stroke="#c9a84c" stroke-width="1"/>
   </svg>
-  <div style="width:12mm; height:2px; background:#c9a84c; margin-bottom:4mm;"></div>
-  <p style="font-size:7.5pt; color:#e0e0e0; line-height:1.7; font-style:italic; font-family:'Playfair Display', serif;">Lavoro con le PMI italiane per portare l'intelligenza artificiale dentro i processi aziendali reali. Cerco strumenti che funzionano davvero, che un imprenditore riesce a usare <em style="color:#c9a84c; font-style:normal; font-weight:bold;">domani mattina.</em></p>
-</div>
-</div>
-
-<!-- VERSIONE 3 — Cormorant Garamond -->
-<div class="gruppo">
-<h2>Versione 3 — Cormorant Garamond (raffinato)</h2>
-<div class="biglietto v3">
-  <div class="top">
-    <div class="top-sinistra">
-      <h1>Oscar Ribichini</h1>
-      <p>Consulente Aziendale<br>&amp; Advisor AI per le PMI</p>
-      <div class="logo-quantum">
-        <img src="../../QUANTUM/Marketing/Materiale_Grafico/logo quantum logo.png">
-        <img src="../../QUANTUM/Marketing/Materiale_Grafico/logo quantum scritta.png">
-      </div>
+  <div style="display:flex; align-items:center; justify-content:space-between; height:100%;">
+    <div style="flex:1; padding-right:5mm;">
+      <div class="linea"></div>
+      <p>Consulenza aziendale, finanziaria e innovazione AI per le PMI italiane. Non teorie — soluzioni che un imprenditore riesce ad applicare <span class="accento">da subito.</span></p>
     </div>
     <div class="qr-box">
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.linkedin.com/in/oscar-ribichini-6307341a" alt="QR LinkedIn">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.linkedin.com/in/oscar-ribichini-6307341a/" alt="QR LinkedIn">
       <span>LinkedIn</span>
     </div>
   </div>
-  <div class="bottom">
-    <div class="col-sx">
-      <span><strong>Tel</strong> &nbsp;+39 327 611 3167</span>
-      <span><strong>P.IVA</strong> &nbsp;01785850437</span>
-    </div>
-    <div class="col-dx">
-      <span><strong>Sede</strong> Via Fontanella 20, Civitanova Marche<br><span class="email">globalarea@gmail.com</span></span>
-      <span><strong>Quantum</strong> Via Castelfondo 13, Roma<br><span class="email">oscar.ribichini@quantumadvisor.it</span></span>
-    </div>
-  </div>
-</div>
 </div>
 
 </body>

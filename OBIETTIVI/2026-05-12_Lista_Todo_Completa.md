@@ -16,7 +16,7 @@ Aggiornata al 12/05/2026. Fonte: Oscar Ribichini — lista ufficiale.
 
 ## BLOCCO 2 — Da fare subito — Social media
 
-- [ ] Facebook Codice Reale — post in evidenza (da controllare se è già fatto)
+- [x] Facebook Codice Reale — post in evidenza — FATTO 13/05/2026
 - [x] Instagram @codicereale — collegato a Meta Business Suite — FATTO 12/05/2026
 - [x] Instagram @codicereale — impostato completamente (bio, foto, link) — FATTO 12/05/2026
 - [ ] LinkedIn — foto di copertina (con Canva)
@@ -37,8 +37,9 @@ Aggiornata al 12/05/2026. Fonte: Oscar Ribichini — lista ufficiale.
 
 ## BLOCCO 4 — Sito web Oscar (bloccato da dominio)
 
-- [ ] Registrare dominio oscar.it
-- [ ] Attivare hosting
+- [x] Registrare dominio oscar-ribichini.it — FATTO 12/05/2026 (ordine Aruba MO21344556)
+- [x] Attivare hosting — FATTO 12/05/2026 (GitHub Pages, gratuito, repo oscar-ribichini/oscar-ribichini-sito)
+- [x] Configurare DNS Aruba → GitHub Pages — FATTO 12/05/2026 (4 record A inseriti, verifica in corso)
 - [ ] Aggiungere foto profilo al sito
 - [ ] Implementare backend per il contact form
 - [ ] Aggiornare link QR code nel biglietto da visita con il dominio reale

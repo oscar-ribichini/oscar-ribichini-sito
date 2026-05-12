@@ -73,7 +73,7 @@ Voglio sviluppare in autonomia:
 
 - Prodotti digitali AI da vendere online — scelti in base a convenienza economica e analisi di mercato, non per facilità
 - Consulenza e formazione AI per aziende — solo dopo aver ottenuto risultati reali con i prodotti digitali
-- Sito web personale (già pronto, in attesa di dominio)
+- Sito web personale (già pronto, dominio oscar-ribichini.it registrato il 12/05/2026 — da pubblicare su GitHub Pages)
 - Presenza su tutti i canali social e di vendita (LinkedIn avviato, Instagram/TikTok/Facebook/Gumroad da aprire)
 
 Obiettivo specifico AI: padroneggiare l'AI usandola ogni giorno sul lavoro reale — imparare facendo, ma sul prodotto più conveniente, non sul più facile.
