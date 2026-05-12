@@ -1,0 +1,11 @@
+# File temporanei Google Drive
+.tmp.driveupload/
+.tmp.drivedownload/
+
+# File di sistema Windows
+Thumbs.db
+desktop.ini
+
+# File temporanei
+*.tmp
+*.temp
