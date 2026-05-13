@@ -366,15 +366,24 @@
 
         <!-- RIGA 7: priorità e tempi -->
         <div class="form-group">
-          <label>Qual è la tua priorità principale? *</label>
-          <select name="priorita" required>
-            <option value="" disabled selected>Seleziona</option>
-            <option>Risparmiare tempo</option>
-            <option>Ridurre i costi</option>
-            <option>Aumentare le vendite</option>
-            <option>Migliorare la qualità</option>
-            <option>Gestire meglio il personale</option>
-          </select>
+          <label>Quali sono le tue priorità? * (puoi selezionare più opzioni)</label>
+          <div style="display:flex;flex-direction:column;gap:10px;margin-top:6px;">
+            <label style="display:flex;align-items:center;gap:10px;color:#fff;font-size:0.95rem;text-transform:none;letter-spacing:0;font-weight:normal;cursor:pointer;">
+              <input type="checkbox" name="priorita" value="Risparmiare tempo" style="width:18px;height:18px;accent-color:#c9a96e;"> Risparmiare tempo
+            </label>
+            <label style="display:flex;align-items:center;gap:10px;color:#fff;font-size:0.95rem;text-transform:none;letter-spacing:0;font-weight:normal;cursor:pointer;">
+              <input type="checkbox" name="priorita" value="Ridurre i costi" style="width:18px;height:18px;accent-color:#c9a96e;"> Ridurre i costi
+            </label>
+            <label style="display:flex;align-items:center;gap:10px;color:#fff;font-size:0.95rem;text-transform:none;letter-spacing:0;font-weight:normal;cursor:pointer;">
+              <input type="checkbox" name="priorita" value="Aumentare le vendite" style="width:18px;height:18px;accent-color:#c9a96e;"> Aumentare le vendite
+            </label>
+            <label style="display:flex;align-items:center;gap:10px;color:#fff;font-size:0.95rem;text-transform:none;letter-spacing:0;font-weight:normal;cursor:pointer;">
+              <input type="checkbox" name="priorita" value="Migliorare la qualità" style="width:18px;height:18px;accent-color:#c9a96e;"> Migliorare la qualità
+            </label>
+            <label style="display:flex;align-items:center;gap:10px;color:#fff;font-size:0.95rem;text-transform:none;letter-spacing:0;font-weight:normal;cursor:pointer;">
+              <input type="checkbox" name="priorita" value="Gestire meglio il personale" style="width:18px;height:18px;accent-color:#c9a96e;"> Gestire meglio il personale
+            </label>
+          </div>
         </div>
         <div class="form-group">
           <label>In che tempi vorresti i primi risultati? *</label>
