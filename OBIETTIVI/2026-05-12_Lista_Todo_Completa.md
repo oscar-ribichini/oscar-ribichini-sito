@@ -20,6 +20,7 @@ Aggiornata al 12/05/2026. Fonte: Oscar Ribichini — lista ufficiale.
 - [x] Instagram @codicereale — collegato a Meta Business Suite — FATTO 12/05/2026
 - [x] Instagram @codicereale — impostato completamente (bio, foto, link) — FATTO 12/05/2026
 - [ ] LinkedIn — foto di copertina (con Canva)
+- [x] LinkedIn — aggiungere sito oscar-ribichini.it — FATTO 13/05/2026
 - [ ] LinkedIn — aggiungere sito Quantum quando sarà online
 - [ ] TikTok @codicereale — sospeso per ora
 
@@ -42,7 +43,7 @@ Aggiornata al 12/05/2026. Fonte: Oscar Ribichini — lista ufficiale.
 - [x] Configurare DNS Aruba → GitHub Pages — FATTO 12/05/2026 (4 record A inseriti, verifica in corso)
 - [ ] Aggiungere foto profilo al sito
 - [ ] Implementare backend per il contact form
-- [ ] Aggiornare link QR code nel biglietto da visita con il dominio reale
+- [x] Aggiornare link QR code nel biglietto da visita con il dominio reale — FATTO 12/05/2026
 
 ---
 
