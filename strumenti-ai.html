@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <!-- Crisp Chat -->
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="492c4a27-608e-4f81-9d2a-852448d97a76";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+  <!-- Google tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSP54C7BQQ"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-KSP54C7BQQ');</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Strumenti AI che uso — Oscar Ribichini</title>
+  <meta name="description" content="Gli strumenti di intelligenza artificiale che Oscar Ribichini usa ogni giorno nel lavoro di consulenza e formazione per le PMI.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Georgia', serif; color: #1a1a2e; background: #fff; }
+
+    .header-brand {
+      background: #1a1a2e;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #c9a96e;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 20px; text-decoration: none; }
+    .logo-icon { width: 56px; height: 56px; flex-shrink: 0; }
+    .logo-text { display: flex; flex-direction: column; line-height: 1.1; }
+    .logo-text span:first-child { color: #fff; font-family: Arial, sans-serif; font-size: 1.4rem; font-weight: bold; letter-spacing: 4px; }
+    .logo-text span:last-child { color: #c9a96e; font-family: Arial, sans-serif; font-size: 0.9rem; letter-spacing: 3px; text-transform: uppercase; margin-top: 2px; }
+    .brand-nav { display: flex; gap: 28px; position: absolute; left: 50%; transform: translateX(-50%); }
+    .brand-nav a { color: #aab4c8; text-decoration: none; font-family: Arial, sans-serif; font-size: 1.2rem; letter-spacing: 2px; text-transform: uppercase; transition: color 0.2s; }
+    .brand-nav a:hover { color: #c9a96e; }
+
+    .hero {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+      padding: 80px 10%;
+      text-align: center;
+    }
+    .hero h1 { color: #fff; font-size: 3rem; margin-bottom: 16px; line-height: 1.2; }
+    .hero p { color: #aab4c8; font-family: Arial, sans-serif; font-size: 1.1rem; line-height: 1.8; max-width: 700px; margin: 0 auto; }
+    .hero .gold { color: #c9a96e; }
+
+    .sezione {
+      padding: 80px 10%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .sezione-titolo {
+      font-size: 1.8rem;
+      color: #1a1a2e;
+      margin-bottom: 10px;
+    }
+    .sezione-linea {
+      width: 48px; height: 3px;
+      background: #c9a96e;
+      margin-bottom: 12px;
+    }
+    .sezione-intro {
+      font-family: Arial, sans-serif;
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 48px;
+      max-width: 700px;
+    }
+
+    .tool-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+    }
+    .tool-card {
+      background: #f7f5f0;
+      padding: 36px 28px;
+      border-top: 4px solid #c9a96e;
+      position: relative;
+    }
+    .tool-card.esploro {
+      border-top-color: #aab4c8;
+      opacity: 0.85;
+    }
+    .tool-badge {
+      display: inline-block;
+      font-family: Arial, sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      margin-bottom: 16px;
+      font-weight: bold;
+    }
+    .tool-badge.uso { background: rgba(201,169,110,0.15); color: #c9a96e; }
+    .tool-badge.esploro { background: rgba(170,180,200,0.15); color: #888; }
+    .tool-nome {
+      font-size: 1.4rem;
+      color: #1a1a2e;
+      margin-bottom: 8px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+    .tool-categoria {
+      font-family: Arial, sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #c9a96e;
+      margin-bottom: 14px;
+    }
+    .tool-card.esploro .tool-categoria { color: #aab4c8; }
+    .tool-desc {
+      font-family: Arial, sans-serif;
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+    .tool-uso-reale {
+      font-family: Arial, sans-serif;
+      font-size: 0.88rem;
+      color: #1a1a2e;
+      background: rgba(201,169,110,0.1);
+      border-left: 3px solid #c9a96e;
+      padding: 10px 14px;
+      line-height: 1.6;
+      font-style: italic;
+    }
+    .tool-card.esploro .tool-uso-reale {
+      background: rgba(170,180,200,0.1);
+      border-left-color: #aab4c8;
+    }
+
+    .nota-box {
+      background: #1a1a2e;
+      padding: 48px 10%;
+      text-align: center;
+    }
+    .nota-box p {
+      color: #aab4c8;
+      font-family: Arial, sans-serif;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      max-width: 700px;
+      margin: 0 auto 28px;
+    }
+    .nota-box strong { color: #c9a96e; }
+    .btn {
+      display: inline-block;
+      background: #c9a96e;
+      color: #1a1a2e;
+      padding: 14px 36px;
+      font-family: Arial, sans-serif;
+      font-size: 0.95rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: #b8924f; }
+
+    footer {
+      background: #0d0d1a;
+      color: #444;
+      text-align: center;
+      padding: 24px;
+      font-family: Arial, sans-serif;
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 768px) {
+      .tool-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 2rem; }
+      .sezione { padding: 60px 6%; }
+      .brand-nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header-brand">
+    <a href="index.html" class="nav-logo">
+      <svg class="logo-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="32" cy="32" r="22" fill="none" stroke="#c9a96e" stroke-width="3"/>
+        <line x1="48" y1="48" x2="64" y2="64" stroke="#c9a96e" stroke-width="3.5" stroke-linecap="round"/>
+        <line x1="20" y1="44" x2="44" y2="20" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+        <polyline points="36,20 44,20 44,28" fill="none" stroke="#c9a96e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="logo-text">
+        <span>QUANTUM</span>
+        <span>consulenza &amp; advisory</span>
+      </div>
+    </a>
+    <nav class="brand-nav">
+      <a href="index.html#chisono">Chi sono</a>
+      <a href="index.html#consulenza">Consulenza</a>
+      <a href="index.html#formazione">Formazione AI</a>
+      <a href="index.html#contatti">Contatti</a>
+    </nav>
+    <a href="index.html" style="color:#aab4c8;font-family:Arial,sans-serif;font-size:0.85rem;text-decoration:none;letter-spacing:1px;">← Torna al sito</a>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Gli strumenti AI <span class="gold">che uso ogni giorno</span></h1>
+    <p>Non parlo di AI dai libri. La uso sul lavoro reale — per analizzare aziende, preparare documenti, costruire presentazioni, formare imprenditori. Questi sono gli strumenti che ho testato e scelto.</p>
+  </div>
+
+  <!-- TOOL CHE USO -->
+  <div class="sezione">
+    <h2 class="sezione-titolo">Tool che uso</h2>
+    <div class="sezione-linea"></div>
+    <p class="sezione-intro">Questi tre strumenti fanno parte del mio lavoro quotidiano. Li uso su casi reali, con clienti reali.</p>
+
+    <div class="tool-grid">
+
+      <div class="tool-card">
+        <span class="tool-badge uso">Uso ogni giorno</span>
+        <div class="tool-nome">Claude</div>
+        <div class="tool-categoria">Analisi · Testi · Strategia</div>
+        <p class="tool-desc">Il modello AI di Anthropic. Lo uso per analizzare documenti aziendali, preparare bozze di contratti e offerte, strutturare piani d'azione, fare ricerche approfondite su normative e mercati.</p>
+        <div class="tool-uso-reale">"Con Claude ho analizzato un passaggio generazionale complesso in meno di 30 minuti — identificando 7 criticità che avrebbero richiesto giorni di lavoro tradizionale."</div>
+      </div>
+
+      <div class="tool-card">
+        <span class="tool-badge uso">Uso ogni giorno</span>
+        <div class="tool-nome">ChatGPT</div>
+        <div class="tool-categoria">Testi · Idee · Bozze rapide</div>
+        <p class="tool-desc">Il modello AI di OpenAI. Lo uso per generare bozze veloci di email e comunicazioni, brainstorming su idee commerciali, riformulare testi in modo più chiaro e diretto.</p>
+        <div class="tool-uso-reale">"Uso ChatGPT quando ho bisogno di una risposta rapida o di una prima bozza da rifinire. È il mio secondo cervello per le idee."</div>
+      </div>
+
+      <div class="tool-card">
+        <span class="tool-badge uso">Uso regolarmente</span>
+        <div class="tool-nome">Canva AI</div>
+        <div class="tool-categoria">Grafica · Presentazioni · Social</div>
+        <p class="tool-desc">La suite grafica con AI integrata. La uso per creare presentazioni professionali, materiali per i corsi, contenuti per i social media. L'AI di Canva genera layout e suggerisce testi.</p>
+        <div class="tool-uso-reale">"Con Canva AI produco materiali grafici professionali in autonomia, senza dipendere da un grafico esterno."</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TOOL CHE STO ESPLORANDO -->
+  <div style="background:#f7f5f0;padding:80px 10%;">
+    <div style="max-width:1200px;margin:0 auto;">
+      <h2 class="sezione-titolo">Tool che sto esplorando</h2>
+      <div class="sezione-linea"></div>
+      <p class="sezione-intro">Questi strumenti sono nella mia lista di apprendimento attivo. Li sto testando per capire se e come integrarli nel lavoro con i clienti.</p>
+
+      <div class="tool-grid">
+
+        <div class="tool-card esploro">
+          <span class="tool-badge esploro">In esplorazione</span>
+          <div class="tool-nome">Perplexity</div>
+          <div class="tool-categoria">Ricerca · Fonti verificate</div>
+          <p class="tool-desc">Motore di ricerca AI che risponde con fonti citate. Ideale per ricerche su normative, bandi, mercati — ogni risposta include i link alle fonti originali.</p>
+          <div class="tool-uso-reale">"Lo sto testando per la ricerca di bandi e normative — risponde in secondi con fonti verificabili."</div>
+        </div>
+
+        <div class="tool-card esploro">
+          <span class="tool-badge esploro">In esplorazione</span>
+          <div class="tool-nome">Gamma</div>
+          <div class="tool-categoria">Presentazioni · Documenti AI</div>
+          <p class="tool-desc">Genera presentazioni professionali complete a partire da un testo o un'idea. In 2 minuti produce slide con testi, layout e immagini già impaginati.</p>
+          <div class="tool-uso-reale">"Sto valutando se usarlo per le presentazioni ai clienti — ridurrebbe il tempo di preparazione dell'80%."</div>
+        </div>
+
+        <div class="tool-card esploro">
+          <span class="tool-badge esploro">In esplorazione</span>
+          <div class="tool-nome">Notion AI</div>
+          <div class="tool-categoria">Documenti · Organizzazione</div>
+          <p class="tool-desc">Sistema di gestione documenti con AI integrata. Permette di organizzare note, progetti e knowledge base aziendale con ricerca intelligente e sintesi automatiche.</p>
+          <div class="tool-uso-reale">"Lo sto valutando come strumento di gestione clienti — una knowledge base aziendale accessibile e ricercabile con AI."</div>
+        </div>
+
+        <div class="tool-card esploro">
+          <span class="tool-badge esploro">In esplorazione</span>
+          <div class="tool-nome">ElevenLabs</div>
+          <div class="tool-categoria">Audio · Voce AI · Corsi</div>
+          <p class="tool-desc">Genera voci realistiche con AI. Utile per creare contenuti audio per corsi online, video formativi, podcast aziendali — senza dover registrare ogni volta.</p>
+          <div class="tool-uso-reale">"Lo sto esplorando per i corsi AI — potrebbe permettere di produrre materiale didattico audio in modo molto più rapido."</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTA FINALE -->
+  <div class="nota-box">
+    <p>Uso questi strumenti <strong>sul lavoro reale</strong>, non nelle demo. Prima di inserire un tool nella mia offerta formativa, lo testo personalmente su casi concreti. Questa è la differenza tra chi parla di AI e chi la usa davvero.</p>
+    <a href="https://calendly.com/globalarea/30min" target="_blank" rel="noopener" class="btn">Vuoi capire quali tool fanno al caso tuo? Parliamone</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Oscar Ribichini — P.IVA 01785850437 — Civitanova Marche &nbsp;|&nbsp;
+    <a href="mailto:oscar.ribichini@quantumadvisor.it" style="color:#444;">oscar.ribichini@quantumadvisor.it</a> &nbsp;|&nbsp;
+    <a href="index.html" style="color:#444;">← Torna al sito</a></p>
+  </footer>
+
+  <!-- BOTTONE WHATSAPP FISSO -->
+  <a href="https://wa.me/393276113167" target="_blank" rel="noopener" title="Scrivimi su WhatsApp"
+    style="position:fixed;bottom:90px;right:28px;background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);z-index:9999;text-decoration:none;">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+</body>
+</html>
