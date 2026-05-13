@@ -41,8 +41,8 @@ Aggiornata al 12/05/2026. Fonte: Oscar Ribichini — lista ufficiale.
 - [x] Registrare dominio oscar-ribichini.it — FATTO 12/05/2026 (ordine Aruba MO21344556)
 - [x] Attivare hosting — FATTO 12/05/2026 (GitHub Pages, gratuito, repo oscar-ribichini/oscar-ribichini-sito)
 - [x] Configurare DNS Aruba → GitHub Pages — FATTO 12/05/2026 (4 record A inseriti, verifica in corso)
-- [ ] Aggiungere foto profilo al sito
-- [ ] Implementare backend per il contact form
+- [x] Aggiungere foto profilo al sito — FATTO 13/05/2026
+- [x] Implementare backend per il contact form (Formspree) — FATTO 13/05/2026
 - [x] Aggiornare link QR code nel biglietto da visita con il dominio reale — FATTO 12/05/2026
 
 ---
