@@ -9,3 +9,10 @@ desktop.ini
 # File temporanei
 *.tmp
 *.temp
+
+# Video e file grandi (superano il limite GitHub di 100 MB)
+VIDEO/
+*.mp4
+*.avi
+*.mov
+*.mkv
