@@ -672,12 +672,54 @@
 
     /* RESPONSIVE */
     @media (max-width: 768px) {
-      #home h1 { font-size: 2rem; }
-      .cards { grid-template-columns: 1fr; padding: 0 20px 60px; }
-      .chisono-grid, .aree, .formazione-grid, .contatti-grid { grid-template-columns: 1fr; }
+      /* LAYOUT GENERALE */
+      section { padding: 40px 5%; }
+      #home, #contatti { padding: 40px 5%; }
       nav ul { display: none; }
-      section { padding: 60px 20px; }
-      #home, #contatti { padding: 60px 6%; }
+
+      /* HEADER */
+      .header-brand { padding: 14px 16px; }
+      .logo-text span:first-child { font-size: 1.4rem; }
+      .logo-text span:last-child { font-size: 0.8rem; }
+      .brand-nav { display: none; }
+      .brand-avatar { width: 40px; height: 40px; }
+      .brand-avatar-name { font-size: 0.55rem; }
+      .header-social svg { width: 20px; height: 20px; }
+
+      /* HERO */
+      .hero-brand-nome { font-size: 2.8rem; letter-spacing: 6px; }
+      .hero-brand-sub { font-size: 0.8rem; }
+      #home h1 { font-size: 1.5rem; }
+      #home p { font-size: 1rem; }
+
+      /* CHI SONO */
+      .chisono-grid { grid-template-columns: 1fr; }
+      .chisono-grid .testo p { font-size: 1rem; }
+      .chisono-cards { grid-template-columns: 1fr; }
+      .chisono-card p { font-size: 1rem; }
+      .chisono-card h4 { font-size: 0.9rem; }
+
+      /* CONSULENZA */
+      .aree { grid-template-columns: 1fr; }
+      .area h3 { font-size: 1.1rem; }
+      .area p { font-size: 1rem; }
+      .area .tipologie { font-size: 0.9rem; }
+      .come-funziona { font-size: 1rem; }
+
+      /* PERCHÉ SCEGLIERMI */
+      .cards { grid-template-columns: 1fr; padding: 0 0 40px; }
+
+      /* FORMAZIONE */
+      .formazione-grid { grid-template-columns: 1fr; }
+
+      /* CONTATTI */
+      .contatti-grid { grid-template-columns: 1fr; }
+
+      /* NUMERI */
+      .numeri { grid-template-columns: repeat(2, 1fr); padding: 40px 5%; }
+
+      /* NORMATIVE */
+      div[style*="grid-template-columns:repeat(2,1fr)"] { grid-template-columns: 1fr !important; }
     }
   </style>
 </head>
