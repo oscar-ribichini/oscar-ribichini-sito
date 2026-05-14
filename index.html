@@ -396,7 +396,7 @@
       display: grid;
       grid-template-columns: 1fr 260px;
       gap: 32px;
-      align-items: start;
+      align-items: stretch;
     }
     .chisono-testo-colonna {
       display: flex;
@@ -408,6 +408,7 @@
       gap: 28px;
       flex: 1;
       margin-top: 40px;
+      align-items: stretch;
     }
     .chisono-card {
       background: #f7f5f0;
@@ -415,6 +416,8 @@
       padding: 36px 28px;
       display: flex;
       flex-direction: column;
+      height: 100%;
+      box-sizing: border-box;
     }
     .chisono-card h4 {
       color: #1a1a2e;
