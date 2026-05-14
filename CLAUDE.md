@@ -173,6 +173,7 @@ I 6 passi da seguire sempre in ordine:
 6. Lanciare su tutti i canali contemporaneamente
 
 Regola: non proporre mai di creare un prodotto senza aver completato i passi 1 e 2.
+Regola fondamentale (13/05/2026): prima di vendere o insegnare qualsiasi tool AI, Oscar deve averlo usato personalmente su un caso reale. Chi vende qualcosa che non ha usato si vede subito. Più lo conosce in prima persona, più lo sa vendere.
 Dettaglio completo: vedi memoria project_metodo_prodotti_digitali.md
 
 ### Stato avanzamento (aggiornato 11/05/2026)
