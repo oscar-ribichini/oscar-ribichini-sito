@@ -388,15 +388,14 @@
     }
     .chisono-grid {
       display: grid;
-      grid-template-columns: 340px 1fr;
+      grid-template-columns: 1fr 260px;
       gap: 40px;
-      align-items: stretch;
+      align-items: start;
     }
     .chisono-destra {
-      display: grid;
-      grid-template-columns: 1fr 260px;
-      gap: 32px;
-      align-items: stretch;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
     }
     .chisono-testo-colonna {
       display: flex;
@@ -921,39 +920,36 @@
     <h2 class="section-title">Chi sono</h2>
     <div class="section-line"></div>
     <div class="chisono-grid">
-      <img src="foto-oscar.jpg" alt="Oscar Ribichini" class="foto-profilo">
-      <div class="chisono-destra">
-        <div class="testo chisono-testo-colonna">
-          <p>Mi chiamo Oscar Ribichini. Quarant'anni di esperienza sul campo, costruiti mattone dopo mattone: dall'imprenditoria in proprio alla direzione commerciale, dal trading internazionale con la Cina alle energie rinnovabili, fino alla consulenza aziendale e alla formazione sull'intelligenza artificiale.</p>
-          <p>Ho sempre lavorato a contatto diretto con imprenditori e aziende, con una costante: capire prima, proporre dopo.</p>
-          <p>Oggi collaboro con Quantum S.r.l. come consulente indipendente, portando ai clienti competenze solide in finanza straordinaria, riorganizzazione aziendale e sviluppo del business.</p>
-          <p>Nel contempo mi sono dedicato allo studio e all'applicazione concreta dell'intelligenza artificiale, con l'obiettivo di aiutare le aziende a usarla davvero — non come moda, ma come strumento di lavoro quotidiano.</p>
-          <div class="chisono-cards">
-            <div class="chisono-card">
-              <h4>Cosa faccio</h4>
-              <p>Supporto le aziende nella pianificazione finanziaria, nelle operazioni straordinarie e nella gestione dei processi. Erogo anche corsi pratici sull'intelligenza artificiale per imprenditori, manager e team aziendali.</p>
-            </div>
-            <div class="chisono-card">
-              <h4>Come lavoro</h4>
-              <p>Approccio diretto, linguaggio chiaro, soluzioni su misura. Niente burocrazia inutile: analizzo la situazione, propongo un percorso, lo seguiamo insieme.</p>
-            </div>
+      <div class="testo chisono-testo-colonna">
+        <p>Mi chiamo Oscar Ribichini. Quarant'anni di esperienza sul campo, costruiti mattone dopo mattone: dall'imprenditoria in proprio alla direzione commerciale, dal trading internazionale con la Cina alle energie rinnovabili, fino alla consulenza aziendale e alla formazione sull'intelligenza artificiale.</p>
+        <p>Ho sempre lavorato a contatto diretto con imprenditori e aziende, con una costante: capire prima, proporre dopo.</p>
+        <p>Oggi collaboro con Quantum S.r.l. come consulente indipendente, portando ai clienti competenze solide in finanza straordinaria, riorganizzazione aziendale e sviluppo del business.</p>
+        <p>Nel contempo mi sono dedicato allo studio e all'applicazione concreta dell'intelligenza artificiale, con l'obiettivo di aiutare le aziende a usarla davvero — non come moda, ma come strumento di lavoro quotidiano.</p>
+        <div class="chisono-cards">
+          <div class="chisono-card">
+            <h4>Cosa faccio</h4>
+            <p>Supporto le aziende nella pianificazione finanziaria, nelle operazioni straordinarie e nella gestione dei processi. Erogo anche corsi pratici sull'intelligenza artificiale per imprenditori, manager e team aziendali.</p>
+          </div>
+          <div class="chisono-card">
+            <h4>Come lavoro</h4>
+            <p>Approccio diretto, linguaggio chiaro, soluzioni su misura. Niente burocrazia inutile: analizzo la situazione, propongo un percorso, lo seguiamo insieme.</p>
           </div>
         </div>
-        <div style="display:flex;flex-direction:column;gap:24px;">
-          <div class="sidebar">
-            <h4>In sintesi</h4>
-            <ul>
-              <li>Sede operativa: Civitanova Marche</li>
-              <li>Operativo in tutta Italia</li>
-              <li>In presenza e da remoto</li>
-              <li>Oltre 25 anni di esperienza imprenditoriale e commerciale</li>
-              <li>Collaborazione con Quantum S.r.l., Roma</li>
-            </ul>
-          </div>
-          <div class="qrcode-box">
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3AOscar%20Ribichini%0AORG%3AQuantum%20S.r.l.%0ATITLE%3AConsulente%20Aziendale%20%26%20Formazione%20AI%0ATEL%3A%2B393276113167%0AEMAIL%3Aoscar.ribichini%40quantumadvisor.it%0AEMAIL%3Aglobalarea%40gmail.com%0AURL%3Ahttps%3A%2F%2Foscar-ribichini.it%0AEND%3AVCARD&color=1a1a2e" alt="QR Code vCard Oscar Ribichini">
-            <p>Scansiona per salvare<br><strong>il mio contatto</strong></p>
-          </div>
+      </div>
+      <div class="chisono-destra">
+        <div class="sidebar">
+          <h4>In sintesi</h4>
+          <ul>
+            <li>Sede operativa: Civitanova Marche</li>
+            <li>Operativo in tutta Italia</li>
+            <li>In presenza e da remoto</li>
+            <li>Oltre 25 anni di esperienza imprenditoriale e commerciale</li>
+            <li>Collaborazione con Quantum S.r.l., Roma</li>
+          </ul>
+        </div>
+        <div class="qrcode-box">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3AOscar%20Ribichini%0AORG%3AQuantum%20S.r.l.%0ATITLE%3AConsulente%20Aziendale%20%26%20Formazione%20AI%0ATEL%3A%2B393276113167%0AEMAIL%3Aoscar.ribichini%40quantumadvisor.it%0AEMAIL%3Aglobalarea%40gmail.com%0AURL%3Ahttps%3A%2F%2Foscar-ribichini.it%0AEND%3AVCARD&color=1a1a2e" alt="QR Code vCard Oscar Ribichini">
+          <p>Scansiona per salvare<br><strong>il mio contatto</strong></p>
         </div>
       </div>
     </div>
