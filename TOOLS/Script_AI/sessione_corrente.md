@@ -13,16 +13,15 @@ Se appare un errore — mandare screenshot a Claude.
 
 ---
 
-## Configurazione MCP Gmail — stato
+## Configurazione MCP Gmail — COMPLETATA
 
 - Gmail MCP API abilitata su Google Cloud Console (progetto: Claude MCP Gmail, ID: claude-mcp-gmail-496512)
-- Credenziali OAuth create: "Claude MCP Gmail Client" (tipo Desktop, creato 16/05/2026)
-- Client ID: 414380553495-67lqaaknukiuq0diaohefn65rppcrpu6.apps.googleusercontent.com
-- File credenziali scaricato in: E:\Lavori Code\gmail_credentials.json
-- Utente di test aggiunto: globalarea@gmail.com
-- Ambiti configurati: gmail.readonly + gmail.send
-- Server MCP installato: @gongrzhe/server-gmail-autoauth-mcp (via npm -g)
-- File .mcp.json creato in: E:\Lavori Code\.mcp.json
+- Credenziali OAuth create: "Claude MCP Gmail Client" (tipo Desktop)
+- File credenziali: E:\Lavori Code\gmail_credentials.json e E:\Lavori Code\gcp-oauth.keys.json
+- Token OAuth salvato in: C:\Users\Utente\.gmail-mcp\credentials.json — AUTENTICAZIONE COMPLETATA il 16/05/2026
+- Server MCP usato: @shinzolabs/gmail-mcp (gmail-mcp command)
+- File .mcp.json aggiornato: usa "gmail-mcp" come comando
+- Prossimo passo: riavviare VS Code e testare lettura email con "leggi le ultime 3 mail"
 
 ---
 
@@ -69,8 +68,17 @@ Se appare un errore — mandare screenshot a Claude.
 - [ ] Aprire Instagram e TikTok
 - [ ] Aggiornare pagina strumenti-ai.html con Loom
 
+### Sito Quantum
+- [ ] Incontrare Pichetti (oggi 16/05) con lista domande su dominio, hosting, area clienti, documenti, logo, budget, tempi
+- [ ] Dopo l'incontro: decidere tra WordPress + web agency, SaaS portale clienti (30-80€/mese), o altro
+- [ ] Pichetti deve gestire il sito in autonomia — serve un programmatore/web agency per la parte tecnica, non Oscar
+
+### Pulizia PC (va lento)
+- [ ] Disinstallare Skype for Business completamente
+- [ ] Togliere Dropbox dalla schermata di avvio (si apre da solo all'avvio)
+- [ ] Pulizia generale PC — programmi inutili che rallentano all'avvio
+
 ### Altro
 - [ ] Quiz funnel da costruire
-- [ ] Sito Quantum da costruire per Pichetti
 - [ ] Biglietto da visita — completare con logo e sito Quantum
 - [ ] Sessione dedicata: referral, Cina e AI, capire le sessioni Claude

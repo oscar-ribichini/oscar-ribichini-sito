@@ -90,3 +90,7 @@
 2026-05-07 14:28:49 - Trascrizione completata: 2026-05-07 14-27-55.txt
 2026-05-07 14:30:21 - Nuovo video rilevato: Video Conosci Claude 01 2026-05-07 12-32-21.mp4
 2026-05-07 14:30:21 - Avvio Whisper...
+2026-05-16 15:55:54 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-16 15:55:56 - Nuovo video rilevato: Video Conosci Claude 01 2026-05-07 12-32-21.mp4
+2026-05-16 15:55:56 - Avvio Whisper...
+2026-05-16 16:20:40 - Trascrizione completata: Video Conosci Claude 01 2026-05-07 12-32-21.txt
