@@ -1,86 +1,76 @@
-# Sessione corrente — punto di ripresa
+# Sessione corrente — 16/05/2026
 
-Aggiornato il 11/05/2026 (fine sessione 10/05)
+## Punto esatto di ripresa
 
-## Cosa abbiamo fatto il 10/05/2026
+Stiamo configurando il collegamento tra Claude e Gmail tramite MCP.
 
-Sessione ricchissima. Tre grandi risultati:
+**Ultimo passo completato:** creazione credenziali OAuth su Google Cloud Console, utente di test aggiunto, file .mcp.json creato in E:\Lavori Code\.mcp.json
 
-### 1. Sistema dei Codici — elaborato e documentato
+**Prossimo passo IMMEDIATO:** riavviare VS Code e Claude Code — al primo avvio Claude rileverà il file .mcp.json e aprirà il browser per l'autorizzazione OAuth a Gmail (login con globalarea@gmail.com).
 
-Oscar ha strutturato il suo metodo originale di analisi della realtà.
-Documento completo: OBIETTIVI\2026-05-10_Idee_Notte_Oscar.md
-
-Comprende:
-- Elenco completo dei codici (primari, legali, sociali, emotivi, binari, creativi)
-- 7 contesti principali
-- 6 passi operativi del metodo
-- Analisi competitiva (campo libero in Italia)
-- Psicologia del comportamento (bias di conferma, paura di inganni, identità tribale)
-- Sociologia della diffusione (4 tribù italiane: disillusi, giovani critici, professionisti, satirici)
-- Economia in 5 livelli (prodotti digitali → pubblicità → consulenza → community → licensing)
-- Mappatura MBTI + Enneagramma + filosofia sui codici
-- **Nome scelto: Codice Reale — handle @codicereale**
-
-### 2. Pagina Facebook Codice Reale — creata e live
-
-- Pagina aperta e attiva
-- Identità visiva: nero #1a1a1a, bianco, oro #C9A96E, font Montserrat Bold
-- Logo CR creato su Canva
-- Prima copertina pubblicata
-- Primo post pubblicato
-- Follower: 0 — pagina appena nata
-
-Strategia salvata in memoria: project_codice_reale_facebook.md
-
-### 3. Template grafico Canva — in lavorazione
-
-Oscar sta imparando Canva lavorando direttamente sul progetto.
-Ultima cosa fatta: copertina Facebook con logo e testo.
-Suggerimento dato ma non ancora eseguito: aggiungere corona bianca sulla E finale di REALE anche nella copertina (come già fatto nel template post).
-
-La sessione si è bloccata su un errore "Request too large (max 32MB)" mentre si caricavano screenshot di Canva.
+Se appare una finestra del browser con richiesta di autorizzazione Google — accettare tutto.
+Se appare un errore — mandare screenshot a Claude.
 
 ---
 
-## Da fare — prossima sessione
+## Configurazione MCP Gmail — stato
 
-### Completamento pagina Facebook (urgente)
-- Aggiungere corona bianca sulla E di REALE nella copertina
-- Aggiungere URL personalizzato: facebook.com/codicereale
-- Impostare pulsante call-to-action (Segui / Invia messaggio)
-- Creare la sezione "In evidenza" con il post di presentazione
-- Collegare a Instagram quando viene creato
-
-### Ricorrenze immediate
-- ~~10 maggio: Festa della Mamma~~ — già passata ieri
-- 15 maggio: Giornata Mondiale della Famiglia
-- 17 maggio: Giornata contro l'Omofobia
-
-### Ritmo di pubblicazione da avviare
-3 post al giorno: mattina (9-10), pomeriggio (13-14), sera (20-21)
-Mix: 1 grafico + 1 testo + 1 domanda o ricorrenza
-
-### Da fare ancora (metodo prodotti digitali)
-- Passo 4 ancora in corso: Instagram e TikTok @codicereale da aprire
-- Gumroad store da aprire
+- Gmail MCP API abilitata su Google Cloud Console (progetto: Claude MCP Gmail, ID: claude-mcp-gmail-496512)
+- Credenziali OAuth create: "Claude MCP Gmail Client" (tipo Desktop, creato 16/05/2026)
+- Client ID: 414380553495-67lqaaknukiuq0diaohefn65rppcrpu6.apps.googleusercontent.com
+- File credenziali scaricato in: E:\Lavori Code\gmail_credentials.json
+- Utente di test aggiunto: globalarea@gmail.com
+- Ambiti configurati: gmail.readonly + gmail.send
+- Server MCP installato: @gongrzhe/server-gmail-autoauth-mcp (via npm -g)
+- File .mcp.json creato in: E:\Lavori Code\.mcp.json
 
 ---
 
-## File importanti di questa sessione (10/05)
+## Cose fatte oggi (16/05/2026)
 
-- OBIETTIVI\2026-05-10_Idee_Notte_Oscar.md — Sistema dei Codici completo
-- TOOLS\Script_AI\2026-05-10_18_Lenti_Di_Analisi.md — strumento 18 lenti
-- TOOLS\Strumenti_Analisi_Per_Te\2026-05-10_Procedura_Ricerca_Prodotto.md
-- TOOLS\Strumenti_Analisi_Per_Te\2026-05-10_Strumenti_Ricerca_Mercato.md
-- Memoria: project_codice_reale_facebook.md
+1. Analizzato corso "Claude Code Secrets" (18/05, 9€) — identificati gap reali
+2. Ricerca mercato app voice-to-notes — mercato saturo, gap: versione per consulenti italiani
+3. Testato Voicenotes.ai — scartato (non riconosce italiano, solo PC)
+4. Google Drive configurato: struttura 5 cartelle + README in ognuna (H:\Il mio Drive)
+5. Analizzate e pulite estensioni Chrome — rimossa Ad Blocker App (malware)
+6. Installato Loom — testato, funziona in italiano, genera trascrizione AI automatica
+7. Creato Kit Clienti AI (TOOLS\Template_Documenti\Kit_Clienti_AI\Kit_Clienti_AI.md)
+8. Configurato MCP Gmail (in corso — riavvio VS Code da fare)
 
 ---
 
-## Stato avanzamento metodo prodotti digitali (aggiornato 10/05)
+## Da fare — lista completa aggiornata
 
-- Passo 1: ricerca mercato completata ✓
-- Passo 2: analisi economica completata ✓
-- Passo 3: selezione fatta ✓
-- Passo 4: LinkedIn a metà, Instagram/TikTok/Facebook Codice Reale aperto, Gumroad da fare
-- Passi 5 e 6: da fare
+### URGENTI (prima del 18 maggio)
+- [ ] Iscriversi al corso Claude Code Secrets — lunedì 18/05, ore 13-16, Zoom, 9€
+- [ ] Firma email — aggiornare con sito oscar-ribichini.it su tutti gli indirizzi
+
+### MCP e integrazioni (in corso)
+- [ ] Completare collegamento Gmail MCP — riavviare VS Code e autorizzare OAuth
+- [ ] Collegare Claude a CRM (da scegliere: HubSpot free o Google Sheets)
+- [ ] Flusso note vocali: Google Keep + Make.com + Whisper + .md → H:\Il mio Drive\Note Vocali\
+
+### Drive e cloud
+- [ ] Pulizia Google Drive — 279 file nella root da organizzare (sessione dedicata)
+- [ ] Pulizia Dropbox — stesso problema, dopo Drive
+
+### Strumenti da imparare
+- [ ] Provare Loom sul serio — fare un video reale da mandare a qualcuno
+- [ ] Imparare AnyDesk — accesso remoto PC clienti
+- [ ] Esplorare Make.com — automazioni
+
+### Prodotti digitali
+- [ ] Completare grafica Kit Welfare PMI — logo + colori + PDF
+- [ ] Creare Mini Corso AI per Consulenti
+- [ ] Perfezionare Prompt Pack Consulenti
+
+### Sito e social
+- [ ] Ottimizzare card altezza su oscar-ribichini.it
+- [ ] Aprire Instagram e TikTok
+- [ ] Aggiornare pagina strumenti-ai.html con Loom
+
+### Altro
+- [ ] Quiz funnel da costruire
+- [ ] Sito Quantum da costruire per Pichetti
+- [ ] Biglietto da visita — completare con logo e sito Quantum
+- [ ] Sessione dedicata: referral, Cina e AI, capire le sessioni Claude

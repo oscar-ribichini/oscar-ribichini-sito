@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gmail": {
+      "command": "npx",
+      "args": [
+        "@gongrzhe/server-gmail-autoauth-mcp"
+      ],
+      "env": {
+        "GMAIL_CREDENTIALS_PATH": "E:\\Lavori Code\\gmail_credentials.json"
+      }
+    }
+  }
+}
