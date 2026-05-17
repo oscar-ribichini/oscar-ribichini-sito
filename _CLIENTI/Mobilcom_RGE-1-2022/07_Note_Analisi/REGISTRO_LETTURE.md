@@ -13,6 +13,7 @@ Regola: aggiornare questo file ogni volta che si legge un nuovo documento.
 
 ### 02_Titolo_Esecutivo
 - [x] Doc. 2_Mutuo delibato.pdf — decreto esecutorietà RSM, Trib. Macerata 05/10/2018 R.G. 2137/2018
+- [x] Titolo.pdf — documento composito: contratto mutuo Rep.1774 del 5/12/2011 Notaio Zanotti + domanda delibazione BSM (avv. Andreoni/Moroni, maggio 2018) + decreto dr. L. Reale 05/10/2018 + formula esecutiva 22/10/2018 + notifica a Mobilcom RSM 16/11/2018. NOTA: decreto firmato da giudice delegato (non dal Presidente) — verificare con avvocato se rispetta art. 9 Convenzione 1939
 - [x] Doc. 4_Contabile erogazione mutuo MOBILCOM.pdf — accredito €500.000 del 12/12/2011
 - [x] Doc. 5_Piano ammortamento.pdf — 240 rate, tasso 5,10%, piano francese
 - [x] Doc. 10_Convenzione Italia_Rsm.pdf — art. 9, procedura decreto presidente tribunale
@@ -35,6 +36,7 @@ Regola: aggiornare questo file ogni volta che si legge un nuovo documento.
 ### 04_Opposizioni_Istanze
 - [x] 29193511s.pdf — decreto fissazione udienza 615 c.p.c., G.E. Pannaggi 25/03/2022
 - [x] Rigetto G.E. istanza di estinzione.pdf — rigetto tesi 106 TUB, 14/05/2026
+- [x] G.E. Ord. pec 23.4.26..txt — ordinanza 22/04/2026 Di Gennaro: motivazione completa vizio continuità trascrizioni, cita art. 2648-2650 c.c. e Cass. 11638/2014, ordina relazione notarile integrativa entro 20 gg, sospende decreto di trasferimento
 
 ### 05_Aste_Perizie
 - [x] Dettaglio Annuncio.pdf — PVP inserzione 4492111, asta 21/01/2026 deserta
