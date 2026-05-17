@@ -61,46 +61,46 @@ Regola: aggiornare questo file ogni volta che si legge un nuovo documento.
 ## FILE DA LEGGERE (cartelle tematiche)
 
 ### 01_Atti_Esecutivi
-- [ ] Nota di iscrizione pign del 3.1.22.pdf
-- [ ] BSM_Mobilcom istanza fissazione UD vendita.pdf
-- [ ] Istanza di vendita dep il 14.1.22.pdf
-- [ ] Nota di deposito del 1.10.25.pdf
+- [x] Nota di iscrizione pign del 3.1.22.pdf — nota iscrizione ruolo 03/01/2022; precetto 27/09/2021, pignoramento 03/12/2021; valore €499.659,91; tutti immobili con proprietà 100/100 (vizio 3 confermato ab origine)
+- [x] BSM_Mobilcom istanza fissazione UD vendita.pdf — ist. n.3 dep. 09/11/2022; chiede udienza 569 dopo rigetto opposizione 615 del 07/11/2022; conferma timeline completa
+- [x] Istanza di vendita dep il 14.1.22.pdf — prima istanza vendita 567 c.p.c. del 14/01/2022; tutti 10 immobili con quota 1/1 piena proprietà (vizio 3)
+- [x] Nota di deposito del 1.10.25.pdf — già registrato sopra
 
 ### 02_Titolo_Esecutivo
-- [ ] Titolo.pdf — PRIORITÀ ALTA (potrebbe essere il decreto di esecutorietà originale)
-- [ ] Doc. 3_Nota iscrizione ipotecaria 7.12.2011.pdf
-- [ ] Iscrizione ipotecaria.pdf
-- [ ] Iscrizione ipotecaria_1.pdf
+- [ ] Titolo.pdf — già letto in sessione precedente (decreto esecutorietà RSM)
+- [ ] Doc. 3_Nota iscrizione ipotecaria 7.12.2011.pdf — già letto in sessione precedente
+- [x] Iscrizione ipotecaria.pdf — Reg. Gen. 17004, Reg. Part. 3154, 07/12/2011; ipoteca volontaria €700.000; 10 immobili; Mobilcom dichiara immobili liberi da pregiudizievoli (contrasta con pignoramenti 2007-2010); vizio 4 confermato
+- [x] Iscrizione ipotecaria_1.pdf — duplicato identico di Iscrizione ipotecaria.pdf
 
 ### 03_Cessioni_Credito
-- [ ] 07_Notifica_cessione_S3_DEX.pdf
-- [ ] 09_Raccomandata_Special_Servicer_Sammarinese.pdf
+- [x] 07_Notifica_cessione_S3_DEX.pdf — già registrato sopra
+- [ ] 09_Raccomandata_Special_Servicer_Sammarinese.pdf — da leggere (2.122 KB)
 
 ### 04_Opposizioni_Istanze
-- [ ] G.E. Ord. pec 23.4.26..txt — PRIORITÀ ALTA (testo ordinanza 22/04/2026)
-- [ ] Istanza al G.E.pdf
-- [ ] istanza ribichini.pdf
-- [ ] istanza ribichini oscar.pdf
-- [ ] Istanza sollec. rilievi officiosi ultima modificata e integrata.pdf
-- [ ] Istanza sollecitazione rilievi officiosi e sospensione immediata esecuzione. (2).pdf
-- [ ] Istanza sollecitazione rilievi officiosi e sospensione immediata esecuzione..doc
-- [ ] Attestazione conformità (esecuzioni).pdf
-- [ ] Attestazione conformità certificazione 567 cpc.pdf
-- [ ] Avviso 498 cpc.pdf
-- [ ] Certificazione 567 cpc - BSM_Mobilcom.pdf
-- [ ] Nota deposito avviso 498 cpc.pdf
-- [ ] Nota deposito documenti 08.03.22.pdf
+- [ ] G.E. Ord. pec 23.4.26..txt — già letto in sessione precedente
+- [x] Istanza al G.E.pdf — DEX ist. n.10 dep. 15/09/2025; chiede vendita parziale escludendo sub 6 e sub 10 (vizio Ripa); rivela quarto erede Carboni Gabriella nell'atto Notaio Testa 09/02/2006; conferma terza ordinanza G.E. 15/09/2025; notaio Testa ha cessato l'attività
+- [ ] istanza ribichini.pdf — da verificare se è la patente (già eliminata in sessione precedente) o altro
+- [ ] istanza ribichini oscar.pdf — 215 KB, da leggere
+- [x] Istanza sollec. rilievi officiosi ultima modificata e integrata.pdf — già registrato sopra
+- [ ] Istanza sollecitazione rilievi officiosi e sospensione immediata esecuzione. (2).pdf — 222 KB, versione precedente dell'istanza letta
+- [ ] Istanza sollecitazione rilievi officiosi e sospensione immediata esecuzione..doc — 204 KB
+- [x] Attestazione conformità (esecuzioni).pdf — Avv. Catani 03/01/2022; attesta conformità Titolo (20 pp), precetto (7 pp), pignoramento del 5/11/2021 notificato 03/12/2021 (7 pp)
+- [x] Attestazione conformità certificazione 567 cpc.pdf — Avv. Catani 08/03/2022; attesta conformità certificazione Notaio Lorenzoni 03/03/2022 (8 pp)
+- [x] Avviso 498 cpc.pdf — avviso 08/03/2022 a Tercas/BPB (unico creditore ipotecario noto); ipoteca giudiziale 23/01/2006 n.227 €50.000 sull'usufrutto di sub 3 e sub 9 (Marinelli); credito BSM €499.659,91
+- [ ] Certificazione 567 cpc - BSM_Mobilcom.pdf — 338 KB, da leggere
+- [x] Nota deposito avviso 498 cpc.pdf — nota deposito 08/03/2022; deposita avviso 498 (.p7m), PEC notifica, ricevute, visure CCIAA Tercas e BPB
+- [x] Nota deposito documenti 08.03.22.pdf — stessa del precedente (deposita certificazione Notaio Lorenzoni)
 
 ### 05_Aste_Perizie
-- [ ] 03_Perizia_estimativa.pdf
-- [ ] DOC_1999664795.pdf — contenuto ignoto
-- [ ] DOC_1999664952.pdf — contenuto ignoto
-- [ ] DOC_1999667897.pdf — contenuto ignoto
+- [ ] 03_Perizia_estimativa.pdf — già letta in sessione precedente
+- [x] DOC_1999664795.pdf — visura storica catastale sub 16 (17/05/2026); storia dal 1985; annotazioni "passaggi da esaminare" negli atti 2005; variazione spazi 26/05/2022 porta da 143 a 177 mq (durante procedura)
+- [x] DOC_1999664952.pdf — visura storica catastale sub 17 (17/05/2026); storia identica a sub 16; stesse anomalie "passaggi da esaminare"
+- [x] DOC_1999667897.pdf — visura storica catastale particella 1237 (17/05/2026); Riserve 2 e 3 attive (errati riferimenti catastali + errate generalità) aperte dal 25/11/2005, mai chiuse; Mobilcom ha acquisito con riserve catastali ancora aperte
 
 ### 06_Giurisprudenza
-- [ ] All. A_procura alle liti.pdf
-- [ ] Doc. 5_Visura CCIAA Storica Banca Tercas S.p.A..pdf
-- [ ] Doc. 6_Visura CCIAA Banca Popolare di Bari SpA.pdf
+- [x] All. A_procura alle liti.pdf — procura ad litem BSM per opposizione 615; Mularoni firma a Rimini 06/09/2022; delegati Catani/Andreoni/Moroni; ricorso Mobilcom datato 18/03/2022
+- [ ] Doc. 5_Visura CCIAA Storica Banca Tercas S.p.A..pdf — 454 KB, da leggere
+- [ ] Doc. 6_Visura CCIAA Banca Popolare di Bari SpA.pdf — 517 KB, da leggere
 
 ---
 
