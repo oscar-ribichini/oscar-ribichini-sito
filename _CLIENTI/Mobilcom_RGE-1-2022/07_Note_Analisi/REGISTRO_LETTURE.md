@@ -37,6 +37,7 @@ Regola: aggiornare questo file ogni volta che si legge un nuovo documento.
 
 ### 03_Cessioni_Credito (continua)
 - [x] 07_Notifica_cessione_S3_DEX.pdf — notifica formale cessione S3→DEX e messa in mora Mobilcom, Brescia 04/12/2024; cessione datata 08/10/2024; notificata a Mobilcom il 30/12/2024 tramite Tribunale RSM (Convenzione AJA 1965); Amm. Unico DEX Giambarda firma personalmente
+- [x] 09_Raccomandata_Special_Servicer_Sammarinese.pdf — welcome letter S3, San Marino 23/08/2024; indirizzata a Oscar Ribichini come GARANTE (non a Mobilcom); codice cliente 8540-000444410, rapporto sofferenza 02/69/20271-361; comunica cessione BSM→Veicolo con avviso Bollettino Ufficiale RSM 11/12/2023; IBAN pagamenti IT90K0335101600007617289780 (Veicolo/Bank of New York Mellon); messa in mora e atto interruttivo prescrizione
 
 ### 04_Opposizioni_Istanze
 - [x] Nota di deposito del 1.10.25.pdf — DEX deposita il 30/09/2025 in ottemperanza ordinanze G.E. 9.08.2025 e 15.09.2025; conferma eredi Ripa (Brillo Dilva, Ripa Valter, Ripa Alfio, quote 1/18 cad.); DEX incarica Notaio Paola Esposito per trascrizione accettazione tacita eredità — tentativo di sanare il vizio Ripa, risultato insufficiente (G.E. ordina di nuovo ad aprile 2026); DATO NUOVO: esiste ordinanza G.E. del 15/09/2025 (terza, non conosciuta prima)
@@ -80,14 +81,14 @@ Regola: aggiornare questo file ogni volta che si legge un nuovo documento.
 - [ ] G.E. Ord. pec 23.4.26..txt — già letto in sessione precedente
 - [x] Istanza al G.E.pdf — DEX ist. n.10 dep. 15/09/2025; chiede vendita parziale escludendo sub 6 e sub 10 (vizio Ripa); rivela quarto erede Carboni Gabriella nell'atto Notaio Testa 09/02/2006; conferma terza ordinanza G.E. 15/09/2025; notaio Testa ha cessato l'attività
 - [ ] istanza ribichini.pdf — da verificare se è la patente (già eliminata in sessione precedente) o altro
-- [ ] istanza ribichini oscar.pdf — 215 KB, da leggere
+- [x] istanza ribichini oscar.pdf — ESTRANEO al caso Mobilcom; istanza al G.d.P. Macerata R.G. 3910/25, Avv. Persichini per Oscar Ribichini, opposizione revoca patente guida; da eliminare dalla cartella
 - [x] Istanza sollec. rilievi officiosi ultima modificata e integrata.pdf — già registrato sopra
 - [ ] Istanza sollecitazione rilievi officiosi e sospensione immediata esecuzione. (2).pdf — 222 KB, versione precedente dell'istanza letta
 - [ ] Istanza sollecitazione rilievi officiosi e sospensione immediata esecuzione..doc — 204 KB
 - [x] Attestazione conformità (esecuzioni).pdf — Avv. Catani 03/01/2022; attesta conformità Titolo (20 pp), precetto (7 pp), pignoramento del 5/11/2021 notificato 03/12/2021 (7 pp)
 - [x] Attestazione conformità certificazione 567 cpc.pdf — Avv. Catani 08/03/2022; attesta conformità certificazione Notaio Lorenzoni 03/03/2022 (8 pp)
 - [x] Avviso 498 cpc.pdf — avviso 08/03/2022 a Tercas/BPB (unico creditore ipotecario noto); ipoteca giudiziale 23/01/2006 n.227 €50.000 sull'usufrutto di sub 3 e sub 9 (Marinelli); credito BSM €499.659,91
-- [ ] Certificazione 567 cpc - BSM_Mobilcom.pdf — 338 KB, da leggere
+- [x] Certificazione 567 cpc - BSM_Mobilcom.pdf — relazione notarile sostitutiva art. 567 c.p.c., Notaio Lorenzoni Pesaro 03/03/2022; descrive cronistoria ventennio per tutti 12 immobili; DATO CRITICO: per E,F,G il notaio afferma ricongiungimento usufrutto avvenuto per scioglimento Ribichini Gino & C. ma senza trascrizione in Conservatoria (solo catasto) — punto esatto contestato dal G.E.; per H,I,L segnala esplicitamente "non risultano trascritte accettazioni di eredità Ripa Franco"; formalità pregiudizievoli: 2 pign. Stiltecno su usufrutto Marinelli (2007-2008), 2 pign. Cassa Risparmio Ascoli su Mobilcom/Ribichini Gino (2008-2010), 1 domanda giudiziale simulazione Banca Marche vs Le Carrè (2008), 1 pign. BSM (2022); ipoteca Tercas su usufrutto Marinelli €50.000 (2006)
 - [x] Nota deposito avviso 498 cpc.pdf — nota deposito 08/03/2022; deposita avviso 498 (.p7m), PEC notifica, ricevute, visure CCIAA Tercas e BPB
 - [x] Nota deposito documenti 08.03.22.pdf — stessa del precedente (deposita certificazione Notaio Lorenzoni)
 
