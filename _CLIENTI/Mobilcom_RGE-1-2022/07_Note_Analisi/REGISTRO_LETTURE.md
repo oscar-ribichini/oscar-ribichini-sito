@@ -35,7 +35,12 @@ Regola: aggiornare questo file ogni volta che si legge un nuovo documento.
 - [x] Procura Dex  Moblcom.pdf — procura DEX→Avv. Franceschetti, 04/12/2024
 - [x] Atto di intervento DEX srl.pdf — atto intervento DEX nella procedura
 
+### 03_Cessioni_Credito (continua)
+- [x] 07_Notifica_cessione_S3_DEX.pdf — notifica formale cessione S3→DEX e messa in mora Mobilcom, Brescia 04/12/2024; cessione datata 08/10/2024; notificata a Mobilcom il 30/12/2024 tramite Tribunale RSM (Convenzione AJA 1965); Amm. Unico DEX Giambarda firma personalmente
+
 ### 04_Opposizioni_Istanze
+- [x] Nota di deposito del 1.10.25.pdf — DEX deposita il 30/09/2025 in ottemperanza ordinanze G.E. 9.08.2025 e 15.09.2025; conferma eredi Ripa (Brillo Dilva, Ripa Valter, Ripa Alfio, quote 1/18 cad.); DEX incarica Notaio Paola Esposito per trascrizione accettazione tacita eredità — tentativo di sanare il vizio Ripa, risultato insufficiente (G.E. ordina di nuovo ad aprile 2026); DATO NUOVO: esiste ordinanza G.E. del 15/09/2025 (terza, non conosciuta prima)
+- [x] Istanza sollec. rilievi officiosi ultima modificata e integrata.pdf — istanza Avv. Di Salvatore del 11/05/2026; la più recente e completa; chiede improcedibilità + sospensione + restituzione beni e canoni; chiede revoca ordinanza rigetto del 01/01/2026 (non 14/05/2026 — data corretta del rigetto precedente); argomento tecnico: Cass. 7243/2024 applicata dal G.E. riguarda sub-servicer ex L.130/1999, non cessione ordinaria ex art. 1260 c.c.; aggiunge sub 3 e sub 9 (foglio 11, part. 864) alla lista immobili con problema usufrutto (usufrutto Marinelli Giuseppina)
 - [x] 29193511s.pdf — decreto fissazione udienza 615 c.p.c., G.E. Pannaggi 25/03/2022
 - [x] Rigetto G.E. istanza di estinzione.pdf — rigetto tesi 106 TUB, 14/05/2026
 - [x] G.E. Ord. pec 23.4.26..txt — ordinanza 22/04/2026 Di Gennaro: motivazione completa vizio continuità trascrizioni, cita art. 2648-2650 c.c. e Cass. 11638/2014, ordina relazione notarile integrativa entro 20 gg, sospende decreto di trasferimento
