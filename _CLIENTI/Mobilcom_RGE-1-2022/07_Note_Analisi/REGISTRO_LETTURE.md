@@ -105,11 +105,9 @@ Regola: aggiornare questo file ogni volta che si legge un nuovo documento.
 ---
 
 ## FILE_DA_LEGGERE (cartella separata — .p7m da estrarre prima)
-- [ ] opposizione esecuzione TR MACERATA.pdf.p7m — PRIORITÀ MASSIMA
-- [ ] Relata.pdf.p7m
+- [x] opposizione esecuzione TR MACERATA.pdf — LETTO 18/05/2026 — ricorso 615 II comma c.p.c. del 18/03/2022, Avv. Francesca Greblo (Trieste); argomenti: nullità tasso per indeterminatezza (piano francese, regime capitalizzazione non indicato), ricalcolo al tasso legale, imputazione pagamenti; alla data risoluzione 20/02/2015 perizia Giansalvo calcola credito Mobilcom €3.065,58 (diritto italiano) o €6.630,49 (diritto sammarinese); istanza sospensiva inaudita altera parte negata; tutti questi argomenti RIGETTATI 07/11/2022 — BINARIO MORTO CONFERMATO
+- [x] Relata.pdf — relazione di notifica dell'opposizione via PEC ai tre avvocati BSM, 18/03/2022 — documento formale
 
-## FILE_GRANDI_DA_LEGGERE (cartella separata — incollare testo manualmente)
-- [ ] 08_Contratto_cessione_credito_S3_DEX.pdf — 19,3 MB
-- [ ] atto cessione di credito.pdf — 19,3 MB (probabile duplicato)
-- [ ] doc-_6_Comunicazioni_di_cessione_del_credito.pdf — 9,6 MB
-- [ ] Doc.1) Atto di cessione.pdf — 9 MB
+## FILE_GRANDI_DA_LEGGERE (cartella separata — leggere in sessione separata o dopo OCR)
+- [ ] 08_Contratto_cessione_credito_S3_DEX.pdf — 19,3 MB — scansionato 81 pp — leggere in sessione separata
+- [ ] doc-_6_Comunicazioni_di_cessione_del_credito.pdf — 9,6 MB — leggere in sessione separata
