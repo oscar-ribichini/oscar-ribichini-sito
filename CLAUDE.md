@@ -223,6 +223,24 @@ Dopo aver validato un prodotto in italiano, tradurlo in spagnolo è la mossa suc
 - Costo marginale basso: il prodotto è già creato, serve solo la traduzione
 - Sequenza: Italia prima → validare che vende → tradurre in spagnolo → lanciare
 
+## Riunione Quantum + Allianz (17/05/2026)
+
+Riunione con Massimo Pichetti e referenti Allianz (Andrea Licata, Fabio Guerra).
+Documento completo: QUANTUM\Riunioni\2026-05-17_Riunione_Quantum_Allianz.md
+
+Punti chiave emersi:
+- ESG: i soci devono deliberare se offrire certificazione bilanci ESG
+- Allianz: nuovi servizi assicurativi da integrare (materiale digitale in arrivo)
+- Coperture assicurative personalizzate per settore — priorità Oscar: biogas/biometano
+- Nuovo servizio paghe automatizzato (vs consulenti del lavoro tradizionali)
+- Modello svizzero: Pichetti invia documento di riferimento strutturale
+- Da costruire: template domande per ogni servizio, analisi costi fissi aziendali, matrice servizi-bisogni
+
+Contatti Allianz:
+- Andrea Licata: 340 9727302 | andrea.licata77@gmail.com
+- Fabio Guerra: 393 9005613
+- Mail aziendale: 029.roma@ageallianz.it
+
 ## Priorità attuale
 
 1. Completare la grafica del kit welfare (logo + colori + PDF) → primo prodotto da vendere
@@ -230,6 +248,7 @@ Dopo aver validato un prodotto in italiano, tradurlo in spagnolo è la mossa suc
 3. Attivare alert gare d'appalto su FareAppalti o Banchedati.biz
 4. Avviare la fase commerciale quando il sito Quantum sarà online
 5. Creare i prossimi prodotti digitali (Template Bandi, Kit Social Media)
+6. Ricevere materiale Allianz e modello svizzero da Pichetti → integrare nel portfolio
 
 ## Struttura cartelle
 
