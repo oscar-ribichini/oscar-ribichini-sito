@@ -108,6 +108,6 @@ Regola: aggiornare questo file ogni volta che si legge un nuovo documento.
 - [x] opposizione esecuzione TR MACERATA.pdf — LETTO 18/05/2026 — ricorso 615 II comma c.p.c. del 18/03/2022, Avv. Francesca Greblo (Trieste); argomenti: nullità tasso per indeterminatezza (piano francese, regime capitalizzazione non indicato), ricalcolo al tasso legale, imputazione pagamenti; alla data risoluzione 20/02/2015 perizia Giansalvo calcola credito Mobilcom €3.065,58 (diritto italiano) o €6.630,49 (diritto sammarinese); istanza sospensiva inaudita altera parte negata; tutti questi argomenti RIGETTATI 07/11/2022 — BINARIO MORTO CONFERMATO
 - [x] Relata.pdf — relazione di notifica dell'opposizione via PEC ai tre avvocati BSM, 18/03/2022 — documento formale
 
-## FILE_GRANDI_DA_LEGGERE (cartella separata — leggere in sessione separata o dopo OCR)
-- [ ] 08_Contratto_cessione_credito_S3_DEX.pdf — 19,3 MB — scansionato 81 pp — leggere in sessione separata
-- [ ] doc-_6_Comunicazioni_di_cessione_del_credito.pdf — 9,6 MB — leggere in sessione separata
+## FILE_GRANDI_DA_LEGGERE (cartella separata)
+- [x] 08_Contratto_cessione_credito_S3_DEX.pdf — 19,3 MB — LETTO in sessione separata 18/05/2026; proposta DEX 30/09/2024, accettazione S3 02/10/2024, vera notarile 06/12/2024 Notaio Esposito; GBV Mobilcom €991.320,06, prezzo €325.144; condizione sospensiva art.2.3: pagamento €1.570.000 entro 10 gg; annotazione ipotecaria scaduta 31/10/2024 (verificare se avvenuta); pro-soluto assoluto; cap indennizzo €325.144
+- [ ] doc-_6_Comunicazioni_di_cessione_del_credito.pdf — 9,6 MB — da leggere
