@@ -109,8 +109,31 @@ L'atto di pignoramento del 05/11/2021, la nota di iscrizione a ruolo del 03/01/2
 
 ---
 
-### VIZIO D — Usufrutto Ribichini Gino & C. S.n.c. non trascritto come estinto
-**Livello: ALTO — Lo stesso meccanismo del Vizio A, stesso articolo di legge**
+### VIZIO D — Sub 16: catena proprietaria ASSENTE dai registri immobiliari
+**Livello: GRAVISSIMO — Scoperto con ispezione ipotecaria del 18/05/2026**
+
+**I fatti:**
+L'ispezione ipotecaria del 18/05/2026 sul sub 16 (foglio 11, particella 864) ha rivelato che in Conservatoria di Macerata esistono **solo 2 formalità**:
+1. Ipoteca volontaria BSM del 07/12/2011 (Reg. Gen. 17004) — con annotazione cessione del 06/11/2024
+2. Verbale di pignoramento del 08/02/2022
+
+**Nient'altro.** Non risulta trascritta nessuna compravendita — né l'acquisto di Oscar da Ribichini Gino & C. (2003), né la vendita a Le Carrè (2005), né l'acquisto di Mobilcom (2007). Non risulta alcun atto di usufrutto di Ribichini Gino & C. Non risulta alcun ricongiungimento.
+
+BSM ha iscritto un'ipoteca nel 2011 e pignorato nel 2022 un immobile per cui non esiste in Conservatoria alcuna catena di provenienza trascritta. Mobilcom non risulta proprietaria del sub 16 nei registri immobiliari — eppure BSM ha ipotecato e pignorato come se lo fosse.
+
+**Il vizio:** l'ipoteca BSM e il pignoramento sono stati eseguiti su un immobile la cui titolarità in capo a Mobilcom non è mai stata trascritta. Ex art. 2650 c.c. le trascrizioni successive a favore di chi non ha trascritto il proprio acquisto non producono effetto. L'intera procedura esecutiva sul sub 16 è priva di base nei registri immobiliari.
+
+**Norma:** artt. 2643, 2648, 2650 c.c.
+
+**CODE DA FARE:**
+- [ ] **URGENTE:** comunicare a Di Salvatore — è il vizio più grave trovato finora
+- [ ] Verificare se la situazione è identica per sub 17 e part. 1237 (ispezioni già pagate, da leggere)
+- [ ] Chiedere all'avvocato: come è possibile che il notaio Lorenzoni nella relazione 567 del 2022 abbia certificato la catena senza rilevare l'assenza di trascrizioni in Conservatoria?
+
+---
+
+### VIZIO D-BIS — Usufrutto Ribichini Gino & C. S.n.c. non trascritto come estinto
+**Livello: ALTO — Assorbito dal Vizio D ma da mantenere come argomento autonomo**
 
 **I fatti:**
 Con atto Moscetta del 14/02/2003, Oscar Ribichini acquista la nuda proprietà di sub 16, sub 17 e particella 1237 da Ribichini Gino & C. S.n.c. — la quale si riserva un usufrutto trentennale, valido fino al 14/02/2033.
