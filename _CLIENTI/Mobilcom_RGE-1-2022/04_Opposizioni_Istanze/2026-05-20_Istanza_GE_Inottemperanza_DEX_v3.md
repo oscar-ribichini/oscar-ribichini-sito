@@ -40,7 +40,7 @@ Le questioni sono:
 2. **La legittimazione di DEX alla procedura**: DEX non ha mai provato di aver pagato il prezzo della cessione — condizione sospensiva contrattuale per il perfezionamento del trasferimento del credito.
 3. **Il problema TUB e special servicer**: la questione della mancata iscrizione di DEX agli albi ex art. 106 TUB non e' stata correttamente valutata alla luce della distinzione tra cessione ordinaria e operazione di cartolarizzazione.
 4. **La catena proprietaria interrotta**: lo scioglimento di Ribichini Gino & C. S.n.c. nel 2005 non risulta trascritto in Conservatoria come ricongiungimento del diritto di usufrutto; il sub 16 non ha alcuna catena proprietaria trascritta; sub 3 e sub 9 non hanno il consolidamento dell'usufrutto Marinelli verificato e trascritto; durante la procedura e' stata effettuata una variazione catastale sull'immobile pignorato senza autorizzazione di questo G.E.
-5. **Profili di incoerenza procedurale**: due rigetti di istanze legittime in circostanze che questa difesa e' tenuta a sottoporre all'attenzione di questo G.E. e degli organi di controllo.
+5. **Profili di incoerenza procedurale e di rappresentanza**: due rigetti di istanze legittime emessi in circostanze anomale; il precedente giurisprudenziale citato dal G.E. per il rigetto del 14/05/2026 non e' pertinente alla fattispecie; il difensore di DEX e' contestualmente socio al 10% della medesima — circostanza che solleva una questione autonoma di rappresentanza processuale.
 
 ---
 
@@ -271,6 +271,10 @@ La parte istante si riserva di valutare le segnalazioni agli organi competenti i
 La presente avvertenza e' formulata con il massimo rispetto verso questo G.E. e viene comunicata preventivamente per dovere di trasparenza e correttezza processuale.
 
 ---
+
+**Riserva sul vizio del titolo esecutivo**
+
+La difesa si riserva espressamente di sollevare in separata sede il vizio relativo al titolo esecutivo sammarinese: il decreto di esecutorietà del 05/10/2018 (R.G. 2137/2018) risulta firmato dal dr. L. Reale nella qualità di giudice delegato, mentre l'art. 9 della Convenzione Italia-San Marino del 1939 (L. 1320/1939) richiede espressamente un decreto del **Presidente del Tribunale**. Tale vizio non è stato sollevato nell'opposizione ex art. 615 c.p.c. del 2022 e non è pertanto coperto dal giudicato. La difesa si riserva di proporre opposizione ex art. 615 c.p.c. su questo motivo autonomo nei termini di legge.
 
 Con osservanza,
 
