@@ -56,6 +56,8 @@ Con **provvedimento del 15/09/2025** il G.E. ha reiterato la richiesta. DEX ha d
 
 Con **ordinanza del 22/04/2026** il G.E. ha ordinato per la terza volta la relazione notarile integrativa, questa volta entro **20 giorni** dalla comunicazione, con esplicito richiamo agli artt. 2648 e 2650 c.c. e alla Cass. n. 11638/2014, disponendo la sospensione del decreto di trasferimento già emesso.
 
+Va altresi' segnalato che l'asta del Lotto 1 (sub 2, sub 6 e sub 10) fissata per il **21/01/2026** e' andata **deserta** — circostanza che conferma come il vizio di continuita' delle trascrizioni, gia' noto al momento della vendita, abbia reso l'immobile incollocabile sul mercato.
+
 Il termine era **il 12 maggio 2026**.
 
 ### II.2 — Il deposito DEX del 13/05/2026: cinque vizi autonomi
@@ -118,13 +120,23 @@ La scadenza per l'opposizione ex art. 617 c.p.c. avverso il rigetto del 14/05/20
 
 Il contratto di cessione tra S3 — Special Servicer Sammarinese S.r.l. (in qualita' di mandataria di IGRC S.p.A., Master Servicer di Veicolo di Sistema S.r.l.) e DEX S.r.l., proposta del 30/09/2024 e accettazione del 02/10/2024 (atto Notaio Paola Esposito del 06/12/2024), prevede all'art. 2.3 che il trasferimento del credito e' efficace esclusivamente se DEX corrisponde l'intero prezzo di 1.570.000 euro entro 10 giorni lavorativi dalla firma di S3. L'art. 2.4 stabilisce espressamente che in assenza di tale pagamento il contratto si intende non perfezionato. Si tratta di una condizione sospensiva ai sensi dell'art. 1353 c.c.: fino al suo avveramento — cioe' fino alla prova dell'avvenuto pagamento — il contratto non produce effetti e la cessione del credito non si e' perfezionata.
 
-### IV.2 — Nessuna prova del pagamento negli atti
+Si rappresenta a questo G.E. un dato oggettivo che aggrava ulteriormente il quadro: DEX S.r.l. e' stata costituita il 31/05/2024 con un capitale sociale di euro 2.500. Quattro mesi dopo la sua costituzione avrebbe dovuto corrispondere, entro 10 giorni lavorativi, la somma di euro 1.570.000. L'assoluta sproporzione tra il capitale sociale della societa' e l'importo che avrebbe dovuto versare rende ancora piu' urgente e necessaria la produzione della prova documentale del pagamento.
+
+### IV.2 — Annotazione ipotecaria effettuata in ritardo: opponibilita' della cessione ai terzi compromessa
+
+L'art. 4.1 del contratto S3-DEX imponeva a S3 di annotare la cessione BSM-Veicolo di Sistema a margine delle iscrizioni ipotecarie italiane entro il **31/10/2024**. Dalle ispezioni ipotecarie del 18/05/2026 risulta che tale annotazione e' avvenuta il **06/11/2024** — con un ritardo di 6 giorni rispetto al termine contrattuale. L'annotazione tardiva incide sull'opponibilita' della cessione ai terzi per il periodo intercorrente tra la scadenza e l'effettiva annotazione. Tra i terzi figura il debitore esecutato, che ha titolo a eccepire la mancata regolare pubblicita' della cessione nei termini pattuiti.
+
+### IV.3 — Mancata notifica della cessione a Mobilcom RSM
+
+L'avviso di cessione spedito il 12/09/2024 a Mobilcom S.r.l. presso la sede legale di Via Ranco Mauro 10, Dogana (RSM), e' tornato al mittente come "irreperibile" il 25/09/2024. Il debitore principale — Mobilcom S.r.l. — non ha mai ricevuto formalmente la comunicazione della cessione del credito. La pubblicazione sul Bollettino Ufficiale della Repubblica di San Marino dell'11/12/2023 ha prodotto effetti erga omnes per la cessione BSM-Veicolo, ma la mancata notifica personale a Mobilcom della successiva cessione S3-DEX costituisce un'irregolarita' procedurale che questa difesa sottopone all'attenzione di questo G.E.
+
+### IV.4 — Nessuna prova del pagamento negli atti
 
 Ad oggi nessun documento depositato nel fascicolo della procedura prova che DEX abbia effettuato il pagamento di 1.570.000 euro. Non un bonifico. Non un estratto conto. Non una quietanza. Non una dichiarazione notarile di avvenuto pagamento.
 
 In assenza della prova dell'adempimento della condizione sospensiva, il contratto non si e' perfezionato ai sensi dell'art. 2.4 e DEX non e' mai diventata cessionaria del credito. Una societa' che non e' titolare del credito non ha legittimazione ad intervenire nella procedura esecutiva, ne' a richiedere atti esecutivi, ne' a depositare istanze.
 
-### IV.3 — La richiesta
+### IV.5 — La richiesta
 
 Si chiede a questo G.E. di ordinare a DEX di produrre, entro termine perentorio di 10 giorni, la prova documentale del pagamento del prezzo di 1.570.000 euro (bonifico bancario con valuta, estratto conto o quietanza notarile). In assenza di tale prova, si chiede la dichiarazione di difetto di legittimazione di DEX e la cancellazione di tutte le istanze da essa depositate.
 
