@@ -102,19 +102,19 @@ Brillo Dilva (nata il 19/08/1930, 95 anni) risulta allettata e in condizioni di 
 
 Il G.E. ha rigettato un'istanza dell'esecutata del 06/11/2025 con provvedimento datato 01/01/2026, emesso mentre il vizio di continuita' delle trascrizioni — rilevato dallo stesso G.E. con ordinanza del 09/08/2025 — non era ancora sanato da DEX. La coesistenza di un inadempimento accertato del creditore procedente con il rigetto di una istanza dell'esecutata costituisce un profilo di incoerenza procedurale che questa difesa sottopone all'attenzione di questo G.E.
 
-### III.2 — Il rigetto del 14/05/2026 sulla questione art. 106 TUB
+### III.2 — Il rigetto del 14/05/2026: incoerenza temporale
 
-Con provvedimento del 14/05/2026 il G.E. ha rigettato la tesi secondo cui DEX non puo' operare come cessionaria di crediti bancari in sofferenza senza iscrizione all'albo ex art. 106 TUB, richiamando Cass. n. 7243/2024.
+Con provvedimento del 14/05/2026 il G.E. ha rigettato la tesi secondo cui DEX non puo' operare senza iscrizione all'albo ex art. 106 TUB, richiamando Cass. n. 7243/2024. Tale rigetto e' stato emesso il giorno successivo al deposito di DEX del 13/05/2026 (ist. n. 15) — deposito che, come illustrato alla Sez. II, e' affetto da cinque vizi autonomi tra cui la tardivita' e il riferimento a un provvedimento inesistente. Il G.E. ha dunque rigettato un'istanza legittima della difesa nell'immediatezza di un deposito palesemente invalido del creditore procedente, senza che i vizi di quest'ultimo fossero ancora stati rilevati. Questa sovrapposizione temporale aggrava il profilo di incoerenza gia' descritto al punto III.1.
 
-Va rilevato un profilo temporale di particolare rilievo: il rigetto del 14/05/2026 e' stato emesso il giorno successivo al deposito di DEX del 13/05/2026 (ist. n. 15) — deposito che, come illustrato alla Sez. II, e' affetto da cinque vizi autonomi tra cui la tardivita' e il riferimento a un provvedimento inesistente. Il G.E. ha dunque rigettato un'istanza legittima della difesa nell'immediatezza di un deposito palesemente invalido del creditore procedente, senza che i vizi di quest'ultimo fossero ancora stati rilevati. Questa sovrapposizione temporale aggrava ulteriormente il profilo di incoerenza procedurale gia' descritto al punto III.1.
+### III.3 — Il merito della questione art. 106 TUB: il precedente citato non si applica
 
-Questa difesa rappresenta rispettosamente che il precedente richiamato riguarda la figura del sub-servicer nelle operazioni di cartolarizzazione disciplinate dalla L. 130/1999 — una fattispecie radicalmente diversa dalla cessione di credito ordinaria ex art. 1260 c.c. Nel caso di specie, DEX acquista il credito a titolo definitivo per 325.144 euro su un nominale di 991.320 euro e agisce come cessionaria proprietaria del credito, non come mero servicer mandatario del cedente. In questa veste, l'esenzione riconosciuta dalla Cassazione ai sub-servicer nelle operazioni ex L. 130/1999 non si applica.
+Questa difesa rappresenta rispettosamente che la Cass. n. 7243/2024 richiamata dal G.E. riguarda la figura del sub-servicer nelle operazioni di cartolarizzazione disciplinate dalla L. 130/1999 — una fattispecie radicalmente diversa dalla cessione di credito ordinaria ex art. 1260 c.c. Nel caso di specie, DEX acquista il credito a titolo definitivo per 325.144 euro su un nominale di 991.320 euro e agisce come cessionaria proprietaria del credito, non come mero servicer mandatario del cedente. In questa veste, l'esenzione riconosciuta dalla Cassazione ai sub-servicer nelle operazioni ex L. 130/1999 non si applica. DEX e' iscritta ex art. 115 TULPS — licenza di pubblica sicurezza per agenzie di recupero crediti — che non abilita all'acquisto e alla gestione in proprio di crediti bancari in sofferenza derivanti da mutui ipotecari, attivita' riservata ai soggetti iscritti all'albo ex art. 106 TUB.
 
-DEX e' iscritta ex art. 115 TULPS — licenza di pubblica sicurezza per agenzie di recupero crediti — che non abilita all'acquisto e alla gestione in proprio di crediti bancari in sofferenza derivanti da mutui ipotecari, attivita' riservata ai soggetti iscritti all'albo ex art. 106 TUB.
+La scadenza per l'opposizione ex art. 617 c.p.c. avverso il rigetto del 14/05/2026 e' il **04/06/2026**. Questo G.E. e' informato che la parte istante intende esercitare tale diritto nei termini.
 
-Va inoltre rilevato che il conflitto di interessi dell'Avv. Franceschetti — socio al 10% di DEX e contestualmente suo difensore in questa procedura — non e' solo un profilo deontologico (segnalato all'VIII.2) ma solleva una questione di rappresentanza processuale: un professionista che ha un interesse economico personale nell'esito del giudizio non e' in condizione di esercitare il mandato difensivo in modo indipendente dai propri interessi patrimoniali. Questa circostanza e' documentata dalla procura alle liti del 04/12/2024 e dalla visura camerale di DEX, ed e' sottoposta all'attenzione di questo G.E. per le valutazioni di competenza.
+### III.4 — Il conflitto di interessi di DEX: questione di rappresentanza processuale
 
-La scadenza per l'opposizione ex art. 617 c.p.c. avverso il rigetto del 14/05/2026 e' il 04/06/2026. Questo G.E. e' informato che la parte istante intende esercitare tale diritto nei termini.
+L'Avv. Enrico Franceschetti e' contestualmente difensore di DEX e socio al 10% della medesima, come documentato dalla procura alle liti del 04/12/2024 e dalla visura camerale. Questa circostanza non e' solo un profilo deontologico — segnalato all'VIII.2 — ma solleva una questione autonoma di rappresentanza processuale: un professionista che ha un interesse economico personale diretto nell'esito del giudizio non e' strutturalmente in condizione di esercitare il mandato difensivo in modo indipendente dai propri interessi patrimoniali. La circostanza e' documentata agli atti e viene sottoposta all'attenzione di questo G.E. per le valutazioni di competenza.
 
 ---
 
@@ -128,7 +128,9 @@ Si rappresenta a questo G.E. un dato oggettivo che aggrava ulteriormente il quad
 
 ### IV.2 — Annotazione ipotecaria effettuata in ritardo: opponibilita' della cessione ai terzi compromessa
 
-L'art. 4.1 del contratto S3-DEX imponeva a S3 di annotare la cessione BSM-Veicolo di Sistema a margine delle iscrizioni ipotecarie italiane entro il **31/10/2024**. Dall'ispezione ipotecaria del 18/05/2026 sul sub 6 (Foglio 18, Particella 686, Ispezione n. T34794) risulta che tale annotazione e' avvenuta il **06/11/2024** — con un ritardo di 6 giorni rispetto al termine contrattuale. L'annotazione tardiva incide sull'opponibilita' della cessione ai terzi per il periodo intercorrente tra la scadenza e l'effettiva annotazione. Tra i terzi figura il debitore esecutato, che ha titolo a eccepire la mancata regolare pubblicita' della cessione nei termini pattuiti.
+L'art. 4.1 del contratto S3-DEX imponeva a S3 di annotare la cessione BSM-Veicolo di Sistema a margine delle iscrizioni ipotecarie italiane entro il **31/10/2024**. Dall'ispezione ipotecaria del 18/05/2026 sul sub 6 (Foglio 18, Particella 686, Ispezione n. T34794) risulta che tale annotazione e' avvenuta il **06/11/2024** — con un ritardo di 6 giorni rispetto al termine contrattuale.
+
+Ai sensi dell'art. 2843 c.c., la cessione del credito ipotecario deve essere annotata a margine dell'iscrizione ipotecaria per produrre effetti nei confronti dei terzi. Fino all'annotazione, la cessione e' inopponibile ai terzi che abbiano acquistato diritti sull'immobile o sul credito nel periodo intercorrente. Nel periodo dal 01/11/2024 al 06/11/2024 — sei giorni durante i quali l'annotazione non era ancora stata eseguita — la cessione BSM-Veicolo non era opponibile ai terzi secondo le forme di pubblicita' immobiliare italiana. Tra i terzi legittimati a eccepire questa inopponibilita' figura il debitore esecutato, che ha titolo a contestare la regolarita' della catena di cessioni nei confronti di DEX per il periodo in cui la pubblicita' era carente.
 
 ### IV.3 — Mancata notifica della cessione a Mobilcom RSM
 
@@ -146,7 +148,7 @@ Si chiede a questo G.E. di ordinare a DEX di produrre, entro termine perentorio 
 
 ---
 
-## V. LA CATENA PROPRIETARIA INTERROTTA: RIBICHINI GINO E IL SUB 16
+## V. LA CATENA PROPRIETARIA INTERROTTA: VIZI SU PIU' IMMOBILI
 
 ### V.1 — Lo scioglimento della S.n.c. non risulta trascritto in Conservatoria
 
@@ -234,7 +236,9 @@ Tutto cio' premesso, la parte esecutata Mobilcom S.r.l., come sopra rappresentat
 
 3) Ordinare a DEX di produrre entro termine perentorio di 10 giorni la prova documentale dell'avveramento della condizione sospensiva ex art. 1353 c.c. — ovvero il pagamento del prezzo di 1.570.000 euro previsto dall'art. 2.3 del contratto S3-DEX (bonifico bancario con valuta, estratto conto o quietanza notarile) — e, in assenza di tale prova, dichiarare il difetto di legittimazione di DEX con cancellazione di tutte le istanze da essa depositate.
 
-4) Disporre d'ufficio gli accertamenti integrativi sulla relazione notarile ex art. 567 c.p.c. con riferimento al sub 16 (Foglio 11, Particella 864), stante l'assenza totale di catena proprietaria trascritta in Conservatoria e lo scioglimento di Ribichini Gino & C. S.n.c. mai formalizzato in Conservatoria come ricongiungimento del diritto di usufrutto, e sospendere qualsiasi atto esecutivo sul Lotto 3 fino all'esito di tali accertamenti; estendere i medesimi accertamenti integrativi a sub 3 e sub 9 (Foglio 11, Particella 864), per i quali il consolidamento dell'usufrutto gia' spettante a Marinelli Giuseppina non risulta verificato ne' trascritto, come confermato dalla stessa relazione notarile agli atti.
+4) Disporre d'ufficio gli accertamenti integrativi sulla relazione notarile ex art. 567 c.p.c. con riferimento al sub 16 (Foglio 11, Particella 864), stante l'assenza totale di catena proprietaria trascritta in Conservatoria e lo scioglimento di Ribichini Gino & C. S.n.c. mai formalizzato in Conservatoria come ricongiungimento del diritto di usufrutto, e sospendere qualsiasi atto esecutivo sul Lotto 3 fino all'esito di tali accertamenti.
+
+4-bis) Estendere i medesimi accertamenti integrativi a sub 3 e sub 9 (Foglio 11, Particella 864), per i quali il consolidamento dell'usufrutto gia' spettante a Marinelli Giuseppina non risulta verificato ne' trascritto in Conservatoria, come confermato dalla stessa relazione notarile ex art. 567 c.p.c. depositata agli atti, e sospendere qualsiasi atto esecutivo su detti sub fino all'esito di tali accertamenti.
 
 5) Accertare chi abbia presentato la variazione catastale del 26/05/2022 (pratica MC0065185) sul sub 16 pignorato, verificare se tale modifica sia stata autorizzata da questo G.E. ai sensi dell'art. 560 c.p.c., e adottare i conseguenti provvedimenti.
 
@@ -250,7 +254,7 @@ Tutto cio' premesso, la parte esecutata Mobilcom S.r.l., come sopra rappresentat
 
 ## VIII. AVVERTENZA AGLI ORGANI DI VIGILANZA
 
-Qualora la presente istanza non trovi accoglimento e la procedura dovesse proseguire nonostante i vizi documentalmente provati, la parte istante si vedra' costretta a segnalare le irregolarita' agli organi competenti:
+La parte istante si riserva di valutare le segnalazioni agli organi competenti indipendentemente dall'esito della presente istanza, in ragione della gravita' dei vizi documentalmente provati. Gli organi che potrebbero essere interessati sono:
 
 1. Procura della Repubblica di Macerata — per valutazione di eventuali profili penali relativi alla trascrizione del 13/05/2026 a nome di Brillo Dilva (nata il 19/08/1930, 95 anni, allettata e in condizioni di salute gravemente compromesse), atto richiesto dall'Avv. Franceschetti contestualmente socio al 10% di DEX, con possibile configurazione di falsita' ideologica in atto pubblico (art. 479 c.p.) e truffa processuale (art. 374 c.p.).
 
