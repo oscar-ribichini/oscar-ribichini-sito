@@ -39,7 +39,7 @@ Le questioni sono:
 1. **L'inottemperanza consumata di DEX**: il deposito del 13/05/2026 e' tardivo, errato nell'anno, incompleto nei soggetti e logicamente infondato nel metodo.
 2. **La legittimazione di DEX alla procedura**: DEX non ha mai provato di aver pagato il prezzo della cessione — condizione sospensiva contrattuale per il perfezionamento del trasferimento del credito.
 3. **Il problema TUB e special servicer**: la questione della mancata iscrizione di DEX agli albi ex art. 106 TUB non e' stata correttamente valutata alla luce della distinzione tra cessione ordinaria e operazione di cartolarizzazione.
-4. **La catena proprietaria interrotta**: la successione mortis causa di Ribichini Gino & C. S.n.c. non e' mai stata esaminata, il sub 16 non ha catena di trascrizioni in Conservatoria, e durante la procedura e' stata effettuata una variazione catastale sull'immobile pignorato senza autorizzazione di questo G.E.
+4. **La catena proprietaria interrotta**: lo scioglimento di Ribichini Gino & C. S.n.c. nel 2005 non risulta trascritto in Conservatoria come ricongiungimento del diritto di usufrutto; il sub 16 non ha alcuna catena proprietaria trascritta; sub 3 e sub 9 non hanno il consolidamento dell'usufrutto Marinelli verificato e trascritto; durante la procedura e' stata effettuata una variazione catastale sull'immobile pignorato senza autorizzazione di questo G.E.
 5. **Profili di incoerenza procedurale**: due rigetti di istanze legittime in circostanze che questa difesa e' tenuta a sottoporre all'attenzione di questo G.E. e degli organi di controllo.
 
 ---
@@ -56,7 +56,7 @@ Con **provvedimento del 15/09/2025** il G.E. ha reiterato la richiesta. DEX ha d
 
 Con **ordinanza del 22/04/2026** il G.E. ha ordinato per la terza volta la relazione notarile integrativa, questa volta entro **20 giorni** dalla comunicazione, con esplicito richiamo agli artt. 2648 e 2650 c.c. e alla Cass. n. 11638/2014, disponendo la sospensione del decreto di trasferimento già emesso.
 
-Va altresi' segnalato che l'asta del Lotto 1 (sub 2, sub 6 e sub 10) fissata per il **21/01/2026** e' andata **deserta** — circostanza che conferma come il vizio di continuita' delle trascrizioni, gia' noto al momento della vendita, abbia reso l'immobile incollocabile sul mercato.
+Va altresi' segnalato che l'asta del Lotto 1 (sub 2, sub 6 e sub 10) fissata per il **21/01/2026** e' andata **deserta** — circostanza che dimostra come i vizi che gravano sul Lotto 1 lo rendano incollocabile sul mercato, indipendentemente dal prezzo base.
 
 Il termine era **il 12 maggio 2026**.
 
@@ -106,6 +106,8 @@ Il G.E. ha rigettato un'istanza dell'esecutata del 06/11/2025 con provvedimento 
 
 Con provvedimento del 14/05/2026 il G.E. ha rigettato la tesi secondo cui DEX non puo' operare come cessionaria di crediti bancari in sofferenza senza iscrizione all'albo ex art. 106 TUB, richiamando Cass. n. 7243/2024.
 
+Va rilevato un profilo temporale di particolare rilievo: il rigetto del 14/05/2026 e' stato emesso il giorno successivo al deposito di DEX del 13/05/2026 (ist. n. 15) — deposito che, come illustrato alla Sez. II, e' affetto da cinque vizi autonomi tra cui la tardivita' e il riferimento a un provvedimento inesistente. Il G.E. ha dunque rigettato un'istanza legittima della difesa nell'immediatezza di un deposito palesemente invalido del creditore procedente, senza che i vizi di quest'ultimo fossero ancora stati rilevati. Questa sovrapposizione temporale aggrava ulteriormente il profilo di incoerenza procedurale gia' descritto al punto III.1.
+
 Questa difesa rappresenta rispettosamente che il precedente richiamato riguarda la figura del sub-servicer nelle operazioni di cartolarizzazione disciplinate dalla L. 130/1999 — una fattispecie radicalmente diversa dalla cessione di credito ordinaria ex art. 1260 c.c. Nel caso di specie, DEX acquista il credito a titolo definitivo per 325.144 euro su un nominale di 991.320 euro e agisce come cessionaria proprietaria del credito, non come mero servicer mandatario del cedente. In questa veste, l'esenzione riconosciuta dalla Cassazione ai sub-servicer nelle operazioni ex L. 130/1999 non si applica.
 
 DEX e' iscritta ex art. 115 TULPS — licenza di pubblica sicurezza per agenzie di recupero crediti — che non abilita all'acquisto e alla gestione in proprio di crediti bancari in sofferenza derivanti da mutui ipotecari, attivita' riservata ai soggetti iscritti all'albo ex art. 106 TUB.
@@ -124,7 +126,7 @@ Si rappresenta a questo G.E. un dato oggettivo che aggrava ulteriormente il quad
 
 ### IV.2 — Annotazione ipotecaria effettuata in ritardo: opponibilita' della cessione ai terzi compromessa
 
-L'art. 4.1 del contratto S3-DEX imponeva a S3 di annotare la cessione BSM-Veicolo di Sistema a margine delle iscrizioni ipotecarie italiane entro il **31/10/2024**. Dalle ispezioni ipotecarie del 18/05/2026 risulta che tale annotazione e' avvenuta il **06/11/2024** — con un ritardo di 6 giorni rispetto al termine contrattuale. L'annotazione tardiva incide sull'opponibilita' della cessione ai terzi per il periodo intercorrente tra la scadenza e l'effettiva annotazione. Tra i terzi figura il debitore esecutato, che ha titolo a eccepire la mancata regolare pubblicita' della cessione nei termini pattuiti.
+L'art. 4.1 del contratto S3-DEX imponeva a S3 di annotare la cessione BSM-Veicolo di Sistema a margine delle iscrizioni ipotecarie italiane entro il **31/10/2024**. Dall'ispezione ipotecaria del 18/05/2026 sul sub 6 (Foglio 18, Particella 686, Ispezione n. T34794) risulta che tale annotazione e' avvenuta il **06/11/2024** — con un ritardo di 6 giorni rispetto al termine contrattuale. L'annotazione tardiva incide sull'opponibilita' della cessione ai terzi per il periodo intercorrente tra la scadenza e l'effettiva annotazione. Tra i terzi figura il debitore esecutato, che ha titolo a eccepire la mancata regolare pubblicita' della cessione nei termini pattuiti.
 
 ### IV.3 — Mancata notifica della cessione a Mobilcom RSM
 
@@ -150,7 +152,7 @@ Gli immobili oggetto della procedura provengono originariamente da Ribichini Gin
 
 La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni (03/03/2022) afferma che il ricongiungimento di usufrutto e nuda proprieta' e' avvenuto per scioglimento della S.n.c. nel 2005 — ma questa affermazione si fonda esclusivamente su visure catastali, che non hanno valore di pubblicita' immobiliare e non sono opponibili ai terzi. In Conservatoria non risulta trascritto alcun atto di scioglimento della S.n.c., ne' alcuna voltura che trasferisca i diritti della S.n.c. a Mobilcom.
 
-La questione della successione mortis causa non e' mai stata esaminata: quando Ribichini Gino (padre di Oscar) e' deceduto, i diritti della S.n.c. avrebbero dovuto essere liquidati con le formalita' di legge e le relative trascrizioni effettuate in Conservatoria. La mancanza di qualunque atto trascritto rende impossibile verificare come e quando Mobilcom sia diventata piena proprietaria degli immobili gravati dall'usufrutto.
+Dalla relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni (03/03/2022) risulta che Ribichini Gino & C. S.n.c. si e' sciolta per atto del Notaio Cerreto del 02/12/2005, e che a seguito di tale scioglimento il catasto avrebbe registrato il ricongiungimento dell'usufrutto con la nuda proprieta' (voltura n. 9711.1/2006, pratica MC0114516, in atti dal 24/10/2006). Tuttavia il notaio Lorenzoni precisa esplicitamente che questa conclusione si fonda sulle visure catastali — non su una trascrizione in Conservatoria. In Conservatoria non risulta trascritto alcun atto di scioglimento della S.n.c. ne' alcun atto che formalizzi il trasferimento del diritto di usufrutto a Mobilcom per effetto della liquidazione. La mancanza di qualunque trascrizione in Conservatoria rende impossibile verificare come e quando Mobilcom sia diventata opponibile ai terzi come piena proprietaria degli immobili gravati dall'usufrutto, che contrattualmente scade il 14/02/2033.
 
 ### V.2 — Sub 16: assenza totale di catena proprietaria in Conservatoria
 
@@ -196,9 +198,11 @@ L'atto di pignoramento del 05/11/2021 e la nota di iscrizione del 03/01/2022 des
 
 Come risulta dalla relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni (03/03/2022) e dalla trascrizione n. 1619 del 18/02/2003, Mobilcom ha acquistato la **nuda proprietà** di sub 3 e sub 9 da Le Carrè S.r.l. con atto del 23/11/2006 (Notaio Biagioli, RSM, trascrizione n. 1610 del 09/02/2007), e successivamente l'**usufrutto** da Marinelli Giuseppina con atto del 18/12/2007 (Notaio Cerreto, trascrizione n. 545 del 11/01/2008). Al momento del pignoramento del 03/12/2021, la situazione proprietaria di sub 3 e sub 9 richiedeva pertanto verifica dell'avvenuto consolidamento dell'usufrutto in capo a Mobilcom.
 
-La stessa BSM ha riconosciuto questa situazione nell'avviso ai creditori ex art. 498 c.p.c. del 08/03/2022, indicando come unico creditore ipotecario preesistente **Tercas (ora Banca Popolare di Bari)** per ipoteca giudiziale del 23/01/2006 iscritta sul **diritto di usufrutto** di Marinelli Giuseppina su sub 3 e sub 9 — confermando implicitamente che al momento dell'avviso l'usufrutto di Marinelli era ancora un elemento rilevante della situazione giuridica di quegli immobili.
+La stessa BSM ha riconosciuto questa situazione nell'avviso ai creditori ex art. 498 c.p.c. del 08/03/2022, indicando come unico creditore ipotecario preesistente **Tercas (ora Banca Popolare di Bari)** per ipoteca giudiziale del 23/01/2006 iscritta sul **diritto di usufrutto** di Marinelli Giuseppina su sub 3 e sub 9 — confermando che al momento dell'avviso l'usufrutto di Marinelli era ancora un elemento rilevante della situazione giuridica di quegli immobili.
 
-Descrivere sub 3 e sub 9 come piena proprietà 1/1 di Mobilcom senza aver verificato e trascritto il consolidamento dell'usufrutto costituisce un vizio della stessa natura di quello rilevato dal G.E. per sub 6 e sub 10: la catena delle trascrizioni non e' completa e la situazione proprietaria non e' accertata. La difesa chiede che questo G.E. estenda gli accertamenti integrativi anche a sub 3 e sub 9.
+A conferma ulteriore, la stessa relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 descrive ai punti 1-4 la catena per sub 3 e sub 9 come acquisto separato di nuda proprieta' (atto Le Carrè-Mobilcom del 23/11/2006, trascrizione n. 1610) e di usufrutto (atto Marinelli-Mobilcom del 18/12/2007, trascrizione n. 545 del 11/01/2008) — trattandoli come due diritti distinti, non come piena proprieta' consolidata. E' quindi la stessa relazione depositata agli atti a smentire la descrizione del pignoramento come piena proprieta' 1/1.
+
+Descrivere sub 3 e sub 9 come piena proprieta' 1/1 di Mobilcom senza aver verificato e trascritto il consolidamento dell'usufrutto costituisce un vizio della stessa natura di quello rilevato dal G.E. per sub 6 e sub 10: la catena delle trascrizioni non e' completa e la situazione proprietaria non e' accertata ai sensi dell'art. 2650 c.c.
 
 ---
 
@@ -230,7 +234,7 @@ Tutto cio' premesso, la parte esecutata Mobilcom S.r.l., come sopra rappresentat
 
 3) Ordinare a DEX di produrre entro termine perentorio di 10 giorni la prova documentale dell'avveramento della condizione sospensiva ex art. 1353 c.c. — ovvero il pagamento del prezzo di 1.570.000 euro previsto dall'art. 2.3 del contratto S3-DEX (bonifico bancario con valuta, estratto conto o quietanza notarile) — e, in assenza di tale prova, dichiarare il difetto di legittimazione di DEX con cancellazione di tutte le istanze da essa depositate.
 
-4) Disporre d'ufficio gli accertamenti integrativi sulla relazione notarile ex art. 567 c.p.c. con riferimento al sub 16 (Foglio 11, Particella 864), stante l'assenza totale di catena proprietaria trascritta in Conservatoria e la successione di Ribichini Gino & C. S.n.c. mai esaminata, e sospendere qualsiasi atto esecutivo sul Lotto 3 fino all'esito di tali accertamenti.
+4) Disporre d'ufficio gli accertamenti integrativi sulla relazione notarile ex art. 567 c.p.c. con riferimento al sub 16 (Foglio 11, Particella 864), stante l'assenza totale di catena proprietaria trascritta in Conservatoria e lo scioglimento di Ribichini Gino & C. S.n.c. mai formalizzato in Conservatoria come ricongiungimento del diritto di usufrutto, e sospendere qualsiasi atto esecutivo sul Lotto 3 fino all'esito di tali accertamenti; estendere i medesimi accertamenti integrativi a sub 3 e sub 9 (Foglio 11, Particella 864), per i quali il consolidamento dell'usufrutto gia' spettante a Marinelli Giuseppina non risulta verificato ne' trascritto, come confermato dalla stessa relazione notarile agli atti.
 
 5) Accertare chi abbia presentato la variazione catastale del 26/05/2022 (pratica MC0065185) sul sub 16 pignorato, verificare se tale modifica sia stata autorizzata da questo G.E. ai sensi dell'art. 560 c.p.c., e adottare i conseguenti provvedimenti.
 
@@ -252,7 +256,7 @@ Qualora la presente istanza non trovi accoglimento e la procedura dovesse proseg
 
 2. Consiglio dell'Ordine degli Avvocati di Brescia — per valutazione della condotta dell'Avv. Enrico Franceschetti, difensore di DEX e socio al 10% della medesima, in violazione dell'art. 24 del Codice Deontologico Forense.
 
-3. Consiglio Notarile di Macerata — per valutazione della condotta del notaio che ha trascritto l'atto del 13/05/2026 con quote errate e in assenza di Carboni Gabriella, soggetto avente diritto ai sensi dell'atto del 09/02/2006.
+3. Consiglio Notarile competente — per valutazione della condotta del professionista che ha curato la trascrizione del 13/05/2026 (Reg. Gen. 7562, Reg. Part. 5627), effettuata con quote errate rispetto all'atto Testa del 09/02/2006 e in assenza di Carboni Gabriella, soggetto avente diritto documentato. La competenza territoriale del Consiglio Notarile e' da individuare in base al notaio rogante o al richiedente la trascrizione; la difesa si riserva di precisare l'organo destinatario una volta acquisita la documentazione completa della trascrizione.
 
 4. Corte di Appello di Ancona — Sezione di Sorveglianza — per valutazione della complessiva gestione della procedura, con particolare riguardo ai due rigetti di istanze legittime nelle circostanze descritte al punto III.
 
