@@ -226,7 +226,13 @@ Questa verifica non e' mai stata effettuata ne' sollecitata da questo G.E., nono
 
 ---
 
-## VII. RICHIESTE
+## VII. RISERVA SUL VIZIO DEL TITOLO ESECUTIVO
+
+La difesa si riserva espressamente di sollevare in separata sede il vizio relativo al titolo esecutivo sammarinese: il decreto di esecutorieta' del 05/10/2018 (R.G. 2137/2018) risulta firmato dal dr. L. Reale nella qualita' di giudice delegato, mentre l'art. 9 della Convenzione Italia-San Marino del 1939 (L. 1320/1939) richiede espressamente un decreto del **Presidente del Tribunale**. Tale vizio non e' stato sollevato nell'opposizione ex art. 615 c.p.c. del 2022 e non e' pertanto coperto dal giudicato. La difesa si riserva di proporre opposizione ex art. 615 c.p.c. su questo motivo autonomo nei termini di legge.
+
+---
+
+## VIII. RICHIESTE
 
 Tutto cio' premesso, la parte esecutata Mobilcom S.r.l., come sopra rappresentata e difesa, chiede all'Ill.mo Giudice dell'Esecuzione di voler:
 
@@ -252,7 +258,7 @@ Tutto cio' premesso, la parte esecutata Mobilcom S.r.l., come sopra rappresentat
 
 ---
 
-## VIII. AVVERTENZA AGLI ORGANI DI VIGILANZA
+## IX. AVVERTENZA AGLI ORGANI DI VIGILANZA
 
 La parte istante si riserva di valutare le segnalazioni agli organi competenti indipendentemente dall'esito della presente istanza, in ragione della gravita' dei vizi documentalmente provati. Gli organi che potrebbero essere interessati sono:
 
@@ -271,10 +277,6 @@ La parte istante si riserva di valutare le segnalazioni agli organi competenti i
 La presente avvertenza e' formulata con il massimo rispetto verso questo G.E. e viene comunicata preventivamente per dovere di trasparenza e correttezza processuale.
 
 ---
-
-**Riserva sul vizio del titolo esecutivo**
-
-La difesa si riserva espressamente di sollevare in separata sede il vizio relativo al titolo esecutivo sammarinese: il decreto di esecutorietà del 05/10/2018 (R.G. 2137/2018) risulta firmato dal dr. L. Reale nella qualità di giudice delegato, mentre l'art. 9 della Convenzione Italia-San Marino del 1939 (L. 1320/1939) richiede espressamente un decreto del **Presidente del Tribunale**. Tale vizio non è stato sollevato nell'opposizione ex art. 615 c.p.c. del 2022 e non è pertanto coperto dal giudicato. La difesa si riserva di proporre opposizione ex art. 615 c.p.c. su questo motivo autonomo nei termini di legge.
 
 Con osservanza,
 
