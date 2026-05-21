@@ -16,7 +16,7 @@ ex artt. 567, 615, 617, 624 c.p.c. e artt. 2648, 2650 c.c.
 
 ---
 
-**Mobilcom S.r.l.** (C.F. 93052830432), in persona del legale rappresentante e liquidatore pro tempore Sig. **Oscar Ribichini**, con sede legale in Dogana (RSM), Via Ranco Mauro n. 10, elettivamente domiciliata in Avezzano (AQ), Piazza Torlonia n. 42, presso lo studio dell'Avv. **Cesidio Di Salvatore** del Foro di Avezzano (C.F. DSLCSD49D30E040H), che la rappresenta e difende in forza di procura agli atti, il quale elegge domicilio digitale all'indirizzo PEC avv.cesidiodisalvatore@pec.net99.it,
+**Mobilcom S.r.l.** (C.F. italiano 93052830432 — C.F. sammarinese SM19882), in persona del legale rappresentante e liquidatore pro tempore Sig. **Oscar Ribichini**, con sede legale in Dogana (RSM), Via Ranco Mauro n. 10, elettivamente domiciliata in Avezzano (AQ), Piazza Torlonia n. 42, presso lo studio dell'Avv. **Cesidio Di Salvatore** del Foro di Avezzano (C.F. DSLCSD49D30E040H), che la rappresenta e difende in forza di procura agli atti, il quale elegge domicilio digitale all'indirizzo PEC avv.cesidiodisalvatore@pec.net99.it,
 
 — **parte esecutata** —
 
@@ -190,6 +190,16 @@ La presenza di pignoramenti preesistenti non estinti non impedisce di per se' la
 
 La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 aveva elencato tali formalita' pregiudizievoli senza attestarne l'estinzione. In nessun atto successivo depositato in procedura e' stata prodotta documentazione che provi la formale cancellazione di tali pignoramenti in Conservatoria ne' che i creditori Stiltecno e Cassa Risparmio Ascoli siano stati ritualmente notiziati e soddisfatti. La difesa chiede che questo G.E. disponga gli accertamenti necessari a verificare lo stato formale di tali formalita' e, se del caso, provveda alla corretta convocazione di tutti i creditori aventi diritto prima di procedere alla distribuzione del ricavato.
 
+### V.5 — Sub 3 e sub 9: pignoramento descrive piena proprietà 1/1 ma l'usufrutto di Marinelli Giuseppina era ancora in corso
+
+L'atto di pignoramento del 05/11/2021 e la nota di iscrizione del 03/01/2022 descrivono tutti gli immobili — inclusi sub 3 e sub 9 (Foglio 11, Particella 864) — come **piena proprietà 1/1 di Mobilcom S.r.l.** Questa descrizione e' oggettivamente errata per sub 3 e sub 9.
+
+Come risulta dalla relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni (03/03/2022) e dalla trascrizione n. 1619 del 18/02/2003, Mobilcom ha acquistato la **nuda proprietà** di sub 3 e sub 9 da Le Carrè S.r.l. con atto del 23/11/2006 (Notaio Biagioli, RSM, trascrizione n. 1610 del 09/02/2007), e successivamente l'**usufrutto** da Marinelli Giuseppina con atto del 18/12/2007 (Notaio Cerreto, trascrizione n. 545 del 11/01/2008). Al momento del pignoramento del 03/12/2021, la situazione proprietaria di sub 3 e sub 9 richiedeva pertanto verifica dell'avvenuto consolidamento dell'usufrutto in capo a Mobilcom.
+
+La stessa BSM ha riconosciuto questa situazione nell'avviso ai creditori ex art. 498 c.p.c. del 08/03/2022, indicando come unico creditore ipotecario preesistente **Tercas (ora Banca Popolare di Bari)** per ipoteca giudiziale del 23/01/2006 iscritta sul **diritto di usufrutto** di Marinelli Giuseppina su sub 3 e sub 9 — confermando implicitamente che al momento dell'avviso l'usufrutto di Marinelli era ancora un elemento rilevante della situazione giuridica di quegli immobili.
+
+Descrivere sub 3 e sub 9 come piena proprietà 1/1 di Mobilcom senza aver verificato e trascritto il consolidamento dell'usufrutto costituisce un vizio della stessa natura di quello rilevato dal G.E. per sub 6 e sub 10: la catena delle trascrizioni non e' completa e la situazione proprietaria non e' accertata. La difesa chiede che questo G.E. estenda gli accertamenti integrativi anche a sub 3 e sub 9.
+
 ---
 
 ## VI. LA DOMANDA GIUDIZIALE N. 10132: TRASCRIZIONE PREGIUDIZIEVOLE ANCORA ATTIVA
@@ -198,13 +208,15 @@ L'ispezione ipotecaria del 18/05/2026 ha rilevato che al Registro Particolare n.
 
 A differenza di tutte le altre domande giudiziali analoghe del medesimo periodo (nn. 10133, 10134, 5660, 5661, 5662, 7221, 7222, tutte cancellate nel 2012), la n. 10132 non ha ad oggi alcuna annotazione di cancellazione. In nessuna delle relazioni depositate agli atti la n. 10132 e' mai stata menzionata.
 
-Le conseguenze sono radicalmente diverse a seconda dell'esito del giudizio:
+Le conseguenze variano a seconda dell'esito del giudizio, ma in tutti e tre gli scenari possibili la verifica rimane necessaria:
 
 Se il giudizio e' ancora pendente: la procedura esecutiva non puo' concludersi con un decreto di trasferimento su beni la cui provenienza e' sub iudice. Nessun acquirente puo' ricevere un titolo opponibile su immobili gravati da una domanda giudiziale di simulazione ancora attiva.
 
 Se il giudizio fu accolto: le compravendite Le Carrè verso Mobilcom erano simulate. Gli immobili non appartengono a Mobilcom. L'ipoteca BSM del 2011 e' iscritta su beni che Mobilcom non possedeva validamente — e risulta travolta dalla sentenza. DEX non vanterebbe credito ipotecario ma al piu' chirografario.
 
-Questa verifica e' la piu' urgente dell'intera procedura e non e' mai stata effettuata ne' sollecitata da questo G.E.
+Se il giudizio fu rigettato: la trascrizione n. 10132 non produce conseguenze sostanziali sul titolo. Tuttavia, in assenza di alcuna annotazione di cancellazione nei registri immobiliari, nessun acquirente e' in grado di verificarlo autonomamente. La trascrizione risulta ancora attiva e pregiudizievole agli occhi di qualunque terzo che consulti la Conservatoria — incluso qualunque potenziale offerente all'asta. Anche in questo scenario la verifica e l'eventuale cancellazione formale sono necessarie per consentire la corretta prosecuzione della procedura.
+
+Questa verifica non e' mai stata effettuata ne' sollecitata da questo G.E., nonostante la trascrizione risulti attiva da quasi vent'anni e gravi su tutti gli immobili della procedura.
 
 ---
 
@@ -226,7 +238,9 @@ Tutto cio' premesso, la parte esecutata Mobilcom S.r.l., come sopra rappresentat
 
 7) Riesaminare, alla luce della distinzione tra cessione ordinaria ex art. 1260 c.c. e operazione di cartolarizzazione ex L. 130/1999, la questione della legittimazione di DEX S.r.l. ad operare come cessionaria di crediti bancari in sofferenza con la sola iscrizione ex art. 115 TULPS, tenuto conto che Cass. n. 7243/2024 riguarda il sub-servicer nelle operazioni ex L. 130/1999 e non la cessione ordinaria a titolo definitivo.
 
-8) Disporre, in subordine, ogni ulteriore provvedimento ritenuto di giustizia, inclusa la declaratoria di nullita' degli atti compiuti in violazione delle ordinanze inadempiute, con condanna della creditrice procedente al risarcimento dei danni ex art. 96 c.p.c. per responsabilita' aggravata.
+8) Disporre gli accertamenti necessari a verificare lo stato formale in Conservatoria dei pignoramenti preesistenti a quello BSM del 08/02/2022 — specificamente: Stiltecno S.r.l. nn. 5739/2007 e 1796/2008 (sub 3 e sub 9) e Cassa Risparmio Ascoli Piceno nn. 3144/2008 e 3129/2010 (sub 16, sub 17, particella 1237) — e, accertata la loro persistenza, provvedere alla corretta convocazione di tutti i creditori aventi diritto prima di procedere a qualsiasi distribuzione del ricavato.
+
+9) Disporre, in subordine, ogni ulteriore provvedimento ritenuto di giustizia, inclusa la declaratoria di nullita' degli atti compiuti in violazione delle ordinanze inadempiute, con condanna della creditrice procedente al risarcimento dei danni ex art. 96 c.p.c. per responsabilita' aggravata.
 
 ---
 
@@ -263,9 +277,12 @@ PEC: avv.cesidiodisalvatore@pec.net99.it
 Allegati:
 1. Ispezione ipotecaria n. T34794 del 18/05/2026 — sub 16 (Foglio 11, Particella 864)
 2. Ispezione ipotecaria del 18/05/2026 — sub 6 e sub 10 (Foglio 18, Particella 686)
-3. Atto di divisione Notaio Antonio Testa del 09/02/2006 (Rep. n. 161645) — tabella quote
-4. Nota di trascrizione Reg. Gen. 7562, Reg. Part. 5627 del 13/05/2026
-5. Contratto di cessione S3-DEX del 06/12/2024 — artt. 2.3 e 2.4 (condizione sospensiva)
-6. Visura camerale DEX S.r.l. — quota Avv. Franceschetti al 10%
-7. Procura alle liti Avv. Franceschetti del 04/12/2024
-8. Contratto di locazione commerciale Mobilcom-SAUDA S.r.l.s. del 01/12/2021 — art. 10 (divieto innovazioni)
+3. Ispezione ipotecaria del 18/05/2026 — sub 3 e sub 9 (Foglio 11, Particella 864)
+4. Atto di divisione Notaio Antonio Testa del 09/02/2006 (Rep. n. 161645) — tabella quote
+5. Nota di trascrizione Reg. Gen. 7562, Reg. Part. 5627 del 13/05/2026
+6. Contratto di cessione S3-DEX del 06/12/2024 — artt. 2.3 e 2.4 (condizione sospensiva)
+7. Visura camerale DEX S.r.l. — quota Avv. Franceschetti al 10%
+8. Procura alle liti Avv. Franceschetti del 04/12/2024
+9. Contratto di locazione commerciale Mobilcom-SAUDA S.r.l.s. del 01/12/2021 — art. 10 (divieto innovazioni)
+10. Visura storica catastale sub 16 del 17/05/2026 (Sister — Agenzia delle Entrate) — annotazione "Intestazione e passaggi da esaminare"
+11. Relazione notarile ex art. 567 c.p.c. del Notaio Cristina Lorenzoni del 03/03/2022 — formalita' pregiudizievoli e catena proprietaria sub 3, sub 9, sub 16
