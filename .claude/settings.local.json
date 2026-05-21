@@ -6,5 +6,19 @@
     "allow": [
       "WebSearch"
     ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo $CLAUDE_USER_PROMPT | grep -qi 'mobilcom' && echo '{\"hookSpecificOutput\": {\"hookEventName\": \"UserPromptSubmit\", \"additionalContext\": \"REGOLA OBBLIGATORIA: prima di rispondere a qualsiasi domanda su Mobilcom, leggi SUBITO il file e:\\\\Lavori Code\\\\_CLIENTI\\\\Mobilcom_RGE-1-2022\\\\07_Note_Analisi\\\\2026-05-20_Relazione_Completa_Caso_Mobilcom.md — non rispondere senza averlo letto in questa sessione.\"}}' || true",
+            "shell": "bash",
+            "statusMessage": "Caso Mobilcom rilevato — carico relazione completa..."
+          }
+        ]
+      }
+    ]
   }
 }
