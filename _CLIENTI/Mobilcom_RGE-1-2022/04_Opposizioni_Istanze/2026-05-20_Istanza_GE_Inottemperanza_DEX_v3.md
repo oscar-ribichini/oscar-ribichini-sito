@@ -54,7 +54,9 @@ DEX non ha ottemperato nei termini.
 
 Con **provvedimento del 15/09/2025** il G.E. ha reiterato la richiesta. DEX ha depositato istanza chiedendo di procedere alla vendita parziale escludendo i sub viziati — istanza non accolta.
 
-Con **ordinanza del 22/04/2026** il G.E. ha ordinato per la terza volta la relazione notarile integrativa, questa volta entro **20 giorni** dalla comunicazione, con esplicito richiamo agli artt. 2648 e 2650 c.c. e alla Cass. n. 11638/2014, disponendo la sospensione del decreto di trasferimento già emesso.
+Con **ordinanza del 22/04/2026** il G.E. ha ordinato per la terza volta la relazione notarile integrativa, questa volta entro **20 giorni** dalla comunicazione, con esplicito richiamo agli artt. 2648 e 2650 c.c. e alla Cass. n. 11638/2014, disponendo la sospensione del decreto di trasferimento già emesso. L'ordinanza e' stata emessa sulla base di una segnalazione depositata in pari data dal **professionista delegato** nominato da questo Tribunale, il quale ha autonomamente rilevato il persistere del vizio di continuita' delle trascrizioni — circostanza che conferisce alla problematica un rilievo ufficiale indipendente dalle contestazioni della difesa.
+
+Va aggiunto un dato che aggrava ulteriormente la posizione di DEX: nella nota di deposito del **30/09/2025** (ist. n. 11), DEX aveva gia' dichiarato di aver conferito incarico al Notaio Paola Esposito per provvedere alla trascrizione dell'accettazione tacita dell'eredita'. Tra quella data e il deposito del 13/05/2026 sono trascorsi **sette mesi e mezzo**. L'inottemperanza non e' frutto di difficolta' tecnica imprevista: DEX aveva gia' avviato l'iter e lo ha lasciato incompiuto per quasi un anno, nonostante tre ordinanze del G.E.
 
 Va altresi' segnalato che l'asta del Lotto 1 (sub 2, sub 6 e sub 10) fissata per il **21/01/2026** e' andata **deserta** — circostanza che dimostra come i vizi che gravano sul Lotto 1 lo rendano incollocabile sul mercato, indipendentemente dal prezzo base.
 
@@ -70,26 +72,33 @@ Il termine scadeva il **12 maggio 2026**. DEX ha depositato il **13 maggio 2026*
 **Vizio B — Riferimento a provvedimento inesistente**
 Nel corpo del deposito DEX dichiara di agire "in ottemperanza all'ordinanza del G.E. del 22.04.2025 (notificata il 22.04.2025)". L'ordinanza del 22 aprile 2025 non esiste agli atti. Il provvedimento reale è del 22/04/2026. Un atto processuale che identifica come proprio titolo di legittimazione un provvedimento mai emesso non può costituire valido adempimento a quello reale. L'errore non è rettificabile d'ufficio: investe la causa giuridica dell'atto.
 
-**Vizio C — Omissione di Carboni Gabriella: continuità ancora interrotta**
+**Vizio C — Quota Carboni Gabriella: catena proprietaria non verificata**
 Dall'atto di divisione del Notaio Antonio Testa del 09/02/2006 (Rep. n. 161645), prodotto in allegato sub 3, risulta con certezza che i partecipanti alla divisione erano cinque soggetti:
 
-| Soggetto | Quota |
-|---|---|
-| Brillo Dilva | 4/18 |
-| Ripa Valter | 1/18 |
-| Ripa Alfio | 1/18 |
-| Carboni Gabriella | 6/18 |
-| Le Carrè S.r.l. | 6/18 |
+| Soggetto | Quota | Titolo di provenienza |
+|---|---|---|
+| Brillo Dilva | 4/18 | Acquisto 1983 + successione Ripa Franco |
+| Ripa Valter | 1/18 | Successione Ripa Franco |
+| Ripa Alfio | 1/18 | Successione Ripa Franco |
+| Carboni Gabriella | 6/18 | Acquisto diretto — atto 22/10/1994, Rep. n. 107318/10503 |
+| Le Carrè S.r.l. | 6/18 | Acquisto diretto — atto Notaio Cafiero 25/11/2005 |
 
-La trascrizione dell'accettazione tacita dell'eredità depositata da DEX include esclusivamente Brillo Dilva, Ripa Valter e Ripa Alfio. Carboni Gabriella — titolare di quota 6/18, pari a quella di Le Carrè S.r.l. e superiore a quella di ogni altro erede incluso — è completamente assente. La continuità delle trascrizioni resta interrotta per la quota a lei facente capo.
+Carboni Gabriella non e' erede di Ripa Franco: e' comproprietaria per titolo autonomo, derivante da acquisto del 22 ottobre 1994. La sua quota di 6/18 — identica a quella di Le Carrè S.r.l. e superiore a quella di ciascuno degli eredi Ripa — e' transitata a Le Carrè nell'ambito della divisione del 09/02/2006 (trascrizione n. 2230 del 27/02/2006). DEX non ha prodotto alcuna documentazione che dimostri la regolarita' e completezza di tale trascrizione con riferimento specifico alla quota Carboni. La catena proprietaria per questa quota — pari a 6/18 dell'intero compendio diviso — non e' verificata ne' attestata negli atti della procedura.
 
 **Vizio D — Errore logico strutturale: sub 6 e sub 10 non erano dei Ripa**
-Dall'atto Testa del 09/02/2006 risulta con chiarezza che i beni erano assegnati come segue:
-- Parte A (Brillo Dilva, Ripa Valter, Ripa Alfio): sub 4, 9, 11, 13
-- Parte B (Carboni Gabriella): sub 5, 8
-- Parte C (Le Carrè S.r.l.): sub 6, 10 e altri
+Questo e' il vizio piu' grave, perche' smentisce la tesi di DEX con i suoi stessi documenti.
 
-I beni su cui questo G.E. ha rilevato il vizio — sub 6 e sub 10 — sono stati assegnati direttamente a Le Carrè S.r.l., non agli eredi Ripa. L'accettazione tacita dell'eredita' trascritta da DEX riguarda la quota di comproprieta' sulle parti comuni del condominio, non il trasferimento individuale di quei sub. Il metodo seguito da DEX e' quindi sbagliato alla radice: anche se fosse formalmente valido in tutti i suoi altri aspetti, non sanerebbe il vizio che questo G.E. aveva identificato. DEX dovrebbe ricominciare da zero con una trascrizione di natura e oggetto completamente diversi — operazione che richiederebbe tempi e formalita' ulteriori, e che comunque non potrebbe avvenire senza la partecipazione di Carboni Gabriella.
+Nella nota di deposito del 30/09/2025 (ist. n. 11), DEX ha dichiarato espressamente che Brillo Dilva, Ripa Valter e Ripa Alfio avevano ricevuto le loro quote di proprieta' — comprendenti sub 6 e sub 10 — in forza di successione legittima al Sig. Ripa Franco. Su questa premessa DEX ha costruito tutta la trascrizione dell'accettazione tacita dell'eredita'.
+
+Quella premessa e' oggettivamente falsa, e la falsita' e' dimostrata dall'atto Testa del 09/02/2006 (Rep. n. 161645) che DEX stessa ha prodotto come documento 1 nel medesimo deposito. L'Art. 2 di quell'atto assegna i beni come segue:
+
+- **Parte A** (Brillo Dilva, Ripa Valter, Ripa Alfio): sub 4, 9, 11, 13
+- **Parte B** (Carboni Gabriella): sub 5, 8
+- **Parte C** (Le Carrè S.r.l.): **sub 6 e sub 10**
+
+Sub 6 e sub 10 — i beni su cui questo G.E. ha rilevato il vizio — sono stati assegnati direttamente e integralmente a Le Carrè S.r.l., non agli eredi Ripa. Gli eredi Ripa non hanno mai avuto alcun diritto individuale su sub 6 e sub 10: avevano quote indivise di comproprieta' sulle parti comuni, che nell'atto Testa sono state divise e attribuite a Le Carrè.
+
+L'accettazione tacita dell'eredita' trascritta da DEX il 13/05/2026 — fondata sulla premessa che sub 6 e sub 10 facessero parte della quota ereditaria Ripa — e' costruita su un presupposto che l'atto prodotto da DEX stessa smentisce punto per punto. Il metodo e' sbagliato alla radice: anche se fosse formalmente valido sotto ogni altro profilo, non sanerebbe il vizio rilevato da questo G.E., perche' quel vizio riguarda la catena proprietaria di beni che non transitavano per la successione Ripa ma per l'acquisto diretto di Le Carrè. Per sanare correttamente il vizio su sub 6 e sub 10, DEX dovrebbe produrre documentazione di natura e oggetto completamente diversi — e farlo senza la partecipazione di Carboni Gabriella, la cui quota di 6/18 resta anch'essa non verificata come illustrato al Vizio C.
 
 **Vizio E — Validità dell'atto a nome di Brillo Dilva**
 Brillo Dilva (nata il 19/08/1930, 95 anni) risulta allettata e in condizioni di salute gravemente compromesse, incapace di esprimere volontà. L'accettazione tacita dell'eredità trascritta il 13/05/2026 a suo nome è stata richiesta dall'Avv. Enrico Franceschetti — che è contestualmente socio al 10% di DEX S.r.l., come risulta dalla procura alle liti del 04/12/2024 e dalla visura camerale. Un atto giuridicamente rilevante compiuto a nome di un soggetto presumibilmente incapace, su istanza di chi ha interesse diretto all'esito della procedura, è esposto a censure di validità che questa difesa si riserva di far valere in ogni competente sede.
@@ -158,7 +167,7 @@ Dalla relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni (03/03/2022) ri
 
 ### V.2 — Sub 16: assenza totale di catena proprietaria in Conservatoria
 
-L'ispezione ipotecaria effettuata il 18/05/2026 presso la Conservatoria dei Registri Immobiliari di Macerata (Ispezione n. T34794) ha rivelato che per il sub 16 (Foglio 11, Particella 864 — negozio 130 mq, stimato in perizia 329.662 euro) esistono in Conservatoria sole due formalita':
+Le ispezioni ipotecarie del 18/05/2026 sono state eseguite da un visurista di fiducia appositamente incaricato, i cui esiti sono integralmente documentati e allegati al presente atto. L'ispezione ipotecaria effettuata il 18/05/2026 presso la Conservatoria dei Registri Immobiliari di Macerata (Ispezione n. T34794) ha rivelato che per il sub 16 (Foglio 11, Particella 864 — negozio 130 mq, stimato in perizia 329.662 euro) esistono in Conservatoria sole due formalita':
 
 1. Ipoteca volontaria BSM del 07/12/2011 (Reg. Gen. 17004, Reg. Part. 3154)
 2. Pignoramento del 08/02/2022
@@ -185,7 +194,7 @@ Non e' noto a questa difesa chi abbia presentato il DOCFA — se il conduttore S
 
 ### V.4 — Pignoramenti preesistenti ancora attivi in Conservatoria: creditori pretermessi nella distribuzione
 
-Le ispezioni ipotecarie del 18/05/2026 hanno rivelato che sui beni della procedura gravano formalita' pregiudizievoli precedenti al pignoramento BSM del 08/02/2022, non risultanti formalmente estinte in Conservatoria:
+Le ispezioni ipotecarie del 18/05/2026, eseguite da un visurista di fiducia appositamente incaricato, hanno rivelato che sui beni della procedura gravano formalita' pregiudizievoli precedenti al pignoramento BSM del 08/02/2022, non risultanti formalmente estinte in Conservatoria:
 
 - **Stiltecno S.r.l. contro usufrutto Marinelli Giuseppina** (sub 3 e sub 9, Foglio 11, Particella 864): due pignoramenti — n. 5739 del 04/06/2007 e n. 1796 del 12/02/2008 — ancora risultanti attivi nei registri immobiliari.
 - **Cassa Risparmio Ascoli Piceno contro Mobilcom S.r.l. e Ribichini Gino & C. S.n.c.** (sub 16, sub 17 e Particella 1237, Foglio 11, Particella 864): due pignoramenti — n. 3144 del 19/03/2008 (rettifica) e n. 3129 del 08/04/2010 — anch'essi non risultanti estinti.
@@ -210,7 +219,7 @@ Descrivere sub 3 e sub 9 come piena proprieta' 1/1 di Mobilcom senza aver verifi
 
 ## VI. LA DOMANDA GIUDIZIALE N. 10132: TRASCRIZIONE PREGIUDIZIEVOLE ANCORA ATTIVA
 
-L'ispezione ipotecaria del 18/05/2026 ha rilevato che al Registro Particolare n. 10132, in data 17/10/2008, risulta trascritta una domanda giudiziale di accertamento della simulazione degli atti di acquisto, promossa da Banca Marche S.p.A. contro Le Carrè S.r.l. Tale trascrizione grava su tutti gli immobili della procedura.
+L'ispezione ipotecaria del 18/05/2026, eseguita da un visurista di fiducia appositamente incaricato, ha rilevato che al Registro Particolare n. 10132, in data 17/10/2008, risulta trascritta una domanda giudiziale di accertamento della simulazione degli atti di acquisto, promossa da Banca Marche S.p.A. contro Le Carrè S.r.l. Tale trascrizione grava su tutti gli immobili della procedura.
 
 A differenza di tutte le altre domande giudiziali analoghe del medesimo periodo (nn. 10133, 10134, 5660, 5661, 5662, 7221, 7222, tutte cancellate nel 2012), la n. 10132 non ha ad oggi alcuna annotazione di cancellazione. In nessuna delle relazioni depositate agli atti la n. 10132 e' mai stata menzionata.
 
