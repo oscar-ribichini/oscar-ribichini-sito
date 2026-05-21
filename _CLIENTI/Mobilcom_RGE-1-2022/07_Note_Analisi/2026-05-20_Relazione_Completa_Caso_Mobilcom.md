@@ -246,9 +246,17 @@ Il G.E. Filomena Di Gennaro ha emesso un'ordinanza che:
 - Sospende il decreto di trasferimento (che era già stato emesso)
 - Cita esplicitamente artt. 2648-2650 c.c. e Cassazione 11638/2014
 
-### Rigetto istanza TUB del 14/05/2026
+### La questione art. 106 TUB: due istanze, due rigetti
 
-Avv. Di Salvatore aveva sollevato la questione che DEX non sia iscritta all'albo art. 106 o 114 TUB e abbia solo una licenza ex art. 115 TULPS. Il G.E. ha rigettato questa tesi il 14/05/2026, citando la Cass. 7243/2024. Di Salvatore contesta che quella sentenza riguardi il sub-servicer nelle operazioni ex L. 130/1999, non la cessione ordinaria ex art. 1260 c.c. — ma il rigetto c'è.
+Con istanza del **5 novembre 2025** (depositata il 6 novembre) Di Salvatore ha sollevato per la prima volta la questione che DEX non sia iscritta all'albo art. 106 o 114 TUB e operi con la sola licenza ex art. 115 TULPS — licenza che abilita solo il recupero stragiudiziale per conto terzi, non l'acquisto e gestione in proprio di crediti bancari in sofferenza. Ha chiesto al G.E. di rilevare d'ufficio il difetto di legittimazione di DEX e la sospensione immediata della procedura.
+
+Il G.E. ha rigettato questa prima istanza con provvedimento del **01/01/2026**.
+
+Di Salvatore ha riproposto e approfondito la questione in una seconda istanza (acquisita agli atti il 14/05/2026). Il G.E. ha rigettato anche questa seconda volta, citando Cass. n. 7243/2024.
+
+Di Salvatore contesta che quella sentenza riguardi il sub-servicer nelle operazioni di cartolarizzazione ex L. 130/1999 — figura radicalmente diversa da DEX, che non è un servicer ma un cessionario a titolo definitivo del credito (ha pagato €325.144 per acquistarlo in proprio). La Cass. 7243/2024 non si applica alla cessione ordinaria ex art. 1260 c.c.
+
+I due rigetti riguardano quindi la stessa questione TUB, non due materie diverse. La scadenza per l'opposizione ex art. 617 c.p.c. avverso il secondo rigetto è il **04/06/2026**.
 
 ### Deposito DEX del 13/05/2026
 
@@ -399,7 +407,8 @@ Se si decide di procedere, Oscar può — insieme a Di Salvatore — valutare un
 | 09/08/2025 | Prima ordinanza G.E. Di Gennaro: relazione notarile integrativa 30 gg |
 | 15/09/2025 | Seconda ordinanza G.E. (non conosciuta, emersa da atti DEX) |
 | 30/09/2025 | DEX deposita in ottemperanza (insufficiente) |
-| 01/01/2026 | Rigetto G.E. su istanza del 06/11/2025 |
+| 05/11/2025 | Istanza Di Salvatore: difetto legittimazione DEX ex art. 106 TUB, sospensione immediata |
+| 01/01/2026 | Primo rigetto G.E. sulla questione art. 106 TUB (istanza del 05/11/2025) |
 | 22/04/2026 | Terza ordinanza G.E.: relazione notarile integrativa 20 gg, sospende decreto trasferimento |
 | 11/05/2026 | Istanza Di Salvatore — improcedibilità + restituzione beni |
 | 12/05/2026 | Scadenza 20 giorni dell'ordinanza 22/04 |
