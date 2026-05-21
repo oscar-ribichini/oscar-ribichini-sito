@@ -165,6 +165,8 @@ BSM ha iscritto un'ipoteca e la procedura ha pignorato un immobile per il quale 
 
 Il Notaio Lorenzoni non ha rilevato questo vizio perche' si e' basato sulle visure catastali — strumento privo di valore ai fini della pubblicita' immobiliare. La relazione ex art. 567 c.p.c. e' pertanto incompleta e inaffidabile per il sub 16.
 
+Va aggiunto un dato ulteriore, proveniente dalla visura storica catastale del sub 16 scaricata il 17/05/2026 dal sistema Sister dell'Agenzia delle Entrate. In corrispondenza degli atti del 25/11/2005 e del 15/12/2005 — i passaggi fondamentali della catena Oscar Ribichini verso Le Carrè S.r.l. — la banca dati catastale riporta la seguente annotazione ufficiale: **"Intestazione e passaggi da esaminare"**. Si tratta di una segnalazione di irregolarita' apposta dal catasto stesso sui passaggi che avrebbero dovuto formare il fondamento della catena proprietaria del sub 16. Questa annotazione, pur provenendo da un registro privo di valore ai fini della pubblicita' immobiliare, conferma che le anomalie riscontrate nelle ispezioni ipotecarie non sono il frutto di un vizio formale isolato ma di una irregolarita' originaria nei trasferimenti, rilevata anche dallo strumento catastale. La difesa chiede che tale dato sia acquisito agli atti e valutato nell'ambito degli accertamenti integrativi richiesti al punto 4 delle domande.
+
 ### V.3 — Variazione catastale effettuata durante la procedura senza autorizzazione
 
 Il sub 16 e' occupato da SAUDA S.r.l.s. (legale rappresentante Calogero Daniele Sciortino) in forza di contratto di locazione commerciale del 01/12/2021, avente ad oggetto il sub 16 e la particella 1237, per la durata di 6 anni con inizio 01/01/2022 e scadenza 31/12/2027.
@@ -173,7 +175,20 @@ In data 26/05/2022 — cinque mesi dopo il pignoramento del 03/12/2021 — e' st
 
 L'art. 10 del contratto di locazione vieta espressamente al conduttore di eseguire innovazioni senza il preventivo consenso scritto del proprietario. L'art. 560 c.p.c. vieta al debitore esecutato di compiere atti che modifichino lo stato dei beni pignorati senza autorizzazione del G.E. Non risulta agli atti alcuna autorizzazione di questo G.E. per la modifica catastale in questione, ne' alcun consenso scritto del proprietario/custode.
 
+La sequenza temporale e' la seguente: il contratto di locazione con SAUDA e' stato stipulato il **01/12/2021**; il pignoramento e' stato notificato il **03/12/2021** — due giorni dopo; la variazione catastale e' stata presentata il **26/05/2022** — cinque mesi dopo il pignoramento. SAUDA era quindi conduttrice dell'immobile gia' dal momento del pignoramento, e il divieto di innovazioni previsto sia dal contratto di locazione (art. 10) sia dall'art. 560 c.p.c. era pienamente in vigore al momento della presentazione del DOCFA. Chi ha presentato la variazione lo ha fatto in una situazione in cui il bene era gia' pignorato e il conduttore era vincolato contrattualmente a non eseguire modifiche senza consenso scritto.
+
 Non e' noto a questa difesa chi abbia presentato il DOCFA — se il conduttore SAUDA, il custode o altro soggetto. Questa circostanza e' stata segnalata a questo G.E. affinche' possa disporre le verifiche del caso. Cio' che e' certo e' che la modifica ha alterato la descrizione catastale di un immobile pignorato durante la procedura esecutiva, senza che risulti alcuna autorizzazione giudiziale.
+
+### V.4 — Pignoramenti preesistenti ancora attivi in Conservatoria: creditori pretermessi nella distribuzione
+
+Le ispezioni ipotecarie del 18/05/2026 hanno rivelato che sui beni della procedura gravano formalita' pregiudizievoli precedenti al pignoramento BSM del 08/02/2022, non risultanti formalmente estinte in Conservatoria:
+
+- **Stiltecno S.r.l. contro usufrutto Marinelli Giuseppina** (sub 3 e sub 9, Foglio 11, Particella 864): due pignoramenti — n. 5739 del 04/06/2007 e n. 1796 del 12/02/2008 — ancora risultanti attivi nei registri immobiliari.
+- **Cassa Risparmio Ascoli Piceno contro Mobilcom S.r.l. e Ribichini Gino & C. S.n.c.** (sub 16, sub 17 e Particella 1237, Foglio 11, Particella 864): due pignoramenti — n. 3144 del 19/03/2008 (rettifica) e n. 3129 del 08/04/2010 — anch'essi non risultanti estinti.
+
+La presenza di pignoramenti preesistenti non estinti non impedisce di per se' la vendita degli immobili, ma incide direttamente sulla **corretta distribuzione del ricavato** tra i creditori. I creditori titolari di pignoramenti anteriori a quello BSM del 08/02/2022 vantano un diritto di prelazione cronologica sul ricavato delle vendite rispetto ai creditori successivi. Se tali pignoramenti non sono stati formalmente estinti ne' i relativi creditori sono stati ritualmente convocati e soddisfatti nella procedura, la distribuzione del ricavato operata o programmata in favore di DEX potrebbe essere scorretta, con conseguente pregiudizio sia per i creditori pretermessi sia per la regolarita' della procedura stessa.
+
+La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 aveva elencato tali formalita' pregiudizievoli senza attestarne l'estinzione. In nessun atto successivo depositato in procedura e' stata prodotta documentazione che provi la formale cancellazione di tali pignoramenti in Conservatoria ne' che i creditori Stiltecno e Cassa Risparmio Ascoli siano stati ritualmente notiziati e soddisfatti. La difesa chiede che questo G.E. disponga gli accertamenti necessari a verificare lo stato formale di tali formalita' e, se del caso, provveda alla corretta convocazione di tutti i creditori aventi diritto prima di procedere alla distribuzione del ricavato.
 
 ---
 
