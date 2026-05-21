@@ -112,6 +112,8 @@ Questa difesa rappresenta rispettosamente che il precedente richiamato riguarda 
 
 DEX e' iscritta ex art. 115 TULPS — licenza di pubblica sicurezza per agenzie di recupero crediti — che non abilita all'acquisto e alla gestione in proprio di crediti bancari in sofferenza derivanti da mutui ipotecari, attivita' riservata ai soggetti iscritti all'albo ex art. 106 TUB.
 
+Va inoltre rilevato che il conflitto di interessi dell'Avv. Franceschetti — socio al 10% di DEX e contestualmente suo difensore in questa procedura — non e' solo un profilo deontologico (segnalato all'VIII.2) ma solleva una questione di rappresentanza processuale: un professionista che ha un interesse economico personale nell'esito del giudizio non e' in condizione di esercitare il mandato difensivo in modo indipendente dai propri interessi patrimoniali. Questa circostanza e' documentata dalla procura alle liti del 04/12/2024 e dalla visura camerale di DEX, ed e' sottoposta all'attenzione di questo G.E. per le valutazioni di competenza.
+
 La scadenza per l'opposizione ex art. 617 c.p.c. avverso il rigetto del 14/05/2026 e' il 04/06/2026. Questo G.E. e' informato che la parte istante intende esercitare tale diritto nei termini.
 
 ---
@@ -146,11 +148,9 @@ Si chiede a questo G.E. di ordinare a DEX di produrre, entro termine perentorio 
 
 ## V. LA CATENA PROPRIETARIA INTERROTTA: RIBICHINI GINO E IL SUB 16
 
-### V.1 — La successione mortis causa mai esaminata
+### V.1 — Lo scioglimento della S.n.c. non risulta trascritto in Conservatoria
 
 Gli immobili oggetto della procedura provengono originariamente da Ribichini Gino & C. S.n.c., societa' di famiglia del padre di Oscar Ribichini. La S.n.c. deteneva un diritto di usufrutto trentennale su sub 16, sub 17 e particella 1237, decorrente dal 14/02/2003 con scadenza 14/02/2033. La nuda proprieta' apparteneva a Oscar Ribichini.
-
-La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni (03/03/2022) afferma che il ricongiungimento di usufrutto e nuda proprieta' e' avvenuto per scioglimento della S.n.c. nel 2005 — ma questa affermazione si fonda esclusivamente su visure catastali, che non hanno valore di pubblicita' immobiliare e non sono opponibili ai terzi. In Conservatoria non risulta trascritto alcun atto di scioglimento della S.n.c., ne' alcuna voltura che trasferisca i diritti della S.n.c. a Mobilcom.
 
 Dalla relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni (03/03/2022) risulta che Ribichini Gino & C. S.n.c. si e' sciolta per atto del Notaio Cerreto del 02/12/2005, e che a seguito di tale scioglimento il catasto avrebbe registrato il ricongiungimento dell'usufrutto con la nuda proprieta' (voltura n. 9711.1/2006, pratica MC0114516, in atti dal 24/10/2006). Tuttavia il notaio Lorenzoni precisa esplicitamente che questa conclusione si fonda sulle visure catastali — non su una trascrizione in Conservatoria. In Conservatoria non risulta trascritto alcun atto di scioglimento della S.n.c. ne' alcun atto che formalizzi il trasferimento del diritto di usufrutto a Mobilcom per effetto della liquidazione. La mancanza di qualunque trascrizione in Conservatoria rende impossibile verificare come e quando Mobilcom sia diventata opponibile ai terzi come piena proprietaria degli immobili gravati dall'usufrutto, che contrattualmente scade il 14/02/2033.
 
@@ -230,7 +230,7 @@ Tutto cio' premesso, la parte esecutata Mobilcom S.r.l., come sopra rappresentat
 
 1) Accertare e dichiarare che il deposito di DEX del 13/05/2026 (ist. n. 15) non costituisce valido adempimento all'ordinanza del 22/04/2026, per i cinque autonomi vizi esposti: tardivita' di un giorno; riferimento a provvedimento inesistente (anno 2025 invece di 2026); omissione di Carboni Gabriella titolare di quota 6/18; errore logico strutturale sull'assegnazione di sub 6 e sub 10 nell'atto Testa del 09/02/2006; dubbia validita' dell'atto a nome di Brillo Dilva.
 
-2) Dichiarare l'inottemperanza consumata di DEX S.r.l. all'ordinanza del 22/04/2026 e alle precedenti ordinanze del 09/08/2025 e del 15/09/2025, e trarne le conseguenze processuali di cui all'art. 567 c.p.c., con dichiarazione di improcedibilita' della procedura per il Lotto 1 e conferma della sospensione del decreto di trasferimento gia' disposta.
+2) Dichiarare l'inottemperanza consumata di DEX S.r.l. all'ordinanza del 22/04/2026 e alle precedenti ordinanze del 09/08/2025 e del 15/09/2025, e trarne le conseguenze processuali di cui all'art. 567 c.p.c., con dichiarazione di improcedibilita' della procedura per il Lotto 1 e conferma della sospensione del decreto di trasferimento gia' disposta; estendere la sospensione di qualsiasi atto esecutivo anche al lotto contenente sub 3 e sub 9 (Foglio 11, Particella 864), stante il vizio di catena proprietaria illustrato alla Sez. V.5.
 
 3) Ordinare a DEX di produrre entro termine perentorio di 10 giorni la prova documentale dell'avveramento della condizione sospensiva ex art. 1353 c.c. — ovvero il pagamento del prezzo di 1.570.000 euro previsto dall'art. 2.3 del contratto S3-DEX (bonifico bancario con valuta, estratto conto o quietanza notarile) — e, in assenza di tale prova, dichiarare il difetto di legittimazione di DEX con cancellazione di tutte le istanze da essa depositate.
 
@@ -238,7 +238,7 @@ Tutto cio' premesso, la parte esecutata Mobilcom S.r.l., come sopra rappresentat
 
 5) Accertare chi abbia presentato la variazione catastale del 26/05/2022 (pratica MC0065185) sul sub 16 pignorato, verificare se tale modifica sia stata autorizzata da questo G.E. ai sensi dell'art. 560 c.p.c., e adottare i conseguenti provvedimenti.
 
-6) Disporre d'ufficio l'acquisizione degli atti del procedimento collegato alla domanda giudiziale n. 10132 del 17/10/2008 (Banca Marche S.p.A. c/ Le Carrè S.r.l.) presso il Registro del Tribunale di Macerata e, nelle more, sospendere ex art. 624 c.p.c. qualsiasi atto della procedura su tutti gli immobili gravati da tale trascrizione.
+6) Disporre d'ufficio l'acquisizione degli atti del procedimento collegato alla domanda giudiziale n. 10132 del 17/10/2008 (Banca Marche S.p.A. c/ Le Carrè S.r.l.) presso il Registro del Tribunale di Macerata — il numero di ruolo generale e' da individuare tramite il numero di trascrizione n. 10132 o tramite ricerca per parti nel registro dei procedimenti civili dell'anno 2008 — e, nelle more di tale accertamento, sospendere ex art. 624 c.p.c. qualsiasi atto della procedura su tutti gli immobili gravati da tale trascrizione.
 
 7) Riesaminare, alla luce della distinzione tra cessione ordinaria ex art. 1260 c.c. e operazione di cartolarizzazione ex L. 130/1999, la questione della legittimazione di DEX S.r.l. ad operare come cessionaria di crediti bancari in sofferenza con la sola iscrizione ex art. 115 TULPS, tenuto conto che Cass. n. 7243/2024 riguarda il sub-servicer nelle operazioni ex L. 130/1999 e non la cessione ordinaria a titolo definitivo.
 
@@ -280,8 +280,8 @@ PEC: avv.cesidiodisalvatore@pec.net99.it
 
 Allegati:
 1. Ispezione ipotecaria n. T34794 del 18/05/2026 — sub 16 (Foglio 11, Particella 864)
-2. Ispezione ipotecaria del 18/05/2026 — sub 6 e sub 10 (Foglio 18, Particella 686)
-3. Ispezione ipotecaria del 18/05/2026 — sub 3 e sub 9 (Foglio 11, Particella 864)
+2. Ispezione ipotecaria del 18/05/2026 — sub 6 e sub 10 (Foglio 18, Particella 686) — n. [da inserire]
+3. Ispezione ipotecaria del 18/05/2026 — sub 3 e sub 9 (Foglio 11, Particella 864) — n. [da inserire]
 4. Atto di divisione Notaio Antonio Testa del 09/02/2006 (Rep. n. 161645) — tabella quote
 5. Nota di trascrizione Reg. Gen. 7562, Reg. Part. 5627 del 13/05/2026
 6. Contratto di cessione S3-DEX del 06/12/2024 — artt. 2.3 e 2.4 (condizione sospensiva)
