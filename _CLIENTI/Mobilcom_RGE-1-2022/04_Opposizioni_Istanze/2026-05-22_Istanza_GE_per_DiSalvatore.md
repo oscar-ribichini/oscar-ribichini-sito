@@ -48,13 +48,13 @@ Con ordinanza del 09/08/2025 questo G.E. ha rilevato il vizio di continuità del
 
 DEX non ha ottemperato.
 
-Con provvedimento del 15/09/2025 il G.E. ha reiterato la richiesta. Nuovo inadempimento.
-
-Con ordinanza del 22/04/2026 il G.E. ha ordinato per la terza volta la relazione notarile integrativa, questa volta entro 20 giorni, con esplicito richiamo agli artt. 2648 e 2650 c.c. e alla Cass. n. 11638/2014, disponendo la sospensione del decreto di trasferimento già emesso.
+Con ordinanza del 22/04/2026 il G.E. ha ordinato per la terza volta la relazione notarile integrativa, questa volta entro 20 giorni, con esplicito richiamo agli artt. 2648 e 2650 c.c. e alla Cass. n. 11638/2014, disponendo la sospensione del decreto di trasferimento già emesso. L'ordinanza è stata emessa anche sulla base di una segnalazione autonoma del **professionista delegato nominato da questo Tribunale**, il quale ha indipendentemente rilevato il persistere del vizio di continuità delle trascrizioni — circostanza che conferisce alla problematica un rilievo ufficiale del tutto indipendente dalle contestazioni della difesa.
 
 Il termine scadeva il **12 maggio 2026**.
 
 Nella nota di deposito del 30/09/2025 DEX aveva già dichiarato di aver conferito incarico al Notaio Paola Esposito per la trascrizione dell'accettazione tacita dell'eredità. Tra quella data e il deposito del 13/05/2026 sono trascorsi sette mesi e mezzo. L'inadempimento non è frutto di difficoltà tecnica: DEX ha lasciato incompiuto un iter già avviato per quasi un anno, nonostante tre ordinanze di questo G.E.
+
+Va aggiunto un dato che aggrava ulteriormente il quadro: l'asta del Lotto 1 (sub 2, sub 6 e sub 10) fissata per il **21/01/2026** è andata **deserta**. Questo dimostra che i vizi che gravano su quei sub rendono l'immobile non collocabile sul mercato indipendentemente dal prezzo base fissato, e che qualunque ulteriore atto esecutivo su quel lotto nelle condizioni attuali è destinato al medesimo esito.
 
 ### II.2 — Il deposito del 13/05/2026: quattro vizi autonomi
 
@@ -72,7 +72,7 @@ Nel corpo del deposito DEX dichiara di agire "in ottemperanza all'ordinanza del 
 
 L'accettazione tacita dell'eredità trascritta il 13/05/2026 a nome di Brillo Dilva (nata il 19/08/1930, 95 anni, malata, assistita h24 da badante) è stata richiesta dall'Avv. Enrico Franceschetti. Franceschetti non è il legale di Brillo Dilva: è il difensore di DEX e, come risulta dalla visura camerale e dalla procura del 04/12/2024, è socio al 10% di DEX S.r.l.
 
-Nessuna procura di Brillo Dilva a Franceschetti risulta depositata agli atti. La difesa chiede che questo G.E. ordini a DEX di produrre entro termine perentorio di 10 giorni la procura con cui Brillo Dilva ha conferito mandato a Franceschetti per richiedere la trascrizione a suo nome, unitamente alla documentazione attestante la sua capacità di intendere e volere al momento del conferimento. In assenza di tale prova, la trascrizione del 13/05/2026 è priva di titolo e non produce effetti.
+Nessuna procura di Brillo Dilva a Franceschetti risulta depositata agli atti della procedura. La difesa chiede che questo G.E. ordini a DEX di produrre entro termine perentorio di 10 giorni la procura con cui Brillo Dilva ha conferito mandato a Franceschetti per richiedere la trascrizione a suo nome, unitamente alla documentazione attestante la sua capacità di intendere e volere al momento del conferimento. In assenza di tale prova, la trascrizione del 13/05/2026 è priva di titolo e non produce effetti.
 
 **Vizio 4 — Conflitto di interessi: rappresentanza processuale compromessa**
 
@@ -139,7 +139,7 @@ Un dato oggettivo aggrava il quadro: DEX S.r.l. è stata costituita il 31/05/202
 
 ## V. PIGNORAMENTI PREESISTENTI NON MENZIONATI NELL'AVVISO DI VENDITA — ART. 570 C.P.C.
 
-Le ispezioni ipotecarie del 18/05/2026 hanno rilevato che sui beni della procedura gravano formalità pregiudizievoli anteriori al pignoramento BSM del 08/02/2022, non risultanti formalmente estinte in Conservatoria:
+Le ispezioni ipotecarie del 18/05/2026, eseguite da un visurista di fiducia appositamente incaricato i cui esiti sono integralmente documentati e allegati al presente atto, hanno rilevato che sui beni della procedura gravano formalità pregiudizievoli anteriori al pignoramento BSM del 08/02/2022, non risultanti formalmente estinte in Conservatoria:
 
 - **Stiltecno S.r.l.** — pignoramenti n. 5739 del 04/06/2007 e n. 1796 del 12/02/2008 su sub 3 e sub 9 (Foglio 11, Particella 864): ancora attivi nei registri immobiliari senza annotazione di cancellazione
 - **Cassa Risparmio Ascoli Piceno** — pignoramenti n. 3144 del 19/03/2008 e rettifica n. 3129 del 08/04/2010 su sub 16, sub 17 e Particella 1237: non risultanti estinti
