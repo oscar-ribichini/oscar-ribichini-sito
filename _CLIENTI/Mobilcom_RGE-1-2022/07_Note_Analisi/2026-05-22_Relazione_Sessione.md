@@ -152,15 +152,28 @@ Non avvantaggia DEX — la mette in difficoltà su entrambi i fronti.
 
 ---
 
-## 3. COSA DEVE FARE DI SALVATORE — PRIORITÀ
+## 3. COSA DEVE FARE DI SALVATORE — DUE ATTI
 
-| Priorità | Azione | Scadenza |
-|---|---|---|
-| 1 — URGENTE | Depositare istanza sui 4 vizi DEX del 13/05/2026 | Questa settimana |
-| 2 — URGENTE | Decidere e depositare opposizione ex art. 617 c.p.c. | 04/06/2026 |
-| 3 | Eccesso mandato S3 + condizione sospensiva | Appena possibile |
-| 4 | Tre punti tecnici fideiussione Oscar | Prima della fase negoziale |
-| 5 | Pignoramenti preesistenti — art. 570 c.p.c. | Con l'istanza principale |
+**Atto 1 — Istanza al G.E. (questa settimana — URGENTE)**
+
+Un unico atto che contiene tutto:
+- I 4 vizi dell'inottemperanza DEX del 13/05/2026
+- Eccesso mandato S3 ex art. 1711 c.c. (in via principale)
+- Condizione sospensiva non provata (in via subordinata)
+- Pignoramenti preesistenti Stiltecno e CRA ex art. 570 c.p.c.
+
+Bozza già in: `04_Opposizioni_Istanze\2026-05-21_Istanza_GE_Finale.md`
+
+**Atto 2 — Opposizione ex art. 617 c.p.c. (entro 04/06/2026 — scadenza fissa)**
+
+Oggetto separato: nullità avviso di vendita Lotto 3.
+- Sub 16 non vendibile (catena proprietaria assente)
+- Particella 1237 riserve catastali
+- Variazione catastale senza autorizzazione G.E.
+- Domanda giudiziale n. 10132 non menzionata nell'avviso
+
+**Azione successiva — prima della fase negoziale:**
+Tre punti tecnici fideiussione Oscar da sviluppare prima del deposito dell'opposizione ex art. 615 I comma.
 
 ---
 
