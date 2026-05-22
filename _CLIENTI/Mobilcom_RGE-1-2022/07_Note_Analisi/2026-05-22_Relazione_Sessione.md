@@ -16,12 +16,14 @@
 
 **1. Depositare istanza sui 4 vizi del deposito DEX del 13/05/2026**
 
-DEX ha depositato il 13/05/2026 sostenendo di aver ottemperato all'ordinanza del 22/04/2026. Non è vero. I quattro vizi autonomi, ognuno sufficiente da solo:
+DEX ha depositato il 13/05/2026 sostenendo di aver ottemperato all'ordinanza del 22/04/2026. Non è vero. I quattro vizi da usare nell'istanza, ognuno sufficiente da solo:
 
 - **Tardività di un giorno** — scadenza 12/05/2026, deposito 13/05/2026
 - **Riferimento a provvedimento inesistente** — il testo DEX cita "l'ordinanza del 22.04.2025"; l'ordinanza reale è del 22/04/2026
-- **Errore logico strutturale** — dall'atto Testa del 09/02/2006 (prodotto da DEX stessa) risulta che sub 6 e sub 10 furono assegnati a Le Carrè S.r.l. nella divisione, non agli eredi Ripa. Il problema di continuità su quei sub riguarda il passaggio Le Carrè → Mobilcom, non la successione Ripa. Trascrivere l'eredità Ripa non sana nulla per sub 6 e sub 10.
-- **Dubbia validità atto Brillo Dilva** — 95 anni, allettata, quasi incosciente. L'accettazione tacita trascritta a suo nome è stata richiesta dall'avv. Franceschetti, socio al 10% di DEX. Contestabile in sede civile e penale.
+- **Mandato invalido** — Franceschetti ha agito a nome di Brillo Dilva, 95 anni, malata, assistita h24 da badante, senza procura verificabile. DEX deve produrre la procura. Se non la produce, la trascrizione non ha titolo.
+- **Conflitto di interessi** — Franceschetti è simultaneamente difensore di DEX nel procedimento e socio al 10% di DEX. Ha compiuto un atto che avvantaggia direttamente la sua quota societaria usando come strumento una terza persona anziana e malata. Violazione art. 24 Codice Deontologico Forense. Profili penali: art. 374 c.p. (frode processuale) e art. 48 + 479 c.p. (falsità per induzione).
+
+**REGOLA OPERATIVA:** Non inserire mai in atti depositati al G.E. l'argomento sull'errore logico strutturale (Le Carrè → Mobilcom) — indicherebbe a DEX esattamente il vizio da sanare. Rimane solo nei file interni.
 
 Prova documentale già negli atti — non serve produrre nulla di nuovo.
 
