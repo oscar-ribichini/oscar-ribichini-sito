@@ -97,7 +97,16 @@ Giurisprudenza: Cass. Sez. Un. 41994/2021; Cass. 27243/2024; Cass. 34210/2023; C
 
 **5. Condizione sospensiva S3→DEX — chiedere prova del pagamento**
 
-Il contratto S3→DEX (art. 2.3) subordina l'efficacia della cessione al pagamento di €1.570.000 entro 10 giorni. Nessun documento in atti prova che DEX abbia pagato. DEX ha capitale sociale di €2.500 ed è stata costituita 4 mesi prima dell'acquisto. Istanza al G.E. per ordine di produzione della prova.
+Il contratto S3→DEX (art. 2.3) subordina l'efficacia della cessione al pagamento di €1.570.000 entro 10 giorni lavorativi dalla firma di S3. Art. 2.4: senza pagamento il contratto si intende non perfezionato. Nessun documento in atti prova che DEX abbia pagato. DEX capitale €2.500, costituita 4 mesi prima dell'acquisto.
+
+**Come usarlo — non affermare che non ha pagato, chiedere al G.E. di ordinare la prova.**
+Formulazione corretta: ordine al G.E. di produzione della prova entro termine perentorio (bonifico, estratto conto o quietanza notarile). Se non produce → difetto di legittimazione.
+
+**Non avvantaggia DEX:** o ha la prova o non ce l'ha. Non le indica nulla di sanabile.
+
+**Se DEX produce un pagamento da conto terzi o con struttura diversa dai 10 giorni contrattali:** Di Salvatore contesta che quella forma non soddisfa la condizione sospensiva come contrattualmente definita.
+
+**Posizione nell'atto:** in via subordinata all'eccesso di mandato (blocco 3). I due argomenti si rafforzano a vicenda — se cade l'eccesso di mandato, resta la condizione sospensiva e viceversa.
 
 **6. Pignoramenti preesistenti ex art. 570 c.p.c.**
 
