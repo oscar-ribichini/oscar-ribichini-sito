@@ -218,6 +218,8 @@ Se il debito viene definito o stralciato, Oscar come liquidatore vende ordinatam
 **Uscita C — Estinzione procedura per vizi + liberazione fideiussione Oscar**
 Strada più lunga. Se la procedura si estingue e Oscar è liberato dalla fideiussione, DEX resta con un credito chirografario verso una società in liquidazione e potrebbe chiudere con pochissimo o niente.
 
+Elemento aggiuntivo — restituzione canoni SAUDA ex art. 632 c.p.c.: il decreto di delega vendita del G.E. Rana (2025) nomina la dott.ssa Manuela Martina custode e le ordina di ricevere i canoni di locazione depositandoli su conto intestato al custode nella qualità, indicando il numero della procedura. I canoni SAUDA (€1.500/mese da febbraio 2026) non vanno a DEX né a Mobilcom — stanno sul conto della procedura. In caso di estinzione della procedura, l'art. 632 c.p.c. prevede che il G.E. ordini la restituzione all'esecutato di tutte le somme riscosse. Di Salvatore deposita istanza di restituzione ex art. 632 c.p.c. e il G.E. ordina al custode di versare i canoni accumulati a Mobilcom. Non è un'azione separata complicata — è la conseguenza automatica dell'estinzione. Da febbraio 2026 a dicembre 2027 il totale potenziale è circa €33.000.
+
 ---
 
 ## VIII. ISTRUTTORIA CHIUSA — COSA NON SERVE PIÙ FARE
