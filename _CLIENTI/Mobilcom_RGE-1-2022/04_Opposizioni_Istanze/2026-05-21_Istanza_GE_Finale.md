@@ -295,22 +295,62 @@ Descrivere sub 3 e sub 9 come piena proprieta' 1/1 di Mobilcom senza aver verifi
 
 ---
 
-## VI. LA DOMANDA GIUDIZIALE N. 10132: MOTIVO AUTONOMO DI SOSPENSIONE EX ART. 624 C.P.C.
+## VI. LA DOMANDA GIUDIZIALE N. 10132: FORMALITÀ PREGIUDIZIEVOLE NON CANCELLATA E OBBLIGO DI COMPLETEZZA DELL'AVVISO D'ASTA
 
-L'ispezione ipotecaria del 18/05/2026, eseguita da un visurista di fiducia appositamente incaricato, ha rilevato che al Registro Particolare n. 10132, in data 17/10/2008, risulta trascritta una domanda giudiziale di accertamento della simulazione degli atti di acquisto, promossa da Banca Marche S.p.A. contro Le Carrè S.r.l. Tale trascrizione grava su **tutti** gli immobili della procedura.
+L'ispezione ipotecaria del 18/05/2026 (Ispezione n. T34794) ha rilevato che al Registro Particolare n. 10132, in data 17/10/2008, risulta trascritta una domanda giudiziale di accertamento della simulazione degli atti di acquisto, promossa da **Banca Marche S.p.A. contro Le Carrè S.r.l.** (Repertorio 2093/2006 del 30/08/2008, Ufficiale Giudiziario). Tale trascrizione grava su **tutti** gli immobili della procedura.
 
-A differenza di tutte le altre domande giudiziali analoghe del medesimo periodo (nn. 10133, 10134, 5660, 5661, 5662, 7221, 7222, tutte cancellate nel 2012), la n. 10132 non ha ad oggi alcuna annotazione di cancellazione. In nessuna delle relazioni depositate agli atti — inclusa la relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni — la n. 10132 e' mai stata menzionata. Questo silenzio rende la relazione del Notaio Lorenzoni incompleta su un punto di rilievo decisivo.
+A differenza di tutte le altre domande giudiziali analoghe del medesimo periodo (nn. 10133, 10134, 5660, 5661, 5662, 7221, 7222, tutte cancellate nel 2012 con annotazione di cancellazione), la n. 10132 non ha ad oggi **alcuna annotazione di cancellazione** nei registri immobiliari. Questa difesa ha verificato presso il Registro del Tribunale Civile di Macerata che il procedimento collegato risulta estinto in data 19/07/2011. Tuttavia, l'estinzione del procedimento non produce automaticamente la cancellazione della trascrizione pregiudizievole dai registri immobiliari: l'art. 2668 c.c. richiede un'apposita nota di cancellazione che, ad oggi, non risulta depositata.
 
-La trascrizione di una domanda giudiziale di simulazione attiva su tutti gli immobili della procedura costituisce di per se' un **grave motivo** ai sensi dell'art. 624 c.p.c., idoneo a giustificare la sospensione dell'esecuzione indipendentemente da qualunque altro vizio. Il motivo e' grave perche':
+Ne consegue che la formalità n. 10132 è ancora **attivamente iscritta in Conservatoria** e visibile a chiunque consulti i registri immobiliari, producendo i seguenti effetti concreti sulla procedura:
 
-- Finche' la domanda risulta attiva in Conservatoria, nessun potenziale acquirente all'asta puo' verificare autonomamente lo stato del giudizio o la validita' del titolo che acquisirebbe. La trascrizione pregiudizievole e' visibile a chiunque consulti i registri e scoraggia oggettivamente qualsiasi offerta.
-- Se il giudizio e' ancora pendente, la procedura non puo' concludersi con un decreto di trasferimento valido su beni la cui provenienza e' sub iudice. Il decreto sarebbe impugnabile.
-- Se il giudizio fu accolto, le compravendite Le Carrè verso Mobilcom erano simulate. Gli immobili non appartengono a Mobilcom. L'ipoteca BSM del 2011 e' iscritta su beni che Mobilcom non possedeva validamente — e risulta travolta dalla sentenza. DEX non vanterebbe credito ipotecario ma al piu' chirografario, con radicale mutamento della propria posizione nella procedura.
-- Anche nel solo scenario di rigetto del giudizio, la trascrizione non cancellata produce comunque l'effetto pratico di bloccare il mercato: nessun acquirente ragionevole offrira' su immobili gravati da una domanda giudiziale di simulazione che nessuno ha mai verificato.
+1. **Sull'avviso d'asta**: qualunque futuro avviso d'asta che non menzioni la formalità n. 10132 come formalità pregiudizievole attiva è incompleto ai sensi dell'art. 570 c.p.c. e pregiudica la possibilità per i potenziali acquirenti di formulare offerte consapevoli. Un acquirente che consulti i registri vede questa trascrizione; se l'avviso non la spiega, l'acquirente è indotto in errore sulla situazione del bene.
 
-Questa verifica non e' mai stata effettuata ne' sollecitata in procedura, nonostante la trascrizione risulti attiva da quasi vent'anni e gravi su tutti gli immobili. La difesa chiede che questo G.E. disponga immediatamente la sospensione ex art. 624 c.p.c. di qualsiasi atto esecutivo sugli immobili gravati dalla n. 10132 — ovvero tutti gli immobili della procedura — e contestualmente acquisisca d'ufficio gli atti del procedimento collegato presso il Registro del Tribunale di Macerata.
+2. **Sul mercato**: la trascrizione è visibile a chiunque consulti i registri e scoraggia oggettivamente qualsiasi offerta, indipendentemente dall'esito del procedimento. Nessun acquirente ragionevole acquisterà un immobile gravato da una domanda giudiziale di simulazione non cancellata senza una spiegazione completa e documentata.
 
-<span style="color:red">**[DA VERIFICARE CON DI SALVATORE — VI — URGENTE]** L'esito della domanda giudiziale n. 10132 (Banca Marche c/ Le Carrè) non è ancora stato verificato presso il Registro del Tribunale di Macerata. Questa è la verifica più urgente di tutte, indicata come tale già nella relazione del 20/05/2026. L'istanza è costruita correttamente sui tre scenari possibili (pendente / accolto / rigettato), ma Di Salvatore deve effettuare la verifica al Tribunale prima o contestualmente al deposito — perché se l'esito è già noto (es. rigetto del 2012 non cancellato per dimenticanza), l'argomento si ridimensiona; se il giudizio è ancora pendente o fu accolto, diventa il vizio più potente dell'intera istanza.</span>
+3. **Sulla relazione notarile**: in nessuna delle relazioni depositate agli atti — inclusa la relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni — la n. 10132 è mai stata menzionata come formalità pregiudizievole attiva. Questo silenzio rende la relazione del Notaio Lorenzoni incompleta.
+
+La difesa chiede pertanto che:
+
+- Questo G.E. ordini alla parte creditrice di provvedere alla cancellazione formale della trascrizione n. 10132 dai registri immobiliari, depositando la nota di cancellazione ex art. 2668 c.c., prima di qualsiasi atto d'asta;
+- Qualunque futuro avviso d'asta contenga l'indicazione esplicita della formalità n. 10132 e del suo stato, affinché i potenziali acquirenti ne siano pienamente informati;
+- La relazione notarile ex art. 567 c.p.c. venga integrata con riferimento a questa formalità.
+
+---
+
+## VI-bis. INCOLLOCABILITÀ STRUTTURALE DEL LOTTO 3: ASTA NON COMPETITIVA CON OFFERENTE UNICO IDENTIFICABILE
+
+L'unico soggetto che nelle condizioni attuali potrebbe razionalmente formulare un'offerta sugli immobili del Lotto 3 è il conduttore in essere, **SAUDA S.r.l.s.** (legale rappresentante Calogero Daniele Sciortino), già insediato nei locali dal 01/01/2022 in forza di contratto di locazione commerciale opponibile alla procedura ai sensi dell'art. 2923 c.c., con scadenza 31/12/2027.
+
+Qualunque acquirente terzo si troverebbe a dover gestire un immobile occupato fino al 31/12/2027, con assenza totale di catena proprietaria trascritta in Conservatoria per il sub 16, riserve catastali aperte dal 2005 sulla particella 1237, difformità urbanistica non regolarizzabile (gazebo metallico), e formalità pregiudizievoli non cancellate.
+
+In queste condizioni, l'asta non è una vendita competitiva sul mercato aperto ma una vendita **sostanzialmente predeterminata nel risultato**, con un unico offerente razionale identificabile ex ante. Questa circostanza comporta che il prezzo base non riflette il valore reale del bene in condizioni di mercato ordinarie, con conseguente pregiudizio diretto per il debitore esecutato.
+
+La difesa chiede che questo G.E. valuti la congruità delle condizioni di vendita e **sospenda qualsiasi atto d'asta sul Lotto 3** fino alla risoluzione dei vizi strutturali che rendono l'immobile non collocabile su un mercato realmente competitivo.
+
+---
+
+## VI-ter. VARIAZIONE CATASTALE POST-PIGNORAMENTO E COMPLETEZZA DELL'AVVISO D'ASTA
+
+### VI-ter.1 — Variazione catastale effettuata senza autorizzazione del G.E.
+
+Si segnala che la variazione catastale del 26/05/2022 (pratica MC0065185) — presentata cinque mesi dopo la notifica del pignoramento del 03/12/2021, senza autorizzazione di questo G.E. ai sensi dell'art. 560 c.p.c. — ha modificato la superficie del sub 16 da 143 mq a 177 mq durante la pendenza della procedura esecutiva.
+
+Il contratto di locazione commerciale del 01/12/2021 tra Mobilcom S.r.l. e SAUDA S.r.l.s. vieta espressamente al conduttore di eseguire innovazioni senza il preventivo consenso scritto del proprietario (art. 10). L'art. 560 c.p.c. vieta al debitore esecutato di compiere atti che modifichino lo stato dei beni pignorati senza autorizzazione del G.E.
+
+Non è noto a questa difesa chi abbia presentato il DOCFA, ma se tale variazione fosse riconducibile al conduttore SAUDA, essa configurerebbe una **violazione contrattuale rilevante** e un **atto compiuto in violazione dell'art. 560 c.p.c.**
+
+La difesa chiede che questo G.E. accerti l'identità del soggetto che ha presentato la variazione e adotti i conseguenti provvedimenti, inclusa la valutazione dell'impatto della modifica sulla stima dell'immobile pignorato.
+
+### VI-ter.2 — Obbligo di completezza dell'avviso d'asta ex art. 570 c.p.c.
+
+La difesa chiede che qualunque futuro avviso d'asta relativo agli immobili della presente procedura contenga l'indicazione completa e analitica di tutte le formalità pregiudizievoli attive risultanti dai registri immobiliari, con particolare riferimento a:
+
+- La domanda giudiziale n. 10132 del 17/10/2008 (Banca Marche S.p.A. c/ Le Carrè S.r.l.), ancora trascritta in Conservatoria con atto n. 15986 Registro Generale del 17/10/2008, senza annotazione di cancellazione, la cui presenza nei registri immobiliari deve essere indicata nell'avviso d'asta affinché i potenziali acquirenti ne siano informati;
+- I pignoramenti Stiltecno S.r.l. nn. 5739/2007 e 1796/2008 e Cassa Risparmio Ascoli Piceno nn. 3144/2008 e 3129/2010, non risultanti formalmente estinti in Conservatoria;
+- L'assenza di catena proprietaria trascritta in Conservatoria per il sub 16 (Foglio 11, Particella 864);
+- La variazione catastale del 26/05/2022 (da 143 a 177 mq) presentata durante la procedura senza autorizzazione del G.E.
+
+Un avviso d'asta che ometta formalità pregiudizievoli attive e verificabili nei registri pubblici non soddisfa il requisito di completezza imposto dall'art. 570 c.p.c. e pregiudica la possibilità per i potenziali acquirenti di formulare offerte consapevoli. La difesa si riserva di impugnare qualunque avviso d'asta che non contenga tali indicazioni.
 
 ---
 
