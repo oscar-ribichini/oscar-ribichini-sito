@@ -213,7 +213,10 @@ Tre punti tecnici fideiussione Oscar da sviluppare prima del deposito dell'oppos
 - Piano francese, anatocismo, tasso: giudicato copre
 - Art. 106 TUB come argomento principale: rigettato due volte
 - Domanda giudiziale n. 10132 come sospensione: estinta 19/07/2011 (rimane solo per art. 570 c.p.c.)
-- Vizio decreto esecutorietà 2018: delega Presidente citata nel testo — non percorribile
+- Vizio decreto esecutorietà 2018: verificata legge sammarinese in sessione precedente — strada scartata, non percorribile
+
+### Da fare — Oscar
+- Visura storica CCIAA Ribichini Gino & C. S.n.c. su Telemaco (infocamere.it) — serve per verificare scioglimento e ricongiungimento usufrutto su sub 16, sub 17 e particella 1237
 
 ---
 
