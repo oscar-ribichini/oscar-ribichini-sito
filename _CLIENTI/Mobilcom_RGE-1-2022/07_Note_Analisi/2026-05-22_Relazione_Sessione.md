@@ -220,6 +220,29 @@ Tre punti tecnici fideiussione Oscar da sviluppare prima del deposito dell'oppos
 
 ---
 
+## 8. NUOVI ARGOMENTI AGGIUNTI IL 22/05/2026 — NON ERANO NELL'ISTANZA ORIGINALE
+
+Aggiunti dopo analisi approfondita. Tutti inseriti nell'istanza `2026-05-22_Istanza_GE_per_DiSalvatore.md`.
+
+**Sez. IX — Annotazione ipotecaria tardiva 6 giorni**
+La cessione BSM→Veicolo doveva essere annotata entro 31/10/2024 (art. 4.1 contratto S3→DEX). È avvenuta il 06/11/2024 — 6 giorni dopo. Nel periodo 01/11-06/11/2024 la cessione non era opponibile ai terzi ex art. 2843 c.c. Mobilcom è tra i terzi legittimati a eccepirlo.
+
+**Sez. X — Mancata notifica cessione a Mobilcom ex art. 1264 c.c.**
+L'avviso di cessione S3→DEX spedito a Mobilcom il 12/09/2024 è tornato "irreperibile" il 25/09/2024. Mobilcom non ha mai ricevuto formalmente la notifica. La cessione non è opponibile al debitore ceduto ex art. 1264 c.c.
+
+**Sez. XI — Creditori Stiltecno e CRA non convocati ex art. 498 c.p.c.**
+BSM nell'avviso del 08/03/2022 ha convocato solo Tercas. Stiltecno e CRA con pignoramenti anteriori attivi non risultano convocati. Vizio originario dell'avviso ai creditori — richiesta di rinnovazione e sospensione distribuzione ricavato.
+
+**Sez. XII — Revoca decreto trasferimento, non solo sospensione**
+Il decreto di trasferimento già emesso è fondato su relazione notarile inidonea (catasto invece di Conservatoria per sub 16). La sospensione conserva un atto viziato alla radice. Va chiesta la revoca.
+
+**Argomenti tenuti come riserva strategica — non inseriti nell'istanza:**
+- Ambiguità cessione/surrogazione nell'atto di intervento DEX (art. 1203 c.c. vs art. 1260 c.c.)
+- Rifacimento perizia Emiliani (stima su immobile con vizi gravi non rilevati)
+- Canoni SAUDA ex art. 632 c.p.c. — da usare nella fase negoziale
+
+---
+
 ## 6. STRATEGIA — LE TRE USCITE
 
 **Uscita A (preferibile):** saldo e stralcio con Veicolo/BSM €350.000–450.000, poi liquidazione ordinata Mobilcom al valore reale (€784.000 perizia Emiliani). Canale: Pichetti.

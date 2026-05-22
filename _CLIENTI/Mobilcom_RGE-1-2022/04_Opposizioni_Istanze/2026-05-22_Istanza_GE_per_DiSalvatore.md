@@ -31,7 +31,7 @@ nei confronti di
 
 ## I. PREMESSA
 
-La presente istanza solleva nove questioni distinte, ciascuna sufficiente da sola o in combinazione a determinare la sospensione della procedura o la declaratoria di difetto di legittimazione di DEX S.r.l.:
+La presente istanza solleva tredici questioni distinte, ciascuna sufficiente da sola o in combinazione a determinare la sospensione della procedura o la declaratoria di difetto di legittimazione di DEX S.r.l.:
 
 1. L'inottemperanza consumata di DEX all'ordinanza del 22/04/2026 — quattro vizi autonomi
 2. Il difetto di legittimazione di DEX per eccesso di mandato ex art. 1711 c.c.
@@ -41,7 +41,11 @@ La presente istanza solleva nove questioni distinte, ciascuna sufficiente da sol
 6. La domanda giudiziale n. 10132 attiva in Conservatoria senza cancellazione
 7. L'incollocabilità strutturale del Lotto 3
 8. Gli elementi di contesto procedurale che questo G.E. vorrà valutare
-9. Le riserve agli organi di vigilanza
+9. L'inopponibilità della cessione BSM→Veicolo per annotazione tardiva
+10. La mancata notifica della cessione a Mobilcom ex art. 1264 c.c.
+11. Il vizio dell'avviso ai creditori ex art. 498 c.p.c. per omessa convocazione di creditori preesistenti
+12. La richiesta di revoca del decreto di trasferimento
+13. Le riserve agli organi di vigilanza
 
 ---
 
@@ -207,7 +211,51 @@ In queste condizioni l'asta non è una vendita competitiva sul mercato aperto. L
 
 ---
 
-## IX. ELEMENTI DI CONTESTO PROCEDURALE CHE QUESTO G.E. VORRÀ VALUTARE
+## IX. INOPPONIBILITÀ DELLA CESSIONE BSM→VEICOLO PER ANNOTAZIONE TARDIVA
+
+L'art. 4.1 del contratto S3→DEX imponeva che la cessione BSM→Veicolo di Sistema fosse annotata a margine delle iscrizioni ipotecarie italiane entro il 31/10/2024. Dalle ispezioni ipotecarie del 18/05/2026 risulta che tale annotazione è avvenuta il **06/11/2024** — con un ritardo di sei giorni rispetto al termine contrattuale.
+
+Ai sensi dell'art. 2843 c.c., la cessione del credito ipotecario deve essere annotata a margine dell'iscrizione per produrre effetti nei confronti dei terzi. Nel periodo dal 01/11/2024 al 06/11/2024 la cessione BSM→Veicolo non era opponibile ai terzi secondo le forme di pubblicità immobiliare italiana. Tra i terzi legittimati a eccepire questa inopponibilità figura il debitore esecutato.
+
+**Richiesta:** si chiede a questo G.E. di valutare l'incidenza di tale inopponibilità temporanea sulla regolarità della catena di cessioni e sulla legittimazione di DEX a stare in giudizio.
+
+---
+
+## X. MANCATA NOTIFICA DELLA CESSIONE A MOBILCOM — INOPPONIBILITÀ EX ART. 1264 C.C.
+
+L'avviso di cessione spedito il 12/09/2024 a Mobilcom S.r.l. presso la sede legale di Via Ranco Mauro n. 10, Dogana (RSM), è tornato al mittente come "irreperibile" il 25/09/2024. Il debitore principale — Mobilcom S.r.l. — non ha mai ricevuto formalmente la comunicazione della cessione del credito da S3 a DEX.
+
+Ai sensi dell'art. 1264 c.c., la cessione del credito non è opponibile al debitore ceduto finché non gli è stata notificata o finché egli non l'ha accettata. La mancata notifica formale a Mobilcom della cessione S3→DEX rende tale cessione inopponibile al debitore principale della procedura. DEX non può procedere esecutivamente contro un debitore cui la cessione non è mai stata validamente notificata.
+
+**Richiesta:** si chiede a questo G.E. di rilevare l'inopponibilità della cessione S3→DEX nei confronti di Mobilcom S.r.l. per mancata notifica ex art. 1264 c.c. e di sospendere qualsiasi atto esecutivo fino alla regolarizzazione.
+
+---
+
+## XI. VIZIO DELL'AVVISO AI CREDITORI EX ART. 498 C.P.C. — CREDITORI PREESISTENTI NON CONVOCATI
+
+L'avviso ai creditori ex art. 498 c.p.c. del 08/03/2022, depositato da BSM, indica come unico creditore ipotecario preesistente Tercas (ora Banca Popolare di Bari) per ipoteca giudiziale sull'usufrutto di Marinelli Giuseppina.
+
+Tuttavia dalle ispezioni ipotecarie del 18/05/2026 risultano attivi e non estinti pignoramenti anteriori al BSM del 08/02/2022:
+- **Stiltecno S.r.l.** — nn. 5739/2007 e 1796/2008 su sub 3 e sub 9
+- **Cassa Risparmio Ascoli Piceno** — nn. 3144/2008 e 3129/2010 su sub 16, sub 17 e particella 1237
+
+Questi creditori non risultano essere stati convocati nell'avviso ex art. 498 c.p.c. L'art. 498 c.p.c. impone che tutti i creditori iscritti sui beni pignorati siano avvisati della procedura. L'omessa convocazione di creditori titolari di formalità pregiudizievoli anteriori costituisce un vizio originario dell'avviso, che pregiudica la corretta formazione del contraddittorio tra tutti i soggetti aventi diritto e la corretta distribuzione del ricavato.
+
+**Richiesta:** si chiede a questo G.E. di accertare se Stiltecno S.r.l. e Cassa Risparmio Ascoli Piceno siano stati ritualmente convocati ex art. 498 c.p.c. e, in caso negativo, di disporre la rinnovazione dell'avviso con la corretta individuazione di tutti i creditori aventi diritto, sospendendo nel frattempo qualsiasi atto di distribuzione del ricavato.
+
+---
+
+## XII. REVOCA DEL DECRETO DI TRASFERIMENTO — NON SOLA SOSPENSIONE
+
+Con ordinanza del 22/04/2026 questo G.E. ha disposto la **sospensione** del decreto di trasferimento già emesso. La difesa chiede che questo G.E. valuti se la sospensione sia misura sufficiente o se i vizi illustrati nella presente istanza — in particolare l'assenza totale di catena proprietaria trascritta in Conservatoria per sub 16 (Sez. VI) e l'inesistenza di valida relazione notarile ex art. 567 c.p.c. per quell'immobile — rendano necessaria la **revoca** del decreto di trasferimento.
+
+Un decreto di trasferimento emesso sulla base di una relazione notarile che non ha verificato la continuità delle trascrizioni in Conservatoria per un immobile del valore di €329.662 — e che pertanto non ha rilevato l'assenza totale di catena proprietaria per quel bene — non può produrre effetti validi. La sospensione conserva un atto viziato alla radice: la revoca elimina il vizio alla fonte.
+
+**Richiesta:** si chiede a questo G.E. di procedere alla revoca del decreto di trasferimento emesso, in luogo della sola sospensione, stante l'inesistenza della base documentale che ne avrebbe dovuto fondare l'emissione.
+
+---
+
+## XIII. ELEMENTI DI CONTESTO PROCEDURALE CHE QUESTO G.E. VORRÀ VALUTARE
 
 La difesa sottopone rispettosamente all'attenzione di questo G.E. tre elementi di contesto che, letti congiuntamente, restituiscono un quadro procedurale che merita una valutazione complessiva.
 
@@ -245,7 +293,15 @@ Tutto ciò premesso, la parte esecutata Mobilcom S.r.l. chiede all'Ill.mo Giudic
 
 **8)** Sospendere qualsiasi atto d'asta sul Lotto 3 fino alla risoluzione dei vizi strutturali illustrati alla Sez. VIII; accertare chi abbia presentato la variazione catastale del 26/05/2022 (pratica MC0065185) e adottare i conseguenti provvedimenti.
 
-**9)** Disporre, in ogni caso, la sospensione di qualsiasi atto esecutivo fino alla definizione delle questioni sollevate con la presente istanza, con condanna della creditrice procedente al risarcimento dei danni ex art. 96 c.p.c. per responsabilità aggravata in ragione della gravità dei vizi documentalmente provati.
+**9)** Valutare l'incidenza dell'inopponibilità temporanea della cessione BSM→Veicolo nel periodo 01/11/2024-06/11/2024 per annotazione tardiva ex art. 2843 c.c. sulla legittimazione di DEX a stare in giudizio.
+
+**10)** Rilevare l'inopponibilità della cessione S3→DEX nei confronti di Mobilcom S.r.l. per mancata notifica ex art. 1264 c.c. e sospendere qualsiasi atto esecutivo fino alla regolarizzazione.
+
+**11)** Accertare se Stiltecno S.r.l. e Cassa Risparmio Ascoli Piceno siano stati ritualmente convocati ex art. 498 c.p.c.; in caso negativo, disporre la rinnovazione dell'avviso con la corretta individuazione di tutti i creditori aventi diritto e sospendere qualsiasi atto di distribuzione del ricavato.
+
+**12)** Procedere alla revoca del decreto di trasferimento — e non alla sola sospensione già disposta — stante l'inesistenza della base documentale che avrebbe dovuto fondarne l'emissione, in particolare per sub 16 (assenza totale di catena proprietaria in Conservatoria e relazione notarile ex art. 567 c.p.c. inidonea).
+
+**13)** Disporre, in ogni caso, la sospensione di qualsiasi atto esecutivo fino alla definizione delle questioni sollevate con la presente istanza, con condanna della creditrice procedente al risarcimento dei danni ex art. 96 c.p.c. per responsabilità aggravata in ragione della gravità dei vizi documentalmente provati.
 
 ---
 
