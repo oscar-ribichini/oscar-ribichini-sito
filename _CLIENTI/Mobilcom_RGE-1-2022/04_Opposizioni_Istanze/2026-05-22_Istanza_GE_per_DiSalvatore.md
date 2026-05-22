@@ -156,7 +156,25 @@ Queste formalità pregiudizievoli anteriori incidono direttamente sulla procedur
 
 ---
 
-## VI. RICHIESTE CONCLUSIVE
+## VI. ELEMENTI DI CONTESTO PROCEDURALE CHE QUESTO G.E. VORRÀ VALUTARE
+
+La difesa sottopone rispettosamente all'attenzione di questo G.E. tre elementi di contesto che, letti congiuntamente, restituiscono un quadro procedurale che merita una valutazione complessiva.
+
+**Primo elemento — Il rigetto del 01/01/2026**
+
+Con provvedimento del 01/01/2026 questo G.E. ha rigettato l'istanza depositata dall'esecutata il 06/11/2025, relativa al difetto di legittimazione di DEX. Tale rigetto è stato emesso mentre il vizio di continuità delle trascrizioni — rilevato dallo stesso G.E. con ordinanza del 09/08/2025 — non era ancora sanato da DEX, che aveva già superato il termine di 30 giorni senza ottemperare. La coesistenza di un inadempimento accertato del creditore procedente con il rigetto di una istanza sollevata dalla parte esecutata è un dato che questo G.E. vorrà certamente considerare nell'esaminare la presente istanza.
+
+**Secondo elemento — Il rigetto del 14/05/2026 e la sua sovrapposizione temporale**
+
+Con provvedimento del 14/05/2026 questo G.E. ha rigettato la questione sulla legittimazione di DEX ex art. 106 TUB. Tale provvedimento è stato emesso il giorno successivo al deposito DEX del 13/05/2026 — deposito che, come illustrato alla Sez. II, è affetto da quattro vizi autonomi tra cui la tardività di un giorno e il riferimento a un provvedimento inesistente. La difesa si limita a segnalare questa sovrapposizione temporale, nella piena fiducia che questo G.E. vorrà valutarla nell'ambito della complessiva coerenza della procedura.
+
+**Terzo elemento — Il precedente Cass. 7243/2024 non è pertinente alla fattispecie**
+
+Il rigetto del 14/05/2026 richiama Cass. n. 7243/2024. Quella sentenza riguarda il sub-servicer nelle operazioni di cartolarizzazione disciplinate dalla L. 130/1999 — una fattispecie radicalmente diversa da quella di DEX, che non è un servicer mandatario del cedente ma una cessionaria a titolo definitivo e oneroso del credito, che ha pagato €325.144 per acquistarlo in proprio ex art. 1260 c.c. L'esenzione riconosciuta dalla Cassazione ai sub-servicer nelle operazioni ex L. 130/1999 non si applica a chi acquista il credito definitivamente per proprio conto. La difesa proporrà opposizione ex art. 617 c.p.c. avverso tale rigetto con atto separato nei termini di legge (scadenza 04/06/2026).
+
+---
+
+## VII. RICHIESTE CONCLUSIVE
 
 Tutto ciò premesso, la parte esecutata Mobilcom S.r.l. chiede all'Ill.mo Giudice dell'Esecuzione di voler:
 
