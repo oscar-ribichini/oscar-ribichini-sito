@@ -272,6 +272,31 @@ Nessuno dei quattro indica a DEX cosa sanare — o la catena mancante, o il proc
 
 ---
 
+## 10. CORREZIONI DA FARE ALL'OPPOSIZIONE 617 — SESSIONE 22/05/2026
+
+**File:** `04_Opposizioni_Istanze\2026-05-22_Opposizione_617_per_DiSalvatore.md`
+
+**Correzione 1 — Titolo contraddittorio (URGENTE)**
+Il titolo dice "avverso il provvedimento del G.E. del 14/05/2026" ma il corpo impugna l'avviso di vendita del 03/11/2025. Sono due atti diversi con dies a quo diversi. Correggere il titolo: l'opposizione 617 impugna l'avviso di vendita del 03/11/2025 — non il provvedimento del 14/05/2026 (quello è oggetto di atto separato).
+
+**Correzione 2 — Riformulare motivo superficie**
+143 mq catastali e 175 mq commerciali potrebbero non essere grandezze omogenee. Formulazione attuale vulnerabile. Correggere in: "l'avviso contiene una descrizione quantitativa non conciliabile con la consistenza risultante al momento del pignoramento senza chiarimento tecnico preliminare, anche in ragione di modifiche intervenute durante la procedura senza autorizzazione del G.E."
+
+**Correzione 3 — Riorganizzare ordine motivi**
+- Primo: sub 16 senza catena proprietaria in Conservatoria (più forte)
+- Secondo: perizia inidonea per sub 16
+- Terzo: domanda giudiziale n. 10132 non menzionata
+- Quarto: superficie e CILA post-pignoramento
+
+**Aggiunta 4 — Screditare CTU Emiliani (vantaggio strategico)**
+Il CTU è stato nominato dal G.E. PANNAGGI — non da Di Gennaro. Di Gennaro può ordinare il rifacimento della perizia del predecessore senza sentirsi in difetto. Anzi è coerente con la sua ordinanza del 22/04/2026.
+Formulazione da inserire: "La perizia estimativa redatta dal CTU Arch. Fabio Emiliani su incarico del precedente G.E., pur accurata nella stima del valore commerciale, presenta lacune documentali che incidono sulla stessa validità dell'avviso di vendita. In particolare: ha dichiarato 'Nessuna' formalità pregiudizievole per il Lotto 3 quando la domanda giudiziale n. 10132 è attiva in Conservatoria dal 2008 e verificabile da chiunque; ha attestato la titolarità di Mobilcom su sub 16 basandosi su dati catastali senza verificare la Conservatoria, in violazione dell'art. 567 c.p.c. che impone espressamente tale verifica. Questi non sono errori di valutazione ma lacune metodologiche che hanno compromesso la base informativa dell'avviso di vendita e che giustificano il rifacimento della perizia prima di qualsiasi nuova asta."
+
+**Aggiunta 5 — Stesso passaggio sul CTU va inserito anche nell'istanza principale**
+Il punto sul CTU rafforza la Sez. VI (vizio pignoramento) e la Sez. XII (revoca decreto) dell'istanza principale. Da aggiungere in entrambe.
+
+---
+
 ## 6. STRATEGIA — LE TRE USCITE
 
 **Uscita A (preferibile):** saldo e stralcio con Veicolo/BSM €350.000–450.000, poi liquidazione ordinata Mobilcom al valore reale (€784.000 perizia Emiliani). Canale: Pichetti.
