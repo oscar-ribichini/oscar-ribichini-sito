@@ -238,8 +238,37 @@ Il decreto di trasferimento già emesso è fondato su relazione notarile inidone
 
 **Argomenti tenuti come riserva strategica — non inseriti nell'istanza:**
 - Ambiguità cessione/surrogazione nell'atto di intervento DEX (art. 1203 c.c. vs art. 1260 c.c.)
-- Rifacimento perizia Emiliani (stima su immobile con vizi gravi non rilevati)
 - Canoni SAUDA ex art. 632 c.p.c. — da usare nella fase negoziale
+
+---
+
+## 9. OPPOSIZIONE EX ART. 617 C.P.C. — ANALISI DOCUMENTI ORIGINALI (22/05/2026)
+
+Letti avviso di vendita (03/11/2025) e perizia Emiliani (18/01/2025). Quattro argomenti inattaccabili:
+
+**Argomento 1 — Avviso descrive sub 16 con 175 mq, al pignoramento era 143 mq**
+La CILA 2022/0283 è intestata a SAUDA SRLS, presentata il 20/01/2022 — dopo notifica pignoramento 03/12/2021, senza autorizzazione G.E. ex art. 560 c.p.c. e senza consenso scritto del locatore ex art. 10 contratto. È SAUDA che ha presentato il DOCFA — dato confermato dalla perizia Emiliani pagina 25.
+Prova: confronto avviso (175 mq) vs perizia (143 mq) + CILA intestata SAUDA.
+NON dire se è sanabile.
+
+**Argomento 2 — Avviso non menziona domanda giudiziale n. 10132 per Lotto 3**
+La perizia Emiliani per Lotto 3 dichiara "Nessuna" formalità pregiudizievole — ma n. 10132 grava su tutti gli immobili. Avviso incompleto ex art. 570 c.p.c. La perizia stessa è lacunosa.
+Prova: ispezione T34794 + perizia che non la menziona per Lotto 3.
+NON dire che il procedimento è estinto.
+
+**Argomento 3 — Avviso include sub 16 senza catena proprietaria in Conservatoria**
+Ispezione T50595: solo ipoteca BSM e pignoramento. Nessuna compravendita.
+Prova: ispezione T50595.
+NON indicare quali atti mancano.
+
+**Argomento 4 — Perizia inidonea per sub 16 ex art. 567 c.p.c.**
+Perizia dichiara Mobilcom proprietario basandosi su dati catastali non su Conservatoria. Stesso vizio della relazione Lorenzoni. Avviso fondato su perizia inidonea è nullo per sub 16.
+
+**Dato nuovo confermato dai documenti:**
+SAUDA è chi ha presentato i lavori 2022/0283 il 20/01/2022 — 48 giorni dopo la notifica del pignoramento. Violazione art. 560 c.p.c. documentata dalla perizia stessa che li cita tra le pratiche edilizie.
+
+**Cosa NON avvantaggia DEX in questi argomenti:**
+Nessuno dei quattro indica a DEX cosa sanare — o la catena mancante, o il procedimento estinto, o come regolarizzare la CILA. Tutti attaccano l'avviso come atto esecutivo nullo per vizi oggettivi.
 
 ---
 
