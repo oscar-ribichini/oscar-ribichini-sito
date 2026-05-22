@@ -187,6 +187,8 @@ Per **sub 16** (Foglio 11, Particella 864): come risulta dall'ispezione ipotecar
 
 La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 non ha rilevato questi vizi perché si è basata sulle visure catastali — strumento privo di valore ai fini della pubblicità immobiliare. La relazione è pertanto giuridicamente inidonea per sub 16, dove non ha verificato la continuità delle trascrizioni in Conservatoria come imposto dall'art. 567 c.p.c.
 
+La medesima lacuna metodologica affligge la perizia estimativa del CTU Arch. Fabio Emiliani del 18/01/2025, redatta su incarico del precedente G.E.: **ha attestato Mobilcom proprietaria di sub 16 basandosi su dati catastali senza riscontro in Conservatoria, e ha dichiarato "Nessuna" formalità pregiudizievole per il Lotto 3 quando la domanda giudiziale n. 10132 è attiva in Conservatoria dal 2008.** Questi non sono errori di valutazione ma lacune metodologiche che hanno compromesso la base informativa dell'avviso di vendita e che giustificano il rifacimento della perizia prima di qualsiasi nuova asta.
+
 **Richiesta:** si chiede a questo G.E. di rilevare d'ufficio il vizio dell'atto di pignoramento per erronea indicazione del diritto pignorato, ordinare il rifacimento della relazione notarile ex art. 567 c.p.c. per sub 16 con verifica della catena delle trascrizioni in Conservatoria, e sospendere qualsiasi atto esecutivo sugli immobili interessati fino alla definizione degli accertamenti.
 
 ---
