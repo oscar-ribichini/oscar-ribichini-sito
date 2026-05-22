@@ -76,16 +76,22 @@ Questi due argomenti vanno usati insieme nell'atto in questo ordine:
 
 **4. Opposizione autonoma Oscar ex art. 615 I comma c.p.c. — fideiussione**
 
-La fideiussione specifica di Oscar del 05/12/2011 (file: `02_Titolo_Esecutivo\2011-12-05_Fideiussione_Specifica_RibichiniOscar_Gozi.pdf`) contiene all'art. 2 la clausola: *"Il fideiussore rimane obbligato anche se la Banca non abbia proposto le sue istanze contro il Cliente debitore."* — equivalente funzionale della clausola art. 8 schema ABI, stessa deroga all'art. 1957 c.c.
+La fideiussione specifica di Oscar del 05/12/2011 (file: `02_Titolo_Esecutivo\2011-12-05_Fideiussione_Specifica_RibichiniOscar_Gozi.pdf`) contiene all'art. 2 la clausola: *"Il fideiussore rimane obbligato, anche se la Banca non abbia proposto le sue istanze contro il Cliente debitore o gli eventuali coobbligati o qualora le abbia proposte non le abbia continuate."* — equivalente funzionale della clausola art. 8 schema ABI, stessa deroga all'art. 1957 c.c.
 
-La clausola è nulla per tre ragioni cumulative:
-1. La L. 287/1990 (antitrust) è norma di applicazione necessaria — si applica anche ai contratti con legge straniera se gli effetti si producono in Italia
-2. Cass. 27243/2024 ha esteso la nullità delle clausole ABI anche alle fideiussioni **specifiche** (questa è una fideiussione specifica)
-3. La nullità colpisce qualunque clausola che produca l'effetto di derogare all'art. 1957 c.c., indipendentemente dalla formulazione
+**ATTENZIONE — legge applicabile:** l'Art. 11 della fideiussione dice esplicitamente che il contratto è regolato dal **diritto sammarinese** e foro primario è il Tribunale di San Marino. Di Salvatore deve sviluppare tre punti tecnici prima del deposito:
+1. Come applicare la L. 287/1990 italiana a un contratto regolato da legge sammarinese (norma di applicazione necessaria ex art. 17 L. 218/1995)
+2. Come gestire la competenza del foro italiano nonostante la clausola contrattuale sammarinese
+3. Come dimostrare che la clausola Art. 2 è equivalente funzionale alla clausola ABI dichiarata nulla
 
-Timeline: decadenza BSM il 16/01/2014 → termine semestrale scaduto il 16/07/2014 → primo precetto il 13/10/2020 (oltre 6 anni dopo). Oscar è già liberato dalla fideiussione personale.
+**Timeline — inattaccabile:**
+Decadenza BSM 16/01/2014 → termine semestrale scaduto 16/07/2014 → primo precetto 13/10/2020 (oltre 6 anni dopo). Se la clausola è nulla, Oscar è liberato.
 
-Questa opposizione è **autonoma e indipendente** dalla procedura Mobilcom. Non serve aspettare nulla — il documento c'è, l'argomento è completo.
+**DECISIONE STRATEGICA — depositare DOPO il blocco della procedura:**
+- Oscar risulta nullatenente — tutto intestato a Mobilcom. DEX non ha interesse ad attaccarlo personalmente e non lo ha fatto finora.
+- L'opposizione fideiussione va depositata nella fase negoziale, dopo aver bloccato la procedura, come secondo colpo: "non solo la procedura è viziata, ma anche la garanzia personale è nulla."
+- Se DEX prova a rivalersi su Oscar come ultima carta, l'opposizione è già pronta.
+
+**Non avvantaggia DEX** — riguarda il rapporto Oscar/BSM, non la procedura sugli immobili.
 
 Giurisprudenza: Cass. Sez. Un. 41994/2021; Cass. 27243/2024; Cass. 34210/2023; Cass. 15895/2023.
 
