@@ -31,12 +31,17 @@ nei confronti di
 
 ## I. PREMESSA
 
-La presente istanza solleva quattro questioni distinte e autonome, ciascuna sufficiente da sola a determinare la sospensione della procedura o la declaratoria di difetto di legittimazione di DEX S.r.l.:
+La presente istanza solleva nove questioni distinte, ciascuna sufficiente da sola o in combinazione a determinare la sospensione della procedura o la declaratoria di difetto di legittimazione di DEX S.r.l.:
 
-1. L'inottemperanza consumata di DEX all'ordinanza del 22/04/2026
+1. L'inottemperanza consumata di DEX all'ordinanza del 22/04/2026 — quattro vizi autonomi
 2. Il difetto di legittimazione di DEX per eccesso di mandato ex art. 1711 c.c.
 3. Il mancato avveramento della condizione sospensiva del contratto S3→DEX
 4. I pignoramenti preesistenti non menzionati nell'avviso di vendita ex art. 570 c.p.c.
+5. Il vizio dell'atto di pignoramento per erronea indicazione del diritto pignorato
+6. La domanda giudiziale n. 10132 attiva in Conservatoria senza cancellazione
+7. L'incollocabilità strutturale del Lotto 3
+8. Gli elementi di contesto procedurale che questo G.E. vorrà valutare
+9. Le riserve agli organi di vigilanza
 
 ---
 
@@ -48,11 +53,11 @@ Con ordinanza del 09/08/2025 questo G.E. ha rilevato il vizio di continuità del
 
 DEX non ha ottemperato.
 
-Con ordinanza del 22/04/2026 il G.E. ha ordinato per la terza volta la relazione notarile integrativa, questa volta entro 20 giorni, con esplicito richiamo agli artt. 2648 e 2650 c.c. e alla Cass. n. 11638/2014, disponendo la sospensione del decreto di trasferimento già emesso. L'ordinanza è stata emessa anche sulla base di una segnalazione autonoma del **professionista delegato nominato da questo Tribunale**, il quale ha indipendentemente rilevato il persistere del vizio di continuità delle trascrizioni — circostanza che conferisce alla problematica un rilievo ufficiale del tutto indipendente dalle contestazioni della difesa.
+Con ordinanza del 22/04/2026 il G.E. ha reiterato l'ordine di relazione notarile integrativa, questa volta entro 20 giorni, con esplicito richiamo agli artt. 2648 e 2650 c.c. e alla Cass. n. 11638/2014, disponendo la sospensione del decreto di trasferimento già emesso. L'ordinanza è stata emessa anche sulla base di una segnalazione autonoma del **professionista delegato nominato da questo Tribunale**, il quale ha indipendentemente rilevato il persistere del vizio di continuità delle trascrizioni — circostanza che conferisce alla problematica un rilievo ufficiale del tutto indipendente dalle contestazioni della difesa.
 
 Il termine scadeva il **12 maggio 2026**.
 
-Nella nota di deposito del 30/09/2025 DEX aveva già dichiarato di aver conferito incarico al Notaio Paola Esposito per la trascrizione dell'accettazione tacita dell'eredità. Tra quella data e il deposito del 13/05/2026 sono trascorsi sette mesi e mezzo. L'inadempimento non è frutto di difficoltà tecnica: DEX ha lasciato incompiuto un iter già avviato per quasi un anno, nonostante tre ordinanze di questo G.E.
+Nella nota di deposito del 30/09/2025 DEX aveva già dichiarato di aver conferito incarico al Notaio Paola Esposito per la trascrizione dell'accettazione tacita dell'eredità. Tra quella data e il deposito del 13/05/2026 sono trascorsi sette mesi e mezzo. L'inadempimento non è frutto di difficoltà tecnica: DEX ha lasciato incompiuto un iter già avviato per quasi un anno, nonostante le reiterate ordinanze di questo G.E.
 
 Va aggiunto un dato che aggrava ulteriormente il quadro: l'asta del Lotto 1 (sub 2, sub 6 e sub 10) fissata per il **21/01/2026** è andata **deserta**. Questo dimostra che i vizi che gravano su quei sub rendono l'immobile non collocabile sul mercato indipendentemente dal prezzo base fissato, e che qualunque ulteriore atto esecutivo su quel lotto nelle condizioni attuali è destinato al medesimo esito.
 
@@ -156,7 +161,53 @@ Queste formalità pregiudizievoli anteriori incidono direttamente sulla procedur
 
 ---
 
-## VI. ELEMENTI DI CONTESTO PROCEDURALE CHE QUESTO G.E. VORRÀ VALUTARE
+## VI. VIZIO DELL'ATTO DI PIGNORAMENTO — DIRITTO PIGNORATO NON CORRISPONDENTE AL DIRITTO REALE
+
+L'atto di pignoramento del 05/11/2021 e la nota di iscrizione del 03/01/2022 descrivono tutti gli immobili della procedura come piena proprietà 1/1 di Mobilcom S.r.l. Questa descrizione è oggettivamente falsa per la quasi totalità degli immobili pignorati.
+
+Ai sensi dell'art. 555 c.p.c., l'atto di pignoramento deve contenere l'indicazione del diritto pignorato con le specificazioni necessarie per la trascrizione ai sensi dell'art. 2659 c.c. Il pignoramento colpisce il diritto del debitore: se quel diritto è diverso da quello indicato, il pignoramento ha colpito un diritto che il debitore non possedeva in quella forma.
+
+Nel caso di specie:
+
+Per **sub 3 e sub 9** (Foglio 11, Particella 864): Mobilcom ha acquistato separatamente la nuda proprietà (trascrizione n. 1610 del 09/02/2007) e l'usufrutto da Marinelli Giuseppina (trascrizione n. 545 del 11/01/2008). Il pignoramento descrive piena proprietà 1/1 senza aver verificato il consolidamento dei due diritti. La stessa BSM ha riconosciuto questa situazione nell'avviso ai creditori ex art. 498 c.p.c. del 08/03/2022, indicando come unico creditore ipotecario preesistente Tercas per ipoteca giudiziale iscritta sul diritto di usufrutto di Marinelli Giuseppina — confermando che al momento dell'avviso l'usufrutto era ancora un elemento rilevante della situazione giuridica di quegli immobili.
+
+Per **sub 16** (Foglio 11, Particella 864): in Conservatoria non risulta trascritta alcuna compravendita a favore di Mobilcom. Il pignoramento ha colpito la piena proprietà di un soggetto che nei registri immobiliari non figura come proprietario. Ai sensi dell'art. 2650 c.c., l'ipoteca BSM è inopponibile ai terzi e il pignoramento ha colpito un diritto inesistente nei registri.
+
+La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 non ha rilevato questi vizi perché si è basata sulle visure catastali — strumento privo di valore ai fini della pubblicità immobiliare. La relazione è pertanto giuridicamente inidonea per sub 16, dove non ha verificato la continuità delle trascrizioni in Conservatoria come imposto dall'art. 567 c.p.c.
+
+**Richiesta:** si chiede a questo G.E. di rilevare d'ufficio il vizio dell'atto di pignoramento per erronea indicazione del diritto pignorato, ordinare il rifacimento della relazione notarile ex art. 567 c.p.c. per sub 16 con verifica della catena delle trascrizioni in Conservatoria, e sospendere qualsiasi atto esecutivo sugli immobili interessati fino alla definizione degli accertamenti.
+
+---
+
+## VII. DOMANDA GIUDIZIALE N. 10132 — FORMALITÀ PREGIUDIZIEVOLE ATTIVA NON MENZIONATA NELL'AVVISO D'ASTA
+
+Le ispezioni ipotecarie del 18/05/2026 hanno rilevato che al Registro Particolare n. 10132, in data 17/10/2008, risulta trascritta una domanda giudiziale di accertamento della simulazione degli atti di acquisto, promossa da Banca Marche S.p.A. contro Le Carrè S.r.l. (Repertorio 2093/2006 del 30/08/2008). Tale trascrizione grava su tutti gli immobili della procedura.
+
+A differenza di tutte le altre domande giudiziali analoghe del medesimo periodo — nn. 10133, 10134, 5660, 5661, 5662, 7221, 7222, tutte cancellate nel 2012 — la n. 10132 non ha ad oggi alcuna annotazione di cancellazione nei registri immobiliari. La formalità è attivamente iscritta in Conservatoria e visibile a chiunque consulti i registri.
+
+Qualunque avviso d'asta che non menzioni questa formalità è incompleto ai sensi dell'art. 570 c.p.c. e pregiudica la possibilità per i potenziali acquirenti di formulare offerte consapevoli. Nessun acquirente ragionevole acquisirà immobili gravati da una domanda giudiziale di simulazione non cancellata senza una spiegazione completa e documentata.
+
+**Richiesta:** si chiede a questo G.E. di disporre d'ufficio l'acquisizione degli atti del procedimento collegato alla formalità n. 10132 presso il Registro del Tribunale Civile di Macerata, e di disporre che qualunque futuro avviso d'asta menzioni esplicitamente tale formalità. Si chiede altresì che la relazione notarile ex art. 567 c.p.c. venga integrata con riferimento a questa formalità.
+
+---
+
+## VIII. INCOLLOCABILITÀ STRUTTURALE DEL LOTTO 3
+
+Il Lotto 3 (sub 16 e particella 1237) presenta una convergenza di vizi strutturali che lo rendono oggettivamente non collocabile sul mercato nelle condizioni attuali:
+
+- Assenza totale di catena proprietaria trascritta in Conservatoria per sub 16
+- Domanda giudiziale n. 10132 attiva in Conservatoria senza cancellazione
+- Riserve catastali aperte dal 2005 sulla particella 1237, mai chiuse
+- Contratto di locazione con SAUDA S.r.l.s. del 01/12/2021, avente data certa anteriore alla trascrizione del pignoramento del 08/02/2022, opponibile alla procedura ex art. 2923 c.c., con scadenza 31/12/2027 — qualunque acquirente acquista l'immobile con il conduttore già insediato
+- Variazione catastale del 26/05/2022 presentata durante la procedura senza autorizzazione di questo G.E. ex art. 560 c.p.c., che ha portato la superficie del sub 16 da 143 a 177 mq — non è noto a questa difesa chi abbia presentato il DOCFA
+
+In queste condizioni l'asta non è una vendita competitiva sul mercato aperto. Le aste precedenti sono andate deserte non per ragioni di prezzo ma per ragioni strutturali insanabili nell'immediato. Qualunque ulteriore atto esecutivo sul Lotto 3 nelle condizioni attuali è destinato al medesimo esito, con conseguente pregiudizio per tutte le parti.
+
+**Richiesta:** si chiede a questo G.E. di sospendere qualsiasi atto d'asta sul Lotto 3 fino alla risoluzione dei vizi strutturali illustrati, di accertare chi abbia presentato la variazione catastale del 26/05/2022 e di disporre che qualunque futuro avviso d'asta contenga l'indicazione completa di tutte le formalità pregiudizievoli attive.
+
+---
+
+## IX. ELEMENTI DI CONTESTO PROCEDURALE CHE QUESTO G.E. VORRÀ VALUTARE
 
 La difesa sottopone rispettosamente all'attenzione di questo G.E. tre elementi di contesto che, letti congiuntamente, restituiscono un quadro procedurale che merita una valutazione complessiva.
 
@@ -174,11 +225,11 @@ Il rigetto del 14/05/2026 richiama Cass. n. 7243/2024. Quella sentenza riguarda 
 
 ---
 
-## VII. RICHIESTE CONCLUSIVE
+## X. RICHIESTE CONCLUSIVE
 
 Tutto ciò premesso, la parte esecutata Mobilcom S.r.l. chiede all'Ill.mo Giudice dell'Esecuzione di voler:
 
-**1)** Dichiarare che il deposito DEX del 13/05/2026 non costituisce valido adempimento all'ordinanza del 22/04/2026, per i quattro vizi autonomi esposti alla Sez. II, e dichiarare l'inottemperanza consumata con le conseguenti statuizioni di improcedibilità sul Lotto 1 e conferma della sospensione del decreto di trasferimento.
+**1)** Dichiarare che il deposito DEX del 13/05/2026 non costituisce valido adempimento all'ordinanza del 22/04/2026 per i quattro vizi autonomi esposti alla Sez. II, e dichiarare l'inottemperanza consumata con le conseguenti statuizioni di improcedibilità sul Lotto 1 e conferma della sospensione del decreto di trasferimento.
 
 **2)** Ordinare a DEX di produrre entro 10 giorni la procura di Brillo Dilva e la documentazione attestante la sua capacità al momento del conferimento; in assenza, dichiarare priva di titolo la trascrizione del 13/05/2026.
 
@@ -188,7 +239,27 @@ Tutto ciò premesso, la parte esecutata Mobilcom S.r.l. chiede all'Ill.mo Giudic
 
 **5)** Ordinare a DEX di produrre la prova della formale cancellazione in Conservatoria dei pignoramenti Stiltecno n. 5739/2007 e n. 1796/2008 e Cassa Risparmio Ascoli n. 3144/2008 e n. 3129/2010 prima di qualsiasi atto d'asta; disporre che qualunque futuro avviso d'asta li menzioni esplicitamente ex art. 570 c.p.c.
 
-**6)** Disporre, in ogni caso, la sospensione di qualsiasi atto esecutivo fino alla definizione delle questioni sollevate con la presente istanza.
+**6)** Rilevare d'ufficio il vizio dell'atto di pignoramento per erronea indicazione del diritto pignorato, ordinare il rifacimento della relazione notarile ex art. 567 c.p.c. per sub 16 con verifica della catena delle trascrizioni in Conservatoria, e sospendere qualsiasi atto esecutivo su sub 16 fino alla definizione degli accertamenti.
+
+**7)** Disporre d'ufficio l'acquisizione degli atti del procedimento collegato alla formalità n. 10132 presso il Registro del Tribunale di Macerata, e disporre che qualunque futuro avviso d'asta menzioni esplicitamente tale formalità.
+
+**8)** Sospendere qualsiasi atto d'asta sul Lotto 3 fino alla risoluzione dei vizi strutturali illustrati alla Sez. VIII; accertare chi abbia presentato la variazione catastale del 26/05/2022 (pratica MC0065185) e adottare i conseguenti provvedimenti.
+
+**9)** Disporre, in ogni caso, la sospensione di qualsiasi atto esecutivo fino alla definizione delle questioni sollevate con la presente istanza, con condanna della creditrice procedente al risarcimento dei danni ex art. 96 c.p.c. per responsabilità aggravata in ragione della gravità dei vizi documentalmente provati.
+
+---
+
+## XI. AVVERTENZA AGLI ORGANI DI VIGILANZA
+
+La parte istante si riserva di valutare le segnalazioni agli organi competenti indipendentemente dall'esito della presente istanza, in ragione della gravità dei vizi documentalmente provati.
+
+**1. Procura della Repubblica di Macerata** — per valutazione dei profili penali relativi alla trascrizione del 13/05/2026 a nome di Brillo Dilva (nata il 19/08/1930, 95 anni, malata, assistita h24 da badante), atto richiesto dall'Avv. Franceschetti contestualmente socio al 10% di DEX, con possibile configurazione di frode processuale (art. 374 c.p.) e falsità ideologica per induzione (art. 48 in combinato con art. 479 c.p.).
+
+**2. Consiglio dell'Ordine degli Avvocati di Brescia** — per valutazione della condotta dell'Avv. Enrico Franceschetti, difensore di DEX e socio al 10% della medesima, in violazione dell'art. 24 del Codice Deontologico Forense.
+
+**3. Banca d'Italia** — per valutazione dell'operatività di DEX S.r.l. nell'acquisto e gestione in proprio di crediti bancari in sofferenza derivanti da mutui ipotecari, senza iscrizione all'albo ex art. 106 TUB, attività riservata ai soggetti vigilati e non abilitata dalla sola iscrizione ex art. 115 TULPS di cui DEX dispone.
+
+La presente avvertenza è formulata con il massimo rispetto verso questo G.E. e viene comunicata preventivamente per dovere di trasparenza e correttezza processuale.
 
 ---
 
@@ -214,3 +285,7 @@ PEC: avv.cesidiodisalvatore@pec.net99.it
 9. Contratto di cessione S3→DEX del 06/12/2024 — artt. 2.3 e 2.4
 10. Visura camerale DEX S.r.l. — quota Avv. Franceschetti al 10%
 11. Procura alle liti Avv. Franceschetti del 04/12/2024
+12. Nota di trascrizione Reg. Gen. 7562, Reg. Part. 5627 del 13/05/2026 (trascrizione DEX)
+13. Contratto di locazione commerciale Mobilcom-SAUDA S.r.l.s. del 01/12/2021
+14. Visura storica catastale sub 16 del 17/05/2026 — annotazione "Intestazione e passaggi da esaminare"
+15. Relazione notarile ex art. 567 c.p.c. del Notaio Cristina Lorenzoni del 03/03/2022
