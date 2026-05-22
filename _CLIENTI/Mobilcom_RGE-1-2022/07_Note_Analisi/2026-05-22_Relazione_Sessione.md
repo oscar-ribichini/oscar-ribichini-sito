@@ -61,9 +61,18 @@ Argomento proposto: nullità avviso di vendita Lotto 3 per:
 
 ### DA DEPOSITARE APPENA POSSIBILE
 
-**3. Eccesso di mandato S3 ex art. 1711 c.c.**
+**3. Eccesso di mandato S3 ex art. 1711 c.c. + condizione sospensiva — usare INSIEME**
 
-Le procure Veicolo→IGRC (Rep. 4314/2397) e IGRC→S3 (Rep. 4315/2398) conferiscono solo poteri di gestione, recupero e riscossione — nessun potere di cessione definitiva del credito a terzi. La cessione S3→DEX è inefficace nei confronti di Veicolo di Sistema. Il credito è ancora di Veicolo. Prova già negli atti — non serve produrre nulla.
+Le procure Veicolo→IGRC (Rep. 4314/2397) e IGRC→S3 (Rep. 4315/2398) conferiscono solo poteri di gestione, recupero e riscossione — nessun potere di cessione definitiva del credito a terzi. La cessione S3→DEX è inefficace nei confronti di Veicolo di Sistema. Prova già negli atti — non serve produrre nulla.
+
+Questi due argomenti vanno usati insieme nell'atto in questo ordine:
+
+- **In via principale — art. 1711 c.c.:** S3 non aveva il potere di cedere. Cessione inefficace nei confronti di Veicolo. Prova già negli atti.
+- **In via subordinata — condizione sospensiva:** anche se S3 avesse avuto il potere, DEX non ha mai provato di aver pagato €1.570.000. Nessun bonifico, nessuna quietanza negli atti. Chiedere al G.E. ordine di produzione prova entro termine perentorio.
+
+**Perché funziona in tutti gli scenari:** se G.E. accoglie → DEX perde legittimazione, procedura bloccata. Se DEX non prova il pagamento → stessa conseguenza. Se Veicolo ratifica → si espone direttamente, si apre canale Pichetti per trattativa. In tutti i casi la procedura subisce battuta d'arresto.
+
+**Rischio ratifica Veicolo:** esiste ma è gestibile. Veicolo ha €170M di portafoglio, Mobilcom è meno dell'1%. Ratificare significa esporsi in una procedura complicata per un credito marginale. Se ratifica, diventa il creditore con cui trattare — che è l'obiettivo dell'Uscita A.
 
 **4. Opposizione autonoma Oscar ex art. 615 I comma c.p.c. — fideiussione**
 
