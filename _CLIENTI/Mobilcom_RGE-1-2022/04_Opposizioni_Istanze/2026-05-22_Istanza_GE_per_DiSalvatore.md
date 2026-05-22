@@ -71,7 +71,7 @@ In data 13 maggio 2026 DEX ha depositato documentazione sostenendo di aver ottem
 
 **Vizio 1 — Tardività: termine perentorio già scaduto**
 
-Il termine del 12/05/2026 era perentorio per espressa statuizione di questo G.E. nell'ordinanza del 22/04/2026. Ai sensi dell'art. 152 c.p.c., i termini perentori non sono prorogabili e la loro inosservanza produce decadenza automatica. L'inottemperanza era già consumata e irreversibile alle ore 24:00 del 12 maggio 2026 — indipendentemente da quanto depositato il giorno successivo e indipendentemente dal contenuto di quel deposito. Su questo punto questo G.E. non ha discrezionalità: il termine perentorio da lui stesso fissato nell'ordinanza del 22/04/2026 era scaduto. Qualunque valutazione successiva — sul contenuto del deposito, sulla sua completezza, sulla sua validità — è irrilevante: l'inottemperanza era già consumata prima che DEX depositasse qualsiasi cosa.
+**Il termine del 12/05/2026 era perentorio per espressa statuizione di questo G.E. nell'ordinanza del 22/04/2026.** Ai sensi dell'art. 152 c.p.c., i termini perentori non sono prorogabili e la loro inosservanza produce decadenza automatica. **L'inottemperanza era già consumata e irreversibile alle ore 24:00 del 12 maggio 2026** — indipendentemente da quanto depositato il giorno successivo e indipendentemente dal contenuto di quel deposito. **Su questo punto questo G.E. non ha discrezionalità: il termine perentorio da lui stesso fissato nell'ordinanza del 22/04/2026 era scaduto.** Qualunque valutazione successiva — sul contenuto del deposito, sulla sua completezza, sulla sua validità — è irrilevante: l'inottemperanza era già consumata prima che DEX depositasse qualsiasi cosa.
 
 **Vizio 2 — Riferimento a provvedimento inesistente: dilemma senza uscita**
 
@@ -83,13 +83,13 @@ Se si tratta di errore materiale e DEX intendeva riferirsi all'ordinanza del 22/
 
 Se non si tratta di errore materiale e DEX ha inteso riferirsi a un provvedimento diverso — il deposito non risulta ricollegabile all'ordinanza reale del 22/04/2026 e non ne costituisce adempimento per mancanza del titolo giuridico che lo giustifica.
 
-In entrambe le possibilità — qualunque interpretazione questo G.E. voglia adottare — il deposito del 13/05/2026 non appare costituire valido adempimento all'ordinanza del 22/04/2026. Non vi è interpretazione che consenta di ritenere l'ordinanza ottemperata.
+**In entrambe le possibilità — qualunque interpretazione questo G.E. voglia adottare — il deposito del 13/05/2026 non appare costituire valido adempimento all'ordinanza del 22/04/2026. Non vi è interpretazione che consenta di ritenere l'ordinanza ottemperata.**
 
 **Vizio 3 — Mandato invalido: trascrizione effettuata senza titolo verificabile**
 
-L'accettazione tacita dell'eredità trascritta il 13/05/2026 a nome di Brillo Dilva (nata il 19/08/1930, 95 anni, malata, assistita h24 da badante) è stata richiesta dall'Avv. Enrico Franceschetti. Franceschetti non è il legale di Brillo Dilva: è il difensore di DEX e, come risulta dalla visura camerale e dalla procura del 04/12/2024, è socio al 10% di DEX S.r.l.
+L'accettazione tacita dell'eredità trascritta il 13/05/2026 a nome di Brillo Dilva (nata il 19/08/1930, 95 anni, malata, assistita h24 da badante) è stata richiesta dall'Avv. Enrico Franceschetti. **Franceschetti non è il legale di Brillo Dilva: è il difensore di DEX e, come risulta dalla visura camerale e dalla procura del 04/12/2024, è socio al 10% di DEX S.r.l.**
 
-Nessuna procura di Brillo Dilva a Franceschetti risulta depositata agli atti della procedura. La difesa chiede che questo G.E. ordini a DEX di produrre entro termine perentorio di 10 giorni la procura con cui Brillo Dilva ha conferito mandato a Franceschetti per richiedere la trascrizione a suo nome, unitamente alla documentazione attestante la sua capacità di intendere e volere al momento del conferimento. In assenza di tale produzione, la trascrizione del 13/05/2026 non risulta sorretta da alcun titolo verificabile agli atti e occorre che questo G.E. ne valuti gli effetti.
+**Nessuna procura di Brillo Dilva a Franceschetti risulta depositata agli atti della procedura.** La difesa chiede che questo G.E. ordini a DEX di produrre entro termine perentorio di 10 giorni la procura con cui Brillo Dilva ha conferito mandato a Franceschetti per richiedere la trascrizione a suo nome, unitamente alla documentazione attestante la sua capacità di intendere e volere al momento del conferimento. In assenza di tale produzione, la trascrizione del 13/05/2026 non risulta sorretta da alcun titolo verificabile agli atti e occorre che questo G.E. ne valuti gli effetti.
 
 **Vizio 4 — Conflitto di interessi: rappresentanza processuale compromessa**
 
@@ -122,7 +122,7 @@ La struttura mandataria risulta integralmente dagli atti depositati da Veicolo d
 
 ### III.2 — Il vizio: nessuna procura conferisce il potere di cedere definitivamente il credito
 
-La procura Veicolo→IGRC (Rep. 4314/2397) elenca analiticamente 35 poteri, tutti riferiti alla gestione, recupero e riscossione degli Attivi Bancari. A titolo esemplificativo: incasso e recupero crediti (punto 8); procedure esecutive, concorsuali e cautelari (punti 15 e 25); accordi di riscadenziamento, remissione parziale (punto 20); ipoteche e trascrizioni (punto 22); nomina di avvocati (punto 27). Nessuno dei 35 poteri include la facoltà di cedere il credito a titolo definitivo e oneroso a un soggetto terzo acquirente per proprio conto.
+La procura Veicolo→IGRC (Rep. 4314/2397) elenca analiticamente 35 poteri, tutti riferiti alla gestione, recupero e riscossione degli Attivi Bancari. A titolo esemplificativo: incasso e recupero crediti (punto 8); procedure esecutive, concorsuali e cautelari (punti 15 e 25); accordi di riscadenziamento, remissione parziale (punto 20); ipoteche e trascrizioni (punto 22); nomina di avvocati (punto 27). **Nessuno dei 35 poteri include la facoltà di cedere il credito a titolo definitivo e oneroso a un soggetto terzo acquirente per proprio conto.**
 
 Il verbale del CdA di IGRC del 28/03/2024 descrive espressamente l'incarico come quello di "Servicer incaricato dal Veicolo di Sistema per incassi, pagamenti, recupero crediti o gestione e smobilizzo degli Attivi Bancari ceduti". La comparsa di intervento di Veicolo del 13/12/2024 descrive IGRC come soggetto incaricato "inter alia, della riscossione dei crediti ceduti e dei servizi di cassa e pagamento" e S3 come soggetto incaricato "di alcune attività relative, inter alia, all'attività di incasso e di recupero delle somme". Nessuna delle due è descritta come autorizzata a cedere il credito.
 
@@ -130,7 +130,7 @@ Il verbale del CdA di IGRC del 28/03/2024 descrive espressamente l'incarico come
 
 S3, agendo come sub-mandataria con poteri limitati alla gestione e al recupero, ha compiuto un atto — la cessione definitiva a DEX per €325.144 — che eccede i limiti del mandato ricevuto. Ai sensi dell'art. 1711 c.c., il mandatario che compie atti eccedenti i limiti del mandato non vincola il mandante per quella parte eccedente. Allo stato degli atti non risulta dimostrato che la cessione S3→DEX abbia prodotto effetti nei confronti di Veicolo di Sistema S.r.l., che resterebbe titolare del credito. Non risulta documentalmente verificabile che DEX abbia acquisito validamente la titolarità del credito e occorre che questo G.E. verifichi la sua legittimazione ad intervenire nella presente procedura esecutiva.
 
-La prova è già integralmente contenuta negli atti depositati da Veicolo stessa. Questo G.E. può rilevarlo direttamente dagli atti di causa.
+**La prova è già integralmente contenuta negli atti depositati da Veicolo stessa. Questo G.E. può rilevarlo direttamente dagli atti di causa.**
 
 Si anticipa e si confuta la clausola residuale del potere n. 35 della procura ("compiere ogni altro atto necessario all'esercizio dei poteri conferiti"): una clausola residuale non crea ex novo un potere di natura radicalmente diversa da quelli elencati. Una cessione definitiva e onerosa del credito non è strumentale alla gestione o al recupero — ne è l'alternativa che vi si sostituisce definitivamente. La cessione è inoltre un atto di straordinaria amministrazione che richiede procura specifica ed espressa ex art. 1387 c.c. Non lo è. Infine: il contratto S3-DEX è firmato da S3 in qualità di "mandataria di IGRC" — ma IGRC non aveva il potere di cedere il credito e non poteva trasmetterlo a S3. Nemo plus iuris ad alium transferre potest quam ipse habet.
 
@@ -148,7 +148,7 @@ In via subordinata — nell'ipotesi in cui si ritenesse che S3 fosse autorizzata
 
 Il contratto S3→DEX (proposta 30/09/2024, accettazione 02/10/2024, atto notarile 06/12/2024) prevede all'art. 2.3 che il trasferimento del credito è efficace esclusivamente se DEX corrisponde l'intero prezzo di €1.570.000 entro 10 giorni lavorativi dalla firma di S3. L'art. 2.4 stabilisce che in assenza di tale pagamento il contratto si intende non perfezionato. Si tratta di condizione sospensiva ex art. 1353 c.c.: fino al suo avveramento documentato la cessione non risulta perfezionata.
 
-Un dato oggettivo aggrava il quadro: DEX S.r.l. (C.F. e P.IVA 04590110989, sede in Brescia, Corso Giuseppe Zanardelli n. 3, legale rappresentante pro tempore Dott. Giambarda Doriano) è stata costituita il 31/05/2024 con capitale sociale di €2.500. Quattro mesi dopo la sua costituzione avrebbe dovuto versare €1.570.000 entro 10 giorni lavorativi. Ad oggi nessun documento negli atti — nessun bonifico, nessun estratto conto, nessuna quietanza notarile — prova che DEX abbia effettuato questo pagamento.
+Un dato oggettivo aggrava il quadro: DEX S.r.l. è stata costituita il 31/05/2024 con **capitale sociale di €2.500**. Quattro mesi dopo la sua costituzione avrebbe dovuto versare €1.570.000 entro 10 giorni lavorativi. **Ad oggi nessun documento negli atti — nessun bonifico, nessun estratto conto, nessuna quietanza notarile — prova che DEX abbia effettuato questo pagamento.**
 
 **Richiesta:** si chiede a questo G.E. di ordinare a DEX di produrre entro termine perentorio di 10 giorni la prova documentale dell'avveramento della condizione sospensiva (bonifico bancario con valuta, estratto conto o quietanza notarile). In assenza di tale produzione, occorre che questo G.E. valuti la legittimazione di DEX a stare in giudizio e disponga i conseguenti provvedimenti sulle istanze da essa depositate.
 
@@ -161,7 +161,7 @@ Le ispezioni ipotecarie del 18/05/2026, eseguite da un visurista di fiducia appo
 - **Stiltecno S.r.l.** — pignoramenti n. 5739 del 04/06/2007 e n. 1796 del 12/02/2008 su sub 3 e sub 9 (Foglio 11, Particella 864): ancora attivi nei registri immobiliari senza annotazione di cancellazione
 - **Cassa Risparmio Ascoli Piceno** — pignoramenti n. 3144 del 19/03/2008 e rettifica n. 3129 del 08/04/2010 su sub 16, sub 17 e Particella 1237: non risultanti estinti
 
-La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 aveva elencato tali formalità senza attestarne l'estinzione. In nessun atto successivo è stata prodotta documentazione che provi la loro formale cancellazione in Conservatoria.
+La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 aveva elencato tali formalità senza attestarne l'estinzione. **In nessun atto successivo è stata prodotta documentazione che provi la loro formale cancellazione in Conservatoria.**
 
 Queste formalità pregiudizievoli anteriori incidono direttamente sulla procedura sotto due profili:
 
@@ -183,7 +183,7 @@ Nel caso di specie:
 
 Per **sub 3 e sub 9** (Foglio 11, Particella 864): Mobilcom ha acquistato separatamente la nuda proprietà (trascrizione n. 1610 del 09/02/2007) e l'usufrutto da Marinelli Giuseppina (trascrizione n. 545 del 11/01/2008). Il pignoramento descrive piena proprietà 1/1 senza aver verificato il consolidamento dei due diritti. La stessa BSM ha riconosciuto questa situazione nell'avviso ai creditori ex art. 498 c.p.c. del 08/03/2022, indicando come unico creditore ipotecario preesistente Tercas per ipoteca giudiziale iscritta sul diritto di usufrutto di Marinelli Giuseppina — confermando che al momento dell'avviso l'usufrutto era ancora un elemento rilevante della situazione giuridica di quegli immobili.
 
-Per **sub 16** (Foglio 11, Particella 864): come risulta dall'ispezione ipotecaria n. T50595 del 18/05/2026 (allegato sub 2), in Conservatoria non risulta trascritta alcuna compravendita a favore di Mobilcom. Il pignoramento ha colpito la piena proprietà di un soggetto che nei registri immobiliari non figura come proprietario. Ai sensi dell'art. 2650 c.c., l'ipoteca BSM è inopponibile ai terzi e il pignoramento ha colpito un diritto inesistente nei registri.
+Per **sub 16** (Foglio 11, Particella 864): come risulta dall'ispezione ipotecaria n. T50595 del 18/05/2026 (allegato sub 2), **in Conservatoria non risulta trascritta alcuna compravendita a favore di Mobilcom.** Il pignoramento ha colpito la piena proprietà di un soggetto che nei registri immobiliari non figura come proprietario. **Ai sensi dell'art. 2650 c.c., l'ipoteca BSM è inopponibile ai terzi e il pignoramento ha colpito un diritto inesistente nei registri.**
 
 La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 non ha rilevato questi vizi perché si è basata sulle visure catastali — strumento privo di valore ai fini della pubblicità immobiliare. La relazione è pertanto giuridicamente inidonea per sub 16, dove non ha verificato la continuità delle trascrizioni in Conservatoria come imposto dall'art. 567 c.p.c.
 
@@ -195,7 +195,7 @@ La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 non
 
 L'ispezione ipotecaria n. T34794 del 18/05/2026 (allegato sub 1) ha rilevato che al Registro Particolare n. 10132, in data 17/10/2008, risulta trascritta una domanda giudiziale di accertamento della simulazione degli atti di acquisto, promossa da Banca Marche S.p.A. contro Le Carrè S.r.l. (Repertorio 2093/2006 del 30/08/2008). Tale trascrizione grava su tutti gli immobili della procedura, come confermato anche dall'ispezione n. T51187 (allegato sub 3).
 
-A differenza di tutte le altre domande giudiziali analoghe del medesimo periodo — nn. 10133, 10134, 5660, 5661, 5662, 7221, 7222, tutte cancellate nel 2012 — la n. 10132 non ha ad oggi alcuna annotazione di cancellazione nei registri immobiliari. La formalità è attivamente iscritta in Conservatoria e visibile a chiunque consulti i registri.
+A differenza di tutte le altre domande giudiziali analoghe del medesimo periodo — nn. 10133, 10134, 5660, 5661, 5662, 7221, 7222, tutte cancellate nel 2012 — **la n. 10132 non ha ad oggi alcuna annotazione di cancellazione nei registri immobiliari. La formalità è attivamente iscritta in Conservatoria e visibile a chiunque consulti i registri.**
 
 Qualunque avviso d'asta che non menzioni questa formalità è incompleto ai sensi dell'art. 570 c.p.c. e pregiudica la possibilità per i potenziali acquirenti di formulare offerte consapevoli. Nessun acquirente ragionevole acquisirà immobili gravati da una domanda giudiziale di simulazione non cancellata senza una spiegazione completa e documentata.
 
@@ -257,7 +257,7 @@ Questi creditori non risultano essere stati convocati nell'avviso ex art. 498 c.
 
 Con ordinanza del 22/04/2026 questo G.E. ha disposto la **sospensione** del decreto di trasferimento già emesso. La difesa chiede che questo G.E. valuti se la sospensione sia misura sufficiente o se i vizi illustrati nella presente istanza — in particolare l'assenza totale di catena proprietaria trascritta in Conservatoria per sub 16 (Sez. VI) e l'inesistenza di valida relazione notarile ex art. 567 c.p.c. per quell'immobile — rendano necessaria la **revoca** del decreto di trasferimento.
 
-Un decreto di trasferimento emesso sulla base di una relazione notarile che non ha verificato la continuità delle trascrizioni in Conservatoria per un immobile del valore di €329.662 — e che pertanto non ha rilevato l'assenza totale di catena proprietaria per quel bene — non può produrre effetti validi. La sospensione conserva un atto viziato alla radice: la revoca elimina il vizio alla fonte.
+Un decreto di trasferimento emesso sulla base di una relazione notarile che non ha verificato la continuità delle trascrizioni in Conservatoria per un immobile del valore di €329.662 — e che pertanto non ha rilevato l'assenza totale di catena proprietaria per quel bene — non può produrre effetti validi. **La sospensione conserva un atto viziato alla radice: la revoca elimina il vizio alla fonte.**
 
 **Richiesta:** si chiede a questo G.E. di procedere alla revoca del decreto di trasferimento emesso, in luogo della sola sospensione, stante l'inesistenza della base documentale che ne avrebbe dovuto fondare l'emissione.
 
