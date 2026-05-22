@@ -111,10 +111,17 @@ Formulazione corretta: ordine al G.E. di produzione della prova entro termine pe
 **6. Pignoramenti preesistenti ex art. 570 c.p.c.**
 
 Dalle ispezioni ipotecarie del 18/05/2026 risultano attivi e senza cancellazione:
-- Stiltecno S.r.l. n. 5739/2007 e n. 1796/2008 su sub 3
+- Stiltecno S.r.l. n. 5739/2007 e n. 1796/2008 su sub 3 e sub 9 (confermato — dato certo)
 - Cassa Risparmio Ascoli n. 3144/2008 (+ rettifica n. 3129/2010) su particella 1237
 
-Non serve verificare se i crediti sono ancora vivi. Basta richiedere che l'avviso di vendita li menzioni ex art. 570 c.p.c. e che la parte creditrice produca la prova della loro cancellazione formale prima dell'asta.
+**Come usarlo — non affermare che i crediti sono ancora vivi.**
+Affermare solo che le formalità non risultano formalmente cancellate in Conservatoria. DEX deve produrre la prova della cancellazione formale — non noi.
+
+**Due effetti distinti:**
+1. **Art. 570 c.p.c.** — l'avviso di vendita deve menzionare tutte le formalità pregiudizievoli attive. Se non li menziona, l'avviso è incompleto e impugnabile ex art. 617.
+2. **Distribuzione ricavato** — creditori con pignoramenti anteriori al BSM del 08/02/2022 hanno prelazione cronologica. Se non convocati e soddisfatti, DEX non può incassare tutto il ricavato.
+
+**Non avvantaggia DEX** — la mette in difficoltà su entrambi i fronti. Non indica nulla di sanabile rapidamente.
 
 ### DA DISCUTERE — prossima riunione
 
