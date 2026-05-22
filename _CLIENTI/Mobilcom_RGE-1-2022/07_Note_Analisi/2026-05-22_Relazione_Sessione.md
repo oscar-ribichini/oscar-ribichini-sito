@@ -2,7 +2,7 @@
 
 ## Proc. n. RGE 1/2022 — Tribunale Civile di Macerata
 
-## Redatta il 22/05/2026 — Riservata — Uso interno Oscar Ribichini
+## Redatta il 22/05/2026 — Aggiornata in sessione pomeriggio 22/05/2026 — Riservata — Uso interno Oscar Ribichini
 
 ---
 
@@ -13,6 +13,10 @@ La presente relazione aggiorna quella del 20/05/2026 alla luce delle verifiche d
 1. Verifica presso la Cancelleria Civile del Tribunale di Macerata dello stato del procedimento collegato alla domanda giudiziale n. 10132
 2. Lettura integrale degli atti notarili Rep. 95525, 95624 e 95824 del Notaio Enrico Cafiero di Mondolfo
 3. Aggiornamento dell'istanza al G.E. con i tre trafiletti su SAUDA, variazione catastale e art. 570 c.p.c.
+4. Lettura integrale dell'atto Notaio Testa del 09/02/2006 (divisione) — correzione vizio A
+5. Lettura ispezioni ipotecarie 18/05/2026 — correzione vizio G
+6. Lettura fideiussione specifica Oscar e Gozi del 05/12/2011 — argomento art. 1957 c.c. aggiornato
+7. Lettura contratto di mutuo del 05/12/2011 — decreto R.G. 2137/2018 con delega verificata
 
 La relazione incorpora anche gli argomenti strategici elaborati nella sessione del 21/05/2026 (strade nuove per Di Salvatore, strategie di lungo periodo) che non erano ancora stati integrati nel documento principale.
 
@@ -20,97 +24,103 @@ La relazione incorpora anche gli argomenti strategici elaborati nella sessione d
 
 ## II. STATO PROCEDURALE AL 22/05/2026
 
-La procedura è attualmente sospesa per effetto dell'ordinanza del G.E. Di Gennaro del 22/04/2026, che ha disposto la sospensione del decreto di trasferimento già emesso. Il termine di 20 giorni per il deposito della relazione notarile integrativa è scaduto il 12/05/2026. DEX ha depositato il 13/05/2026 documentazione affetta da cinque vizi autonomi (vedi Sezione VI, Livello 1, voce A). Nessuna udienza è stata ancora fissata. Il G.E. deve ancora fissare la data della nuova asta.
+La procedura è attualmente sospesa per effetto dell'ordinanza del G.E. Di Gennaro del 22/04/2026, che ha disposto la sospensione del decreto di trasferimento già emesso. Il termine di 20 giorni per il deposito della relazione notarile integrativa è scaduto il 12/05/2026. DEX ha depositato il 13/05/2026 documentazione affetta da quattro vizi autonomi (vedi Sezione VI, Livello 1, voce A). Nessuna udienza è stata ancora fissata. Il G.E. deve ancora fissare la data della nuova asta.
 
-**Scadenza urgente:** opposizione ex art. 617 c.p.c. avverso il rigetto del 14/05/2026 — **04/06/2026** (13 giorni dalla data odierna).
+**Scadenza urgente:** opposizione ex art. 617 c.p.c. avverso il rigetto del 14/05/2026 — **04/06/2026**.
 
 ---
 
 ## III. VERIFICA DOMANDA GIUDIZIALE N. 10132 — ESITO
 
-Oscar Ribichini si è recato personalmente in data 22/05/2026 presso la Cancelleria Civile del Tribunale di Macerata per verificare lo stato del procedimento collegato alla domanda giudiziale n. 10132 (Repertorio 2093/2006 del 30/08/2008, Ufficiale Giudiziario) — causa Banca Marche S.p.A. contro Le Carrè S.r.l. per accertamento di simulazione degli atti di compravendita immobiliare.
+Oscar Ribichini si è recato personalmente in data 22/05/2026 presso la Cancelleria Civile del Tribunale di Macerata. Il procedimento RG 2093/2006 risulta **estinto in data 19/07/2011**.
 
-**Esito accertato:** il procedimento RG 2093/2006 risulta **estinto in data 19/07/2011**.
+La trascrizione n. 10132 è ancora fisicamente presente in Conservatoria senza annotazione di cancellazione ex art. 2668 c.c., a differenza di tutte le altre domande giudiziali analoghe del medesimo periodo (nn. 10133, 10134, 5660, 5661, 5662, 7221, 7222), tutte cancellate nel 2012.
 
-**Conseguenze strategiche:**
+Argomenti residui concreti:
 
-La domanda giudiziale n. 10132 non è più un argomento percorribile nel senso originariamente ipotizzato — ovvero la sospensione della procedura per giudizio pendente sulla provenienza degli immobili. Tuttavia la trascrizione è ancora fisicamente presente in Conservatoria senza alcuna annotazione di cancellazione ex art. 2668 c.c., a differenza di tutte le altre domande giudiziali analoghe del medesimo periodo (nn. 10133, 10134, 5660, 5661, 5662, 7221, 7222), tutte regolarmente cancellate nel 2012.
-
-Questa persistenza consente due argomenti residui ma concreti:
-
-- La parte creditrice ha l'obbligo di procedere alla cancellazione formale prima di qualsiasi atto d'asta, mediante deposito di nota di cancellazione ex art. 2668 c.c. In mancanza, l'avviso d'asta che non menzioni questa formalità è incompleto ai sensi dell'art. 570 c.p.c.
-- La relazione notarile del Notaio Lorenzoni (03/03/2022), che ha omesso di menzionare questa formalità pregiudizievole attiva, è ulteriormente dimostrata incompleta.
-
-L'istanza al G.E. è stata aggiornata di conseguenza. La Sezione VI è stata riscritta per trasformare l'argomento da "sospensione per giudizio pendente" in "obbligo di cancellazione e completezza dell'avviso d'asta".
+- La parte creditrice ha l'obbligo di cancellazione formale prima di qualsiasi atto d'asta ex art. 2668 c.c. In mancanza, l'avviso d'asta che non menzioni questa formalità è incompleto ex art. 570 c.p.c.
+- La relazione notarile Lorenzoni (03/03/2022) che ha omesso di menzionarla è ulteriormente dimostrata incompleta.
 
 ---
 
 ## IV. LETTURA ATTI CAFIERO — DATI RILEVANTI
 
-### IV.1 — Atto Rep. 95525 del 25/11/2005 (compravendita Oscar Ribichini → Le Carrè S.r.l.)
+**Atto Rep. 95525 del 25/11/2005 (compravendita Oscar → Le Carrè)**
 
-Al punto 4 dell'atto, gli immobili ceduti con nuda proprietà includono la porzione di fabbricato "già riportata al Catasto Fabbricati alla sezione urbana 001, foglio 11, particella n. 864 **sub. 1** (924, negozio), ora a seguito della variazione n. 7051.1/2005 riportata come **particella n. 864 sub. 15**". Al momento della trascrizione n. 11137 del 02/12/2005, il negozio era quindi classificato come **sub 15**, non come sub 16.
+Al momento della trascrizione n. 11137 del 02/12/2005 il negozio si chiamava **sub 15**, non sub 16. Il sub 16 è nato da variazione catastale successiva — per questo le ispezioni ipotecarie del 18/05/2026 non trovano la trascrizione 11137 per il sub 16. Il vizio non è un'omissione originale ma mancato aggiornamento della pubblicità immobiliare al nuovo identificativo catastale. L'inopponibilità ai terzi dell'ipoteca BSM del 2011 ex art. 2650 c.c. resta intatta. L'atto conferma che Le Carrè era espressamente consapevole dell'usufrutto di Ribichini Gino & C. S.n.c.
 
-Questo dato risolve definitivamente l'apparente enigma delle ispezioni ipotecarie del 18/05/2026. La trascrizione n. 11137 compare correttamente nelle ispezioni dei sub 6, sub 3 e sub 2 — ma non nel sub 16 — perché al momento della trascrizione quell'immobile non esisteva ancora come sub 16. Il sub 16 è nato da una variazione catastale successiva e nessuno ha mai provveduto ad aggiornare le formalità in Conservatoria al nuovo identificativo catastale.
+**Atto Rep. 95624 del 01/12/2005 (preliminare Le Carrè → Pelagagge Michele)**
 
-Il vizio del sub 16 non è pertanto un'omissione nella trascrizione originale, ma una mancanza di aggiornamento della pubblicità immobiliare alla nuova numerazione catastale sopravvenuta. Questo non diminuisce la gravità del vizio sul piano della continuità ex art. 2650 c.c. — l'inopponibilità ai terzi dell'ipoteca BSM del 2011 resta intatta — ma richiede una diversa formulazione dell'argomento, che Di Salvatore dovrà precisare.
+Contratto preliminare sconosciuto fino al 22/05/2026. Prezzo €380.000, caparra €20.000, rogito previsto entro 31/05/2006 — mai avvenuto. Immobili poi venduti a Mobilcom nel novembre 2006. Trascrizione n. 11140 del 02/12/2005 ancora attiva nelle ispezioni. Non introduce vizi processuali nuovi ma completa il quadro storico.
 
-L'atto conferma altresì che Le Carrè era consapevole dell'usufrutto di Ribichini Gino & C. S.n.c. sull'immobile: il testo dichiara espressamente "la parte acquirente dichiara di essere a conoscenza che l'immobile è gravato dell'usufrutto a favore della società in nome collettivo Ribichini Gino & C. S.n.c."
+**Atto Rep. 95824 del 15/12/2005 (rettifica errori materiali)**
 
-### IV.2 — Atto Rep. 95624 del 01/12/2005 (contratto preliminare Le Carrè → Pelagagge Michele)
+Rettifica luogo di nascita di Oscar e codice fiscale. Eseguita "ai soli fini catastali e della continuità delle trascrizioni". Corrisponde alla trascrizione n. 11710 del 20/12/2005.
 
-Questo atto era sconosciuto. È un contratto preliminare di vendita stipulato tra Le Carrè S.r.l. (venditore) e Pelagagge Michele, libero professionista di Macerata (acquirente), avente ad oggetto gli stessi immobili ceduti da Oscar Ribichini a Le Carrè il giorno precedente. Prezzo pattuito: €380.000. Caparra confirmatoria versata: €20.000. Rogito definitivo previsto entro il 31/05/2006.
-
-Il rogito definitivo non è mai avvenuto: nel novembre 2006 gli stessi immobili sono stati venduti a Mobilcom S.r.l. Il contratto preliminare è trascritto in Conservatoria al n. 11140 del 02/12/2005 e risulta ancora nelle ispezioni ipotecarie come formalità attiva. Pelagagge ha verosimilmente avviato azioni giudiziarie — probabilmente collegate alle domande giudiziali del 2007-2008, poi tutte cancellate nel 2012. Non introduce vizi processuali nuovi nell'immediato ma completa il quadro storico della vicenda.
-
-### IV.3 — Atto Rep. 95824 del 15/12/2005 (atto di rettifica)
-
-Rettifica due errori materiali nell'atto 95525: luogo di nascita di Oscar (Civitanova Marche invece di Macerata) e codice fiscale (C770U invece di E783U). L'atto precisa espressamente che la rettifica è eseguita "ai soli fini catastali e della continuità delle trascrizioni". Corrisponde alla trascrizione n. 11710 del 20/12/2005.
-
-**Conclusione operativa:** non è necessario richiedere ulteriori copie al Notaio Cafiero né alle Conservatorie. Il visurista Silvano non è più necessario per questa parte dell'istruttoria.
+**Conclusione operativa:** non servono ulteriori copie al Notaio Cafiero. Silvano non è più necessario per questa parte.
 
 ---
 
-## V. ISTANZA AL G.E. — MODIFICHE APPORTATE IL 22/05/2026
+## V. ATTO NOTAIO TESTA 09/02/2006 — CHIARIMENTO DECISIVO
 
-File: `e:\Lavori Code\_CLIENTI\Mobilcom_RGE-1-2022\04_Opposizioni_Istanze\2026-05-21_Istanza_GE_Finale.md`
+La lettura integrale dell'atto Testa ha chiarito un punto critico che correggeva un errore nella mappa dei vizi.
 
-Commit: cdc00c0
+L'atto Testa del 09/02/2006 NON è una compravendita — è una **divisione**. Cinque soggetti che erano comproprietari di aree cortilizie e ripostigli in Via F. Baracca 23 (foglio 18, particella 686, subalterni 4-5-6-8-9-10-11-13) sciolgono la comunione e si assegnano ciascuno la propria parte.
 
-**Sezione VI — riscritta integralmente:**
-La domanda giudiziale n. 10132 non è più presentata come motivo di sospensione ex art. 624 c.p.c. ma come formalità pregiudizievole non cancellata, con richiesta di cancellazione formale ex art. 2668 c.c. a carico della parte creditrice e obbligo di menzione in tutti i futuri avvisi d'asta.
+**I titoli di provenienza di ciascuno prima della divisione:**
 
-**Sezione VI-bis — inserita (trafiletto 1):**
-Asta non competitiva con offerente unico identificabile. SAUDA S.r.l.s. è l'unico acquirente razionale con locazione opponibile fino al 31/12/2027. Si chiede la sospensione di qualsiasi atto d'asta sul Lotto 3 fino alla risoluzione dei vizi strutturali.
+- Brillo Dilva: 3/18 per acquisto del 1983 (atto Testa rep. 26447) + 1/18 per successione Ripa Franco (morto 22/04/2004)
+- Ripa Alfio e Ripa Valter: 1/18 ciascuno per successione Ripa Franco
+- **Carboni Gabriella: 6/18 per acquisto autonomo del 1994** (atto Testa rep. 107318/10503, registrato a Macerata il 3/11/1994) — NON era erede di Ripa Franco
+- Le Carrè S.r.l.: 6/18 per acquisto da Oscar (atto Cafiero rep. 95525 del 25/11/2005)
 
-**Sezione VI-ter — inserita (trafiletti 2 e 3):**
-Variazione catastale del 26/05/2022 (pratica MC0065185) effettuata senza autorizzazione del G.E. ex art. 560 c.p.c. e senza consenso del locatore ex art. 10 contratto SAUDA. Richiesta di accertamento del presentatore del DOCFA. Richiesta di completezza analitica dell'avviso d'asta ex art. 570 c.p.c. con indicazione di tutte le formalità pregiudizievoli attive.
+**Le assegnazioni nella divisione:**
+- Brillo Dilva + Ripa Alfio + Ripa Valter → sub 4, 9, 11, 13
+- Carboni Gabriella → **sub 5 e sub 8**
+- **Le Carrè S.r.l. → sub 6 e sub 10**
+
+**Conseguenze sulla mappa dei vizi:**
+
+Il vizio 3 originariamente formulato ("Carboni Gabriella assente dall'accettazione eredità Ripa") era **sbagliato** — Carboni Gabriella non era erede di Ripa Franco ma comproprietaria per titolo autonomo. Con la divisione le sono stati assegnati sub 5 e sub 8, non sub 6 e sub 10. Non c'entra nulla con il problema di continuità sui sub oggetto della procedura.
+
+Il vizio 4 (errore logico strutturale) si **rafforza enormemente**: sub 6 e sub 10 sono stati assegnati a Le Carrè S.r.l. nella divisione del 2006. Il problema di continuità per quei sub riguarda il passaggio Le Carrè → Mobilcom — non ha nulla a che fare con gli eredi Ripa. DEX ha trascritto l'accettazione dell'eredità Ripa per sanare sub 6 e sub 10, ma quegli immobili non sono mai stati degli eredi Ripa. Il deposito DEX è strutturalmente sbagliato sul piano logico prima ancora che formalmente difettoso.
 
 ---
 
-## VI. MAPPA DEI VIZI AGGIORNATA
+## VI. ISTANZA AL G.E. — MODIFICHE APPORTATE IL 22/05/2026
+
+File: `04_Opposizioni_Istanze\2026-05-21_Istanza_GE_Finale.md` — Commit: cdc00c0
+
+**Sezione VI riscritta:** n. 10132 come formalità non cancellata, con richiesta cancellazione formale ex art. 2668 c.c. e obbligo di menzione negli avvisi d'asta.
+
+**Sezione VI-bis inserita:** asta non competitiva — SAUDA S.r.l.s. unico acquirente razionale con locazione opponibile fino al 31/12/2027. Sospensione richiesta su Lotto 3.
+
+**Sezione VI-ter inserita:** variazione catastale del 26/05/2022 senza autorizzazione G.E. ex art. 560 c.p.c. Richiesta accertamento presentatore DOCFA. Richiesta completezza avviso d'asta ex art. 570 c.p.c.
+
+---
+
+## VII. MAPPA DEI VIZI AGGIORNATA
 
 ### Livello 1 — Vizi da depositare subito
 
-**A — Inottemperanza DEX (5 vizi autonomi)**
+**A — Inottemperanza DEX (4 vizi autonomi)**
 
-I cinque vizi del deposito DEX del 13/05/2026 sono:
+Dopo la lettura dell'atto Testa, i vizi autonomi sono 4, non 5. Il vizio 3 originario (Carboni Gabriella) era sbagliato e viene eliminato. Il vizio 4 viene riformulato e si rafforza.
 
-1. **Tardività di un giorno** — la scadenza era il 12/05/2026, il deposito è del 13/05/2026
-2. **Riferimento a provvedimento inesistente** — il testo DEX cita "l'ordinanza del 22.04.2025", ma l'ordinanza reale è del 22/04/2026; il riferimento a una data che non esiste rende il deposito formalmente non rispondente all'ordinanza
-3. **Omissione Carboni Gabriella** — nell'atto Notaio Testa del 09/02/2006 compaiono 4 beneficiari: Brillo Dilva, Ripa Valter, Ripa Alfio e Carboni Gabriella. L'accettazione trascritta include solo i primi tre. La quota di Carboni Gabriella è 6/18 per titolo autonomo. La continuità è ancora incompleta.
-4. **Errore logico strutturale** — il deposito DEX tratta sub 6 e sub 10 come se fossero stati dei Ripa, mentre dall'atto Testa che DEX stessa ha prodotto risulta che quegli immobili erano di Le Carrè, non dei Ripa. Il problema di continuità non si risolve trascrivendo l'accettazione dell'eredità Ripa per quei sub, perché la catena proprietaria passa per Le Carrè, non per la successione Ripa.
-5. **Dubbia validità dell'atto Brillo Dilva** — Brillo Dilva ha 95 anni, è allettata e quasi incosciente. L'accettazione tacita dell'eredità trascritta a suo nome il 13/05/2026 è stata richiesta dall'avv. Franceschetti, che è anche socio al 10% di DEX. Se Brillo Dilva non era in grado di esprimere alcuna volontà, la trascrizione è contestabile sia in sede civile che penale.
+1. **Tardività di un giorno** — scadenza 12/05/2026, deposito 13/05/2026.
+2. **Riferimento a provvedimento inesistente** — il testo DEX cita "l'ordinanza del 22.04.2025"; l'ordinanza reale è del 22/04/2026. Il deposito non risponde formalmente all'ordinanza.
+3. **Errore logico strutturale — sub 6 e sub 10 non erano dei Ripa** — dall'atto Testa del 09/02/2006 (che DEX stessa ha prodotto in giudizio) risulta che sub 6 e sub 10 furono assegnati a Le Carrè S.r.l. nella divisione. Gli eredi Ripa ricevettero sub 4, 9, 11, 13. Il problema di continuità su sub 6 e sub 10 non riguarda la successione Ripa ma il passaggio Le Carrè → Mobilcom. Trascrivere l'accettazione dell'eredità Ripa non sana nulla per quei sub. Il deposito DEX è strutturalmente sbagliato.
+4. **Dubbia validità dell'atto Brillo Dilva** — 95 anni, allettata, quasi incosciente. L'accettazione tacita trascritta il 13/05/2026 a suo nome è stata richiesta dall'avv. Franceschetti, socio al 10% di DEX. Contestabile sia in sede civile che penale.
 
-Prova documentale già negli atti. **Argomento più urgente.**
+Prova documentale già negli atti (atto Testa prodotto da DEX stessa). **Argomento più urgente.**
 
 **B — Sub 16: assenza catena proprietaria — ipoteca BSM inopponibile**
 
-La trascrizione n. 11137 del 2005 fu eseguita quando l'immobile si chiamava sub 15. Il sub 16, nato da variazione catastale successiva, non ha mai ricevuto aggiornamento delle formalità in Conservatoria. Ai sensi dell'art. 2650 c.c. l'ipoteca BSM del 2011 è inopponibile ai terzi perché iscritta su un immobile il cui dante causa non risulta proprietario in Conservatoria. La relazione notarile Lorenzoni è nulla nella parte relativa al sub 16 per aver ignorato la Conservatoria in favore del catasto. **Argomento più grave sul piano immobiliare.**
+La trascrizione n. 11137 del 2005 fu eseguita quando l'immobile si chiamava sub 15. Il sub 16, nato da variazione catastale successiva, non ha mai ricevuto aggiornamento in Conservatoria. Ex art. 2650 c.c. l'ipoteca BSM del 2011 è inopponibile ai terzi. La relazione Lorenzoni è nulla per questo sub per aver ignorato la Conservatoria in favore del catasto. **Argomento più grave sul piano immobiliare.**
 
 **C — Eccesso di mandato S3 ex art. 1711 c.c.**
 
-Le procure Veicolo→IGRC (Rep. 4314/2397) e IGRC→S3 (Rep. 4315/2398) conferiscono esclusivamente poteri di gestione, recupero e riscossione. Nessuno dei 35 poteri elencati include la cessione definitiva del credito a terzi acquirenti. La cessione S3→DEX del 02/10/2024 è efficace solo tra S3 e DEX — è inefficace nei confronti di Veicolo di Sistema, che resta titolare del credito ex art. 1711 c.c. La prova è già negli atti depositati da Veicolo stessa il 13/12/2024. Non servono nuove produzioni documentali. **Argomento più forte sulla legittimazione — e quello che apre la trattativa con Veicolo.**
+Le procure Veicolo→IGRC (Rep. 4314/2397) e IGRC→S3 (Rep. 4315/2398) conferiscono solo poteri di gestione, recupero e riscossione — nessun potere di cessione definitiva a terzi. La cessione S3→DEX è inefficace nei confronti di Veicolo di Sistema ex art. 1711 c.c. Il credito è ancora di Veicolo. Prova già negli atti. **Argomento più forte sulla legittimazione — apre la trattativa con Veicolo.**
 
 ---
 
@@ -118,136 +128,141 @@ Le procure Veicolo→IGRC (Rep. 4314/2397) e IGRC→S3 (Rep. 4315/2398) conferis
 
 **D — Condizione sospensiva S3→DEX non provata**
 
-Il contratto S3→DEX (art. 2.3) stabilisce che la cessione è efficace solo se DEX paga l'intero prezzo di €1.570.000 entro 10 giorni lavorativi dalla firma. L'art. 2.4 dice che senza pagamento il contratto si intende non perfezionato. Nessun documento in atti prova il pagamento. DEX ha capitale sociale di €2.500 ed è stata costituita il 31/05/2024 — quattro mesi prima dell'acquisto. Azione: istanza al G.E. per ordine di produzione della prova del pagamento.
+Nessun documento in atti prova il pagamento di €1.570.000 da parte di DEX (capitale €2.500, costituita 4 mesi prima dell'acquisto). Azione: istanza al G.E. per ordine di produzione della prova.
 
 **E — Scioglimento Ribichini Gino & C. non trascritto**
 
-Il ricongiungimento dell'usufrutto risulta solo da visure catastali, non da trascrizione in Conservatoria. Da verificare con visura storica CCIAA su Telemaco (infocamere.it) — ancora da fare.
+Il ricongiungimento dell'usufrutto risulta solo da visure catastali, non da trascrizione in Conservatoria. Da verificare con visura storica CCIAA su Telemaco — ancora da fare.
 
 **F — Pignoramento descrive piena proprietà 1/1 per tutti**
 
-L'atto di pignoramento del 05/11/2021 descrive tutti gli immobili come piena proprietà 1/1 di Mobilcom, ignorando completamente l'usufrutto trentennale di Ribichini Gino & C. S.n.c. su sub 16, sub 17 e particella 1237 (scadenza 14/02/2033) e l'usufrutto di Marinelli Giuseppina su sub 3 e sub 9.
+Falso per sub 3, sub 9, sub 16, sub 17 e particella 1237 dove erano in vigore usufrutto Ribichini Gino & C. S.n.c. e usufrutto Marinelli Giuseppina.
 
 **G — Pignoramenti preesistenti non estinti formalmente**
 
-Stiltecno S.r.l.: nn. 5739/2007 e 1796/2008 (sub 3 e sub 9 — contro usufrutto Marinelli). Cassa Risparmio Ascoli: nn. 3144/2008 e 3129/2010 (sub 16, sub 17, particella 1237 — contro Mobilcom e Ribichini Gino & C. S.n.c.). Nessuno di questi risulta formalmente estinto in Conservatoria.
+Dalle ispezioni ipotecarie del 18/05/2026 già in 08_Prove_Documentali — Silvano non serve, la prova è già in mano:
+
+- **Stiltecno S.r.l. n. 5739 del 04/06/2007** — sub 3 (foglio 11, particella 864) — nessuna cancellazione
+- **Stiltecno S.r.l. n. 1796 del 12/02/2008** — sub 3 (foglio 11, particella 864) — nessuna cancellazione
+- **Cassa Risparmio Ascoli n. 3144/2008** (pignoramento originale) **+ rettifica n. 3129/2010** — particella 1237 (foglio 11) — nessuna cancellazione
+
+Nota: questi pignoramenti gravano su sub 3 e particella 1237 — NON su sub 16 o sub 17 come erroneamente indicato in versioni precedenti. Sub 16 ha solo ipoteca BSM e pignoramento BSM.
+
+Uso strategico: non serve verificare se i crediti sono ancora vivi. Basta depositare una riga nell'istanza al G.E. che chiede che qualsiasi avviso di vendita li menzioni ex art. 570 c.p.c. e che la parte creditrice produca la prova della loro cancellazione formale prima dell'asta. Il costo per noi è zero. Il costo per DEX in termini di tempo è alto.
 
 **H — Annotazione ipotecaria tardiva di 6 giorni**
 
-L'art. 4.1 del contratto S3-DEX imponeva a S3 di annotare la cessione BSM→Veicolo a margine delle iscrizioni ipotecarie italiane entro il 31/10/2024. L'annotazione è avvenuta il 06/11/2024 — tardiva di 6 giorni. Incide sull'opponibilità della cessione ai terzi, tra cui Oscar come debitore esecutato.
+Annotazione cessione BSM→Veicolo avvenuta il 06/11/2024, termine contrattuale era il 31/10/2024.
 
 ---
 
 ### Livello 3 — Argomenti autonomi da percorrere in sede separata
 
-**Fideiussione Oscar — art. 1957 c.c. (Cass. Sez. Un. 41994/2021)**
+**Fideiussione Oscar — art. 1957 c.c. — DOCUMENTO TROVATO E LETTO**
 
-Questa è la strada più diretta per Oscar come **persona fisica** — indipendente dalla procedura Mobilcom.
+La fideiussione specifica di Oscar e Gozi firmata il 05/12/2011 a Faetano è stata trovata e letta il 22/05/2026. File: `02_Titolo_Esecutivo\` — da salvare come `2011-12-05_Fideiussione_Specifica_RibichiniOscar_Gozi.pdf`.
 
-La Cass. Sez. Un. n. 41994/2021 ha stabilito che le clausole dello schema contrattuale ABI per le fideiussioni bancarie sono nulle ai sensi dell'art. 2 L. 287/1990. Le tre clausole colpite sono: art. 2 (reviviscenza), art. 6 (sopravvivenza), art. 8 (deroga all'art. 1957 c.c.). Quest'ultima è la più rilevante per Oscar.
+**Contenuto rilevante:**
 
-L'art. 1957 c.c. prevede che il fideiussore sia liberato se il creditore non propone le sue istanze contro il debitore principale entro **sei mesi** dalla scadenza dell'obbligazione. BSM ha dichiarato la decadenza dal beneficio del termine il 16/01/2014 — il termine semestrale scadeva il 16/07/2014. Il primo precetto è del 13/10/2020 — oltre sei anni dopo. Se la fideiussione di Oscar conteneva la clausola art. 8 ABI (quasi sempre presente nelle fideiussioni bancarie del periodo), quella clausola è nulla, torna in vigore l'art. 1957 c.c., e Oscar è già liberato dalla fideiussione personale.
+L'art. 2 della fideiussione recita: *"Il fideiussore rimane obbligato, anche se la Banca non abbia proposto le sue istanze contro il Cliente debitore o gli eventuali coobbligati o qualora le abbia proposte non le abbia continuate."* Questo è l'equivalente funzionale della clausola art. 8 schema ABI — produce lo stesso effetto di deroga all'art. 1957 c.c. con formulazione diversa.
 
-Strumento: opposizione autonoma ex art. 615 I comma c.p.c. proposta da Oscar in proprio come garante — non richiede passare per la procedura Mobilcom.
+L'art. 11 dice che il contratto è regolato dal diritto sammarinese — elemento che complicava l'applicazione diretta della Cass. Sez. Un. 41994/2021.
 
-Giurisprudenza: Cass. Sez. Un. 41994/2021; Cass. 34210/2023; Cass. 15895/2023.
+**Perché l'argomento regge nonostante la legge sammarinese — tre percorsi cumulativi:**
 
-**Richiede: testo integrale della fideiussione BSM del 2011 — ancora da recuperare (probabilmente nel fascicolo mutuo).**
+1. **Norme di applicazione necessaria (art. 17 L. 218/1995):** la L. 287/1990 (antitrust italiana) si applica indipendentemente dalla legge scelta dalle parti quando gli effetti del contratto si producono sul territorio italiano. BSM ha erogato il mutuo su immobili italiani, la procedura esecutiva si svolge in Italia. La L. 287/1990 si applica.
 
-**Vizio titolo esecutivo — decreto firmato dal giudice delegato**
+2. **Fideiussione specifica — Cass. 27243/2024:** la Cassazione con sentenza n. 27243 del 21/10/2024 ha esteso esplicitamente la nullità delle clausole ABI anche alle **fideiussioni specifiche**, non solo alle omnibus. La fideiussione di Oscar è intitolata "Fideiussione Specifica" — questo chiude il possibile argomento difensivo della controparte.
 
-Il decreto di esecutorietà del 05/10/2018 (R.G. 2137/2018) è firmato dal dr. L. Reale come giudice delegato, mentre l'art. 9 della Convenzione Italia-San Marino del 1939 richiede espressamente il Presidente del Tribunale. Non coperto dal giudicato del 2022 (che riguardava il merito del credito, non la validità formale del decreto). Se non esiste delega formale specifica del Presidente a Reale per questo tipo di procedimento, il titolo esecutivo è nullo ab origine.
+3. **Nullità per identità di funzione:** la giurisprudenza 2024-2025 ha chiarito che la nullità colpisce qualunque clausola che produca l'effetto di derogare all'art. 1957 c.c., indipendentemente dalla formulazione. L'art. 2 della fideiussione di Oscar produce esattamente quell'effetto.
 
-Strumento: opposizione ex art. 615 I comma c.p.c. su motivo nuovo.
+**La timeline:**
 
-**Richiede: testo integrale del decreto R.G. 2137/2018 con eventuale atto di delega — da recuperare tramite Di Salvatore dalla cancelleria.**
+- 16/01/2014: BSM dichiara la decadenza dal beneficio del termine — da qui decorre il termine semestrale
+- 16/07/2014: scadenza del termine semestrale ex art. 1957 c.c.
+- 13/10/2020: primo precetto — oltre 6 anni dopo la scadenza del termine
 
-Nota: questo argomento e il decreto non sono "urgenti questa settimana" nel senso di azione imminente da depositare, ma il recupero del testo è urgente perché senza leggerlo non si può valutare se la delega era sufficiente o meno. Una volta ottenuto il testo, Di Salvatore valuta se è percorribile — e in quel caso si apre una strada nuova.
+**Conclusione:** la clausola derogatoria c'è, è nulla per tre ragioni cumulate, il termine semestrale è scaduto il 16/07/2014, Oscar è già liberato dalla fideiussione personale. Strumento: opposizione autonoma ex art. 615 I comma c.p.c. da Oscar in proprio — indipendente dalla procedura Mobilcom.
+
+Giurisprudenza: Cass. Sez. Un. 41994/2021; Cass. 27243/2024; Cass. 34210/2023; Cass. 15895/2023.
+
+**Vizio titolo esecutivo — decreto firmato dal giudice delegato — RIDIMENSIONATO**
+
+Dal contratto di mutuo (Doc. 2, pag. 17) si legge chiaramente nel decreto R.G. 2137/2018: *"Il Giudice, vista la delega del sig. Presidente del Tribunale"*. La delega esiste ed è esplicitamente citata nel decreto stesso. Questo ridimensiona significativamente il vizio 6. Rimane teoricamente percorribile solo se il testo della delega fosse generico e non specifico per questo tipo di procedimento — ma la prima lettura è sfavorevole. Argomento da non sviluppare ulteriormente senza prima leggere il testo integrale della delega.
 
 ---
 
 ### Argomenti non più percorribili
 
-- Domanda giudiziale n. 10132 come motivo di sospensione: estinta il 19/07/2011. Riqualificata come formalità non cancellata (vedi Sezione III).
-- Piano francese, anatocismo, indeterminatezza tasso: giudicato copre (Trib. Bologna 2018, Bari 2022, Vicenza 2020, G.E. Pannaggi 07/11/2022).
-- Art. 106 TUB come argomento principale: rigettato due volte dal G.E. (01/01/2026 e 14/05/2026).
+- Domanda giudiziale n. 10132 come motivo di sospensione: estinta il 19/07/2011.
+- Piano francese, anatocismo, indeterminatezza tasso: giudicato copre.
+- Art. 106 TUB come argomento principale: rigettato due volte dal G.E.
+- Vizio 3 originario (Carboni Gabriella erede Ripa): sbagliato — lei era comproprietaria per titolo autonomo del 1994, non erede Ripa.
 
 ---
 
-## VII. STRATEGIA DI LUNGO PERIODO
+## VIII. STRATEGIA DI LUNGO PERIODO
 
 ### Il nodo strutturale
 
-Anche se Oscar si libera dalla fideiussione personale e la procedura viene bloccata, **gli immobili restano di Mobilcom S.r.l.** La difesa tecnica è necessaria ma non sufficiente. Serve una strategia di uscita strutturale.
+Anche se Oscar si libera dalla fideiussione personale e la procedura viene bloccata, gli immobili restano di Mobilcom S.r.l. La difesa tecnica è necessaria ma non sufficiente. Serve una strategia di uscita strutturale.
 
 ### Perché smontare DEX apre la trattativa giusta
 
-DEX non ha provato di essere la vera proprietaria del credito. L'argomento C (eccesso di mandato S3 ex art. 1711 c.c.) — se accolto — fa emergere come creditore legittimo Veicolo di Sistema, soggetto radicalmente diverso da DEX:
+L'argomento C (eccesso mandato S3 ex art. 1711 c.c.) — se accolto — fa emergere come creditore legittimo Veicolo di Sistema:
 
 | | DEX | Veicolo di Sistema |
 | --- | --- | --- |
 | Portafoglio | 5 crediti, Mobilcom è il principale | €170 milioni — Mobilcom è meno dell'1% |
 | Interesse | Massimizzare il recupero | Chiudere in fretta |
 | Struttura | Capitale €2.500, 4 mesi di vita | SPV con master servicer IGRC |
-| Leva negoziale | Alta — se bloccati perdono tutto | Media — hanno già incassato dalla cartolarizzazione |
+| Leva negoziale | Alta — se bloccati perdono tutto | Media — hanno già incassato |
 
-Il tentativo di Massimo Pichetti (42 anni UBS Svizzera) di aprire un canale bonario con DEX ha ottenuto rifiuto categorico. La strada è smontare DEX e trattare con Veicolo di Sistema — Pichetti è il canale naturale per quella trattativa.
+Il tentativo di Massimo Pichetti di aprire un canale bonario con DEX ha ottenuto rifiuto categorico. La strada è smontare DEX e trattare con Veicolo — Pichetti è il canale naturale.
 
 ### Le tre mosse
 
 **Mossa 1 — Difesa tecnica aggressiva (in corso)**
-Obiettivo: indebolire DEX, bloccare la procedura, creare pressione negoziale.
-Azioni: istanza vizi DEX, opposizione 617 entro 04/06/2026, sollevare eccesso mandato S3, chiedere prova pagamento DEX.
+Istanza 4 vizi DEX, opposizione 617 entro 04/06/2026, sollevare eccesso mandato S3, chiedere prova pagamento DEX, segnalare pignoramenti preesistenti ex art. 570 c.p.c.
 
 **Mossa 2 — Liberazione personale Oscar dalla fideiussione**
-Obiettivo: togliere a DEX la leva sull'uomo.
-Azione: trovare il testo della fideiussione, verificare la clausola ABI, se presente proporre opposizione autonoma ex art. 615 I comma c.p.c.
+Fideiussione trovata e letta. Clausola derogatoria art. 2 presente. Tre percorsi cumulativi per la nullità nonostante la legge sammarinese. Di Salvatore può depositare opposizione ex art. 615 I comma c.p.c. in autonomia.
 
 **Mossa 3 — Apertura canale diretto con Veicolo di Sistema**
-Obiettivo: trattare con chi ha interesse a chiudere.
-Azione: Di Salvatore scrive lettera formale a BSM/Veicolo che illustra i vizi sulla legittimazione di DEX, afferma che il credito potrebbe ancora essere di Veicolo, propone trattativa diretta. Cifra di partenza: circa €325.000–350.000 (quanto ha pagato DEX per acquistarlo).
+Di Salvatore scrive lettera formale a BSM/Veicolo illustrando i vizi sulla legittimazione di DEX. Cifra di partenza: circa €325.000–350.000.
 
 ### Le tre uscite strutturali
 
 **Uscita A — Saldo e stralcio con Veicolo/BSM (preferibile)**
-Trattativa diretta dopo aver smontato DEX. Cifra ragionevole: €350.000–450.000. Veicolo chiude il credito, rilascia ipoteca, Oscar come liquidatore vende gli immobili ordinatamente al valore di mercato reale (€784.000 perizia Emiliani). Mobilcom chiude la liquidazione con eventuale residuo attivo per Oscar.
+€350.000–450.000. Veicolo chiude il credito, rilascia ipoteca, Oscar come liquidatore vende ordinatamente gli immobili al valore reale (€784.000 perizia Emiliani).
 
 **Uscita B — Liquidazione ordinata di Mobilcom**
-Se il debito viene definito o stralciato, Oscar come liquidatore vende ordinatamente gli immobili, paga i creditori, chiude la società.
+Dopo definizione del debito, vendita ordinata degli immobili e chiusura della società.
 
 **Uscita C — Estinzione procedura per vizi + liberazione fideiussione Oscar**
-Strada più lunga. Se la procedura si estingue e Oscar è liberato dalla fideiussione, DEX resta con un credito chirografario verso una società in liquidazione e potrebbe chiudere con pochissimo o niente.
+Strada più lunga ma quella che massimizza tutto. Tre componenti cumulative:
 
-Elemento aggiuntivo — restituzione canoni SAUDA ex art. 632 c.p.c.: il decreto di delega vendita del G.E. Rana (2025) nomina la dott.ssa Manuela Martina custode e le ordina di ricevere i canoni di locazione depositandoli su conto intestato al custode nella qualità, indicando il numero della procedura. I canoni SAUDA (€1.500/mese da febbraio 2026) non vanno a DEX né a Mobilcom — stanno sul conto della procedura. In caso di estinzione della procedura, l'art. 632 c.p.c. prevede che il G.E. ordini la restituzione all'esecutato di tutte le somme riscosse. Di Salvatore deposita istanza di restituzione ex art. 632 c.p.c. e il G.E. ordina al custode di versare i canoni accumulati a Mobilcom. Non è un'azione separata complicata — è la conseguenza automatica dell'estinzione. Da febbraio 2026 a dicembre 2027 il totale potenziale è circa €33.000.
-
----
-
-## VIII. ISTRUTTORIA CHIUSA — COSA NON SERVE PIÙ FARE
-
-- **Notaio Cafiero:** atti letti integralmente il 22/05/2026. Non servono ulteriori copie.
-- **Visurista Silvano:** non più necessario per la parte degli atti Cafiero. Rimane utile solo se si decide di recuperare le note di trascrizione originali della Conservatoria (nn. RP 11137/2005, RP 11710/2005, RP 1610/2007, RP 545/2008) per i pignoramenti Stiltecno e Cassa Risparmio Ascoli.
-- **Domanda giudiziale n. 10132:** esito verificato il 22/05/2026 — estinta il 19/07/2011. Argomento riqualificato. Non servono ulteriori verifiche.
+- DEX perde la leva ipotecaria — il credito torna chirografario
+- Oscar liberato dalla fideiussione personale — DEX perde la leva sull'uomo
+- Restituzione canoni SAUDA ex art. 632 c.p.c.: il decreto Rana nomina la dott.ssa Manuela Martina custode con obbligo di depositare i canoni SAUDA (€1.500/mese da febbraio 2026) sul conto della procedura. In caso di estinzione, l'art. 632 c.p.c. impone la restituzione automatica all'esecutato di tutte le somme riscosse. Di Salvatore deposita istanza ex art. 632 c.p.c. — il G.E. ordina al custode di versare i canoni accumulati a Mobilcom. Totale potenziale febbraio 2026 - dicembre 2027: circa €33.000.
 
 ---
 
-## IX. AZIONI PENDENTI
+## IX. ISTRUTTORIA — STATO AGGIORNATO
 
-### Di Salvatore — urgenti
+### Chiusa definitivamente
 
-| Azione | Scadenza |
-| --- | --- |
-| Depositare istanza sui 5 vizi del deposito DEX del 13/05/2026 | Questa settimana |
-| Decidere e predisporre opposizione ex art. 617 c.p.c. | Entro il 04/06/2026 |
-| Recuperare testo integrale decreto R.G. 2137/2018 (con eventuale atto di delega) | Questa settimana — per valutare percorribilità vizio titolo esecutivo |
-| Leggere testo fideiussione Oscar e valutare art. 1957 c.c. | Appena Oscar gliela porta |
-| Sollevare eccesso mandato S3 ex art. 1711 c.c. | Da depositare appena possibile |
-| Valutare apertura canale con Veicolo/BSM tramite Pichetti | Da discutere nella prossima riunione |
+- Notaio Cafiero: atti letti il 22/05/2026. Non servono ulteriori copie.
+- Silvano (visurista): non necessario. Le ispezioni ipotecarie del 18/05/2026 in 08_Prove_Documentali sono prove ufficiali sufficienti per tutti i vizi documentati.
+- Domanda giudiziale n. 10132: esito verificato — estinta il 19/07/2011.
+- Fideiussione: trovata e letta il 22/05/2026. Clausola derogatoria presente. Argomento percorribile.
+- Decreto R.G. 2137/2018: delega del Presidente citata nel testo — argomento vizio titolo ridimensionato.
 
-### Oscar — pendenti
+### Ancora da fare — Oscar
 
 | Azione | Note |
 | --- | --- |
-| Trovare testo integrale fideiussione BSM del 2011 | Probabilmente nel fascicolo mutuo originale |
+| Salvare fideiussione in `02_Titolo_Esecutivo\` | Nome file: `2011-12-05_Fideiussione_Specifica_RibichiniOscar_Gozi.pdf` |
 | Visura storica CCIAA Ribichini Gino & C. S.n.c. | Telemaco — infocamere.it |
 | Visure Sister sub 9 e sub 17 | €6,40 ciascuna su Sister |
 | Salvare PDF ispezioni ipotecarie 18/05/2026 in 08_Prove_Documentali | Non ancora fatto |
@@ -255,14 +270,30 @@ Elemento aggiuntivo — restituzione canoni SAUDA ex art. 632 c.p.c.: il decreto
 
 ---
 
-## X. FILE CHIAVE
+## X. AZIONI PENDENTI — DI SALVATORE
+
+| Azione | Scadenza |
+| --- | --- |
+| Depositare istanza sui 4 vizi del deposito DEX del 13/05/2026 | Questa settimana |
+| Decidere e predisporre opposizione ex art. 617 c.p.c. | Entro il 04/06/2026 |
+| Proporre opposizione autonoma Oscar ex art. 615 I comma c.p.c. per fideiussione | Appena possibile — argomento completo, non serve altro |
+| Sollevare eccesso mandato S3 ex art. 1711 c.c. | Da depositare appena possibile |
+| Segnalare pignoramenti preesistenti ex art. 570 c.p.c. | Nell'istanza vizi DEX o separatamente |
+| Valutare apertura canale con Veicolo/BSM tramite Pichetti | Da discutere nella prossima riunione |
+
+---
+
+## XI. FILE CHIAVE
 
 - Relazione completa originale: `07_Note_Analisi\2026-05-20_Relazione_Completa_Caso_Mobilcom.md`
 - Istanza al G.E. aggiornata: `04_Opposizioni_Istanze\2026-05-21_Istanza_GE_Finale.md`
 - Strategie lungo periodo: `07_Note_Analisi\2026-05-21_STRATEGIE_DA_DISCUTERE_CON_AVVOCATO.md`
 - Nota strade nuove per Di Salvatore: `09_Corrispondenza\2026-05-21_Nota_Strade_Nuove_per_DiSalvatore.md`
 - Nota SAUDA: `09_Corrispondenza\2026-05-21_Nota_Completa_SAUDA_per_DiSalvatore.md`
-- Atti Cafiero letti il 22/05/2026: `FILE_DA_LEGGERE\Atto95525.pdf`, `Atto95624.pdf`, `Atto95824.pdf`
+- Atti Cafiero: `FILE_DA_LEGGERE\Atto95525.pdf`, `Atto95624.pdf`, `Atto95824.pdf`
+- Fideiussione Oscar e Gozi: `02_Titolo_Esecutivo\2011-12-05_Fideiussione_Specifica_RibichiniOscar_Gozi.pdf`
+- Contratto mutuo: `02_Titolo_Esecutivo\Doc. 2_Mutuo delibato.pdf`
+- Ispezioni ipotecarie 18/05/2026: `08_Prove_Documentali\`
 
 ---
 
