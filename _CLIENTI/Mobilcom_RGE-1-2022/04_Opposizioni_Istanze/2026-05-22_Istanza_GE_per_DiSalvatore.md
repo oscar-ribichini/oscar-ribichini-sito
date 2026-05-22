@@ -69,19 +69,27 @@ Va aggiunto un dato che aggrava ulteriormente il quadro: l'asta del Lotto 1 (sub
 
 In data 13 maggio 2026 DEX ha depositato documentazione sostenendo di aver ottemperato. Tale deposito è invalido per quattro ragioni autonome, ciascuna di per sé sufficiente.
 
-**Vizio 1 — Tardività**
+**Vizio 1 — Tardività: termine perentorio già scaduto**
 
-Il termine scadeva il 12 maggio 2026. DEX ha depositato il 13 maggio 2026. L'inottemperanza era già consumata alle ore 24:00 del 12 maggio, indipendentemente da quanto depositato il giorno successivo. Non vi è spazio per sanatorie: il termine era perentorio per espressa statuizione di questo G.E.
+Il termine del 12/05/2026 era perentorio per espressa statuizione di questo G.E. nell'ordinanza del 22/04/2026. Ai sensi dell'art. 152 c.p.c., i termini perentori non sono prorogabili e la loro inosservanza produce decadenza automatica. L'inottemperanza era già consumata e irreversibile alle ore 24:00 del 12 maggio 2026 — indipendentemente da quanto depositato il giorno successivo e indipendentemente dal contenuto di quel deposito. Su questo punto questo G.E. non ha discrezionalità: il termine perentorio da lui stesso fissato nell'ordinanza del 22/04/2026 era scaduto. Qualunque valutazione successiva — sul contenuto del deposito, sulla sua completezza, sulla sua validità — è irrilevante: l'inottemperanza era già consumata prima che DEX depositasse qualsiasi cosa.
 
-**Vizio 2 — Riferimento a provvedimento inesistente**
+**Vizio 2 — Riferimento a provvedimento inesistente: dilemma senza uscita**
 
-Nel corpo del deposito DEX dichiara di agire "in ottemperanza all'ordinanza del G.E. del 22.04.2025". L'ordinanza del 22 aprile 2025 non esiste agli atti di questa procedura. Il provvedimento reale è del 22/04/2026. Un atto processuale che identifica come proprio titolo di legittimazione un provvedimento mai emesso non può costituire valido adempimento a quello reale. L'errore non è rettificabile: investe la causa giuridica dell'atto.
+Nel corpo del deposito DEX dichiara di agire "in ottemperanza all'ordinanza del G.E. del 22.04.2025". L'ordinanza del 22 aprile 2025 non esiste agli atti di questa procedura. Il provvedimento reale è del 22/04/2026.
+
+Questo genera un dilemma senza uscita per DEX.
+
+Se si tratta di errore materiale e DEX intendeva riferirsi all'ordinanza del 22/04/2026 — il deposito è comunque tardivo di un giorno, come illustrato al Vizio 1, e l'inottemperanza è già consumata per quella ragione autonoma.
+
+Se non si tratta di errore materiale e DEX ha inteso riferirsi a un provvedimento diverso — il deposito non risulta ricollegabile all'ordinanza reale del 22/04/2026 e non ne costituisce adempimento per mancanza del titolo giuridico che lo giustifica.
+
+In entrambe le possibilità — qualunque interpretazione questo G.E. voglia adottare — il deposito del 13/05/2026 non appare costituire valido adempimento all'ordinanza del 22/04/2026. Non vi è interpretazione che consenta di ritenere l'ordinanza ottemperata.
 
 **Vizio 3 — Mandato invalido: trascrizione effettuata senza titolo verificabile**
 
 L'accettazione tacita dell'eredità trascritta il 13/05/2026 a nome di Brillo Dilva (nata il 19/08/1930, 95 anni, malata, assistita h24 da badante) è stata richiesta dall'Avv. Enrico Franceschetti. Franceschetti non è il legale di Brillo Dilva: è il difensore di DEX e, come risulta dalla visura camerale e dalla procura del 04/12/2024, è socio al 10% di DEX S.r.l.
 
-Nessuna procura di Brillo Dilva a Franceschetti risulta depositata agli atti della procedura. La difesa chiede che questo G.E. ordini a DEX di produrre entro termine perentorio di 10 giorni la procura con cui Brillo Dilva ha conferito mandato a Franceschetti per richiedere la trascrizione a suo nome, unitamente alla documentazione attestante la sua capacità di intendere e volere al momento del conferimento. In assenza di tale prova, la trascrizione del 13/05/2026 è priva di titolo e non produce effetti.
+Nessuna procura di Brillo Dilva a Franceschetti risulta depositata agli atti della procedura. La difesa chiede che questo G.E. ordini a DEX di produrre entro termine perentorio di 10 giorni la procura con cui Brillo Dilva ha conferito mandato a Franceschetti per richiedere la trascrizione a suo nome, unitamente alla documentazione attestante la sua capacità di intendere e volere al momento del conferimento. In assenza di tale produzione, la trascrizione del 13/05/2026 non risulta sorretta da alcun titolo verificabile agli atti e occorre che questo G.E. ne valuti gli effetti.
 
 **Vizio 4 — Conflitto di interessi: rappresentanza processuale compromessa**
 
@@ -120,7 +128,7 @@ Il verbale del CdA di IGRC del 28/03/2024 descrive espressamente l'incarico come
 
 ### III.3 — Le conseguenze ex art. 1711 c.c.
 
-S3, agendo come sub-mandataria con poteri limitati alla gestione e al recupero, ha compiuto un atto — la cessione definitiva a DEX per €325.144 — che eccede i limiti del mandato ricevuto. Ai sensi dell'art. 1711 c.c., il mandatario che compie atti eccedenti i limiti del mandato non vincola il mandante per quella parte eccedente. La cessione S3→DEX è inefficace nei confronti di Veicolo di Sistema S.r.l., che resta titolare del credito. DEX non ha mai acquisito la titolarità del credito e non ha legittimazione ad intervenire nella presente procedura esecutiva.
+S3, agendo come sub-mandataria con poteri limitati alla gestione e al recupero, ha compiuto un atto — la cessione definitiva a DEX per €325.144 — che eccede i limiti del mandato ricevuto. Ai sensi dell'art. 1711 c.c., il mandatario che compie atti eccedenti i limiti del mandato non vincola il mandante per quella parte eccedente. Allo stato degli atti non risulta dimostrato che la cessione S3→DEX abbia prodotto effetti nei confronti di Veicolo di Sistema S.r.l., che resterebbe titolare del credito. Non risulta documentalmente verificabile che DEX abbia acquisito validamente la titolarità del credito e occorre che questo G.E. verifichi la sua legittimazione ad intervenire nella presente procedura esecutiva.
 
 La prova è già integralmente contenuta negli atti depositati da Veicolo stessa. Questo G.E. può rilevarlo direttamente dagli atti di causa.
 
@@ -138,11 +146,11 @@ In via principale: rilevare d'ufficio il difetto di legittimazione di DEX S.r.l.
 
 In via subordinata — nell'ipotesi in cui si ritenesse che S3 fosse autorizzata a cedere il credito — la cessione S3→DEX non si è comunque perfezionata per mancato avveramento della condizione sospensiva contrattuale.
 
-Il contratto S3→DEX (proposta 30/09/2024, accettazione 02/10/2024, atto notarile 06/12/2024) prevede all'art. 2.3 che il trasferimento del credito è efficace esclusivamente se DEX corrisponde l'intero prezzo di €1.570.000 entro 10 giorni lavorativi dalla firma di S3. L'art. 2.4 stabilisce che in assenza di tale pagamento il contratto si intende non perfezionato. Si tratta di condizione sospensiva ex art. 1353 c.c.: fino al suo avveramento la cessione non produce effetti.
+Il contratto S3→DEX (proposta 30/09/2024, accettazione 02/10/2024, atto notarile 06/12/2024) prevede all'art. 2.3 che il trasferimento del credito è efficace esclusivamente se DEX corrisponde l'intero prezzo di €1.570.000 entro 10 giorni lavorativi dalla firma di S3. L'art. 2.4 stabilisce che in assenza di tale pagamento il contratto si intende non perfezionato. Si tratta di condizione sospensiva ex art. 1353 c.c.: fino al suo avveramento documentato la cessione non risulta perfezionata.
 
 Un dato oggettivo aggrava il quadro: DEX S.r.l. (C.F. e P.IVA 04590110989, sede in Brescia, Corso Giuseppe Zanardelli n. 3, legale rappresentante pro tempore Dott. Giambarda Doriano) è stata costituita il 31/05/2024 con capitale sociale di €2.500. Quattro mesi dopo la sua costituzione avrebbe dovuto versare €1.570.000 entro 10 giorni lavorativi. Ad oggi nessun documento negli atti — nessun bonifico, nessun estratto conto, nessuna quietanza notarile — prova che DEX abbia effettuato questo pagamento.
 
-**Richiesta:** si chiede a questo G.E. di ordinare a DEX di produrre entro termine perentorio di 10 giorni la prova documentale dell'avveramento della condizione sospensiva (bonifico bancario con valuta, estratto conto o quietanza notarile). In assenza di tale prova, dichiarare il difetto di legittimazione di DEX con cancellazione di tutte le istanze da essa depositate.
+**Richiesta:** si chiede a questo G.E. di ordinare a DEX di produrre entro termine perentorio di 10 giorni la prova documentale dell'avveramento della condizione sospensiva (bonifico bancario con valuta, estratto conto o quietanza notarile). In assenza di tale produzione, occorre che questo G.E. valuti la legittimazione di DEX a stare in giudizio e disponga i conseguenti provvedimenti sulle istanze da essa depositate.
 
 ---
 
@@ -281,9 +289,9 @@ Tutto ciò premesso, la parte esecutata Mobilcom S.r.l. chiede all'Ill.mo Giudic
 
 **2)** Ordinare a DEX di produrre entro 10 giorni la procura di Brillo Dilva e la documentazione attestante la sua capacità al momento del conferimento; in assenza, dichiarare priva di titolo la trascrizione del 13/05/2026.
 
-**3)** In via principale: rilevare d'ufficio il difetto di legittimazione di DEX per eccesso di mandato ex art. 1711 c.c. e dichiarare l'inefficacia della cessione S3→DEX nei confronti di Veicolo di Sistema S.r.l., con cancellazione di tutte le istanze depositate da DEX.
+**3)** In via principale: rilevare d'ufficio che, allo stato degli atti, non risulta documentalmente verificabile che S3 avesse il potere di cedere definitivamente il credito a DEX ai sensi dell'art. 1711 c.c., con conseguente valutazione della legittimazione di DEX a stare in giudizio e adozione dei provvedimenti conseguenti sulle istanze da essa depositate.
 
-**4)** In via subordinata alla domanda 3): ordinare a DEX di produrre entro 10 giorni la prova del pagamento di €1.570.000 ex art. 2.3 del contratto S3→DEX; in assenza, dichiarare il difetto di legittimazione di DEX con cancellazione di tutte le istanze depositate.
+**4)** In via subordinata alla domanda 3): ordinare a DEX di produrre entro 10 giorni la prova del pagamento di €1.570.000 ex art. 2.3 del contratto S3→DEX; in assenza di tale produzione, occorre che questo G.E. valuti la legittimazione di DEX e disponga i conseguenti provvedimenti.
 
 **5)** Ordinare a DEX di produrre la prova della formale cancellazione in Conservatoria dei pignoramenti Stiltecno n. 5739/2007 e n. 1796/2008 e Cassa Risparmio Ascoli n. 3144/2008 e n. 3129/2010 prima di qualsiasi atto d'asta; disporre che qualunque futuro avviso d'asta li menzioni esplicitamente ex art. 570 c.p.c.
 
