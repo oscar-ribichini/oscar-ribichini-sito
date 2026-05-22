@@ -4,6 +4,30 @@
 
 ---
 
+## ⚠️ ISTRUZIONI PER CLAUDE — LEGGERE PRIMA DI TUTTO
+
+### File superati — NON usare come riferimento primario
+I seguenti file contengono analisi precedenti che in alcuni punti contraddicono le conclusioni raggiunte in questa relazione. Esistono per conservare il filo storico ma NON vanno usati come base per nuove analisi o atti:
+
+- `07_Note_Analisi\MEMORIA_CASO_MOBILCOM_AGGIORNATA.md`
+- `07_Note_Analisi\02_MEMORIA_CASO_MOBILCOM_COMPLETA.md`
+- `07_Note_Analisi\03_MAPPA_IMMOBILI_E_CRITICITA.md`
+
+**Riferimento primario per tutto:** questo file + `04_Opposizioni_Istanze\2026-05-21_Istanza_GE_Finale.md`
+
+### Confronto obbligatorio prima di scrivere qualsiasi analisi o atto
+
+Prima di scrivere qualsiasi cosa — analisi, argomento, testo di istanza — rispondere a queste 4 domande:
+
+1. Quello che sto per scrivere contraddice qualcosa già stabilito in questa relazione?
+2. Quello che sto per scrivere indica a DEX cosa manca o cosa deve fare per rimediare?
+3. Ho verificato il dato sull'atto originale e non sulla memoria di sessione?
+4. Sto separando l'analisi interna (tutto) dalla strategia processuale (solo quello che non aiuta DEX)?
+
+**Se la risposta a 1 o 2 è SÌ — fermarsi e segnalarlo a Oscar prima di procedere.**
+
+---
+
 ## 1. SCADENZA URGENTE
 
 **04/06/2026 — opposizione ex art. 617 c.p.c.** avverso il rigetto del G.E. del 14/05/2026 sulla questione art. 106 TUB. Mancano 13 giorni. Di Salvatore deve decidere se presentarla e su quale argomento — la proposta è la nullità dell'avviso di vendita Lotto 3 (sub 16 non pignorabile + riserve catastali particella 1237 + variazione post-pignoramento).
