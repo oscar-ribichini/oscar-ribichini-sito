@@ -49,7 +49,7 @@ La presente istanza solleva nove questioni distinte, ciascuna sufficiente da sol
 
 ### II.1 — Cronologia dell'inadempimento
 
-Con ordinanza del 09/08/2025 questo G.E. ha rilevato il vizio di continuità delle trascrizioni per sub 6 e sub 10 (Foglio 18, Particella 686) e ha ordinato a DEX il deposito di relazione notarile integrativa entro 30 giorni.
+Con ordinanza del 09/08/2025 questo G.E. ha rilevato il vizio di continuità delle trascrizioni per sub 6 e sub 10 (Foglio 18, Particella 686) — immobili la cui divisione tra i comproprietari fu effettuata con atto del Notaio Antonio Testa del 09/02/2006 (Rep. n. 161645, allegato sub 5) — e ha ordinato a DEX il deposito di relazione notarile integrativa entro 30 giorni.
 
 DEX non ha ottemperato.
 
@@ -136,7 +136,7 @@ In via subordinata — nell'ipotesi in cui si ritenesse che S3 fosse autorizzata
 
 Il contratto S3→DEX (proposta 30/09/2024, accettazione 02/10/2024, atto notarile 06/12/2024) prevede all'art. 2.3 che il trasferimento del credito è efficace esclusivamente se DEX corrisponde l'intero prezzo di €1.570.000 entro 10 giorni lavorativi dalla firma di S3. L'art. 2.4 stabilisce che in assenza di tale pagamento il contratto si intende non perfezionato. Si tratta di condizione sospensiva ex art. 1353 c.c.: fino al suo avveramento la cessione non produce effetti.
 
-Un dato oggettivo aggrava il quadro: DEX S.r.l. è stata costituita il 31/05/2024 con capitale sociale di €2.500. Quattro mesi dopo la sua costituzione avrebbe dovuto versare €1.570.000 entro 10 giorni lavorativi. Ad oggi nessun documento negli atti — nessun bonifico, nessun estratto conto, nessuna quietanza notarile — prova che DEX abbia effettuato questo pagamento.
+Un dato oggettivo aggrava il quadro: DEX S.r.l. (C.F. e P.IVA 04590110989, sede in Brescia, Corso Giuseppe Zanardelli n. 3, legale rappresentante pro tempore Dott. Giambarda Doriano) è stata costituita il 31/05/2024 con capitale sociale di €2.500. Quattro mesi dopo la sua costituzione avrebbe dovuto versare €1.570.000 entro 10 giorni lavorativi. Ad oggi nessun documento negli atti — nessun bonifico, nessun estratto conto, nessuna quietanza notarile — prova che DEX abbia effettuato questo pagamento.
 
 **Richiesta:** si chiede a questo G.E. di ordinare a DEX di produrre entro termine perentorio di 10 giorni la prova documentale dell'avveramento della condizione sospensiva (bonifico bancario con valuta, estratto conto o quietanza notarile). In assenza di tale prova, dichiarare il difetto di legittimazione di DEX con cancellazione di tutte le istanze da essa depositate.
 
@@ -171,7 +171,7 @@ Nel caso di specie:
 
 Per **sub 3 e sub 9** (Foglio 11, Particella 864): Mobilcom ha acquistato separatamente la nuda proprietà (trascrizione n. 1610 del 09/02/2007) e l'usufrutto da Marinelli Giuseppina (trascrizione n. 545 del 11/01/2008). Il pignoramento descrive piena proprietà 1/1 senza aver verificato il consolidamento dei due diritti. La stessa BSM ha riconosciuto questa situazione nell'avviso ai creditori ex art. 498 c.p.c. del 08/03/2022, indicando come unico creditore ipotecario preesistente Tercas per ipoteca giudiziale iscritta sul diritto di usufrutto di Marinelli Giuseppina — confermando che al momento dell'avviso l'usufrutto era ancora un elemento rilevante della situazione giuridica di quegli immobili.
 
-Per **sub 16** (Foglio 11, Particella 864): in Conservatoria non risulta trascritta alcuna compravendita a favore di Mobilcom. Il pignoramento ha colpito la piena proprietà di un soggetto che nei registri immobiliari non figura come proprietario. Ai sensi dell'art. 2650 c.c., l'ipoteca BSM è inopponibile ai terzi e il pignoramento ha colpito un diritto inesistente nei registri.
+Per **sub 16** (Foglio 11, Particella 864): come risulta dall'ispezione ipotecaria n. T50595 del 18/05/2026 (allegato sub 2), in Conservatoria non risulta trascritta alcuna compravendita a favore di Mobilcom. Il pignoramento ha colpito la piena proprietà di un soggetto che nei registri immobiliari non figura come proprietario. Ai sensi dell'art. 2650 c.c., l'ipoteca BSM è inopponibile ai terzi e il pignoramento ha colpito un diritto inesistente nei registri.
 
 La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 non ha rilevato questi vizi perché si è basata sulle visure catastali — strumento privo di valore ai fini della pubblicità immobiliare. La relazione è pertanto giuridicamente inidonea per sub 16, dove non ha verificato la continuità delle trascrizioni in Conservatoria come imposto dall'art. 567 c.p.c.
 
@@ -181,7 +181,7 @@ La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 non
 
 ## VII. DOMANDA GIUDIZIALE N. 10132 — FORMALITÀ PREGIUDIZIEVOLE ATTIVA NON MENZIONATA NELL'AVVISO D'ASTA
 
-Le ispezioni ipotecarie del 18/05/2026 hanno rilevato che al Registro Particolare n. 10132, in data 17/10/2008, risulta trascritta una domanda giudiziale di accertamento della simulazione degli atti di acquisto, promossa da Banca Marche S.p.A. contro Le Carrè S.r.l. (Repertorio 2093/2006 del 30/08/2008). Tale trascrizione grava su tutti gli immobili della procedura.
+L'ispezione ipotecaria n. T34794 del 18/05/2026 (allegato sub 1) ha rilevato che al Registro Particolare n. 10132, in data 17/10/2008, risulta trascritta una domanda giudiziale di accertamento della simulazione degli atti di acquisto, promossa da Banca Marche S.p.A. contro Le Carrè S.r.l. (Repertorio 2093/2006 del 30/08/2008). Tale trascrizione grava su tutti gli immobili della procedura, come confermato anche dall'ispezione n. T51187 (allegato sub 3).
 
 A differenza di tutte le altre domande giudiziali analoghe del medesimo periodo — nn. 10133, 10134, 5660, 5661, 5662, 7221, 7222, tutte cancellate nel 2012 — la n. 10132 non ha ad oggi alcuna annotazione di cancellazione nei registri immobiliari. La formalità è attivamente iscritta in Conservatoria e visibile a chiunque consulti i registri.
 
@@ -198,10 +198,10 @@ Il Lotto 3 (sub 16 e particella 1237) presenta una convergenza di vizi struttura
 - Assenza totale di catena proprietaria trascritta in Conservatoria per sub 16
 - Domanda giudiziale n. 10132 attiva in Conservatoria senza cancellazione
 - Riserve catastali aperte dal 2005 sulla particella 1237, mai chiuse
-- Contratto di locazione con SAUDA S.r.l.s. del 01/12/2021, avente data certa anteriore alla trascrizione del pignoramento del 08/02/2022, opponibile alla procedura ex art. 2923 c.c., con scadenza 31/12/2027 — qualunque acquirente acquista l'immobile con il conduttore già insediato
+- Contratto di locazione commerciale stipulato da Mobilcom S.r.l. in persona del proprio amministratore pro tempore con SAUDA S.r.l.s. in data 01/12/2021, avente data certa anteriore alla trascrizione del pignoramento del 08/02/2022, opponibile alla procedura ex art. 2923 c.c., con scadenza 31/12/2027 — qualunque acquirente acquista l'immobile con il conduttore già insediato
 - Variazione catastale del 26/05/2022 presentata durante la procedura senza autorizzazione di questo G.E. ex art. 560 c.p.c., che ha portato la superficie del sub 16 da 143 a 177 mq — non è noto a questa difesa chi abbia presentato il DOCFA
 
-In queste condizioni l'asta non è una vendita competitiva sul mercato aperto. Le aste precedenti sono andate deserte non per ragioni di prezzo ma per ragioni strutturali insanabili nell'immediato. Qualunque ulteriore atto esecutivo sul Lotto 3 nelle condizioni attuali è destinato al medesimo esito, con conseguente pregiudizio per tutte le parti.
+In queste condizioni l'asta non è una vendita competitiva sul mercato aperto. L'asta precedente del 21/01/2026 è andata deserta non per ragioni di prezzo ma per ragioni strutturali insanabili nell'immediato. Qualunque ulteriore atto esecutivo sul Lotto 3 nelle condizioni attuali è destinato al medesimo esito, con conseguente pregiudizio per tutte le parti.
 
 **Richiesta:** si chiede a questo G.E. di sospendere qualsiasi atto d'asta sul Lotto 3 fino alla risoluzione dei vizi strutturali illustrati, di accertare chi abbia presentato la variazione catastale del 26/05/2022 e di disporre che qualunque futuro avviso d'asta contenga l'indicazione completa di tutte le formalità pregiudizievoli attive.
 
