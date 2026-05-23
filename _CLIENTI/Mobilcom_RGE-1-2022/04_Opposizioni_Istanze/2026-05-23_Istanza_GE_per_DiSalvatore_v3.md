@@ -346,6 +346,16 @@ Via San Martino della Battaglia n. 18 — 25121 Brescia
 PEC: consiglio.disciplina@brescia.pecavvocati.it
 — per valutazione della condotta dell'Avv. Enrico Franceschetti, difensore di DEX e socio al 10% della medesima, in violazione dell'art. 24 del Codice Deontologico Forense.
 
+**6. Consiglio Notarile dei Distretti Riuniti di Macerata e Camerino**
+Via Cosimo Morelli n. 20 — 62100 Macerata (MC)
+PEC: cnd.macerata@postacertificata.notariato.it
+— per valutazione delle lacune metodologiche della relazione notarile ex art. 567 c.p.c. del Notaio Cristina Lorenzoni del 03/03/2022, che ha attestato la titolarità di Mobilcom S.r.l. su sub 16 basandosi su dati catastali senza verifica in Conservatoria, e ha elencato formalità pregiudizievoli senza attestarne l'estinzione, in violazione degli obblighi di completezza imposti dall'art. 567 c.p.c.
+
+**7. AGCM — Autorità Garante della Concorrenza e del Mercato**
+Piazza Giuseppe Verdi n. 6/A — 00198 Roma
+PEC: protocollo.agcm@pec.agcm.it
+— per valutazione dei profili anticoncorrenziali delle clausole della fideiussione stipulata con BSM, riconducibili allo schema ABI dichiarato lesivo della concorrenza ex L. 287/1990 (Cass. Sez. Un. n. 41994/2021 e successive conformi), con riserva di segnalazione separata e documentata.
+
 La presente comunicazione è effettuata nell'esercizio del diritto di difesa e nel rispetto del principio di lealtà processuale.
 
 ---
