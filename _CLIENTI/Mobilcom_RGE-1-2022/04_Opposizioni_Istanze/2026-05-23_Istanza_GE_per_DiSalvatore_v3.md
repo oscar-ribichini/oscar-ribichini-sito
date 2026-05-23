@@ -321,15 +321,30 @@ Tutto ciò premesso, la parte esecutata Mobilcom S.r.l. chiede all'Ill.mo Giudic
 
 La presente istanza viene trasmessa per conoscenza, in copia conforme, ai seguenti organi, per le rispettive competenze istituzionali:
 
-**1. Procura della Repubblica di Macerata** — per valutazione dei profili penali relativi alla trascrizione del 13/05/2026 a nome di Brillo Dilva (nata il 19/08/1930, 95 anni, malata, assistita h24 da badante), atto richiesto dall'Avv. Franceschetti contestualmente socio al 10% di DEX, con possibile configurazione di frode processuale (art. 374 c.p.) e falsità ideologica per induzione (art. 48 in combinato con art. 479 c.p.).
+**1. Procura della Repubblica presso il Tribunale di Macerata**
+Via Pesaro n. 6 — 62100 Macerata (MC)
+PEC: prot.procura.macerata@giustiziacert.it
+— per valutazione dei profili penali relativi alla trascrizione del 13/05/2026 a nome di Brillo Dilva (nata il 19/08/1930, 95 anni, malata, assistita h24 da badante), atto richiesto dall'Avv. Franceschetti contestualmente socio al 10% di DEX, con possibile configurazione di frode processuale (art. 374 c.p.) e falsità ideologica per induzione (art. 48 in combinato con art. 479 c.p.).
 
-**2. Ministero dell'Economia e delle Finanze** — per valutazione della regolarità dell'operazione di acquisto di crediti in sofferenza da parte di DEX S.r.l. in assenza dei requisiti soggettivi e di iscrizione previsti dalla normativa vigente.
+**2. Ministero dell'Economia e delle Finanze — Dipartimento del Tesoro**
+Via XX Settembre n. 97 — 00187 Roma
+PEC: dipartimento.tesoro@pec.mef.gov.it
+— per valutazione della regolarità dell'operazione di acquisto di crediti in sofferenza da parte di DEX S.r.l. in assenza dei requisiti soggettivi e di iscrizione previsti dalla normativa vigente, con particolare riferimento al D.Lgs 116/2024 e alla Direttiva UE 2021/2167.
 
-**3. Banca d'Italia — Servizio Vigilanza** — per valutazione dell'operatività di DEX S.r.l. nell'acquisto e gestione in proprio di crediti bancari in sofferenza derivanti da mutui ipotecari, senza iscrizione all'albo ex art. 106 TUB.
+**3. Banca d'Italia — Dipartimento Vigilanza Bancaria e Finanziaria**
+Via Nazionale n. 91 — 00184 Roma
+PEC: bancaditalia@pec.bancaditalia.it
+— per valutazione dell'operatività di DEX S.r.l. nell'acquisto e gestione in proprio di crediti bancari in sofferenza derivanti da mutui ipotecari, senza iscrizione all'albo ex art. 106 TUB.
 
-**4. OAM — Organismo Agenti e Mediatori** — per valutazione dell'operatività di DEX S.r.l. come acquirente di crediti in sofferenza in assenza della prescritta iscrizione ex D.Lgs 116/2024, verificata assente sul portale organismo-am.it in data 23/05/2026 sia per la società (CF 04590110989) sia per l'Amministratore Unico Giambarda Doriano.
+**4. OAM — Organismo Agenti e Mediatori**
+Via Galilei n. 3 — 00185 Roma
+PEC: esposti@pec.organismo-am.it
+— per valutazione dell'operatività di DEX S.r.l. come acquirente di crediti in sofferenza in assenza della prescritta iscrizione ex D.Lgs 116/2024, verificata assente sul portale organismo-am.it in data 23/05/2026 sia per la società (CF 04590110989) sia per l'Amministratore Unico Giambarda Doriano.
 
-**5. Consiglio dell'Ordine degli Avvocati di Brescia** — per valutazione della condotta dell'Avv. Enrico Franceschetti, difensore di DEX e socio al 10% della medesima, in violazione dell'art. 24 del Codice Deontologico Forense.
+**5. Consiglio Distrettuale di Disciplina Forense di Brescia**
+Via San Martino della Battaglia n. 18 — 25121 Brescia
+PEC: consiglio.disciplina@brescia.pecavvocati.it
+— per valutazione della condotta dell'Avv. Enrico Franceschetti, difensore di DEX e socio al 10% della medesima, in violazione dell'art. 24 del Codice Deontologico Forense.
 
 La presente comunicazione è effettuata nell'esercizio del diritto di difesa e nel rispetto del principio di lealtà processuale.
 
