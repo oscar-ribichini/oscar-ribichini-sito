@@ -10,6 +10,12 @@ desktop.ini
 *.tmp
 *.temp
 
+# Credenziali e chiavi OAuth — mai committare
+gcp-oauth.keys.json
+gmail_credentials.json
+*.keys.json
+*_credentials.json
+
 # Video e file grandi (superano il limite GitHub di 100 MB)
 VIDEO/
 *.mp4
