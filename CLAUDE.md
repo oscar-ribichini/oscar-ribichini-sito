@@ -1,5 +1,26 @@
 # Workspace: Lavori Code
 
+---
+
+## ⛔ REGOLA ASSOLUTA — LEGGERE PRIMA DI SCRIVERE
+
+**Questa regola si applica a qualsiasi progetto, in qualsiasi sessione, senza eccezioni.**
+
+Prima di scrivere qualsiasi documento che contenga affermazioni fattuali — atti legali, contratti, relazioni, analisi, istanze, email formali — ogni fatto rilevante DEVE essere verificato sul documento originale (PDF, file, screenshot), non su quanto Oscar ha riferito a voce o da memoria.
+
+**Le tre situazioni concrete:**
+
+1. Oscar dice "il documento dice X" → leggere il documento originale PRIMA di scrivere qualsiasi cosa
+2. Il documento non è disponibile → scrivere in forma condizionale ("se il documento conferma X, allora...") e marcare con **[DA VERIFICARE]** — mai come fatto accertato
+3. Oscar riferisce qualcosa a voce → resta "Oscar riferisce che..." fino a verifica sulla fonte
+
+**Perché questa regola esiste e non si tocca:**
+Nel caso Mobilcom sono state scritte tre versioni di un'istanza GE (v1, v2, v3) costruendo l'argomento centrale — il Vizio 1, "termine perentorio" — basandosi su quanto Oscar ricordava dell'ordinanza del 22/04/2026. Quando il PDF è stato finalmente letto, la parola "perentorio" non compariva da nessuna parte nel testo. Tre versioni del documento, ore di lavoro, tutto da rifare. L'errore era evitabile leggendo il PDF prima di cominciare a scrivere.
+
+**Questa regola non ha eccezioni. Non si inizia a scrivere prima di aver letto la fonte.**
+
+---
+
 ## Chi sono
 
 Nome: Oscar Ribichini
