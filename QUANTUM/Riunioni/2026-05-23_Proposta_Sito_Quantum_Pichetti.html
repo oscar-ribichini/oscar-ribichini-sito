@@ -19,7 +19,80 @@
     padding: 14mm 18mm 18mm 18mm;
   }
 
-  /* INTESTAZIONE */
+  /* COPERTINA */
+  .copertina {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    background: #1a3a6e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20mm 18mm 14mm 18mm;
+    box-sizing: border-box;
+  }
+  .copertina-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .copertina-top img.logo-icon { height: 60px; }
+  .copertina-top img.logo-scritta { height: 28px; margin-top: 10px; }
+  .copertina-top-logo { display: flex; flex-direction: column; gap: 8px; }
+  .copertina-data {
+    font-size: 8pt;
+    color: #c9a96e;
+    letter-spacing: 1px;
+    text-align: right;
+    line-height: 1.8;
+  }
+  .copertina-centro {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20mm 0;
+  }
+  .copertina-label {
+    font-size: 7.5pt;
+    color: #c9a96e;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .copertina-titolo {
+    font-size: 24pt;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+  .copertina-sottotitolo {
+    font-size: 11pt;
+    color: #c9a96e;
+    line-height: 1.6;
+  }
+  .copertina-linea {
+    border-top: 1px solid #c9a96e;
+    margin: 20px 0;
+    opacity: 0.4;
+  }
+  .copertina-destinatario {
+    font-size: 9pt;
+    color: #aac0e0;
+    line-height: 1.8;
+  }
+  .copertina-destinatario strong { color: #fff; font-size: 10pt; }
+  .copertina-bottom {
+    border-top: 1px solid rgba(201,169,110,0.4);
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 7.5pt;
+    color: #7a99c0;
+  }
+
+  /* INTESTAZIONE PAGINE INTERNE */
   .intestazione {
     display: flex;
     justify-content: space-between;
@@ -28,11 +101,7 @@
     padding-bottom: 10px;
     margin-bottom: 14px;
   }
-  .intestazione-logo {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
+  .intestazione-logo { display: flex; align-items: center; gap: 12px; }
   .intestazione-logo img.logo-icon { height: 44px; }
   .intestazione-logo img.logo-scritta { height: 26px; }
   .intestazione-info {
@@ -42,13 +111,8 @@
     color: #555;
     line-height: 1.8;
   }
-  .intestazione-info strong {
-    font-family: 'Georgia', serif;
-    color: #1a3a6e;
-    font-size: 8pt;
-  }
+  .intestazione-info strong { font-family: 'Georgia', serif; color: #1a3a6e; font-size: 8pt; }
 
-  /* INTESTAZIONE PAGINE 2+ */
   .intestazione-mini {
     display: flex;
     justify-content: space-between;
@@ -60,11 +124,7 @@
   .intestazione-mini img.logo-icon { height: 28px; }
   .intestazione-mini img.logo-scritta { height: 16px; }
   .intestazione-mini .logo-wrap { display: flex; align-items: center; gap: 8px; }
-  .intestazione-mini .num-pag {
-    font-size: 7pt;
-    color: #aaa;
-    font-family: Arial, sans-serif;
-  }
+  .intestazione-mini .num-pag { font-size: 7pt; color: #aaa; }
 
   /* DATI DOCUMENTO */
   .doc-meta {
@@ -72,223 +132,167 @@
     justify-content: space-between;
     font-size: 7.5pt;
     color: #888;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     padding-bottom: 8px;
     border-bottom: 1px solid #e8ecf2;
   }
 
   /* TITOLO */
-  .titolo {
-    font-size: 15pt;
-    font-weight: bold;
-    color: #1a3a6e;
-    margin-bottom: 4px;
-  }
-  .sottotitolo {
-    font-size: 8pt;
-    color: #c9a96e;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+  .titolo { font-size: 15pt; font-weight: bold; color: #1a3a6e; margin-bottom: 4px; }
+  .sottotitolo { font-size: 8pt; color: #c9a96e; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 16px; }
+
+  /* INDICE */
+  .indice {
+    background: #f7f8fb;
+    border-left: 4px solid #c9a96e;
+    padding: 12px 16px;
     margin-bottom: 20px;
+    font-size: 8.5pt;
+    color: #1a3a6e;
+    line-height: 1.9;
   }
+  .indice-titolo { font-size: 7pt; color: #c9a96e; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px; }
 
   /* INTRO */
-  .intro {
-    font-size: 10pt;
-    line-height: 1.8;
-    color: #333;
-    margin-bottom: 24px;
-    text-align: justify;
-  }
+  .intro { font-size: 9.5pt; line-height: 1.8; color: #333; margin-bottom: 20px; text-align: justify; }
+  .intro-compatta { font-size: 9.5pt; line-height: 1.7; color: #333; margin-bottom: 0; text-align: justify; }
 
   /* SEZIONE */
-  .sezione {
-    margin-bottom: 22px;
-  }
+  .sezione { margin-bottom: 20px; }
   .sezione-titolo {
-    font-size: 8.5pt;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #c9a96e;
-    border-bottom: 1px solid #e8ecf2;
-    padding-bottom: 5px;
-    margin-bottom: 12px;
+    font-size: 8.5pt; font-weight: bold; letter-spacing: 2px; text-transform: uppercase;
+    color: #c9a96e; border-bottom: 1px solid #e8ecf2; padding-bottom: 5px; margin-bottom: 12px;
   }
 
   /* TABELLA */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 9pt;
-  }
-  thead tr {
-    background: #1a3a6e;
-    color: #fff;
-  }
-  thead th {
-    padding: 8px 11px;
-    text-align: left;
-    font-weight: bold;
-    font-size: 8pt;
-    letter-spacing: 0.5px;
-  }
-  tbody tr {
-    border-bottom: 1px solid #e8ecf2;
-  }
+  table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+  thead tr { background: #1a3a6e; color: #fff; }
+  thead th { padding: 8px 11px; text-align: left; font-weight: bold; font-size: 8pt; letter-spacing: 0.5px; }
+  tbody tr { border-bottom: 1px solid #e8ecf2; }
   tbody tr:nth-child(even) { background: #f7f8fb; }
-  tbody td {
-    padding: 7px 11px;
-    color: #1a3a6e;
-    vertical-align: top;
-    line-height: 1.5;
-  }
+  tbody td { padding: 7px 11px; color: #1a3a6e; vertical-align: top; line-height: 1.5; }
   td.inclusa { color: #2a7a2a; font-weight: bold; text-align: center; }
   td.opzionale { color: #c9a96e; font-weight: bold; text-align: center; }
   td.ai-tag { color: #c9a96e; font-weight: bold; text-align: center; }
   td.futuro { color: #999; font-weight: bold; text-align: center; font-style: italic; }
   td.scelta { text-align: center; vertical-align: middle; white-space: nowrap; }
-  .sn { display: inline-flex; align-items: center; gap: 4px; font-size: 8pt; color: #c9a96e; font-weight: bold; margin: 0 5px; }
-  .sn span { display: inline-block; width: 13px; height: 13px; border: 1.5px solid #c9a96e; vertical-align: middle; flex-shrink: 0; }
-
-  /* COSE CERTE */
-  .certa-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 9px;
-    font-size: 9.5pt;
-    color: #1a3a6e;
-    line-height: 1.5;
-  }
-  .certa-check {
-    color: #2a7a2a;
-    font-weight: bold;
-    font-size: 11pt;
-    margin-top: -1px;
-    flex-shrink: 0;
-  }
+  .sn { display: inline-flex; align-items: center; gap: 4px; font-size: 8pt; color: #c9a96e; font-weight: bold; margin: 0 4px; }
+  .sn span { display: inline-block; width: 13px; height: 13px; border: 1.5px solid #c9a96e; flex-shrink: 0; }
 
   /* DOMANDE */
   .domanda-item {
-    margin-bottom: 28px;
-    padding: 14px 16px 10px 16px;
-    border-left: 4px solid #c9a96e;
-    background: #f7f8fb;
-    page-break-inside: avoid;
+    margin-bottom: 22px; padding: 12px 16px 10px 16px;
+    border-left: 4px solid #c9a96e; background: #f7f8fb; page-break-inside: avoid;
   }
-  .domanda-num {
-    font-size: 7pt;
-    color: #c9a96e;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin-bottom: 4px;
-  }
-  .domanda-testo {
-    font-size: 10pt;
-    color: #1a3a6e;
-    line-height: 1.6;
-    margin-bottom: 14px;
-    font-weight: bold;
-  }
-  .domanda-note {
-    font-size: 8.5pt;
-    color: #666;
-    font-style: italic;
-    margin-bottom: 10px;
-    line-height: 1.5;
-  }
+  .domanda-num { font-size: 7pt; color: #c9a96e; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 4px; }
+  .domanda-testo { font-size: 10pt; color: #1a3a6e; line-height: 1.6; margin-bottom: 10px; font-weight: bold; }
+  .domanda-note { font-size: 8.5pt; color: #666; font-style: italic; margin-bottom: 8px; line-height: 1.5; }
   .risposta-area {
     border: 1px solid #d8c8a0;
-    background: repeating-linear-gradient(
-      to bottom,
-      #fff,
-      #fff 27px,
-      #e8dfc8 28px
-    );
+    background: repeating-linear-gradient(to bottom, #fff, #fff 27px, #e8dfc8 28px);
     background-size: 100% 28px;
     background-position: 0 8px;
     height: 84px;
     padding: 8px 10px 0 10px;
     border-radius: 2px;
   }
-  .note-libere {
-    margin-top: 20px;
-    page-break-inside: avoid;
-  }
-  .note-libere-titolo {
-    font-size: 7pt;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #c9a96e;
-    margin-bottom: 6px;
-  }
+
+  /* NOTE PERSONALI */
+  .note-libere { margin-top: 18px; page-break-inside: avoid; }
+  .note-libere-titolo { font-size: 7pt; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a96e; margin-bottom: 6px; }
   .note-libere-box {
     border: 1px solid #d8c8a0;
-    background: repeating-linear-gradient(
-      to bottom,
-      #fff,
-      #fff 27px,
-      #e8dfc8 28px
-    );
+    background: repeating-linear-gradient(to bottom, #fff, #fff 27px, #e8dfc8 28px);
     background-size: 100% 28px;
     background-position: 0 8px;
-    height: 200px;
+    height: 230px;
     padding: 8px 10px 0 10px;
     border-radius: 2px;
   }
-  .intro-compatta {
-    font-size: 9.5pt;
-    line-height: 1.7;
-    color: #333;
-    margin-bottom: 0;
-    text-align: justify;
-  }
 
-  /* NOTA FINALE */
-  .nota {
-    margin-top: 24px;
+  /* FIRMA */
+  .firma {
+    margin-top: 20px;
     padding: 12px 16px;
-    border: 1px solid #c9a96e;
+    border: 1px solid #e8ecf2;
+    background: #f7f8fb;
     font-size: 9pt;
+    color: #333;
+    line-height: 1.8;
+  }
+  .firma-nome { font-weight: bold; color: #1a3a6e; font-size: 10pt; margin-top: 6px; }
+  .firma-ruolo { font-size: 8pt; color: #888; }
+
+  /* RESTITUZIONE */
+  .restituzione {
+    margin-top: 14px;
+    padding: 10px 14px;
+    border: 1px solid #c9a96e;
+    background: #fafbfd;
+    font-size: 8.5pt;
     color: #555;
     line-height: 1.7;
-    background: #fafbfd;
   }
 
   /* PIÈ DI PAGINA */
   .pie {
-    margin-top: 28px;
-    border-top: 1px solid #c9a96e;
-    padding-top: 8px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 7pt;
-    color: #aaa;
+    margin-top: 20px; border-top: 1px solid #c9a96e; padding-top: 8px;
+    display: flex; justify-content: space-between; font-size: 7pt; color: #aaa;
   }
 
   /* SALTO PAGINA */
-  .page-break {
-    page-break-before: always;
-    break-before: page;
-    padding-top: 14mm;
-  }
+  .page-break { page-break-before: always; break-before: page; padding-top: 14mm; }
 
   @media print {
     @page { size: A4; margin: 0; }
     body { background: #fff; }
     .pagina { padding: 14mm 18mm 18mm 18mm; }
+    .copertina { page-break-after: always; }
   }
 </style>
 </head>
 <body>
-<div class="pagina">
 
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- PAGINA 1 — FUNZIONALITÀ                        -->
-  <!-- ═══════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════ -->
+<!-- COPERTINA                                       -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="copertina">
+  <div class="copertina-top">
+    <div class="copertina-top-logo">
+      <img class="logo-icon" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum logo.png" alt="Quantum">
+      <img class="logo-scritta" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum scritta.png" alt="Quantum">
+    </div>
+    <div class="copertina-data">
+      Civitanova Marche, 23 maggio 2026<br>
+      Documento riservato
+    </div>
+  </div>
+
+  <div class="copertina-centro">
+    <div class="copertina-label">Proposta commerciale</div>
+    <div class="copertina-titolo">Sito web<br>Quantum S.r.l.</div>
+    <div class="copertina-sottotitolo">Funzionalità, opportunità AI<br>e questionario preparatorio</div>
+    <div class="copertina-linea"></div>
+    <div class="copertina-destinatario">
+      Preparato per:<br>
+      <strong>Dott. Massimo Pichetti</strong><br>
+      Presidente del Consiglio di Amministrazione — Quantum S.r.l.
+    </div>
+  </div>
+
+  <div class="copertina-bottom">
+    <span>Oscar Ribichini — Mandatario Quantum S.r.l.</span>
+    <span>oscar.ribichini@quantumadvisor.it</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- PAGINA 1 — FUNZIONALITÀ                        -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="pagina page-break">
 
   <div class="intestazione">
     <div class="intestazione-logo">
@@ -311,8 +315,16 @@
   <div class="titolo">Proposta per il sito web di Quantum S.r.l.</div>
   <div class="sottotitolo">Documento preparatorio — Call del 23 maggio 2026</div>
 
+  <div class="indice">
+    <div class="indice-titolo">Struttura del documento</div>
+    Pagina 1 — Funzionalità standard del sito (incluse e opzionali)<br>
+    Pagina 2 — Funzionalità AI: il differenziale che i competitor non hanno<br>
+    Pagina 3 — Questionario: le informazioni che ho bisogno di ricevere da te<br>
+    Pagina 4 — Domande finali e note personali
+  </div>
+
   <div class="intro">
-    Massimo, in preparazione alla nostra call di oggi ti invio una panoramica completa di quello che possiamo costruire per il sito di Quantum. Ho già analizzato la struttura del Gruppo, i servizi delle tre società operative e le opportunità legate all'AI applicata alla consulenza. Il documento è diviso in tre parti: le funzionalità standard, il differenziale AI che oggi nessuno dei vostri competitor ha, e le poche informazioni che ho bisogno di ricevere da te.
+    Massimo, in preparazione alla nostra call di oggi ti invio una panoramica completa di quello che possiamo costruire per il sito di Quantum. Ho già analizzato la struttura del Gruppo, i servizi delle tre società operative e le opportunità legate all'AI applicata alla consulenza. Nelle pagine che seguono trovi tutto quello che è incluso, tutto quello che è opzionale, e le poche domande a cui ho bisogno di una tua risposta.
   </div>
 
   <!-- TABELLA STANDARD -->
@@ -414,36 +426,36 @@
         <tr>
           <td>Assistente virtuale AI sul sito</td>
           <td>Risponde alle domande dei visitatori 24/7, pre-qualifica il contatto e smista alla persona giusta</td>
-          <td class="ai-tag">AI — Opzionale</td>
+          <td class="ai-tag">AI — Opz.</td>
           <td class="scelta"><label class="sn"><span></span>Sì</label><label class="sn"><span></span>No</label></td>
         </tr>
         <tr>
           <td>Quiz di diagnosi aziendale</td>
-          <td>Il visitatore risponde a 5 domande e riceve un'analisi personalizzata del suo fabbisogno — genera lead qualificati automaticamente</td>
-          <td class="ai-tag">AI — Opzionale</td>
+          <td>Il visitatore risponde a 5 domande e riceve un'analisi del suo fabbisogno — genera lead qualificati automaticamente</td>
+          <td class="ai-tag">AI — Opz.</td>
           <td class="scelta"><label class="sn"><span></span>Sì</label><label class="sn"><span></span>No</label></td>
         </tr>
         <tr>
           <td>Preventivo intelligente</td>
           <td>Form avanzato che stima il tipo di intervento e il profilo del cliente prima ancora della prima call</td>
-          <td class="ai-tag">AI — Opzionale</td>
+          <td class="ai-tag">AI — Opz.</td>
           <td class="scelta"><label class="sn"><span></span>Sì</label><label class="sn"><span></span>No</label></td>
         </tr>
         <tr>
           <td>Ricerca semantica nei contenuti</td>
           <td>Il visitatore cerca con parole sue ("ho bisogno di cedere l'azienda") e trova il servizio giusto</td>
-          <td class="ai-tag">AI — Opzionale</td>
+          <td class="ai-tag">AI — Opz.</td>
           <td class="scelta"><label class="sn"><span></span>Sì</label><label class="sn"><span></span>No</label></td>
         </tr>
         <tr>
           <td>Newsletter AI personalizzata</td>
           <td>Invia aggiornamenti automatici su normative e opportunità calibrati sul profilo del cliente</td>
-          <td class="ai-tag">AI — Opzionale</td>
+          <td class="ai-tag">AI — Opz.</td>
           <td class="scelta"><label class="sn"><span></span>Sì</label><label class="sn"><span></span>No</label></td>
         </tr>
         <tr>
           <td>Analisi del documento caricato</td>
-          <td>Il cliente carica un bilancio o un contratto — riceve un primo feedback istantaneo prima della consulenza</td>
+          <td>Il cliente carica un bilancio o contratto — riceve un primo feedback istantaneo prima della consulenza</td>
           <td class="futuro">AI — Fase 2</td>
           <td class="scelta">—</td>
         </tr>
@@ -453,113 +465,139 @@
 
   <div class="pie">
     <span>Oscar Ribichini — Mandatario Quantum S.r.l. — P.IVA 01785850437</span>
-    <span>oscar.ribichini@quantumadvisor.it &nbsp;|&nbsp; Pagina 1 di 3</span>
-  </div>
-
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- PAGINA 2 — COSE CERTE + DOMANDE 01-02          -->
-  <!-- ═══════════════════════════════════════════════ -->
-
-  <div class="page-break">
-    <div class="intestazione-mini">
-      <div class="logo-wrap">
-        <img class="logo-icon" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum logo.png" alt="Quantum">
-        <img class="logo-scritta" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum scritta.png" alt="Quantum">
-      </div>
-      <span class="num-pag">Proposta sito web Quantum — Informazioni da raccogliere</span>
-    </div>
-
-    <!-- COSE CERTE -->
-    <div class="sezione">
-      <div class="sezione-titolo">Parte 3a — Quello che so già</div>
-      <div class="intro-compatta">Ho già raccolto molte delle informazioni necessarie — struttura del Gruppo, servizi delle tre società, dominio registrato e modello visivo di riferimento. Le domande nelle pagine seguenti riguardano solo quello che ancora non conosco.</div>
-    </div>
-
-    <!-- DOMANDA 01 -->
-    <div class="sezione">
-      <div class="sezione-titolo">Parte 3b — Le informazioni che devo ricevere da te</div>
-
-      <div class="domanda-item">
-        <div class="domanda-num">Domanda 01 — Stile e immagine</div>
-        <div class="domanda-testo">Che immagine vuoi comunicare con il sito di Quantum? C'è un sito di una società di consulenza che ti piace come riferimento visivo?</div>
-        <div class="domanda-note">Esempi di stile: istituzionale e autorevole / moderno e dinamico / sobrio e minimalista / caldo e relazionale. Se hai un link a un sito che ti ispira, scrivilo qui sotto — è il modo più rapido per allinearci.</div>
-        <div class="risposta-area"></div>
-      </div>
-
-      <!-- DOMANDA 02 -->
-      <div class="domanda-item">
-        <div class="domanda-num">Domanda 02 — Materiali disponibili</div>
-        <div class="domanda-testo">Hai già pronti i materiali necessari per costruire il sito?</div>
-        <div class="domanda-note">Indica cosa hai disponibile: logo in alta risoluzione (.svg o .png con sfondo trasparente) / foto dei soci (sfondo neutro, buona qualità) / testo di presentazione aziendale già scritto. Per quello che non hai, possiamo organizzarci durante la call.</div>
-        <div class="risposta-area"></div>
-      </div>
-    </div>
-
-    <div class="pie">
-      <span>Oscar Ribichini — Mandatario Quantum S.r.l. — P.IVA 01785850437</span>
-      <span>oscar.ribichini@quantumadvisor.it &nbsp;|&nbsp; Pagina 2 di 3</span>
-    </div>
-  </div>
-
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- PAGINA 3 — DOMANDE 03-05 + NOTA FINALE         -->
-  <!-- ═══════════════════════════════════════════════ -->
-
-  <div class="page-break">
-    <div class="intestazione-mini">
-      <div class="logo-wrap">
-        <img class="logo-icon" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum logo.png" alt="Quantum">
-        <img class="logo-scritta" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum scritta.png" alt="Quantum">
-      </div>
-      <span class="num-pag">Proposta sito web Quantum — Informazioni da raccogliere</span>
-    </div>
-
-    <div class="sezione">
-
-      <!-- DOMANDA 03 -->
-      <div class="domanda-item">
-        <div class="domanda-num">Domanda 03 — Funzionalità opzionali</div>
-        <div class="domanda-testo">Tra le funzionalità opzionali elencate nelle pagine precedenti, quali vuoi includere già nella prima versione del sito?</div>
-        <div class="domanda-note">Puoi segnare direttamente sulla tabella a pagina 1, oppure elencarle qui. Non è vincolante — possiamo aggiungere o togliere durante la call.</div>
-        <div class="risposta-area"></div>
-      </div>
-
-      <!-- DOMANDA 04 -->
-      <div class="domanda-item">
-        <div class="domanda-num">Domanda 04 — Funzionalità AI</div>
-        <div class="domanda-testo">Hai già un'idea di quali funzionalità AI vorresti attivare sul sito? O preferisci valutarle insieme durante la call?</div>
-        <div class="domanda-note">Le funzionalità AI sono tutte opzionali e attivabili anche in un secondo momento. Ti chiedo solo se hai già una preferenza, così arrivo in call con una proposta concreta su quale iniziare.</div>
-        <div class="risposta-area"></div>
-      </div>
-
-      <!-- DOMANDA 05 -->
-      <div class="domanda-item">
-        <div class="domanda-num">Domanda 05 — Tempistica</div>
-        <div class="domanda-testo">Entro quando vorresti il sito online? C'è un evento, una presentazione o una scadenza specifica a cui legarlo?</div>
-        <div class="domanda-note">Una data di riferimento mi permette di organizzare le priorità e proporti una scaletta realistica già durante la call.</div>
-        <div class="risposta-area"></div>
-      </div>
-
-      <!-- NOTE PERSONALI -->
-      <div class="note-libere">
-        <div class="note-libere-titolo">Note personali — spazio libero</div>
-        <div class="note-libere-box"></div>
-      </div>
-
-    </div>
-
-    <div class="nota">
-      Il sito verrà realizzato da Oscar Ribichini senza costi di sviluppo per Quantum. I soli costi addebitati saranno quelli vivi: dominio, hosting e eventuali abbonamenti a servizi terzi. Anche risposte parziali vanno benissimo — il resto lo definiamo insieme durante la call.
-    </div>
-
-    <div class="pie">
-      <span>Oscar Ribichini — Mandatario Quantum S.r.l. — P.IVA 01785850437</span>
-      <span>oscar.ribichini@quantumadvisor.it &nbsp;|&nbsp; Pagina 3 di 3</span>
-    </div>
+    <span>oscar.ribichini@quantumadvisor.it &nbsp;|&nbsp; Pagina 1 di 4</span>
   </div>
 
 </div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- PAGINA 2 — DOMANDE 01-02                       -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="pagina page-break">
+  <div class="intestazione-mini">
+    <div class="logo-wrap">
+      <img class="logo-icon" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum logo.png" alt="Quantum">
+      <img class="logo-scritta" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum scritta.png" alt="Quantum">
+    </div>
+    <span class="num-pag">Proposta sito web Quantum — Questionario preparatorio</span>
+  </div>
+
+  <div class="sezione">
+    <div class="sezione-titolo">Parte 3 — Le informazioni che ho bisogno di ricevere da te</div>
+    <div class="intro-compatta">Ho già raccolto molte delle informazioni necessarie — struttura del Gruppo, servizi delle tre società, dominio registrato e modello visivo di riferimento. Le domande qui sotto riguardano solo quello che ancora non conosco. Anche risposte parziali vanno benissimo — il resto lo definiamo insieme durante la call.</div>
+  </div>
+
+  <div class="domanda-item">
+    <div class="domanda-num">Domanda 01 — Stile e immagine</div>
+    <div class="domanda-testo">Che immagine vuoi comunicare con il sito di Quantum? C'è un sito di una società di consulenza che ti piace come riferimento visivo?</div>
+    <div class="domanda-note">Esempi: istituzionale e autorevole / moderno e dinamico / sobrio e minimalista / caldo e relazionale. Se hai un link a un sito che ti ispira, scrivilo qui sotto.</div>
+    <div class="risposta-area"></div>
+  </div>
+
+  <div class="domanda-item">
+    <div class="domanda-num">Domanda 02 — Materiali disponibili</div>
+    <div class="domanda-testo">Hai già pronti i materiali necessari per costruire il sito?</div>
+    <div class="domanda-note">Indica cosa hai disponibile: logo in alta risoluzione (.svg o .png con sfondo trasparente) / foto dei soci (sfondo neutro, buona qualità) / testo di presentazione aziendale. Per quello che manca, organizziamo durante la call.</div>
+    <div class="risposta-area"></div>
+  </div>
+
+  <div class="domanda-item">
+    <div class="domanda-num">Domanda 03 — Funzionalità opzionali</div>
+    <div class="domanda-testo">Tra le funzionalità opzionali elencate a pagina 1, quali vuoi includere già nella prima versione del sito?</div>
+    <div class="domanda-note">Puoi barrare direttamente i quadratini nella tabella a pagina 1, oppure elencarle qui. Non è vincolante.</div>
+    <div class="risposta-area"></div>
+  </div>
+
+  <div class="pie">
+    <span>Oscar Ribichini — Mandatario Quantum S.r.l. — P.IVA 01785850437</span>
+    <span>oscar.ribichini@quantumadvisor.it &nbsp;|&nbsp; Pagina 2 di 4</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- PAGINA 3 — DOMANDE 04-05 + NOTE                -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="pagina page-break">
+  <div class="intestazione-mini">
+    <div class="logo-wrap">
+      <img class="logo-icon" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum logo.png" alt="Quantum">
+      <img class="logo-scritta" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum scritta.png" alt="Quantum">
+    </div>
+    <span class="num-pag">Proposta sito web Quantum — Questionario preparatorio</span>
+  </div>
+
+  <div class="domanda-item">
+    <div class="domanda-num">Domanda 04 — Funzionalità AI</div>
+    <div class="domanda-testo">Hai già un'idea di quali funzionalità AI vorresti attivare sul sito? O preferisci valutarle insieme durante la call?</div>
+    <div class="domanda-note">Sono tutte opzionali e attivabili anche in un secondo momento. Ti chiedo solo se hai già una preferenza, così arrivo in call con una proposta concreta.</div>
+    <div class="risposta-area"></div>
+  </div>
+
+  <div class="domanda-item">
+    <div class="domanda-num">Domanda 05 — Tempistica</div>
+    <div class="domanda-testo">Entro quando vorresti il sito online? C'è un evento, una presentazione o una scadenza specifica a cui legarlo?</div>
+    <div class="domanda-note">Una data di riferimento mi permette di proporti una scaletta realistica già durante la call.</div>
+    <div class="risposta-area"></div>
+  </div>
+
+  <div class="note-libere">
+    <div class="note-libere-titolo">Note personali — spazio libero</div>
+    <div class="note-libere-box"></div>
+  </div>
+
+  <div class="pie">
+    <span>Oscar Ribichini — Mandatario Quantum S.r.l. — P.IVA 01785850437</span>
+    <span>oscar.ribichini@quantumadvisor.it &nbsp;|&nbsp; Pagina 3 di 4</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- PAGINA 4 — FIRMA + RESTITUZIONE                -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="pagina page-break">
+  <div class="intestazione-mini">
+    <div class="logo-wrap">
+      <img class="logo-icon" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum logo.png" alt="Quantum">
+      <img class="logo-scritta" src="E:/Lavori Code/QUANTUM/Marketing/Materiale_Grafico/logo quantum scritta.png" alt="Quantum">
+    </div>
+    <span class="num-pag">Proposta sito web Quantum — Chiusura</span>
+  </div>
+
+  <div class="sezione">
+    <div class="sezione-titolo">Come restituire il documento</div>
+    <div class="restituzione">
+      Puoi compilare questo questionario a mano e tenerlo davanti durante la call — non è necessario restituirlo. Se preferisci inviarlo in anticipo, scatta una foto e mandamela via WhatsApp oppure rispondi via email a oscar.ribichini@quantumadvisor.it.<br><br>
+      Se alcune domande restano senza risposta, non preoccuparti: le affrontiamo insieme durante la call del 23 maggio alle 16:00.
+    </div>
+  </div>
+
+  <div class="sezione">
+    <div class="sezione-titolo">Chiusura</div>
+    <div class="firma">
+      Massimo, sono convinto che il sito di Quantum possa diventare uno strumento commerciale concreto — non solo una vetrina. Con le funzionalità AI che ti ho proposto, potremmo trasformare ogni visita in un contatto qualificato, anche quando nessuno dei soci è disponibile.<br><br>
+      Una volta avviato lo sviluppo, realizzerò un template strutturato che descrive il sito blocco per blocco — ogni sezione spiegata chiaramente, con le istruzioni per apportare modifiche in modo rapido e autonomo, senza dover chiamare un tecnico ogni volta.<br><br>
+      Rimango a disposizione per qualsiasi domanda prima della call. A oggi pomeriggio.
+      <div class="firma-nome">Oscar Ribichini</div>
+      <div class="firma-ruolo">Mandatario Quantum S.r.l. — P.IVA 01785850437</div>
+    </div>
+  </div>
+
+  <div class="note-libere">
+    <div class="note-libere-titolo">Ulteriori note — spazio aggiuntivo</div>
+    <div class="note-libere-box"></div>
+  </div>
+
+  <div class="pie">
+    <span>Oscar Ribichini — Mandatario Quantum S.r.l. — P.IVA 01785850437</span>
+    <span>oscar.ribichini@quantumadvisor.it &nbsp;|&nbsp; Pagina 4 di 4</span>
+  </div>
+</div>
+
 </body>
 </html>
