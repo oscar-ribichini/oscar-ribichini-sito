@@ -84,54 +84,115 @@
     }
     .btn-contatti-header:hover { background: var(--oro-chiaro) !important; color: var(--blu) !important; }
 
-    /* ===================== HERO ===================== */
+    /* ===================== HERO NUOVO ===================== */
     #home {
       margin-top: 72px;
-      background: linear-gradient(135deg, var(--blu) 0%, #1e4d8c 50%, #0f3460 100%);
-      padding: 100px 5% 90px;
+      background: var(--blu-scuro);
+      min-height: 92vh;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-sfondo-pattern {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background:
+        repeating-linear-gradient(
+          90deg,
+          rgba(201,169,110,0.03) 0px,
+          rgba(201,169,110,0.03) 1px,
+          transparent 1px,
+          transparent 80px
+        ),
+        repeating-linear-gradient(
+          0deg,
+          rgba(201,169,110,0.03) 0px,
+          rgba(201,169,110,0.03) 1px,
+          transparent 1px,
+          transparent 80px
+        );
+      pointer-events: none;
+    }
+    .hero-corpo {
       display: grid;
-      grid-template-columns: 1fr 420px;
-      gap: 60px;
-      align-items: center;
-      min-height: 580px;
+      grid-template-columns: 1fr 1fr;
+      flex: 1;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-sinistra {
+      padding: 80px 5% 60px 6%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-right: 1px solid rgba(201,169,110,0.15);
     }
     .hero-etichetta {
       font-family: Arial, sans-serif;
-      font-size: 0.72rem;
-      letter-spacing: 4px;
+      font-size: 0.7rem;
+      letter-spacing: 5px;
       text-transform: uppercase;
       color: var(--oro);
-      margin-bottom: 18px;
+      margin-bottom: 28px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .hero-etichetta::before {
+      content: '';
+      display: inline-block;
+      width: 32px;
+      height: 1px;
+      background: var(--oro);
     }
     #home h1 {
       font-family: Georgia, serif;
-      font-size: 3.2rem;
+      font-size: 3rem;
       color: #fff;
-      line-height: 1.2;
-      margin-bottom: 24px;
+      line-height: 1.15;
+      margin-bottom: 12px;
+      font-weight: normal;
     }
-    #home h1 span { color: var(--oro); }
-    .hero-sottotitolo {
+    #home h1 em {
+      font-style: normal;
+      color: var(--oro);
+      display: block;
+    }
+    .hero-confronto {
+      background: rgba(201,169,110,0.08);
+      border-left: 3px solid var(--oro);
+      padding: 20px 24px;
+      margin: 32px 0;
       font-family: Arial, sans-serif;
-      font-size: 1.05rem;
-      color: #b0bcd4;
+      font-size: 0.95rem;
       line-height: 1.8;
-      margin-bottom: 40px;
-      max-width: 540px;
+      color: #c8d4e8;
+    }
+    .hero-confronto strong {
+      color: #fff;
+      display: block;
+      margin-bottom: 6px;
+      font-size: 1rem;
+    }
+    .hero-confronto span {
+      color: var(--oro);
+      font-weight: bold;
     }
     .hero-bottoni {
       display: flex;
       gap: 16px;
       flex-wrap: wrap;
+      margin-top: 8px;
     }
     .btn-primario {
       background: var(--oro);
       color: var(--blu);
-      padding: 14px 32px;
+      padding: 15px 32px;
       font-family: Arial, sans-serif;
-      font-size: 0.88rem;
+      font-size: 0.85rem;
       font-weight: bold;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
       text-transform: uppercase;
       text-decoration: none;
       border: none;
@@ -143,49 +204,125 @@
     .btn-secondario {
       background: transparent;
       color: #fff;
-      padding: 14px 32px;
+      padding: 15px 32px;
       font-family: Arial, sans-serif;
-      font-size: 0.88rem;
+      font-size: 0.85rem;
       font-weight: bold;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
       text-transform: uppercase;
       text-decoration: none;
-      border: 2px solid rgba(255,255,255,0.4);
+      border: 2px solid rgba(255,255,255,0.25);
       cursor: pointer;
       transition: border-color 0.2s, color 0.2s;
       display: inline-block;
     }
     .btn-secondario:hover { border-color: var(--oro); color: var(--oro); }
 
-    .hero-card {
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(201,169,110,0.3);
-      padding: 36px;
+    .hero-destra {
       display: flex;
       flex-direction: column;
-      gap: 28px;
+      justify-content: center;
+      align-items: center;
+      padding: 80px 5%;
+      gap: 32px;
+      position: relative;
+    }
+    .hero-foto-placeholder {
+      width: 260px;
+      height: 320px;
+      background: linear-gradient(160deg, var(--blu-medio) 0%, var(--blu) 100%);
+      border: 2px solid rgba(201,169,110,0.4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-foto-placeholder::before {
+      content: '👤';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -60%);
+      font-size: 5rem;
+      opacity: 0.15;
+    }
+    .hero-foto-nome {
+      font-family: Georgia, serif;
+      font-size: 1.05rem;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-foto-ruolo {
+      font-family: Arial, sans-serif;
+      font-size: 0.72rem;
+      color: var(--oro);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 4px;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-citazione {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(201,169,110,0.2);
+      padding: 20px 22px;
+      font-family: Georgia, serif;
+      font-size: 0.95rem;
+      font-style: italic;
+      color: #c8d4e8;
+      line-height: 1.7;
+      text-align: center;
+      max-width: 300px;
+    }
+    .hero-citazione::before { content: '"'; color: var(--oro); font-size: 1.8rem; line-height: 0; vertical-align: -0.4em; margin-right: 4px; }
+    .hero-citazione::after { content: '"'; color: var(--oro); font-size: 1.8rem; line-height: 0; vertical-align: -0.4em; margin-left: 4px; }
+
+    .hero-striscia {
+      background: var(--oro);
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+      position: relative;
+      z-index: 1;
+      flex-wrap: wrap;
     }
     .hero-stat {
       text-align: center;
-      border-bottom: 1px solid rgba(201,169,110,0.2);
-      padding-bottom: 22px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
     }
-    .hero-stat:last-child { border-bottom: none; padding-bottom: 0; }
     .hero-stat-numero {
       font-family: Georgia, serif;
-      font-size: 2.4rem;
-      color: var(--oro);
+      font-size: 1.9rem;
+      color: var(--blu);
       font-weight: bold;
       display: block;
+      line-height: 1;
     }
     .hero-stat-label {
       font-family: Arial, sans-serif;
-      font-size: 0.78rem;
-      color: #b0bcd4;
-      letter-spacing: 1.5px;
+      font-size: 0.75rem;
+      color: var(--blu-scuro);
+      letter-spacing: 1px;
       text-transform: uppercase;
-      margin-top: 4px;
       display: block;
+      margin-top: 3px;
+      max-width: 120px;
+      line-height: 1.4;
+    }
+    .hero-stat-sep {
+      width: 1px;
+      height: 40px;
+      background: rgba(26,58,110,0.25);
     }
 
     /* ===================== SEZIONE GENERICA ===================== */
@@ -967,6 +1104,96 @@
       line-height: 1.6;
     }
 
+    /* ===================== SEZIONE ADVISOR ===================== */
+    .advisor-sezione {
+      background: var(--blu);
+      padding: 90px 5%;
+    }
+    .advisor-confronto-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 60px;
+      align-items: start;
+    }
+    .advisor-box-commercialista {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(201,169,110,0.2);
+      padding: 36px;
+    }
+    .advisor-box-quantum {
+      background: rgba(201,169,110,0.1);
+      border: 2px solid var(--oro);
+      padding: 36px;
+    }
+    .advisor-box-etichetta {
+      font-family: Arial, sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--oro);
+      margin-bottom: 16px;
+    }
+    .advisor-box-testo {
+      font-family: Arial, sans-serif;
+      font-size: 0.95rem;
+      color: #b0bcd4;
+      line-height: 1.9;
+    }
+    .advisor-box-testo-bianco {
+      color: #fff;
+    }
+    .advisor-4colonne {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+      background: rgba(201,169,110,0.1);
+    }
+    .advisor-colonna {
+      background: var(--blu-scuro);
+      padding: 28px 22px;
+      text-align: center;
+    }
+    .advisor-colonna-icona {
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+    }
+    .advisor-colonna-titolo {
+      font-family: Georgia, serif;
+      font-size: 0.95rem;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .advisor-colonna-testo {
+      font-family: Arial, sans-serif;
+      font-size: 0.8rem;
+      color: #7a90b0;
+      line-height: 1.6;
+    }
+    .advisor-dato {
+      margin-top: 52px;
+      background: rgba(201,169,110,0.08);
+      border-left: 4px solid var(--oro);
+      padding: 28px 32px;
+    }
+    .advisor-dato-titolo {
+      font-family: Georgia, serif;
+      font-size: 1.1rem;
+      color: #fff;
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+    .advisor-dato-sub {
+      font-family: Arial, sans-serif;
+      font-size: 0.88rem;
+      color: #7a90b0;
+      line-height: 1.7;
+    }
+    .advisor-cta {
+      text-align: center;
+      margin-top: 44px;
+    }
+
     /* ===================== QUIZ DIAGNOSI ===================== */
     .quiz-box {
       background: linear-gradient(135deg, var(--blu) 0%, var(--blu-medio) 100%);
@@ -1113,54 +1340,133 @@
   </nav>
 </header>
 
-<!-- ==================== HERO ==================== -->
+<!-- ==================== HERO NUOVO ==================== -->
 <section id="home">
-  <div class="hero-testo">
-    <span class="hero-etichetta">Gruppo Vanguard — Quantum Advisor</span>
-    <h1>Le decisioni che contano<br>meritano <span>il partner giusto</span></h1>
-    <p class="hero-sottotitolo">Finanza straordinaria, assicurazioni e amministrazione aziendale. Un gruppo di professionisti al fianco delle imprese italiane nei momenti che fanno la differenza.</p>
-    <div class="hero-bottoni">
-      <a href="#servizi" class="btn-primario">Scopri i servizi</a>
-      <a href="#contatti" class="btn-secondario">Parlaci della tua azienda</a>
+  <div class="hero-sfondo-pattern"></div>
+
+  <div class="hero-corpo">
+    <!-- SINISTRA: messaggio forte -->
+    <div class="hero-sinistra">
+      <span class="hero-etichetta">Gruppo Vanguard — Quantum Advisor</span>
+      <h1>
+        Il tuo commercialista<br>ti dice cosa è successo.
+        <em>Il tuo Advisor<br>ti dice cosa fare adesso.</em>
+      </h1>
+      <div class="hero-confronto">
+        <strong>L'Advisor è la figura che ogni azienda moderna deve avere al proprio fianco.</strong>
+        Analizza le criticità, accompagna le decisioni strategiche e mantiene l'azienda efficiente, produttiva e in regola con le leggi. Non una volta all'anno — <span>ogni giorno</span>.
+      </div>
+      <div class="hero-bottoni">
+        <a href="#advisor" class="btn-primario">Scopri cos'è l'Advisor</a>
+        <a href="#contatti" class="btn-secondario">Parla con noi</a>
+      </div>
+    </div>
+
+    <!-- DESTRA: volto e citazione -->
+    <div class="hero-destra">
+      <div class="hero-foto-placeholder">
+        <div class="hero-foto-nome">Massimo Pichetti</div>
+        <div class="hero-foto-ruolo">Presidente — Quantum Advisor</div>
+      </div>
+      <div class="hero-citazione">
+        Le aziende che crescono non aspettano i problemi. Li vedono prima, con il supporto di chi sa dove guardare.
+      </div>
     </div>
   </div>
-  <div class="hero-card">
+
+  <!-- STRISCIA ORO IN BASSO -->
+  <div class="hero-striscia">
     <div class="hero-stat">
-      <span class="hero-stat-numero">3</span>
-      <span class="hero-stat-label">Società operative</span>
+      <div>
+        <span class="hero-stat-numero">83%</span>
+        <span class="hero-stat-label">delle PMI italiane non ha un vero supporto strategico</span>
+      </div>
     </div>
+    <div class="hero-stat-sep"></div>
     <div class="hero-stat">
-      <span class="hero-stat-numero">3</span>
-      <span class="hero-stat-label">Sedi in Italia</span>
+      <div>
+        <span class="hero-stat-numero">3</span>
+        <span class="hero-stat-label">società operative, una sola consulenza integrata</span>
+      </div>
     </div>
+    <div class="hero-stat-sep"></div>
     <div class="hero-stat">
-      <span class="hero-stat-numero">360°</span>
-      <span class="hero-stat-label">Copertura servizi</span>
+      <div>
+        <span class="hero-stat-numero">360°</span>
+        <span class="hero-stat-label">finanza, assicurazioni, amministrazione e formazione</span>
+      </div>
+    </div>
+    <div class="hero-stat-sep"></div>
+    <div class="hero-stat">
+      <div>
+        <span class="hero-stat-numero">3</span>
+        <span class="hero-stat-label">sedi operative Roma · Fermo · Cosenza</span>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ==================== NUMERI ==================== -->
-<div class="sezione sezione-chiara" style="padding: 0;">
-  <div class="numeri-grid">
-    <div class="numero-box">
-      <span class="numero-valore">★</span>
-      <span class="numero-label">Finanza straordinaria</span>
+<!-- ==================== SEZIONE ADVISOR ==================== -->
+<section class="advisor-sezione" id="advisor">
+  <div class="sezione-max">
+    <div class="sezione-linea"></div>
+    <h2 class="sezione-titolo sezione-titolo-bianco">Cos'è un Advisor aziendale — e perché ne hai bisogno</h2>
+    <p class="sezione-intro sezione-intro-bianco">In Italia quasi nessuno lo spiega chiaramente. Proviamo a farlo noi.</p>
+
+    <div class="advisor-confronto-grid">
+      <div class="advisor-box-commercialista">
+        <div class="advisor-box-etichetta">Il commercialista</div>
+        <p class="advisor-box-testo">
+          Registra le operazioni passate. Prepara le dichiarazioni fiscali. Ti dice come è andata l'anno scorso.<br><br>
+          È indispensabile. Ma guarda indietro.
+        </p>
+      </div>
+      <div class="advisor-box-quantum">
+        <div class="advisor-box-etichetta">L'Advisor Quantum</div>
+        <p class="advisor-box-testo advisor-box-testo-bianco">
+          Analizza la situazione attuale. Identifica i rischi prima che diventino problemi. Consiglia le azioni concrete da fare adesso.<br><br>
+          Guarda avanti — <strong style="color:var(--oro);">insieme a te.</strong>
+        </p>
+      </div>
     </div>
-    <div class="numero-box">
-      <span class="numero-valore">★</span>
-      <span class="numero-label">Assicurazioni Allianz</span>
+
+    <div class="advisor-4colonne">
+      <div class="advisor-colonna">
+        <div class="advisor-colonna-icona">🔍</div>
+        <div class="advisor-colonna-titolo">Analisi continua</div>
+        <div class="advisor-colonna-testo">Monitora la salute dell'azienda ogni mese, non solo a fine anno</div>
+      </div>
+      <div class="advisor-colonna">
+        <div class="advisor-colonna-icona">⚡</div>
+        <div class="advisor-colonna-titolo">Decisioni veloci</div>
+        <div class="advisor-colonna-testo">Quando arriva un'opportunità o un problema, sai già cosa fare</div>
+      </div>
+      <div class="advisor-colonna">
+        <div class="advisor-colonna-icona">📋</div>
+        <div class="advisor-colonna-titolo">Normative aggiornate</div>
+        <div class="advisor-colonna-testo">Leggi, bandi, agevolazioni: l'Advisor li conosce prima che arrivino da te</div>
+      </div>
+      <div class="advisor-colonna">
+        <div class="advisor-colonna-icona">🎯</div>
+        <div class="advisor-colonna-titolo">Strategia su misura</div>
+        <div class="advisor-colonna-testo">Non consigli generici: un piano costruito sulla tua azienda specifica</div>
+      </div>
     </div>
-    <div class="numero-box">
-      <span class="numero-valore">★</span>
-      <span class="numero-label">Gestione paghe e contabilità</span>
+
+    <div class="advisor-dato">
+      <p class="advisor-dato-titolo">
+        Solo il <strong style="color:var(--oro);">16% delle PMI italiane</strong> ha oggi un rapporto davvero consulenziale con i propri professionisti. L'84% riceve solo dichiarazioni fiscali e contabilità ordinaria.
+      </p>
+      <p class="advisor-dato-sub">
+        Quella differenza — tra chi ha un Advisor e chi no — si vede nei risultati: nelle opportunità colte, nei rischi evitati, nelle decisioni prese al momento giusto.
+      </p>
     </div>
-    <div class="numero-box">
-      <span class="numero-valore">★</span>
-      <span class="numero-label">Formazione professionale e AI</span>
+
+    <div class="advisor-cta">
+      <a href="#contatti" class="btn-primario">Voglio un Advisor per la mia azienda</a>
     </div>
   </div>
-</div>
+</section>
 
 <!-- ==================== TRE PILASTRI ==================== -->
 <section class="sezione">
