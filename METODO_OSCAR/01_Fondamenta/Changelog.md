@@ -2,6 +2,12 @@
 
 ---
 
+## v2.1 — 24/05/2026
+
+- Aggiunto sistema Google Alert per monitoraggio aggiornamenti Anthropic (3 alert: new model, API update, news)
+- Aggiunto trigger anticipato per test di calibrazione: se arriva alert su nuovo modello, non aspettare il trimestre
+- Integrata istruzione di aggiornamento data prossimo test nel Registro degli Apprendimenti dopo alert
+
 ## v2.0 — 24/05/2026
 
 - Aggiunta FASE 0b: autocontrollo dell'output prima di consegnarlo

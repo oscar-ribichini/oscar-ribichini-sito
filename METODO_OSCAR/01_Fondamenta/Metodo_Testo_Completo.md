@@ -267,7 +267,7 @@ Claude produce sempre la versione interna prima e chiede: "Vuoi anche la version
 
 ## TEST DI CALIBRAZIONE TRIMESTRALE
 
-**Quando:** ogni tre mesi — gennaio, aprile, luglio, ottobre
+**Quando:** ogni tre mesi — gennaio, aprile, luglio, ottobre. O prima, se arriva un Google Alert su nuovo modello o aggiornamento API (vedi sotto).
 
 **Durata:** 30 minuti
 
@@ -275,6 +275,18 @@ Claude produce sempre la versione interna prima e chiede: "Vuoi anche la version
 
 **Perché è necessario:**
 Anthropic aggiorna i modelli regolarmente. Un aggiornamento può cambiare in modo sottile come Claude interpreta le istruzioni, quanto è propenso a fare domande, come legge CLAUDE.md, quanto dichiara le assunzioni. Questi cambiamenti non vengono annunciati in modo operativo — si scoprono usandolo. Il test trimestrale cattura qualsiasi deriva prima che produca errori reali.
+
+**Google Alert — sistema di allerta aggiornamenti:**
+
+Vai su google.com/alerts e crea questi tre alert:
+
+- `Anthropic Claude new model` — avvisa quando esce un nuovo modello
+- `Anthropic API update` — avvisa su cambiamenti alle API
+- `Anthropic news` — notizie generali sull'azienda
+
+Frequenza consigliata: una volta al giorno o una volta alla settimana — arriva tutto in una email riassuntiva su Gmail.
+
+Quando arriva un alert che segnala un nuovo modello o un cambiamento significativo: **anticipare il test di calibrazione**, non aspettare la scadenza trimestrale. Aggiornare la data del prossimo test nel Registro degli Apprendimenti.
 
 **Come si fa — passo per passo:**
 
