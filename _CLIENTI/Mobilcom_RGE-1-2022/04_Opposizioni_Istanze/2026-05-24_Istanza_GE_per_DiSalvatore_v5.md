@@ -43,14 +43,14 @@ La presente istanza solleva quattordici questioni distinte, ciascuna sufficiente
 8. L'inopponibilità della cessione BSM→Veicolo per annotazione tardiva
 9. La mancata notifica della cessione a Mobilcom ex art. 1264 c.c.
 10. Il vizio dell'avviso ai creditori ex art. 498 c.p.c. per omessa convocazione di creditori preesistenti
-11. La richiesta di non emissione del decreto di trasferimento
-12. La mancanza di iscrizione OAM di DEX S.r.l. e del suo amministratore ex D.Lgs 116/2024
-13. La comunicazione agli organi di vigilanza
+11. Non emissione del decreto di trasferimento
+12. La comunicazione agli organi di vigilanza
+13. La mancanza di iscrizione OAM di DEX S.r.l. e del suo amministratore ex D.Lgs 116/2024
 14. Gli elementi di contesto procedurale che questo G.E. vorrà valutare
 
-Gli argomenti che seguono si articolano su tre piani distinti e autonomi, ciascuno sufficiente a determinare la sospensione o l'improcedibilità indipendentemente dagli altri: (A) il difetto di legittimazione di DEX come cessionaria senza titolo valido; (B) l'inottemperanza consumata alle ordinanze di questo G.E. con le conseguenze già dichiarate dall'ordinanza del 22/04/2026; (C) i vizi strutturali degli immobili che rendono illegittima qualsiasi asta nelle condizioni attuali. L'accoglimento anche di uno solo dei tre piani è sufficiente. Il rigetto di uno non pregiudica la valutazione degli altri.
-
 **I dettagli della trasmissione per conoscenza agli organi di vigilanza sono illustrati alla Sez. XIII.**
+
+*Nota per l'avvocato: i numeri dell'indice (1–14) corrispondono alle sezioni romane del corpo (II–XV). La Sez. I è la presente premessa; la Sez. XVI contiene le richieste conclusive.*
 
 ---
 
@@ -68,7 +68,7 @@ Il termine scadeva il **12 maggio 2026**.
 
 Nella nota di deposito del 30/09/2025 DEX aveva già dichiarato di aver conferito incarico al Notaio Paola Esposito per la trascrizione dell'accettazione tacita dell'eredità. Tra quella data e il deposito del 13/05/2026 sono trascorsi sette mesi e mezzo. L'inadempimento non è frutto di difficoltà tecnica: DEX ha lasciato incompiuto un iter già avviato per quasi un anno, nonostante le reiterate ordinanze di questo G.E.
 
-Va aggiunto un dato che aggrava ulteriormente il quadro: l'asta del **21/01/2026** — sessione unica in cui tutti i lotti della procedura furono posti all'incanto in lotti separati — è andata **integralmente deserta**. Nessuno dei lotti ha trovato acquirenti. Questo dimostra che i vizi che gravano sugli immobili, in particolare quelli di natura strutturale, ne rendono difficile la collocazione sul mercato indipendentemente dal prezzo base fissato.
+L'asta del **21/01/2026** è andata **integralmente deserta**: nessuno dei lotti ha trovato acquirenti, confermando che i vizi strutturali degli immobili ne impediscono la collocazione sul mercato indipendentemente dal prezzo (vedi Sez. VIII).
 
 ### II.2 — Il deposito del 13/05/2026: quattro vizi autonomi
 
@@ -76,7 +76,7 @@ In data 13 maggio 2026 DEX ha depositato documentazione sostenendo di aver ottem
 
 **Vizio 1 — Tardività: termine già scaduto e conseguenze già dichiarate dall'ordinanza**
 
-Il termine del 12/05/2026 è scaduto un giorno prima del deposito DEX. La gravità di questo inadempimento non richiede che la difesa qualifichi il termine come "perentorio" in senso tecnico: **è lo stesso G.E. ad aver già stabilito nell'ordinanza del 22/04/2026 le conseguenze dell'inadempimento.** Il provvedimento dispone testualmente che «la mancata regolarizzazione della trascrizione impedisce la predisposizione del decreto di trasferimento e **determina l'improcedibilità dell'espropriazione intrapresa ex art. 567 c.p.c.**».
+Il termine del 12/05/2026 è scaduto un giorno prima del deposito DEX. **È lo stesso G.E. ad aver già stabilito nell'ordinanza del 22/04/2026 le conseguenze dell'inadempimento.** Il provvedimento dispone testualmente che «la mancata regolarizzazione della trascrizione impedisce la predisposizione del decreto di trasferimento e **determina l'improcedibilità dell'espropriazione intrapresa ex art. 567 c.p.c.**».
 
 Questa statuizione non è una sanzione eventuale: è la conseguenza giuridica già individuata dal G.E. stesso, e si è prodotta automaticamente allo scadere del termine. Il deposito tardivo del 13/05/2026 interviene quando l'improcedibilità era già maturata. **Nessun deposito successivo alla scadenza può retroattivamente impedire l'effetto che l'ordinanza ha già fatto derivare dall'inadempimento.**
 
@@ -135,7 +135,7 @@ S3 ha compiuto un atto — la cessione definitiva a DEX per €325.144 — che e
 
 Si confuta anticipatamente la clausola residuale del potere n. 35 ("compiere ogni altro atto necessario all'esercizio dei poteri conferiti"): una clausola residuale non crea ex novo un potere di natura radicalmente diversa da quelli elencati. Una cessione definitiva e onerosa non è strumentale alla gestione o al recupero — ne è l'alternativa che vi si sostituisce definitivamente. Richiede inoltre procura specifica ed espressa ex art. 1387 c.c. Infine: il contratto S3-DEX è firmato da S3 "in qualità di mandataria di IGRC" — ma IGRC non aveva il potere di cedere e non poteva trasmetterlo a S3. *Nemo plus iuris ad alium transferre potest quam ipse habet.*
 
-Si confuta altresì anticipatamente l'eventuale obiezione di **ratifica tacita ex art. 1712 c.c.**: la ratifica del mandante richiederebbe un atto positivo inequivoco da parte di Veicolo di Sistema S.r.l. che manifesti la volontà di far propria la cessione compiuta da S3. La mera non contestazione o il silenzio non equivalgono a ratifica in senso tecnico. In ogni caso, non risulta agli atti alcun documento in cui Veicolo abbia espressamente o tacitamente ratificato la cessione S3→DEX. La comparsa di intervento di Veicolo del 13/12/2024 — unico atto di Veicolo depositato in questa procedura — descrive IGRC e S3 esclusivamente come soggetti incaricati della riscossione, senza alcun riferimento alla cessione a DEX né alla sua ratifica.
+Si confuta l'obiezione di **ratifica tacita ex art. 1712 c.c.**: la ratifica richiederebbe un atto positivo inequivoco di Veicolo. Non solo non risulta agli atti alcun documento in tal senso, ma la stessa comparsa di intervento di Veicolo del 13/12/2024 descrive IGRC e S3 come meri incaricati della riscossione — senza alcun riferimento alla cessione a DEX né alla sua ratifica.
 
 ### III.4 — Richiesta
 
@@ -145,7 +145,7 @@ In via principale: rilevare d'ufficio il difetto di legittimazione di DEX S.r.l.
 
 ## IV. CONDIZIONE SOSPENSIVA NON AVVERATA — IN SUBORDINE
 
-In via subordinata — nell'ipotesi in cui si ritenesse che S3 fosse autorizzata a cedere il credito — la cessione S3→DEX non si è comunque perfezionata per mancato avveramento della condizione sospensiva contrattuale.
+In via subordinata — nell'ipotesi in cui S3 fosse ritenuta autorizzata a cedere — la cessione S3→DEX non si è comunque perfezionata.
 
 Il contratto S3→DEX prevede all'art. 2.3 che il trasferimento del credito è efficace esclusivamente se DEX corrisponde €1.570.000 entro 10 giorni lavorativi dalla firma. L'art. 2.4 stabilisce che in assenza di tale pagamento il contratto si intende non perfezionato. Si tratta di condizione sospensiva ex art. 1353 c.c.
 
@@ -160,7 +160,7 @@ Un dato oggettivo aggrava il quadro: DEX S.r.l. è stata costituita il 31/05/202
 Le ispezioni ipotecarie del 18/05/2026 hanno rilevato formalità pregiudizievoli anteriori al pignoramento BSM (atto del 03/12/2021, trascritto l'08/02/2022 al Reg. Part. 1269, Reg. Gen. 1678), non risultanti formalmente estinte in Conservatoria:
 
 - **Stiltecno S.r.l.** — pignoramenti n. 5739 del 04/06/2007 e n. 1796 del 12/02/2008 su sub 3 e sub 9 (Foglio 11, Particella 864)
-- **Cassa di Risparmio di Ascoli Piceno** — pignoramento n. 3144 del 19/03/2008 e rettifica n. 3129 del 08/04/2010 su sub 16, sub 17 e Particella 1237
+- **Cassa di Risparmio di Ascoli Piceno** — pignoramento n. 3144 del 19/03/2008 e rettifica n. 3129 del 08/04/2010 su sub 16 e sub 17 (Foglio 11, Particella 864) e Particella 1237 (Foglio 11)
 
 La relazione notarile ex art. 567 c.p.c. del Notaio Lorenzoni del 03/03/2022 aveva elencato tali formalità senza attestarne l'estinzione. **In nessun atto successivo è stata prodotta documentazione che provi la loro formale cancellazione.**
 
@@ -214,7 +214,7 @@ Il Lotto 3 (sub 16, sub 17 e particella 1237) presenta una convergenza di vizi s
 - Contratto di locazione commerciale Mobilcom-SAUDA S.r.l.s. del 01/12/2021, opponibile alla procedura ex art. 2923 c.c., con scadenza 31/12/2027
 - Variazione catastale del 26/05/2022 presentata durante la procedura senza autorizzazione di questo G.E. ex art. 560 c.p.c., che ha portato la superficie del sub 16 da 143 a 177 mq — non è noto a questa difesa chi abbia presentato il DOCFA
 
-L'asta del 21/01/2026 — sessione unica in cui tutti i lotti della procedura furono posti all'incanto — è andata integralmente deserta. Come illustrato alla Sez. II.1, nessuno dei lotti ha trovato acquirenti. Qualunque ulteriore atto esecutivo sul Lotto 3 nelle condizioni attuali è destinato al medesimo esito.
+Come già illustrato alla Sez. II.1, l'asta del 21/01/2026 è andata integralmente deserta: nessuno dei lotti ha trovato acquirenti. Qualunque ulteriore atto esecutivo sul Lotto 3 nelle condizioni attuali è destinato al medesimo esito.
 
 **Richiesta:** sospendere qualsiasi atto d'asta sul Lotto 3 fino alla risoluzione dei vizi strutturali illustrati; accertare chi abbia presentato la variazione catastale del 26/05/2022 (pratica MC0065185) e adottare i conseguenti provvedimenti.
 
@@ -224,7 +224,7 @@ L'asta del 21/01/2026 — sessione unica in cui tutti i lotti della procedura fu
 
 L'art. 4.1 del contratto S3→DEX imponeva che la cessione BSM→Veicolo fosse annotata a margine delle iscrizioni ipotecarie italiane entro il 31/10/2024. Dalle ispezioni ipotecarie del 18/05/2026 risulta che tale annotazione è avvenuta il **06/11/2024** — con un ritardo di sei giorni.
 
-Ai sensi dell'art. 2843 c.c., la cessione del credito ipotecario deve essere annotata per produrre effetti nei confronti dei terzi. Nel periodo dal 01/11/2024 al 06/11/2024 la cessione non era opponibile ai terzi, tra cui il debitore esecutato.
+Ai sensi dell'art. 2843 c.c., la cessione del credito ipotecario deve essere annotata per produrre effetti nei confronti dei terzi. Nel periodo dal 01/11/2024 al 05/11/2024 la cessione non era opponibile ai terzi, tra cui il debitore esecutato.
 
 **Richiesta:** rilevare che la cessione BSM→Veicolo, per effetto dell'annotazione tardiva, non era opponibile ai terzi nel periodo 01/11/2024-05/11/2024, e valutare le conseguenze di tale inopponibilità sulla legittimazione di DEX a procedere nella presente esecuzione, disponendo i provvedimenti conseguenti.
 
@@ -300,11 +300,7 @@ La presente comunicazione è effettuata nell'esercizio del diritto di difesa e n
 
 ## XIV. MANCANZA DI ISCRIZIONE OAM — DEX S.R.L. E AMMINISTRATORE EX D.LGS 116/2024
 
-Il D.Lgs 116 del 30 luglio 2024, entrato in vigore il 13 agosto 2024, recepisce la Direttiva UE 2021/2167 e introduce l'obbligo di iscrizione all'OAM (Organismo Agenti e Mediatori) per gli acquirenti e i gestori di crediti in sofferenza derivanti da mutui bancari. La norma impone che sia la società acquirente sia i suoi esponenti apicali soddisfino requisiti di onorabilità, governance e iscrizione al registro.
-
-DEX S.r.l. ha acquistato il credito Mobilcom con contratto del 06/12/2024 — quattro mesi dopo l'entrata in vigore del decreto. L'obbligo era già pienamente operante al momento dell'acquisto.
-
-Il D.Lgs 116/2024 impone l'obbligo di iscrizione OAM sia agli "acquirenti di crediti" sia ai "gestori di crediti". DEX opera quale acquirente del credito ai sensi del D.Lgs 116/2024, e la norma impone l'iscrizione OAM indipendentemente dall'affidamento della gestione a terzi iscritti, non risultando allegato agli atti alcun contratto di servicing con soggetto OAM-iscritto.
+Il D.Lgs 116/2024 (in vigore dal 13 agosto 2024) impone iscrizione OAM sia agli acquirenti sia ai gestori di crediti in sofferenza. DEX ha acquistato il credito il 06/12/2024 — quattro mesi dopo l'entrata in vigore — senza risultare iscritta né come acquirente né come gestore, e senza allegare alcun contratto di servicing con soggetto OAM-iscritto.
 
 **La verifica effettuata il 23/05/2026 sul portale ufficiale organismo-am.it ha prodotto i seguenti risultati:**
 - Ricerca per codice fiscale **04590110989** (DEX S.r.l.): **nessun risultato**
@@ -319,8 +315,6 @@ Questo argomento è giuridicamente distinto e autonomo rispetto alle questioni g
 ---
 
 ## XV. ELEMENTI DI CONTESTO PROCEDURALE CHE QUESTO G.E. VORRÀ VALUTARE
-
-La difesa sottopone rispettosamente all'attenzione di questo G.E. tre elementi di contesto che, letti congiuntamente, meritano una valutazione complessiva.
 
 **Primo elemento — Il rigetto del 01/01/2026**
 
@@ -371,7 +365,7 @@ Tutto ciò premesso, la parte esecutata Mobilcom S.r.l. chiede all'Ill.mo Giudic
 > **⚠️ DA VALUTARE CON L'AVVOCATO — Richiesta n. 15)**
 > **15)** In via cautelare, sospendere la procedura esecutiva ai sensi dell'art. 624 c.p.c. fino alla definizione delle questioni pregiudiziali sollevate ai punti 1-4, con eventuale fissazione di cauzione nella misura che questo G.E. riterrà equa.
 >
-> *Nota: questa richiesta introduce un riferimento esplicito all'art. 624 c.p.c., strumento processuale che consente al G.E. di sospendere la procedura in presenza di gravi motivi. La sua inclusione fornisce al G.E. uno strumento diretto per accordare la sospensione senza dover ricorrere a provvedimenti d'ufficio. Tuttavia, considerato che artt. 615 e 624 c.p.c. sono stati rimossi dall'intestazione per evitare sovrapposizioni con l'opposizione all'esecuzione formale, valutare con l'Avv. Di Salvatore se questa richiesta sia coerente con la strategia processuale complessiva e con la forma dell'atto.*
+> *Nota per l'avvocato: la richiesta 14 è formulazione omnicomprensiva d'ufficio; la 15 introduce esplicitamente l'art. 624 c.p.c. come strumento diretto. Le due si sovrappongono parzialmente — valutare se tenerle entrambe o unificarle nella sola 15, più specifica e strumentalmente utile al G.E.*
 
 ---
 
@@ -404,3 +398,4 @@ PEC: avv.cesidiodisalvatore@pec.net99.it
 16. Screenshot ricerca OAM per CF 04590110989 (DEX S.r.l.) — risultato zero — 23/05/2026
 17. Screenshot ricerca OAM per Giambarda Doriano (Amm. Unico DEX) — risultato zero — 23/05/2026
 18. Ordinanza G.E. del 22/04/2026
+19. Perizia estimativa CTU Arch. Fabio Emiliani del 18/01/2025 — pagg. 24-25 (CILA 2022/0283 intestata SAUDA S.r.l.s.)
