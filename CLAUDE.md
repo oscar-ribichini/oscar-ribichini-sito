@@ -262,12 +262,31 @@ Contatti Allianz:
 - Fabio Guerra: 393 9005613
 - Mail aziendale: 029.roma@ageallianz.it
 
+## Sito Quantum — stato avanzamento (aggiornato 24/05/2026)
+
+Dominio: quantumadvisor.it — registrato su Aruba, solo dominio, nessun hosting attivo.
+Stack deciso: WordPress su Aruba (Hosting Gestito Smart) + Astra + Elementor Free.
+Mappa approvata: 7 pagine (Home, Chi siamo, Servizi, Sedi e Agenzie, Area Clienti, Area Advisor, Contatti).
+Fase attuale: in attesa che Pichetti acquisti il piano hosting Aruba e mandi le credenziali.
+
+Da chiedere a Pichetti, Claudia e Marco:
+
+1. Pichetti: acquistare Hosting WordPress Gestito Smart su Aruba e collegarlo a quantumadvisor.it — mandare credenziali a Oscar
+2. Tutti e tre: foto in alta risoluzione (sfondo neutro)
+3. Tutti e tre: bio individuale (anche in bozza)
+4. Pichetti: testo di presentazione aziendale
+5. Pichetti: email istituzionale per ricevere i contatti dal form
+6. Pichetti: indirizzo, telefono ed email delle agenzie di Roma, Fermo e Cosenza
+7. Pichetti: data desiderata di lancio
+
+File memoria completo: project_sito_quantum.md
+
 ## Priorità attuale
 
 1. Completare la grafica del kit welfare (logo + colori + PDF) → primo prodotto da vendere
-2. Creare il primo prompt pack per consulenti aziendali
-3. Attivare alert gare d'appalto su FareAppalti o Banchedati.biz
-4. Avviare la fase commerciale quando il sito Quantum sarà online
+2. Costruire sito Quantum — in attesa credenziali hosting da Pichetti
+3. Creare il primo prompt pack per consulenti aziendali
+4. Attivare alert gare d'appalto su FareAppalti o Banchedati.biz
 5. Creare i prossimi prodotti digitali (Template Bandi, Kit Social Media)
 6. Ricevere materiale Allianz e modello svizzero da Pichetti → integrare nel portfolio
 
