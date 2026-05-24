@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lenti e Agenti — Schema Semplice</title>
+<style>
+  @page {
+    size: A4;
+    margin: 8mm 10mm;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: white;
+    padding: 8mm 10mm;
+    color: #111;
+    font-size: 11pt;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 16pt;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+  }
+  .sottotitolo {
+    text-align: center;
+    color: #666;
+    font-size: 10pt;
+    margin-bottom: 12mm;
+  }
+
+  /* --- BLOCCHI --- */
+  .blocco {
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 8mm;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .blocco-titolo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 6px;
+  }
+  .icona { font-size: 1.6em; }
+  .blocco-titolo h2 {
+    font-size: 13pt;
+    color: #1a1a2e;
+  }
+  .tag {
+    font-size: 8pt;
+    background: #eee;
+    padding: 2px 8px;
+    border-radius: 20px;
+    color: #555;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .definizione {
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 8px;
+  }
+
+  /* --- GRIGLIA LENTI --- */
+  .lenti-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+  }
+  .lente-chip {
+    border: 1px solid #ddb;
+    background: #fffdf0;
+    border-radius: 7px;
+    padding: 5px 4px;
+    font-size: 9pt;
+    text-align: center;
+    color: #4a3800;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .lente-chip .emoji {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  /* --- STEPS AGENTE --- */
+  .steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 12px;
+  }
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .step-num {
+    background: #1b6ca8;
+    color: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 9pt;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .step-testo {
+    font-size: 10.5pt;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  /* --- TABELLA CONFRONTO --- */
+  .tabella {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10.5pt;
+  }
+  .tabella th {
+    background: #f0f0f0;
+    padding: 7px 10px;
+    text-align: left;
+    font-size: 9pt;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #555;
+    border: 1px solid #ddd;
+  }
+  .tabella .col-voce { width: 22%; }
+  .tabella .col-w { width: 39%; }
+  .tabella td {
+    padding: 7px 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    line-height: 1.5;
+    color: #333;
+  }
+  .tabella tr:nth-child(even) td { background: #fafafa; }
+  .col-lente { color: #7a5c00; font-weight: 600; }
+  .col-agente { color: #1b6ca8; font-weight: 600; }
+
+  /* --- FLUSSO FINALE --- */
+  .flusso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 8px;
+    flex-wrap: nowrap;
+  }
+  .flusso-box {
+    border-radius: 10px;
+    padding: 10px 14px;
+    text-align: center;
+    flex: 1;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .flusso-box .flusso-icon { font-size: 1.6em; display: block; margin-bottom: 4px; }
+  .flusso-box .flusso-label { font-size: 10.5pt; font-weight: 700; color: #1a1a2e; }
+  .flusso-box .flusso-desc { font-size: 9pt; color: #555; margin-top: 2px; line-height: 1.4; }
+  .freccia { font-size: 1.6em; color: #aaa; flex-shrink: 0; }
+
+  .box-lente  { border: 1.5px solid #ddb;  background: #fffdf0; }
+  .box-agente { border: 1.5px solid #90caf9; background: #f0f7ff; }
+  .box-output { border: 1.5px solid #a5d6a7; background: #f0fff3; }
+
+  .flusso-nota {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 10pt;
+    color: #888;
+    font-style: italic;
+  }
+
+  .footer {
+    text-align: center;
+    color: #bbb;
+    font-size: 8.5pt;
+    margin-top: 10mm;
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+  }
+</style>
+</head>
+<body>
+
+<h1>🔍 Lenti e Agenti</h1>
+<p class="sottotitolo">Come ragiona e lavora Claude — spiegato semplice</p>
+
+<!-- LENTI -->
+<div class="blocco">
+  <div class="blocco-titolo">
+    <span class="icona">🔍</span>
+    <h2>Le 18 Lenti di Analisi</h2>
+    <span class="tag">Pensiero</span>
+  </div>
+  <p class="definizione">
+    Una lente è un <strong>modo di guardare le cose</strong>. Non fa nulla da sola — ti aiuta a fare le <strong>domande giuste</strong>.<br>
+    Come guardare lo stesso oggetto da angoli diversi: l'oggetto non cambia, cambia quello che vedi.
+  </p>
+  <div class="lenti-grid">
+    <div class="lente-chip"><span class="emoji">📢</span>Marketing</div>
+    <div class="lente-chip"><span class="emoji">🧠</span>Psicologia</div>
+    <div class="lente-chip"><span class="emoji">👥</span>Sociologia</div>
+    <div class="lente-chip"><span class="emoji">💰</span>Economia</div>
+    <div class="lente-chip"><span class="emoji">📖</span>Storytelling</div>
+    <div class="lente-chip"><span class="emoji">🎤</span>Retorica</div>
+    <div class="lente-chip"><span class="emoji">📰</span>Giornalismo</div>
+    <div class="lente-chip"><span class="emoji">🔤</span>Semiotica</div>
+    <div class="lente-chip"><span class="emoji">⚙️</span>Management</div>
+    <div class="lente-chip"><span class="emoji">💻</span>Tecnologia</div>
+    <div class="lente-chip"><span class="emoji">⚖️</span>Legale</div>
+    <div class="lente-chip"><span class="emoji">📚</span>Didattica</div>
+    <div class="lente-chip"><span class="emoji">🤔</span>Filosofia</div>
+    <div class="lente-chip"><span class="emoji">🎨</span>Arte & Design</div>
+    <div class="lente-chip"><span class="emoji">😄</span>Satira</div>
+    <div class="lente-chip"><span class="emoji">🏆</span>Competitiva</div>
+    <div class="lente-chip"><span class="emoji">🌍</span>Geopolitica</div>
+    <div class="lente-chip"><span class="emoji">🧬</span>Antropologia</div>
+  </div>
+</div>
+
+<!-- AGENTE -->
+<div class="blocco">
+  <div class="blocco-titolo">
+    <span class="icona">🤖</span>
+    <h2>Le Capacità Agentiche</h2>
+    <span class="tag">Azione</span>
+  </div>
+  <p class="definizione">
+    Un agente è Claude che <strong>fa cose concrete nel mondo reale</strong>. Non solo risponde — <strong>pianifica, cerca, legge, scrive, esegue</strong>.<br>
+    Riceve un obiettivo e decide da solo i passi per arrivarci.
+  </p>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-testo"><strong>Legge file</strong> — apre PDF, documenti, contratti dal disco</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-testo"><strong>Cerca</strong> — trova parole in migliaia di file</div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-testo"><strong>Scrive e modifica</strong> — crea documenti, salva risultati</div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-testo"><strong>Naviga il web</strong> — recupera pagine, legge notizie</div>
+    </div>
+    <div class="step">
+      <div class="step-num">5</div>
+      <div class="step-testo"><strong>Lancia sottoagenti</strong> — delega lavori in parallelo</div>
+    </div>
+    <div class="step">
+      <div class="step-num">6</div>
+      <div class="step-testo"><strong>Esegue comandi</strong> — usa il terminale, accede alle email</div>
+    </div>
+  </div>
+</div>
+
+<!-- CONFRONTO -->
+<div class="blocco">
+  <div class="blocco-titolo">
+    <span class="icona">⚖️</span>
+    <h2>La differenza in una tabella</h2>
+  </div>
+  <table class="tabella">
+    <thead>
+      <tr>
+        <th class="col-voce">Aspetto</th>
+        <th class="col-w">🔍 Lente</th>
+        <th class="col-w">🤖 Agente</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cosa fa</td>
+        <td class="col-lente">Fa le domande giuste</td>
+        <td class="col-agente">Esegue azioni reali</td>
+      </tr>
+      <tr>
+        <td>Tocca il mondo?</td>
+        <td class="col-lente">No — è solo pensiero</td>
+        <td class="col-agente">Sì — legge, scrive, cerca</td>
+      </tr>
+      <tr>
+        <td>Chi lavora?</td>
+        <td class="col-lente">La mente (tua o mia)</td>
+        <td class="col-agente">Claude con i suoi strumenti</td>
+      </tr>
+      <tr>
+        <td>Output</td>
+        <td class="col-lente">Analisi, punti di vista</td>
+        <td class="col-agente">File, ricerche, risultati concreti</td>
+      </tr>
+      <tr>
+        <td>Esempio pratico</td>
+        <td class="col-lente">"Vista la lente legale, questo contratto ha un rischio..."</td>
+        <td class="col-agente">"Ho letto 5 file, trovato la clausola, scritto la sintesi"</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- FLUSSO FINALE -->
+<div class="blocco">
+  <div class="blocco-titolo">
+    <span class="icona">🔗</span>
+    <h2>Come lavorano insieme</h2>
+  </div>
+  <div class="flusso">
+    <div class="flusso-box box-lente">
+      <span class="flusso-icon">🔍</span>
+      <div class="flusso-label">Lente</div>
+      <div class="flusso-desc">Dice dove guardare e cosa cercare</div>
+    </div>
+    <div class="freccia">→</div>
+    <div class="flusso-box box-agente">
+      <span class="flusso-icon">🤖</span>
+      <div class="flusso-label">Agente</div>
+      <div class="flusso-desc">Va a cercare, leggere e fare</div>
+    </div>
+    <div class="freccia">→</div>
+    <div class="flusso-box box-output">
+      <span class="flusso-icon">✅</span>
+      <div class="flusso-label">Risultato</div>
+      <div class="flusso-desc">Documento pronto, risposta precisa</div>
+    </div>
+  </div>
+  <p class="flusso-nota">La lente guida la direzione &nbsp;|&nbsp; L'agente percorre la strada</p>
+</div>
+
+<p class="footer">Claude Code — Workspace Oscar Ribichini — 2026</p>
+
+</body>
+</html>

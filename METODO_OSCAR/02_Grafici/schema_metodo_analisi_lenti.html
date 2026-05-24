@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analisi Metodo — 18 Lenti</title>
+<style>
+  @page { size: A4; margin: 8mm 10mm; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: white;
+    padding: 8mm 10mm;
+    color: #111;
+    font-size: 10pt;
+  }
+
+  .header {
+    border-bottom: 2.5px solid #1a1a2e;
+    padding-bottom: 6px;
+    margin-bottom: 7mm;
+  }
+  .header h1 { font-size: 14pt; color: #1a1a2e; }
+  .header p { font-size: 9pt; color: #777; margin-top: 2px; }
+
+  /* LEGENDA */
+  .legenda {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 6mm;
+    justify-content: flex-end;
+  }
+  .leg-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 8.5pt;
+    color: #444;
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .dot-v { background: #2e7d32; }
+  .dot-g { background: #f9a825; }
+  .dot-r { background: #c62828; }
+
+  /* GRIGLIA LENTI */
+  .griglia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 8px;
+    margin-bottom: 7mm;
+  }
+  .lente {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 7px 9px;
+    border-radius: 7px;
+    border: 1px solid #e0e0e0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .lente-verde  { border-left: 4px solid #2e7d32; background: #f9fdf9; }
+  .lente-giallo { border-left: 4px solid #f9a825; background: #fffdf2; }
+  .lente-rosso  { border-left: 4px solid #c62828; background: #fff8f8; }
+
+  .lente-sx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+    width: 30px;
+  }
+  .lente-num {
+    font-size: 7.5pt;
+    font-weight: 700;
+    color: #aaa;
+  }
+  .lente-dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+  }
+
+  .lente-corpo { flex: 1; }
+  .lente-titolo {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 2px;
+  }
+  .lente-testo {
+    font-size: 8.5pt;
+    color: #444;
+    line-height: 1.45;
+  }
+  .lente-testo strong { color: #111; }
+
+  /* SEZIONE SINTESI */
+  .sintesi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin-bottom: 6mm;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .box-sintesi {
+    border-radius: 8px;
+    padding: 8px 11px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .box-ok   { background: #f0faf0; border: 1.5px solid #a5d6a7; }
+  .box-add  { background: #fff8f0; border: 1.5px solid #ffcc80; }
+  .box-sintesi h3 {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 5px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .box-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 4px;
+    font-size: 8.5pt;
+    color: #333;
+    line-height: 1.45;
+  }
+  .box-row .icona { flex-shrink: 0; }
+
+  /* 3 AGGIUNTE */
+  .aggiunte {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .aggiunta-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 11px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    background: #f5f0ff;
+    border: 1.5px solid #ce93d8;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .aggiunta-num {
+    background: #7c4dff;
+    color: white;
+    font-weight: 800;
+    font-size: 10pt;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .aggiunta-corpo {}
+  .aggiunta-titolo {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 2px;
+  }
+  .aggiunta-testo {
+    font-size: 8.5pt;
+    color: #444;
+    line-height: 1.45;
+  }
+
+  .section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .footer {
+    text-align: center;
+    color: #bbb;
+    font-size: 8pt;
+    margin-top: 7mm;
+    border-top: 1px solid #eee;
+    padding-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Analisi del Metodo di Lavoro — 18 Lenti</h1>
+  <p>Oscar Ribichini — 24/05/2026 — Metodo in costruzione, non ancora definitivo</p>
+</div>
+
+<div class="legenda">
+  <div class="leg-item"><div class="dot dot-v"></div> Funziona già</div>
+  <div class="leg-item"><div class="dot dot-g"></div> Parziale / da tenere in mente</div>
+  <div class="leg-item"><div class="dot dot-r"></div> Punto debole — da correggere</div>
+</div>
+
+<!-- GRIGLIA 18 LENTI -->
+<div class="griglia">
+
+  <div class="lente lente-giallo">
+    <div class="lente-sx"><span class="lente-num">01</span><div class="lente-dot" style="background:#f9a825"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Marketing</div>
+      <div class="lente-testo">Funziona per uso personale. Se diventa prodotto, serve la storia di origine — dove nasce il metodo e perché.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-rosso">
+    <div class="lente-sx"><span class="lente-num">02</span><div class="lente-dot" style="background:#c62828"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Psicologia</div>
+      <div class="lente-testo">Sotto stress si saltano le fasi. <strong>Manca un innesco automatico</strong> che parte prima che Oscar possa dimenticarsi di attivare il metodo.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-verde">
+    <div class="lente-sx"><span class="lente-num">03</span><div class="lente-dot" style="background:#2e7d32"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Sociologia</div>
+      <div class="lente-testo">Non applicabile. È un metodo personale, non un sistema sociale.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-verde">
+    <div class="lente-sx"><span class="lente-num">04</span><div class="lente-dot" style="background:#2e7d32"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Economia</div>
+      <div class="lente-testo">Zero costi, massimo risparmio di tempo nel lungo periodo. ROI altissimo se applicato.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-giallo">
+    <div class="lente-sx"><span class="lente-num">05</span><div class="lente-dot" style="background:#f9a825"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Storytelling</div>
+      <div class="lente-testo">Struttura logica presente, ma manca una storia che lo renda memorabile. Il caso Mobilcom è quella storia.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-verde">
+    <div class="lente-sx"><span class="lente-num">06</span><div class="lente-dot" style="background:#2e7d32"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Retorica</div>
+      <div class="lente-testo">Il metodo regge logicamente. La regola di stop è un criterio concreto e verificabile — molto più solido di uno soggettivo.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-rosso">
+    <div class="lente-sx"><span class="lente-num">07</span><div class="lente-dot" style="background:#c62828"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Giornalismo</div>
+      <div class="lente-testo"><strong>Manca la soglia di attivazione:</strong> quando si attiva la Fase 0? Una domanda veloce? Un task da 5 minuti? Solo i progetti grandi?</div>
+    </div>
+  </div>
+
+  <div class="lente lente-giallo">
+    <div class="lente-sx"><span class="lente-num">08</span><div class="lente-dot" style="background:#f9a825"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Semiotica</div>
+      <div class="lente-testo">Il nome "_STATO_" è funzionale ma freddo. Un nome più personale renderebbe più probabile l'uso reale.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-rosso">
+    <div class="lente-sx"><span class="lente-num">09</span><div class="lente-dot" style="background:#c62828"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Management</div>
+      <div class="lente-testo"><strong>Manca il controllo su Claude:</strong> se Claude non rispetta il metodo, Oscar non ha un segnale automatico per accorgersene.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-giallo">
+    <div class="lente-sx"><span class="lente-num">10</span><div class="lente-dot" style="background:#f9a825"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Tecnologia</div>
+      <div class="lente-testo">Se la sessione si interrompe bruscamente, _STATO_ non viene aggiornato. Serve un piano B per sessioni interrotte.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-verde">
+    <div class="lente-sx"><span class="lente-num">11</span><div class="lente-dot" style="background:#2e7d32"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Legale</div>
+      <div class="lente-testo">Non applicabile.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-verde">
+    <div class="lente-sx"><span class="lente-num">12</span><div class="lente-dot" style="background:#2e7d32"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Didattica</div>
+      <div class="lente-testo">Il metodo è spiegato bene. Le 4 fasi del /stallo sono sequenziali e chiare. Chiunque lo leggesse capirebbe cosa fare.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-verde">
+    <div class="lente-sx"><span class="lente-num">13</span><div class="lente-dot" style="background:#2e7d32"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Filosofia</div>
+      <div class="lente-testo">Solido: "non proporre finché non sai abbastanza da non dover scrivere [DA VERIFICARE]". È un sistema che si autocontrolla.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-giallo">
+    <div class="lente-sx"><span class="lente-num">14</span><div class="lente-dot" style="background:#f9a825"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Arte e Design</div>
+      <div class="lente-testo">Lo schema esiste ed è pulito. Tienilo stampato sulla scrivania — la presenza fisica lo rende più reale e presente.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-verde">
+    <div class="lente-sx"><span class="lente-num">15</span><div class="lente-dot" style="background:#2e7d32"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Satira</div>
+      <div class="lente-testo">Non applicabile.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-verde">
+    <div class="lente-sx"><span class="lente-num">16</span><div class="lente-dot" style="background:#2e7d32"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Analisi Competitiva</div>
+      <div class="lente-testo">Non esiste nulla di simile per uso personale con Claude. GTD, PARA, Zettelkasten non sono pensati per un'AI che dimentica tutto.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-verde">
+    <div class="lente-sx"><span class="lente-num">17</span><div class="lente-dot" style="background:#2e7d32"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Geopolitica</div>
+      <div class="lente-testo">Non applicabile.</div>
+    </div>
+  </div>
+
+  <div class="lente lente-giallo">
+    <div class="lente-sx"><span class="lente-num">18</span><div class="lente-dot" style="background:#f9a825"></div></div>
+    <div class="lente-corpo">
+      <div class="lente-titolo">Antropologia</div>
+      <div class="lente-testo">Funziona per chi è preciso e riflessivo. Su una persona impulsiva verrebbe abbandonato alla seconda sessione — da sapere se diventa prodotto.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- SINTESI -->
+<div class="section-title">Sintesi</div>
+<div class="sintesi">
+  <div class="box-sintesi box-ok">
+    <h3>✅ Cosa funziona già</h3>
+    <div class="box-row"><span class="icona">→</span><span>Regola di stop concreta e verificabile</span></div>
+    <div class="box-row"><span class="icona">→</span><span>File _STATO_ risolve il problema della memoria tra sessioni</span></div>
+    <div class="box-row"><span class="icona">→</span><span>Il /stallo è un meccanismo intelligente per i momenti di confusione</span></div>
+    <div class="box-row"><span class="icona">→</span><span>Semaforo verde/giallo/rosso sulle lenti è pratico e visivo</span></div>
+    <div class="box-row"><span class="icona">→</span><span>Struttura in 3 fasi logica e non ridondante</span></div>
+    <div class="box-row"><span class="icona">→</span><span>Originale — non esiste nulla di simile per l'uso con Claude</span></div>
+  </div>
+  <div class="box-sintesi box-add">
+    <h3>⚠️ 3 lenti rosse — da correggere</h3>
+    <div class="box-row"><span class="icona">🔴</span><span><strong>Psicologia:</strong> manca un innesco automatico sotto stress</span></div>
+    <div class="box-row"><span class="icona">🔴</span><span><strong>Giornalismo:</strong> manca la soglia di attivazione della Fase 0</span></div>
+    <div class="box-row"><span class="icona">🔴</span><span><strong>Management:</strong> manca un controllo che Claude stia rispettando il metodo</span></div>
+  </div>
+</div>
+
+<!-- 3 AGGIUNTE -->
+<div class="section-title" style="margin-bottom:5px;">3 aggiunte per rendere il metodo più robusto</div>
+<div class="aggiunte">
+  <div class="aggiunta-row">
+    <div class="aggiunta-num">1</div>
+    <div class="aggiunta-corpo">
+      <div class="aggiunta-titolo">Soglia di attivazione della Fase 0</div>
+      <div class="aggiunta-testo">Definire in 2 righe quando si attiva e quando no. Esempio: <em>"Si attiva per qualsiasi task che richiede più di un file o più di una sessione. Non si attiva per domande rapide eseguibili in un solo messaggio."</em></div>
+    </div>
+  </div>
+  <div class="aggiunta-row">
+    <div class="aggiunta-num">2</div>
+    <div class="aggiunta-corpo">
+      <div class="aggiunta-titolo">Trigger automatico di controllo</div>
+      <div class="aggiunta-testo">Una riga fissa nel file _STATO_ che Oscar vede all'inizio di ogni sessione: <em>"Stai seguendo il metodo? Fase 0 completata?"</em> — rende il metodo autoattivante invece di dipendere dalla memoria.</div>
+    </div>
+  </div>
+  <div class="aggiunta-row">
+    <div class="aggiunta-num">3</div>
+    <div class="aggiunta-corpo">
+      <div class="aggiunta-titolo">Gestione sessione interrotta</div>
+      <div class="aggiunta-testo">Se la sessione finisce senza aggiornamento di _STATO_, il primo messaggio della sessione successiva è: <strong>/stallo</strong> — così il sistema si riallinea automaticamente.</div>
+    </div>
+  </div>
+</div>
+
+<p class="footer">Claude Code — Workspace Oscar Ribichini — 2026</p>
+
+</body>
+</html>

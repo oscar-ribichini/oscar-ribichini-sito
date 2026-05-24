@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metodo di Lavoro Oscar — Schema</title>
+<style>
+  @page { size: A4; margin: 8mm 10mm; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: white;
+    padding: 8mm 10mm;
+    color: #111;
+    font-size: 10.5pt;
+    width: 100%;
+  }
+
+  /* HEADER */
+  .header {
+    text-align: center;
+    margin-bottom: 8mm;
+    border-bottom: 2px solid #1a1a2e;
+    padding-bottom: 5px;
+  }
+  .header h1 { font-size: 15pt; color: #1a1a2e; }
+  .header p { font-size: 9pt; color: #888; margin-top: 3px; }
+
+  /* FASI */
+  .fase {
+    border-radius: 10px;
+    padding: 9px 13px;
+    margin-bottom: 5mm;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .fase-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 7px;
+  }
+  .fase-badge {
+    font-size: 8pt;
+    font-weight: 800;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .fase-header h2 {
+    font-size: 12pt;
+    color: #1a1a2e;
+  }
+  .fase-header .trigger {
+    margin-left: auto;
+    font-size: 8.5pt;
+    color: #888;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+  /* FASE 0 */
+  .fase0 { background: #fff8f0; border: 1.5px solid #f0a060; }
+  .fase0 .fase-badge { background: #f0a060; color: white; }
+
+  /* FASE 1 */
+  .fase1 { background: #f0f7ff; border: 1.5px solid #1b6ca8; }
+  .fase1 .fase-badge { background: #1b6ca8; color: white; }
+
+  /* FASE 2 */
+  .fase2 { background: #f3f0ff; border: 1.5px solid #7c4dff; }
+  .fase2 .fase-badge { background: #7c4dff; color: white; }
+
+  /* REGOLA */
+  .regola { background: #f0fff4; border: 1.5px solid #2e7d32; }
+  .regola .fase-badge { background: #2e7d32; color: white; }
+
+  /* CONTENUTO INTERNO */
+  .corpo { display: flex; gap: 10px; }
+  .col { flex: 1; }
+  .col-stretta { flex: 0 0 38%; }
+
+  /* PUNTI */
+  .punto {
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    color: #333;
+  }
+  .punto-dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8pt;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .dot-arancio { background: #f0a060; color: white; }
+  .dot-blu    { background: #1b6ca8; color: white; }
+  .dot-viola  { background: #7c4dff; color: white; }
+  .dot-verde  { background: #2e7d32; color: white; }
+
+  /* LENTI SEMAFORO */
+  .semaforo {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 7px;
+  }
+  .sema {
+    flex: 1;
+    border-radius: 8px;
+    padding: 5px 7px;
+    text-align: center;
+    font-size: 8.5pt;
+    line-height: 1.4;
+  }
+  .sema strong { display: block; font-size: 9.5pt; margin-bottom: 1px; }
+  .sema-verde  { background: #e8f5e9; border: 1px solid #a5d6a7; color: #2e7d32; }
+  .sema-giallo { background: #fffde7; border: 1px solid #ffe082; color: #7a6000; }
+  .sema-rosso  { background: #ffebee; border: 1px solid #ef9a9a; color: #b71c1c; }
+
+  /* BOX STATO */
+  .box-stato {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 7px 10px;
+    font-size: 9pt;
+    line-height: 1.7;
+    color: #444;
+  }
+  .box-stato .riga { display: flex; gap: 6px; }
+  .box-stato .label {
+    color: #1b6ca8;
+    font-weight: 700;
+    white-space: nowrap;
+    min-width: 100px;
+  }
+
+  /* STALLO */
+  .stallo-fasi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin-bottom: 7px;
+  }
+  .stallo-box {
+    border-radius: 8px;
+    padding: 7px 8px;
+    text-align: center;
+    background: #ede7ff;
+    border: 1px solid #b39ddb;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .stallo-box .num {
+    font-size: 13pt;
+    font-weight: 800;
+    color: #7c4dff;
+    display: block;
+  }
+  .stallo-box .nome {
+    font-size: 8.5pt;
+    font-weight: 700;
+    color: #4a1a8a;
+    display: block;
+    margin: 2px 0;
+  }
+  .stallo-box .desc {
+    font-size: 8pt;
+    color: #666;
+    line-height: 1.3;
+  }
+
+  .domande-stallo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 10px;
+  }
+  .domanda {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 9pt;
+    color: #333;
+    line-height: 1.4;
+  }
+  .domanda-icon { font-size: 1em; flex-shrink: 0; margin-top: 1px; }
+
+  /* REGOLA UNIVERSALE */
+  .regola-testo {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #2e7d32;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  /* DIVISORE */
+  .freccia-giù {
+    text-align: center;
+    font-size: 1.4em;
+    color: #ccc;
+    margin: 1mm 0;
+  }
+
+  .footer {
+    text-align: center;
+    color: #bbb;
+    font-size: 8pt;
+    margin-top: 8mm;
+    border-top: 1px solid #eee;
+    padding-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Metodo di Lavoro con Claude — Oscar Ribichini</h1>
+  <p>Regola non derogabile — si applica a qualsiasi progetto, sempre</p>
+</div>
+
+<!-- FASE 0 -->
+<div class="fase fase0">
+  <div class="fase-header">
+    <span class="fase-badge">Fase 0</span>
+    <h2>Prima di proporre qualsiasi metodo — Domande</h2>
+    <span class="trigger">Attivazione: sempre, all'inizio</span>
+  </div>
+  <div class="corpo">
+    <div class="col">
+      <div class="punto">
+        <div class="punto-dot dot-arancio">1</div>
+        <span>Claude fa domande fino a 20, costruite sulle <strong>18 lenti di analisi</strong></span>
+      </div>
+      <div class="punto">
+        <div class="punto-dot dot-arancio">2</div>
+        <span>Ogni 5–7 domande: <strong>checkpoint visivo</strong> con stato lenti — Oscar corregge prima che si vada avanti</span>
+      </div>
+      <div class="punto">
+        <div class="punto-dot dot-arancio">3</div>
+        <span><strong>Regola di stop:</strong> "Smetto quando riesco a scrivere le prime 3 sezioni senza scrivere [DA VERIFICARE]"</span>
+      </div>
+      <div class="punto">
+        <div class="punto-dot dot-arancio">4</div>
+        <span>Al termine: <em>"Ho abbastanza. Assunzioni dichiarate: [lenti gialle]"</em></span>
+      </div>
+    </div>
+    <div class="col col-stretta">
+      <div class="semaforo">
+        <div class="sema sema-verde"><strong>🟢 Verde</strong>Info sufficienti</div>
+        <div class="sema sema-giallo"><strong>🟡 Giallo</strong>Assunzione dichiarata</div>
+        <div class="sema sema-rosso"><strong>🔴 Rosso</strong>Blocco critico</div>
+      </div>
+      <div style="font-size:8.5pt; color:#888; text-align:center; line-height:1.4;">
+        Claude si ferma solo quando<br>non ci sono più lenti rosse bloccanti
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="freccia-giù">↓</div>
+
+<!-- FASE 1 -->
+<div class="fase fase1">
+  <div class="fase-header">
+    <span class="fase-badge">Fase 1</span>
+    <h2>Aggiornamento ordinario — _STATO_[Progetto].md</h2>
+    <span class="trigger">Attivazione: fine sessione + ogni commit</span>
+  </div>
+  <div class="corpo">
+    <div class="col">
+      <div class="punto">
+        <div class="punto-dot dot-blu">→</div>
+        <span>Claude compila senza aspettare che Oscar lo chieda</span>
+      </div>
+      <div class="punto">
+        <div class="punto-dot dot-blu">→</div>
+        <span>Non è un riassunto — è uno strumento operativo per riprendere in qualsiasi sessione futura</span>
+      </div>
+      <div class="punto">
+        <div class="punto-dot dot-blu">→</div>
+        <span>Leggibile in <strong>30 secondi</strong></span>
+      </div>
+    </div>
+    <div class="col col-stretta">
+      <div class="box-stato">
+        <div class="riga"><span class="label">DOVE SIAMO</span><span>1–3 frasi. Solo fatti.</span></div>
+        <div class="riga"><span class="label">PROSSIMA AZIONE</span><span>1 azione + responsabile</span></div>
+        <div class="riga"><span class="label">BLOCCHI APERTI</span><span>Elenco o "Nessuno"</span></div>
+        <div class="riga"><span class="label">FILE ATTIVI</span><span>Percorsi completi</span></div>
+        <div class="riga"><span class="label">SCADENZE</span><span>Date reali o "Nessuna"</span></div>
+        <div class="riga"><span class="label">NOTE RAPIDE</span><span>Max 3 punti</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="freccia-giù">↓</div>
+
+<!-- FASE 2 -->
+<div class="fase fase2">
+  <div class="fase-header">
+    <span class="fase-badge">Fase 2</span>
+    <h2>Aggiornamento straordinario — Comando /stallo</h2>
+    <span class="trigger">Attivazione: milestone di progetto oppure Oscar digita /stallo</span>
+  </div>
+
+  <div class="stallo-fasi">
+    <div class="stallo-box">
+      <span class="num">1</span>
+      <span class="nome">Lettura silenziosa</span>
+      <span class="desc">Claude legge _STATO_, relazione, file attivi — Oscar non vede nulla</span>
+    </div>
+    <div class="stallo-box">
+      <span class="num">2</span>
+      <span class="nome">Specchio</span>
+      <span class="desc">4–6 righe: "Ecco cosa ho capito." Oscar corregge prima che Claude vada avanti</span>
+    </div>
+    <div class="stallo-box">
+      <span class="num">3</span>
+      <span class="nome">Analisi lenti</span>
+      <span class="desc">Solo lenti rilevanti per quel progetto in quel momento, con stato 🟢🟡🔴</span>
+    </div>
+    <div class="stallo-box">
+      <span class="num">4</span>
+      <span class="nome">3 domande + raccomandazione</span>
+      <span class="desc">Claude dice cosa farebbe e perché. Oscar decide.</span>
+    </div>
+  </div>
+
+  <div class="domande-stallo">
+    <div class="domanda"><span class="domanda-icon">⏱️</span><span><strong>Temporalità</strong> — c'è una scadenza imminente che cambia le priorità?</span></div>
+    <div class="domanda"><span class="domanda-icon">🧱</span><span><strong>Blocco reale</strong> — cosa impedisce di andare avanti adesso?</span></div>
+    <div class="domanda"><span class="domanda-icon">🎯</span><span><strong>Priorità</strong> — di tutti i thread aperti, quale conta di più adesso?</span></div>
+    <div class="domanda"><span class="domanda-icon">🔄</span><span><strong>Allineamento</strong> — l'obiettivo del progetto è cambiato dall'ultima sessione?</span></div>
+    <div class="domanda"><span class="domanda-icon">⚠️</span><span><strong>Rischio evitato</strong> — stiamo non facendo qualcosa per paura di sbagliare?</span></div>
+  </div>
+</div>
+
+<div class="freccia-giù">↓</div>
+
+<!-- REGOLA UNIVERSALE -->
+<div class="fase regola">
+  <div class="fase-header">
+    <span class="fase-badge">Regola universale</span>
+    <h2>Si applica a qualsiasi progetto — sempre</h2>
+  </div>
+  <p class="regola-testo">
+    Non esiste una soglia di importanza che attiva questo metodo.<br>
+    Ogni progetto, ogni sessione, ogni aggiornamento — questo è il filo.
+  </p>
+</div>
+
+<p class="footer">Claude Code — Metodo di Lavoro Oscar Ribichini — 2026</p>
+
+</body>
+</html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comportamento Claude — Schema</title>
+<style>
+  @page { size: A4; margin: 8mm 10mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: white;
+    padding: 8mm 10mm;
+    color: #111;
+    font-size: 10pt;
+  }
+
+  .header {
+    border-bottom: 2.5px solid #1a1a2e;
+    padding-bottom: 6px;
+    margin-bottom: 6mm;
+  }
+  .header h1 { font-size: 14pt; color: #1a1a2e; }
+  .header p { font-size: 9pt; color: #777; margin-top: 2px; }
+
+  /* CONFRONTO PRIMA/DOPO */
+  .confronto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin-bottom: 6mm;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .box-prima {
+    background: #fff5f5;
+    border: 1.5px solid #ef9a9a;
+    border-radius: 8px;
+    padding: 8px 11px;
+  }
+  .box-dopo {
+    background: #f0faf0;
+    border: 1.5px solid #a5d6a7;
+    border-radius: 8px;
+    padding: 8px 11px;
+  }
+  .confronto-titolo {
+    font-size: 9.5pt;
+    font-weight: 700;
+    margin-bottom: 6px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .confronto-titolo.rosso { color: #c62828; }
+  .confronto-titolo.verde { color: #2e7d32; }
+  .confronto-riga {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 8.5pt;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 4px;
+  }
+  .confronto-riga .ic { flex-shrink: 0; }
+
+  /* FLUSSO PRINCIPALE */
+  .section-label {
+    font-size: 9pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #888;
+    margin-bottom: 4px;
+  }
+
+  .flusso {
+    margin-bottom: 6mm;
+  }
+
+  .step-row {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    margin-bottom: 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .step-linea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36px;
+    flex-shrink: 0;
+  }
+  .step-cerchio {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9.5pt;
+    font-weight: 800;
+    color: white;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .step-connettore {
+    width: 2px;
+    flex: 1;
+    min-height: 8px;
+    background: #ddd;
+    margin: 0 auto;
+  }
+  .step-connettore.last { display: none; }
+
+  .step-corpo {
+    flex: 1;
+    padding: 0 0 8px 8px;
+  }
+  .step-titolo {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 3px;
+    margin-top: 4px;
+  }
+  .step-desc {
+    font-size: 8.5pt;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 4px;
+  }
+
+  /* COLORI STEP */
+  .c-arancio { background: #f57c00; }
+  .c-blu     { background: #1b6ca8; }
+  .c-verde   { background: #2e7d32; }
+  .c-viola   { background: #7c4dff; }
+  .c-grigio  { background: #757575; }
+
+  /* MINI BOX INTERNI */
+  .mini-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+    margin-top: 4px;
+  }
+  .mini-box {
+    border-radius: 6px;
+    padding: 5px 7px;
+    font-size: 8pt;
+    line-height: 1.4;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .mini-verde  { background: #e8f5e9; border: 1px solid #a5d6a7; color: #1b5e20; }
+  .mini-giallo { background: #fffde7; border: 1px solid #ffe082; color: #5d4000; }
+  .mini-rosso  { background: #ffebee; border: 1px solid #ef9a9a; color: #b71c1c; }
+  .mini-box strong { display: block; font-size: 8.5pt; margin-bottom: 1px; }
+
+  .domande-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px 8px;
+    margin-top: 4px;
+  }
+  .domanda-item {
+    font-size: 8.5pt;
+    color: #333;
+    line-height: 1.4;
+    display: flex;
+    gap: 5px;
+  }
+  .domanda-item .ic { flex-shrink: 0; color: #1b6ca8; font-weight: 700; }
+
+  .output-box {
+    background: #f5f0ff;
+    border: 1.5px solid #ce93d8;
+    border-radius: 7px;
+    padding: 6px 10px;
+    font-size: 8.5pt;
+    color: #333;
+    margin-top: 4px;
+    line-height: 1.5;
+  }
+
+  .regola-box {
+    background: #1a1a2e;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 6mm;
+    text-align: center;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .regola-box p {
+    font-size: 10.5pt;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  .regola-box span {
+    font-size: 8.5pt;
+    color: #aaa;
+    display: block;
+    margin-top: 3px;
+  }
+
+  /* COSA NON CAMBIA */
+  .invariato {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-bottom: 5mm;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .inv-box {
+    background: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 7px;
+    padding: 7px 9px;
+    font-size: 8.5pt;
+    color: #333;
+    line-height: 1.45;
+  }
+  .inv-box strong { display: block; color: #1a1a2e; margin-bottom: 2px; font-size: 9pt; }
+
+  .footer {
+    text-align: center;
+    color: #bbb;
+    font-size: 8pt;
+    border-top: 1px solid #eee;
+    padding-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Il Nuovo Comportamento di Claude — Schema Operativo</h1>
+  <p>Oscar Ribichini — 24/05/2026 — La disciplina sta in Claude, non in Oscar</p>
+</div>
+
+<!-- PRIMA / DOPO -->
+<div class="confronto">
+  <div class="box-prima">
+    <div class="confronto-titolo rosso">✗ Prima — comportamento di default</div>
+    <div class="confronto-riga"><span class="ic">→</span><span>Oscar scrive un task</span></div>
+    <div class="confronto-riga"><span class="ic">→</span><span>Claude parte subito a produrre</span></div>
+    <div class="confronto-riga"><span class="ic">→</span><span>Le assunzioni restano nascoste</span></div>
+    <div class="confronto-riga"><span class="ic">→</span><span>Errori scoperti solo a output finito</span></div>
+    <div class="confronto-riga"><span class="ic">→</span><span>Si riscrive da capo</span></div>
+  </div>
+  <div class="box-dopo">
+    <div class="confronto-titolo verde">✓ Dopo — comportamento permanente</div>
+    <div class="confronto-riga"><span class="ic">→</span><span>Oscar scrive un task</span></div>
+    <div class="confronto-riga"><span class="ic">→</span><span>Claude legge, valuta, fa domande</span></div>
+    <div class="confronto-riga"><span class="ic">→</span><span>Le assunzioni vengono dichiarate</span></div>
+    <div class="confronto-riga"><span class="ic">→</span><span>Errori bloccati prima di iniziare</span></div>
+    <div class="confronto-riga"><span class="ic">→</span><span>Si produce una volta sola</span></div>
+  </div>
+</div>
+
+<!-- FLUSSO DETTAGLIATO -->
+<div class="section-label">Come funziona — passo per passo</div>
+<div class="flusso">
+
+  <!-- STEP 1 -->
+  <div class="step-row">
+    <div class="step-linea">
+      <div class="step-cerchio c-arancio">1</div>
+      <div class="step-connettore"></div>
+    </div>
+    <div class="step-corpo">
+      <div class="step-titolo">Oscar scrive il task — Claude non risponde subito</div>
+      <div class="step-desc">Qualunque cosa scriva Oscar — un documento, un'analisi, un'email, un piano — Claude non produce output. Si ferma e legge tutto il contesto disponibile: CLAUDE.md, memoria, file _STATO_ del progetto se esiste.</div>
+    </div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="step-row">
+    <div class="step-linea">
+      <div class="step-cerchio c-blu">2</div>
+      <div class="step-connettore"></div>
+    </div>
+    <div class="step-corpo">
+      <div class="step-titolo">Claude valuta le 18 lenti — assegna semaforo</div>
+      <div class="step-desc">Per ogni lente rilevante Claude assegna uno stato. Non le usa tutte — sceglie quelle che impattano davvero questo task specifico.</div>
+      <div class="mini-grid">
+        <div class="mini-box mini-verde"><strong>🟢 Verde</strong>Ho informazioni sufficienti — posso procedere</div>
+        <div class="mini-box mini-giallo"><strong>🟡 Giallo</strong>Ho info parziali — posso procedere con assunzione dichiarata</div>
+        <div class="mini-box mini-rosso"><strong>🔴 Rosso</strong>Manca qualcosa di critico — mi fermo e chiedo</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="step-row">
+    <div class="step-linea">
+      <div class="step-cerchio c-blu">3</div>
+      <div class="step-connettore"></div>
+    </div>
+    <div class="step-corpo">
+      <div class="step-titolo">Claude fa le domande — costruite sulle lenti rosse</div>
+      <div class="step-desc">Almeno 3 domande, massimo 20, in blocchi da 5–7. Ogni domanda nasce da una lente rossa o gialla — non sono domande generiche, sono domande che cambiano l'output. Ogni 5–7 domande: checkpoint visivo con stato lenti aggiornato.</div>
+      <div class="domande-box">
+        <div class="domanda-item"><span class="ic">→</span><span>Una domanda alla volta — mai tutte insieme</span></div>
+        <div class="domanda-item"><span class="ic">→</span><span>Ogni domanda è collegata a una lente specifica</span></div>
+        <div class="domanda-item"><span class="ic">→</span><span>Oscar può correggere ad ogni checkpoint</span></div>
+        <div class="domanda-item"><span class="ic">→</span><span>Claude dichiara le assunzioni sulle lenti gialle</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="step-row">
+    <div class="step-linea">
+      <div class="step-cerchio c-verde">4</div>
+      <div class="step-connettore"></div>
+    </div>
+    <div class="step-corpo">
+      <div class="step-titolo">Regola di stop — Claude valuta se può produrre</div>
+      <div class="step-desc">Claude non smette di fare domande "quando sente di sapere abbastanza" — smette quando supera un test concreto e oggettivo.</div>
+      <div class="output-box">
+        <strong style="color:#7c4dff;">Test di stop:</strong> "Riesco a scrivere le prime 3 sezioni dell'output senza scrivere [DA VERIFICARE] in nessun punto?"<br>
+        <strong>Sì</strong> → le domande sono finite. Claude dichiara le assunzioni rimaste (lenti gialle) e produce.<br>
+        <strong>No</strong> → Claude fa un'altra domanda mirata sulla sezione bloccata.
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 5 -->
+  <div class="step-row">
+    <div class="step-linea">
+      <div class="step-cerchio c-verde">5</div>
+      <div class="step-connettore"></div>
+    </div>
+    <div class="step-corpo">
+      <div class="step-titolo">Claude produce — con assunzioni dichiarate</div>
+      <div class="step-desc">Output pulito, senza [DA VERIFICARE]. Prima dell'output Claude scrive una riga: <em>"Assunzioni dichiarate: [lista lenti gialle]"</em> — Oscar sa esattamente cosa resta da verificare.</div>
+    </div>
+  </div>
+
+  <!-- STEP 6 -->
+  <div class="step-row">
+    <div class="step-linea">
+      <div class="step-cerchio c-viola">6</div>
+      <div class="step-connettore"></div>
+    </div>
+    <div class="step-corpo">
+      <div class="step-titolo">Fine sessione — Claude aggiorna _STATO_ automaticamente</div>
+      <div class="step-desc">Senza aspettare che Oscar lo chieda. Il file _STATO_ viene aggiornato con: dove siamo, prossima azione, blocchi aperti, file attivi, scadenze. Prima riga fissa:</div>
+      <div class="output-box">
+        <strong style="color:#1b6ca8;">⚙️ METODO APPLICATO</strong> — Fase 0 completata: Sì &nbsp;|&nbsp; Data: [oggi] &nbsp;|&nbsp; Lenti rosse risolte: [n]
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 7 — STALLO -->
+  <div class="step-row">
+    <div class="step-linea">
+      <div class="step-cerchio c-grigio">↺</div>
+      <div class="step-connettore last"></div>
+    </div>
+    <div class="step-corpo">
+      <div class="step-titolo">Sessione interrotta o confusione — /stallo</div>
+      <div class="step-desc">Se la sessione finisce male o Oscar si sente perso: il primo messaggio della sessione successiva è <strong>/stallo</strong>. Claude legge in silenzio, fa lo specchio, analizza le lenti, propone 3 domande + raccomandazione. Oscar decide.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- REGOLA ASSOLUTA -->
+<div class="regola-box">
+  <p>La disciplina sta in Claude — non in Oscar.</p>
+  <span>Oscar non deve ricordare di attivare nulla. Claude parte sempre con le domande. È il suo modo di lavorare in questo workspace — non un comando, non una fase speciale. È il default.</span>
+</div>
+
+<!-- COSA NON CAMBIA -->
+<div class="section-label">Cosa non cambia per Oscar</div>
+<div class="invariato">
+  <div class="inv-box">
+    <strong>Scrive normalmente</strong>
+    Oscar descrive il task come vuole — lungo, breve, preciso, vago. Claude adatta le domande al livello di dettaglio ricevuto.
+  </div>
+  <div class="inv-box">
+    <strong>Può sempre accelerare</strong>
+    Se Oscar scrive "ho fretta, vai" Claude riduce le domande al minimo indispensabile (solo lenti rosse) e dichiara tutte le assunzioni.
+  </div>
+  <div class="inv-box">
+    <strong>Decide sempre lui</strong>
+    Claude propone, Oscar approva. Le domande non sono ostacoli — sono il modo in cui Claude si allinea prima di agire. Oscar ha sempre l'ultima parola.
+  </div>
+</div>
+
+<p class="footer">Claude Code — Workspace Oscar Ribichini — 2026</p>
+
+</body>
+</html>
