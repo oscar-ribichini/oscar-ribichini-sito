@@ -2,6 +2,16 @@
 
 ---
 
+## 📓 INIZIO SESSIONE — leggere subito
+
+All'inizio di ogni sessione Claude legge:
+`TOOLS\Script_AI\STATO_PROGETTI.md`
+
+Dopo la lettura, proporre a Oscar il punto di ripresa in una riga sola, senza elenchi.
+Se il file non esiste o è obsoleto, chiedere a Oscar su quale progetto si lavora.
+
+---
+
 ## ⛔ REGOLA ASSOLUTA — LEGGERE PRIMA DI SCRIVERE
 
 **Questa regola si applica a qualsiasi progetto, in qualsiasi sessione, senza eccezioni.**
