@@ -101,6 +101,102 @@
       from { opacity: 0; transform: translateY(12px); }
       to { opacity: 1; transform: translateY(0); }
     }
+    /* V2 — teatro: una scena alla volta */
+    @keyframes scenaEntra {
+      0%   { opacity: 0; transform: translateY(30px) scale(0.97); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    @keyframes scenaEsce {
+      0%   { opacity: 1; transform: translateY(0) scale(1); }
+      100% { opacity: 0; transform: translateY(-20px) scale(1.02); }
+    }
+    @keyframes nomeEntra {
+      0%   { opacity: 0; transform: scale(0.6) translateY(20px); letter-spacing: -4px; }
+      100% { opacity: 1; transform: scale(1) translateY(0); letter-spacing: -2px; }
+    }
+    @keyframes nomeEsce {
+      0%   { opacity: 1; transform: scale(1); }
+      100% { opacity: 0; transform: scale(1.15); }
+    }
+    /* Contenitore teatro — occupa tutto lo spazio hero */
+    .hero-teatro {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      text-align: center;
+      padding: 0 6%;
+    }
+    .scena {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      padding: 0 6%;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .scena.attiva {
+      pointer-events: auto;
+    }
+    .scena-frase {
+      font-family: Georgia, serif;
+      font-size: clamp(1.4rem, 3vw, 2.2rem);
+      color: #c8d4e8;
+      font-weight: normal;
+      line-height: 1.5;
+    }
+    .scena-frase em { color: var(--oro); font-style: normal; }
+    .scena-nome {
+      font-family: Georgia, serif;
+      font-size: clamp(5.5rem, 16vw, 13rem);
+      color: var(--oro);
+      line-height: 1;
+      font-weight: normal;
+      letter-spacing: -2px;
+      display: block;
+    }
+    .scena-tag {
+      font-family: Arial, sans-serif;
+      font-size: clamp(0.7rem, 1.1vw, 0.85rem);
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.45);
+      display: block;
+      margin-top: 18px;
+    }
+    /* barra progresso in basso */
+    .teatro-progresso {
+      position: absolute;
+      bottom: 80px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 10px;
+      z-index: 3;
+    }
+    .teatro-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(201,169,110,0.3);
+      transition: background 0.3s, transform 0.3s;
+    }
+    .teatro-dot.attivo {
+      background: var(--oro);
+      transform: scale(1.4);
+    }
+    .hero-etichetta-centrata { justify-content: center; }
+    .scena-frase-tag {
+      font-size: clamp(0.8rem, 1.4vw, 1rem);
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+    }
+    .scena-nome-finale { font-size: clamp(3rem, 8vw, 7rem); }
+    .hero-bottoni-teatro { margin-top: 36px; }
     .anima {
       opacity: 0;
       transform: translateY(28px);
@@ -1362,28 +1458,49 @@
   <div class="hero-sfondo-respiro-2"></div>
   <div class="hero-sfondo-pattern"></div>
 
-  <div class="hero-corpo">
-    <span class="hero-etichetta">Gruppo Vanguard — Quantum Advisor</span>
+  <!-- TEATRO: 5 scene che si alternano, poi bottoni -->
+  <div class="hero-teatro">
 
-    <h1 id="hero-titolo">
-      Scopri il tuo <em>Advisor</em>
-    </h1>
-
-    <span class="hero-linea"></span>
-
-    <p class="hero-sottotitolo">
-      Il commercialista ti dice cosa è successo.<br>
-      <strong>L'Advisor ti dice <em>cosa fare adesso</em>.</strong><br>
-      La figura strategica che ogni azienda moderna deve avere al proprio fianco — ogni giorno.
-    </p>
-
-    <div class="hero-bottoni">
-      <a href="#advisor" class="btn-primario">Cos'è l'Advisor</a>
-      <a href="#contatti" class="btn-secondario">Parla con noi</a>
+    <div class="scena" id="scena-0">
+      <span class="hero-etichetta hero-etichetta-centrata">Quantum Advisor</span>
     </div>
+
+    <div class="scena" id="scena-1">
+      <p class="scena-frase">Tu sai già cosa è successo.</p>
+    </div>
+
+    <div class="scena" id="scena-2">
+      <span class="scena-nome">L'Advisor</span>
+    </div>
+
+    <div class="scena" id="scena-3">
+      <p class="scena-frase">sa cosa fare adesso.<br><em>Ogni giorno.</em></p>
+    </div>
+
+    <div class="scena" id="scena-4">
+      <p class="scena-frase scena-frase-tag">Prima di ogni decisione.</p>
+    </div>
+
+    <div class="scena" id="scena-5">
+      <span class="scena-nome scena-nome-finale">L'Advisor</span>
+      <span class="scena-tag">La figura che ogni azienda moderna deve avere al proprio fianco.</span>
+      <div class="hero-bottoni hero-bottoni-teatro">
+        <a href="#advisor" class="btn-primario">Scopri l'Advisor</a>
+        <a href="#contatti" class="btn-secondario">Parla con noi</a>
+      </div>
+    </div>
+
   </div>
 
-  <div class="hero-scroll-hint">↓</div>
+  <!-- pallini progresso -->
+  <div class="teatro-progresso">
+    <div class="teatro-dot attivo" id="dot-0"></div>
+    <div class="teatro-dot" id="dot-1"></div>
+    <div class="teatro-dot" id="dot-2"></div>
+    <div class="teatro-dot" id="dot-3"></div>
+    <div class="teatro-dot" id="dot-4"></div>
+    <div class="teatro-dot" id="dot-5"></div>
+  </div>
 
   <!-- STRISCIA ORO IN BASSO -->
   <div class="hero-striscia">
@@ -2000,39 +2117,53 @@
     header.style.boxShadow = window.scrollY > 40 ? '0 2px 20px rgba(0,0,0,0.25)' : 'none';
   });
 
-  // ===== ANIMAZIONE 1: parole che appaiono una a una =====
+  // ===== V2 TEATRO: scene che si alternano =====
   (function() {
-    const h1 = document.getElementById('hero-titolo');
-    if (!h1) return;
-    // Raccoglie i nodi figli mantenendo <em>
-    const nodi = Array.from(h1.childNodes);
-    h1.innerHTML = '';
-    nodi.forEach(nodo => {
-      if (nodo.nodeType === 3) { // testo
-        nodo.textContent.trim().split(/\s+/).forEach(parola => {
-          if (!parola) return;
-          const span = document.createElement('span');
-          span.className = 'hero-parola';
-          span.textContent = parola;
-          h1.appendChild(span);
-        });
-      } else if (nodo.nodeName === 'EM') {
-        nodo.textContent.trim().split(/\s+/).forEach(parola => {
-          if (!parola) return;
-          const em = document.createElement('em');
-          const span = document.createElement('span');
-          span.className = 'hero-parola';
-          span.textContent = parola;
-          em.appendChild(span);
-          h1.appendChild(em);
-        });
+    const scene = [
+      { id: 'scena-0', durata: 1400, entrata: 'scenaEntra', uscita: 'scenaEsce' },
+      { id: 'scena-1', durata: 2200, entrata: 'scenaEntra', uscita: 'scenaEsce' },
+      { id: 'scena-2', durata: 2000, entrata: 'nomeEntra',  uscita: 'nomeEsce'  },
+      { id: 'scena-3', durata: 2200, entrata: 'scenaEntra', uscita: 'scenaEsce' },
+      { id: 'scena-4', durata: 2400, entrata: 'scenaEntra', uscita: 'scenaEsce' },
+      { id: 'scena-5', durata: 99999, entrata: 'nomeEntra', uscita: null }
+    ];
+    let corrente = 0;
+
+    function mostraScena(indice) {
+      const s = scene[indice];
+      const el = document.getElementById(s.id);
+      if (!el) return;
+
+      // aggiorna pallini
+      document.querySelectorAll('.teatro-dot').forEach((d, i) => {
+        d.classList.toggle('attivo', i === indice);
+      });
+
+      // anima entrata
+      el.style.animation = '';
+      el.style.opacity = '0';
+      el.classList.add('attiva');
+      requestAnimationFrame(() => {
+        el.style.animation = s.entrata + ' 0.9s cubic-bezier(0.22,1,0.36,1) forwards';
+      });
+
+      // dopo la durata: esci e passa alla prossima
+      if (s.uscita) {
+        setTimeout(() => {
+          el.style.animation = s.uscita + ' 0.6s ease forwards';
+          setTimeout(() => {
+            el.classList.remove('attiva');
+            el.style.opacity = '0';
+            el.style.animation = '';
+            corrente++;
+            if (corrente < scene.length) mostraScena(corrente);
+          }, 600);
+        }, s.durata);
       }
-    });
-    let delay = 100;
-    h1.querySelectorAll('.hero-parola').forEach(span => {
-      setTimeout(() => span.classList.add('visibile'), delay);
-      delay += 180;
-    });
+    }
+
+    // parte dopo un breve ritardo iniziale
+    setTimeout(() => mostraScena(0), 400);
   })();
 
   // ===== ANIMAZIONE 2: particelle canvas =====

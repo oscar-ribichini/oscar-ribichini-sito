@@ -101,6 +101,50 @@
       from { opacity: 0; transform: translateY(12px); }
       to { opacity: 1; transform: translateY(0); }
     }
+    /* V1 — elementi che si accumulano uno dopo l'altro */
+    @keyframes attoEntra {
+      from { opacity: 0; transform: translateY(22px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .hero-atto {
+      opacity: 0;
+      animation: attoEntra 0.8s ease forwards;
+    }
+    .hero-frase-piccola {
+      font-family: Georgia, serif;
+      font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+      color: #c8d4e8;
+      margin: 6px 0;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.5;
+    }
+    .hero-frase-piccola em { color: var(--oro); font-style: normal; }
+    .hero-nome-grande {
+      font-family: Georgia, serif;
+      font-size: clamp(5rem, 14vw, 11rem);
+      color: var(--oro);
+      line-height: 1;
+      margin: 12px 0 8px;
+      font-weight: normal;
+      letter-spacing: -2px;
+    }
+    .hero-frase-finale {
+      font-family: Arial, sans-serif;
+      font-size: clamp(0.75rem, 1.2vw, 0.9rem);
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      margin: 4px 0 0;
+    }
+    /* ritardi fissi per V1 */
+    .hero-atto:nth-child(1) { animation-delay: 0.3s; }
+    .hero-atto:nth-child(2) { animation-delay: 0.9s; }
+    .hero-atto:nth-child(3) { animation-delay: 1.7s; }
+    .hero-atto:nth-child(4) { animation-delay: 2.6s; }
+    .hero-atto:nth-child(5) { animation-delay: 3.2s; }
+    .hero-atto:nth-child(6) { animation-delay: 3.8s; }
+    .hero-atto:nth-child(7) { animation-delay: 4.5s; }
     .anima {
       opacity: 0;
       transform: translateY(28px);
@@ -1363,22 +1407,28 @@
   <div class="hero-sfondo-pattern"></div>
 
   <div class="hero-corpo">
-    <span class="hero-etichetta">Gruppo Vanguard — Quantum Advisor</span>
+    <span class="hero-etichetta hero-atto">Quantum Advisor</span>
 
-    <h1 id="hero-titolo">
-      Scopri il tuo <em>Advisor</em>
-    </h1>
-
-    <span class="hero-linea"></span>
-
-    <p class="hero-sottotitolo">
-      Il commercialista ti dice cosa è successo.<br>
-      <strong>L'Advisor ti dice <em>cosa fare adesso</em>.</strong><br>
-      La figura strategica che ogni azienda moderna deve avere al proprio fianco — ogni giorno.
+    <p class="hero-atto hero-frase-piccola">
+      Tu sai già cosa è successo.
     </p>
 
-    <div class="hero-bottoni">
-      <a href="#advisor" class="btn-primario">Cos'è l'Advisor</a>
+    <h1 class="hero-atto hero-nome-grande">
+      L'Advisor
+    </h1>
+
+    <p class="hero-atto hero-frase-piccola">
+      sa cosa fare adesso. <em>Ogni giorno.</em>
+    </p>
+
+    <span class="hero-linea hero-atto"></span>
+
+    <p class="hero-atto hero-frase-finale">
+      Prima di ogni decisione.
+    </p>
+
+    <div class="hero-bottoni hero-atto">
+      <a href="#advisor" class="btn-primario">Scopri l'Advisor</a>
       <a href="#contatti" class="btn-secondario">Parla con noi</a>
     </div>
   </div>

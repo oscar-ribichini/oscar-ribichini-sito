@@ -365,7 +365,16 @@ Contatti Allianz:
 Dominio: quantumadvisor.it — registrato su Aruba, solo dominio, nessun hosting attivo.
 Stack deciso: WordPress su Aruba (Hosting Gestito Smart) + Astra + Elementor Free.
 Mappa approvata: 7 pagine (Home, Chi siamo, Servizi, Sedi e Agenzie, Area Clienti, Area Advisor, Contatti).
-Fase attuale: in attesa che Pichetti acquisti il piano hosting Aruba e mandi le credenziali.
+Fase attuale: prototipo HTML completo con animazioni. In attesa che Oscar scelga la versione hero e che Pichetti mandi le credenziali hosting.
+
+Prototipo HTML in QUANTUM\Sito_Web\:
+- index.html — versione principale con hero animata (sfondo respiro + particelle + scroll reveal + contatori)
+- hero_v1_accumula.html — hero alternativa: frasi che si accumulano una dopo l'altra
+- hero_v2_teatro.html — hero alternativa: monologo teatrale, una scena alla volta (6 scene)
+DECISIONE IN SOSPESO: Oscar deve scegliere tra v1 e v2 prima di aggiornare index.html.
+
+Messaggio hero nuovo (approvato):
+"Tu sai già cosa è successo. / L'Advisor / sa cosa fare adesso. Ogni giorno. / Prima di ogni decisione."
 
 Da chiedere a Pichetti, Claudia e Marco:
 
