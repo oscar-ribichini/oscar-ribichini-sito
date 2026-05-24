@@ -31,6 +31,16 @@ Regola che ne emerge: quando si scrive qualcosa che deve diventare comportamento
 
 ---
 
+### 24/05/2026 — Google Alert e proattività
+
+Data: 24/05/2026
+Progetto: METODO_OSCAR
+Cosa ha funzionato: Oscar ha identificato Google Alert come soluzione pratica per monitorare gli aggiornamenti Anthropic.
+Cosa non ha funzionato: Claude ha identificato il rischio 8 (deriva da aggiornamento modello) ma non ha proposto autonomamente la soluzione più semplice già nell'ecosistema di Oscar — ha aspettato che fosse Oscar a suggerirla.
+Regola che ne emerge: identificare un rischio senza proporre la soluzione pratica più immediata è lavoro a metà — la lente Tecnologia deve sempre chiudersi con una raccomandazione concreta, non solo con la descrizione del problema.
+
+---
+
 ## Test di calibrazione trimestrali
 
 ---
