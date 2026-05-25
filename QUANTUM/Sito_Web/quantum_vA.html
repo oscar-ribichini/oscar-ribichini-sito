@@ -220,6 +220,7 @@
       letter-spacing: -0.01em;
     }
     #home h1 em { font-style: italic; color: var(--oro); font-weight: 300; }
+    #home h1 strong { font-weight: 700; }
     .hero-riga {
       display: block;
       opacity: 0;
@@ -307,7 +308,8 @@
       letter-spacing: 3px;
       text-transform: uppercase;
       color: var(--oro);
-      margin-top: 32px;
+      margin-top: 48px;
+      margin-bottom: 10px;
       opacity: 0;
       transform: translateY(10px);
       transition: opacity 1s ease, transform 1s ease;
@@ -364,6 +366,7 @@
       gap: 16px;
       flex-wrap: wrap;
       justify-content: center;
+      margin-top: 36px;
       opacity: 0;
       transform: translateY(12px);
       transition: opacity 0.9s ease, transform 0.9s ease;
@@ -960,7 +963,7 @@
 
     <h1 id="hero-titolo">
       <span class="hero-riga" id="riga-1">Tu sai cosa è successo?</span>
-      <span id="riga-1-parole" style="display:none;opacity:1;transform:none"><span class="parola">Tu</span> <span class="parola">sai</span> <span class="parola">già</span> <span class="parola">cosa</span> <span class="parola">è</span> <span class="parola">successo</span><span class="timbro-wrap"><span class="timbro-punto" style="color:#fff">.</span><span class="timbro-escl" id="escl-riga1" style="color:#fff">!</span></span></span>
+      <span id="riga-1-parole" style="display:none;opacity:1;transform:none"><span class="parola">Tu</span> <span class="parola">sai</span> <span class="parola"><strong>già</strong></span> <span class="parola">cosa</span> <span class="parola">è</span> <span class="parola">successo</span><span class="timbro-wrap"><span class="timbro-punto" style="color:#fff">.</span><span class="timbro-escl" id="escl-riga1" style="color:#fff">!</span></span></span>
       <span class="hero-riga-advisor" id="riga-advisor"><em><strong>«L'Advisor»<span class="timbro-wrap"><span class="timbro-punto punto-oro">.</span><span class="timbro-escl punto-oro" id="escl-advisor">!</span></span></strong></em></span>
       <span class="hero-riga" id="riga-sa"><span class="parola">Sa</span> <span class="parola">cosa</span> <span class="parola">consigliarti</span> <span class="parola">di</span> <span class="parola">fare</span> <span class="parola">adesso<span class="timbro-wrap"><span class="timbro-punto">.</span><span class="timbro-escl" id="escl-sa">!</span></span></span></span>
       <span class="hero-riga"><em>Prima di ogni decisione<span class="timbro-wrap"><span class="timbro-punto">.</span><span class="timbro-escl" id="escl-prima">!</span></span></em></span>
@@ -975,12 +978,12 @@
       <span class="hero-linea-firma" id="linea-firma"></span>
     </p>
 
+    <p class="hero-servizi" id="hero-servizi">Finanza · Assicurazioni · Consulenza · Formazione</p>
+
     <div class="hero-bottoni">
       <a href="#advisor" class="btn-primario">Cos'è l'Advisor</a>
       <a href="#contatti" class="btn-secondario">Parla con noi</a>
     </div>
-
-    <p class="hero-servizi" id="hero-servizi">Finanza · Assicurazioni · Consulenza · Formazione</p>
   </div>
 
   <div class="hero-scroll-hint">↓</div>
@@ -1618,10 +1621,6 @@
       if (st) st.classList.add('visibile');
     }, 18400);
     setTimeout(() => {
-      const bt = document.querySelector('.hero-bottoni');
-      if (bt) bt.classList.add('visibile');
-    }, 18600);
-    setTimeout(() => {
       const lf = document.getElementById('linea-firma');
       if (lf) lf.classList.add('visibile');
     }, 19000);
@@ -1649,6 +1648,12 @@
       const sv = document.getElementById('hero-servizi');
       if (sv) sv.classList.add('visibile');
     }, 27000);
+
+    // Bottoni — appaiono per ultimi dopo la riga servizi
+    setTimeout(() => {
+      const bt = document.querySelector('.hero-bottoni');
+      if (bt) bt.classList.add('visibile');
+    }, 28200);
   })();
 
   // Particelle canvas

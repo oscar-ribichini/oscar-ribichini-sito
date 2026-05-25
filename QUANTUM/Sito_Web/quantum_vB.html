@@ -1,0 +1,1608 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum Advisor — Consulenza, Finanza e Assicurazioni</title>
+  <meta name="description" content="Quantum è il gruppo di consulenza che affianca le imprese italiane nelle decisioni strategiche: finanza straordinaria, assicurazioni, amministrazione e formazione.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --blu: #1a3a6e;
+      --blu-medio: #2563ab;
+      --blu-chiaro: #e8f0fb;
+      --oro: #c9a96e;
+      --oro-chiaro: #e0c898;
+      --verde: #0d9488;
+      --verde-chiaro: #e6f7f5;
+      --bianco: #ffffff;
+      --grigio-sf: #f8f9fc;
+      --grigio-testo: #4b5563;
+      --grigio-bordo: #e5e7eb;
+      --nero-soft: #111827;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--nero-soft);
+      background: #fff;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    /* LABEL VERSIONE */
+    .versione-label {
+      position: fixed;
+      top: 80px;
+      right: 0;
+      background: var(--verde);
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 6px 14px 6px 10px;
+      z-index: 999;
+    }
+
+    /* HEADER */
+    .header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      background: #fff;
+      border-bottom: 1px solid var(--grigio-bordo);
+      padding: 0 5%;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 1px 12px rgba(0,0,0,0.07);
+    }
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+    .logo-q {
+      width: 38px; height: 38px;
+      background: var(--blu);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--oro);
+      font-family: Georgia, serif;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    .logo-nome {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--blu);
+      letter-spacing: 0.5px;
+    }
+    .logo-nome span { color: var(--oro); }
+    .header-nav {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+    }
+    .header-nav a {
+      color: var(--grigio-testo);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .header-nav a:hover { color: var(--blu); }
+    .btn-header {
+      background: var(--blu);
+      color: #fff !important;
+      padding: 10px 24px;
+      border-radius: 6px;
+      font-weight: 600 !important;
+      transition: background 0.2s !important;
+    }
+    .btn-header:hover { background: var(--blu-medio) !important; }
+
+    /* HERO */
+    #home {
+      margin-top: 70px;
+      min-height: 100vh;
+      background: var(--blu);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-bg-geo {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+    .hero-cerchio {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(201,169,110,0.15);
+    }
+    .hero-cerchio-1 { width: 600px; height: 600px; top: -150px; right: -100px; }
+    .hero-cerchio-2 { width: 400px; height: 400px; top: 100px; right: 50px; border-color: rgba(201,169,110,0.1); }
+    .hero-cerchio-3 { width: 200px; height: 200px; top: 200px; right: 200px; border-color: rgba(201,169,110,0.08); }
+    .hero-linea-diag {
+      position: absolute;
+      width: 1px;
+      background: linear-gradient(to bottom, transparent, rgba(201,169,110,0.2), transparent);
+    }
+    .hero-ld-1 { height: 80%; top: 10%; left: 30%; }
+    .hero-ld-2 { height: 60%; top: 20%; left: 50%; opacity: 0.5; }
+
+    .hero-corpo {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding: 80px 6%;
+      position: relative;
+      z-index: 1;
+      gap: 80px;
+    }
+    .hero-sinistra { flex: 1; max-width: 600px; }
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(201,169,110,0.15);
+      border: 1px solid rgba(201,169,110,0.3);
+      color: var(--oro-chiaro);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 100px;
+      margin-bottom: 28px;
+    }
+    .hero-tag::before { content: '●'; font-size: 0.5rem; color: var(--oro); }
+    #home h1 {
+      font-size: clamp(2.2rem, 4.5vw, 3.8rem);
+      color: #fff;
+      line-height: 1.15;
+      font-weight: 700;
+      margin-bottom: 24px;
+      letter-spacing: -0.5px;
+    }
+    #home h1 .accento { color: var(--oro); }
+    .hero-p {
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.72);
+      line-height: 1.8;
+      margin-bottom: 40px;
+      max-width: 520px;
+    }
+    .hero-p strong { color: #fff; }
+    .hero-bottoni {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 48px;
+    }
+    .btn-primario {
+      background: var(--oro);
+      color: var(--blu);
+      padding: 14px 30px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      border-radius: 6px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+      display: inline-block;
+      letter-spacing: 0.3px;
+    }
+    .btn-primario:hover { background: var(--oro-chiaro); transform: translateY(-1px); }
+    .btn-secondario {
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      padding: 14px 30px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.2);
+      cursor: pointer;
+      transition: background 0.2s;
+      display: inline-block;
+    }
+    .btn-secondario:hover { background: rgba(255,255,255,0.18); }
+    .hero-trust {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .hero-trust-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,0.55);
+      font-size: 0.8rem;
+    }
+    .hero-trust-item::before { content: '✓'; color: var(--verde); font-weight: bold; }
+
+    .hero-destra {
+      flex-shrink: 0;
+      width: 320px;
+    }
+    .hero-card-stats {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      padding: 32px;
+      backdrop-filter: blur(10px);
+    }
+    .hero-card-titolo {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--oro);
+      margin-bottom: 24px;
+    }
+    .stat-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .stat-item:last-child { border-bottom: none; }
+    .stat-label { font-size: 0.82rem; color: rgba(255,255,255,0.6); }
+    .stat-val {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .stat-val.oro { color: var(--oro); }
+
+    .hero-striscia {
+      background: rgba(255,255,255,0.06);
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding: 20px 6%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 1;
+    }
+    .striscia-item { text-align: center; }
+    .striscia-num {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--oro);
+      display: block;
+      line-height: 1;
+    }
+    .striscia-label {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.5);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 4px;
+      display: block;
+    }
+    .striscia-sep { width: 1px; height: 36px; background: rgba(255,255,255,0.1); }
+
+    /* SEZIONI */
+    .sezione { padding: 90px 5%; }
+    .sezione-chiara { background: var(--grigio-sf); }
+    .sezione-max { max-width: 1100px; margin: 0 auto; }
+    .sezione-header { margin-bottom: 56px; }
+    .sezione-tag {
+      display: inline-block;
+      background: var(--blu-chiaro);
+      color: var(--blu-medio);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 100px;
+      margin-bottom: 16px;
+    }
+    .sezione-tag-verde {
+      background: var(--verde-chiaro);
+      color: var(--verde);
+    }
+    .sezione-tag-oro {
+      background: #fdf3e3;
+      color: #a07040;
+    }
+    .sezione-titolo {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--nero-soft);
+      margin-bottom: 14px;
+      letter-spacing: -0.3px;
+    }
+    .sezione-titolo-bianco { color: #fff; }
+    .sezione-intro {
+      font-size: 1rem;
+      color: var(--grigio-testo);
+      line-height: 1.8;
+      max-width: 600px;
+    }
+    .sezione-intro-bianco { color: rgba(255,255,255,0.65); }
+
+    /* ADVISOR */
+    .advisor-sezione { background: var(--nero-soft); padding: 90px 5%; }
+    .confronto-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 60px;
+    }
+    .confronto-card {
+      border-radius: 12px;
+      padding: 36px;
+    }
+    .confronto-card-grigio {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .confronto-card-blu {
+      background: linear-gradient(135deg, rgba(37,99,171,0.3), rgba(26,58,110,0.4));
+      border: 1px solid rgba(201,169,110,0.35);
+    }
+    .confronto-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--oro);
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .confronto-label .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--oro);
+    }
+    .confronto-testo {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.85;
+    }
+    .confronto-testo-bianco { color: rgba(255,255,255,0.9); }
+
+    .advisor-griglia {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 52px;
+    }
+    .advisor-box {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 28px 22px;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .advisor-box:hover { background: rgba(255,255,255,0.08); border-color: rgba(201,169,110,0.3); }
+    .advisor-box-icona { font-size: 1.8rem; margin-bottom: 14px; display: block; }
+    .advisor-box-titolo { font-size: 0.95rem; font-weight: 600; color: #fff; margin-bottom: 8px; }
+    .advisor-box-testo { font-size: 0.82rem; color: rgba(255,255,255,0.45); line-height: 1.65; }
+
+    .advisor-dato {
+      background: linear-gradient(135deg, rgba(201,169,110,0.12), rgba(201,169,110,0.05));
+      border: 1px solid rgba(201,169,110,0.25);
+      border-radius: 12px;
+      padding: 32px 36px;
+      display: flex;
+      gap: 36px;
+      align-items: center;
+      margin-bottom: 48px;
+    }
+    .advisor-dato-num {
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: var(--oro);
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .advisor-dato-testo { font-size: 0.95rem; color: rgba(255,255,255,0.8); line-height: 1.7; }
+    .advisor-dato-testo strong { color: #fff; }
+    .advisor-cta { text-align: center; }
+
+    /* TRE PILASTRI */
+    .pilastri-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .pilastro-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 36px 28px;
+      border: 1px solid var(--grigio-bordo);
+      transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+    .pilastro-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+    }
+    .pilastro-card.blu::before { background: var(--blu); }
+    .pilastro-card.verde::before { background: var(--verde); }
+    .pilastro-card.oro::before { background: var(--oro); }
+    .pilastro-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.1); transform: translateY(-4px); border-color: transparent; }
+    .pilastro-icona-wrap {
+      width: 52px; height: 52px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+    }
+    .pilastro-icona-wrap.blu { background: var(--blu-chiaro); }
+    .pilastro-icona-wrap.verde { background: var(--verde-chiaro); }
+    .pilastro-icona-wrap.oro { background: #fdf3e3; }
+    .pilastro-titolo { font-size: 1.1rem; font-weight: 700; color: var(--nero-soft); margin-bottom: 12px; }
+    .pilastro-testo { font-size: 0.88rem; color: var(--grigio-testo); line-height: 1.75; margin-bottom: 20px; }
+    .pilastro-link {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--blu-medio);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: gap 0.2s;
+    }
+    .pilastro-link:hover { gap: 8px; }
+
+    /* VIDEO */
+    .video-placeholder {
+      background: var(--nero-soft);
+      border-radius: 12px;
+      overflow: hidden;
+      padding: 70px 40px;
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto;
+      cursor: pointer;
+      position: relative;
+    }
+    .video-play {
+      width: 72px; height: 72px;
+      background: var(--oro);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+      transition: transform 0.2s;
+    }
+    .video-placeholder:hover .video-play { transform: scale(1.1); }
+    .video-play::after {
+      content: '';
+      border-left: 26px solid var(--nero-soft);
+      border-top: 16px solid transparent;
+      border-bottom: 16px solid transparent;
+      margin-left: 6px;
+    }
+    .video-titolo { font-size: 1.2rem; font-weight: 600; color: #fff; margin-bottom: 8px; }
+    .video-sottotitolo { font-size: 0.85rem; color: rgba(255,255,255,0.5); }
+    .video-nota { font-size: 0.75rem; color: rgba(201,169,110,0.6); margin-top: 12px; }
+
+    /* QUIZ */
+    .quiz-box {
+      background: linear-gradient(135deg, var(--blu) 0%, var(--blu-medio) 100%);
+      padding: 72px 5%;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .quiz-box::before {
+      content: '';
+      position: absolute;
+      top: -50%; right: -10%;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    .quiz-box h2 { font-size: 2rem; font-weight: 700; color: #fff; margin-bottom: 14px; position: relative; }
+    .quiz-box p { font-size: 0.95rem; color: rgba(255,255,255,0.65); max-width: 480px; margin: 0 auto 36px; line-height: 1.75; position: relative; }
+    .btn-bianco {
+      background: #fff;
+      color: var(--blu);
+      padding: 15px 36px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      border-radius: 6px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+      display: inline-block;
+      position: relative;
+    }
+    .btn-bianco:hover { background: #f0f4ff; transform: translateY(-1px); }
+
+    /* CHI SIAMO */
+    .struttura-wrap {
+      background: var(--grigio-sf);
+      border-radius: 12px;
+      padding: 48px;
+      margin-bottom: 56px;
+      border: 1px solid var(--grigio-bordo);
+    }
+    .struttura-titolo { font-size: 0.72rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--grigio-testo); margin-bottom: 32px; text-align: center; }
+    .struttura-holding {
+      background: var(--blu);
+      color: #fff;
+      border-radius: 8px;
+      padding: 18px 36px;
+      text-align: center;
+      max-width: 480px;
+      margin: 0 auto 8px;
+    }
+    .struttura-holding-nome { font-size: 1rem; font-weight: 700; color: #fff; display: block; }
+    .struttura-holding-sub { font-size: 0.78rem; color: var(--oro-chiaro); margin-top: 4px; display: block; }
+    .struttura-connettore { width: 2px; height: 32px; background: var(--grigio-bordo); margin: 0 auto; }
+    .struttura-figli { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 8px; }
+    .struttura-figlia {
+      background: #fff;
+      border: 1px solid var(--grigio-bordo);
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    .struttura-figlia::before {
+      content: '';
+      position: absolute;
+      top: -32px; left: 50%;
+      width: 1px; height: 32px;
+      background: var(--grigio-bordo);
+    }
+    .struttura-figlia-nome { font-size: 0.88rem; font-weight: 700; color: var(--nero-soft); display: block; margin-bottom: 4px; }
+    .struttura-figlia-sub { font-size: 0.75rem; color: var(--grigio-testo); display: block; }
+    .struttura-figlia-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      margin: 0 auto 12px;
+    }
+    .dot-blu { background: var(--blu); }
+    .dot-verde { background: var(--verde); }
+    .dot-oro { background: var(--oro); }
+
+    .valori-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 60px; }
+    .valore-box {
+      background: #fff;
+      border: 1px solid var(--grigio-bordo);
+      border-radius: 10px;
+      padding: 28px;
+      transition: box-shadow 0.2s;
+    }
+    .valore-box:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.07); }
+    .valore-icona { font-size: 1.6rem; margin-bottom: 14px; display: block; }
+    .valore-titolo { font-size: 1rem; font-weight: 700; color: var(--nero-soft); margin-bottom: 10px; }
+    .valore-testo { font-size: 0.88rem; color: var(--grigio-testo); line-height: 1.75; }
+
+    .soci-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .socio-card {
+      background: #fff;
+      border: 1px solid var(--grigio-bordo);
+      border-radius: 12px;
+      padding: 32px 24px;
+      text-align: center;
+      transition: box-shadow 0.2s;
+    }
+    .socio-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.08); }
+    .socio-foto {
+      width: 96px; height: 96px;
+      border-radius: 50%;
+      background: var(--grigio-sf);
+      border: 3px solid var(--blu-chiaro);
+      margin: 0 auto 18px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.7rem; color: var(--grigio-testo);
+      text-transform: uppercase; letter-spacing: 1px;
+    }
+    .socio-nome { font-size: 1rem; font-weight: 700; color: var(--nero-soft); margin-bottom: 4px; }
+    .socio-ruolo {
+      font-size: 0.75rem;
+      color: var(--blu-medio);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      display: block;
+    }
+    .socio-bio { font-size: 0.86rem; color: var(--grigio-testo); line-height: 1.7; }
+
+    /* SERVIZI */
+    .tab-nav {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+    .tab-btn {
+      padding: 10px 22px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: var(--grigio-sf);
+      border: 1px solid var(--grigio-bordo);
+      border-radius: 100px;
+      cursor: pointer;
+      color: var(--grigio-testo);
+      transition: all 0.2s;
+    }
+    .tab-btn.attivo { background: var(--blu); color: #fff; border-color: var(--blu); }
+    .tab-btn:hover:not(.attivo) { background: var(--blu-chiaro); color: var(--blu); border-color: var(--blu-chiaro); }
+    .tab-contenuto { display: none; }
+    .tab-contenuto.attivo { display: block; }
+
+    .societa-header { margin-bottom: 32px; }
+    .societa-titolo { font-size: 1.5rem; font-weight: 700; color: var(--nero-soft); margin-bottom: 8px; }
+    .societa-descr { font-size: 0.92rem; color: var(--grigio-testo); line-height: 1.7; max-width: 600px; }
+    .allianz-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #e8f4ff; border: 1px solid #bdd9f5;
+      padding: 6px 14px; border-radius: 100px;
+      font-size: 0.75rem; color: #006DB7; font-weight: 600;
+      margin-top: 12px;
+    }
+
+    .servizi-griglia { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 36px; }
+    .servizio-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 16px 18px;
+      background: #fff;
+      border: 1px solid var(--grigio-bordo);
+      border-radius: 8px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .servizio-item:hover { border-color: var(--blu-medio); box-shadow: 0 2px 8px rgba(37,99,171,0.08); }
+    .servizio-check {
+      width: 20px; height: 20px;
+      background: var(--blu-chiaro);
+      border-radius: 50%;
+      flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+      font-size: 0.65rem;
+      color: var(--blu-medio);
+      font-weight: bold;
+    }
+    .servizio-nome { font-size: 0.88rem; color: var(--nero-soft); font-weight: 500; line-height: 1.5; }
+
+    /* SEDI */
+    .sedi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 52px; }
+    .sede-card {
+      background: #fff;
+      border-radius: 12px;
+      border: 1px solid var(--grigio-bordo);
+      padding: 28px;
+      transition: box-shadow 0.2s;
+    }
+    .sede-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    .sede-tipo {
+      display: inline-block;
+      background: var(--blu-chiaro);
+      color: var(--blu-medio);
+      font-size: 0.68rem; font-weight: 700;
+      letter-spacing: 1px; text-transform: uppercase;
+      padding: 3px 10px; border-radius: 100px;
+      margin-bottom: 14px;
+    }
+    .sede-citta { font-size: 1.2rem; font-weight: 700; color: var(--nero-soft); margin-bottom: 16px; }
+    .sede-info { font-size: 0.86rem; color: var(--grigio-testo); line-height: 2; }
+    .sede-info strong { color: var(--nero-soft); font-weight: 600; }
+    .mappa-placeholder {
+      background: var(--grigio-sf);
+      border: 1px solid var(--grigio-bordo);
+      border-radius: 12px;
+      height: 360px;
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column; gap: 12px;
+      color: var(--grigio-testo); font-size: 0.9rem;
+    }
+    .mappa-icona { font-size: 2.5rem; }
+    .mappa-nota { font-size: 0.75rem; color: #bbb; }
+
+    /* AREA CLIENTI */
+    .documenti-intro {
+      background: var(--blu);
+      border-radius: 12px;
+      color: #fff;
+      padding: 32px 36px;
+      margin-bottom: 32px;
+      display: flex; align-items: center; gap: 20px;
+    }
+    .documenti-intro-icona { font-size: 2rem; flex-shrink: 0; }
+    .documenti-intro h3 { font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: 4px; }
+    .documenti-intro p { font-size: 0.86rem; color: rgba(255,255,255,0.65); line-height: 1.6; }
+    .documenti-lista { display: flex; flex-direction: column; gap: 10px; }
+    .documento-riga {
+      display: flex; align-items: center; gap: 14px;
+      background: #fff;
+      border: 1px solid var(--grigio-bordo);
+      border-radius: 8px;
+      padding: 16px 20px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .documento-riga:hover { border-color: var(--blu-medio); box-shadow: 0 2px 8px rgba(37,99,171,0.07); }
+    .documento-icona { font-size: 1.3rem; flex-shrink: 0; }
+    .documento-info { flex: 1; }
+    .documento-nome { font-size: 0.9rem; font-weight: 600; color: var(--nero-soft); }
+    .documento-tipo { font-size: 0.75rem; color: var(--grigio-testo); margin-top: 2px; }
+    .documento-btn {
+      background: var(--blu-chiaro);
+      border: none;
+      color: var(--blu-medio);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 8px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .documento-btn:hover { background: var(--blu); color: #fff; }
+
+    /* OVERLAY */
+    .form-download-overlay {
+      display: none; position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 2000; align-items: center; justify-content: center;
+    }
+    .form-download-overlay.aperto { display: flex; }
+    .form-download-box {
+      background: #fff; padding: 40px;
+      max-width: 440px; width: 90%;
+      border-radius: 14px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    }
+    .form-download-box h3 { font-size: 1.2rem; font-weight: 700; color: var(--nero-soft); margin-bottom: 8px; }
+    .form-download-box p { font-size: 0.86rem; color: var(--grigio-testo); margin-bottom: 24px; line-height: 1.6; }
+    .form-campo { margin-bottom: 14px; }
+    .form-campo label { display: block; font-size: 0.78rem; font-weight: 600; color: var(--nero-soft); margin-bottom: 6px; }
+    .form-campo input, .form-campo select, .form-campo textarea {
+      width: 100%; padding: 11px 14px;
+      border: 1px solid var(--grigio-bordo);
+      border-radius: 6px;
+      font-size: 0.9rem; color: #333;
+      outline: none; background: #fff;
+      transition: border-color 0.2s;
+    }
+    .form-campo input:focus, .form-campo select:focus, .form-campo textarea:focus { border-color: var(--blu-medio); box-shadow: 0 0 0 3px rgba(37,99,171,0.1); }
+    .form-campo textarea { resize: vertical; min-height: 110px; }
+    .form-download-azioni { display: flex; gap: 10px; margin-top: 20px; }
+    .btn-annulla {
+      background: var(--grigio-sf); border: 1px solid var(--grigio-bordo);
+      color: var(--grigio-testo); padding: 11px 20px;
+      border-radius: 6px; font-size: 0.85rem; cursor: pointer;
+    }
+
+    /* AREA ADVISOR */
+    .login-box {
+      max-width: 420px; margin: 0 auto;
+      background: #fff;
+      border: 1px solid var(--grigio-bordo);
+      border-radius: 14px;
+      padding: 48px 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    .login-box h3 { font-size: 1.2rem; font-weight: 700; color: var(--nero-soft); margin-bottom: 6px; text-align: center; }
+    .login-box p { font-size: 0.85rem; color: var(--grigio-testo); text-align: center; margin-bottom: 28px; line-height: 1.6; }
+    .login-sep { width: 40px; height: 3px; background: var(--blu); border-radius: 2px; margin: 12px auto 24px; }
+
+    /* CONTATTI */
+    .contatti-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
+    .contatto-info-lista { display: flex; flex-direction: column; gap: 20px; margin-bottom: 32px; }
+    .contatto-info-item { display: flex; align-items: flex-start; gap: 14px; }
+    .contatto-icona {
+      width: 42px; height: 42px;
+      background: var(--blu-chiaro);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; flex-shrink: 0;
+    }
+    .contatto-testo strong { font-size: 0.78rem; font-weight: 700; color: var(--grigio-testo); letter-spacing: 0.5px; text-transform: uppercase; display: block; margin-bottom: 2px; }
+    .contatto-testo span { font-size: 0.9rem; color: var(--nero-soft); }
+    .form-contatto { display: flex; flex-direction: column; gap: 12px; }
+    .form-riga { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .form-nota { font-size: 0.75rem; color: #aaa; line-height: 1.6; }
+
+    /* NUMERI */
+    .numeri-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .numero-box {
+      background: #fff;
+      border: 1px solid var(--grigio-bordo);
+      border-radius: 10px;
+      padding: 32px 20px;
+      text-align: center;
+    }
+    .numero-valore { font-size: 2.4rem; font-weight: 700; color: var(--blu); display: block; }
+    .numero-label { font-size: 0.76rem; color: var(--grigio-testo); margin-top: 6px; display: block; letter-spacing: 0.5px; }
+
+    /* FOOTER */
+    .footer {
+      background: var(--nero-soft);
+      padding: 60px 5% 28px;
+    }
+    .footer-grid { max-width: 1100px; margin: 0 auto 40px; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 52px; }
+    .footer-logo-wrap { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; }
+    .footer-logo-q { width: 36px; height: 36px; background: var(--blu); border-radius: 7px; display: flex; align-items: center; justify-content: center; color: var(--oro); font-family: Georgia, serif; font-size: 1.2rem; font-weight: bold; }
+    .footer-logo-nome { font-size: 1rem; font-weight: 700; color: #fff; }
+    .footer-logo-nome span { color: var(--oro); }
+    .footer-descr { font-size: 0.82rem; color: rgba(255,255,255,0.4); line-height: 1.8; margin-bottom: 16px; }
+    .footer-dati { font-size: 0.75rem; color: rgba(255,255,255,0.25); line-height: 1.9; }
+    .footer-col-titolo { font-size: 0.72rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 16px; }
+    .footer-col a { display: block; font-size: 0.82rem; color: rgba(255,255,255,0.5); text-decoration: none; line-height: 2.2; transition: color 0.2s; }
+    .footer-col a:hover { color: #fff; }
+    .footer-bottom {
+      max-width: 1100px; margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding-top: 20px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 0.75rem; color: rgba(255,255,255,0.25);
+    }
+    .footer-bottom a { color: rgba(255,255,255,0.25); text-decoration: none; }
+    .footer-bottom a:hover { color: var(--oro); }
+
+    /* WHATSAPP */
+    .whatsapp-fisso {
+      position: fixed; bottom: 28px; right: 28px; z-index: 900;
+      width: 54px; height: 54px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 16px rgba(37,211,102,0.35);
+      text-decoration: none;
+      font-size: 1.5rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .whatsapp-fisso:hover { transform: scale(1.08); box-shadow: 0 6px 24px rgba(37,211,102,0.45); }
+
+    /* ANIMAZIONI */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-up { animation: fadeUp 0.7s ease forwards; }
+    .delay-1 { animation-delay: 0.15s; opacity: 0; }
+    .delay-2 { animation-delay: 0.3s; opacity: 0; }
+    .delay-3 { animation-delay: 0.45s; opacity: 0; }
+    .delay-4 { animation-delay: 0.6s; opacity: 0; }
+    .anima { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .anima.visibile { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 1000px) {
+      .hero-corpo { flex-direction: column; gap: 40px; }
+      .hero-destra { width: 100%; max-width: 420px; margin: 0 auto; }
+    }
+    @media (max-width: 900px) {
+      .pilastri-grid, .soci-grid, .struttura-figli, .valori-grid, .sedi-grid, .contatti-grid { grid-template-columns: 1fr; }
+      .servizi-griglia { grid-template-columns: 1fr; }
+      .confronto-wrap, .advisor-griglia { grid-template-columns: 1fr; }
+      .numeri-grid { grid-template-columns: repeat(2,1fr); }
+      .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+      .header-nav { display: none; }
+    }
+    @media (max-width: 600px) {
+      #home h1 { font-size: 2rem; }
+      .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+      .form-riga { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="versione-label">Versione B — Moderna</div>
+
+<!-- HEADER -->
+<header class="header">
+  <a href="#home" class="header-logo">
+    <div class="logo-q">Q</div>
+    <span class="logo-nome">QUANTUM <span>ADVISOR</span></span>
+  </a>
+  <nav class="header-nav">
+    <a href="#home">Home</a>
+    <a href="#chi-siamo">Chi siamo</a>
+    <a href="#servizi">Servizi</a>
+    <a href="#sedi">Sedi</a>
+    <a href="#area-clienti">Area Clienti</a>
+    <a href="#contatti" class="btn-header">Contattaci</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-bg-geo">
+    <div class="hero-cerchio hero-cerchio-1"></div>
+    <div class="hero-cerchio hero-cerchio-2"></div>
+    <div class="hero-cerchio hero-cerchio-3"></div>
+    <div class="hero-linea-diag hero-ld-1"></div>
+    <div class="hero-linea-diag hero-ld-2"></div>
+  </div>
+
+  <div class="hero-corpo">
+    <div class="hero-sinistra">
+      <div class="hero-tag fade-up">Gruppo Vanguard — Quantum Advisor</div>
+
+      <h1 class="fade-up delay-1">
+        Tu sai già<br>cosa è successo.<br>
+        L'<span class="accento">Advisor</span><br>sa cosa fare adesso.
+      </h1>
+
+      <p class="hero-p fade-up delay-2">
+        Il commercialista registra il passato.<br>
+        <strong>L'Advisor Quantum costruisce il futuro della tua azienda — ogni giorno.</strong><br>
+        Finanza, assicurazioni, amministrazione: un unico interlocutore.
+      </p>
+
+      <div class="hero-bottoni fade-up delay-3">
+        <a href="#advisor" class="btn-primario">Scopri cos'è l'Advisor</a>
+        <a href="#contatti" class="btn-secondario">Parla con noi</a>
+      </div>
+
+      <div class="hero-trust fade-up delay-4">
+        <div class="hero-trust-item">3 società operative</div>
+        <div class="hero-trust-item">Roma · Fermo · Cosenza</div>
+        <div class="hero-trust-item">Agenzia Allianz</div>
+      </div>
+    </div>
+
+    <div class="hero-destra fade-up delay-2">
+      <div class="hero-card-stats">
+        <div class="hero-card-titolo">Quantum in numeri</div>
+        <div class="stat-item">
+          <span class="stat-label">PMI senza Advisor</span>
+          <span class="stat-val oro" data-target="83" data-suffix="%">0%</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Società operative</span>
+          <span class="stat-val" data-target="3" data-suffix="">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Sedi in Italia</span>
+          <span class="stat-val" data-target="3" data-suffix="">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Copertura servizi</span>
+          <span class="stat-val oro">360°</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-striscia">
+    <div class="striscia-item">
+      <span class="striscia-num">Finanza</span>
+      <span class="striscia-label">Straordinaria e strutturata</span>
+    </div>
+    <div class="striscia-sep"></div>
+    <div class="striscia-item">
+      <span class="striscia-num">Allianz</span>
+      <span class="striscia-label">Assicurazioni e welfare</span>
+    </div>
+    <div class="striscia-sep"></div>
+    <div class="striscia-item">
+      <span class="striscia-num">Paghe</span>
+      <span class="striscia-label">Contabilità e formazione</span>
+    </div>
+    <div class="striscia-sep"></div>
+    <div class="striscia-item">
+      <span class="striscia-num">AI</span>
+      <span class="striscia-label">Formazione per PMI</span>
+    </div>
+  </div>
+</section>
+
+<!-- ADVISOR -->
+<section class="advisor-sezione" id="advisor">
+  <div class="sezione-max">
+    <div class="sezione-header">
+      <div class="sezione-tag" style="background:rgba(201,169,110,0.15);color:var(--oro-chiaro);">La differenza che conta</div>
+      <h2 class="sezione-titolo sezione-titolo-bianco">Cos'è un Advisor — e perché fa la differenza</h2>
+      <p class="sezione-intro sezione-intro-bianco">In Italia quasi nessuno lo spiega chiaramente. Proviamo a farlo noi.</p>
+    </div>
+
+    <div class="confronto-wrap">
+      <div class="confronto-card confronto-card-grigio">
+        <div class="confronto-label"><div class="dot"></div>Il commercialista</div>
+        <p class="confronto-testo">Registra le operazioni passate. Prepara le dichiarazioni fiscali. Ti dice com'è andata l'anno scorso.<br><br>È indispensabile. Ma guarda indietro.</p>
+      </div>
+      <div class="confronto-card confronto-card-blu">
+        <div class="confronto-label"><div class="dot"></div>L'Advisor Quantum</div>
+        <p class="confronto-testo confronto-testo-bianco">Analizza la situazione attuale. Identifica i rischi prima che diventino problemi. Consiglia le azioni concrete da fare adesso.<br><br>Guarda avanti — <strong>insieme a te.</strong></p>
+      </div>
+    </div>
+
+    <div class="advisor-griglia">
+      <div class="advisor-box">
+        <span class="advisor-box-icona">🔍</span>
+        <div class="advisor-box-titolo">Analisi continua</div>
+        <div class="advisor-box-testo">Monitora la salute dell'azienda ogni mese, non solo a fine anno</div>
+      </div>
+      <div class="advisor-box">
+        <span class="advisor-box-icona">⚡</span>
+        <div class="advisor-box-titolo">Decisioni veloci</div>
+        <div class="advisor-box-testo">Quando arriva un'opportunità o un problema, sai già cosa fare</div>
+      </div>
+      <div class="advisor-box">
+        <span class="advisor-box-icona">📋</span>
+        <div class="advisor-box-titolo">Normative aggiornate</div>
+        <div class="advisor-box-testo">Leggi, bandi, agevolazioni: l'Advisor li conosce prima che arrivino da te</div>
+      </div>
+      <div class="advisor-box">
+        <span class="advisor-box-icona">🎯</span>
+        <div class="advisor-box-titolo">Strategia su misura</div>
+        <div class="advisor-box-testo">Non consigli generici: un piano costruito sulla tua azienda specifica</div>
+      </div>
+    </div>
+
+    <div class="advisor-dato">
+      <div class="advisor-dato-num">16%</div>
+      <div class="advisor-dato-testo">
+        <strong>Solo il 16% delle PMI italiane ha un rapporto davvero consulenziale</strong> con i propri professionisti. L'84% riceve solo dichiarazioni fiscali.<br>
+        Quella differenza si vede nei risultati: nelle opportunità colte, nei rischi evitati, nelle decisioni prese al momento giusto.
+      </div>
+    </div>
+
+    <div class="advisor-cta">
+      <a href="#contatti" class="btn-primario">Voglio un Advisor per la mia azienda</a>
+    </div>
+  </div>
+</section>
+
+<!-- TRE PILASTRI -->
+<section class="sezione">
+  <div class="sezione-max">
+    <div class="sezione-header">
+      <div class="sezione-tag">Le nostre competenze</div>
+      <h2 class="sezione-titolo">Un gruppo, tre specializzazioni</h2>
+      <p class="sezione-intro">Quantum riunisce competenze complementari che ogni impresa deve avere al proprio fianco: dalla finanza straordinaria alle assicurazioni, dall'amministrazione alla formazione.</p>
+    </div>
+    <div class="pilastri-grid">
+      <div class="pilastro-card blu">
+        <div class="pilastro-icona-wrap blu">📊</div>
+        <h3 class="pilastro-titolo">Finanza e consulenza straordinaria</h3>
+        <p class="pilastro-testo">Acquisizioni, cessioni, passaggi generazionali, ristrutturazioni del debito. Accompagniamo le imprese nelle operazioni che cambiano il futuro.</p>
+        <a href="#servizi" class="pilastro-link">Scopri i servizi →</a>
+      </div>
+      <div class="pilastro-card verde">
+        <div class="pilastro-icona-wrap verde">🛡️</div>
+        <h3 class="pilastro-titolo">Assicurazioni e welfare aziendale</h3>
+        <p class="pilastro-testo">Agenzia di città Allianz. Polizze sanitarie, welfare strutturato, previdenza complementare e soluzioni su misura per aziende e professionisti.</p>
+        <a href="#servizi" class="pilastro-link">Scopri i servizi →</a>
+      </div>
+      <div class="pilastro-card oro">
+        <div class="pilastro-icona-wrap oro">📋</div>
+        <h3 class="pilastro-titolo">Amministrazione, paghe e formazione</h3>
+        <p class="pilastro-testo">Contabilità, gestione paghe, sicurezza sul lavoro, privacy GDPR e formazione AI per preparare le persone alle sfide di domani.</p>
+        <a href="#servizi" class="pilastro-link">Scopri i servizi →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="sezione sezione-chiara">
+  <div class="sezione-max">
+    <div class="sezione-header">
+      <div class="sezione-tag">Chi siamo in 3 minuti</div>
+      <h2 class="sezione-titolo">Il gruppo in parole nostre</h2>
+      <p class="sezione-intro">Massimo Pichetti presenta Quantum Advisor e spiega perché ogni PMI ha bisogno di un Advisor al proprio fianco.</p>
+    </div>
+    <div class="video-placeholder">
+      <div class="video-play"></div>
+      <p class="video-titolo">Quantum Advisor — presentazione del gruppo</p>
+      <p class="video-sottotitolo">Massimo Pichetti, Presidente</p>
+      <p class="video-nota">Video in arrivo — sarà inserito prima della pubblicazione</p>
+    </div>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<div class="quiz-box">
+  <h2>Scopri di cosa ha bisogno la tua azienda</h2>
+  <p>Rispondi a 5 domande e ricevi una prima valutazione gratuita su quali servizi Quantum fanno al caso tuo.</p>
+  <a href="#contatti" class="btn-bianco">Inizia la diagnosi gratuita →</a>
+</div>
+
+<!-- CHI SIAMO -->
+<section class="sezione" id="chi-siamo">
+  <div class="sezione-max">
+    <div class="sezione-header">
+      <div class="sezione-tag">Il gruppo</div>
+      <h2 class="sezione-titolo">Chi siamo</h2>
+      <p class="sezione-intro">Quantum nasce dalla volontà di offrire alle imprese italiane un supporto professionale completo e integrato. Non una singola consulenza, ma un gruppo strutturato con competenze complementari.</p>
+    </div>
+
+    <div class="struttura-wrap">
+      <div class="struttura-titolo">Struttura del gruppo Vanguard</div>
+      <div class="struttura-holding">
+        <span class="struttura-holding-nome">Vanguard Holding S.r.l.</span>
+        <span class="struttura-holding-sub">Presidente: Massimo Pichetti · Consiglieri: Claudia Bracalente · Marco Modesti</span>
+      </div>
+      <div class="struttura-connettore"></div>
+      <div class="struttura-figli">
+        <div class="struttura-figlia">
+          <div class="struttura-figlia-dot dot-blu"></div>
+          <span class="struttura-figlia-nome">Quantum S.r.l.</span>
+          <span class="struttura-figlia-sub">Finanza e consulenza straordinaria</span>
+        </div>
+        <div class="struttura-figlia">
+          <div class="struttura-figlia-dot dot-verde"></div>
+          <span class="struttura-figlia-nome">Quantum Salute e Previdenza S.r.l.</span>
+          <span class="struttura-figlia-sub">Assicurazioni Allianz e welfare</span>
+        </div>
+        <div class="struttura-figlia">
+          <div class="struttura-figlia-dot dot-oro"></div>
+          <span class="struttura-figlia-nome">Amministrazione e Formazione S.r.l.</span>
+          <span class="struttura-figlia-sub">Paghe, contabilità e formazione</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sezione-header" style="margin-bottom:32px;">
+      <div class="sezione-tag">I nostri valori</div>
+      <h3 class="sezione-titolo" style="font-size:1.5rem;">La nostra missione</h3>
+    </div>
+    <div class="valori-grid" style="margin-bottom:60px;">
+      <div class="valore-box">
+        <span class="valore-icona">🔗</span>
+        <h4 class="valore-titolo">Competenza integrata</h4>
+        <p class="valore-testo">Uniamo finanza, assicurazioni e amministrazione in un unico interlocutore. Il cliente non cerca più professionisti: li trova tutti qui.</p>
+      </div>
+      <div class="valore-box">
+        <span class="valore-icona">📍</span>
+        <h4 class="valore-titolo">Presenza diretta</h4>
+        <p class="valore-testo">Operativi a Roma, Fermo e Cosenza. Non rispondiamo da lontano: siamo presenti, conosciamo il territorio e i suoi professionisti.</p>
+      </div>
+      <div class="valore-box">
+        <span class="valore-icona">📈</span>
+        <h4 class="valore-titolo">Risultati misurabili</h4>
+        <p class="valore-testo">Ogni intervento ha un obiettivo concreto. Che si tratti di una ristrutturazione o di un piano welfare, il nostro lavoro si misura sui risultati.</p>
+      </div>
+    </div>
+
+    <div class="sezione-header" style="margin-bottom:32px;">
+      <div class="sezione-tag">Il team</div>
+      <h3 class="sezione-titolo" style="font-size:1.5rem;">Le persone</h3>
+    </div>
+    <div class="soci-grid">
+      <div class="socio-card">
+        <div class="socio-foto">Foto in arrivo</div>
+        <h4 class="socio-nome">Massimo Pichetti</h4>
+        <span class="socio-ruolo">Presidente — Vanguard Holding</span>
+        <p class="socio-bio">Fondatore del gruppo Quantum. Esperienza pluridecennale nella consulenza aziendale, finanza straordinaria e sviluppo d'impresa.</p>
+      </div>
+      <div class="socio-card">
+        <div class="socio-foto">Foto in arrivo</div>
+        <h4 class="socio-nome">Claudia Bracalente</h4>
+        <span class="socio-ruolo">Consigliere — Vanguard Holding</span>
+        <p class="socio-bio">Professionista con solida esperienza in area amministrativa e gestionale. Coordina contabilità, paghe e compliance aziendale.</p>
+      </div>
+      <div class="socio-card">
+        <div class="socio-foto">Foto in arrivo</div>
+        <h4 class="socio-nome">Marco Modesti</h4>
+        <span class="socio-ruolo">Consigliere — Vanguard Holding</span>
+        <p class="socio-bio">Specialista in materia legale e societaria. Supporta il gruppo nelle operazioni di riorganizzazione e ristrutturazione.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIZI -->
+<section class="sezione sezione-chiara" id="servizi">
+  <div class="sezione-max">
+    <div class="sezione-header">
+      <div class="sezione-tag-verde sezione-tag">I nostri servizi</div>
+      <h2 class="sezione-titolo">Tre società, una sola consulenza</h2>
+      <p class="sezione-intro">Scegli la società di riferimento per approfondire i servizi disponibili.</p>
+    </div>
+
+    <div class="tab-nav">
+      <button class="tab-btn attivo" onclick="mostraTab('quantum')">Quantum S.r.l.</button>
+      <button class="tab-btn" onclick="mostraTab('salute')">Quantum Salute e Previdenza</button>
+      <button class="tab-btn" onclick="mostraTab('amm')">Amministrazione e Formazione</button>
+    </div>
+
+    <div class="tab-contenuto attivo" id="tab-quantum">
+      <div class="societa-header">
+        <h3 class="societa-titolo">Quantum S.r.l.</h3>
+        <p class="societa-descr">Advisor per finanza strutturata, operazioni straordinarie, passaggio generazionale e crisi d'impresa. Sedi operative a Roma e Fermo.</p>
+      </div>
+      <div class="servizi-griglia">
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Acquisizioni, cessioni e fusioni aziendali</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Ristrutturazione del debito</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Passaggio generazionale</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Business plan e piani industriali</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Dossier per banche e investitori</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Finanziamenti agevolati e bandi</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Riorganizzazione aziendale</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Operazioni straordinarie e riqualificazione societaria</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Crisi d'impresa, turnaround e composizione negoziata</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Compliance aziendale e supporto legale</span></div>
+      </div>
+    </div>
+
+    <div class="tab-contenuto" id="tab-salute">
+      <div class="societa-header">
+        <h3 class="societa-titolo">Quantum Salute e Previdenza S.r.l.</h3>
+        <p class="societa-descr">Agenzia di città Allianz con sedi a Roma, Fermo e Cosenza. Prodotti assicurativi e soluzioni welfare per aziende e privati.</p>
+        <div class="allianz-badge">🔷 Agenzia di Città Allianz</div>
+      </div>
+      <div class="servizi-griglia">
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Prodotti assicurativi Allianz per aziende e privati</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Welfare aziendale strutturato</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Prodotti MB Cassa</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Polizze sanitarie collettive</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Fringe benefit</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Previdenza complementare</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Analisi costi fissi aziendali</span></div>
+      </div>
+    </div>
+
+    <div class="tab-contenuto" id="tab-amm">
+      <div class="societa-header">
+        <h3 class="societa-titolo">Amministrazione e Formazione S.r.l.</h3>
+        <p class="societa-descr">Servizi di elaborazione dati, contabilità, paghe e formazione del personale. Sedi a Roma e Fermo.</p>
+      </div>
+      <div class="servizi-griglia">
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Elaborazione dati e contabilità</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Gestione paghe e cedolini</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Formazione professionale</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Formazione AI per PMI (FNC)</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Sicurezza sul lavoro (DVR, RSPP, RLS)</span></div>
+        <div class="servizio-item"><div class="servizio-check">✓</div><span class="servizio-nome">Privacy e GDPR</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEDI -->
+<section class="sezione" id="sedi">
+  <div class="sezione-max">
+    <div class="sezione-header">
+      <div class="sezione-tag">Dove siamo</div>
+      <h2 class="sezione-titolo">Sedi e agenzie</h2>
+      <p class="sezione-intro">Presenti in tre città italiane con sedi operative e agenzie Allianz.</p>
+    </div>
+    <div class="sedi-grid">
+      <div class="sede-card">
+        <span class="sede-tipo">Sede principale · Allianz</span>
+        <div class="sede-citta">Roma</div>
+        <div class="sede-info">
+          <strong>Indirizzo</strong> Via Castelfondo 13, 00124 Roma<br>
+          <strong>Telefono</strong> [da inserire]<br>
+          <strong>Email</strong> [da inserire]<br>
+          <strong>Orari</strong> Lun–Ven 9:00–18:00
+        </div>
+      </div>
+      <div class="sede-card">
+        <span class="sede-tipo">Sede operativa · Allianz</span>
+        <div class="sede-citta">Fermo</div>
+        <div class="sede-info">
+          <strong>Indirizzo</strong> [da inserire]<br>
+          <strong>Telefono</strong> [da inserire]<br>
+          <strong>Email</strong> [da inserire]<br>
+          <strong>Orari</strong> Lun–Ven 9:00–18:00
+        </div>
+      </div>
+      <div class="sede-card">
+        <span class="sede-tipo">Agenzia Allianz</span>
+        <div class="sede-citta">Cosenza</div>
+        <div class="sede-info">
+          <strong>Indirizzo</strong> [da inserire]<br>
+          <strong>Telefono</strong> [da inserire]<br>
+          <strong>Email</strong> [da inserire]<br>
+          <strong>Orari</strong> Lun–Ven 9:00–18:00
+        </div>
+      </div>
+    </div>
+    <div class="mappa-placeholder">
+      <span class="mappa-icona">🗺️</span>
+      <span>Mappa interattiva — Roma · Fermo · Cosenza</span>
+      <span class="mappa-nota">La mappa cliccabile sarà attiva nella versione WordPress online</span>
+    </div>
+  </div>
+</section>
+
+<!-- AREA CLIENTI -->
+<section class="sezione sezione-chiara" id="area-clienti">
+  <div class="sezione-max">
+    <div class="sezione-header">
+      <div class="sezione-tag-oro sezione-tag">Risorse gratuite</div>
+      <h2 class="sezione-titolo">Area Clienti</h2>
+      <p class="sezione-intro">Documenti, guide e materiali informativi messi a disposizione da Quantum. Scarica gratuitamente inserendo il tuo nome e la tua email.</p>
+    </div>
+    <div class="documenti-intro">
+      <span class="documenti-intro-icona">📁</span>
+      <div>
+        <h3>Documenti disponibili</h3>
+        <p>Guida al passaggio generazionale · Checklist welfare aziendale · Guida finanziamenti 2026 · Composizione negoziata della crisi</p>
+      </div>
+    </div>
+    <div class="documenti-lista">
+      <div class="documento-riga">
+        <span class="documento-icona">📄</span>
+        <div class="documento-info">
+          <div class="documento-nome">Guida pratica al passaggio generazionale</div>
+          <div class="documento-tipo">PDF · Quantum S.r.l. · 2026</div>
+        </div>
+        <button class="documento-btn" onclick="apriFormDownload()">Scarica</button>
+      </div>
+      <div class="documento-riga">
+        <span class="documento-icona">📄</span>
+        <div class="documento-info">
+          <div class="documento-nome">Checklist welfare aziendale per PMI</div>
+          <div class="documento-tipo">PDF · Quantum Salute e Previdenza · 2026</div>
+        </div>
+        <button class="documento-btn" onclick="apriFormDownload()">Scarica</button>
+      </div>
+      <div class="documento-riga">
+        <span class="documento-icona">📄</span>
+        <div class="documento-info">
+          <div class="documento-nome">Guida ai finanziamenti agevolati 2026</div>
+          <div class="documento-tipo">PDF · Quantum S.r.l. · 2026</div>
+        </div>
+        <button class="documento-btn" onclick="apriFormDownload()">Scarica</button>
+      </div>
+      <div class="documento-riga">
+        <span class="documento-icona">📄</span>
+        <div class="documento-info">
+          <div class="documento-nome">Introduzione alla composizione negoziata della crisi</div>
+          <div class="documento-tipo">PDF · Quantum S.r.l. · 2026</div>
+        </div>
+        <button class="documento-btn" onclick="apriFormDownload()">Scarica</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OVERLAY DOWNLOAD -->
+<div class="form-download-overlay" id="overlayDownload">
+  <div class="form-download-box">
+    <h3>Scarica il documento</h3>
+    <p>Inserisci il tuo nome e la tua email. Riceverai anche aggiornamenti su normative e opportunità dal team Quantum.</p>
+    <div class="form-campo">
+      <label>Nome e cognome</label>
+      <input type="text" placeholder="Mario Rossi">
+    </div>
+    <div class="form-campo">
+      <label>Email aziendale</label>
+      <input type="email" placeholder="mario.rossi@azienda.it">
+    </div>
+    <div class="form-download-azioni">
+      <button class="btn-annulla" onclick="chiudiFormDownload()">Annulla</button>
+      <button class="btn-primario" onclick="chiudiFormDownload()">Scarica ora</button>
+    </div>
+  </div>
+</div>
+
+<!-- AREA ADVISOR -->
+<section class="sezione" id="area-advisor">
+  <div class="sezione-max">
+    <div class="sezione-header">
+      <div class="sezione-tag">Riservato</div>
+      <h2 class="sezione-titolo">Area Advisor</h2>
+      <p class="sezione-intro">Accesso riservato agli advisor e consulenti del gruppo Quantum. Materiale commerciale, schede tecniche e documentazione interna.</p>
+    </div>
+    <div class="login-box">
+      <h3>Accesso riservato</h3>
+      <div class="login-sep"></div>
+      <p>Inserisci le tue credenziali per accedere ai documenti riservati agli advisor Quantum.</p>
+      <div class="form-campo">
+        <label>Email</label>
+        <input type="email" placeholder="nome@quantumadvisor.it">
+      </div>
+      <div class="form-campo" style="margin-top:12px;">
+        <label>Password</label>
+        <input type="password" placeholder="••••••••">
+      </div>
+      <button class="btn-primario" style="width:100%;margin-top:18px;text-align:center;">Accedi</button>
+      <p style="text-align:center;margin-top:14px;font-size:0.78rem;color:#aaa;">Problemi? Scrivi a <a href="mailto:info@quantumadvisor.it" style="color:var(--blu-medio);">info@quantumadvisor.it</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATTI -->
+<section class="sezione sezione-chiara" id="contatti">
+  <div class="sezione-max">
+    <div class="sezione-header">
+      <div class="sezione-tag">Parliamo</div>
+      <h2 class="sezione-titolo">Parliamo della tua azienda</h2>
+      <p class="sezione-intro">Che si tratti di una prima valutazione o di un progetto definito, siamo disponibili ad ascoltarti.</p>
+    </div>
+    <div class="contatti-grid">
+      <div>
+        <div class="contatto-info-lista">
+          <div class="contatto-info-item">
+            <div class="contatto-icona">📍</div>
+            <div class="contatto-testo">
+              <strong>Sede principale</strong>
+              <span>Via Castelfondo 13, 00124 Roma</span>
+            </div>
+          </div>
+          <div class="contatto-info-item">
+            <div class="contatto-icona">📞</div>
+            <div class="contatto-testo">
+              <strong>Telefono</strong>
+              <span>[da inserire]</span>
+            </div>
+          </div>
+          <div class="contatto-info-item">
+            <div class="contatto-icona">✉️</div>
+            <div class="contatto-testo">
+              <strong>Email</strong>
+              <span>info@quantumadvisor.it</span>
+            </div>
+          </div>
+          <div class="contatto-info-item">
+            <div class="contatto-icona">💬</div>
+            <div class="contatto-testo">
+              <strong>WhatsApp</strong>
+              <span>Scrivici direttamente su WhatsApp</span>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn-primario">Prenota una call →</a>
+      </div>
+      <form class="form-contatto" onsubmit="return false;">
+        <div class="form-riga">
+          <div class="form-campo">
+            <label>Nome e cognome</label>
+            <input type="text" placeholder="Mario Rossi">
+          </div>
+          <div class="form-campo">
+            <label>Azienda</label>
+            <input type="text" placeholder="Rossi S.r.l.">
+          </div>
+        </div>
+        <div class="form-campo">
+          <label>Email</label>
+          <input type="email" placeholder="mario.rossi@azienda.it">
+        </div>
+        <div class="form-campo">
+          <label>Tipo di richiesta</label>
+          <select>
+            <option value="">Seleziona un servizio</option>
+            <option>Finanza straordinaria</option>
+            <option>Passaggio generazionale</option>
+            <option>Ristrutturazione del debito</option>
+            <option>Business plan e piano industriale</option>
+            <option>Crisi d'impresa e composizione negoziata</option>
+            <option>Assicurazioni e welfare aziendale</option>
+            <option>Contabilità e gestione paghe</option>
+            <option>Formazione professionale e AI</option>
+            <option>Altro</option>
+          </select>
+        </div>
+        <div class="form-campo">
+          <label>Messaggio</label>
+          <textarea placeholder="Descrivi brevemente la tua situazione..."></textarea>
+        </div>
+        <p class="form-nota">I tuoi dati sono trattati nel rispetto del GDPR e non vengono condivisi con terzi.</p>
+        <button type="submit" class="btn-primario">Invia la richiesta</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo-wrap">
+        <div class="footer-logo-q">Q</div>
+        <span class="footer-logo-nome">QUANTUM <span>ADVISOR</span></span>
+      </div>
+      <p class="footer-descr">Quantum è il gruppo di consulenza che affianca le imprese italiane nelle decisioni strategiche. Finanza, assicurazioni, amministrazione e formazione sotto un unico tetto professionale.</p>
+      <div class="footer-dati">
+        Quantum S.r.l. · C.F./P.IVA 18439461007<br>
+        Via Castelfondo 13, 00124 Roma · PEC: quantum@pec.cloud
+      </div>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-titolo">Servizi</div>
+      <a href="#servizi">Finanza straordinaria</a>
+      <a href="#servizi">Passaggio generazionale</a>
+      <a href="#servizi">Assicurazioni Allianz</a>
+      <a href="#servizi">Welfare aziendale</a>
+      <a href="#servizi">Contabilità e paghe</a>
+      <a href="#servizi">Formazione AI</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-titolo">Azienda</div>
+      <a href="#chi-siamo">Chi siamo</a>
+      <a href="#sedi">Sedi e agenzie</a>
+      <a href="#area-clienti">Area Clienti</a>
+      <a href="#area-advisor">Area Advisor</a>
+      <a href="#contatti">Contatti</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Quantum S.r.l. — Tutti i diritti riservati</span>
+    <span><a href="#">Privacy Policy</a> · <a href="#">Note legali</a></span>
+  </div>
+</footer>
+
+<a href="https://wa.me/39NUMERODAINSERIRE" class="whatsapp-fisso" title="Scrivici su WhatsApp">💬</a>
+
+<script>
+  function mostraTab(id) {
+    document.querySelectorAll('.tab-contenuto').forEach(el => el.classList.remove('attivo'));
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('attivo'));
+    document.getElementById('tab-' + id).classList.add('attivo');
+    event.target.classList.add('attivo');
+  }
+  function apriFormDownload() {
+    document.getElementById('overlayDownload').classList.add('aperto');
+  }
+  function chiudiFormDownload() {
+    document.getElementById('overlayDownload').classList.remove('aperto');
+  }
+  document.getElementById('overlayDownload').addEventListener('click', function(e) {
+    if (e.target === this) chiudiFormDownload();
+  });
+
+  window.addEventListener('scroll', function() {
+    const h = document.querySelector('.header');
+    h.style.boxShadow = window.scrollY > 40 ? '0 2px 20px rgba(0,0,0,0.1)' : '0 1px 12px rgba(0,0,0,0.07)';
+  });
+
+  // Scroll reveal
+  (function() {
+    const els = document.querySelectorAll('.pilastro-card, .socio-card, .sede-card, .servizio-item, .valore-box, .advisor-box, .numero-box, .struttura-figlia');
+    els.forEach(el => el.classList.add('anima'));
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visibile'); obs.unobserve(e.target); } });
+    }, { threshold: 0.08 });
+    els.forEach(el => obs.observe(el));
+  })();
+
+  // Numeri che contano
+  (function() {
+    const numeri = document.querySelectorAll('[data-target]');
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const el = entry.target;
+        const target = parseInt(el.dataset.target);
+        const suffix = el.dataset.suffix || '';
+        let inizio = null;
+        const durata = 1200;
+        function step(ts) {
+          if (!inizio) inizio = ts;
+          const p = Math.min((ts - inizio) / durata, 1);
+          el.textContent = Math.round((1 - Math.pow(1-p, 3)) * target) + suffix;
+          if (p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+        obs.unobserve(el);
+      });
+    }, { threshold: 0.5 });
+    numeri.forEach(el => obs.observe(el));
+  })();
+</script>
+</body>
+</html>
