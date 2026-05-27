@@ -5,15 +5,22 @@ Aggiornato: 2026-05-27
 
 ## 🔴 MOBILCOM — RGE 1/2022 [URGENTE]
 
-Stato: Dossier Network Bresciano AGGIORNATO (27/05/2026) con visure DEX, ACE Sas, Kronos. Quadro rete completo.
-Prossima azione: Oscar consegna a Di Salvatore — istanza v5 + dossier aggiornato + sintesi.
+Stato: Dossier Network Bresciano COMPLETO (27/05/2026) con visure DEX, ACE Sas, Kronos + bilancio DEX 2024-2025. Quadro rete completo con prova contabile del pagamento tramite soci.
+Prossima azione: Oscar consegna a Di Salvatore — istanza v5 + dossier aggiornato + due sintesi.
 Blocco: nessun blocco tecnico. La decisione di depositare è di Di Salvatore.
 **Opposizione ex art. 617 c.p.c. — ABBANDONATA (27/05/2026): Di Salvatore non intende depositarla.**
 
-### Dossier Network Bresciano — AGGIORNATO 27/05/2026
+### Dossier Network Bresciano — AGGIORNATO 27/05/2026 (versione finale con bilancio)
 File principale: `07_Note_Analisi/2026-05-27_Dossier_Network_Bresciano_AGGIORNATO.md`
-File sintesi: `07_Note_Analisi/2026-05-27_Sintesi_Network_Bresciano.md`
-Contenuto: mappa completa rete bresciana DEX/S3/Guber, conflitti di interesse documentati, profili soggetti chiave, tesi processuale per Di Salvatore.
+File sintesi rete: `07_Note_Analisi/2026-05-27_Sintesi_Network_Bresciano.md`
+File sintesi pagamento: `07_Note_Analisi/2026-05-27_Sintesi_Pagamento_DEX_Arma_Decisiva.md`
+Contenuto: mappa completa rete bresciana DEX/S3/Guber, conflitti di interesse documentati, profili soggetti chiave, bilancio DEX con debiti verso soci €1.570.000 infruttiferi, verbale assemblea con Franceschetti segretario, tesi processuale per Di Salvatore.
+
+Elemento chiave nuovo (bilancio CCIAA Brescia doc. T652979863):
+- Debiti verso soci €1.570.000 = stesso importo del credito acquistato — i soci hanno finanziato l'acquisto
+- Finanziamenti "infruttiferi sin dall'origine", nessun debito "assistito da garanzie reali"
+- Zero ricavi nel 2024 e 2025 — nessuna attività commerciale reale
+- Verbale assemblea 30/04/2026: Franceschetti firma come SEGRETARIO — prova documentale ufficiale CCIAA del doppio ruolo
 
 Elementi chiave documentati (tutti da fonti primarie):
 - DEX S.r.l.: soci Giambarda 45%, Berardelli 45%, Franceschetti 10% — tutti di Brescia
