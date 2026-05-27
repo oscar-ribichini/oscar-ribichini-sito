@@ -45,17 +45,47 @@ Ifis Npl Investing S.p.A. (tramite Studio Luzzi & Associati, avv. Severino) sta 
 - Conto Poste Italiane: strategicamente vuoto
 - **Conto Revolut privato + aziendale: circa 20.000€** — aggredibile con pignoramento
 
-## PROSSIMA AZIONE
+## COSE DA FARE — IN ORDINE
 
-**Domani mattina 27/05/2026 ore 9:00:**
-Chiamare cancelleria Tribunale di Bologna — **051 6335111**
-Chiedere: "Sono Ribichini Oscar, CF RBCSCR68M08E783U. Risulta un decreto ingiuntivo a mio carico richiesto da PlusValore SpA o società collegate, contratto n. 492177?"
+1. TUTELA IMMEDIATA — prima di qualsiasi notifica: valutare se ridurre il saldo Revolut pagando spese o debiti reali documentabili. Legale adesso, molto più complicato dopo la notifica.
 
-**Venerdì 29/05/2026:**
-Telefonata con Severino. Strategia:
-1. "Il massimale della mia fideiussione è 11.577,60€ — partiamo da quello"
-2. "Voglio sapere cosa avete depositato in tribunale e in che fase siete"
-3. Non fare offerte spontanee — aspettare la sua risposta
+2. 27/05/2026 ORE 9:00 — Chiamare cancelleria Tribunale di Bologna: 051 6335111
+Dire: "Sono Ribichini Oscar, codice fiscale RBCSCR68M08E783U. Vorrei verificare se risulta emesso a mio carico un decreto ingiuntivo su richiesta di PlusValore SpA o società cessionarie, contratto n. 492177."
+
+3. 27/05/2026 MATTINA — Chiamare avvocato amico
+Mostrare: atto di fideiussione + bozza email + visura camerale
+Chiedere: conferma massimale 11.577€ e parere sulla bozza email prima di inviarla
+
+4. 29/05/2026 — Telefonata Severino
+Ascoltare senza impegnarsi a nulla. Non fare offerte spontanee. Poi mandare l'email.
+
+5. 29/05/2026 DOPO SEVERINO — Mandare email a angelo.severino@ncpenterprise.it
+
+## BOZZA EMAIL PER SEVERINO
+
+Oggetto: Contratto PlusValore n. 492177 — Ns. rif. 03551 — Riscontro documentale
+
+Gentile Avvocato Severino,
+
+ho esaminato con attenzione la documentazione trasmessami in data 26/05/2026 relativa al contratto di finanziamento PlusValore SpA n. 492177, ceduto a Rubicon SPV S.r.l. e successivamente acquisito da Ifis Npl Investing S.p.A.
+
+Ho rilevato che l'atto di fideiussione da me sottoscritto in data 27/10/2005 prevede un importo massimo garantito di Euro 11.577,60 (undicimilacinquecentosettantasette/60), come espressamente indicato nella sezione "L'importo massimo garantito" del documento originale in Suo possesso.
+
+Pertanto, qualsiasi discussione relativa alla mia posizione di fideiussore non può eccedere tale limite, indipendentemente dagli importi maturati a carico del debitore principale.
+
+Premesso quanto sopra, sono disponibile a valutare una proposta di chiusura definitiva della posizione, a condizione che:
+
+1. La proposta mi venga formulata per iscritto con indicazione dell'importo esatto richiesto
+2. L'eventuale accordo preveda il rilascio di quietanza liberatoria completa e definitiva nei miei confronti da parte di Ifis Npl Investing S.p.A.
+3. L'accordo sia formalizzato in forma scritta prima di qualsiasi altro atto
+
+Resto in attesa di un Suo riscontro scritto.
+
+Cordiali saluti,
+Oscar Ribichini
+Via Fontanella 20 — 62012 Civitanova Marche (MC)
+C.F. RBCSCR68M08E783U
+Tel. 393 9573935
 
 ## BLOCCHI APERTI
 
