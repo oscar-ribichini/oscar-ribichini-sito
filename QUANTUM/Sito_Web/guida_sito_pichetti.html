@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Guida Visiva Sito Quantum Advisor — per Massimo Pichetti</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --blu: #1a3a6e;
+      --blu-scuro: #122a52;
+      --oro: #c9a96e;
+      --oro-chiaro: #e8d5a8;
+      --bianco: #ffffff;
+      --grigio: #f5f6f8;
+      --testo: #1a1a2e;
+    }
+
+    body {
+      font-family: Georgia, serif;
+      color: var(--testo);
+      background: #fff;
+      font-size: 11pt;
+      line-height: 1.6;
+    }
+
+    /* PAGINA */
+    .pagina {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 14mm 16mm 14mm 16mm;
+      page-break-after: always;
+      position: relative;
+    }
+    .pagina:last-child { page-break-after: avoid; }
+
+    /* INTESTAZIONE PAGINA */
+    .intestazione {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--oro);
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+    .intestazione-logo {
+      font-family: Georgia, serif;
+      font-size: 13pt;
+      color: var(--blu);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .intestazione-logo span { color: var(--oro); }
+    .intestazione-foglio {
+      font-family: Arial, sans-serif;
+      font-size: 8pt;
+      color: #888;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    /* TITOLO SEZIONE */
+    .titolo-sezione {
+      background: var(--blu);
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-size: 13pt;
+      font-weight: bold;
+      letter-spacing: 1px;
+      padding: 10px 16px;
+      margin-bottom: 18px;
+      border-left: 5px solid var(--oro);
+    }
+    .titolo-sezione span {
+      color: var(--oro);
+      margin-right: 10px;
+    }
+
+    /* BLOCCO */
+    .blocco {
+      background: var(--grigio);
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+    }
+    .blocco-titolo {
+      font-family: Arial, sans-serif;
+      font-size: 9pt;
+      font-weight: bold;
+      color: var(--blu);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .blocco-titolo .numero {
+      background: var(--oro);
+      color: var(--blu);
+      font-size: 8pt;
+      font-weight: bold;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .blocco p {
+      font-size: 10pt;
+      color: #333;
+      margin-bottom: 4px;
+    }
+    .blocco ul {
+      padding-left: 16px;
+      font-size: 10pt;
+      color: #333;
+    }
+    .blocco ul li { margin-bottom: 3px; }
+
+    /* GRIGLIA 2 COLONNE */
+    .griglia-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .griglia-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    /* FOTOGRAMMA HERO */
+    .fotogramma {
+      border: 2px solid var(--blu);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+    .fotogramma-schermo {
+      background: var(--blu-scuro);
+      min-height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 16px;
+      text-align: center;
+      position: relative;
+    }
+    .fotogramma-schermo.matrix {
+      background: #000;
+    }
+    .fotogramma-schermo.vuoto {
+      background: #0a1929;
+    }
+    .fotogramma-testo {
+      color: #fff;
+      font-family: 'Georgia', serif;
+      font-size: 10pt;
+      line-height: 1.4;
+    }
+    .fotogramma-testo .oro { color: var(--oro); font-style: italic; }
+    .fotogramma-testo .grande { font-size: 15pt; font-style: italic; color: var(--oro); }
+    .fotogramma-testo .verde { color: #00cc44; font-family: monospace; font-size: 9pt; }
+    .fotogramma-didascalia {
+      background: var(--blu);
+      color: var(--oro-chiaro);
+      font-family: Arial, sans-serif;
+      font-size: 8pt;
+      padding: 5px 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .fotogramma-didascalia .tempo {
+      background: var(--oro);
+      color: var(--blu);
+      font-weight: bold;
+      font-size: 7pt;
+      padding: 2px 6px;
+      border-radius: 10px;
+    }
+
+    /* MAPPA PAGINE */
+    .mappa-pagine {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .pagina-box {
+      border: 2px solid var(--blu);
+      border-radius: 4px;
+      padding: 8px;
+      text-align: center;
+    }
+    .pagina-box.principale { border-color: var(--oro); background: #fff9f0; }
+    .pagina-box-numero {
+      background: var(--blu);
+      color: var(--oro);
+      font-family: Arial, sans-serif;
+      font-size: 8pt;
+      font-weight: bold;
+      padding: 2px 6px;
+      border-radius: 2px;
+      display: inline-block;
+      margin-bottom: 4px;
+    }
+    .pagina-box.principale .pagina-box-numero { background: var(--oro); color: var(--blu); }
+    .pagina-box-nome {
+      font-family: Arial, sans-serif;
+      font-size: 9pt;
+      font-weight: bold;
+      color: var(--blu);
+      margin-bottom: 3px;
+    }
+    .pagina-box-desc {
+      font-family: Arial, sans-serif;
+      font-size: 7.5pt;
+      color: #666;
+      line-height: 1.3;
+    }
+
+    /* LAYOUT MOCKUP */
+    .mockup {
+      border: 2px solid var(--blu);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+    .mockup-header {
+      background: var(--blu);
+      height: 22px;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      gap: 6px;
+    }
+    .mockup-header span {
+      background: var(--oro);
+      height: 8px;
+      border-radius: 2px;
+      display: inline-block;
+    }
+    .mockup-body {
+      background: #f0f4fa;
+      padding: 10px 12px;
+      min-height: 60px;
+    }
+    .mockup-riga {
+      background: #d0d8e8;
+      height: 10px;
+      border-radius: 2px;
+      margin-bottom: 6px;
+    }
+    .mockup-riga.oro { background: var(--oro-chiaro); }
+    .mockup-riga.corta { width: 60%; }
+    .mockup-riga.media { width: 80%; }
+    .mockup-riga.piena { width: 100%; }
+
+    /* NOTA */
+    .nota {
+      background: #fff9f0;
+      border-left: 4px solid var(--oro);
+      padding: 8px 12px;
+      margin-bottom: 12px;
+      font-family: Arial, sans-serif;
+      font-size: 9.5pt;
+      color: #555;
+    }
+    .nota strong { color: var(--blu); }
+
+    /* TAG */
+    .tag {
+      display: inline-block;
+      background: var(--blu);
+      color: var(--oro);
+      font-family: Arial, sans-serif;
+      font-size: 7.5pt;
+      font-weight: bold;
+      letter-spacing: 1px;
+      padding: 2px 8px;
+      border-radius: 2px;
+      margin-right: 4px;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+    .tag.oro { background: var(--oro); color: var(--blu); }
+
+    /* ISTRUZIONE */
+    .istruzione {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 10px 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-bottom: 8px;
+      background: #fff;
+    }
+    .istruzione-num {
+      background: var(--oro);
+      color: var(--blu);
+      font-family: Arial, sans-serif;
+      font-size: 11pt;
+      font-weight: bold;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .istruzione-testo {
+      font-family: Arial, sans-serif;
+      font-size: 10pt;
+      color: #333;
+      line-height: 1.5;
+    }
+    .istruzione-testo strong { color: var(--blu); }
+
+    /* FOOTER PAGINA */
+    .footer-pagina {
+      position: absolute;
+      bottom: 10mm;
+      left: 16mm;
+      right: 16mm;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #ddd;
+      padding-top: 6px;
+      font-family: Arial, sans-serif;
+      font-size: 8pt;
+      color: #aaa;
+    }
+
+    /* DIVIDER */
+    .divider {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 14px 0;
+    }
+
+    /* STAMPA */
+    @media print {
+      body { background: #fff; }
+      .pagina {
+        width: 210mm;
+        height: 297mm;
+        padding: 12mm 15mm 18mm 15mm;
+        page-break-after: always;
+        overflow: hidden;
+      }
+      @page { size: A4; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- FOGLIO 1 — COPERTINA E PANORAMICA -->
+<!-- ============================================================ -->
+<div class="pagina">
+  <div style="height: 40mm; background: var(--blu); margin: -14mm -16mm 24px -16mm; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 10px; border-bottom: 5px solid var(--oro);">
+    <div style="font-family: Georgia, serif; font-size: 22pt; color: #fff; letter-spacing: 4px; text-transform: uppercase;">QUANTUM <span style="color: var(--oro);">ADVISOR</span></div>
+    <div style="font-family: Arial, sans-serif; font-size: 10pt; color: #b0c0d8; letter-spacing: 3px; text-transform: uppercase;">Guida Visiva del Sito Web</div>
+  </div>
+
+  <div class="nota">
+    <strong>A chi è destinato questo documento:</strong> Massimo Pichetti, Claudia Bracalente, Marco Modesti.<br>
+    Questo documento descrive ogni parte del sito, come appare e come richiedere modifiche. Non è necessaria nessuna competenza tecnica.
+  </div>
+
+  <div class="titolo-sezione"><span>1</span> Mappa del sito — le 7 pagine</div>
+
+  <div class="mappa-pagine">
+    <div class="pagina-box principale">
+      <div class="pagina-box-numero">1</div>
+      <div class="pagina-box-nome">Home</div>
+      <div class="pagina-box-desc">Prima impressione, sequenza animata, servizi in sintesi</div>
+    </div>
+    <div class="pagina-box">
+      <div class="pagina-box-numero">2</div>
+      <div class="pagina-box-nome">Chi Siamo</div>
+      <div class="pagina-box-desc">Gruppo Vanguard, tre società, foto e bio dei soci</div>
+    </div>
+    <div class="pagina-box">
+      <div class="pagina-box-numero">3</div>
+      <div class="pagina-box-nome">Servizi</div>
+      <div class="pagina-box-desc">Tutti i servizi divisi per società, video Pichetti</div>
+    </div>
+    <div class="pagina-box">
+      <div class="pagina-box-numero">4</div>
+      <div class="pagina-box-nome">Sedi e Agenzie</div>
+      <div class="pagina-box-desc">Roma, Fermo, Cosenza — mappa interattiva</div>
+    </div>
+    <div class="pagina-box">
+      <div class="pagina-box-numero">5</div>
+      <div class="pagina-box-nome">Area Clienti</div>
+      <div class="pagina-box-desc">Download documenti — email obbligatoria</div>
+    </div>
+    <div class="pagina-box">
+      <div class="pagina-box-numero">6</div>
+      <div class="pagina-box-nome">Area Advisor</div>
+      <div class="pagina-box-desc">Accesso riservato con login e password</div>
+    </div>
+    <div class="pagina-box">
+      <div class="pagina-box-numero">7</div>
+      <div class="pagina-box-nome">Contatti</div>
+      <div class="pagina-box-desc">Form contatto, indirizzi, mappa</div>
+    </div>
+  </div>
+
+  <div class="titolo-sezione"><span>2</span> Colori e caratteri usati nel sito</div>
+  <div class="griglia-2">
+    <div class="blocco">
+      <div class="blocco-titolo">Colori</div>
+      <div style="display:flex; gap:8px; margin-bottom:8px;">
+        <div style="width:32px;height:32px;background:#1a3a6e;border-radius:3px;"></div>
+        <div style="font-family:Arial,sans-serif;font-size:9pt;color:#333;line-height:1.3;"><strong>Blu notte</strong><br>#1a3a6e — colore principale</div>
+      </div>
+      <div style="display:flex; gap:8px;">
+        <div style="width:32px;height:32px;background:#c9a96e;border-radius:3px;"></div>
+        <div style="font-family:Arial,sans-serif;font-size:9pt;color:#333;line-height:1.3;"><strong>Oro</strong><br>#c9a96e — accenti e titoli</div>
+      </div>
+    </div>
+    <div class="blocco">
+      <div class="blocco-titolo">Caratteri</div>
+      <p style="font-family:'Georgia',serif;font-size:13pt;color:#1a3a6e;margin-bottom:4px;">Georgia — titoli e testi</p>
+      <p style="font-family:Arial,sans-serif;font-size:10pt;color:#555;margin-bottom:4px;">Arial — navigazione e bottoni</p>
+      <p style="font-family:'Georgia',serif;font-size:9pt;color:#888;">Dimensione base testo: 17px</p>
+    </div>
+  </div>
+
+  <div class="nota">
+    <strong>Informazione tecnica:</strong> Il sito sarà costruito su WordPress con tema Astra ed Elementor. Pichetti potrà modificare testi e immagini in autonomia senza bisogno di un tecnico.
+  </div>
+
+  <div class="footer-pagina">
+    <span>Quantum Advisor — Guida Visiva Sito Web</span>
+    <span>Foglio 1 di 8 — Panoramica</span>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- FOGLIO 2 — HERO: SEQUENZA ANIMATA -->
+<!-- ============================================================ -->
+<div class="pagina">
+  <div class="intestazione">
+    <div class="intestazione-logo">Quantum <span>Advisor</span></div>
+    <div class="intestazione-foglio">Foglio 2 di 8 — Pagina Home: sequenza animata</div>
+  </div>
+
+  <div class="titolo-sezione"><span>3</span> La sequenza di apertura — 17 fotogrammi in ~30 secondi</div>
+
+  <div class="nota">
+    Quando un visitatore apre il sito, vede questa sequenza automatica prima di poter scorrere la pagina. Dura circa 28 secondi. È pensata per creare impatto e curiosità.
+  </div>
+
+  <div class="griglia-3">
+    <div class="fotogramma">
+      <div class="fotogramma-schermo matrix">
+        <div class="fotogramma-testo verde">01アイ%€$↑<br>アウエオ01→<br>01カキ%€$↗</div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Pioggia di dati verde (Matrix)</span>
+        <span class="tempo">0–1s</span>
+      </div>
+    </div>
+    <div class="fotogramma">
+      <div class="fotogramma-schermo matrix" style="background:#001a00;">
+        <div class="fotogramma-testo verde" style="font-size:16pt;color:#fff;font-family:Georgia;">FLASH</div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Esplosione di luce — scoppio</span>
+        <span class="tempo">0.7s</span>
+      </div>
+    </div>
+    <div class="fotogramma">
+      <div class="fotogramma-schermo vuoto"></div>
+      <div class="fotogramma-didascalia">
+        <span>Schermo vuoto — respiro</span>
+        <span class="tempo">1.8–3.6s</span>
+      </div>
+    </div>
+
+    <div class="fotogramma">
+      <div class="fotogramma-schermo">
+        <div class="fotogramma-testo">Tu sai cosa è successo?</div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Prima domanda — appare intera</span>
+        <span class="tempo">3.6s</span>
+      </div>
+    </div>
+    <div class="fotogramma">
+      <div class="fotogramma-schermo vuoto"></div>
+      <div class="fotogramma-didascalia">
+        <span>Scompare — respiro</span>
+        <span class="tempo">5.4s</span>
+      </div>
+    </div>
+    <div class="fotogramma">
+      <div class="fotogramma-schermo">
+        <div class="fotogramma-testo grande">«L'Advisor»!</div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Advisor — entra GRANDE poi scala</span>
+        <span class="tempo">5.9–7.3s</span>
+      </div>
+    </div>
+
+    <div class="fotogramma">
+      <div class="fotogramma-schermo">
+        <div class="fotogramma-testo" style="font-size:9pt;">Tu sai <strong>già</strong> cosa è successo.</div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Riappare parola per parola</span>
+        <span class="tempo">9s</span>
+      </div>
+    </div>
+    <div class="fotogramma">
+      <div class="fotogramma-schermo">
+        <div class="fotogramma-testo grande" style="font-size:12pt;">«L'Advisor»!</div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Advisor — sparisce e riappare</span>
+        <span class="tempo">11.6–12.1s</span>
+      </div>
+    </div>
+    <div class="fotogramma">
+      <div class="fotogramma-schermo">
+        <div class="fotogramma-testo" style="font-size:9pt;">Sa cosa consigliarti<br>di fare adesso!</div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Riga 2 — parola per parola</span>
+        <span class="tempo">12.7s</span>
+      </div>
+    </div>
+
+    <div class="fotogramma">
+      <div class="fotogramma-schermo">
+        <div class="fotogramma-testo oro" style="font-size:9pt;">Prima di ogni decisione!</div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Riga 3 — appare</span>
+        <span class="tempo">15.8s</span>
+      </div>
+    </div>
+    <div class="fotogramma">
+      <div class="fotogramma-schermo">
+        <div class="fotogramma-testo oro" style="font-size:9pt;">Ogni giorno.</div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Riga 4 — appare</span>
+        <span class="tempo">17.2s</span>
+      </div>
+    </div>
+    <div class="fotogramma">
+      <div class="fotogramma-schermo" style="flex-direction:column;gap:6px;">
+        <div class="fotogramma-testo" style="font-size:8pt;">Il commercialista registra il passato.<br><strong style="color:#fff;">L'Advisor costruisce il futuro — <span style="color:var(--oro);">ogni giorno.</span></strong></div>
+        <div style="width:60px;height:1px;background:var(--oro);"></div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Sottotitolo + linea oro</span>
+        <span class="tempo">18.4s</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="griglia-2">
+    <div class="fotogramma">
+      <div class="fotogramma-schermo" style="flex-direction:column;gap:4px;">
+        <div class="fotogramma-testo" style="font-size:8pt;">Tu sai <strong>già</strong> cosa è successo<span style="color:var(--oro);">.</span> → <span style="color:var(--oro);">!</span></div>
+        <div class="fotogramma-testo oro" style="font-size:8pt;">«L'Advisor»<span>.</span> → !</div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Tocco finale — i punti diventano ! dall'alto</span>
+        <span class="tempo">20–26s</span>
+      </div>
+    </div>
+    <div class="fotogramma">
+      <div class="fotogramma-schermo" style="flex-direction:column;gap:6px;">
+        <div class="fotogramma-testo" style="font-size:8pt;letter-spacing:2px;color:var(--oro);opacity:0.8;">FINANZA · ASSICURAZIONI<br>CONSULENZA · FORMAZIONE</div>
+        <div style="display:flex;gap:8px;margin-top:4px;">
+          <div style="background:var(--oro);color:var(--blu);font-size:7pt;padding:3px 8px;font-family:Arial;font-weight:bold;border-radius:2px;">COS'È L'ADVISOR</div>
+          <div style="border:1px solid #aaa;color:#fff;font-size:7pt;padding:3px 8px;font-family:Arial;border-radius:2px;">PARLA CON NOI</div>
+        </div>
+      </div>
+      <div class="fotogramma-didascalia">
+        <span>Riga servizi + bottoni finali</span>
+        <span class="tempo">27–28s</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-pagina">
+    <span>Quantum Advisor — Guida Visiva Sito Web</span>
+    <span>Foglio 2 di 8 — Sequenza animata Hero</span>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- FOGLIO 3 — HOME: RESTO DELLA PAGINA -->
+<!-- ============================================================ -->
+<div class="pagina">
+  <div class="intestazione">
+    <div class="intestazione-logo">Quantum <span>Advisor</span></div>
+    <div class="intestazione-foglio">Foglio 3 di 8 — Pagina Home: sezioni sotto la hero</div>
+  </div>
+
+  <div class="titolo-sezione"><span>4</span> Striscia numeri — sotto la hero</div>
+  <div class="blocco">
+    <div class="blocco-titolo"><div class="numero">A</div> Barra oro con 4 statistiche</div>
+    <div class="griglia-3" style="margin-top:8px;">
+      <div style="text-align:center;padding:8px;background:var(--oro);border-radius:3px;">
+        <div style="font-size:16pt;font-weight:bold;color:var(--blu);font-family:Arial;">83%</div>
+        <div style="font-size:8pt;color:var(--blu);font-family:Arial;text-transform:uppercase;letter-spacing:1px;">PMI italiane senza supporto</div>
+      </div>
+      <div style="text-align:center;padding:8px;background:var(--oro);border-radius:3px;">
+        <div style="font-size:16pt;font-weight:bold;color:var(--blu);font-family:Arial;">3</div>
+        <div style="font-size:8pt;color:var(--blu);font-family:Arial;text-transform:uppercase;letter-spacing:1px;">Società operative</div>
+      </div>
+      <div style="text-align:center;padding:8px;background:var(--oro);border-radius:3px;">
+        <div style="font-size:16pt;font-weight:bold;color:var(--blu);font-family:Arial;">360°</div>
+        <div style="font-size:8pt;color:var(--blu);font-family:Arial;text-transform:uppercase;letter-spacing:1px;">Finanza · Assicurazioni</div>
+      </div>
+    </div>
+    <p style="font-size:9pt;color:#666;font-family:Arial;">I numeri si animano contando dal basso quando il visitatore arriva in questa sezione.</p>
+  </div>
+
+  <div class="titolo-sezione"><span>5</span> Sezione "Cos'è l'Advisor"</div>
+  <div class="blocco">
+    <div class="blocco-titolo"><div class="numero">B</div> Testo descrittivo con i 3 pilastri</div>
+    <p>Spiega il concetto di Advisor in 3 blocchi affiancati:</p>
+    <ul>
+      <li><strong>Visione strategica</strong> — pianificazione economico-finanziaria</li>
+      <li><strong>Protezione del patrimonio</strong> — assicurazioni e risk management</li>
+      <li><strong>Continuità operativa</strong> — gestione crisi, passaggi generazionali</li>
+    </ul>
+  </div>
+
+  <div class="titolo-sezione"><span>6</span> Sezione "I nostri valori"</div>
+  <div class="griglia-3">
+    <div class="blocco">
+      <div class="blocco-titolo">Indipendenza</div>
+      <p>Nessun prodotto da piazzare — solo consulenza nell'interesse del cliente.</p>
+    </div>
+    <div class="blocco">
+      <div class="blocco-titolo">Competenza</div>
+      <p>Tre società specializzate che lavorano insieme come un unico team.</p>
+    </div>
+    <div class="blocco">
+      <div class="blocco-titolo">Continuità</div>
+      <p>Affiancamento costante, non solo nei momenti di crisi.</p>
+    </div>
+  </div>
+
+  <div class="titolo-sezione"><span>7</span> Sezione "Prenota una consulenza"</div>
+  <div class="blocco">
+    <div class="blocco-titolo"><div class="numero">C</div> Bottone Calendly integrato</div>
+    <p>Il visitatore clicca e prenota direttamente un appuntamento nel calendario di Pichetti senza telefonare. Il sistema Calendly gestisce tutto in automatico.</p>
+    <div class="nota" style="margin-top:8px;margin-bottom:0;">
+      <strong>Cosa serve:</strong> Pichetti deve creare un account gratuito su Calendly.com e collegarlo al suo calendario Google o Outlook.
+    </div>
+  </div>
+
+  <div class="footer-pagina">
+    <span>Quantum Advisor — Guida Visiva Sito Web</span>
+    <span>Foglio 3 di 8 — Pagina Home</span>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- FOGLIO 4 — CHI SIAMO E SERVIZI -->
+<!-- ============================================================ -->
+<div class="pagina">
+  <div class="intestazione">
+    <div class="intestazione-logo">Quantum <span>Advisor</span></div>
+    <div class="intestazione-foglio">Foglio 4 di 8 — Chi Siamo e Servizi</div>
+  </div>
+
+  <div class="titolo-sezione"><span>8</span> Pagina Chi Siamo</div>
+
+  <div class="griglia-2">
+    <div>
+      <div class="blocco">
+        <div class="blocco-titolo"><div class="numero">A</div> Gruppo Vanguard Holding</div>
+        <p>Schema visivo della struttura societaria:</p>
+        <div style="text-align:center;padding:8px;background:#f0f4fa;border-radius:3px;font-family:Arial;font-size:9pt;margin-top:6px;">
+          <div style="background:var(--blu);color:var(--oro);padding:4px 8px;border-radius:2px;display:inline-block;margin-bottom:6px;">Vanguard Holding</div>
+          <div style="display:flex;gap:6px;justify-content:center;">
+            <div style="background:#e8eef8;border:1px solid var(--blu);padding:4px 6px;border-radius:2px;font-size:8pt;color:var(--blu);">Quantum S.r.l.</div>
+            <div style="background:#e8eef8;border:1px solid var(--blu);padding:4px 6px;border-radius:2px;font-size:8pt;color:var(--blu);">Q. Salute</div>
+            <div style="background:#e8eef8;border:1px solid var(--blu);padding:4px 6px;border-radius:2px;font-size:8pt;color:var(--blu);">Amm. e Form.</div>
+          </div>
+        </div>
+      </div>
+      <div class="blocco">
+        <div class="blocco-titolo"><div class="numero">B</div> I soci — schede individuali</div>
+        <p>Per ogni socio: foto, nome, ruolo, bio breve, competenze chiave.</p>
+        <ul style="margin-top:6px;">
+          <li>Massimo Pichetti — Presidente</li>
+          <li>Claudia Bracalente — Socia</li>
+          <li>Marco Modesti — Socio</li>
+        </ul>
+        <div class="nota" style="margin-top:8px;margin-bottom:0;">
+          <strong>Cosa manca:</strong> foto in alta risoluzione e bio di ciascun socio.
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="mockup">
+        <div class="mockup-header"><span style="width:40px;"></span><span style="width:20px;"></span></div>
+        <div class="mockup-body">
+          <div class="mockup-riga oro media"></div>
+          <div class="mockup-riga piena"></div>
+          <div class="mockup-riga corta"></div>
+          <div style="display:flex;gap:6px;margin-top:8px;">
+            <div style="width:36px;height:36px;background:#c8d4e8;border-radius:50%;flex-shrink:0;"></div>
+            <div style="flex:1;">
+              <div class="mockup-riga media" style="margin-bottom:3px;"></div>
+              <div class="mockup-riga corta"></div>
+            </div>
+          </div>
+          <div style="display:flex;gap:6px;margin-top:6px;">
+            <div style="width:36px;height:36px;background:#c8d4e8;border-radius:50%;flex-shrink:0;"></div>
+            <div style="flex:1;">
+              <div class="mockup-riga media" style="margin-bottom:3px;"></div>
+              <div class="mockup-riga corta"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="font-family:Arial;font-size:8pt;color:#888;text-align:center;">Layout schematico pagina Chi Siamo</div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="titolo-sezione"><span>9</span> Pagina Servizi</div>
+
+  <div class="blocco">
+    <div class="blocco-titolo"><div class="numero">C</div> Struttura a tab — 3 società selezionabili</div>
+    <p>Il visitatore clicca sulla società e vede i servizi corrispondenti senza ricaricare la pagina.</p>
+    <div style="display:flex;gap:0;margin-top:8px;border-bottom:2px solid var(--blu);">
+      <div style="background:var(--blu);color:var(--oro);font-family:Arial;font-size:8pt;padding:5px 10px;font-weight:bold;">Quantum S.r.l.</div>
+      <div style="background:#e8eef8;color:var(--blu);font-family:Arial;font-size:8pt;padding:5px 10px;border:1px solid #ccc;">Q. Salute e Previdenza</div>
+      <div style="background:#e8eef8;color:var(--blu);font-family:Arial;font-size:8pt;padding:5px 10px;border:1px solid #ccc;">Amm. e Formazione</div>
+    </div>
+    <div style="background:#f5f6f8;border:1px solid #ddd;padding:8px;font-family:Arial;font-size:9pt;color:#333;">
+      Finanza straordinaria · Ristrutturazione debiti · Passaggi generazionali · Crisi d'impresa · Composizione negoziata · Business plan · FNC · Formazione professionale
+    </div>
+  </div>
+
+  <div class="blocco">
+    <div class="blocco-titolo"><div class="numero">D</div> Spazio video per ogni servizio</div>
+    <p>Ogni servizio ha uno spazio riservato per un video in cui Pichetti appare in voce. I video vengono aggiunti prima della pubblicazione.</p>
+    <div class="nota" style="margin-top:8px;margin-bottom:0;">
+      <strong>Logo Allianz:</strong> visibile nella sezione assicurazioni come partner ufficiale.
+    </div>
+  </div>
+
+  <div class="footer-pagina">
+    <span>Quantum Advisor — Guida Visiva Sito Web</span>
+    <span>Foglio 4 di 8 — Chi Siamo e Servizi</span>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- FOGLIO 5 — SEDI, AREA CLIENTI, AREA ADVISOR -->
+<!-- ============================================================ -->
+<div class="pagina">
+  <div class="intestazione">
+    <div class="intestazione-logo">Quantum <span>Advisor</span></div>
+    <div class="intestazione-foglio">Foglio 5 di 8 — Sedi, Area Clienti, Area Advisor</div>
+  </div>
+
+  <div class="titolo-sezione"><span>10</span> Pagina Sedi e Agenzie</div>
+
+  <div class="griglia-2">
+    <div class="blocco">
+      <div class="blocco-titolo"><div class="numero">A</div> Mappa interattiva</div>
+      <p>Mappa di Italia con 3 punti cliccabili. Cliccando su ogni punto appare la scheda dell'agenzia.</p>
+      <div style="background:#e8eef8;border-radius:3px;height:50px;display:flex;align-items:center;justify-content:center;margin-top:8px;">
+        <span style="font-family:Arial;font-size:8pt;color:#1a3a6e;">[ Mappa Italia — 3 pin blu/oro ]</span>
+      </div>
+    </div>
+    <div class="blocco">
+      <div class="blocco-titolo"><div class="numero">B</div> Schede agenzie Allianz</div>
+      <ul>
+        <li><strong>Roma</strong> — indirizzo, tel, email</li>
+        <li><strong>Fermo</strong> — indirizzo, tel, email</li>
+        <li><strong>Cosenza</strong> — indirizzo, tel, email</li>
+      </ul>
+      <div class="nota" style="margin-top:8px;margin-bottom:0;">
+        <strong>Cosa manca:</strong> indirizzo, telefono ed email di ogni agenzia.
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="titolo-sezione"><span>11</span> Area Clienti — accesso pubblico con email</div>
+
+  <div class="blocco">
+    <div class="blocco-titolo"><div class="numero">C</div> Come funziona</div>
+    <div class="griglia-3" style="margin-top:8px;">
+      <div style="text-align:center;padding:8px;background:#f5f6f8;border-radius:3px;border:1px solid #ddd;">
+        <div style="font-size:18pt;">📄</div>
+        <div style="font-family:Arial;font-size:8pt;color:var(--blu);font-weight:bold;margin-top:4px;">1. Visitatore sceglie documento</div>
+      </div>
+      <div style="text-align:center;padding:8px;background:#f5f6f8;border-radius:3px;border:1px solid #ddd;">
+        <div style="font-size:18pt;">✉️</div>
+        <div style="font-family:Arial;font-size:8pt;color:var(--blu);font-weight:bold;margin-top:4px;">2. Inserisce la sua email</div>
+      </div>
+      <div style="text-align:center;padding:8px;background:#f5f6f8;border-radius:3px;border:1px solid #ddd;">
+        <div style="font-size:18pt;">⬇️</div>
+        <div style="font-family:Arial;font-size:8pt;color:var(--blu);font-weight:bold;margin-top:4px;">3. Scarica il documento</div>
+      </div>
+    </div>
+    <p style="margin-top:8px;">Le email vengono salvate automaticamente. Quantum riceve una notifica per ogni download.</p>
+    <div class="nota" style="margin-top:8px;margin-bottom:0;">
+      <strong>Cosa manca:</strong> email istituzionale su cui ricevere le notifiche di download.
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="titolo-sezione"><span>12</span> Area Advisor — accesso riservato con login</div>
+
+  <div class="griglia-2">
+    <div class="blocco">
+      <div class="blocco-titolo"><div class="numero">D</div> Come funziona</div>
+      <ul>
+        <li>Ogni advisor riceve username e password personali</li>
+        <li>Accede a una pagina privata con documenti riservati</li>
+        <li>I documenti non sono visibili senza login</li>
+        <li>Pichetti aggiunge e rimuove accessi in autonomia</li>
+      </ul>
+    </div>
+    <div class="blocco">
+      <div class="blocco-titolo"><div class="numero">E</div> Sicurezza</div>
+      <p>Il sistema usa Ultimate Member — plugin WordPress consolidato. Le password sono criptate. Gli accessi possono essere revocati in qualsiasi momento.</p>
+    </div>
+  </div>
+
+  <div class="footer-pagina">
+    <span>Quantum Advisor — Guida Visiva Sito Web</span>
+    <span>Foglio 5 di 8 — Sedi, Area Clienti, Area Advisor</span>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- FOGLIO 6 — CONTATTI E STRUMENTI -->
+<!-- ============================================================ -->
+<div class="pagina">
+  <div class="intestazione">
+    <div class="intestazione-logo">Quantum <span>Advisor</span></div>
+    <div class="intestazione-foglio">Foglio 6 di 8 — Contatti e strumenti integrati</div>
+  </div>
+
+  <div class="titolo-sezione"><span>13</span> Pagina Contatti</div>
+
+  <div class="griglia-2">
+    <div class="blocco">
+      <div class="blocco-titolo"><div class="numero">A</div> Form di contatto</div>
+      <p>Campi: Nome, Cognome, Email, Telefono, Messaggio. Il messaggio arriva direttamente all'email istituzionale di Quantum.</p>
+      <div class="nota" style="margin-top:8px;margin-bottom:0;">
+        <strong>Cosa manca:</strong> email su cui ricevere i messaggi dal form.
+      </div>
+    </div>
+    <div class="blocco">
+      <div class="blocco-titolo"><div class="numero">B</div> Dati aziendali e mappa</div>
+      <ul>
+        <li>Indirizzo sede legale Roma</li>
+        <li>Telefono e email generali</li>
+        <li>Mappa Google integrata</li>
+        <li>Link profili social (se esistono)</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="titolo-sezione"><span>14</span> Strumenti integrati nel sito</div>
+
+  <div class="griglia-2">
+    <div class="blocco">
+      <div class="blocco-titolo"><div class="numero">C</div> Calendly — prenotazione appuntamenti</div>
+      <p>Bottone visibile in più punti del sito. Il visitatore prenota in autonomia senza telefonare. Pichetti riceve una notifica e l'appuntamento compare nel suo calendario.</p>
+      <div class="tag">Gratuito fino a 1 calendario</div>
+    </div>
+    <div class="blocco">
+      <div class="blocco-titolo"><div class="numero">D</div> Crisp — chat assistente virtuale</div>
+      <p>Pallino di chat in basso a destra. Risponde automaticamente alle domande più frequenti. Le richieste complesse vengono inoltrate a Pichetti via email.</p>
+      <div class="tag">Gratuito piano base</div>
+    </div>
+    <div class="blocco">
+      <div class="blocco-titolo"><div class="numero">E</div> Microsoft Clarity — statistiche visitatori</div>
+      <p>Registra dove i visitatori cliccano e dove si fermano. Pichetti può vedere le mappe di calore dal pannello Clarity. Non richiede manutenzione.</p>
+      <div class="tag">Gratuito</div>
+    </div>
+    <div class="blocco">
+      <div class="blocco-titolo"><div class="numero">F</div> Google Analytics — statistiche avanzate</div>
+      <p>Quanti visitatori arrivano, da dove vengono, quali pagine guardano. Report mensile disponibile.</p>
+      <div class="tag">Gratuito</div>
+    </div>
+  </div>
+
+  <div class="titolo-sezione"><span>15</span> Quiz diagnosi aziendale</div>
+  <div class="blocco">
+    <div class="blocco-titolo"><div class="numero">G</div> Elemento differenziante rispetto ai competitor</div>
+    <p>Un breve quiz (8–10 domande) che l'imprenditore compila in 3 minuti. Al termine riceve un report personalizzato che identifica le sue aree di rischio e i servizi Quantum più utili per lui. Genera contatti qualificati.</p>
+    <div class="tag oro">Da costruire dopo il lancio</div>
+  </div>
+
+  <div class="footer-pagina">
+    <span>Quantum Advisor — Guida Visiva Sito Web</span>
+    <span>Foglio 6 di 8 — Contatti e strumenti</span>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- FOGLIO 7 — COSA CI SERVE DA TE IN ORDINE DI PRIORITÀ -->
+<!-- ============================================================ -->
+<div class="pagina">
+  <div class="intestazione">
+    <div class="intestazione-logo">Quantum <span>Advisor</span></div>
+    <div class="intestazione-foglio">Foglio 7 di 9 — Cosa ci serve da te</div>
+  </div>
+
+  <div class="titolo-sezione"><span>16</span> Lista completa — in ordine di priorità</div>
+
+  <div class="nota">
+    Il sito è strutturato e animato. Per costruirlo e pubblicarlo servono queste informazioni. Sono ordinate per impatto: le prime bloccano tutto il resto, le ultime si possono raccogliere anche in un secondo momento.
+  </div>
+
+  <!-- PRIORITÀ ALTA -->
+  <div style="background:#fef2f2;border:2px solid #e53e3e;border-radius:4px;padding:8px 12px;margin-bottom:8px;">
+    <div style="font-family:Arial,sans-serif;font-size:8pt;font-weight:bold;color:#e53e3e;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">🔴 Priorità 1 — Blocca tutto il lavoro successivo</div>
+
+    <div style="display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid #fca5a5;">
+      <div style="width:16px;height:16px;border:2px solid #e53e3e;border-radius:3px;flex-shrink:0;margin-top:2px;"></div>
+      <div style="flex:1;">
+        <div style="font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;color:#1a1a2e;">1. Acquistare hosting WordPress su Aruba e mandare le credenziali a Oscar</div>
+        <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-top:3px;"><strong style="color:#1a3a6e;">Chi:</strong> Massimo Pichetti &nbsp;·&nbsp; <strong style="color:#1a3a6e;">Dove:</strong> aruba.it → Hosting WordPress Gestito Smart (14,90€ + IVA primo anno) → collegarlo a quantumadvisor.it</div>
+        <div style="font-family:Arial,sans-serif;font-size:8pt;color:#e53e3e;margin-top:3px;">Senza questo Oscar non può costruire nulla. È il primo passo.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRIORITÀ MEDIA -->
+  <div style="background:#fffbeb;border:2px solid #d97706;border-radius:4px;padding:8px 12px;margin-bottom:8px;">
+    <div style="font-family:Arial,sans-serif;font-size:8pt;font-weight:bold;color:#d97706;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">🟡 Priorità 2 — Servono per costruire le pagine principali</div>
+
+    <div style="display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid #fde68a;">
+      <div style="width:16px;height:16px;border:2px solid #d97706;border-radius:3px;flex-shrink:0;margin-top:2px;"></div>
+      <div style="flex:1;">
+        <div style="font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;color:#1a1a2e;">2. Foto di ogni socio in alta risoluzione</div>
+        <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-top:3px;"><strong style="color:#1a3a6e;">Chi:</strong> Massimo Pichetti, Claudia Bracalente, Marco Modesti &nbsp;·&nbsp; Minimo 800×800 pixel, sfondo neutro. Anche una foto professionale già esistente va bene.</div>
+        <div style="font-family:Arial,sans-serif;font-size:8pt;color:#b45309;margin-top:3px;">Blocca la pagina Chi Siamo.</div>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid #fde68a;">
+      <div style="width:16px;height:16px;border:2px solid #d97706;border-radius:3px;flex-shrink:0;margin-top:2px;"></div>
+      <div style="flex:1;">
+        <div style="font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;color:#1a1a2e;">3. Bio individuale di ogni socio</div>
+        <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-top:3px;"><strong style="color:#1a3a6e;">Chi:</strong> Massimo, Claudia, Marco &nbsp;·&nbsp; Anche in bozza: 5–8 righe su formazione, esperienza e specializzazione. Oscar le rielabora e le rende professionali.</div>
+        <div style="font-family:Arial,sans-serif;font-size:8pt;color:#b45309;margin-top:3px;">Blocca la pagina Chi Siamo.</div>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;gap:10px;padding:8px 0;">
+      <div style="width:16px;height:16px;border:2px solid #d97706;border-radius:3px;flex-shrink:0;margin-top:2px;"></div>
+      <div style="flex:1;">
+        <div style="font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;color:#1a1a2e;">4. Email istituzionale per ricevere i contatti</div>
+        <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-top:3px;"><strong style="color:#1a3a6e;">Chi:</strong> Massimo Pichetti &nbsp;·&nbsp; L'email su cui arriveranno tutti i messaggi dal form contatti e le notifiche di download dall'Area Clienti.</div>
+        <div style="font-family:Arial,sans-serif;font-size:8pt;color:#b45309;margin-top:3px;">Blocca il form contatti e l'Area Clienti.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRIORITÀ NORMALE -->
+  <div style="background:#f0f4fa;border:2px solid #1a3a6e;border-radius:4px;padding:8px 12px;margin-bottom:8px;">
+    <div style="font-family:Arial,sans-serif;font-size:8pt;font-weight:bold;color:#1a3a6e;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;">🔵 Priorità 3 — Servono prima della pubblicazione</div>
+
+    <div style="display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid #c8d4e8;">
+      <div style="width:16px;height:16px;border:2px solid #1a3a6e;border-radius:3px;flex-shrink:0;margin-top:2px;"></div>
+      <div style="flex:1;">
+        <div style="font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;color:#1a1a2e;">5. Dati delle 3 agenzie Allianz</div>
+        <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-top:3px;"><strong style="color:#1a3a6e;">Chi:</strong> Massimo Pichetti &nbsp;·&nbsp; Per Roma, Fermo e Cosenza: indirizzo completo, telefono, email. Servono per la mappa interattiva e le schede agenzie.</div>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid #c8d4e8;">
+      <div style="width:16px;height:16px;border:2px solid #1a3a6e;border-radius:3px;flex-shrink:0;margin-top:2px;"></div>
+      <div style="flex:1;">
+        <div style="font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;color:#1a1a2e;">6. Data desiderata di lancio</div>
+        <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-top:3px;"><strong style="color:#1a3a6e;">Chi:</strong> Massimo Pichetti &nbsp;·&nbsp; Una data indicativa. Serve per organizzare le fasi di costruzione, test e pubblicazione.</div>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;gap:10px;padding:8px 0;">
+      <div style="width:16px;height:16px;border:2px solid #1a3a6e;border-radius:3px;flex-shrink:0;margin-top:2px;"></div>
+      <div style="flex:1;">
+        <div style="font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;color:#1a1a2e;">7. Profili social di Quantum già attivi</div>
+        <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-top:3px;"><strong style="color:#1a3a6e;">Chi:</strong> Massimo Pichetti &nbsp;·&nbsp; Link a LinkedIn, Facebook o altri profili aziendali esistenti. Verranno collegati al sito nel footer e nella pagina Contatti.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-pagina">
+    <span>Quantum Advisor — Guida Visiva Sito Web</span>
+    <span>Foglio 7 di 9 — Cosa ci serve da te</span>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- FOGLIO 8 — COME RICHIEDERE MODIFICHE -->
+<!-- ============================================================ -->
+<div class="pagina">
+  <div class="intestazione">
+    <div class="intestazione-logo">Quantum <span>Advisor</span></div>
+    <div class="intestazione-foglio">Foglio 8 di 9 — Come richiedere modifiche</div>
+  </div>
+
+  <div class="titolo-sezione"><span>17</span> Come richiedere una modifica al sito</div>
+
+  <div class="nota">
+    Nessuna competenza tecnica richiesta. Per qualsiasi modifica è sufficiente descriverla in modo chiaro seguendo questo schema.
+  </div>
+
+  <div class="istruzione">
+    <div class="istruzione-num">1</div>
+    <div class="istruzione-testo"><strong>Indica la pagina</strong> — esempio: "Pagina Servizi", "Pagina Chi Siamo", "Home".</div>
+  </div>
+  <div class="istruzione">
+    <div class="istruzione-num">2</div>
+    <div class="istruzione-testo"><strong>Indica la sezione</strong> — esempio: "Il blocco con i tre pilastri", "La scheda di Massimo Pichetti", "Il form contatti".</div>
+  </div>
+  <div class="istruzione">
+    <div class="istruzione-num">3</div>
+    <div class="istruzione-testo"><strong>Descrivi cosa vuoi cambiare</strong> — esempio: "Cambia il testo da X a Y", "Aggiungi una foto", "Togli questa riga".</div>
+  </div>
+  <div class="istruzione">
+    <div class="istruzione-num">4</div>
+    <div class="istruzione-testo"><strong>Manda tutto a Oscar</strong> via WhatsApp o email. Se è una modifica visiva, uno screenshot con frecce aiuta molto.</div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="titolo-sezione"><span>18</span> Esempi di richieste ben formulate</div>
+
+  <div class="blocco">
+    <div class="blocco-titolo">Esempio 1 — modifica testo</div>
+    <p><em>"Pagina Chi Siamo — scheda di Massimo Pichetti — cambia la bio con questo testo: [nuovo testo]"</em></p>
+  </div>
+  <div class="blocco">
+    <div class="blocco-titolo">Esempio 2 — aggiunta contenuto</div>
+    <p><em>"Pagina Servizi — tab Quantum S.r.l. — aggiungi il servizio 'Perizie aziendali' dopo 'Composizione negoziata'"</em></p>
+  </div>
+  <div class="blocco">
+    <div class="blocco-titolo">Esempio 3 — modifica visiva</div>
+    <p><em>"Home — bottone 'Parla con noi' — cambiane il colore in blu scuro invece di trasparente"</em> + screenshot del punto</p>
+  </div>
+
+  <hr class="divider">
+
+  <div class="titolo-sezione"><span>19</span> Cosa Pichetti può fare da solo dopo il lancio</div>
+
+  <div class="griglia-2">
+    <div class="blocco">
+      <div class="blocco-titolo">Con Elementor (drag and drop)</div>
+      <ul>
+        <li>Modificare testi in qualsiasi pagina</li>
+        <li>Cambiare foto e immagini</li>
+        <li>Aggiungere o rimuovere blocchi di testo</li>
+        <li>Aggiornare i dati di contatto</li>
+      </ul>
+    </div>
+    <div class="blocco">
+      <div class="blocco-titolo">Senza competenze tecniche</div>
+      <ul>
+        <li>Caricare nuovi documenti nell'Area Clienti</li>
+        <li>Aggiungere o revocare accessi Area Advisor</li>
+        <li>Pubblicare nuovi articoli nel blog</li>
+        <li>Vedere le statistiche visitatori</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style="margin-top:20px;padding:14px 16px;background:var(--blu);border-radius:4px;text-align:center;">
+    <div style="font-family:Georgia,serif;font-size:12pt;color:var(--oro);margin-bottom:6px;">Contatto diretto</div>
+    <div style="font-family:Arial,sans-serif;font-size:10pt;color:#fff;">Oscar Ribichini &nbsp;|&nbsp; Civitanova Marche</div>
+    <div style="font-family:Arial,sans-serif;font-size:9pt;color:#b0c0d8;margin-top:4px;">Per modifiche, aggiornamenti e assistenza tecnica</div>
+  </div>
+
+  <div class="footer-pagina">
+    <span>Quantum Advisor — Guida Visiva Sito Web — Documento riservato</span>
+    <span>Foglio 8 di 9 — Come richiedere modifiche</span>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- FOGLIO 9 — PIANO D'AZIONE -->
+<!-- ============================================================ -->
+<div class="pagina">
+  <div class="intestazione">
+    <div class="intestazione-logo">Quantum <span>Advisor</span></div>
+    <div class="intestazione-foglio">Foglio 9 di 9 — Piano d'azione</div>
+  </div>
+
+  <div class="titolo-sezione"><span>20</span> Prossimi passi — da qui alla pubblicazione</div>
+
+  <div class="nota">
+    Questo è il percorso più diretto per arrivare al sito online. Ogni fase dipende dalla precedente. Oscar si occupa di tutto il lavoro tecnico — a Pichetti serve solo raccogliere le informazioni indicate nel foglio 7.
+  </div>
+
+  <div style="display:flex;gap:0;margin-bottom:10px;">
+    <div style="background:#e53e3e;color:#fff;font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;padding:10px 14px;border-radius:4px 0 0 4px;display:flex;align-items:center;justify-content:center;min-width:70px;text-align:center;flex-shrink:0;line-height:1.3;">FASE<br>1</div>
+    <div style="border:2px solid #e53e3e;border-left:none;border-radius:0 4px 4px 0;padding:10px 14px;flex:1;">
+      <div style="font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;color:#1a1a2e;margin-bottom:4px;">Pichetti acquista l'hosting e manda le credenziali a Oscar</div>
+      <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-bottom:6px;">aruba.it → Hosting WordPress Gestito Smart → collegarlo a quantumadvisor.it → mandare user e password WordPress a Oscar.</div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+        <div class="tag" style="background:#e53e3e;">Chi: Pichetti</div>
+        <div class="tag oro">Durata: 30 minuti</div>
+        <span style="font-family:Arial,sans-serif;font-size:8pt;color:#888;">→ Sblocca tutto il resto</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;gap:0;margin-bottom:10px;">
+    <div style="background:#d97706;color:#fff;font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;padding:10px 14px;border-radius:4px 0 0 4px;display:flex;align-items:center;justify-content:center;min-width:70px;text-align:center;flex-shrink:0;line-height:1.3;">FASE<br>2</div>
+    <div style="border:2px solid #d97706;border-left:none;border-radius:0 4px 4px 0;padding:10px 14px;flex:1;">
+      <div style="font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;color:#1a1a2e;margin-bottom:4px;">Oscar installa e configura WordPress, tema e plugin</div>
+      <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-bottom:6px;">Installazione Astra, Elementor e tutti i plugin. Struttura delle 7 pagine pronta con design blu/oro.</div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+        <div class="tag" style="background:#d97706;">Chi: Oscar</div>
+        <div class="tag oro">Durata: 2–3 giorni</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;gap:0;margin-bottom:10px;">
+    <div style="background:#d97706;color:#fff;font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;padding:10px 14px;border-radius:4px 0 0 4px;display:flex;align-items:center;justify-content:center;min-width:70px;text-align:center;flex-shrink:0;line-height:1.3;">FASE<br>3</div>
+    <div style="border:2px solid #d97706;border-left:none;border-radius:0 4px 4px 0;padding:10px 14px;flex:1;">
+      <div style="font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;color:#1a1a2e;margin-bottom:4px;">Pichetti manda foto, bio e dati agenzie — Oscar costruisce le pagine</div>
+      <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-bottom:6px;">Con i contenuti ricevuti Oscar completa Home, Chi Siamo, Servizi e Sedi. Parallelamente Pichetti manda l'email istituzionale per attivare form contatti e Area Clienti.</div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+        <div class="tag" style="background:#d97706;">Chi: entrambi in parallelo</div>
+        <div class="tag oro">Durata: 1 settimana</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;gap:0;margin-bottom:10px;">
+    <div style="background:#1a3a6e;color:var(--oro);font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;padding:10px 14px;border-radius:4px 0 0 4px;display:flex;align-items:center;justify-content:center;min-width:70px;text-align:center;flex-shrink:0;line-height:1.3;">FASE<br>4</div>
+    <div style="border:2px solid #1a3a6e;border-left:none;border-radius:0 4px 4px 0;padding:10px 14px;flex:1;">
+      <div style="font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;color:#1a1a2e;margin-bottom:4px;">Oscar completa il sito — test e revisione con Pichetti</div>
+      <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-bottom:6px;">Area Advisor, Calendly, Crisp chat. Oscar consegna link di anteprima. Pichetti controlla su pc e telefono e segnala eventuali correzioni (vedi foglio 8).</div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+        <div class="tag">Chi: Oscar + revisione Pichetti</div>
+        <div class="tag oro">Durata: 3–5 giorni</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;gap:0;margin-bottom:18px;">
+    <div style="background:#2d6a4f;color:#fff;font-family:Arial,sans-serif;font-size:9pt;font-weight:bold;padding:10px 14px;border-radius:4px 0 0 4px;display:flex;align-items:center;justify-content:center;min-width:70px;text-align:center;flex-shrink:0;line-height:1.3;">FASE<br>5</div>
+    <div style="border:2px solid #2d6a4f;border-left:none;border-radius:0 4px 4px 0;padding:10px 14px;flex:1;">
+      <div style="font-family:Arial,sans-serif;font-size:10pt;font-weight:bold;color:#1a1a2e;margin-bottom:4px;">Pubblicazione — quantumadvisor.it è online</div>
+      <div style="font-family:Arial,sans-serif;font-size:8.5pt;color:#555;margin-bottom:6px;">Oscar attiva il sito sul dominio reale, verifica tutto su mobile e desktop, attiva Analytics e Clarity. Consegna a Pichetti il manuale per le modifiche autonome.</div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+        <div class="tag" style="background:#2d6a4f;">Chi: Oscar</div>
+        <div class="tag oro">Durata: 1 giorno</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:var(--blu);border-radius:4px;padding:14px 16px;display:flex;align-items:center;">
+    <div style="flex:1;text-align:center;border-right:1px solid rgba(255,255,255,0.2);padding-right:12px;">
+      <div style="font-family:Georgia,serif;font-size:20pt;color:var(--oro);font-weight:bold;">1</div>
+      <div style="font-family:Arial,sans-serif;font-size:8pt;color:#b0c0d8;text-transform:uppercase;letter-spacing:1px;line-height:1.5;">azione Pichetti<br>per sbloccare tutto</div>
+    </div>
+    <div style="flex:1;text-align:center;border-right:1px solid rgba(255,255,255,0.2);padding:0 12px;">
+      <div style="font-family:Georgia,serif;font-size:20pt;color:var(--oro);font-weight:bold;">2–3</div>
+      <div style="font-family:Arial,sans-serif;font-size:8pt;color:#b0c0d8;text-transform:uppercase;letter-spacing:1px;line-height:1.5;">settimane<br>dalla fase 1 al lancio</div>
+    </div>
+    <div style="flex:1;text-align:center;padding-left:12px;">
+      <div style="font-family:Georgia,serif;font-size:20pt;color:var(--oro);font-weight:bold;">0€</div>
+      <div style="font-family:Arial,sans-serif;font-size:8pt;color:#b0c0d8;text-transform:uppercase;letter-spacing:1px;line-height:1.5;">costo lavoro Oscar<br>(solo hosting Aruba)</div>
+    </div>
+  </div>
+
+  <div class="footer-pagina">
+    <span>Quantum Advisor — Guida Visiva Sito Web — Documento riservato</span>
+    <span>Foglio 9 di 9 — Piano d'azione</span>
+  </div>
+</div>
+
+</body>
+</html>
