@@ -201,6 +201,45 @@ Prossima azione: usare questi strumenti con i primi clienti Quantum.
 
 ---
 
+## 🟢 AI WEEK — PRODOTTI DA COMMERCIALIZZARE [NUOVO — 27/05/2026]
+
+Analisi completa completata. Relazione dettagliata in:
+`TOOLS\Ricerche_Mercato\2026-05-27_Analisi_Prodotti_AI_Fiera_AIWeek.md`
+
+### Classifica prodotti (in ordine di priorità)
+
+1. **JOOICE (Webidoo)** — MASSIMA PRIORITÀ
+   Reputation management + social + listing AI. €45/mese. 10.000+ clienti. Partner TIM. $30M finanziamenti.
+   Call DOMANI 28/05 ore 12:00 con Fabrizio Dell'Era (Meet: meet.google.com/ffy-sgvr-vxw)
+   3 domande chiave: % commissione (target 18–22%), esclusività Marche centro-sud, territorio CDO già coperto
+
+2. **GROOW (Webidoo)** — ALTA (upsell dopo Jooice, 60–90 giorni)
+   AI agents per PMI. €250–300/mese. Primo italiano della categoria.
+
+3. **IGINIUS** — ALTA
+   Chatbot prenotazioni WhatsApp/telefono 24/7. +200% appuntamenti documentato.
+   Email da inviare: attilio.abbadessa@sales-people.it | chiedere programma partner
+
+4. **DOTVOCAL** — MEDIA (dopo avvio)
+   Suite enterprise NLP/CRM. Email da inviare: cardozo@dotvocal.com
+
+5. **GENERAZIONE AI** — MEDIA (anno 2)
+   OneAI Suite, PrivateAI on-premise. Email da inviare: francesco.prisco@oneai.it
+
+Scartati: Thousand Dreams, QuantumSpace, Socialbooth
+
+### Prossime azioni immediate
+- **28/05 ore 12:00** — Call Fabrizio Dell'Era (Webidoo/Jooice) → commissioni + territorio
+- **Entro 30/05** — Rispondere IGINIUS, GenerazioneAI, Dotvocal
+- **Entro 05/06** — Firmare accordo Webidoo + avviare trattativa IGINIUS
+
+### Bandi pubblici da usare come leva commerciale
+- Transizione 5.0: fino al 45% a fondo perduto su software AI
+- Voucher Digitalizzazione MISE: 50% a fondo perduto, max €10.000
+- Fondo Innovazione Tecnologica: fino al 50%, max €100.000
+
+---
+
 ## 📌 GMAIL MCP [DA COMPLETARE]
 
 Stato: configurazione OAuth completata 16/05/2026. Manca riavvio VS Code per autorizzare.

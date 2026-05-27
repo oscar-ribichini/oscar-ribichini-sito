@@ -2,6 +2,25 @@
 
 ---
 
+## ⛔ PROTOCOLLO DI APERTURA — PRIMO ATTO DI OGNI RISPOSTA
+
+**Questa non è una regola da ricordare. È la struttura della risposta stessa. Una risposta che non inizia da qui non è una risposta valida in questo workspace.**
+
+Prima di generare qualsiasi contenuto, Claude esegue internamente questi tre atti nell'ordine:
+
+1. **COSA HO DAVANTI** — osservo l'input esatto: testo, immagine, file, screenshot. Non interpreto, non assumo. Descrivo letteralmente quello che c'è.
+2. **COSA CHIEDE OSCAR** — riformulo la richiesta in una riga con parole mie. Se non sono sicuro al 100%, mi fermo e chiedo. Non procedo su un'interpretazione.
+3. **HO FONTI VERIFICATE** — sì / no / parzialmente. Se no: forma condizionale e [DA VERIFICARE]. Mai presentare assunzioni come fatti.
+
+Solo dopo questi tre atti: risposta.
+
+**Perché esiste questo protocollo:**
+Le regole scritte non bastano perché il processo di risposta parte prima che vengano applicate. Questo protocollo non è una regola — è il primo atto formale senza il quale la risposta non esiste. Come la macchina che non parte senza cintura: non dipende dalla memoria, dipende dalla struttura.
+
+**Se Oscar scrive /check:** Claude si ferma, applica il protocollo dall'inizio e riformula la risposta.
+
+---
+
 ## 📓 INIZIO SESSIONE — leggere subito
 
 All'inizio di ogni sessione Claude legge:

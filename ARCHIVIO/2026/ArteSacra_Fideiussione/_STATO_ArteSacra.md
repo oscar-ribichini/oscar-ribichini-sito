@@ -85,7 +85,7 @@ Cordiali saluti,
 Oscar Ribichini
 Via Fontanella 20 — 62012 Civitanova Marche (MC)
 C.F. RBCSCR68M08E783U
-Tel. 393 9573935
+Tel. +39 327 611 3167
 
 ## BLOCCHI APERTI
 
