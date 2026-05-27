@@ -1,10 +1,10 @@
 {
-  "enabledPlugins": {
-    "skill-creator@claude-plugins-official": true
-  },
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "WebFetch",
+      "mcp__gmail__search_emails",
+      "mcp__gmail__read_email"
     ]
   },
   "hooks": {
@@ -20,5 +20,8 @@
         ]
       }
     ]
+  },
+  "enabledPlugins": {
+    "skill-creator@claude-plugins-official": true
   }
 }

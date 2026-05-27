@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Codice Reale — Storia</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Georgia', serif;
+  }
+
+  .storia {
+    width: 390px;
+    height: 844px;
+    background: #0d0d0d;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+  }
+
+  .progress-bar {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    right: 16px;
+    height: 2px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 2px;
+  }
+  .progress-fill {
+    height: 100%;
+    background: #fff;
+    border-radius: 2px;
+    width: 0%;
+    animation: progressFill 12s linear forwards;
+    animation-delay: 0.5s;
+  }
+  @keyframes progressFill { to { width: 100%; } }
+
+  .profilo {
+    position: absolute;
+    top: 24px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+    animation-delay: 0.3s;
+  }
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #C9A96E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+  }
+  .nome-profilo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  .contenuto { text-align: center; width: 100%; }
+
+  .ora {
+    color: #C9A96E;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+    animation-delay: 1s;
+    margin-bottom: 50px;
+  }
+
+  .titolo {
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+  .titolo .parola {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: saleParola 0.6s ease forwards;
+  }
+
+  .linea-oro {
+    width: 0;
+    height: 1px;
+    background: #C9A96E;
+    margin: 0 auto 40px;
+    animation: espandiLinea 0.8s ease forwards;
+    animation-delay: 3.5s;
+  }
+
+  .testo-corpo {
+    color: rgba(255,255,255,0.85);
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+  }
+  .testo-corpo .riga {
+    display: block;
+    opacity: 0;
+    transform: translateY(12px);
+    animation: saleRiga 0.7s ease forwards;
+  }
+  .accento { color: #C9A96E; font-style: italic; }
+
+  .domanda {
+    color: #fff;
+    font-size: 17px;
+    font-style: italic;
+    opacity: 0;
+    margin-top: 50px;
+    line-height: 1.6;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 9s;
+  }
+
+  .firma {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+    animation-delay: 10.5s;
+  }
+  .firma-linea { width: 40px; height: 1px; background: #C9A96E; margin: 0 auto 12px; }
+  .firma-nome {
+    color: #C9A96E;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .firma-handle {
+    color: rgba(255,255,255,0.4);
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-top: 4px;
+  }
+
+  .particella {
+    position: absolute;
+    background: rgba(201,169,110,0.3);
+    border-radius: 50%;
+    animation: flicker 4s ease-in-out infinite;
+  }
+
+  @keyframes fadeIn { to { opacity: 1; } }
+  @keyframes saleParola { to { opacity: 1; transform: translateY(0); } }
+  @keyframes saleRiga { to { opacity: 1; transform: translateY(0); } }
+  @keyframes espandiLinea { to { width: 60px; } }
+  @keyframes flicker { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+</style>
+</head>
+<body>
+<div class="storia">
+
+  <div class="particella" style="top:15%;left:20%;width:2px;height:2px;animation-delay:0s;animation-duration:3s"></div>
+  <div class="particella" style="top:25%;left:80%;width:1px;height:1px;animation-delay:1s;animation-duration:4s"></div>
+  <div class="particella" style="top:70%;left:10%;width:2px;height:2px;animation-delay:2s;animation-duration:5s"></div>
+  <div class="particella" style="top:80%;left:85%;width:1px;height:1px;animation-delay:0.5s;animation-duration:3.5s"></div>
+  <div class="particella" style="top:45%;left:5%;width:2px;height:2px;animation-delay:1.5s;animation-duration:4.5s"></div>
+
+  <div class="progress-bar"><div class="progress-fill"></div></div>
+
+  <div class="profilo">
+    <div class="avatar">CR</div>
+    <div class="nome-profilo">Codice Reale</div>
+  </div>
+
+  <div class="contenuto">
+
+    <div class="ora">3:00</div>
+
+    <div class="titolo">
+      <span class="parola" style="animation-delay:1.8s">Il&nbsp;</span>
+      <span class="parola" style="animation-delay:2.2s">codice</span><br>
+      <span class="parola" style="animation-delay:2.6s">delle&nbsp;</span>
+      <span class="parola" style="animation-delay:3s">tre&nbsp;</span>
+      <span class="parola" style="animation-delay:3.2s">di&nbsp;</span>
+      <span class="parola" style="animation-delay:3.4s">notte</span>
+    </div>
+
+    <div class="linea-oro"></div>
+
+    <div class="testo-corpo">
+      <span class="riga" style="animation-delay:4.5s">Alle tre di notte</span>
+      <span class="riga" style="animation-delay:5.2s">non puoi mentire a te stesso.</span>
+      <br>
+      <span class="riga" style="animation-delay:6.2s">Il silenzio toglie il rumore</span>
+      <span class="riga" style="animation-delay:6.9s">con cui <span class="accento">copriamo tutto il giorno.</span></span>
+      <br>
+      <span class="riga" style="animation-delay:7.8s">Quello che pensi adesso,</span>
+      <span class="riga" style="animation-delay:8.4s">senza distrazioni,</span>
+      <span class="riga" style="animation-delay:8.8s">è il <span class="accento">codice primario.</span></span>
+    </div>
+
+    <div class="domanda">
+      Cosa ti dice il silenzio,<br>quando finalmente ascolti?
+    </div>
+
+  </div>
+
+  <div class="firma">
+    <div class="firma-linea"></div>
+    <div class="firma-nome">Codice Reale...</div>
+    <div class="firma-handle">@codicereale</div>
+  </div>
+
+</div>
+</body>
+</html>
