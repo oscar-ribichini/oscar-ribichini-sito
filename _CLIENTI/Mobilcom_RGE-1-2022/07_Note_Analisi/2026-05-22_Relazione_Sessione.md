@@ -58,29 +58,11 @@ Franceschetti è simultaneamente difensore di DEX e socio al 10% di DEX. Ha comp
 
 ---
 
-### BLOCCO 2 — Opposizione ex art. 617 c.p.c. — scade 04/06/2026
+### BLOCCO 2 — Opposizione ex art. 617 c.p.c. — ABBANDONATA
 
-Nullità avviso di vendita Lotto 3. I 4 argomenti e come usarli:
+**Decisione definitiva (27/05/2026):** Di Salvatore non intende depositare l'opposizione ex art. 617 c.p.c. La strada è chiusa. Gli argomenti relativi (sub 16, n. 10132, variazione catastale SAUDA, perizia Emiliani) restano nei file interni come documentazione, ma non vengono più sviluppati per uso processuale autonomo.
 
-**Sub 16 senza catena proprietaria (vizio autonomo — il più forte)**
-In Conservatoria per sub 16 esistono solo ipoteca BSM 2011 e pignoramento 2022. Nessuna compravendita trascritta. Ipoteca BSM inopponibile ex art. 2650 c.c. Immobile di €329.662 — oltre il 40% del valore totale della procedura.
-Come usarlo: vizio autonomo, l'avviso include un immobile non vendibile.
-Cosa NON dire: quali atti mancano nella catena.
-
-**Particella 1237 — riserve catastali**
-Riserve aperte dal 2005, mai chiuse. Rende il lotto non collocabile sul mercato.
-Come usarlo: elemento di contesto, non autonomo.
-Cosa NON dire: come chiuderle.
-
-**Variazione catastale post-pignoramento 26/05/2022**
-Presentata 5 mesi dopo la notifica del pignoramento senza autorizzazione G.E. ex art. 560 c.p.c. Sub 16 da 143 mq a 177 mq.
-Come usarlo: chiedere solo accertamento su chi ha presentato il DOCFA.
-Cosa NON dire: se è sanabile o meno.
-
-**Domanda giudiziale n. 10132 non cancellata**
-Formalità attiva in Conservatoria senza annotazione di cancellazione. L'avviso d'asta non la menziona — violazione art. 570 c.p.c.
-Come usarlo: chiedere al G.E. acquisizione d'ufficio degli atti del procedimento.
-Cosa NON dire: che il procedimento è estinto (altrimenti DEX deposita subito la nota di cancellazione).
+Alcuni di questi elementi (sub 16 senza catena, perizia Emiliani lacunosa) possono ancora rafforzare gli argomenti dell'istanza al G.E. già in v5 — ma non come opposizione separata.
 
 ---
 
@@ -242,58 +224,10 @@ Il decreto di trasferimento già emesso è fondato su relazione notarile inidone
 
 ---
 
-## 9. OPPOSIZIONE EX ART. 617 C.P.C. — ANALISI DOCUMENTI ORIGINALI (22/05/2026)
+## 9. OPPOSIZIONE EX ART. 617 C.P.C. — ABBANDONATA (27/05/2026)
 
-Letti avviso di vendita (03/11/2025) e perizia Emiliani (18/01/2025). Quattro argomenti inattaccabili:
-
-**Argomento 1 — Avviso descrive sub 16 con 175 mq, al pignoramento era 143 mq**
-La CILA 2022/0283 è intestata a SAUDA SRLS, presentata il 20/01/2022 — dopo notifica pignoramento 03/12/2021, senza autorizzazione G.E. ex art. 560 c.p.c. e senza consenso scritto del locatore ex art. 10 contratto. È SAUDA che ha presentato il DOCFA — dato confermato dalla perizia Emiliani pagina 25.
-Prova: confronto avviso (175 mq) vs perizia (143 mq) + CILA intestata SAUDA.
-NON dire se è sanabile.
-
-**Argomento 2 — Avviso non menziona domanda giudiziale n. 10132 per Lotto 3**
-La perizia Emiliani per Lotto 3 dichiara "Nessuna" formalità pregiudizievole — ma n. 10132 grava su tutti gli immobili. Avviso incompleto ex art. 570 c.p.c. La perizia stessa è lacunosa.
-Prova: ispezione T34794 + perizia che non la menziona per Lotto 3.
-NON dire che il procedimento è estinto.
-
-**Argomento 3 — Avviso include sub 16 senza catena proprietaria in Conservatoria**
-Ispezione T50595: solo ipoteca BSM e pignoramento. Nessuna compravendita.
-Prova: ispezione T50595.
-NON indicare quali atti mancano.
-
-**Argomento 4 — Perizia inidonea per sub 16 ex art. 567 c.p.c.**
-Perizia dichiara Mobilcom proprietario basandosi su dati catastali non su Conservatoria. Stesso vizio della relazione Lorenzoni. Avviso fondato su perizia inidonea è nullo per sub 16.
-
-**Dato nuovo confermato dai documenti:**
-SAUDA è chi ha presentato i lavori 2022/0283 il 20/01/2022 — 48 giorni dopo la notifica del pignoramento. Violazione art. 560 c.p.c. documentata dalla perizia stessa che li cita tra le pratiche edilizie.
-
-**Cosa NON avvantaggia DEX in questi argomenti:**
-Nessuno dei quattro indica a DEX cosa sanare — o la catena mancante, o il procedimento estinto, o come regolarizzare la CILA. Tutti attaccano l'avviso come atto esecutivo nullo per vizi oggettivi.
-
----
-
-## 10. CORREZIONI DA FARE ALL'OPPOSIZIONE 617 — SESSIONE 22/05/2026
-
-**File:** `04_Opposizioni_Istanze\2026-05-22_Opposizione_617_per_DiSalvatore.md`
-
-**Correzione 1 — Titolo contraddittorio (URGENTE)**
-Il titolo dice "avverso il provvedimento del G.E. del 14/05/2026" ma il corpo impugna l'avviso di vendita del 03/11/2025. Sono due atti diversi con dies a quo diversi. Correggere il titolo: l'opposizione 617 impugna l'avviso di vendita del 03/11/2025 — non il provvedimento del 14/05/2026 (quello è oggetto di atto separato).
-
-**Correzione 2 — Riformulare motivo superficie**
-143 mq catastali e 175 mq commerciali potrebbero non essere grandezze omogenee. Formulazione attuale vulnerabile. Correggere in: "l'avviso contiene una descrizione quantitativa non conciliabile con la consistenza risultante al momento del pignoramento senza chiarimento tecnico preliminare, anche in ragione di modifiche intervenute durante la procedura senza autorizzazione del G.E."
-
-**Correzione 3 — Riorganizzare ordine motivi**
-- Primo: sub 16 senza catena proprietaria in Conservatoria (più forte)
-- Secondo: perizia inidonea per sub 16
-- Terzo: domanda giudiziale n. 10132 non menzionata
-- Quarto: superficie e CILA post-pignoramento
-
-**Aggiunta 4 — Screditare CTU Emiliani (vantaggio strategico)**
-Il CTU è stato nominato dal G.E. PANNAGGI — non da Di Gennaro. Di Gennaro può ordinare il rifacimento della perizia del predecessore senza sentirsi in difetto. Anzi è coerente con la sua ordinanza del 22/04/2026.
-Formulazione da inserire: "La perizia estimativa redatta dal CTU Arch. Fabio Emiliani su incarico del precedente G.E., pur accurata nella stima del valore commerciale, presenta lacune documentali che incidono sulla stessa validità dell'avviso di vendita. In particolare: ha dichiarato 'Nessuna' formalità pregiudizievole per il Lotto 3 quando la domanda giudiziale n. 10132 è attiva in Conservatoria dal 2008 e verificabile da chiunque; ha attestato la titolarità di Mobilcom su sub 16 basandosi su dati catastali senza verificare la Conservatoria, in violazione dell'art. 567 c.p.c. che impone espressamente tale verifica. Questi non sono errori di valutazione ma lacune metodologiche che hanno compromesso la base informativa dell'avviso di vendita e che giustificano il rifacimento della perizia prima di qualsiasi nuova asta."
-
-**Aggiunta 5 — Stesso passaggio sul CTU va inserito anche nell'istanza principale**
-Il punto sul CTU rafforza la Sez. VI (vizio pignoramento) e la Sez. XII (revoca decreto) dell'istanza principale. Da aggiungere in entrambe.
+Di Salvatore non intende depositare l'opposizione ex art. 617. Strada chiusa definitivamente.
+Gli argomenti sviluppati (sub 16, n. 10132, SAUDA/CILA, perizia Emiliani) restano come documentazione interna ma non vengono più perseguiti come atto autonomo.
 
 ---
 

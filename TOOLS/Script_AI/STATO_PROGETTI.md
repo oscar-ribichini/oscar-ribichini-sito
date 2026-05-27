@@ -1,17 +1,18 @@
 # Quaderno degli Appunti — Stato Progetti
-Aggiornato: 2026-05-26
+Aggiornato: 2026-05-27
 
 ---
 
 ## 🔴 MOBILCOM — RGE 1/2022 [URGENTE]
 
-Stato: Istanza GE v5 completata (2026-05-24) + Dossier Network Bresciano completato (2026-05-25).
-Prossima azione: Oscar consegna v5 + dossier a Avv. Di Salvatore — scadenza art. 617 c.p.c. **04/06/2026** (mancano ~10 giorni).
+Stato: Dossier Network Bresciano AGGIORNATO (27/05/2026) con visure DEX, ACE Sas, Kronos. Quadro rete completo.
+Prossima azione: Oscar consegna a Di Salvatore — istanza v5 + dossier aggiornato + sintesi.
 Blocco: nessun blocco tecnico. La decisione di depositare è di Di Salvatore.
-Ultimo commit: da fare (file nuovi: dossier network bresciano + dossier network bresciano)
+**Opposizione ex art. 617 c.p.c. — ABBANDONATA (27/05/2026): Di Salvatore non intende depositarla.**
 
-### Dossier Network Bresciano — completato 25/05/2026
-File: `07_Note_Analisi/2026-05-25_Dossier_Network_Bresciano.md`
+### Dossier Network Bresciano — AGGIORNATO 27/05/2026
+File principale: `07_Note_Analisi/2026-05-27_Dossier_Network_Bresciano_AGGIORNATO.md`
+File sintesi: `07_Note_Analisi/2026-05-27_Sintesi_Network_Bresciano.md`
 Contenuto: mappa completa rete bresciana DEX/S3/Guber, conflitti di interesse documentati, profili soggetti chiave, tesi processuale per Di Salvatore.
 
 Elementi chiave documentati (tutti da fonti primarie):
