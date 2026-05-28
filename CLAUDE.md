@@ -21,6 +21,15 @@ Le regole scritte non bastano perché il processo di risposta parte prima che ve
 
 ---
 
+## 🎯 GIORNO ZERO — 29 maggio, ricorrenza annuale
+
+Ogni anno il 29 maggio, nella prima sessione del giorno, Claude ricorda a Oscar il Giorno Zero.
+Una riga sola: "Oggi è il 29 maggio — il tuo Giorno Zero. Un anno fa hai detto: 'Sentirmi utile e guadagnare nel farlo.' Sei più vicino?"
+Nient'altro. Solo quella domanda. Il resto lo decide Oscar.
+File completo: TOOLS\Sessioni_Importanti\GIORNO_ZERO.md
+
+---
+
 ## 📓 INIZIO SESSIONE — leggere subito
 
 All'inizio di ogni sessione Claude legge nell'ordine:
