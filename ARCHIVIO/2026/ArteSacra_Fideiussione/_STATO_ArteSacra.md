@@ -61,31 +61,51 @@ Ascoltare senza impegnarsi a nulla. Non fare offerte spontanee. Poi mandare l'em
 
 5. 29/05/2026 DOPO SEVERINO — Mandare email a angelo.severino@ncpenterprise.it
 
-## BOZZA EMAIL PER SEVERINO
+## SCAMBIO EMAIL CON SEVERINO
 
-Oggetto: Contratto PlusValore n. 492177 — Ns. rif. 03551 — Riscontro documentale
+### Email inviata da Oscar (27/05/2026)
+
+Oggetto: Contratto PlusValore n. 492177 — Sua comunicazione del 26/05/2026
 
 Gentile Avvocato Severino,
 
-ho esaminato con attenzione la documentazione trasmessami in data 26/05/2026 relativa al contratto di finanziamento PlusValore SpA n. 492177, ceduto a Rubicon SPV S.r.l. e successivamente acquisito da Ifis Npl Investing S.p.A.
+la ringrazio per i documenti che mi ha trasmesso ieri. Li ho letti con attenzione e devo dire che la situazione mi ha lasciato un po' spiazzato, sia per gli importi indicati sia per il tempo trascorso.
 
-Ho rilevato che l'atto di fideiussione da me sottoscritto in data 27/10/2005 prevede un importo massimo garantito di Euro 11.577,60 (undicimilacinquecentosettantasette/60), come espressamente indicato nella sezione "L'importo massimo garantito" del documento originale in Suo possesso.
+Guardando i documenti ho notato che la fideiussione che ho firmato nel 2005 riportava un importo massimo di 11.577,60 euro. Non capisco come si arrivi alla cifra che mi viene richiesta oggi, e ho bisogno di capirlo bene prima di prendere qualsiasi decisione.
 
-Pertanto, qualsiasi discussione relativa alla mia posizione di fideiussore non può eccedere tale limite, indipendentemente dagli importi maturati a carico del debitore principale.
+Ho intenzione di mostrare tutto al mio avvocato nei prossimi giorni. Solo dopo potrò darle una risposta concreta.
 
-Premesso quanto sopra, sono disponibile a valutare una proposta di chiusura definitiva della posizione, a condizione che:
-
-1. La proposta mi venga formulata per iscritto con indicazione dell'importo esatto richiesto
-2. L'eventuale accordo preveda il rilascio di quietanza liberatoria completa e definitiva nei miei confronti da parte di Ifis Npl Investing S.p.A.
-3. L'accordo sia formalizzato in forma scritta prima di qualsiasi altro atto
-
-Resto in attesa di un Suo riscontro scritto.
+Resto disponibile a sentirla come concordato.
 
 Cordiali saluti,
 Oscar Ribichini
-Via Fontanella 20 — 62012 Civitanova Marche (MC)
-C.F. RBCSCR68M08E783U
 Tel. +39 327 611 3167
+
+### Risposta di Severino (27/05/2026)
+
+Gentile Sig. Ribichini, faccio seguito alla Sua comunicazione e, per darLe il necessario riscontro, Le preciso che la posizione in oggetto non deriva da una fideiussione, bensì da un contratto di prestito al consumo.
+
+La differenza tra l'importo iniziale del finanziamento e la cifra richiesta oggi è dovuta al progressivo cumulo degli interessi di mora, delle spese e degli accessori maturati nel corso degli anni sulle rate rimaste insolute.
+
+In ogni caso, qualora decidesse di optare per una definizione a saldo e stralcio, l'accordo andrebbe ad abbattere e azzerare l'intera pendenza (compresi tutti gli interessi e le spese accumulate), senza alcuna ulteriore pretesa da parte della Mandante.
+
+Resto a disposizione Sua e del Suo legale qualora vogliate valutare una proposta transattiva sostenibile che possa definire tombalmente la vicenda.
+
+### Risposta di Oscar (27/05/2026)
+
+Gentile Avvocato Severino,
+
+la ringrazio per il chiarimento. Devo essere onesto: non ho una preparazione giuridica e alcune distinzioni tecniche mi sfuggono, per questo ho bisogno di parlarne con il mio avvocato prima di dire qualsiasi cosa.
+
+Le confermo che lo sentirò nei prossimi giorni e che poi mi farò vivo.
+
+Cordiali saluti,
+Oscar Ribichini
+Tel. +39 327 611 3167
+
+### PUNTO CRITICO EMERSO
+
+Severino sostiene che non si tratta di fideiussione ma di prestito al consumo diretto. Se fosse vero cambia la natura del debito. Da verificare con l'avvocato leggendo il DOC2.pdf — il documento originale firmato da Oscar nel 2005. Quello che Oscar ha in mano si chiama esplicitamente "atto di fideiussione" con massimale 11.577,60€.
 
 ## BLOCCHI APERTI
 
