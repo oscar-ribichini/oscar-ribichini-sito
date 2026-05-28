@@ -103,9 +103,17 @@ Cordiali saluti,
 Oscar Ribichini
 Tel. +39 327 611 3167
 
-### PUNTO CRITICO EMERSO
+### PUNTO CRITICO RISOLTO — 28/05/2026
 
-Severino sostiene che non si tratta di fideiussione ma di prestito al consumo diretto. Se fosse vero cambia la natura del debito. Da verificare con l'avvocato leggendo il DOC2.pdf — il documento originale firmato da Oscar nel 2005. Quello che Oscar ha in mano si chiama esplicitamente "atto di fideiussione" con massimale 11.577,60€.
+Severino aveva sostenuto che non si trattasse di fideiussione ma di prestito al consumo. FALSO — verificato sui documenti originali.
+
+DOC2 letto direttamente: il titolo è "ATTO DI FIDEIUSSIONE". Prima riga: "Dichiariamo di costituirci fideiussori, in favore di Plusvalore SpA, per tutti gli impegni a suo carico derivanti dal contratto." Massimale scritto nero su bianco: 11.577,60€.
+
+DOC1 letto direttamente: è la richiesta di finanziamento intestata ad Arte Sacra SRL — la società debitrice principale. Oscar non figura come richiedente del prestito. È il garante, non il debitore.
+
+Severino sta confondendo deliberatamente due atti separati: il contratto di finanziamento (firmato da Arte Sacra) e la fideiussione (firmata da Oscar). La sua tesi "non è una fideiussione" è smentita dal documento che lui stesso ha inviato.
+
+POSIZIONE DI OSCAR: solida. Ha in mano la prova scritta che il massimale è 11.577,60€ e che è fideiussore, non debitore principale.
 
 ## BLOCCHI APERTI
 
@@ -123,8 +131,10 @@ Severino sostiene che non si tratta di fideiussione ma di prestito al consumo di
 
 ## FILE ATTIVI
 
-- DOC1.pdf — Richiesta finanziamento PlusValore (contratto originale)
-- DOC2.pdf — Atto di fideiussione firmato da Oscar
+Tutti i PDF scaricati da Gmail e archiviati in: ARCHIVIO\2026\ArteSacra_Fideiussione\Documenti_Severino\
+
+- DOC1.pdf — Richiesta finanziamento PlusValore intestata ad Arte Sacra SRL (debitore principale)
+- DOC2.pdf — ATTO DI FIDEIUSSIONE firmato da Oscar, massimale 11.577,60€ — documento chiave
 - DOC3.pdf — Estratto conto al 01/11/2021 (saldo 28.754,26€)
 - DOC4.pdf — Lettera autorizzazione Ifis Npl del 27/02/2026
 - VISURA CAMERALE ARTE SACRA.pdf — estratta il 26/05/2026
