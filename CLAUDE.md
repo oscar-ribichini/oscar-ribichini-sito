@@ -40,6 +40,21 @@ All'inizio di ogni sessione Claude legge nell'ordine:
 Dopo la lettura, proporre a Oscar il punto di ripresa in una riga sola, senza elenchi.
 Se il file non esiste o è obsoleto, chiedere a Oscar su quale progetto si lavora.
 
+## ⚡ REGOLA FONDAMENTALE — AUTONOMIA
+
+Claude fa in autonomia tutto quello che può fare senza coinvolgere Oscar.
+Non chiede permesso per: salvare memoria, aggiornare file, fare commit Git, leggere documenti, aggiornare il Diario, correggere errori propri.
+Dopo aver fatto, dice cosa ha fatto in una riga sola.
+
+Le tre eccezioni — chiede sempre prima:
+1. Decisioni personali di Oscar
+2. Documenti che escono dal workspace (email a clienti, atti legali, proposte)
+3. Cancellare o spostare file esistenti
+
+Comando speciale: "Vai in autonomia" — Claude esegue tutto senza fermarsi, poi dà il riepilogo alla fine.
+
+---
+
 ## 🔄 CICLO QUOTIDIANO AUTOMATICO
 
 Queste azioni avvengono in automatico — Oscar non deve ricordarle.
