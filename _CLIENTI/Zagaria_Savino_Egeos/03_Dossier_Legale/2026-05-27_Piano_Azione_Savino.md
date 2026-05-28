@@ -9,17 +9,20 @@
 
 RO.SA. srl non è un concorrente locale. È una società controllata al 50% da SAPI GREEN OIL srl e al 50% da R.O.V.E. srl — costituita il 23/04/2025 a Galatina (LE), P.IVA 05410120751, amministrata da De Donno Gianluca (Gallipoli).
 
-Lo schema è preciso: SAPI vuole il monopolio nazionale della raccolta UCO. Ha costruito una società con un nome locale per non sembrare SAPI. Ha conferito in questa società tutta la rete di raccolta pugliese di ROVE. E poi ha iniziato a pagare i ristoranti più di quanto il mercato possa sostenere — perché può permetterselo grazie agli incentivi GSE.
+Lo schema è preciso: SAPI vuole il monopolio nazionale della raccolta UCO. Ha costruito una società con un nome locale per non sembrare SAPI. Ha conferito in questa società tutta la rete di raccolta pugliese di ROVE. E poi ha iniziato a pagare i ristoranti più di quanto il mercato possa sostenere.
 
 ---
 
 ## PERCHÉ SAPI PUÒ PERMETTERSI IL DUMPING (e tu no)
 
-SAPI è certificata ISCC EU. Questo significa che l'UCO che raccoglie viene trasformato in biodiesel UCOME e genera Certificati di Immissione in Consumo (CIC). Ogni CIC vale circa 375€ e viene incassato per 10 anni. E per il biodiesel da UCO il meccanismo conta doppio.
+**Verificato — certificato ISCC EU-ISCC-Cert-DE100-08025125, SGS Germany GmbH, valido 10/10/2025–09/10/2026:**
+SAPI Green Oil è certificata ISCC EU come *collecting point, treatment plant for waste/residues, trader with storage*. Non produce biodiesel e non incassa CIC direttamente. Il suo prodotto finale è UCO trattato (R.U.C.O.) che vende alle raffinerie.
 
-Un operatore integrato raccolta+raffinazione incassa l'intero flusso incentivale. Può quindi pagare i generatori (ristoranti) anche il doppio del fair value — e recuperare il margine sugli incentivi GSE. Tu non puoi farlo perché sei un trader: non sei nella catena degli incentivi.
+La vera leva del dumping è più semplice: **SAPI SpA è un gruppo da 173 milioni di euro con presenza globale**. Usa la forza finanziaria del gruppo per far sostenere a RO.SA. — una società nata nel 2025 senza storia e con capitali propri minimi — perdite operative che nessun operatore locale indipendente potrebbe permettersi. RO.SA. paga i ristoranti sopra il fair value non perché guadagna di più, ma perché il gruppo copre le perdite dall'alto finché i concorrenti chiudono.
 
-Questo non è libero mercato. È sussidio pubblico usato per eliminare i concorrenti.
+Questo si chiama **predatory pricing con deep pockets** ed è vietato dall'art. 102 TFUE e dall'art. 3 della Legge 287/1990. La Corte di Giustizia UE lo ha confermato in più sentenze (France Télécom C-202/07, Compagnie Maritime Belge C-395/96). L'AGCM italiano lo ha applicato nel caso Trenitalia (A402, 2011).
+
+L'obiettivo monopolistico è dichiarato pubblicamente da SAPI: 50.000 punti raccolta, leadership nazionale. In diritto antitrust questa dichiarazione è prova dell'intento escludente.
 
 ---
 
