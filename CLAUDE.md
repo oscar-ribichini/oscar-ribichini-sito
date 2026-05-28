@@ -24,8 +24,9 @@ Le regole scritte non bastano perché il processo di risposta parte prima che ve
 ## 📓 INIZIO SESSIONE — leggere subito
 
 All'inizio di ogni sessione Claude legge nell'ordine:
-1. `TOOLS\Script_AI\STATO_PROGETTI.md` — punto di ripresa
-2. `TOOLS\Errori_Claude\REGISTRO_ERRORI.md` — errori già commessi da non ripetere
+1. `TOOLS\Script_AI\BUSSOLA_OSCAR.md` — obiettivo centrale, priorità, domanda di allineamento
+2. `TOOLS\Script_AI\STATO_PROGETTI.md` — punto di ripresa
+3. `TOOLS\Errori_Claude\REGISTRO_ERRORI.md` — errori già commessi da non ripetere
 
 Dopo la lettura, proporre a Oscar il punto di ripresa in una riga sola, senza elenchi.
 Se il file non esiste o è obsoleto, chiedere a Oscar su quale progetto si lavora.
