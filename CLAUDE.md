@@ -35,11 +35,17 @@ Se il file non esiste o è obsoleto, chiedere a Oscar su quale progetto si lavor
 **Prima di produrre qualsiasi HTML, documento da stampare, atto legale o documento destinato a un professionista esterno:**
 Leggere `TOOLS\Errori_Claude\REGISTRO_ERRORI.md` e verificare che nessuno degli errori catalogati si ripeta nel documento che si sta per produrre.
 
-Controlli minimi obbligatori per HTML da stampare:
+Controlli minimi obbligatori per HTML da stampare (checklist completa in `TOOLS\Errori_Claude\REGISTRO_ERRORI.md`):
 - Nessun `overflow: hidden` su contenitori di testo
 - Ogni `display: grid` e `display: flex` ha `page-break-inside: avoid; break-inside: avoid;`
 - Blocchi full-width con contenuto lungo usano layout verticale puro dentro (no flex/grid interni)
+- Badge sempre su riga propria con `<br>` prima — mai inline nel testo
+- `page-break-inside: avoid` solo su box singoli — mai su righe ripetute di liste o timeline
+- Nessun `page-break-before: always` usato per coprire problemi di flusso
 - Il contenuto del file sorgente (MD o brief) è stato trasferito sezione per sezione nell'HTML
+- Verificato salvando come PDF da Chrome e aprendo in Acrobat — non solo anteprima
+
+**Punto di partenza obbligatorio:** per ogni nuovo HTML da stampare, usare il MODELLO CSS SICURO in `TOOLS\Errori_Claude\REGISTRO_ERRORI.md`. Non reinventare il CSS da zero.
 
 Controlli minimi obbligatori per documenti a professionisti esterni:
 - Nessuna frase che possa suonare come critica alla competenza del destinatario
