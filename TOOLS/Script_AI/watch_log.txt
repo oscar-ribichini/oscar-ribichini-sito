@@ -299,3 +299,7 @@
 2026-05-28 17:25:42 - Trascrizione completata: 2026-05-28 14-14-30.txt
 2026-05-28 17:25:44 - Nuovo video rilevato: 2026-05-28 14-17-56.mp4
 2026-05-28 17:25:44 - Avvio Whisper...
+2026-05-28 19:48:57 - Trascrizione completata: 2026-05-28 14-17-56.txt
+2026-05-28 19:48:59 - Nuovo video rilevato: Video Conosci Claude 01 2026-05-07 12-32-21.mp4
+2026-05-28 19:48:59 - Avvio Whisper...
+2026-05-28 20:13:32 - Trascrizione completata: Video Conosci Claude 01 2026-05-07 12-32-21.txt
