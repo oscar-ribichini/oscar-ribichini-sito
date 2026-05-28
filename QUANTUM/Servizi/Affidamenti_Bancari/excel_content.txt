@@ -1,0 +1,26 @@
+
+=== MEDIOLUNGO ===
+ | Ragione Sociale: |  |  |  |  |  | DATA DI COMPILAZIONE: |  |  |  |  |  |  |  |  |  | 
+ | Finanziamenti - Prestiti Obbligazionari (Euro/migliaia) in essere alla DATA DI COMPILAZIONE compresi quelli in richiesta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Banche  | Tipo | Data | Data inizio | Data | Importo | Residuo al mese precedente  | Importo Rata | Moratoria | Scadenza prima Rata Capitale post eventuale pre-ammortamento e/o moratoria | Periodicità |  |  |  |  |  | 
+ |  | Finanziamento | Erogazione |  | Scadenza | Erogato |  |  | SI/NO |  | Rata |  |  |  |  |  | 
+ |  | (*) |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+
+=== BREVE ===
+ | Ragione Sociale: |  |  |  |  |  | DATA DI COMPILAZIONE: |  |  |  | 
+ | Finanziamenti - Affidamenti a breve termine (Euro/migliaia) in essere alla DATA DI COMPILAZIONE compresi quelli in richiesta |  |  |  |  |  |  |  |  |  | 
+ | Istituto  | Riferimento | Tipologia affidamento | Importo finanziato | Importo utilizzato | Importo residuo | Scadenza Linea |  |  |  | 
+
+=== leasing ===
+ | Ragione Sociale:  |  |  |  |  |  | DATA DI COMPILAZIONE: |  |  |  |  |  | 
+ |  |  | 202. | 202. |  |  |  |  |  |  |  |  | 
+ | Canoni Leasing Totali a Conto Economico |  | 0 | 0 |  |  |  |  |  |  |  |  | 
+ | Leasing (Euro/migliaia) in essere alla DATA DI COMPILAZIONE compresi quelli ottenuti nel |  |  |  |  | 202. |  |  |  |  |  |  | 
+ | Società di Leasing |  |  |  | Residuo |  | Scadenza prima Rata Capitale post eventuale pre-ammortamento e/o moratoria |  | importo rata |  |  |  | 
+ |  |  |  |  | alla data del mese precedente* |  |  |  |  |  |  |  | 
+
+=== TributariPrevid ===
+ | Ragione Sociale:  |  |  |  |  |  | DATA DI COMPILAZIONE: |  |  |  |  | 
+ | Debiti Tributari/Previdenziali Rateizzati (Euro/migliaia) in essere alla DATA DI COMPILAZIONE (*) |  |  |  |  |  |  |  |  |  |  | 
+ | N. Comunicazione/cartella | Debito Rateizzato (es. INPS, ADE, ecc.) | Data |  | durata mesi | Importo | Residuo |  | importo rata |  |  | 
+ |  |  | Inizio |  |  | Originario  | alla data del (***) |  |  |  |  | 
