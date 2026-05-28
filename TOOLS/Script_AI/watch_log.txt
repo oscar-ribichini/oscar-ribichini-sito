@@ -98,3 +98,204 @@
 2026-05-23 10:41:29 - Nuovo video rilevato: Video Conosci Claude 01 2026-05-07 12-32-21.mp4
 2026-05-23 10:41:29 - Avvio Whisper...
 2026-05-23 11:07:18 - Trascrizione completata: Video Conosci Claude 01 2026-05-07 12-32-21.txt
+2026-05-27 01:58:08 - Nuovo video rilevato: 2026-05-27 01-57-47.mp4
+2026-05-27 01:58:08 - Avvio Whisper...
+2026-05-27 01:58:15 - Avvio Whisper...
+2026-05-27 02:30:23 - Trascrizione completata: 2026-05-27 01-57-47.txt
+2026-05-27 02:35:15 - Trascrizione completata: 2026-05-27 01-57-47.txt
+2026-05-27 03:16:59 - Nuovo video rilevato: 2026-05-27 03-16-26.mp4
+2026-05-27 03:16:59 - Avvio Whisper...
+2026-05-27 03:17:00 - Nuovo video rilevato: 2026-05-27 03-16-26.mp4
+2026-05-27 03:17:00 - Avvio Whisper...
+2026-05-27 04:39:34 - Trascrizione completata: 2026-05-27 03-16-26.txt
+2026-05-27 04:40:06 - Trascrizione completata: 2026-05-27 03-16-26.txt
+2026-05-27 10:02:02 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-27 10:02:06 - Nuovo video rilevato: 2026-05-27 01-57-47.mp4
+2026-05-27 10:02:06 - Avvio Whisper...
+2026-05-27 10:03:10 - Trascrizione completata: 2026-05-27 01-57-47.txt
+2026-05-27 10:03:12 - Nuovo video rilevato: 2026-05-27 03-16-26.mp4
+2026-05-27 10:03:12 - Avvio Whisper...
+2026-05-27 10:03:58 - Trascrizione completata: 2026-05-27 03-16-26.txt
+2026-05-27 10:04:00 - Nuovo video rilevato: Video Conosci Claude 01 2026-05-07 12-32-21.mp4
+2026-05-27 10:04:00 - Avvio Whisper...
+2026-05-27 10:28:28 - Trascrizione completata: Video Conosci Claude 01 2026-05-07 12-32-21.txt
+2026-05-27 11:22:00 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-27 11:22:03 - Nuovo video rilevato: 2026-05-27 01-57-47.mp4
+2026-05-27 11:22:03 - Avvio Whisper...
+2026-05-27 11:23:03 - Trascrizione completata: 2026-05-27 01-57-47.txt
+2026-05-27 11:23:05 - Nuovo video rilevato: 2026-05-27 03-16-26.mp4
+2026-05-27 11:23:05 - Avvio Whisper...
+2026-05-27 11:23:57 - Trascrizione completata: 2026-05-27 03-16-26.txt
+2026-05-27 11:23:59 - Nuovo video rilevato: Video Conosci Claude 01 2026-05-07 12-32-21.mp4
+2026-05-27 11:23:59 - Avvio Whisper...
+2026-05-27 11:28:13 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-27 11:28:16 - Nuovo video rilevato: 2026-05-27 01-57-47.mp4
+2026-05-27 11:28:16 - Avvio Whisper...
+2026-05-27 11:29:25 - Trascrizione completata: 2026-05-27 01-57-47.txt
+2026-05-27 11:29:27 - Nuovo video rilevato: 2026-05-27 03-16-26.mp4
+2026-05-27 11:29:27 - Avvio Whisper...
+2026-05-27 11:30:09 - Trascrizione completata: 2026-05-27 03-16-26.txt
+2026-05-27 11:30:11 - Nuovo video rilevato: Video Conosci Claude 01 2026-05-07 12-32-21.mp4
+2026-05-27 11:30:11 - Avvio Whisper...
+2026-05-27 11:54:49 - Trascrizione completata: Video Conosci Claude 01 2026-05-07 12-32-21.txt
+2026-05-28 13:53:23 - File non accessibile, salto: 2026-05-28 13-52-18.mp4
+2026-05-28 13:54:15 - Nuovo video rilevato: 2026-05-28 13-52-18.mp4
+2026-05-28 13:54:15 - Avvio Whisper...
+2026-05-28 13:56:10 - Trascrizione completata: 2026-05-28 13-52-18.txt
+2026-05-28 14:15:41 - File non accessibile, salto: 2026-05-28 14-14-30.mp4
+2026-05-28 14:16:51 - File non accessibile, salto: 2026-05-28 14-14-30.mp4
+2026-05-28 14:17:56 - Nuovo video rilevato: 2026-05-28 14-14-30.mp4
+2026-05-28 14:17:56 - Avvio Whisper...
+2026-05-28 14:20:54 - Trascrizione completata: 2026-05-28 14-14-30.txt
+2026-05-28 14:22:04 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:23:14 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:24:25 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:25:35 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:26:45 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:27:56 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:29:06 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:30:16 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:31:26 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:32:37 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:33:47 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:34:57 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:36:07 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:37:18 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:38:28 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:39:38 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:40:49 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:41:59 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:43:09 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:44:19 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:45:30 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:46:40 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:47:50 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:49:00 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:50:10 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:51:21 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:52:31 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:53:41 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:54:52 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:56:02 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:57:12 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:58:22 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 14:59:33 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:00:43 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:01:53 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:04:14 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:05:24 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:06:35 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:07:45 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:08:55 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:10:05 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:11:16 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:12:26 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:13:36 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:14:46 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:15:57 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:17:07 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:18:17 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:19:28 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:21:48 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:24:09 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:26:29 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:27:39 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:28:50 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:30:00 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:31:10 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:32:21 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:33:31 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:35:51 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:39:22 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:41:43 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:42:53 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:44:03 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:45:14 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:46:24 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:48:44 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:49:55 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:51:05 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:52:15 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:53:26 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:55:46 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:56:56 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:58:07 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 15:59:17 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:01:38 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:02:48 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:03:59 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:05:09 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:06:19 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:07:30 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:08:40 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:09:50 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:11:01 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:12:11 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:13:21 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:14:32 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:15:42 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:16:52 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:18:03 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:19:13 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:20:23 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:21:34 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:22:44 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:23:54 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:25:05 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:26:15 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:27:25 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:28:36 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:29:46 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:30:56 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:36:48 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:41:29 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:42:39 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:43:50 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:45:00 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:46:10 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:47:21 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:48:31 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:49:41 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:50:51 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:52:02 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:53:12 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:54:23 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:55:33 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:56:20 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-28 16:56:22 - Nuovo video rilevato: 2026-05-27 01-57-47.mp4
+2026-05-28 16:56:22 - Avvio Whisper...
+2026-05-28 16:56:43 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:57:19 - Trascrizione completata: 2026-05-27 01-57-47.txt
+2026-05-28 16:57:21 - Nuovo video rilevato: 2026-05-27 03-16-26.mp4
+2026-05-28 16:57:21 - Avvio Whisper...
+2026-05-28 16:57:54 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 16:58:39 - Trascrizione completata: 2026-05-27 03-16-26.txt
+2026-05-28 16:58:41 - Nuovo video rilevato: 2026-05-28 13-52-18.mp4
+2026-05-28 16:58:41 - Avvio Whisper...
+2026-05-28 16:59:04 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 17:00:15 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 17:01:26 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 17:01:27 - Trascrizione completata: 2026-05-28 13-52-18.txt
+2026-05-28 17:01:29 - Nuovo video rilevato: 2026-05-28 14-14-30.mp4
+2026-05-28 17:01:29 - Avvio Whisper...
+2026-05-28 17:02:36 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 17:03:47 - File non accessibile, salto: 2026-05-28 14-17-56.mp4
+2026-05-28 17:03:50 - Nuovo video rilevato: 2026-05-27 01-57-47.mp4
+2026-05-28 17:03:50 - Avvio Whisper...
+2026-05-28 17:04:30 - Nuovo video rilevato: 2026-05-28 14-17-56.mp4
+2026-05-28 17:04:30 - Avvio Whisper...
+2026-05-28 17:18:14 - Watcher avviato. In ascolto su: E:\Lavori Code\VIDEO
+2026-05-28 17:18:18 - Nuovo video rilevato: 2026-05-27 01-57-47.mp4
+2026-05-28 17:18:18 - Avvio Whisper...
+2026-05-28 17:20:43 - Trascrizione completata: 2026-05-27 01-57-47.txt
+2026-05-28 17:20:46 - Nuovo video rilevato: 2026-05-27 03-16-26.mp4
+2026-05-28 17:20:46 - Avvio Whisper...
+2026-05-28 17:21:54 - Trascrizione completata: 2026-05-27 03-16-26.txt
+2026-05-28 17:21:56 - Nuovo video rilevato: 2026-05-28 13-52-18.mp4
+2026-05-28 17:21:56 - Avvio Whisper...
+2026-05-28 17:23:25 - Trascrizione completata: 2026-05-28 13-52-18.txt
+2026-05-28 17:23:27 - Nuovo video rilevato: 2026-05-28 14-14-30.mp4
+2026-05-28 17:23:27 - Avvio Whisper...
+2026-05-28 17:25:42 - Trascrizione completata: 2026-05-28 14-14-30.txt
+2026-05-28 17:25:44 - Nuovo video rilevato: 2026-05-28 14-17-56.mp4
+2026-05-28 17:25:44 - Avvio Whisper...
