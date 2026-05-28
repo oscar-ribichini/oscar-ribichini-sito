@@ -81,7 +81,7 @@ Cordiali saluti,
 Oscar Ribichini
 Tel. +39 327 611 3167
 
-### Risposta di Severino (27/05/2026)
+### Prima risposta di Severino (27/05/2026 — ore 21:46)
 
 Gentile Sig. Ribichini, faccio seguito alla Sua comunicazione e, per darLe il necessario riscontro, Le preciso che la posizione in oggetto non deriva da una fideiussione, bensì da un contratto di prestito al consumo.
 
@@ -102,6 +102,14 @@ Le confermo che lo sentirò nei prossimi giorni e che poi mi farò vivo.
 Cordiali saluti,
 Oscar Ribichini
 Tel. +39 327 611 3167
+
+### Seconda risposta di Severino (28/05/2026 — ore 09:09) — NUOVA EMAIL
+
+Testo identico alla prima risposta del 27/05. Severino ha rimandato la stessa email il giorno dopo, parola per parola, senza aggiungere nulla di nuovo.
+
+NOTA OPERATIVA: è un segnale. Significa che non ha argomenti nuovi da portare. Ripete la stessa tesi ("non è fideiussione, è prestito al consumo") sperando che Oscar ci caschi o faccia un'offerta spontanea. Non c'è nulla di nuovo da rispondere — la sua posizione è debole e lo sa.
+
+---
 
 ### PUNTO CRITICO RISOLTO — 28/05/2026
 
