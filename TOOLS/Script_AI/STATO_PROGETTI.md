@@ -166,6 +166,33 @@ Classifica:
 
 ---
 
+## 🟢 REPUTAZIONE SOCIAL [NUOVO — 28/05/2026]
+
+Progetto creato in sessione 28/05/2026 con analisi completa a 18 lenti.
+Cartella principale: `e:\Lavori Code\REPUTAZIONE_SOCIAL\`
+
+Struttura:
+- 01_Analisi_Punto_Partenza — fotografia stato attuale
+- 02_LinkedIn — piano completo, testi bio/headline, calendario post, template recensioni
+- 03_Sito_Oscar — piano SEO (da completare)
+- 04_Codice_Reale — piano editoriale + libreria post pronti
+- 05_Quantum_Social — piano LinkedIn Quantum + template outreach
+- 07_Metriche_KPI — baseline e obiettivi a 30/90/180 giorni
+- 09_Sponsor_Ads — piano ads Meta con regole operative
+- 10_SEO_Google — guida Search Console passo per passo + piano backlink
+
+I 3 Oscar online: (1) professionista su LinkedIn+sito, (2) voce Codice Reale su Meta, (3) consulente AI+Quantum su LinkedIn
+I 4 pilastri: ESSERE TROVATO → ESSERE CREDIBILE → ESSERE ASCOLTATO → ESSERE SCELTO
+
+Prossime azioni immediate (in ordine):
+1. Configurare Google Search Console per oscar-ribichini.it — guida pronta in 10_SEO_Google
+2. Caricare foto profilo LinkedIn — Oscar ha già la foto
+3. Pubblicare video Ferrari come Reel su Facebook e Instagram
+4. Collegare Instagram @codicereale a Meta Business Suite
+5. Scrivere e pubblicare primo post LinkedIn pubblico
+
+---
+
 ## 📌 MCP DA CONFIGURARE
 
 - Google Calendar — richiesto 27/05/2026, non ancora fatto
