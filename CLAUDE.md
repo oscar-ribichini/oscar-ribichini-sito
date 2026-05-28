@@ -23,11 +23,27 @@ Le regole scritte non bastano perché il processo di risposta parte prima che ve
 
 ## 📓 INIZIO SESSIONE — leggere subito
 
-All'inizio di ogni sessione Claude legge:
-`TOOLS\Script_AI\STATO_PROGETTI.md`
+All'inizio di ogni sessione Claude legge nell'ordine:
+1. `TOOLS\Script_AI\STATO_PROGETTI.md` — punto di ripresa
+2. `TOOLS\Errori_Claude\REGISTRO_ERRORI.md` — errori già commessi da non ripetere
 
 Dopo la lettura, proporre a Oscar il punto di ripresa in una riga sola, senza elenchi.
 Se il file non esiste o è obsoleto, chiedere a Oscar su quale progetto si lavora.
+
+## ⛔ REGOLA ASSOLUTA — REGISTRO ERRORI
+
+**Prima di produrre qualsiasi HTML, documento da stampare, atto legale o documento destinato a un professionista esterno:**
+Leggere `TOOLS\Errori_Claude\REGISTRO_ERRORI.md` e verificare che nessuno degli errori catalogati si ripeta nel documento che si sta per produrre.
+
+Controlli minimi obbligatori per HTML da stampare:
+- Nessun `overflow: hidden` su contenitori di testo
+- Ogni `display: grid` e `display: flex` ha `page-break-inside: avoid; break-inside: avoid;`
+- Blocchi full-width con contenuto lungo usano layout verticale puro dentro (no flex/grid interni)
+- Il contenuto del file sorgente (MD o brief) è stato trasferito sezione per sezione nell'HTML
+
+Controlli minimi obbligatori per documenti a professionisti esterni:
+- Nessuna frase che possa suonare come critica alla competenza del destinatario
+- Ogni sigla e nome di istituto è verificato sulla fonte primaria prima di essere usato
 
 ---
 
