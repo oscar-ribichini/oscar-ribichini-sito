@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Tessera Sanitaria — Oscar Ribichini</title>
+<style>
+  @page { size: A4; margin: 15mm 18mm 15mm 18mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9pt; color: #1a1a2e; background: #fff; }
+
+  .header {
+    border-bottom: 3px solid #1a3a6b;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .header-left h1 { font-size: 15pt; font-weight: 700; color: #1a3a6b; }
+  .header-left .ruolo { font-size: 7.5pt; color: #555; margin-top: 2px; }
+  .header-right { text-align: right; font-size: 7pt; color: #666; line-height: 1.6; }
+
+  .doc-title {
+    background: #1a3a6b; color: #fff;
+    padding: 5px 12px; font-size: 9.5pt; font-weight: 600;
+    margin-bottom: 10px;
+    page-break-inside: avoid; break-inside: avoid;
+  }
+
+  .sezione-label {
+    font-size: 6pt; font-weight: 700; color: #1a3a6b;
+    text-transform: uppercase; letter-spacing: 1px;
+    border-bottom: 1px solid #c8d4e8;
+    padding-bottom: 2px; margin-bottom: 6px;
+  }
+
+  .foto-block {
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .foto-label {
+    font-size: 5.5pt; color: #aaa; text-transform: uppercase;
+    letter-spacing: 0.8px; font-weight: 700; margin-bottom: 2px;
+  }
+  .foto-block img {
+    width: 75%;
+    display: inline-block;
+    border: 2.5px solid #1a3a6b;
+    border-radius: 7px;
+    box-shadow: 0 2px 8px rgba(26,58,107,0.13);
+  }
+
+  .dati-wrap { margin-top: 10px; page-break-inside: avoid; break-inside: avoid; }
+  .dati-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 5px 12px;
+    page-break-inside: avoid; break-inside: avoid;
+  }
+  .dato-item { page-break-inside: avoid; break-inside: avoid; }
+  .dato-label { font-size: 5.5pt; color: #aaa; text-transform: uppercase; font-weight: 700; margin-bottom: 1px; }
+  .dato-valore { font-size: 8.5pt; color: #1a1a2e; font-weight: 600; }
+
+  .nota-footer {
+    margin-top: 8px; border-top: 1px solid #eee;
+    padding-top: 5px; font-size: 5.5pt; color: #ccc; line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>Oscar Ribichini</h1>
+    <div class="ruolo">Civitanova Marche (MC) · C.F. RBCSCR68M08E783U</div>
+  </div>
+  <div class="header-right">
+    Via Fontanella 20, 62012 Civitanova Marche (MC)<br>
+    globalarea@gmail.com · +39 327 611 3167 · P.IVA 01785850437
+  </div>
+</div>
+
+<div class="doc-title">TESSERA SANITARIA — Codice Fiscale e Tessera Europea di Assicurazione Malattia</div>
+
+<div class="sezione-label">Documento originale</div>
+
+<div class="foto-block">
+  <div class="foto-label">Fronte</div>
+  <img src="TesseraSanitaria_Fronte_crop.jpg" alt="Fronte">
+</div>
+
+<div class="foto-block">
+  <div class="foto-label">Retro — Tessera Europea Assicurazione Malattia</div>
+  <img src="TesseraSanitaria_Retro_crop.jpg" alt="Retro">
+</div>
+
+<div class="dati-wrap">
+  <div class="sezione-label">Dati anagrafici e codice fiscale</div>
+  <div class="dati-grid">
+    <div class="dato-item"><div class="dato-label">Cognome</div><div class="dato-valore">RIBICHINI</div></div>
+    <div class="dato-item"><div class="dato-label">Nome</div><div class="dato-valore">OSCAR</div></div>
+    <div class="dato-item"><div class="dato-label">Data di nascita</div><div class="dato-valore">08/08/1968</div></div>
+    <div class="dato-item"><div class="dato-label">Luogo di nascita</div><div class="dato-valore">MACERATA (MC)</div></div>
+    <div class="dato-item"><div class="dato-label">Codice fiscale</div><div class="dato-valore">RBCSCR68M08E783U</div></div>
+    <div class="dato-item"><div class="dato-label">Sesso</div><div class="dato-valore">M</div></div>
+    <div class="dato-item"><div class="dato-label">N° tessera</div><div class="dato-valore">80380001100318753460</div></div>
+    <div class="dato-item"><div class="dato-label">Istituzione</div><div class="dato-valore">SSN-MIN SALUTE 500001</div></div>
+    <div class="dato-item"><div class="dato-label">Scadenza</div><div class="dato-valore">30/08/2028</div></div>
+  </div>
+</div>
+
+<div class="nota-footer">
+  Documento trasmesso ai soli fini di identificazione del soggetto e verifica del codice fiscale. Dati personali trattati ai sensi del Regolamento (UE) 2016/679 (GDPR). Vietata qualsiasi duplicazione o utilizzo per finalità diverse da quelle per cui è stato richiesto.
+</div>
+
+</body>
+</html>

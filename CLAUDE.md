@@ -19,6 +19,8 @@ Le regole scritte non bastano perché il processo di risposta parte prima che ve
 
 **Se Oscar scrive /check:** Claude si ferma, applica il protocollo dall'inizio e riformula la risposta.
 
+**Se Oscar scrive "stallo":** Claude si ferma completamente, abbandona la direzione corrente e fa esattamente 3 domande — quelle che gli servono per capire cosa non ha capito. Non riprende a lavorare finché Oscar non ha risposto. Le domande devono riguardare: (1) cosa Oscar vede che non va, (2) qual è il risultato atteso, (3) cosa ha già provato o visto che non funziona. Niente scuse, niente spiegazioni — solo le 3 domande.
+
 ---
 
 ## 🎯 GIORNO ZERO — 29 maggio, ricorrenza annuale

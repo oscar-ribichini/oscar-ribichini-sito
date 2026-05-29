@@ -191,5 +191,25 @@ h2, h3 { page-break-after: avoid; break-after: avoid; }
 
 ---
 
-*Ultimo aggiornamento: 28/05/2026*  
+*Ultimo aggiornamento: 29/05/2026*  
 *Aggiungere nuovi errori con il formato ERR-NNN appena si verificano.*
+
+---
+
+### ERR-011 — Foto con sfondo scuro: correggere le immagini, non il CSS
+**Data:** 29/05/2026 | **Progetto:** Documenti identità Webidoo  
+**Cosa è successo:** Foto scattate su sfondo scuro con sfondo visibile intorno alla carta. Claude ha tentato di risolvere con CSS (`overflow:hidden`, crop con position absolute, max-height, object-fit) — 8+ iterazioni, 30 minuti persi.  
+**Causa radice:** Il problema era nelle immagini, non nel CSS. CSS non può rimuovere pixel scuri da una foto senza `overflow:hidden` che rompe la stampa Epson.  
+**Danno:** 30 minuti di lavoro su un problema risolvibile in 2 minuti con Python.  
+**Soluzione corretta:** Python + Pillow: (1) crop automatico per media di riga/colonna con soglia 70, (2) `ImageOps.expand` con bordo bianco 20px. Verificare visivamente con `Read` sull'immagine generata PRIMA di scrivere HTML.  
+**Regola futura:** Quando le foto hanno sfondo indesiderato → Python prima, HTML dopo. Mai toccare CSS per problemi che esistono nell'immagine. Leggere sempre le immagini generate con Read per verificarle visivamente prima di procedere.
+
+---
+
+### ERR-012 — Correggere al buio senza misurare lo spazio disponibile
+**Data:** 29/05/2026 | **Progetto:** Documenti identità Webidoo  
+**Cosa è successo:** Documento su 2 pagine invece di 1. Claude ha corretto margini, font-size, page-break senza mai calcolare quanti mm occupano gli elementi.  
+**Causa radice:** Non è stato fatto il calcolo preventivo: spazio A4 utile (267mm) meno intestazione, titolo, dati, gap = spazio disponibile per le foto. Le foto scalate a larghezza piena occupavano 117mm ciascuna = 234mm solo per le foto.  
+**Danno:** 6+ iterazioni inutili su un problema di matematica semplice.  
+**Soluzione corretta:** Prima di scrivere HTML con foto: calcolare in Python l'altezza che ogni foto occuperà scalata alla larghezza utile. Se la somma supera lo spazio disponibile, ridimensionare fisicamente le foto con Python fino a farle stare. Poi scrivere l'HTML.  
+**Regola futura:** HTML con foto = calcolo mm preventivo obbligatorio. Formula: altezza_foto_scalata = (altezza_originale / larghezza_originale) × larghezza_utile_mm. Se somma > spazio_disponibile → ridimensionare le foto, non il CSS.
