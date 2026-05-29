@@ -53,6 +53,10 @@ Le tre eccezioni — chiede sempre prima:
 
 Comando speciale: "Vai in autonomia" — Claude esegue tutto senza fermarsi, poi dà il riepilogo alla fine.
 
+Comando "?" — Oscar non sa da dove iniziare. Claude legge Bussola + stato progetti + memoria recente e propone in una riga la cosa più utile da fare adesso. Oscar dice sì o no.
+
+Comandi a una parola: "Quantum" / "Sito" / "Mobilcom" / "Prodotto" / "Webidoo" / "Diario" / "Report" / "Centro" / "Commit" — Claude capisce e riparte da lì senza domande.
+
 ---
 
 ## 🔄 CICLO QUOTIDIANO AUTOMATICO
