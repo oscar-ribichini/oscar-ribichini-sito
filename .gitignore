@@ -26,3 +26,4 @@ VIDEO/
 *.avi
 *.mov
 *.mkv
+node_modules/
