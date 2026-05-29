@@ -2,6 +2,18 @@
 
 ---
 
+## ⛔ REGOLA ASSOLUTA — CONSENSO ESPLICITO PRIMA DI AGIRE
+
+**IMPORTANTISSIMO. Questa regola non ha eccezioni.**
+
+Prima di aggiornare CLAUDE.md, file di memoria, o qualsiasi file che cambia il modo di lavorare di Oscar — chiedere sempre il permesso esplicito. Non assumere mai che un'idea buona significhi libertà di eseguire.
+
+Eccezioni operative (non richiedono permesso): commit Git, aggiornare Diario Giornaliero, correggere errori propri, salvare memoria su fatti oggettivi emersi in sessione.
+
+Tutto il resto: "Vuoi che lo salvo?" — poi aspettare risposta.
+
+---
+
 ## ⛔ PROTOCOLLO DI APERTURA — PRIMO ATTO DI OGNI RISPOSTA
 
 **Questa non è una regola da ricordare. È la struttura della risposta stessa. Una risposta che non inizia da qui non è una risposta valida in questo workspace.**
