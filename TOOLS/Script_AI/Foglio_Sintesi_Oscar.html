@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Foglio di Sintesi — Oscar Ribichini</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@page { margin: 12mm; size: A4; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Inter',sans-serif; background:white; color:#1a1a1a; font-size:13px; line-height:1.5; }
+
+.header { display:flex; align-items:center; justify-content:space-between; padding:0 0 12px 0; border-bottom:3px solid #1a1a1a; margin-bottom:16px; }
+.header-left h1 { font-size:22px; font-weight:900; letter-spacing:-0.5px; }
+.header-left p { font-size:11px; color:#888; letter-spacing:2px; text-transform:uppercase; }
+.header-right { text-align:right; font-size:11px; color:#888; }
+.header-right strong { color:#d4af37; font-size:13px; }
+
+.grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:12px; }
+.grid-3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; margin-bottom:12px; }
+
+.box { border:1px solid #e0e0e0; border-radius:4px; padding:12px; page-break-inside:avoid; break-inside:avoid; }
+.box-gold { border-color:#d4af37; border-width:2px; }
+.box-dark { background:#1a1a1a; color:white; border-color:#1a1a1a; }
+
+.box-title { font-size:9px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#d4af37; margin-bottom:8px; }
+.box-dark .box-title { color:#d4af37; }
+
+.bussola { font-size:16px; font-weight:900; color:white; line-height:1.3; margin-bottom:8px; }
+.bussola span { color:#d4af37; }
+
+.strumento { display:flex; gap:8px; margin-bottom:8px; align-items:flex-start; }
+.strumento:last-child { margin-bottom:0; }
+.strumento-nome { font-size:10px; font-weight:700; color:#1a1a1a; min-width:90px; text-transform:uppercase; letter-spacing:0.5px; }
+.strumento-quando { font-size:11px; color:#555; line-height:1.4; }
+.strumento-tag { display:inline-block; background:#f0f0f0; border-radius:2px; padding:1px 6px; font-size:9px; font-weight:600; color:#888; margin-right:3px; margin-bottom:2px; }
+.strumento-tag.gold { background:#fdf8e8; color:#b8860b; }
+
+.comando { display:flex; gap:8px; margin-bottom:6px; align-items:flex-start; }
+.comando:last-child { margin-bottom:0; }
+.comando-key { font-family:monospace; background:#f0f0f0; border:1px solid #ddd; border-radius:3px; padding:1px 8px; font-size:11px; font-weight:700; color:#1a1a1a; white-space:nowrap; min-width:80px; text-align:center; }
+.comando-desc { font-size:11px; color:#555; line-height:1.4; }
+
+.priorita { display:flex; gap:8px; margin-bottom:6px; align-items:center; }
+.priorita-num { font-size:18px; font-weight:900; color:rgba(212,175,55,0.4); min-width:24px; line-height:1; }
+.priorita-text { font-size:12px; color:#f0ece4; line-height:1.4; }
+.priorita-text strong { color:white; }
+
+.footer { border-top:1px solid #e0e0e0; padding-top:10px; margin-top:4px; display:flex; justify-content:space-between; align-items:center; }
+.footer-left { font-size:10px; color:#aaa; }
+.footer-right { font-size:10px; color:#d4af37; font-weight:600; }
+
+.regola { background:#fff8e8; border-left:3px solid #d4af37; padding:8px 12px; margin-bottom:12px; border-radius:0 4px 4px 0; }
+.regola strong { color:#8B6914; }
+.regola span { font-size:12px; color:#555; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>Foglio di Sintesi — Oscar Ribichini</h1>
+    <p>Il tuo sistema AI — tutto in una pagina</p>
+  </div>
+  <div class="header-right">
+    Giorno Zero<br>
+    <strong>29 Maggio 2026</strong>
+  </div>
+</div>
+
+<div class="regola">
+  <strong>L'obiettivo centrale:</strong> <span>"Sentirmi utile e guadagnare nel farlo." — Prima di ogni cosa chiedersi: questo mi avvicina o mi allontana?</span>
+</div>
+
+<div class="grid">
+
+  <!-- STRUMENTI -->
+  <div class="box">
+    <div class="box-title">I 5 strumenti — quando usare quale</div>
+
+    <div class="strumento">
+      <div class="strumento-nome">Claude Code</div>
+      <div class="strumento-quando">
+        <span class="strumento-tag gold">SEMPRE</span>
+        Memoria, file, progetti, commit. Il cervello centrale. Conosce tutta la tua storia.
+      </div>
+    </div>
+
+    <div class="strumento">
+      <div class="strumento-nome">Opus 4.8</div>
+      <div class="strumento-quando">
+        <span class="strumento-tag">claude.ai</span>
+        Ragionamento profondo, analisi Excel/PDF, decisioni ad alto impatto. Piano Max attivo.
+      </div>
+    </div>
+
+    <div class="strumento">
+      <div class="strumento-nome">ChatGPT</div>
+      <div class="strumento-quando">
+        <span class="strumento-tag">Plus</span>
+        Immagini DALL-E, varianti copy, traduzione spagnolo, brainstorming grezzo.
+      </div>
+    </div>
+
+    <div class="strumento">
+      <div class="strumento-nome">Canva AI</div>
+      <div class="strumento-quando">
+        <span class="strumento-tag">grafica</span>
+        Post social, copertine, presentazioni. Solo DOPO che il testo è pronto.
+      </div>
+    </div>
+
+    <div class="strumento">
+      <div class="strumento-nome">HeyGen</div>
+      <div class="strumento-quando">
+        <span class="strumento-tag">video</span>
+        Avatar AI per video Codice Reale, corsi, presentazioni Quantum. Script lo scrive Claude.
+      </div>
+    </div>
+  </div>
+
+  <!-- COMANDI -->
+  <div class="box">
+    <div class="box-title">I comandi — scrivi questo e succede quello</div>
+
+    <div class="comando">
+      <span class="comando-key">?</span>
+      <span class="comando-desc">Non sai da dove iniziare — Claude legge la Bussola e propone la cosa più utile adesso.</span>
+    </div>
+
+    <div class="comando">
+      <span class="comando-key">Centro</span>
+      <span class="comando-desc">Stai perdendo il filo — Claude verifica se sei allineato all'obiettivo centrale.</span>
+    </div>
+
+    <div class="comando">
+      <span class="comando-key">Vai in autonomia</span>
+      <span class="comando-desc">Claude fa tutto senza fermarsi, poi ti dà il riepilogo alla fine.</span>
+    </div>
+
+    <div class="comando">
+      <span class="comando-key">Salvalo</span>
+      <span class="comando-desc">Salva quello che hai appena detto in memoria permanente.</span>
+    </div>
+
+    <div class="comando">
+      <span class="comando-key">/check</span>
+      <span class="comando-desc">Claude ha capito male — si ferma e riparte da zero.</span>
+    </div>
+
+    <div class="comando">
+      <span class="comando-key">/stallo</span>
+      <span class="comando-desc">Bloccato — Claude fa uno specchio della situazione e 3 domande mirate.</span>
+    </div>
+
+    <div class="comando">
+      <span class="comando-key">Quantum</span>
+      <span class="comando-desc">Riparte dal mandato Quantum senza domande.</span>
+    </div>
+
+    <div class="comando">
+      <span class="comando-key">Prodotto</span>
+      <span class="comando-desc">Riparte dai prodotti digitali senza domande.</span>
+    </div>
+
+    <div class="comando">
+      <span class="comando-key">Commit e chiudi</span>
+      <span class="comando-desc">Salva tutto, commit Git, riepilogo in una riga.</span>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- PRIORITÀ + REGOLE -->
+<div class="grid">
+
+  <div class="box box-dark">
+    <div class="box-title">Le 3 priorità in ordine</div>
+    <div class="priorita">
+      <span class="priorita-num">1</span>
+      <div class="priorita-text"><strong>Prodotti digitali AI</strong> — primo flusso di reddito autonomo</div>
+    </div>
+    <div class="priorita">
+      <span class="priorita-num">2</span>
+      <div class="priorita-text"><strong>Quantum</strong> — mandato attivo, commissioni, clienti</div>
+    </div>
+    <div class="priorita">
+      <span class="priorita-num">3</span>
+      <div class="priorita-text"><strong>Crescita personale</strong> — capire, usare, essere credibile prima di insegnare</div>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="box-title">Le regole che non si toccano</div>
+
+    <div class="strumento">
+      <div class="strumento-nome" style="min-width:110px;">Consenso</div>
+      <div class="strumento-quando">Claude chiede sempre il permesso prima di cambiare file importanti.</div>
+    </div>
+    <div class="strumento">
+      <div class="strumento-nome" style="min-width:110px;">No istruzioni</div>
+      <div class="strumento-quando">Claude fa le cose — non ti dà istruzioni su cosa fare tu.</div>
+    </div>
+    <div class="strumento">
+      <div class="strumento-nome" style="min-width:110px;">Prova pratica</div>
+      <div class="strumento-quando">Ogni 5 sessioni: confronto reale tra strumenti su un caso concreto.</div>
+    </div>
+    <div class="strumento">
+      <div class="strumento-nome" style="min-width:110px;">Diario</div>
+      <div class="strumento-quando">Ogni sessione: cosa vuoi fare, momento AI reale, cosa hai imparato.</div>
+    </div>
+    <div class="strumento">
+      <div class="strumento-nome" style="min-width:110px;">29 maggio</div>
+      <div class="strumento-quando">Ogni anno: "Sei più vicino a sentirti utile e guadagnare nel farlo?"</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <span class="footer-left">File: TOOLS\Script_AI\ — Memoria: 108+ file sul disco — Commit Git attivo</span>
+  <span class="footer-right">Giorno Zero · 29/05/2026 · Costruito con Claude</span>
+</div>
+
+</body>
+</html>
