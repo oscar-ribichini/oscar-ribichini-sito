@@ -3,12 +3,28 @@ Aggiornato: 2026-05-28
 
 ---
 
-## 🔴 MOBILCOM — RGE 1/2022 [URGENTE]
+## 🔴 MOBILCOM — RGE 1/2022 [URGENTE — ASTA 1 LUGLIO 2026]
 
-Stato: Dossier Network Bresciano COMPLETO (27/05/2026) con visure DEX, ACE Sas, Kronos + bilancio DEX 2024-2025. Quadro rete completo con prova contabile del pagamento tramite soci.
-Prossima azione: Oscar consegna a Di Salvatore — istanza v5 + dossier aggiornato + due sintesi.
-Blocco: nessun blocco tecnico. La decisione di depositare è di Di Salvatore.
+**NUOVA SCADENZA CRITICA: asta fissata per 1 luglio 2026 ore 09:35. Termine offerte: 30 giugno 2026 ore 12:00.**
+Delegata: Avv. Martina Manuale (ES.IM., Via Einaudi 410, Civitanova Marche — tel. 0733 1997382)
+Avviso firmato 16/04/2026 — 6 giorni PRIMA dell'ordinanza GE del 22/04/2026 che sospende il decreto di trasferimento. Potenziale vizio autonomo da valutare con Di Salvatore.
+
+Lotti e prezzi ribassati (2° esperimento):
+- Lotto 2: Appartamento sub 3 (domicilio professionale Oscar) — base €169.644, min €127.233
+- Lotto 3: Negozio sub 16 + box — base €247.246,50, min €185.434,87
+- Lotti 4-6: Box sub 8/9/11 — basi €27.996 / €41.508 / €22.068
+
+Stato: Dossier Network Bresciano COMPLETO (27/05/2026). Analisi a 18 lenti completata 29/05/2026.
 **Opposizione ex art. 617 c.p.c. — ABBANDONATA (27/05/2026): Di Salvatore non intende depositarla.**
+
+**3 MOSSE DECISIVE (piano 29/05/2026):**
+1. Depositare v5 entro 7 giorni — telefonare Di Salvatore OGGI
+2. Informare delegata Avv. Manuale dei vizi pendenti (entro 10 giorni)
+3. Verificare n. 10132 al Registro Tribunale Macerata (entro 14 giorni — consultazione pubblica, non serve avvocato)
+
+**MOSSA NASCOSTA:** Parlare con SAUDA (locatario negozio fino 31/12/2027) — interesse diretto ad acquistare Lotto 3. Conversazione mai avvenuta.
+
+**MESSAGGIO PER DI SALVATORE:** "Avvocato, l'asta è il 1 luglio. L'istanza è scritta, gli allegati sono pronti, il GE ha già scritto 'improcedibilità' nell'ordinanza. Diamoci un appuntamento entro questa settimana per depositarla: ho bisogno che lei la firmi, non che la riscriva."
 
 ### Dossier Network Bresciano — AGGIORNATO 27/05/2026 (versione finale con bilancio)
 File principale: `07_Note_Analisi/2026-05-27_Dossier_Network_Bresciano_AGGIORNATO.md`
