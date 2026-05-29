@@ -184,12 +184,17 @@ Struttura:
 I 3 Oscar online: (1) professionista su LinkedIn+sito, (2) voce Codice Reale su Meta, (3) consulente AI+Quantum su LinkedIn
 I 4 pilastri: ESSERE TROVATO → ESSERE CREDIBILE → ESSERE ASCOLTATO → ESSERE SCELTO
 
+Fatto in sessione 29/05/2026:
+- ✅ Nome Facebook: Ribichini Oscar → Oscar Ribichini
+- ✅ Biografia Facebook: professionale e visibile a tutti
+- ✅ Data di nascita e Single: già su "Solo amici"
+
 Prossime azioni immediate (in ordine):
-1. Configurare Google Search Console per oscar-ribichini.it — guida pronta in 10_SEO_Google
-2. Caricare foto profilo LinkedIn — Oscar ha già la foto
-3. Pubblicare video Ferrari come Reel su Facebook e Instagram
-4. Collegare Instagram @codicereale a Meta Business Suite
-5. Scrivere e pubblicare primo post LinkedIn pubblico
+1. Aggiungere link LinkedIn alla sezione "Dettagli fissati" Facebook — visibile a tutti
+2. Creare pagina Facebook Quantum Srl → collegare come lavoro attuale
+3. Caricare foto profilo LinkedIn — Oscar ha già la foto
+4. Configurare Google Search Console per oscar-ribichini.it
+5. Pubblicare video Ferrari come Reel su Facebook e Instagram
 
 ---
 
