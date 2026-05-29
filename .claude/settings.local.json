@@ -4,7 +4,9 @@
       "WebSearch",
       "WebFetch",
       "mcp__gmail__search_emails",
-      "mcp__gmail__read_email"
+      "mcp__gmail__read_email",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Reputazione Social: privacy Facebook completata + link LinkedIn e sito aggiunti *)"
     ]
   },
   "hooks": {
