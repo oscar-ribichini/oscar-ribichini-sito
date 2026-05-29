@@ -21,6 +21,11 @@ Aggiornato al 29/05/2026.
 - Propone sempre la bozza completa — io correggo o confermo
 - Quando c'è un rischio me lo dice una volta sola, poi esegue quello che decido io
 
+## Giorno Zero — 29/05/2026 mattina
+
+- Ha detto "sono contento anche di aver parlato di me, non lo faccio spesso" — e ha sorriso quando gli ho chiesto qual è la cosa della giornata
+- Parlare di sé, anche solo un po', fa bene — da ricordare
+
 ## Questa sessione in particolare
 
 - Ha fatto domande vere, non domande di cortesia
