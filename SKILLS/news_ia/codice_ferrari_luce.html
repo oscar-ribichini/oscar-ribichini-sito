@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Codice Ferrari — Luce</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  .scena {
+    width: 390px;
+    height: 844px;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Arial Black', Arial, sans-serif;
+  }
+
+  /* SFONDO GRADIENTE DINAMICO */
+  .sfondo {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+
+  .sfondo-1 {
+    background: radial-gradient(ellipse at 30% 60%, #1a0000 0%, #000 60%);
+    opacity: 0;
+    animation: bgIn 1s ease forwards 0.3s, bgOut 0.6s ease forwards 7s;
+  }
+  .sfondo-2 {
+    background: radial-gradient(ellipse at 70% 40%, #0a0a1a 0%, #000 60%);
+    opacity: 0;
+    animation: bgIn 1s ease forwards 7.5s, bgOut 0.6s ease forwards 14s;
+  }
+  .sfondo-3 {
+    background: radial-gradient(ellipse at 50% 50%, #0f0800 0%, #000 60%);
+    opacity: 0;
+    animation: bgIn 1s ease forwards 14.5s, bgOut 0.6s ease forwards 21s;
+  }
+  .sfondo-4 {
+    background: radial-gradient(ellipse at 20% 70%, #001010 0%, #000 60%);
+    opacity: 0;
+    animation: bgIn 1s ease forwards 21.5s, bgOut 0.6s ease forwards 28s;
+  }
+  .sfondo-5 {
+    background: radial-gradient(ellipse at 80% 30%, #0d0d00 0%, #000 60%);
+    opacity: 0;
+    animation: bgIn 1s ease forwards 28.5s;
+  }
+
+  @keyframes bgIn  { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes bgOut { from { opacity: 1; } to { opacity: 0; } }
+
+  /* LINEA LATERALE */
+  .linea-sx {
+    position: absolute;
+    left: 24px; top: 60px; bottom: 60px;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, #DC0000 30%, #DC0000 70%, transparent);
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards 0.5s;
+    z-index: 5;
+  }
+  @keyframes fadeIn { to { opacity: 1; } }
+
+  /* LUCE AI — effetto faro che scansiona */
+  .faro {
+    position: absolute;
+    top: 0; left: -100%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent);
+    z-index: 2;
+    animation: scansiona 3s ease-in-out infinite 8s;
+  }
+  @keyframes scansiona {
+    0%   { left: -60%; }
+    100% { left: 120%; }
+  }
+
+  /* FLASH ROSSO */
+  .flash {
+    position: absolute; inset: 0;
+    background: #DC0000;
+    opacity: 0; z-index: 20;
+    animation: flash 0.25s ease forwards 14s;
+  }
+  @keyframes flash { 0%{opacity:0} 35%{opacity:0.4} 100%{opacity:0} }
+
+  /* FLASH BIANCO — luce AI */
+  .flash-ai {
+    position: absolute; inset: 0;
+    background: #fff;
+    opacity: 0; z-index: 20;
+    animation: flash 0.2s ease forwards 21s;
+  }
+
+  /* VIGNETTA */
+  .vignetta {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, transparent 20%, #000 85%);
+    z-index: 3;
+  }
+
+  /* GRIGLIA TECNICA — appare nelle scene AI */
+  .griglia {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    opacity: 0;
+    background-image:
+      linear-gradient(rgba(201,169,110,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(201,169,110,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: fadeIn 1s ease forwards 22s;
+  }
+
+  /* BLOCCHI TESTO */
+  .blocco {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 44px 60px 48px;
+    opacity: 0;
+  }
+
+  .s1 { animation: entra 0.5s ease forwards 0.8s,  esci 0.4s ease forwards 7s; }
+  .s2 { animation: entra 0.5s ease forwards 7.8s,  esci 0.4s ease forwards 14s; }
+  .s3 { animation: entra 0.5s ease forwards 14.8s, esci 0.4s ease forwards 21s; }
+  .s4 { animation: entra 0.5s ease forwards 22s,   esci 0.4s ease forwards 28s; }
+  .s5 { animation: entra 0.6s ease forwards 29s; justify-content: center; align-items: center; }
+
+  @keyframes entra {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes esci {
+    from { opacity: 1; transform: translateY(0); }
+    to   { opacity: 0; transform: translateY(-8px); }
+  }
+
+  /* TIPOGRAFIA */
+  .chip {
+    color: #DC0000;
+    font-size: 9px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .chip::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 1px;
+    background: #DC0000;
+  }
+  .chip-oro {
+    color: #C9A96E;
+    font-size: 9px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .chip-oro::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 1px;
+    background: #C9A96E;
+  }
+
+  .t1 {
+    color: #fff;
+    font-size: 68px;
+    font-weight: 900;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    line-height: 0.92;
+    letter-spacing: -2px;
+  }
+  .t2 {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.15;
+  }
+  .t3 {
+    color: rgba(255,255,255,0.45);
+    font-size: 13px;
+    font-family: 'Space Mono', monospace;
+    line-height: 2;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+  }
+  .rosso { color: #DC0000; }
+  .oro { color: #C9A96E; }
+
+  /* NUMERO GRANDE */
+  .numero-impatto {
+    color: #fff;
+    font-size: 96px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    line-height: 1;
+    letter-spacing: -4px;
+  }
+  .numero-sub {
+    color: rgba(255,255,255,0.3);
+    font-size: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+    margin-top: 12px;
+  }
+
+  /* DATO TECNICO */
+  .dato {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin-top: 24px;
+  }
+  .dato-num {
+    color: #C9A96E;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    line-height: 1;
+  }
+  .dato-label {
+    color: rgba(255,255,255,0.35);
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+  }
+
+  /* SCENA FINALE */
+  .finale-wrap {
+    width: 100%;
+    text-align: center;
+  }
+  .fr {
+    display: block;
+    opacity: 0;
+  }
+  .fr1 {
+    color: rgba(255,255,255,0.35);
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    animation: rigaSu 0.5s ease forwards 29.5s;
+  }
+  .fr2 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 900;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    line-height: 1;
+    margin-top: 10px;
+    animation: rigaSu 0.5s ease forwards 30.3s;
+  }
+  .fr3 {
+    color: rgba(255,255,255,0.35);
+    font-size: 18px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    margin-top: 10px;
+    animation: rigaSu 0.5s ease forwards 31.1s;
+  }
+  .fr4 {
+    color: #C9A96E;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+    margin-top: 20px;
+    animation: rigaSu 0.5s ease forwards 32s;
+  }
+
+  @keyframes rigaSu {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* FIRMA */
+  .firma {
+    position: absolute;
+    bottom: 28px;
+    right: 28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: 0;
+    animation: rigaSu 0.6s ease forwards 33s;
+    z-index: 15;
+  }
+  .logo-cerchio {
+    width: 40px;
+    height: 40px;
+    background: #1a1a1a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 1px rgba(201,169,110,0.3);
+  }
+  .logo-cr {
+    color: #C9A96E;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-top: 3px;
+  }
+  .logo-corona { position: absolute; top: 4px; right: 5px; }
+  .firma-destra { display: flex; flex-direction: column; gap: 2px; }
+  .firma-nome {
+    color: #C9A96E;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .firma-handle {
+    color: rgba(255,255,255,0.25);
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    font-family: Arial, sans-serif;
+  }
+  .ai-segnale {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 12px;
+    margin-top: 4px;
+  }
+  .ai-barra {
+    width: 3px;
+    background: rgba(201,169,110,0.5);
+    border-radius: 2px;
+    animation: eq 1.2s ease-in-out infinite;
+  }
+  .ai-barra:nth-child(1){ height:4px;  animation-delay:0s; }
+  .ai-barra:nth-child(2){ height:9px;  animation-delay:0.15s; }
+  .ai-barra:nth-child(3){ height:12px; animation-delay:0.3s; }
+  .ai-barra:nth-child(4){ height:6px;  animation-delay:0.45s; }
+  .ai-barra:nth-child(5){ height:10px; animation-delay:0.6s; }
+  .ai-barra:nth-child(6){ height:4px;  animation-delay:0.75s; }
+  @keyframes eq {
+    0%,100% { opacity:0.2; transform:scaleY(0.4); }
+    50%      { opacity:1;   transform:scaleY(1); }
+  }
+
+  /* PUNTO LUCE — scintilla AI */
+  .punto-luce {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 2px rgba(255,255,255,0.8);
+    z-index: 8;
+    opacity: 0;
+  }
+  .pl1 { top: 35%; left: 15%; animation: scintilla 0.3s ease forwards 22.5s; }
+  .pl2 { top: 55%; left: 75%; animation: scintilla 0.3s ease forwards 23s; }
+  .pl3 { top: 25%; left: 60%; animation: scintilla 0.3s ease forwards 23.5s; }
+  .pl4 { top: 70%; left: 30%; animation: scintilla 0.3s ease forwards 24s; }
+  @keyframes scintilla {
+    0%   { opacity: 0; transform: scale(0); }
+    50%  { opacity: 1; transform: scale(3); }
+    100% { opacity: 0; transform: scale(1); }
+  }
+
+</style>
+</head>
+<body>
+<div class="scena">
+
+  <!-- SFONDI DINAMICI -->
+  <div class="sfondo sfondo-1"></div>
+  <div class="sfondo sfondo-2"></div>
+  <div class="sfondo sfondo-3"></div>
+  <div class="sfondo sfondo-4"></div>
+  <div class="sfondo sfondo-5"></div>
+
+  <div class="vignetta"></div>
+  <div class="linea-sx"></div>
+  <div class="faro"></div>
+  <div class="griglia"></div>
+  <div class="flash"></div>
+  <div class="flash-ai"></div>
+
+  <!-- PUNTI LUCE AI -->
+  <div class="punto-luce pl1"></div>
+  <div class="punto-luce pl2"></div>
+  <div class="punto-luce pl3"></div>
+  <div class="punto-luce pl4"></div>
+
+  <!-- S1: APERTURA — il buio -->
+  <div class="blocco s1">
+    <div class="chip">26 maggio 2026</div>
+    <div class="t1">Ferrari<br>ha<br>acceso<br>la luce.</div>
+  </div>
+
+  <!-- S2: LA MACCHINA -->
+  <div class="blocco s2">
+    <div class="chip">si chiama luce</div>
+    <div class="t2">4 porte.<br>5 posti.<br>Elettrica.</div>
+    <div class="t3">
+      550.000 euro.<br>
+      E qualcosa<br>
+      che nessuna Ferrari<br>
+      aveva mai avuto prima.
+    </div>
+  </div>
+
+  <!-- S3: IL COLPO DI SCENA — i fari AI -->
+  <div class="blocco s3">
+    <div class="chip">il codice nascosto</div>
+    <div class="t2">I fari<br>usano<br><span class="rosso">l'intelligenza</span><br><span class="rosso">artificiale.</span></div>
+    <div class="t3">
+      Vedono la strada<br>
+      prima di te.<br>
+      Anticipano le curve.<br>
+      Si adattano al buio.
+    </div>
+  </div>
+
+  <!-- S4: IL DATO — cosa significa -->
+  <div class="blocco s4">
+    <div class="chip-oro">non è un faro</div>
+    <div class="t2">È una<br><span class="oro">macchina</span><br>che pensa<br>mentre guidi.</div>
+    <div class="dato">
+      <span class="dato-num">0,001s</span>
+      <span class="dato-label">per decidere</span>
+    </div>
+    <div class="t3">
+      Più veloce<br>
+      di qualsiasi riflesso umano.
+    </div>
+  </div>
+
+  <!-- S5: FINALE -->
+  <div class="blocco s5">
+    <div class="finale-wrap">
+      <span class="fr fr1">— il futuro non avvisa —</span>
+      <span class="fr fr2">Arriva<br>e illumina.</span>
+      <span class="fr fr3">Come un faro nella notte.</span>
+      <span class="fr fr4">questo è il codice reale</span>
+    </div>
+
+    <!-- FIRMA STANDARD -->
+    <div class="firma">
+      <div class="logo-cerchio">
+        <svg class="logo-corona" width="18" height="12" viewBox="0 0 28 18" fill="none">
+          <path d="M2 16 L5 7 L10 13 L14 3 L18 13 L23 7 L26 16 Z" fill="#C9A96E" stroke="#C9A96E" stroke-width="0.5" stroke-linejoin="round"/>
+          <rect x="2" y="15" width="24" height="2.5" rx="1" fill="#C9A96E"/>
+          <circle cx="14" cy="3" r="1.8" fill="#C9A96E"/>
+          <circle cx="5" cy="7" r="1.4" fill="#C9A96E"/>
+          <circle cx="23" cy="7" r="1.4" fill="#C9A96E"/>
+        </svg>
+        <span class="logo-cr">CR</span>
+      </div>
+      <div class="firma-destra">
+        <div class="firma-nome">Codice Reale...</div>
+        <div class="firma-handle">@codicereale</div>
+        <div class="ai-segnale">
+          <div class="ai-barra"></div>
+          <div class="ai-barra"></div>
+          <div class="ai-barra"></div>
+          <div class="ai-barra"></div>
+          <div class="ai-barra"></div>
+          <div class="ai-barra"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
