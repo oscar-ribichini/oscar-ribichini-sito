@@ -28,3 +28,14 @@ Google Calendar MCP: Oscar deve andare su https://console.cloud.google.com, crea
 - Chiarito scopo SAUDA: parlarne prima con Di Salvatore
 - Google Calendar MCP: trovato pacchetto @cocal/google-calendar-mcp, link verificato
 - Regola link confermata: fornire sempre link verificato, mai URL grezzo non cliccabile
+- Webidoo: mandato DocuSign firmato, contratto salvato in PRODOTTI_AI_COMMERCIALI\06_Mandati_Attivi\Webidoo\Contratti\
+- Analisi completa contratto Webidoo: 5 clausole da negoziare (zona Lazio→Marche urgente), pro/contro, rischi nascosti
+- Analisi approfondita Jooice + Groow (stesso fornitore Webidoo): prezzi, funzionalità, confronto, 3 scenari guadagno
+- File analisi salvati: 2026-05-29_Analisi_Webidoo_Jooice.md + 2026-05-29_Analisi_Groow_vs_Jooice.md
+
+## REMINDER LUNEDÌ SERA
+Analisi completa Webidoo/Jooice/Groow da rivedere insieme:
+- Verificare listino prezzi 2026 su webidooschool.com (appena arrivano credenziali)
+- Chiedere a Fabrizio: prezzo cliente finale + tasso rinnovi + se mandato copre Groow
+- Decidere se negoziare le 5 clausole (zona Marche è OBBLIGATORIA)
+- Valutare mandato Groow separato
