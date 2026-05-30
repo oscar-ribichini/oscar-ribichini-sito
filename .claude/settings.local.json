@@ -6,7 +6,13 @@
       "mcp__gmail__search_emails",
       "mcp__gmail__read_email",
       "Bash(git add *)",
-      "Bash(git commit -m 'Reputazione Social: privacy Facebook completata + link LinkedIn e sito aggiunti *)"
+      "Bash(git commit -m 'Reputazione Social: privacy Facebook completata + link LinkedIn e sito aggiunti *)",
+      "Bash(Get-ChildItem -Path \"e:\\\\Lavori Code\\\\_CLIENTI\\\\Mobilcom_RGE-1-2022\\\\\" -Recurse -File | Select-Object FullName | head -50)",
+      "Bash(Get-ChildItem -Path \"e:\\\\Lavori Code\\\\_CLIENTI\\\\Mobilcom_RGE-1-2022\\\\\" -Recurse -File | Select-Object FullName | Sort-Object FullName)",
+      "Bash(python3 -c ' *)",
+      "Bash(Get-ChildItem -Path \"e:\\\\Lavori Code\\\\_CLIENTI\\\\Mobilcom_RGE-1-2022\\\\\" -File -Recurse | Select-Object -ExpandProperty FullName | Sort-Object)",
+      "Bash(find \"e:\\\\\\\\Lavori Code\\\\\\\\_CLIENTI\\\\\\\\Mobilcom_RGE-1-2022\" -type f)",
+      "Bash(find \"e:\\\\\\\\Lavori Code\\\\\\\\_CLIENTI\\\\\\\\Mobilcom_RGE-1-2022\\\\\\\\_DA_LEGGERE\" -type f -name \"*.pdf\" -o -name \"*.md\")"
     ]
   },
   "hooks": {
