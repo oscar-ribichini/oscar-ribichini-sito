@@ -28,6 +28,9 @@ Brand SOSTANZA (dominio su register.it + aprire Payhip)
 - Sito Oscar — ottimizzare altezza card sezione "Chi sono"
 - Codice Reale video Ferrari — registrare con OBS e pubblicare come Reel
 
+## PROSSIMO PASSO — DOMANI
+Oscar risponde all'analisi completa del 30/05. Aprire con: "Da quale delle tre mosse vuoi partire?" Le tre mosse: (1) chiamare Fabrizio Webidoo, (2) aprire Payhip con Template Welfare PMI, (3) post LinkedIn su Sistema dei Codici. File analisi: TOOLS\Sessioni_Importanti\2026-05-30_Analisi_Completa_Oscar.md
+
 ## FATTO IN QUESTA SESSIONE (2026-05-30)
 - Google Calendar MCP: installato, autorizzato, operativo con account "oscar"
 - Google Drive MCP: installato, autorizzato, operativo
