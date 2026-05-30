@@ -3,6 +3,24 @@
     "gmail": {
       "command": "npx",
       "args": ["-y", "@gongrzhe/server-gmail-autoauth-mcp"]
+    },
+    "google-calendar": {
+      "command": "node",
+      "args": ["C:\\Users\\Utente\\google-calendar-mcp\\build\\index.js"],
+      "env": {
+        "GOOGLE_OAUTH_CREDENTIALS": "C:\\Users\\Utente\\.gmail-mcp\\gcp-oauth.keys.json"
+      }
+    },
+    "google-drive": {
+      "command": "node",
+      "args": ["C:\\Users\\Utente\\google-drive-mcp\\dist\\index.js"],
+      "env": {
+        "GOOGLE_DRIVE_OAUTH_CREDENTIALS": "C:\\Users\\Utente\\.config\\google-drive-mcp\\gcp-oauth.keys.json"
+      }
+    },
+    "linkedin": {
+      "command": "C:\\Users\\Utente\\.local\\bin\\uv.exe",
+      "args": ["run", "--directory", "C:\\Users\\Utente\\linkedin-mcp", "linkedin-mcp-server"]
     }
   }
 }

@@ -188,6 +188,8 @@ Quando Oscar corregge qualcosa — rileggere subito la fonte, non difendere mai 
 | ERR-012 | Analisi | Analisi costruita su dato non verificato | Elencare dati e chiedere conferma prima di partire |
 | ERR-013 | Link | Link sbagliati forniti senza verifica | Mai dare link senza verifica — se no, dare parole chiave |
 | ERR-014 | Navigazione | "Clicca su X" senza sapere se X esiste | Descrivere cosa cercare, mai dove cliccare senza certezza |
+| ERR-015 | Navigazione | Consigliato di togliere elementi dalla barra senza verificare screenshot | Guardare bene lo screenshot prima di dare indicazioni su cosa c'è |
+| ERR-016 | Navigazione | Detto di togliere "Home page Google" che non c'era nella barra | Mai riferirsi a elementi non visibili nello screenshot attuale |
 
 ---
 
@@ -252,8 +254,18 @@ h2, h3 { page-break-after: avoid; break-after: avoid; }
 
 ---
 
-*Ultimo aggiornamento: 29/05/2026*  
+*Ultimo aggiornamento: 30/05/2026*  
 *Aggiungere nuovi errori con il formato ERR-NNN appena si verificano.*
+
+---
+
+### ERR-015 — Istruzioni contraddittorie su cosa aggiungere/togliere dalla barra preferiti
+**Data:** 30/05/2026 | **Progetto:** Organizzazione barra preferiti Chrome  
+**Cosa è successo:** Ho detto di aggiungere 3 link, poi ho detto di toglierne 2 che erano stati aggiunti autonomamente da Oscar. Poi ho detto di togliere "Home page Google" che non esisteva nella barra.  
+**Causa radice:** Non ho guardato lo screenshot con attenzione prima di rispondere. Ho parlato di elementi che non vedevo o che non avevo deciso io di mettere.  
+**Danno:** Confusione per Oscar, due errori consecutivi, fiducia scalfita.  
+**Soluzione corretta:** Prima di dare istruzioni su cosa togliere o aggiungere — guardare lo screenshot con attenzione e elencare esattamente cosa si vede. Non commentare elementi che non si vedono con certezza.  
+**Regola futura:** Su qualsiasi interfaccia visiva (barra preferiti, schermata, profilo) — descrivere prima esattamente cosa si vede, poi agire. Mai dire "togli X" senza aver verificato che X esista davvero nello screenshot.
 
 ---
 
