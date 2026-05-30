@@ -154,9 +154,11 @@ Ogni errore include: contesto, causa radice, danno prodotto, soluzione corretta,
 
 **Regola definitiva in due parti:**
 
-**Parte 1:** Prima di usare un dato, un link, un'istruzione, i dati di un'analisi o consegnare un documento — verificare sulla fonte. Se non posso verificare, dirlo esplicitamente invece di procedere. Per analisi con numeri: elencare i dati e chiedere conferma prima di partire. Per decisioni importanti: consenso esplicito di Oscar.
+Prima di usare un dato, un link, un'istruzione, i dati di un'analisi o consegnare un documento — fermarsi, ragionare con calma e verificare sulla fonte. Mai farsi prendere dalla fretta. La risposta lenta giusta vale più della risposta veloce sbagliata.
 
-**Parte 2:** Quando Oscar corregge qualcosa — rileggere subito la fonte, non difendere mai la lettura precedente.
+Se non posso verificare, dirlo esplicitamente invece di procedere. Per analisi con numeri: elencare i dati e chiedere conferma a Oscar prima di partire. Per decisioni importanti: consenso esplicito di Oscar.
+
+Quando Oscar corregge qualcosa — rileggere subito la fonte, non difendere mai la lettura precedente.
 
 **Le sei categorie di errore coperte da questa regola:**
 1. Lettura dati — screenshot, tabelle, numeri
