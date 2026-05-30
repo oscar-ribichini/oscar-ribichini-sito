@@ -20,9 +20,9 @@ Stato: Dossier Network Bresciano COMPLETO (27/05/2026). Analisi a 18 lenti compl
 **3 MOSSE DECISIVE (piano 29/05/2026):**
 1. Depositare v5 entro 7 giorni — telefonare Di Salvatore OGGI
 2. Informare delegata Avv. Manuale dei vizi pendenti (entro 10 giorni)
-3. Verificare n. 10132 al Registro Tribunale Macerata (entro 14 giorni — consultazione pubblica, non serve avvocato)
+3. Verificare n. 10132 al Registro Tribunale Macerata — gestito dall'avvocato Di Salvatore
 
-**MOSSA NASCOSTA:** Parlare con SAUDA (locatario negozio fino 31/12/2027) — interesse diretto ad acquistare Lotto 3. Conversazione mai avvenuta.
+**MOSSA NASCOSTA — DA FARE:** Parlare con SAUDA (locatario negozio fino 31/12/2027) — interesse diretto ad acquistare Lotto 3. Prima parlarne con Di Salvatore, poi contattare SAUDA.
 
 **MESSAGGIO PER DI SALVATORE:** "Avvocato, l'asta è il 1 luglio. L'istanza è scritta, gli allegati sono pronti, il GE ha già scritto 'improcedibilità' nell'ordinanza. Diamoci un appuntamento entro questa settimana per depositarla: ho bisogno che lei la firmi, non che la riscriva."
 
@@ -45,25 +45,12 @@ Elementi chiave documentati (tutti da fonti primarie):
 - "Analisi proposta Franceschetti" (Allegato C): il difensore-socio DEX aveva già analizzato l'acquisto prima della firma
 - Tutti i soggetti italiani coinvolti nella transazione provengono da Brescia
 
-Verifiche ancora aperte (da fare con Oscar):
-1. Visura per CF Ceselini su Telemaco/InfoCamere (~€5) — alta priorità
-2. Visura ipotecaria soggettiva DEX presso Conservatoria (~€9) — chi ha finanziato l'acquisto
-3. Visura Best Sas di Berardelli (P.IVA 03032010989) — soci accomandanti
+Verifiche ancora aperte (in gestione all'avvocato Di Salvatore):
+- Visura ipotecaria soggettiva DEX presso Conservatoria (~€9)
+- Visura Best Sas di Berardelli (P.IVA 03032010989)
 
-### Istanza GE v5 — correzioni ancora da applicare
-- A1: date Sez. IX — allineare "06/11" con "05/11" o aggiungere spiegazione
-- A2: Premessa — "quattordici questioni distinte" → "quattordici argomenti"
-- A3: Sez. XIV OAM — unire paragrafi 2 e 3 (ripetizione parziale)
-- A4: Sez. VIII — unire prime due frasi sull'asta deserta
-- A5: Sez. XI — rimuovere "e non estinti" dopo "attivi" (ridondante)
-
-Questioni B1-B6 per Di Salvatore (richiedono valutazione legale):
-- B1: verificare data comunicazione cancelleria dell'ordinanza 22/04
-- B2: Sez. X art. 1264 — rimedio corretto per inopponibilità
-- B3: Sez. XI — legittimazione attiva Mobilcom sui diritti creditori
-- B4: Sez. VII — procedura RG 2093/2006 estinta nel 2011
-- B5: Sez. IV — competenza funzionale GE su produzione prova pagamento
-- B6: Vizio 4 (Franceschetti) — aggiungere richiesta incompatibilità processuale
+### Istanza GE v5 — correzioni A1-A5 e questioni B1-B6
+Tutte in gestione all'avvocato Di Salvatore. Non richiedono azione da parte di Oscar.
 
 File chiave:
 - e:\Lavori Code\_CLIENTI\Mobilcom_RGE-1-2022\04_Opposizioni_Istanze\2026-05-24_Istanza_GE_per_DiSalvatore_v5.md
@@ -74,10 +61,8 @@ File chiave:
 
 ## 🔴 ARTE SACRA — FIDEIUSSIONE [URGENTE]
 
-Stato: Ifis Npl reclama 28.754€ ma massimale fideiussione è 11.577,60€. Severino richiama venerdì 29/05.
-Scadenze immediate:
-- **29/05/2026** — telefonata Severino: ascoltare senza impegnarsi, poi mandare email
-- **29/05/2026 dopo Severino** — mandare bozza email a angelo.severino@ncpenterprise.it
+Stato: Ifis Npl reclama 28.754€ ma massimale fideiussione è 11.577,60€. Oscar ha preso tempo fino al 3 giugno 2026.
+Scadenza: **03/06/2026** — risposta a Severino (angelo.severino@ncpenterprise.it)
 
 Tutela immediata: valutare se ridurre saldo Revolut (~20.000€) pagando spese documentabili — prima della notifica.
 Difesa principale: massimale 11.577,60€ documentato — tetto invalicabile.
@@ -112,18 +97,9 @@ Clausole critiche da negoziare prima di firmare:
 
 ---
 
-## 🟡 EGEOS / ZAGARIA — GUERRA COMMERCIALE UCO [AGGIORNATO — 27/05/2026]
+## ✅ EGEOS / ZAGARIA — CHIUSO (30/05/2026)
 
-Stato: tre documenti completati e pronti. Oscar deve consegnarli a Savino.
-Prossima azione: Savino verifica ISCC su iscc-system.org (gratuito, subito) e raccoglie prove dai generatori.
-
-RO.SA. srl confermata da visura ufficiale: P.IVA 05410120751, 50% SAPI Green Oil + 50% R.O.V.E.
-Gap critico: costituita 23/04/2025, Albo Gestori solo dal 22/01/2026 — 9 mesi potenzialmente senza autorizzazione.
-
-File chiave:
-- e:\Lavori Code\_CLIENTI\Zagaria_Savino_Egeos\03_Dossier_Legale\2026-05-26_Dossier_UCO_Guerra_Commerciale.md
-- e:\Lavori Code\_CLIENTI\Zagaria_Savino_Egeos\03_Dossier_Legale\2026-05-27_Strategia_Legale_Completa.md
-- e:\Lavori Code\_CLIENTI\Zagaria_Savino_Egeos\03_Dossier_Legale\2026-05-27_Piano_Azione_Savino.md
+Documenti consegnati a Savino. Prossime azioni in capo a Savino (verifica ISCC, raccolta prove).
 
 ---
 
@@ -163,9 +139,12 @@ Prossima azione: ottimizzare card in altezza nella sezione Chi sono.
 
 ---
 
-## 🟡 PRODOTTI DIGITALI [ATTIVO — passo 4]
+## 🟡 PRODOTTI DIGITALI [ATTIVO — passo 5]
 
-Priorità assoluta: Template Welfare PMI — manca solo la grafica (logo + colori + PDF).
+- ✅ Template Welfare PMI — contenuto + grafica completati (30/05/2026)
+- 🔲 Brand SOSTANZA — dominio da verificare su register.it + aprire negozio Payhip
+- 🔲 Mini Corso AI per Consulenti — da creare
+- 🔲 Prompt Pack Settoriale Consulenti — da rivedere e perfezionare
 
 ---
 
