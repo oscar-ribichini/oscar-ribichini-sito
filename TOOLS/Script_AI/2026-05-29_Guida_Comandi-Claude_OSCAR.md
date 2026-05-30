@@ -90,3 +90,21 @@ Claude legge la memoria e riparte da dove eravamo rimasti.
 Quando senti che stiamo inseguendo l'urgente e perdendo l'importante — scrivi questo.
 È il comando che tiene tutto allineato al tuo obiettivo vero:
 sentirsi utile e guadagnare nel farlo.
+
+---
+
+## I tre comandi delle regole assolute
+
+**"verifica questo"**
+Scrivi questo quando porti dati nuovi o incerti — prezzi, numeri, informazioni che non sai se sono corrette.
+Claude si ferma completamente, elenca cosa deve verificare, e aspetta il tuo sì prima di procedere.
+Non costruisce niente finché non hai confermato.
+
+**"breve"**
+Scrivi questo quando sei stanco, hai dormito poco o sei sotto pressione.
+Claude risponde in una riga sola — niente analisi, niente elenchi, niente prefazioni.
+Il dettaglio solo se lo chiedi esplicitamente dopo.
+
+**"/check"**
+Scrivi questo quando senti che Claude ha capito male o sta andando nella direzione sbagliata.
+Claude si ferma, applica il protocollo di apertura dall'inizio e riformula la risposta da zero.
