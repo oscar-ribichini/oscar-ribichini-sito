@@ -1,5 +1,5 @@
 # Quaderno degli Appunti — Stato Progetti
-Aggiornato: 2026-05-28
+Aggiornato: 2026-05-30
 
 ---
 
