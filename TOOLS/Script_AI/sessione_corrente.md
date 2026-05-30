@@ -1,10 +1,14 @@
 # Sessione corrente — 2026-05-30
 
 ## PROGETTO ATTIVO
-Google Calendar MCP — completato. Piano MCP completo definito.
+MCP completati: Calendar, Drive, LinkedIn. Barra preferiti Chrome organizzata.
 
 ## PROSSIMO PASSO IMMEDIATO
-Brand SOSTANZA (dominio + Payhip) oppure altra priorità dalla lista.
+Brand SOSTANZA (dominio su register.it + aprire Payhip)
+
+## DA FINIRE — sessione prossima
+- Perfezionare cartella Bookmarks Chrome (ora vuota, organizzare con link utili per categoria)
+- Perfezionare barra preferiti Chrome (decidere cosa mettere al posto di Bookmarks o Cloud Console)
 
 ## SCADENZE IMMINENTI (tutte nel calendario)
 - **02/06/2026** — Chiamare Di Salvatore (istanza GE v5 Mobilcom)
@@ -26,12 +30,12 @@ Brand SOSTANZA (dominio + Payhip) oppure altra priorità dalla lista.
 
 ## FATTO IN QUESTA SESSIONE (2026-05-30)
 - Google Calendar MCP: installato, autorizzato, operativo con account "oscar"
-- Pacchetto usato: nspady locale (C:\Users\Utente\google-calendar-mcp)
-- Pacchetti scartati: @cocal (bug ajv) e @takumi0706 (bug OAuth)
-- Autenticazione: manage-accounts action "add" → link browser → Avanzate → Continua
+- Google Drive MCP: installato, autorizzato, operativo
+- LinkedIn MCP: installato, autorizzato con Google, operativo
+- Copertina LinkedIn aggiornata: prima frase su riga unica, "Lo potenzia." più grande
 - 6 eventi aggiunti nel calendario: Di Salvatore, Arte Sacra, EVOLUTIAA x2, Mobilcom x2
 - Piano MCP completo definito in 5 fasi (memorizzato in project_mcp_espansioni.md)
-- Analisi completa Webidoo/Jooice/Groow salvata in sessione precedente
+- ERR-015 aggiunto al registro errori (istruzioni contraddittorie su barra preferiti)
 
 ## REMINDER LUNEDÌ SERA
 - Verificare listino prezzi 2026 su webidooschool.com (appena arrivano credenziali)
