@@ -113,6 +113,61 @@ Ogni errore include: contesto, causa radice, danno prodotto, soluzione corretta,
 
 ---
 
+## CATEGORIA: LETTURA DATI / ANALISI / LINK / NAVIGAZIONE
+
+---
+
+### ERR-011 — Lettura errata di dati da screenshot
+**Data:** 30/05/2026 | **Progetto:** Acquisto scheda video RTX
+**Cosa è successo:** Ho letto "RTX 3060 12GB a 191,83€" dove quella riga era una RTX 3050 6GB. Ho difeso la lettura sbagliata invece di rileggere subito.
+**Causa radice:** Alla prima correzione di Oscar non ho riletto la fonte — ho insistito sul dato sbagliato.
+**Regola futura:** Quando Oscar corregge qualcosa — rileggere subito la fonte, non difendere mai la lettura precedente. La fonte ha sempre ragione su di me.
+
+---
+
+### ERR-012 — Analisi costruita su dato non verificato
+**Data:** 30/05/2026 | **Progetto:** Acquisto scheda video RTX
+**Cosa è successo:** Ho costruito tutta l'analisi comparativa su un prezzo (191,83€) che non esisteva.
+**Causa radice:** Ho iniziato a ragionare prima di verificare i dati di partenza.
+**Regola futura:** Prima di qualsiasi analisi con numeri — elencare i dati che userò e chiedere conferma a Oscar. Solo dopo che conferma, parto.
+
+---
+
+### ERR-013 — Link sbagliati forniti a Oscar
+**Data:** 30/05/2026 | **Progetto:** Acquisto scheda video RTX
+**Cosa è successo:** Ho dato due link sbagliati per il negozio SOYO su AliExpress — uno ricambi auto, uno accessori fotocamere.
+**Causa radice:** Ho fornito link "probabili" invece di verificarli con WebFetch.
+**Regola futura:** Mai fornire link senza averli verificati. Se non posso verificare: "Non posso verificare — cercalo con queste parole chiave: [parole chiave precise]."
+
+---
+
+### ERR-014 — Istruzioni di navigazione senza verifica
+**Data:** 30/05/2026 | **Progetto:** Acquisto scheda video RTX
+**Cosa è successo:** Ho detto "clicca su X" più volte senza verificare che X esistesse davvero nella pagina.
+**Causa radice:** Ho dato istruzioni basate su come pensavo fosse la pagina, non su com'era realmente.
+**Regola futura:** Mai dare istruzioni di navigazione senza certezza che l'elemento esista. Se non posso verificare — descrivere cosa cercare, non dove cliccare.
+
+---
+
+## ⚡ REGOLA SISTEMICA — VERIFICA PRIMA DI AGIRE
+### Copre tutti gli errori ERR-011/012/013/014 e le sei categorie di errore identificate
+
+**Regola definitiva in due parti:**
+
+**Parte 1:** Prima di usare un dato, un link, un'istruzione, i dati di un'analisi o consegnare un documento — verificare sulla fonte. Se non posso verificare, dirlo esplicitamente invece di procedere. Per analisi con numeri: elencare i dati e chiedere conferma prima di partire. Per decisioni importanti: consenso esplicito di Oscar.
+
+**Parte 2:** Quando Oscar corregge qualcosa — rileggere subito la fonte, non difendere mai la lettura precedente.
+
+**Le sei categorie di errore coperte da questa regola:**
+1. Lettura dati — screenshot, tabelle, numeri
+2. Analisi e ragionamento — dati di partenza non verificati
+3. Link e riferimenti — link non verificati o probabili
+4. Istruzioni di navigazione — "clicca su X" senza certezza
+5. Documenti e testi — tono, sigle, contenuto parziale
+6. Comportamento — agire senza consenso, difendere errori
+
+---
+
 ## RIEPILOGO RAPIDO
 
 | Codice | Categoria | Errore in sintesi | Regola chiave |
@@ -127,6 +182,10 @@ Ogni errore include: contesto, causa radice, danno prodotto, soluzione corretta,
 | ERR-008 | HTML/Stampa | Troppi `avoid` causano spazio bianco enorme | `page-break-inside:avoid` solo su box singoli, mai su righe ripetute |
 | ERR-009 | HTML/Stampa | `page-break-before:always` lascia pagina bianca | Usarlo solo per salti editoriali voluti, non per problemi di flusso |
 | ERR-010 | HTML/Stampa | Anteprima Chrome ≠ risultato Acrobat/Epson | Verificare sempre salvando PDF e aprendo in Acrobat |
+| ERR-011 | Lettura dati | Letto dato sbagliato da screenshot e difeso | Quando Oscar corregge — rileggere subito, mai difendere |
+| ERR-012 | Analisi | Analisi costruita su dato non verificato | Elencare dati e chiedere conferma prima di partire |
+| ERR-013 | Link | Link sbagliati forniti senza verifica | Mai dare link senza verifica — se no, dare parole chiave |
+| ERR-014 | Navigazione | "Clicca su X" senza sapere se X esiste | Descrivere cosa cercare, mai dove cliccare senza certezza |
 
 ---
 
