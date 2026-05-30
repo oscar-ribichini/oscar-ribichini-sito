@@ -184,12 +184,14 @@ Fatto in sessione 29/05/2026:
 - ✅ Biografia Facebook: professionale e visibile a tutti
 - ✅ Data di nascita e Single: già su "Solo amici"
 
+Fatto in sessione 30/05/2026:
+- ✅ Foto profilo LinkedIn caricata
+
 Prossime azioni immediate (in ordine):
 1. Aggiungere link LinkedIn alla sezione "Dettagli fissati" Facebook — visibile a tutti
 2. Creare pagina Facebook Quantum Srl → collegare come lavoro attuale
-3. Caricare foto profilo LinkedIn — Oscar ha già la foto
-4. Configurare Google Search Console per oscar-ribichini.it
-5. Pubblicare video Ferrari come Reel su Facebook e Instagram
+3. Configurare Google Search Console per oscar-ribichini.it
+4. Pubblicare video Ferrari come Reel su Facebook e Instagram
 
 ---
 
