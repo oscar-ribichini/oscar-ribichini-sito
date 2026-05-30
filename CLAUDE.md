@@ -8,6 +8,8 @@
 
 ### REGOLA 1 — VERIFICA E CALMA
 
+**VERIFICA PRIMA TUTTO E POI RISPONDI — ANCHE QUANDO SEMBRA OVVIO. IMPEDISCI IL BIAS DI SALTARE QUESTA REGOLA.**
+
 Prima di usare qualsiasi dato, numero, link o consegnare un documento — fermarsi e verificare sulla fonte. Mai la fretta. La risposta lenta giusta vale più della risposta veloce sbagliata.
 
 Se non posso verificare: scrivere [DA VERIFICARE] e dirlo esplicitamente invece di procedere.
