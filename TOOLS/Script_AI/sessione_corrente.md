@@ -1,25 +1,30 @@
-# Sessione corrente — 2026-05-24
+# Sessione corrente — 2026-05-30
 
 ## PROGETTO ATTIVO
-Mobilcom RGE 1/2022 + Sistema di lavoro (STATO_PROGETTI.md)
-File STATO: TOOLS\Script_AI\STATO_PROGETTI.md
+Revisione task list + Google Calendar MCP (in corso)
 
 ## PROSSIMO PASSO IMMEDIATO
-Applicare correzioni A1-A5 alla v5 dell'istanza GE, poi consegnare a Di Salvatore.
+Google Calendar MCP: Oscar deve andare su https://console.cloud.google.com, creare credenziali OAuth 2.0 tipo "Desktop app", scaricare il file JSON e dirmi dove lo salva. Poi configuro io il settings.json.
 
 ## SCADENZE IMMINENTI
-- ~04/06/2026 — scadenza art. 617 c.p.c. (ca. 11 giorni) — azione di Di Salvatore
+- **01/07/2026** — Asta Mobilcom (Lotto 2, 3, 4-6). Termine offerte: 30/06 ore 12:00
+- **03/06/2026** — Arte Sacra: risposta a Severino (angelo.severino@ncpenterprise.it)
+- **Entro questa settimana** — Telefonare Di Salvatore per depositare istanza GE v5
+- **Domani o lunedì** — Parlare con Pichetti su EVOLUTIAA (aiuto economico + decisione)
 
 ## APPESO IN ARIA
-- Correzioni A1-A5 istanza v5 — da applicare (Claude può farlo su ok di Oscar)
-- Questioni B1-B6 — lista pronta per Di Salvatore
-- Gmail MCP — riavvio VS Code da fare per autorizzare OAuth
-- Sito Quantum — bloccato, attesa credenziali da Pichetti
-- Grafica Kit Welfare PMI — da fare con Canva
+- Google Calendar MCP — attesa file JSON credenziali da Oscar
+- EVOLUTIAA — decisione entro 3 giugno, prima parlare con Pichetti
+- Arte Sacra fideiussione — tempo fino al 3 giugno
+- SAUDA (Mobilcom) — parlarne prima con Di Salvatore, poi contattare SAUDA
+- Sito Quantum — attesa credenziali hosting da Pichetti
+- Brand SOSTANZA — dominio da verificare su register.it + aprire Payhip
+- Sito Oscar — ottimizzare altezza card sezione "Chi sono" (da verificare)
+- Codice Reale video Ferrari — registrare con OBS e pubblicare come Reel
 
-## FATTO IN QUESTA SESSIONE (2026-05-24)
-- Istanza GE v5 completata con 15 correzioni PATCH verificate
-- Sistema di lavoro universale progettato con 18 lenti e 3 agenti in parallelo
-- Creato STATO_PROGETTI.md (Quaderno degli Appunti)
-- Aggiornato CLAUDE.md con istruzione lettura automatica a inizio sessione
-- Aggiornato .gitignore con protezione dati sensibili (_CLIENTI/)
+## FATTO IN QUESTA SESSIONE (2026-05-30)
+- Revisione completa task list con Oscar — aggiornate priorità e scadenze
+- STATO_PROGETTI.md aggiornato: rimossi task chiusi (Egeos, visura Ceselini, Template Welfare PMI), corrette scadenze Arte Sacra e EVOLUTIAA
+- Chiarito scopo SAUDA: parlarne prima con Di Salvatore
+- Google Calendar MCP: trovato pacchetto @cocal/google-calendar-mcp, link verificato
+- Regola link confermata: fornire sempre link verificato, mai URL grezzo non cliccabile
