@@ -46,7 +46,8 @@
       "Bash(python -c \"from PIL import Image; print\\('ok'\\)\")",
       "Bash(python genera_copertine_quantum.py)",
       "mcp__linkedin__search_people",
-      "mcp__linkedin__get_person_profile"
+      "mcp__linkedin__get_person_profile",
+      "mcp__gmail__batch_modify_emails"
     ]
   },
   "hooks": {
