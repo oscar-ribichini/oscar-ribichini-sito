@@ -8,9 +8,11 @@ Questo è il centro. Tutto il resto serve questo.
 
 ## Le tre priorità in ordine
 
-1. Prodotti digitali AI — il primo flusso di reddito autonomo, costruito su quello che sa fare
-2. Quantum — il mandato attivo, le commissioni, i clienti da trovare
-3. Crescita personale — capire, saper usare, essere credibile prima di insegnare
+1. **Il Sistema dei Codici** — il progetto più originale di Oscar. Non è un account social né un prodotto — è una lingua nuova per leggere il comportamento umano. È il motore di tutto il resto: Codice Reale, prodotti digitali, consulenza, corso, libro.
+2. Prodotti digitali AI — il primo flusso di reddito autonomo, costruito su quello che sa fare
+3. Quantum — il mandato attivo, le commissioni, i clienti da trovare
+
+**Nota importante (31/05/2026):** Oscar ha detto esplicitamente che il Sistema dei Codici è parte integrante del suo obiettivo centrale — sentirsi utile e guadagnare nel farlo. Non è un progetto separato — è il cuore di tutto.
 
 ---
 
