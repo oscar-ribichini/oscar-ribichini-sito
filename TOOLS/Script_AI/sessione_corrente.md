@@ -38,6 +38,10 @@ Sequenza corretta: carica video → cerca "Nuvolari" nella libreria musicale →
 - Guida Facebook 2026 salvata in REPUTAZIONE_SOCIAL
 - Video Ferrari MP4 generato con Playwright (converti_video_pw.js) — funziona correttamente
 - Ricerca minifrigo bar completa: prezzi verificati su Amazon, MediaWorld, Euronics, OBI, Unieuro, eBay
+- Copertine social Quantum create (LinkedIn 1128x191, Facebook 1920x711, YouTube 2560x1440)
+- Descrizioni aziendali e post di lancio Pichetti scritti
+- Istruzioni apertura pagine Facebook/LinkedIn/YouTube salvate
+- Tutto in: QUANTUM\Marketing\Materiale_Grafico\Copertine_Social\
 
 ## NOTA MUSICA PROSSIMO REEL
 Facebook permette di aggiungere musica solo nella prima schermata di creazione, prima di "Modifica reel".
