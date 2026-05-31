@@ -151,6 +151,10 @@ Prossima azione: ottimizzare card in altezza nella sezione Chi sono.
 - Template morti sul lavoro — PMI e normative sicurezza
 - Prodotto "capire cosa ti piace" — psicologia applicata, originale
 
+**Strumento da usare per la valutazione:**
+`TOOLS\Script_AI\SCHEDA_VALUTAZIONE_PRODOTTO.md` — 8 campi, semaforo verde/giallo/rosso
+Regola: nessun prodotto si inizia a creare senza aver completato almeno i campi 1-5.
+
 ---
 
 ## 🟢 AI WEEK — PRODOTTI DA COMMERCIALIZZARE [AGGIORNATO — 28/05/2026]
