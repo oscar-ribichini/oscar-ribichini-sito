@@ -146,6 +146,11 @@ Prossima azione: ottimizzare card in altezza nella sezione Chi sono.
 - 🔲 Mini Corso AI per Consulenti — da creare
 - 🔲 Prompt Pack Settoriale Consulenti — da rivedere e perfezionare
 
+**Nuove idee da valutare economicamente (dalle note Keep 31/05/2026):**
+- Checklist per quando entra una badante in casa — mercato reale, nessun competitor evidente
+- Template morti sul lavoro — PMI e normative sicurezza
+- Prodotto "capire cosa ti piace" — psicologia applicata, originale
+
 ---
 
 ## 🟢 AI WEEK — PRODOTTI DA COMMERCIALIZZARE [AGGIORNATO — 28/05/2026]
@@ -195,10 +200,25 @@ Prossime azioni immediate (in ordine):
 
 ---
 
-## 📌 MCP DA CONFIGURARE
+## 📌 MCP — STATO
 
-- Google Calendar — richiesto 27/05/2026, non ancora fatto
-- Google Drive — da fare dopo Calendar
+- ✅ Google Calendar — operativo dal 30/05/2026
+- ✅ Google Drive — operativo dal 31/05/2026
+- ✅ Gmail — operativo, 300+ mail marchiate lette il 31/05/2026
+
+## 📌 LAVORI DI NOTTE — NUOVO ARCHIVIO (31/05/2026)
+
+Cartella: `e:\Lavori Code\LAVORI_DI_NOTTE\`
+Catalogo completo: `LAVORI_DI_NOTTE\CATALOGO_NOTE_KEEP.md`
+
+- 248 note Google Keep catalogate in 7 sezioni tematiche
+- 200+ mail Gmail da analizzare in sessione dedicata
+- Drive: doppioni da eliminare, immagini da organizzare
+
+Sessioni dedicate da fare:
+- Analisi 14 mail prioritarie + link Facebook (file: project_sessione_mail_importanti.md)
+- Pulizia Drive: eliminare doppioni, creare cartelle per data/evento
+- Valutazione economica 3 nuovi prodotti digitali dalle note Keep
 
 ---
 

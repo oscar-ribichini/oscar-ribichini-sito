@@ -198,6 +198,67 @@ Estratte il 31/05/2026 | 248 note | 10 maggio - 31 maggio 2026
 
 ---
 
-*Totale note catalogate: 248*
-*Cartelle create: 7*
-*Data catalogazione: 31/05/2026*
+---
+
+## 08 — DA GMAIL — MAIL IMPORTANTI NON LETTE
+*Stessa natura delle note Keep — idee catturate al volo, cose da non perdere.*
+*Sessione dedicata da fare — file memoria: project_sessione_mail_importanti.md*
+
+**Priorità alta — aprire e analizzare:**
+- "CAZZO QUESTA È LA STRADA DA INTRAPRENDERE SUBITISSIMO" (19 mag)
+- "Importante, da capire bene come sfruttare questo business" (20 mag)
+- "CORSO MASTER RICONOSCIUTO 1300€ CREDO CHE DEVO INVESTIRE SU ME STESSO" (23 mag)
+- "How to AI | Ruben Hassid | Substack BELLO DA LEGGERE ATTENTAMENTE" (23 mag)
+- "Antropologia ha già capito quali sono le cose da costruire nel 2026" (23 mag)
+- "DA Far leggere per capire come devo fare io" (19 mag)
+- "Occhiali Meta MOLTO INTERESSANTE" (18 mag)
+- "ANTROPIK INTERESSANTE" (18 mag)
+- "Interessate i primi copioni la concorrenza" (19 mag)
+- "Anthropic è oro puro — 65 miliardi" (30 mag)
+
+**Energia e Quantum:**
+- "PNRR 2026: nuovi incentivi CER e fotovoltaico" (gen 2026)
+- "Biometano, l'energia green italiana arriva dai rifiuti organici" (dic 2025)
+- Ricerca biogas e SCC — certificati da acquistare (mag 2026)
+
+**Social e competitor:**
+- "SANTONI" — competitor da analizzare (22 mag)
+- "Capire che video fa" (20 mag)
+- "Pennetta drive di claude SPECIAL" (20 mag)
+- "Ogni volta devo dire chi posta" — problema operativo (23 mag)
+
+**Circa 200 mail senza oggetto** — tutte link Facebook da catalogare nella sessione dedicata
+
+---
+
+## 09 — DA GOOGLE DRIVE — IMMAGINI E DOCUMENTI
+*Sessione pulizia da fare — doppioni da eliminare, cartelle da creare.*
+
+**Doppioni certi da eliminare:**
+- 20241022_103703.jpg × 3
+- 20241022_103739.jpg × 3
+- 20260515_175359.jpg × 2
+- 20260517_084959.jpg × 2
+- 20260517_091452.jpg × 2
+- 20260517_094413.jpg × 2
+- 20260516_230328.jpg × 2
+- 20260530_155351.jpg × 2
+
+**Gruppi da creare:**
+- Fiera_AIWeek_maggio2026 — foto 19 maggio 2026 (molte, stesso evento)
+- Dicembre_2025 — foto dal telefono
+- Ottobre_2024 — foto dal telefono
+
+**Documenti da tenere:**
+- PDF a2a — contratti energia (Civitanova, Montecosaro, Montegranaro, Potenza Picena)
+- accesso atti 1.2.zip — documenti legali
+- contratto Bonanomi Energigo
+- CONTRATTI SME
+- Documento_principale.pdf
+- Foto DJI — drone, valutare
+
+---
+
+*Totale note catalogate: 248 Keep + 200+ Gmail*
+*Cartelle create: 9*
+*Data aggiornamento catalogo: 31/05/2026*
