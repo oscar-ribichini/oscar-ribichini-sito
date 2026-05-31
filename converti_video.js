@@ -21,6 +21,9 @@ fs.mkdirSync(FRAMES_DIR);
   const url = 'file:///' + path.resolve(__dirname, FILE).replace(/\\/g, '/');
   await page.goto(url, { waitUntil: 'networkidle0' });
 
+  // Attesa font Google e avvio animazioni
+  await new Promise(r => setTimeout(r, 3000));
+
   const totFrames = DURATA * FPS;
   console.log(`Cattura ${totFrames} frame (${DURATA}s a ${FPS}fps)...`);
 

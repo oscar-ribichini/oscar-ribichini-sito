@@ -34,7 +34,8 @@
       "mcp__linkedin__get_my_profile",
       "mcp__google-drive__search",
       "Bash(python -c ' *)",
-      "Bash(python -c \"from playwright.sync_api import sync_playwright; print\\('ok'\\)\")"
+      "Bash(python -c \"from playwright.sync_api import sync_playwright; print\\('ok'\\)\")",
+      "Bash(git commit -m ' *)"
     ]
   },
   "hooks": {
