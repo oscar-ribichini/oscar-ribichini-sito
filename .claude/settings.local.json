@@ -35,7 +35,18 @@
       "mcp__google-drive__search",
       "Bash(python -c ' *)",
       "Bash(python -c \"from playwright.sync_api import sync_playwright; print\\('ok'\\)\")",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(node converti_video.js SKILLS/news_ia/codice_ferrari_v3.html 25)",
+      "Bash(npx playwright *)",
+      "Bash(node converti_video_pw.js SKILLS/news_ia/codice_ferrari_v3.html 26)",
+      "Bash(ls \"G:/\")",
+      "Read(//g//**)",
+      "Bash(ffmpeg -i \"G:\\\\dawload\\\\Lucio.ogg\" -ar 44100 -ac 1 -b:a 192k \"G:\\\\dawload\\\\Lucio.mp3\" -y)",
+      "Bash(Get-ChildItem -Path \"e:\\\\Lavori Code\\\\REPUTAZIONE_SOCIAL\\\\05_Quantum_Social\\\\\" -File -Recurse | Select-Object FullName, Length | Sort-Object FullName)",
+      "Bash(python -c \"from PIL import Image; print\\('ok'\\)\")",
+      "Bash(python genera_copertine_quantum.py)",
+      "mcp__linkedin__search_people",
+      "mcp__linkedin__get_person_profile"
     ]
   },
   "hooks": {

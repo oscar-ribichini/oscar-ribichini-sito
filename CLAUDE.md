@@ -134,6 +134,9 @@ Queste azioni avvengono in automatico — Oscar non deve ricordarle.
 **Ogni 29 maggio:**
 - Ricordare il Giorno Zero: "Sei più vicino a sentirti utile e guadagnare nel farlo?"
 
+**Il 30 giugno 2026:**
+- Ricordare a Oscar: "Un mese fa abbiamo deciso di rimandare la Voce del Rischio. Vuoi che la aggiungiamo adesso?" — file memoria: project_voce_rischio.md
+
 ## ⛔ REGOLA ASSOLUTA — REGISTRO ERRORI
 
 **Prima di produrre qualsiasi HTML, documento da stampare, atto legale o documento destinato a un professionista esterno:**
