@@ -14,17 +14,28 @@ fs.mkdirSync(FRAMES_DIR);
 
 (async () => {
   console.log(`Apro: ${FILE}`);
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: [
+      '--disable-web-security',
+      '--virtual-time-budget=1000000'
+    ]
+  });
+
   const page = await browser.newPage();
   await page.setViewport({ width: 390, height: 844, deviceScaleFactor: 2 });
 
   const url = 'file:///' + path.resolve(__dirname, FILE).replace(/\\/g, '/');
+
+  // Carica la pagina con virtual time — le animazioni partono ma il tempo è congelato
   await page.goto(url, { waitUntil: 'networkidle0' });
 
-  // Attesa font Google e avvio animazioni
+  // Attesa font Google
   await new Promise(r => setTimeout(r, 3000));
 
   const totFrames = DURATA * FPS;
+  const msPerFrame = 1000 / FPS;
+
   console.log(`Cattura ${totFrames} frame (${DURATA}s a ${FPS}fps)...`);
 
   for (let i = 0; i < totFrames; i++) {
@@ -32,7 +43,15 @@ fs.mkdirSync(FRAMES_DIR);
       path: path.join(FRAMES_DIR, `frame_${String(i).padStart(5,'0')}.png`),
       clip: { x: 0, y: 0, width: 390, height: 844 }
     });
-    await new Promise(r => setTimeout(r, 1000 / FPS));
+
+    // Avanza il tempo virtuale di 1 frame
+    await page.evaluate((ms) => {
+      // Stimola il reflow per far avanzare le animazioni CSS
+      document.documentElement.style.setProperty('--t', String(ms));
+    }, msPerFrame * (i + 1));
+
+    await new Promise(r => setTimeout(r, msPerFrame));
+
     if (i % 30 === 0) process.stdout.write(`  ${Math.round(i/totFrames*100)}%\r`);
   }
 
