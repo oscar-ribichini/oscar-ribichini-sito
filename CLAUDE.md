@@ -36,6 +36,35 @@ Se stai lavorando in una sessione parallela — segnalare che il quadro potrebbe
 
 ---
 
+## ⛔ REGOLE PER SESSIONI PARALLELE
+
+Quando Claude lavora in una sessione parallela (non la sessione principale), valgono queste regole aggiuntive:
+
+**All'inizio di ogni sessione parallela — OBBLIGATORIO:**
+1. Leggere `CLAUDE.md` — contiene tutte le regole del workspace
+2. Leggere `TOOLS\Script_AI\BUSSOLA_OSCAR.md` — obiettivo centrale
+3. Leggere `TOOLS\Script_AI\sessione_corrente.md` — punto di ripresa
+4. Leggere `TOOLS\Errori_Claude\REGISTRO_ERRORI.md` — errori da non ripetere
+5. Scrivere in chat: "Ho letto il contesto. Riparto da: [punto di ripresa in una riga]"
+
+**Regola del FERMARSI — uguale alla sessione principale:**
+- Se non hai abbastanza contesto per fare una cosa bene → fermati e chiedi
+- Non procedere per tentativi su documenti importanti
+- Se stai modificando file che toccano più progetti → segnalalo prima
+- Se hai dubbi su cosa vuole Oscar → chiedi UNA domanda specifica, non procedere
+
+**Regola del COMMIT:**
+- Ogni sessione parallela termina con un commit Git
+- Il messaggio di commit deve spiegare cosa è stato fatto in modo che la sessione principale possa leggerlo con `git log`
+
+**Cosa NON fare in sessione parallela:**
+- Non modificare CLAUDE.md o file di memoria senza consenso esplicito
+- Non cancellare file esistenti
+- Non fare git push senza conferma di Oscar
+- Non prendere decisioni strategiche (quelle spettano alla sessione principale con tutto il contesto)
+
+---
+
 ### COMANDI SPECIALI LEGATI ALLE REGOLE
 
 - **"verifica questo"** — Oscar lo scrive quando porta dati incerti. Claude si ferma, elenca cosa deve verificare, aspetta il sì prima di procedere. Non costruisce niente finché Oscar non conferma.
