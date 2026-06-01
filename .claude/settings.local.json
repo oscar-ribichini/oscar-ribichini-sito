@@ -53,7 +53,8 @@
       "mcp__google-drive__moveItem",
       "PowerShell(ffmpeg -i \"G:\\\\dawload\\\\laura.ogg\" -ar 44100 -ac 1 -b:a 192k \"G:\\\\dawload\\\\laura.mp3\" -y 2>&1)",
       "mcp__google-drive__downloadFile",
-      "mcp__gmail__batch_delete_emails"
+      "mcp__gmail__batch_delete_emails",
+      "Bash(git push *)"
     ]
   },
   "hooks": {
