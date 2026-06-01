@@ -41,6 +41,13 @@ Giuseppe Mercuri, ortodontista a Losanna. Ha imparato Claude in autonomia e ha a
 
 ---
 
+## Francesco Gruner — AI Toolkit gratuito
+**Cosa contiene:** guide PDF ufficiali OpenAI + Google + Anthropic, prompt ottimizzati pronti, corsi gratuiti selezionati, report europei AI, audio-riassunti.
+**Come accedere:** aprire la mail di benvenuto da newsletter@francescogruner.it → clicca "Apri l'AI Toolkit" → serve account Google.
+**Blog:** francescogruner.it | YouTube | Community Facebook | LinkedIn
+
+---
+
 ## Da fare in sessione dedicata DailyTool
 
 1. Leggere le prossime newsletter che arrivano (archivio automatico nella cartella)
