@@ -194,4 +194,24 @@ Ogni prodotto, ogni contenuto, ogni contatto deve portare persone sulla lista em
 
 ---
 
+## PARTE 4 — FORMAZIONE: REGISTRARE IL CORSO CLAUDE CODE
+
+**L'idea:** Oscar sta facendo il corso Claude Code di AI Manager. Lo registra con Loom mentre lo segue. Il materiale diventa un asset da dare ai futuri clienti PMI.
+
+**Perché funziona:**
+- Costo zero aggiuntivo — stai già pagando il corso
+- Rispetta la regola fondamentale: prima lo usi, poi lo insegni
+- Tra 6 mesi hai già il materiale pronto per i clienti
+- È il metodo più credibile — non insegni teoria, insegni quello che hai imparato davvero
+
+**Cosa fare prima di procedere:**
+Verificare i termini di AI Manager — alcuni corsi vietano di registrare le lezioni o rivendere il materiale. Controllare prima.
+
+**Se i termini lo permettono:**
+- Registrare ogni lezione con Loom
+- Aggiungere commento personale su come lo applichi al tuo lavoro reale
+- Montare in moduli da dare ai clienti Quantum come parte del servizio
+
+---
+
 *Costruito il 01/06/2026 con ricerca web (fonti: arweb.it, tready.it, outsidethebox.it, blog.marketrock.it, omnisend.com) + analisi 18 lenti + contesto Oscar Ribichini*
