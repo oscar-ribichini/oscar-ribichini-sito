@@ -210,6 +210,33 @@ Prossime azioni immediate (in ordine):
 - ✅ Google Drive — operativo dal 31/05/2026
 - ✅ Gmail — operativo, 300+ mail marchiate lette il 31/05/2026
 
+## 📌 SESSIONE NOTTURNA 01/06/2026 — RISULTATI
+
+**Quello che è emerso stanotte:**
+- Sistema dei Codici confermato come progetto principale — motore di tutto
+- 5 lenti nuove per il libro: Sinaptica, Generativa, Metacognitiva, Esplorazione, Codice del Tempo
+- 7 post pronti per Codice Reale
+- Funnel Jobescape analizzato completamente — insight chiave: curiosità vs paura
+- Vantaggio competitivo Oscar: "Sai leggere quello che succede intorno a te?" batte la paura
+- Voce del padre da cercare per la madre — primo test del prodotto AI companion demenza
+- Data Center + cogenerazione: Oscar va diretto ai costruttori, non attraverso Pichetti
+- Negozio online da aprire subito con checklist badante — checklist badante 8 verdi su 8
+- "Nuotare è navigare" — il codice del movimento continuo di Oscar
+- "Quello che non esiste" — non solo quello che non si dice, ma quello che manca davvero
+
+**Ancora da fare (sessione dedicata):**
+- ~200 mail Facebook non ancora analizzate
+- Ultimi 25 screenshot del 9 maggio non ancora letti
+- 3 link Facebook prioritari da aprire
+
+**File salvati stanotte:**
+- `LAVORI_DI_NOTTE/01_Sistema_Codici_Metodo/2026-06-01_Lenti_Nuove_Per_Il_Libro.md`
+- `LAVORI_DI_NOTTE/01_Sistema_Codici_Metodo/2026-06-01_Ricerca_Mercato_AI_Companion_Demenza.md`
+- `LAVORI_DI_NOTTE/01_Sistema_Codici_Metodo/2026-06-01_Post_Lenti_Codice_Reale.md`
+- `LAVORI_DI_NOTTE/02_Contenuti_Social_Codice_Reale/2026-06-01_Analisi_Funnel_Jobescape_Screenshot.md`
+
+---
+
 ## 📌 LAVORI DI NOTTE — NUOVO ARCHIVIO (31/05/2026)
 
 Cartella: `e:\Lavori Code\LAVORI_DI_NOTTE\`
