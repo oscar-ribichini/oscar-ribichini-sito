@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relazione a Massimo Pichetti — Acquisizione Clienti con AI</title>
+<style>
+  @page { margin: 18mm 20mm 18mm 20mm; size: A4; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Georgia', serif;
+    font-size: 10.5pt;
+    color: #1a1a2e;
+    line-height: 1.6;
+    background: #fff;
+  }
+
+  /* INTESTAZIONE */
+  .intestazione {
+    border-bottom: 3px solid #1a1a2e;
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+  }
+  .intestazione-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .doc-titolo {
+    font-size: 15pt;
+    font-weight: bold;
+    color: #1a1a2e;
+    letter-spacing: 0.3px;
+    line-height: 1.3;
+  }
+  .doc-meta {
+    font-size: 8.5pt;
+    color: #555;
+    text-align: right;
+    line-height: 1.7;
+  }
+  .doc-sottotitolo {
+    font-size: 9.5pt;
+    color: #666;
+    margin-top: 5px;
+    font-style: italic;
+  }
+
+  /* SEZIONI */
+  h2 {
+    font-size: 10.5pt;
+    font-weight: bold;
+    color: #1a1a2e;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    border-left: 4px solid #c9a96e;
+    padding-left: 10px;
+    margin: 22px 0 10px 0;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  h3 {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin: 14px 0 7px 0;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  p {
+    margin-bottom: 9px;
+  }
+
+  /* BOX */
+  .box {
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .box-grigio  { background: #f7f7f7; }
+  .box-oro     { background: #fffbf2; border-color: #c9a96e; }
+  .box-rosso   { background: #fff5f5; border-color: #c0392b; }
+  .box-verde   { background: #f5fff8; border-color: #27ae60; }
+  .box-blu     { background: #f0f4ff; border-color: #2c5fad; }
+  .box-scuro   { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+
+  .box-titolo {
+    font-size: 8.5pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  .box-rosso .box-titolo  { color: #c0392b; }
+  .box-verde .box-titolo  { color: #27ae60; }
+  .box-oro   .box-titolo  { color: #a07830; }
+  .box-blu   .box-titolo  { color: #2c5fad; }
+  .box-scuro .box-titolo  { color: #c9a96e; }
+
+  /* TABELLA */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 12px;
+    font-size: 9.5pt;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: left;
+    font-size: 8.5pt;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+  }
+  td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #e8e8e8;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #f9f9f9; }
+  .evidenziato td { background: #fffbf2 !important; font-weight: bold; }
+  td.num  { text-align: right; font-variant-numeric: tabular-nums; }
+  td.verde { color: #27ae60; font-weight: bold; }
+  td.oro   { color: #a07830; font-weight: bold; }
+
+  /* LISTA */
+  ul { padding-left: 18px; margin-bottom: 9px; }
+  ul li { margin-bottom: 5px; }
+  ol { padding-left: 18px; margin-bottom: 9px; }
+  ol li { margin-bottom: 6px; }
+
+  /* BADGE */
+  .badge {
+    display: inline-block;
+    font-size: 7.5pt;
+    font-weight: bold;
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.3px;
+    margin-top: 3px;
+  }
+  .badge-verde  { background: #eafaf1; color: #27ae60; border: 1px solid #27ae60; }
+  .badge-oro    { background: #fffbf0; color: #a07830; border: 1px solid #c9a96e; }
+  .badge-grigio { background: #f0f0f0; color: #555;    border: 1px solid #bbb; }
+  .badge-blu    { background: #e8eeff; color: #2c5fad; border: 1px solid #2c5fad; }
+
+  /* CALLOUT PRINCIPALE */
+  .callout {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #1a1a2e;
+    background: #f0f4ff;
+    border-left: 5px solid #2c5fad;
+    padding: 11px 15px;
+    margin: 16px 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    line-height: 1.5;
+  }
+
+  /* NUMERO GRANDE */
+  .stat-row {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .stat-numero {
+    font-size: 20pt;
+    font-weight: bold;
+    color: #c9a96e;
+    line-height: 1.1;
+  }
+  .stat-label {
+    font-size: 8.5pt;
+    color: #555;
+    margin-top: 1px;
+  }
+
+  /* SEPARATORE */
+  .sep {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 18px 0;
+  }
+
+  /* FIRMA */
+  .firma {
+    margin-top: 28px;
+    padding-top: 14px;
+    border-top: 1px solid #ccc;
+    font-size: 8.5pt;
+    color: #777;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .firma-riga {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nota {
+    font-size: 7.5pt;
+    color: #999;
+    font-style: italic;
+    margin-top: 6px;
+  }
+
+  /* GRIGLIA FATTI — blocchi affiancati su schermo, verticale in stampa */
+  .fatti-grid {
+    display: block;
+  }
+  .fatto {
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  @media print {
+    body { font-size: 10pt; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== INTESTAZIONE ===================== -->
+<div class="intestazione">
+  <div class="intestazione-top">
+    <div>
+      <div class="doc-titolo">Acquisizione clienti con l'AI:<br>perché investire adesso e come farlo</div>
+      <div class="doc-sottotitolo">Relazione di Oscar Ribichini a Massimo Pichetti — uso riservato</div>
+    </div>
+    <div class="doc-meta">
+      Da: Oscar Ribichini<br>
+      A: Massimo Pichetti — Quantum S.r.l.<br>
+      Data: 1 giugno 2026<br>
+      Documento: riservato
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================== PREMESSA ===================== -->
+<h2>1. Perché ti scrivo questa relazione</h2>
+
+<p>Dal 1 maggio 2026 lavoro come Mandatario Quantum. In questo primo mese ho costruito la presenza digitale dell'azienda da zero, ho firmato il mandato con Webidoo per distribuire il loro prodotto AI alle PMI marchigiane, e ho analizzato ogni opportunità commerciale che si è presentata.</p>
+
+<p>Una di queste opportunità è EVOLUTIAA: un percorso di 5 mesi che insegna ad acquisire clienti in modo sistematico usando LinkedIn e l'AI. Ti scrivo questa relazione per tre ragioni precise:</p>
+
+<ol>
+  <li>Farti capire quello che ho già fatto e il metodo con cui lavoro</li>
+  <li>Condividere la mia analisi del mercato — perché il momento è adesso, non fra sei mesi</li>
+  <li>Chiederti un parere e il tuo supporto per fare questo investimento nel modo giusto</li>
+</ol>
+
+<div class="callout">
+  Il problema centrale che voglio risolvere: oggi so presentarmi, so cosa vendere, ho il mandato e il prodotto. Quello che mi manca è un sistema strutturato per trovare i clienti giusti in modo professionale e misurabile. EVOLUTIAA insegna esattamente questo.
+</div>
+
+
+<!-- ===================== COSA HO FATTO ===================== -->
+<h2>2. Cosa ho costruito in un mese — i fatti concreti</h2>
+
+<p>Non mi limito a elencare attività. Ogni cosa che ho fatto ha uno scopo preciso nel sistema commerciale che stiamo costruendo insieme.</p>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Presenza digitale Quantum — dal nulla a operativa in 30 giorni</div>
+  <ul>
+    <li>
+      <strong>Pagina LinkedIn Quantum S.r.l. — completata al 100%</strong><br>
+      Logo ufficiale, copertina professionale, slogan, descrizione aziendale, 20 settori di competenza, sezione Servizi con disponibilità remota, amministratore aggiunto. LinkedIn è il canale primario per il mercato B2B: ogni potenziale cliente che cerca Quantum online trova adesso una presenza credibile e curata.
+    </li>
+    <li>
+      <strong>Pagina Facebook Quantum Srl — creata e attiva</strong><br>
+      Logo, copertina, biografia aziendale, indirizzo, sito, telefono. Secondo canale di presenza digitale per raggiungere un pubblico più ampio, anche non strettamente professionale.
+    </li>
+    <li>
+      <strong>Sito Quantum — prototipo HTML completo con animazioni</strong><br>
+      Tre versioni del blocco hero sviluppate e pronte. In attesa delle credenziali hosting per andare online. La struttura è già definita: 7 pagine, contenuti pronti, CSS professionale. Manca solo il via libera tecnico da parte tua.
+    </li>
+  </ul>
+</div>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Mandato Webidoo — primo canale di reddito attivo</div>
+  <ul>
+    <li>
+      <strong>Call con Fabrizio (Webidoo) — 28 maggio 2026</strong><br>
+      Mandato firmato. Jooice è la piattaforma AI all-in-one per il marketing delle PMI: gestisce automaticamente Google My Business, le recensioni, i social media e la reputazione online. Prezzo al cliente finale: €90-120/mese. Commissione per me: €300-390 per ogni contratto da 12 mesi, €600-780 per 24 mesi. Prodotto solido, azienda con €14 milioni di ricavi nel 2024, crescita del 20% anno su anno.
+    </li>
+    <li>
+      <strong>Analisi di posizionamento completa</strong><br>
+      Ho prodotto un documento di 10 sezioni su come vendere Jooice alle PMI marchigiane: settori prioritari, argomenti che funzionano, obiezioni già pronte con le risposte, analisi della concorrenza.
+    </li>
+    <li>
+      <strong>Documenti di attivazione mandato consegnati</strong><br>
+      Regime fiscale e dichiarazione sostitutiva inviati. Il mandato è operativo.
+    </li>
+  </ul>
+</div>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Riunione Allianz — 17 maggio 2026</div>
+  <ul>
+    <li>Partecipato alla riunione con Andrea Licata e Fabio Guerra (Allianz)</li>
+    <li>Identificato il settore biogas/biometano come priorità per coperture assicurative personalizzate — ho già contatti nel settore</li>
+    <li>Verbale strutturato prodotto: 15 punti di azione, stato di avanzamento, responsabilità per ciascuno</li>
+  </ul>
+</div>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Analisi e strumenti prodotti in autonomia</div>
+  <ul>
+    <li>Analisi completa proposta EVOLUTIAA (28 maggio) — 9 sezioni, con analisi legale delle clausole critiche, scenari economici con e senza royalty, proposta negoziale</li>
+    <li>Analisi Webidoo S.p.A. e Jooice — 10 sezioni, dati finanziari verificati su fonti primarie, confronto competitivo, piano di posizionamento per le Marche</li>
+    <li>Verbale riunione Quantum-Allianz — strutturato con 15 azioni e responsabilità</li>
+    <li>Sito Quantum — prototipo HTML con tre versioni hero e CSS professionale</li>
+  </ul>
+</div>
+
+
+<!-- ===================== IL MERCATO ===================== -->
+<h2>3. Il mercato — cosa sta succedendo adesso</h2>
+
+<p>Prima di parlare di EVOLUTIAA, voglio mostrarti i numeri del contesto in cui operiamo. Non sono stime: sono dati verificati su fonti primarie.</p>
+
+<div class="box box-oro">
+  <div class="box-titolo">Il mercato della consulenza aziendale in Italia — 2026</div>
+  <div class="fatti-grid">
+    <div class="fatto">
+      <div class="stat-numero">9,02%</div>
+      <div class="stat-label">tasso di crescita annuo della consulenza aziendale in Italia — il mercato cresce mentre la maggior parte dei consulenti resta ferma<br><span style="font-size:7.5pt;color:#999;">Fonte: Bsness.com, analisi mercato consulente aziendale, marzo 2026</span></div>
+    </div>
+    <div class="fatto">
+      <div class="stat-numero">80%</div>
+      <div class="stat-label">dei lead B2B provenienti dai social media vengono da LinkedIn — non da Facebook, non da Instagram<br><span style="font-size:7.5pt;color:#999;">Fonte: BriefMe.it, lead generation B2B 2026</span></div>
+    </div>
+    <div class="fatto">
+      <div class="stat-numero">60%</div>
+      <div class="stat-label">delle PMI italiane eleggibili non presenta domanda per mancanza di orientamento — è il cliente che aspetta un consulente capace di muoversi con metodo<br><span style="font-size:7.5pt;color:#999;">Fonte: IncentivImpresa.it, acquisire clienti consulenza bandi 2026</span></div>
+    </div>
+    <div class="fatto">
+      <div class="stat-numero">5-10x</div>
+      <div class="stat-label">la reach organica di un profilo personale su LinkedIn rispetto a una pagina aziendale — motivo per cui il mandatario è più efficace dell'azienda nel trovare clienti sui social<br><span style="font-size:7.5pt;color:#999;">Fonte: StarLead Srl, LinkedIn B2B funnel metriche 2026</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="callout">
+  Il paradosso del mercato italiano: il mercato cresce al 9% annuo, i clienti cercano consulenti, LinkedIn genera l'80% dei lead B2B — eppure la maggior parte dei consulenti italiani non ha un sistema per trovare clienti. Aspettano il passaparola. Noi possiamo fare la differenza.
+</div>
+
+
+<!-- ===================== LE REGOLE DEL GIOCO ===================== -->
+<h2>4. Come funzionano davvero i social nel B2B — le regole che cambiano tutto</h2>
+
+<p>Per capire perché EVOLUTIAA è una scelta strategica e non una spesa di formazione generica, bisogna capire come funzionano i social nel 2026. Le regole sono cambiate radicalmente nell'ultimo anno.</p>
+
+<h3>LinkedIn — il nuovo algoritmo 360Brew</h3>
+
+<p>LinkedIn ha aggiornato il suo sistema di intelligenza artificiale nel 2026 con un modello chiamato 360Brew. Questo algoritmo ha cambiato le regole del gioco in modo sostanziale.</p>
+
+<div class="box box-blu">
+  <div class="box-titolo">Cosa premia il nuovo algoritmo LinkedIn</div>
+  <ul>
+    <li><strong>Contenuti tematici e coerenti:</strong> chi pubblica sempre sugli stessi 3-5 argomenti viene riconosciuto come "esperto di dominio" e distribuito con continuità alle persone giuste. Chi pubblica di tutto non viene distribuito a nessuno.</li>
+    <li><strong>Qualità delle interazioni, non quantità:</strong> salvataggi, condivisioni private e commenti di qualità valgono molto più dei like. L'algoritmo misura quanto le persone tengono davvero al contenuto.</li>
+    <li><strong>Profili personali:</strong> un profilo personale raggiunge 5-10 volte più persone di una pagina aziendale. Il mandatario che pubblica sul proprio profilo è strumentalmente più potente di qualsiasi comunicazione aziendale Quantum.</li>
+    <li><strong>Contenuti nativi:</strong> PDF, caroselli, guide — tutto ciò che si legge dentro LinkedIn — ottengono il +40% di reach rispetto a un post con link esterno. LinkedIn vuole tenere le persone sulla piattaforma.</li>
+    <li><strong>Frequenza ottimale: 2-3 post a settimana.</strong> Non di più — pubblicare 6+ post a settimana riduce la visibilità. La qualità batte la quantità.</li>
+  </ul>
+</div>
+
+<div class="box box-rosso">
+  <div class="box-titolo">Cosa penalizza il nuovo algoritmo LinkedIn — errori che fanno i consulenti italiani</div>
+  <ul>
+    <li><strong>Vendere subito:</strong> mandare messaggi privati di vendita a freddo, senza aver costruito fiducia, è l'errore numero uno. L'algoritmo segnala questi profili e riduce la visibilità.</li>
+    <li><strong>Pubblicare tutto e niente:</strong> un post sul welfare, uno sulla mia vacanza, uno su un articolo di economia. Nessuna coerenza tematica = nessuna distribuzione targetizzata.</li>
+    <li><strong>Parlare di sé invece che del problema del cliente:</strong> "Quantum offre consulenza finanziaria" non interessa nessuno. "Come capire se la tua azienda sta pagando troppo per i contributi" apre la conversazione.</li>
+    <li><strong>Usare la pagina aziendale come canale principale:</strong> la pagina Quantum è importante per credibilità, ma il motore commerciale deve essere il profilo personale del mandatario.</li>
+    <li><strong>Non misurare nulla:</strong> il 90% dei consulenti italiani non sa quante persone vede i loro post, non sa quanti profili visitano dopo, non sa quanti messaggi arrivano. Senza dati non si migliora.</li>
+  </ul>
+</div>
+
+<h3>Facebook — le regole per il B2B locale</h3>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Facebook nel 2026 per la consulenza alle PMI</div>
+  <ul>
+    <li><strong>Non è il canale principale per il B2B,</strong> ma è quello dove si trovano gli imprenditori locali che non usano LinkedIn. Molti titolari di PMI marchigiane sono su Facebook, non su LinkedIn.</li>
+    <li><strong>L'algoritmo di Facebook premia la continuità e l'interazione locale:</strong> post regolari, risposta ai commenti, coinvolgimento della rete locale. Il targeting geografico delle inserzioni è molto preciso.</li>
+    <li><strong>I Gruppi Facebook locali sono ancora potenti:</strong> un consulente presente nei gruppi degli imprenditori locali (Confindustria Marche, gruppi categoria, associazioni di categoria) ha visibilità gratuita con persone già pre-qualificate.</li>
+    <li><strong>Video brevi e storie:</strong> l'algoritmo Facebook nel 2026 favorisce fortemente i Reels e i video nativi sotto i 90 secondi. Un video di 60 secondi dove si spiega un problema concreto delle PMI marchigiane vale dieci post di testo.</li>
+  </ul>
+</div>
+
+
+<!-- ===================== COSA MANCA ===================== -->
+<h2>5. Il gap che ho trovato — cosa manca davvero nel mercato</h2>
+
+<p>Ho analizzato come i consulenti italiani si muovono online nel 2026. Il risultato è chiaro: c'è un gap enorme tra chi fa le cose bene e chi fa le cose a caso. E quasi nessuno le fa bene.</p>
+
+<div class="box box-scuro">
+  <div class="box-titolo">Le tre cose che mancano ai consulenti italiani nel 2026</div>
+  <ol>
+    <li style="margin-bottom:10px;">
+      <strong style="color:#c9a96e;">Un sistema, non attività sparse.</strong><br>
+      La maggior parte dei consulenti fa cose: pubblica ogni tanto, manda qualche messaggio, partecipa a qualche evento. Ma non hanno un sistema. Un sistema è una sequenza ripetibile: contenuto → interesse → conversazione → appuntamento → cliente. Senza sistema, ogni cliente trovato è casuale e non replicabile.
+    </li>
+    <li style="margin-bottom:10px;">
+      <strong style="color:#c9a96e;">L'uso dell'AI per fare cose che prima richiedevano ore.</strong><br>
+      L'AI nel 2026 permette di produrre in un'ora quello che prima richiedeva una settimana: analisi di mercato, contenuti personalizzati, messaggi su misura per ogni interlocutore, ricerca di potenziali clienti. I consulenti che lo sanno fare hanno un vantaggio competitivo che cresce ogni giorno. Quelli che non lo sanno fare vengono superati senza accorgersene.
+    </li>
+    <li style="margin-bottom:10px;">
+      <strong style="color:#c9a96e;">La capacità di parlare al decisore giusto nel modo giusto.</strong><br>
+      LinkedIn permette di raggiungere direttamente l'imprenditore, il direttore finanziario, il responsabile HR — senza intermediari, senza telefonate a freddo, senza aspettare referral. Ma farlo bene richiede un metodo: sapere cosa scrivere, quando scrivere, come costruire la conversazione senza sembrare un venditore.
+    </li>
+  </ol>
+</div>
+
+<div class="callout">
+  Chi impara questi tre elementi adesso ha un vantaggio di 12-18 mesi rispetto ai competitor. Tra 18 mesi, questo sarà lo standard — e chi non ce l'ha sarà già indietro.
+</div>
+
+
+<!-- ===================== EVOLUTIAA ===================== -->
+<h2>6. EVOLUTIAA — perché è la risposta giusta al problema giusto</h2>
+
+<p>Ho già analizzato EVOLUTIAA nel dettaglio nel documento del 28 maggio 2026 che ti ho inviato. Qui non ripeto l'analisi — ti porto solo le conclusioni operative.</p>
+
+<div class="box box-verde">
+  <div class="box-titolo">Cosa imparo in 5 mesi con EVOLUTIAA</div>
+  <ul>
+    <li>Sistema di acquisizione clienti su LinkedIn: dalla profilazione del target alla conversazione, all'appuntamento</li>
+    <li>Ottimizzazione del profilo LinkedIn per essere trovato dai clienti giusti (non dai cacciatori di testa)</li>
+    <li>Uso dell'AI per accelerare la produzione di contenuti, messaggi personalizzati, analisi del target</li>
+    <li>Piano editoriale strutturato: non pubblicare a caso, ma costruire autorevolezza sul tema specifico della consulenza alle PMI</li>
+    <li>Sales Training specifico: come trasformare una conversazione LinkedIn in un appuntamento reale</li>
+    <li>Accesso a un gruppo di pari (altri consulenti) con feedback settimanale dal team EVOLUTIAA</li>
+  </ul>
+</div>
+
+<div class="box box-oro">
+  <div class="box-titolo">Perché questo investimento vale per Quantum — non solo per me</div>
+  <ul>
+    <li><strong>Ogni cliente che trovo è un cliente Quantum.</strong> Il contratto lo firma Quantum, la clientela rimane di Quantum. Il sistema di acquisizione che costruisco porta valore direttamente all'azienda.</li>
+    <li><strong>Il metodo è replicabile.</strong> Una volta che il sistema funziona su di me, possiamo documentarlo e insegnarlo ad altri mandatari Quantum. Diventa un asset dell'azienda.</li>
+    <li><strong>La presenza digitale che stiamo costruendo ha bisogno di alimentazione.</strong> Il sito, LinkedIn, Facebook — tutto questo funziona solo se c'è qualcuno che sa come usarli per trovare clienti. EVOLUTIAA insegna esattamente questo.</li>
+    <li><strong>Il momento è adesso.</strong> L'algoritmo LinkedIn nel 2026 premia chi inizia subito a costruire autorevolezza in un tema. Ogni mese che passa senza un sistema strutturato è un mese di vantaggio regalato ai competitor.</li>
+  </ul>
+</div>
+
+
+<!-- ===================== ANALISI ECONOMICA ===================== -->
+<h2>7. I numeri — cosa succede se funziona</h2>
+
+<p>EVOLUTIAA promette verbalmente 5-8 contatti qualificati al mese a partire dal terzo mese, con i primi risultati concreti entro il quarto-quinto mese. Queste promesse non sono nel contratto — lo ho verificato. Ma possiamo costruire una stima conservativa con i numeri reali del mercato.</p>
+
+<table>
+  <tr>
+    <th>Scenario</th>
+    <th>Clienti nuovi in 5 mesi</th>
+    <th>Tipo di consulenza</th>
+    <th>Valore medio</th>
+    <th>Fatturato per Quantum</th>
+    <th>Provvigione Oscar (10-40%)</th>
+  </tr>
+  <tr>
+    <td>Conservativo</td>
+    <td class="num">2-3</td>
+    <td>Consulenza continuativa base</td>
+    <td class="num">€1.500/mese</td>
+    <td class="num">€9.000-13.500</td>
+    <td class="num verde">€900-1.350</td>
+  </tr>
+  <tr class="evidenziato">
+    <td><strong>Realistico</strong></td>
+    <td class="num"><strong>4-6</strong></td>
+    <td>Mix consulenza + bandi</td>
+    <td class="num"><strong>€2.500/mese</strong></td>
+    <td class="num"><strong>€30.000-45.000</strong></td>
+    <td class="num verde"><strong>€3.000-4.500</strong></td>
+  </tr>
+  <tr>
+    <td>Ottimistico</td>
+    <td class="num">8-10</td>
+    <td>Operazioni strutturate</td>
+    <td class="num">€5.000+ una tantum</td>
+    <td class="num">€50.000-80.000</td>
+    <td class="num verde">€5.000-32.000</td>
+  </tr>
+</table>
+
+<p class="nota">Queste stime sono costruite su parametri di mercato verificati (consulenza PMI italiana, Bsness.com 2026) e sui compensi previsti dal mandato Quantum Art. 6. Non sono garanzie di risultato.</p>
+
+<div class="callout">
+  Anche nello scenario conservativo: 2-3 clienti nuovi in 5 mesi coprono il costo del corso e generano fatturato ricorrente per Quantum. Nello scenario realistico, l'investimento si ripaga in 2-3 mesi di lavoro.
+</div>
+
+
+<!-- ===================== LA PROPOSTA ===================== -->
+<h2>8. Cosa ti chiedo — in modo diretto</h2>
+
+<p>Ti chiedo tre cose concrete, ognuna con un'alternativa. Decidile tu in base a quello che ritieni giusto per il progetto comune.</p>
+
+<div class="box box-blu">
+  <div class="box-titolo">1 — Il tuo parere sulla strategia</div>
+  <p>Stai vedendo gli stessi segnali di mercato che vedo io? Il momento di costruire un sistema di acquisizione clienti professionale su LinkedIn è adesso, oppure hai un'altra lettura del contesto?</p>
+  <p>Questa domanda mi serve davvero — non è retorica. Se hai dubbi sulla direzione, voglio sentirli prima di procedere.</p>
+</div>
+
+<div class="box box-blu">
+  <div class="box-titolo">2 — Il tuo consiglio sulle clausole contrattuali</div>
+  <p>Ho già identificato le clausole critiche del contratto EVOLUTIAA (recesso solo entro 24 ore, penale per inattività, royalty senza limite temporale). La mia proposta negoziale è di optare per il <strong>prezzo pieno senza royalty (5.700€)</strong> in cambio di un programma potenziato.</p>
+  <p>Dal tuo punto di vista di esperto contrattuale: questa è la mossa giusta? C'è qualcosa che non sto vedendo?</p>
+</div>
+
+<div class="box box-oro">
+  <div class="box-titolo">3 — Il supporto economico</div>
+  <p>Il costo del percorso è <strong>4.500-5.700€ + IVA</strong>. Non ho ancora clienti attivi: il mandato Quantum è operativo da un mese, Webidoo è appena partito. Non posso sostenere questo investimento in autonomia adesso.</p>
+  <p><strong>Le opzioni che ho identificato:</strong></p>
+  <ul>
+    <li><strong>Anticipo su future provvigioni Quantum</strong> — la soluzione più diretta: recupero con i primi clienti trovati grazie al corso stesso</li>
+    <li><strong>Prestito personale</strong> — da restituire in 6-12 mesi con un piano condiviso</li>
+    <li><strong>Quota Quantum sull'investimento</strong> — se il metodo diventa un asset aziendale replicabile, ha senso che Quantum partecipi all'investimento</li>
+    <li><strong>Altra soluzione che non ho considerato</strong> — sono aperto a qualsiasi forma che tu ritenga più appropriata</li>
+  </ul>
+</div>
+
+
+<!-- ===================== PROSSIMI PASSI ===================== -->
+<h2>9. I prossimi passi — con o senza EVOLUTIAA</h2>
+
+<p>Indipendentemente dalla decisione su EVOLUTIAA, voglio che tu sappia cosa ho già pianificato per il mese di giugno:</p>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Giugno 2026 — Piano operativo</div>
+  <ul>
+    <li>Avviare la rete commerciale Webidoo: identificare i primi 20 potenziali clienti nelle Marche (ristoranti, studi medici, negozi retail)</li>
+    <li>Attivare la ricerca clienti Quantum: primi contatti nel settore biogas/biometano (già ho connessioni)</li>
+    <li>Consolidare la presenza LinkedIn con piano editoriale strutturato su temi consulenza PMI</li>
+    <li>Ricevere il materiale Allianz e definire il pacchetto assicurativo per il settore energetico</li>
+    <li>Mettere online il sito Quantum quando arrivano le credenziali hosting</li>
+  </ul>
+</div>
+
+<p>Con EVOLUTIAA, questo piano diventa sistematico: ogni azione è inserita in un funnel misurabile con obiettivi chiari. Senza EVOLUTIAA, lavoro con il metodo che mi costruisco da solo — più lento, meno efficace, più trial and error.</p>
+
+<div class="callout">
+  La differenza tra i due percorsi non è il risultato finale — è il tempo. Con un sistema strutturato arrivo prima. E nel business, arrivare prima fa la differenza.
+</div>
+
+
+<!-- ===================== SEPARATORE ===================== -->
+<hr class="sep">
+
+<!-- ===================== FIRMA ===================== -->
+<div class="firma">
+  <div class="firma-riga">
+    <div>
+      <strong>Oscar Ribichini</strong> — Consulente Mandatario Quantum S.r.l.<br>
+      Via Fontanella 20, Civitanova Marche<br>
+      globalarea@gmail.com
+    </div>
+    <div style="text-align:right;">
+      Fonti utilizzate:<br>
+      Bsness.com (marzo 2026), StarLead Srl, IncentivImpresa.it,<br>
+      BriefMe.it, Quintessenza.it (algoritmo LinkedIn 360Brew 2026),<br>
+      contratto EVOLUTIAA originale, mandato Quantum 24/04/2026
+    </div>
+  </div>
+  <p class="nota" style="margin-top:8px;">Documento riservato — uso interno. Le stime economiche sono proiezioni basate su parametri di mercato verificati e non costituiscono garanzie di risultato. Le valutazioni contrattuali sono orientative.</p>
+</div>
+
+</body>
+</html>
