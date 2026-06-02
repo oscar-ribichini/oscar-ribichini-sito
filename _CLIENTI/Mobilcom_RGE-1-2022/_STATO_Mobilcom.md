@@ -1,5 +1,5 @@
-⚙️ METODO APPLICATO — Fase 0 completata: Sì | Data: 25/05/2026 | Lenti rosse risolte: 0
-💡 Lente chiave di questa sessione: Analisi Competitiva + Legale — pacchetto SAUDA valorizzato a €2.000/mq, omissione corte 351 mq documentata sulla perizia Emiliani
+⚙️ METODO APPLICATO — Fase 0 completata: Sì | Data: 02/06/2026 | Lenti rosse risolte: 0
+💡 Lente chiave di questa sessione: Legale + Strategica — documento Di Salvatore letto, artt. 114.2/114.3 TUB come arma principale, nuova asta 16/07/2026 identificata
 
 ## DOVE SIAMO
 
