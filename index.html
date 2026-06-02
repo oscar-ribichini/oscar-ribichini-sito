@@ -1193,6 +1193,30 @@
     });
   </script>
 
+  <!-- COOKIE BANNER GDPR -->
+  <div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;width:100%;background:#0d0d1a;border-top:2px solid #c9a96e;padding:16px 24px;z-index:99998;box-sizing:border-box;">
+    <div style="max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+      <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:0.85rem;margin:0;flex:1;min-width:200px;">Questo sito usa cookie tecnici e Google Analytics per analizzare il traffico. Nessun dato viene venduto a terzi. <a href="mailto:oscar.ribichini@quantumadvisor.it" style="color:#c9a96e;">Contattami</a> per info.</p>
+      <div style="display:flex;gap:10px;flex-shrink:0;">
+        <button onclick="accettaCookie()" style="background:#c9a96e;color:#1a1a2e;border:none;padding:10px 20px;font-family:Arial,sans-serif;font-size:0.85rem;font-weight:bold;cursor:pointer;">Accetta</button>
+        <button onclick="rifiutaCookie()" style="background:transparent;color:#aab4c8;border:1px solid #aab4c8;padding:10px 20px;font-family:Arial,sans-serif;font-size:0.85rem;cursor:pointer;">Solo necessari</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    function accettaCookie() {
+      localStorage.setItem('cookie_consent', 'accepted');
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+    function rifiutaCookie() {
+      localStorage.setItem('cookie_consent', 'rejected');
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+    if (!localStorage.getItem('cookie_consent')) {
+      document.getElementById('cookie-banner').style.display = 'block';
+    }
+  </script>
+
   <!-- BOTTONE WHATSAPP FISSO -->
   <a href="https://wa.me/393276113167" target="_blank" rel="noopener" title="Scrivimi su WhatsApp"
     style="position:fixed;bottom:90px;right:28px;background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);z-index:9999;text-decoration:none;transition:background 0.2s;"
