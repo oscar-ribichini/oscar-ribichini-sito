@@ -1,7 +1,38 @@
-# Sessione corrente — 2026-06-02
+# Sessione corrente — 2026-06-03
 
 ## PROGETTO ATTIVO
-Relazione Pichetti + Evolutiaa
+Chatling AI — Chiara configurata, da installare sul sito
+
+## FATTO IN QUESTA SESSIONE (02-03/06)
+
+### Chatling AI — Chiara
+- Chatbot creato su Chatling AI (piano Standard $40/mese)
+- Modello: GPT 5.1, Limit to KB: OFF
+- Knowledge base: oscar-ribichini.it (17.368 caratteri) + testo servizi Quantum
+- Nome: Chiara, foto professionale (Chiara.jpg ridotta a 21KB)
+- Greeting message: "Se ha una sfida concreta su finanza, bandi, passaggio generazionale o intelligenza artificiale per la sua azienda — mi dica pure. Oscar la richiamerà entro 48 ore lavorative."
+- Instructions: identità Chiara, flusso qualifica, limiti, tono prosa (no liste, max 3 frasi, pausa naturale)
+- Test eseguiti: prezzi, fiducia, liquidità — contenuto buono, formato corretto
+- Bug risolto: Chrome traduzione automatica bloccava copia-incolla in Chatling
+
+### Memoria salvata
+- project_chatling_canali.md — 5 canali deployment e ordine attivazione
+- project_quantum_gestione_paghe.md — 2 commercialisti Fermo, proposta AI a Pichetti
+- feedback_chatling_traduzione.md — Chrome traduzione blocca copia-incolla
+
+## PROSSIMO PASSO IMMEDIATO
+1. **Punto 8** — installare codice embed Chatling su oscar-ribichini.it (Deploy → Website Widget → copia codice)
+2. Share link Chatling da mettere in firma email e LinkedIn
+3. Zapier → Google Sheets per non perdere i lead
+
+## SCADENZE IMMINENTI
+- **03/06/2026** — Arte Sacra: risposta a Severino (fideiussione)
+- **03/06/2026** — Zero to AI call ore 16:00 (Google Meet)
+- **03/06/2026** — Pranzo con Umberto
+- **08/06/2026** — Post lancio LinkedIn + outreach 5 messaggi
+- **24-26/06/2026** — WMF Bologna
+- **25/06/2026** — Disdetta LinkedIn Premium (scade 02/07)
+- **01/07/2026** — Asta Mobilcom
 
 ## FATTO OGGI (02/06)
 - Cartella QUANTUM\Video\ creata con 3 sottocartelle: HeyGen, Audio, Personali
