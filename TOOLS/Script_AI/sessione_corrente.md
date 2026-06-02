@@ -17,6 +17,36 @@ Relazione Pichetti + Evolutiaa
 - Video YouTube collegato nel sito quantum_vA.html — link: https://www.youtube.com/watch?v=KhRZjn-csMw
 - Video scelto: 2026-06_Quantum_Avatar-IV-v8.mp4 (1:07, Avatar IV, script "Chi siamo e cosa facciamo")
 
+## FATTO IN QUESTA SESSIONE (02/06) — AGGIORNAMENTO SERALE
+
+### Link Facebook analizzati (sessione completa)
+- Yashraj AI — 550 video UGC/giorno con Claude + HeyGen
+- Studenti cinesi API a -97% + ZeroPaywall.com registrato
+- Darius Lukas 70 AI Specialists $57 — checkout rotto, email inviata
+- Lavori a rischio AI (Zubair Aqeel + Learnn/Anthropic 1M chat)
+- Implan — app personalizzate per aziende (aggiunto lista strumenti PMI)
+- AI Manager Careers — Claude Code vs ChatGPT spiegato bene
+- VVSGrowth — funnel completo LinkedIn B2B analizzato (12 step), guida 28 pagine letta, confronto con EVOLUTIAA salvato
+- René Remsik — FMHY.net (alternative gratuite AI e software)
+- Goat Money — funnel evento gratuito + ebook (modello da replicare)
+- Workgroup — lead magnet PDF ristoratori (modello per fratello)
+- Stefano Del Grande — 7 prompt AI per crescere su Facebook (salvati)
+
+### File creati/aggiornati oggi
+- QUANTUM\Riunioni\2026-06-02_Relazione_Oscar_Pichetti.html — sezioni Allianz e Pipeline aggiunte
+- QUANTUM\Marketing\2026-06-02_Strumenti_Digitali_PMI.md — lista strumenti per PMI
+- LAVORI_DI_NOTTE\02_Contenuti_Social_Codice_Reale\2026-06-02_Analisi_Link_Facebook.md — analisi completa
+- TOOLS\Script_AI\2026-06-02_Prompt_Facebook_Crescita.md — 7 prompt da Stefano Del Grande
+- QUANTUM\Marketing\Materiale_Grafico\firma_email_quantum.html — aggiornata con YouTube, Facebook, LinkedIn Quantum
+- QUANTUM\Marketing\Materiale_Grafico\firma_email_personale.html — aggiornata con YouTube e Facebook
+
+### Calendario aggiornato
+- Giovedì 04/06 ore 18:00 — Sessione EVOLUTIAA confronto VVSGrowth (con conflitto live Evolutiaa 17-18:30)
+
+### Memoria aggiornata
+- project_fratello_ristoranti.md — canale referral ristoratori, SEPARATO da Quantum
+- project_abbonamenti_attivi.md — LinkedIn Premium + Universal Copy
+
 ## PROSSIMO PASSO IMMEDIATO
 1. Logo header sito Oscar — opzione 1: font Cormorant Garamond dorato (10 min) / opzione 2: logo orizzontale in Canva (sessione dedicata)
 2. Instagram @codicereale — bio e primo post
