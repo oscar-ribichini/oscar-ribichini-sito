@@ -1,7 +1,15 @@
 # Sessione corrente — 2026-06-02
 
 ## PROGETTO ATTIVO
-Presenza digitale — social, reputazione online, sito oscar-ribichini.it
+Sito Quantum + Video HeyGen
+
+## FATTO OGGI (02/06 mattina)
+- Cartella QUANTUM\Video\ creata con 3 sottocartelle: HeyGen, Audio, Personali
+- 9 video HeyGen copiati e rinominati in QUANTUM\Video\HeyGen\
+- Audio Pichetti (mp3+ogg) e Registrazione copiati in QUANTUM\Video\Audio\
+- Audio personali (Lucio, Laura, Luca, Claudio, UClaudiu) in QUANTUM\Video\Personali\
+- Video YouTube collegato nel sito quantum_vA.html — link: https://www.youtube.com/watch?v=KhRZjn-csMw
+- Video scelto: 2026-06_Quantum_Avatar-IV-v8.mp4 (1:07, Avatar IV, script "Chi siamo e cosa facciamo")
 
 ## PROSSIMO PASSO IMMEDIATO
 1. Logo header sito Oscar — opzione 1: font Cormorant Garamond dorato (10 min) / opzione 2: logo orizzontale in Canva (sessione dedicata)
