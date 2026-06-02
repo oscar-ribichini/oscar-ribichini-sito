@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relazione Attività — Oscar Ribichini a Massimo Pichetti</title>
+<style>
+  @page { margin: 18mm 20mm 18mm 20mm; size: A4; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Georgia', serif;
+    font-size: 10.5pt;
+    color: #1a1a2e;
+    line-height: 1.6;
+    background: #fff;
+  }
+
+  /* INTESTAZIONE */
+  .intestazione {
+    border-bottom: 3px solid #1a1a2e;
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+  }
+  .intestazione-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .doc-titolo {
+    font-size: 17pt;
+    font-weight: bold;
+    color: #1a1a2e;
+    letter-spacing: 0.3px;
+  }
+  .doc-meta {
+    font-size: 8.5pt;
+    color: #555;
+    text-align: right;
+    line-height: 1.7;
+  }
+  .doc-sottotitolo {
+    font-size: 9.5pt;
+    color: #777;
+    margin-top: 5px;
+    font-style: italic;
+  }
+
+  /* APERTURA */
+  .apertura {
+    background: #f7f5f0;
+    border-left: 5px solid #c9a96e;
+    padding: 14px 16px;
+    margin-bottom: 24px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .apertura p {
+    margin-bottom: 7px;
+  }
+  .apertura p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* TITOLI SEZIONE */
+  h2 {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #1a1a2e;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-left: 4px solid #c9a96e;
+    padding-left: 10px;
+    margin: 24px 0 12px 0;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  h3 {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin: 14px 0 7px 0;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  p {
+    margin-bottom: 9px;
+  }
+
+  /* BOX */
+  .box {
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    padding: 12px 15px;
+    margin-bottom: 13px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .box-grigio  { background: #f7f7f7; }
+  .box-oro     { background: #fffbf2; border-color: #c9a96e; }
+  .box-rosso   { background: #fff5f5; border-color: #c0392b; }
+  .box-verde   { background: #f5fff8; border-color: #27ae60; }
+  .box-blu     { background: #f0f4ff; border-color: #2c5fad; }
+  .box-scuro   { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+
+  .box-titolo {
+    font-size: 9pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  .box-rosso .box-titolo  { color: #c0392b; }
+  .box-verde .box-titolo  { color: #27ae60; }
+  .box-oro .box-titolo    { color: #a07830; }
+  .box-blu .box-titolo    { color: #2c5fad; }
+  .box-scuro .box-titolo  { color: #c9a96e; }
+
+  /* TABELLA */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 13px;
+    font-size: 9.5pt;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: left;
+    font-size: 8.5pt;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+  }
+  td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #f9f9f9; }
+  .evidenziato td { background: #fffbf2 !important; font-weight: bold; }
+  td.num  { text-align: right; font-variant-numeric: tabular-nums; }
+  td.rosso { color: #c0392b; font-weight: bold; }
+  td.verde { color: #27ae60; font-weight: bold; }
+
+  /* LISTE */
+  ul { padding-left: 18px; margin-bottom: 9px; }
+  ul li { margin-bottom: 5px; }
+  ol { padding-left: 18px; margin-bottom: 9px; }
+  ol li { margin-bottom: 5px; }
+
+  /* BADGE */
+  .badge {
+    display: inline-block;
+    font-size: 7.5pt;
+    font-weight: bold;
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.3px;
+    margin-top: 3px;
+  }
+  .badge-rosso   { background: #fdecea; color: #c0392b; border: 1px solid #c0392b; }
+  .badge-verde   { background: #eafaf1; color: #27ae60; border: 1px solid #27ae60; }
+  .badge-giallo  { background: #fffbf0; color: #a07830; border: 1px solid #c9a96e; }
+  .badge-grigio  { background: #f0f0f0; color: #555; border: 1px solid #bbb; }
+
+  /* DOMANDA CHIAVE */
+  .domanda-chiave {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #1a1a2e;
+    background: #f0f4ff;
+    border-left: 5px solid #2c5fad;
+    padding: 10px 14px;
+    margin: 14px 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* SEPARATORE */
+  .sep {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 18px 0;
+  }
+
+  /* FIRMA */
+  .firma {
+    margin-top: 30px;
+    padding-top: 14px;
+    border-top: 1px solid #ccc;
+    font-size: 8.5pt;
+    color: #777;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .firma-riga {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nota {
+    font-size: 8pt;
+    color: #999;
+    font-style: italic;
+    margin-top: 6px;
+  }
+
+  /* NUMERINO */
+  .num-cerchio {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1a1a2e;
+    color: #fff;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
+  @media print {
+    body { font-size: 10pt; }
+  }
+</style>
+</head>
+<body>
+
+<!-- INTESTAZIONE -->
+<div class="intestazione">
+  <div class="intestazione-top">
+    <div>
+      <div class="doc-titolo">Relazione Attività — Primo Mese</div>
+      <div class="doc-sottotitolo">Da Oscar Ribichini a Massimo Pichetti — uso riservato</div>
+    </div>
+    <div class="doc-meta">
+      Oscar Ribichini — Consulente Mandatario Quantum S.r.l.<br>
+      Data: 2 giugno 2026<br>
+      Periodo: 1 maggio – 2 giugno 2026
+    </div>
+  </div>
+</div>
+
+<!-- APERTURA -->
+<div class="apertura">
+  <p>Massimo,</p>
+  <p>ti invio questa relazione per aggiornarti su quanto fatto nel primo mese di mandato e per sottoporrti una valutazione su una proposta commerciale che potrebbe accelerare i risultati.</p>
+  <p>Ho organizzato tutto in quattro aree: la presenza digitale costruita, il lavoro sul mercato AI per le PMI marchigiane, il dossier Nova Fund che ti avevo già presentato, e infine la proposta EVOLUTIAA su cui ti chiedo un parere prima di procedere.</p>
+</div>
+
+<!-- SEZIONE 1 -->
+<h2>1 — Presenza Digitale Costruita da Zero</h2>
+
+<p>Dal primo maggio ho costruito tutta la presenza digitale necessaria per operare in modo credibile. Prima non esisteva nulla di strutturato — oggi ci sono strumenti funzionanti su tutti i canali principali.</p>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Sito personale — oscar-ribichini.it</div>
+  <ul>
+    <li>Online dal 12 maggio 2026 — dominio registrato, hosting attivo, tutto funzionante</li>
+    <li>5 sezioni: Home, Chi sono, Consulenza Aziendale, Formazione AI, Contatti</li>
+    <li>Form di contatto collegato alla mail — ogni richiesta arriva direttamente</li>
+    <li>Calendly integrato: chiunque può prenotare una chiamata gratuita di 30 minuti</li>
+    <li>Chatbot attivo: risponde automaticamente ai visitatori fuori orario</li>
+    <li>Google Analytics: traccia visitatori, provenienza, pagine viste</li>
+    <li>Pagina dedicata "Analisi AI gratuita" con form di 12 domande — strumento di acquisizione lead</li>
+    <li>SEO base configurato: il sito è indicizzabile su Google</li>
+  </ul>
+</div>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Profilo LinkedIn — completato al 100%</div>
+  <ul>
+    <li>Bio professionale completa in italiano con posizionamento chiaro come consulente AI e aziendale</li>
+    <li>Tutte le esperienze inserite (Quantum, Enewrgy, Marco Polo International, Mobilcom, Arte Sacra, Ribichini s.n.c.)</li>
+    <li>17 competenze certificate</li>
+    <li>Pagina Servizi attiva con prezzi visibili — "A partire da 500 EUR"</li>
+    <li>Open Profile: chiunque può scrivermi gratuitamente, abbattendo la barriera di contatto</li>
+    <li>Sezione Formazione: Ontopsicologia (AIO) aggiunta con descrizione e link ufficiale</li>
+    <li>Badge identità verificata (scudetto blu visibile)</li>
+    <li>Foto profilo caricata</li>
+  </ul>
+</div>
+
+<div class="box box-oro">
+  <div class="box-titolo">Pagina LinkedIn Quantum S.r.l. — completata il 1 giugno 2026</div>
+  <ul>
+    <li>Logo aziendale, copertina professionale, slogan e descrizione completa</li>
+    <li>Sito quantumadvisor.it inserito, telefono, anno di fondazione, località Roma</li>
+    <li>20 settori di competenza dichiarati</li>
+    <li>Sezione Servizi attiva con disponibilità a lavoro da remoto</li>
+    <li>Tu aggiunto come Super Amministratore</li>
+  </ul>
+</div>
+
+<div class="box box-oro">
+  <div class="box-titolo">Pagina Facebook Quantum S.r.l. — creata il 1 giugno 2026</div>
+  <ul>
+    <li>Logo, copertina, biografia professionale, indirizzo, sito, telefono</li>
+    <li>Pronta per i contenuti — in attesa che tu crei il tuo account Facebook personale per aggiungerti come amministratore</li>
+  </ul>
+</div>
+
+<div class="box box-blu">
+  <div class="box-titolo">Prossimi passi sulla presenza digitale</div>
+  <ul>
+    <li>Canale YouTube Quantum — da creare (serve per ospitare i video che vuoi inserire nel sito)</li>
+    <li>Tuo post di lancio sulla pagina LinkedIn Quantum — da pubblicare non appena sei pronto</li>
+    <li>Sito Quantum — il prototipo HTML è pronto e te l'ho già inviato il 28 maggio. Il blocco è tecnico: serve che tu acquisti il piano hosting su Aruba e mi mandi le credenziali per cominciare a installarlo</li>
+  </ul>
+</div>
+
+<hr class="sep">
+
+<!-- SEZIONE 2 -->
+<h2>2 — Mercato AI per PMI Marchigiane</h2>
+
+<p>Ho partecipato alla fiera AI Week di Milano (19-20 maggio) con un obiettivo preciso: identificare prodotti AI già testati e funzionanti da commercializzare alle PMI marchigiane in parallelo al mandato Quantum.</p>
+
+<p>Il mercato è concreto. Le PMI italiane che non usano ancora strumenti AI sono la grande maggioranza — e nelle Marche non esiste ancora un consulente specializzato in questo posizionamento. È un vantaggio da occupare adesso, prima che il mercato si affolli.</p>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Prodotti analizzati — classifica per priorità</div>
+  <table>
+    <tr>
+      <th>Priorità</th>
+      <th>Prodotto</th>
+      <th>Cosa fa</th>
+      <th>Stato</th>
+    </tr>
+    <tr>
+      <td><strong>1° — Massima</strong></td>
+      <td><strong>Jooice (Webidoo)</strong></td>
+      <td>Gestisce la reputazione online della PMI su Google e social con AI — scheda Google aggiornata su 10+ piattaforme, recensioni gestite automaticamente</td>
+      <td><span class="badge badge-verde">Mandato firmato</span></td>
+    </tr>
+    <tr>
+      <td>2° — Alta</td>
+      <td>Groow (Webidoo)</td>
+      <td>Agenti AI operativi interni: email, report, verbali, analisi — primo prodotto italiano della categoria</td>
+      <td><span class="badge badge-giallo">Upsell dopo Jooice</span></td>
+    </tr>
+    <tr>
+      <td>3° — Alta</td>
+      <td>IGINIUS</td>
+      <td>Chatbot AI su WhatsApp e telefono per prenotazioni 24/7 — ideale per studi medici, ristoranti, artigiani</td>
+      <td><span class="badge badge-grigio">Da contattare</span></td>
+    </tr>
+    <tr>
+      <td>4° — Media</td>
+      <td>DotVocal</td>
+      <td>Suite enterprise NLP e voicebot — per PMI strutturate 50+ dipendenti</td>
+      <td><span class="badge badge-grigio">Fase 2</span></td>
+    </tr>
+  </table>
+</div>
+
+<div class="box box-oro">
+  <div class="box-titolo">Mandato Webidoo — firmato il 30 maggio 2026</div>
+  <ul>
+    <li><strong>Prodotto principale:</strong> Jooice — piattaforma marketing AI per PMI. Cliente ideale: ristoranti, studi medici, negozi, artigiani, professionisti</li>
+    <li><strong>Commissioni stimate:</strong> €300–780 per contratto, a seconda del pacchetto e della durata</li>
+    <li><strong>Flusso pagamento:</strong> il cliente paga Webidoo, io faturo le provvigioni con P.IVA</li>
+    <li><strong>Solidità del mandante:</strong> Webidoo S.p.A., 18M$ ricavi 2025, round maggio 2026 da 25M$ (Azimut Libera Impresa), partnership TIM Business</li>
+    <li><strong>Nota:</strong> c'è una correzione contrattuale da fare prima di iniziare a vendere — la zona assegnata è Lazio invece di Marche. La sto risolvendo direttamente con la sede</li>
+  </ul>
+</div>
+
+<hr class="sep">
+
+<!-- SEZIONE 3 -->
+<h2>3 — Dossier Nova Fund / ESG</h2>
+
+<p>Come ti avevo anticipato nell'email dell'11 maggio, Nova Fund S.p.A. (Padova) ha proposto a Quantum di redigere i bilanci di sostenibilità ESG per le aziende del proprio portafoglio. Dopo la tua risposta e la chiamata con Marco Modesti, ho approfondito la questione e ti porto il quadro completo.</p>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Perché questa opportunità vale la pena</div>
+  <p>Nova Fund gestisce un portafoglio di 276 aziende clienti con fatturato 1,72 milioni di euro e crescita del 7,5% annuo. Chi redige il bilancio ESG entra dentro l'azienda, ne conosce i numeri, capisce i problemi. È la porta d'accesso più naturale al cross-selling su tutti i servizi Quantum: welfare, Allianz, finanza straordinaria, consulenza.</p>
+</div>
+
+<div class="box box-blu">
+  <div class="box-titolo">Il limite emerso e la soluzione</div>
+  <p>Marco mi ha chiarito che Quantum non è ancora strutturata per fare bilanci ESG certificati internamente. Ho identificato tre partner tecnici esterni che potrebbero coprire questa parte, lasciando a Quantum il ruolo commerciale e il cross-selling:</p>
+  <ul>
+    <li><strong>ESGsubito.it</strong> — piattaforma software white label: Quantum ci mette il logo, genera certificati VSME a 49€ + IVA ciascuno, li rivende con margine. Costo marginale bassissimo, scalabile per volumi.</li>
+    <li><strong>EcoLoop</strong> (Verona) — studio di consulenza specializzato VSME per PMI. Fa il lavoro tecnico, Quantum porta i clienti. Nessuna sovrapposizione territoriale.</li>
+    <li><strong>Bilanciarsi</strong> (Milano) — 500+ clienti, 20 anni di esperienza, programma partner attivo. Credenziali solide per clienti strutturati.</li>
+  </ul>
+</div>
+
+<div class="box box-oro">
+  <div class="box-titolo">Cosa ti chiedo su Nova Fund</div>
+  <p>Ho già preparato una bozza di mail ai soci e una mail pronta per Marco Santoro. Prima di inviarle, ho bisogno di sapere se i soci sono disponibili a creare questa sinergia e quale dei tre modelli preferite. La bozza completa è in: <em>QUANTUM\Riunioni\2026-05-22_Bozza_Mail_Soci_NovaFund.md</em></p>
+</div>
+
+<hr class="sep">
+
+<!-- SEZIONE 4 -->
+<h2>4 — Proposta EVOLUTIAA — Ti Chiedo un Parere</h2>
+
+<p>Ho ricevuto una proposta da <strong>Alex Portanova</strong>, commerciale di EVOLUTIAA, per un percorso di 5 mesi su LinkedIn finalizzato all'acquisizione di nuovi clienti. Il prossimo appuntamento con Alex è venerdì 6 giugno. Prima di quella call, voglio avere il tuo parere.</p>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Chi è EVOLUTIAA</div>
+  <ul>
+    <li><strong>Brand:</strong> EVOLUTIAA — coaching e formazione per freelance e consulenti</li>
+    <li><strong>Fondatori:</strong> Andrea Finotti e Selene Barletta, Torino</li>
+    <li><strong>Entità legale che firma:</strong> PÁGINA PROFÍCUA, LDA — società portoghese, NIF 519326113, sede Madeira (domiciliazione fiscale, pratica comune)</li>
+    <li><strong>Reputazione:</strong> Trustpilot 4,8/5 su 87 recensioni — nessuna segnalazione di truffa trovata</li>
+    <li><strong>Alex Portanova:</strong> commerciale esterno — non compare nel contratto in nessun ruolo ufficiale</li>
+    <li><strong>Nota:</strong> il contratto ricevuto fino ad oggi è un <em>template non compilato</em> — tutti i campi economici sono vuoti, nessuna firma. Sto aspettando la versione definitiva per venerdì</li>
+  </ul>
+</div>
+
+<div class="box box-oro">
+  <div class="box-titolo">Le due opzioni economiche sul tavolo</div>
+  <table>
+    <tr>
+      <th>Opzione</th>
+      <th>Costo fisso</th>
+      <th>Componente variabile</th>
+    </tr>
+    <tr>
+      <td><strong>A — Prezzo "scontato" con royalty</strong></td>
+      <td class="num">4.500€</td>
+      <td>10% sul fatturato netto dei clienti nuovi acquisiti tramite il loro metodo — senza limite di tempo</td>
+    </tr>
+    <tr class="evidenziato">
+      <td><strong>B — Prezzo pieno senza royalty</strong> (da negoziare)</td>
+      <td class="num">5.700€</td>
+      <td>Nessuna</td>
+    </tr>
+  </table>
+  <p style="font-size:8.5pt; color:#777; margin-top:6px; font-style:italic;">IVA: meccanismo reverse charge intra-UE — il costo netto rimane quello indicato.</p>
+</div>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Cosa comprende il programma</div>
+  <ul>
+    <li>5 call di gruppo settimanali da 60 minuti (Mindset, Marketing, Sales, ecc.)</li>
+    <li>Gruppo Telegram con risposta garantita entro 24 ore lavorative</li>
+    <li>Ottimizzazione profilo LinkedIn, lead magnet, piano editoriale, sequenze follow-up</li>
+    <li>Integrazione AI con prompt guidati per posizionamento, contenuti, offerta</li>
+    <li>Sessioni 1:1 — numero da definire nel contratto definitivo (campo vuoto nel template)</li>
+  </ul>
+</div>
+
+<div class="domanda-chiave">
+  Il paradosso dell'opzione A: conviene solo se il corso non funziona. Da 12.000€ di fatturato nuovo in poi, pagare il prezzo pieno senza royalty è sempre più conveniente.
+</div>
+
+<div class="box box-verde">
+  <div class="box-titolo">Analisi per scenari — quanto costa davvero</div>
+  <table>
+    <tr>
+      <th>Scenario</th>
+      <th>Fatturato nuovo generato</th>
+      <th>Opzione A — con royalty</th>
+      <th>Opzione B — senza royalty</th>
+    </tr>
+    <tr>
+      <td>Il corso non funziona</td>
+      <td class="num">0€</td>
+      <td class="num verde">4.500€</td>
+      <td class="num">5.700€</td>
+    </tr>
+    <tr>
+      <td>Funziona poco</td>
+      <td class="num">10.000€</td>
+      <td class="num">5.500€</td>
+      <td class="num verde">5.700€</td>
+    </tr>
+    <tr class="evidenziato">
+      <td><strong>Punto di pareggio</strong></td>
+      <td class="num"><strong>12.000€</strong></td>
+      <td class="num"><strong>5.700€</strong></td>
+      <td class="num"><strong>5.700€</strong></td>
+    </tr>
+    <tr>
+      <td>Funziona bene</td>
+      <td class="num">30.000€</td>
+      <td class="num rosso">7.500€</td>
+      <td class="num verde">5.700€</td>
+    </tr>
+    <tr>
+      <td>Funziona molto bene</td>
+      <td class="num">60.000€</td>
+      <td class="num rosso">10.500€</td>
+      <td class="num verde">5.700€</td>
+    </tr>
+  </table>
+</div>
+
+<div class="box box-rosso">
+  <div class="box-titolo">⚠ Clausole critiche da negoziare prima di firmare</div>
+  <ul>
+    <li>
+      <strong>Art. 14.1 — Recesso solo entro 24 ore dalla firma</strong>
+      <br><span class="badge badge-rosso">Alta criticità</span>
+      <br>Termine eccessivamente breve. Per essere vincolante richiede doppia firma art. 1341 c.c.
+    </li>
+    <li style="margin-top:8px;">
+      <strong>Art. 6.2 — Inattività = pagamento integrale senza rimborso</strong>
+      <br><span class="badge badge-rosso">Alta criticità</span>
+      <br>Se smetto di partecipare per 30 giorni, devo pagare tutto comunque. Penale sproporzionata, contestabile.
+    </li>
+    <li style="margin-top:8px;">
+      <strong>Art. 11.2 — Royalty senza limite temporale</strong>
+      <br><span class="badge badge-giallo">Media criticità</span>
+      <br>Il 10% segue ogni pagamento rateale dei clienti acquisiti senza scadenza. Da limitare a 12 mesi.
+    </li>
+  </ul>
+</div>
+
+<div class="box box-blu">
+  <div class="box-titolo">La proposta negoziale che intendo fare venerdì</div>
+  <p>Anziché chiedere uno sconto, proporre di pagare il <strong>prezzo pieno 5.700€ senza royalty</strong> in cambio di un programma potenziato. Per loro è vantaggioso: incassano tutto subito senza aspettare royalty per anni.</p>
+  <p>In cambio chiedo: più sessioni 1:1 (da 8 a 12), accesso permanente ai materiali, garanzia minima scritta di prolungamento gratuito se non vengono raggiunti i risultati minimi concordati.</p>
+</div>
+
+<hr class="sep">
+
+<!-- SEZIONE 5 — OBIETTIVI -->
+<h2>5 — Obiettivi: il Sistema che Voglio Costruire</h2>
+
+<p>Quello che sto costruendo non è una campagna marketing. È un <strong>processo stabile di acquisizione clienti</strong> che si affianca al passaparola senza sostituirlo — e che, una volta avviato, si perfeziona da solo nel tempo.</p>
+
+<p>Il passaparola rimarrà sempre la fonte più qualificata. Ma dipende dalla fortuna dei tempi e dalla disponibilità degli altri. Un sistema digitale funziona anche quando non ci sei, anche a mezzanotte, anche con chi non mi ha ancora mai incontrato. I due canali insieme moltiplicano i risultati di entrambi.</p>
+
+<div class="box box-oro">
+  <div class="box-titolo">L'obiettivo in tre fasi — non tutte insieme, in ordine</div>
+  <ol>
+    <li style="margin-bottom:8px;"><strong>Fase 1 — Presentarsi bene.</strong> Chi mi trova online deve capire subito chi sono, cosa faccio e perché dovrebbe parlare con me invece che con qualcun altro. Profilo LinkedIn, sito, pagine social: devono raccontare la stessa storia in modo coerente. Questa fase è quasi completata.</li>
+    <li style="margin-bottom:8px;"><strong>Fase 2 — Capire come funzionano gli algoritmi.</strong> LinkedIn, Facebook e YouTube non distribuiscono i contenuti a caso. Hanno regole precise che, se si conoscono, permettono di raggiungere molte più persone a costo zero. Voglio padroneggiare questi meccanismi prima di investire in advertising.</li>
+    <li><strong>Fase 3 — Costruire il processo automatizzato.</strong> Una sequenza di contenuti, contatti e follow-up che lavora in modo continuo, che posso migliorare ogni mese, e che nel tempo porta lead qualificati senza che io debba farlo manualmente ogni volta.</li>
+  </ol>
+</div>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Come funzionano gli algoritmi — quello che ho studiato</div>
+
+  <p><strong>LinkedIn</strong> — il canale principale per la consulenza B2B</p>
+  <p>Nel 2026 l'algoritmo di LinkedIn premia i contenuti che generano commenti di qualità, salvataggi e condivisioni private — non i like. Favorisce chi pubblica con continuità (non frequenza ossessiva) e chi dichiara apertamente quando un contenuto è prodotto con l'AI. Il profilo deve essere una landing page orientata al problema del cliente, non un curriculum. La novità più importante: LinkedIn ha integrato le consulenze prenotabili direttamente dal profilo con pagamenti integrati — chi trova il mio profilo può prenotare una chiamata senza uscire dalla piattaforma.</p>
+
+  <p style="margin-top:10px;"><strong>Facebook</strong> — il canale per la notorietà e il posizionamento locale</p>
+  <p>La reach organica di una pagina aziendale su Facebook nel 2026 è in media del 2,2% — una pagina con 10.000 follower raggiunge circa 220 persone per post. Sembra poco, ma chi pubblica contenuti autentici con video nativi e conversazioni reali nei commenti supera di molto questa media. L'algoritmo premia l'engagement velocity: i primi minuti dopo la pubblicazione sono decisivi. I Reels sono il formato con la distribuzione organica più alta, anche per i nuovi canali.</p>
+
+  <p style="margin-top:10px;"><strong>YouTube</strong> — il canale a lungo termine, più potente di tutti</p>
+  <p>YouTube è un motore di ricerca, non un social. Chi pubblica video su argomenti specifici viene trovato da chi cerca attivamente quella risposta — anche mesi o anni dopo la pubblicazione. Per le PMI italiane è ancora un mercato poco presidiato. L'algoritmo premia la retention (quanto a lungo le persone guardano il video) e la consistenza del canale. Un video a settimana di qualità reale vale più di cinque video frettolosi.</p>
+</div>
+
+<div class="box box-blu">
+  <div class="box-titolo">Il processo automatizzato — come lo immagino</div>
+  <p>Un processo automatizzato non significa inviare messaggi robotici. Significa avere una sequenza definita che si ripete senza doverla reinventare ogni volta:</p>
+  <ul>
+    <li><strong>Contenuto settimanale</strong> su LinkedIn (articolo o post) che dimostra competenza su un problema reale delle PMI</li>
+    <li><strong>Reel mensile</strong> su Facebook e Instagram con un caso concreto o una risposta a una domanda frequente</li>
+    <li><strong>Video YouTube</strong> su argomenti di ricerca attiva (bandi, welfare, AI per PMI, crisi d'impresa)</li>
+    <li><strong>Sequenza di follow-up</strong> per chi interagisce: chi commenta riceve un messaggio diretto con un'offerta concreta (chiamata gratuita, analisi, documento)</li>
+    <li><strong>CRM semplice</strong>: ogni contatto nuovo entra in una lista, viene coltivato nel tempo con contenuti di valore, diventa cliente quando è pronto</li>
+  </ul>
+  <p style="margin-top:8px;">Il sistema si migliora ogni mese: cosa ha funzionato meglio, quale contenuto ha generato più contatti, quale canale porta lead più qualificati. Dopo sei mesi diventa un patrimonio che si autoalimenta.</p>
+</div>
+
+<div class="box box-verde">
+  <div class="box-titolo">Una cosa che non ti ho ancora detto — e che mi sembra importante</div>
+  <p>Sono disponibile a mettere questo sistema a disposizione anche degli altri colleghi consulenti di Quantum. Se costruiamo un modello che funziona per me, posso affiancarlo nella replica — con i loro profili, i loro settori, le loro zone. Non è una proposta formale, ma se i risultati arrivano, può diventare un vantaggio competitivo per tutta la rete.</p>
+  <p>Un consulente con un sistema digitale attivo porta più clienti. Più clienti porta più commesse a Quantum. Il cerchio si chiude.</p>
+</div>
+
+<hr class="sep">
+
+<!-- CHIUSURA -->
+<h2>6 — Le Tre Domande Concrete</h2>
+
+<div class="box box-scuro">
+  <div class="box-titolo">Cosa ti chiedo</div>
+  <ol>
+    <li style="margin-bottom:10px; color:#fff;">
+      <strong>Su EVOLUTIAA:</strong> ha senso investire 5.700€ in un percorso LinkedIn in questo momento, oppure l'energia va concentrata sul mandato Quantum puro? E sei disponibile a supportarmi con 1.000€ come anticipato?
+    </li>
+    <li style="margin-bottom:10px; color:#fff;">
+      <strong>Su Nova Fund / ESG:</strong> vuoi che proceda con i contatti ai partner tecnici? I soci sono disponibili a valutare questa sinergia?
+    </li>
+    <li style="color:#fff;">
+      <strong>Sul sito Quantum:</strong> quando puoi acquistare il piano hosting Aruba e mandarmi le credenziali? Il prototipo è pronto — basta accendere il server.
+    </li>
+  </ol>
+</div>
+
+<p>Resto disponibile per una chiamata quando vuoi. In bocca al lupo.</p>
+
+<hr class="sep">
+
+<!-- SEZIONE 7 — NEWS FUTURO -->
+<h2>7 — Una Notizia da Tenere d'Occhio</h2>
+
+<p>Il 1° giugno 2026, al Computex di Taipei, Nvidia ha presentato <strong>RTX Spark</strong> — un nuovo superchip per laptop e desktop progettato con Microsoft e MediaTek. Lancio previsto: autunno 2026.</p>
+
+<p>Jensen Huang lo ha definito "la prima linea di PC completamente riprogettata per l'era degli agenti intelligenti". In pratica: un computer normale che fa girare agenti AI in locale, senza bisogno di cloud, senza mandare dati fuori dall'azienda.</p>
+
+<div class="box box-grigio">
+  <div class="box-titolo">Cosa cambia concretamente per una PMI</div>
+  <p>Oggi le PMI usano il PC per email, Excel e qualche gestionale. Un PC con RTX Spark fa girare agenti AI in autonomia: analizza documenti, risponde a email, prepara report, monitora dati — a costo quasi zero e con i dati che rimangono in azienda.</p>
+  <p style="margin-top:8px;">Un imprenditore con 20 dipendenti oggi paga un commercialista, un consulente del lavoro, forse un consulente marketing. Con un agente AI locale può automatizzare una parte di quel lavoro — analisi dei costi, prima bozza di contratti, monitoraggio dei competitor.</p>
+</div>
+
+<div class="box box-blu">
+  <div class="box-titolo">Perché è rilevante per Quantum</div>
+  <p>Chi adotta questi strumenti nei prossimi 12-18 mesi avrà un vantaggio competitivo enorme rispetto ai concorrenti che aspettano. Quantum può posizionarsi come il consulente che aiuta le PMI a capire dove e come introdurli — non come venditore di tecnologia, ma come advisor strategico che traduce la tecnologia in vantaggio competitivo.</p>
+  <p style="margin-top:8px;"><em>"Le aziende che capiscono adesso cosa sta cambiando, tra 2 anni avranno costi operativi più bassi e processi più veloci dei loro concorrenti. Noi ti aiutiamo a capire dove conviene intervenire."</em></p>
+</div>
+
+<div class="box box-oro">
+  <div class="box-titolo">Perché lo segnalo adesso</div>
+  <p>Il lancio è autunno 2026 — siamo in anticipo. Questo è il momento giusto per studiarla, non quando tutti ne parleranno già. Non serve fare nulla oggi: serve sapere che esiste e tenerla pronta come argomento nelle conversazioni con i clienti più avanzati.</p>
+  <p style="margin-top:6px; font-size:8.5pt; color:#777;">Fonte: Il Sole 24 Ore, 1 giugno 2026 — annuncio Nvidia Computex Taipei.</p>
+</div>
+
+<!-- FIRMA -->
+<div class="firma">
+  <div class="firma-riga">
+    <div>
+      <strong>Oscar Ribichini</strong> — Consulente Mandatario Quantum S.r.l.<br>
+      Via Fontanella 20, Civitanova Marche<br>
+      globalarea@gmail.com | oscar-ribichini.it
+    </div>
+    <div style="text-align:right;">
+      Documento preparato il 2 giugno 2026<br>
+      Uso riservato — solo per Massimo Pichetti
+    </div>
+  </div>
+  <p class="nota">Le valutazioni legali su EVOLUTIAA sono orientative e non sostituiscono il parere di un avvocato.</p>
+</div>
+
+</body>
+</html>

@@ -1,13 +1,19 @@
 # Sessione corrente — 2026-06-02
 
 ## PROGETTO ATTIVO
-Sito Quantum + Video HeyGen
+Relazione Pichetti + Evolutiaa
 
-## FATTO OGGI (02/06 mattina)
+## FATTO OGGI (02/06)
 - Cartella QUANTUM\Video\ creata con 3 sottocartelle: HeyGen, Audio, Personali
 - 9 video HeyGen copiati e rinominati in QUANTUM\Video\HeyGen\
 - Audio Pichetti (mp3+ogg) e Registrazione copiati in QUANTUM\Video\Audio\
 - Audio personali (Lucio, Laura, Luca, Claudio, UClaudiu) in QUANTUM\Video\Personali\
+- Relazione completa per Pichetti prodotta: QUANTUM\Riunioni\2026-06-02_Relazione_Oscar_Pichetti.html
+  - Sezione 1: presenza digitale costruita (sito, LinkedIn, pagine Quantum)
+  - Sezione 2: mercato AI PMI Marche + mandato Webidoo
+  - Sezione 3: Nova Fund / ESG con partner tecnici
+  - Sezione 4: analisi completa EVOLUTIAA con scenari economici e clausole critiche
+  - 3 domande precise a Pichetti in chiusura
 - Video YouTube collegato nel sito quantum_vA.html — link: https://www.youtube.com/watch?v=KhRZjn-csMw
 - Video scelto: 2026-06_Quantum_Avatar-IV-v8.mp4 (1:07, Avatar IV, script "Chi siamo e cosa facciamo")
 

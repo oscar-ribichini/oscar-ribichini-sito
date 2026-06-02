@@ -54,7 +54,12 @@
       "PowerShell(ffmpeg -i \"G:\\\\dawload\\\\laura.ogg\" -ar 44100 -ac 1 -b:a 192k \"G:\\\\dawload\\\\laura.mp3\" -y 2>&1)",
       "mcp__google-drive__downloadFile",
       "mcp__gmail__batch_delete_emails",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "PowerShell([System.IO.DriveInfo]::GetDrives\\(\\) | Where-Object { $_.DriveType -eq 'Removable' -or $_.Name -eq 'G:\\\\' } | Select-Object Name, IsReady, @{Name='FreeSpace\\(GB\\)';Expression={[math]::Round\\($_.AvailableFreeSpace/1GB,2\\)}} | Format-Table)",
+      "PowerShell(Get-ChildItem -Path \"G:\\\\\" -File | Where-Object { $_.Extension -match \"mp4|mov|mp3|wav|mkv|flac\" } | Select-Object Name, @{Name='Size\\(MB\\)';Expression={[math]::Round\\($_.Length/1MB,2\\)}}, LastWriteTime | Format-Table -AutoSize)",
+      "Bash(Get-ChildItem \"G:\\\\Downloads\")",
+      "Bash(Select-Object Name, Length, LastWriteTime)",
+      "Bash(Format-Table -AutoSize)"
     ]
   },
   "hooks": {

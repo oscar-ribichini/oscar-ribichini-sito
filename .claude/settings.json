@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//g//**)",
+      "Bash(git commit -m ' *)",
+      "Read(//c/Users/Utente/Downloads/**)",
+      "Bash(python -c ' *)"
+    ],
+    "additionalDirectories": [
+      "E:\\Lavori Code\\QUANTUM\\Video"
+    ]
+  }
+}
