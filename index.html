@@ -2,1296 +2,882 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <meta name="google-site-verification" content="isthPZ92fVdjGk4xkDt7DL37tfXabk3aLbX5cvRBy5U" />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
-  <!-- Chatling AI — Chiara -->
-  <script> window.chtlConfig = { chatbotId: "6829977857" } </script>
-  <script async data-id="6829977857" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSP54C7BQQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-KSP54C7BQQ');
-  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <title>Oscar Ribichini — Consulente Aziendale e Formazione AI | Civitanova Marche</title>
-  <meta name="description" content="Consulente indipendente per Quantum S.r.l. Supporto in finanza straordinaria, riorganizzazione aziendale e formazione sull'intelligenza artificiale. Operativo in tutta Italia.">
-  <meta name="keywords" content="consulente aziendale Marche, formazione AI PMI, finanza straordinaria, passaggio generazionale, business plan, consulenza imprenditoriale">
-  <meta name="author" content="Oscar Ribichini">
-  <meta property="og:title" content="Oscar Ribichini — Consulente Aziendale e Formazione AI">
-  <meta property="og:description" content="Consulente indipendente per Quantum S.r.l. Supporto in finanza straordinaria, riorganizzazione aziendale e formazione AI. Operativo in tutta Italia.">
-  <meta property="og:url" content="https://oscar-ribichini.it">
-  <meta property="og:type" content="website">
+  <title>Oscar Ribichini — Advisor per Imprenditori | Quantum Advisor</title>
+  <meta name="description" content="Non sono un consulente. Sono l'advisor che affianca l'imprenditore prima delle decisioni che contano. 25 anni di campo. Civitanova Marche, tutta Italia.">
+  <link rel="canonical" href="https://oscar-ribichini.it">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    :root {
+      --nero:  #080c14;
+      --blu:   #1a3a6e;
+      --blu-m: #0d1f3e;
+      --oro:   #c9a96e;
+      --oro-c: #e0c898;
+      --grigio:#f6f5f2;
+      --testo: #1a1a2e;
+      --medio: #4a5568;
+      --muted: #7a90b0;
+    }
+    html { scroll-behavior:smooth; }
     body {
-      font-family: 'Georgia', serif;
-      color: #1a1a2e;
-      background: #fff;
-      font-size: 25px;
+      font-family:'DM Sans',system-ui,sans-serif;
+      color:var(--testo); background:#fff;
+      font-size:18px; line-height:1.7;
+      -webkit-font-smoothing:antialiased;
     }
 
-    /* HEADER BRAND */
-    .header-brand {
-      background: #1a1a2e;
-      padding: 20px 40px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 2px solid #c9a96e;
-      position: relative;
+    /* ─── NAV ─── */
+    nav {
+      position:fixed; top:0; left:0; right:0; z-index:300;
+      height:62px; display:flex; align-items:center; justify-content:space-between;
+      padding:0 6%;
+      background:rgba(8,12,20,0.97); backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(201,169,110,0.15);
     }
-    .nav-logo {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      text-decoration: none;
-    }
-    .logo-icon {
-      width: 56px;
-      height: 56px;
-      flex-shrink: 0;
-    }
-    .logo-text {
-      display: flex;
-      flex-direction: column;
-      line-height: 1.1;
-    }
-    .logo-text span:first-child {
-      color: #fff;
-      font-family: 'Arial', sans-serif;
-      font-size: 1.4rem;
-      font-weight: bold;
-      letter-spacing: 4px;
-    }
-    .logo-text span:last-child {
-      color: #c9a96e;
-      font-family: 'Arial', sans-serif;
-      font-size: 0.9rem;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      margin-top: 2px;
-    }
-    /* BRAND GRANDE NELLA HERO */
-    .hero-brand-nome {
-      color: #fff;
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 5.5rem;
-      font-weight: 600;
-      letter-spacing: 14px;
-      line-height: 1;
-      display: block;
-    }
-    .hero-brand-sub {
-      color: #c9a96e;
-      font-family: 'Arial', sans-serif;
-      font-size: 1rem;
-      letter-spacing: 6px;
-      text-transform: uppercase;
-      display: block;
-      margin-top: 8px;
-      margin-bottom: 24px;
-    }
-    .brand-nav {
-      display: flex;
-      gap: 28px;
-      flex-wrap: wrap;
-      margin-bottom: 40px;
-    }
-    .brand-nav a {
-      color: #aab4c8;
-      text-decoration: none;
-      font-family: 'Arial', sans-serif;
-      font-size: 1.2rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      transition: color 0.2s;
-    }
-    .brand-nav a:hover { color: #c9a96e; }
-    /* AVATAR HEADER */
-    .brand-avatar-box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 6px;
-      cursor: pointer;
-    }
-    .brand-avatar {
-      width: 64px;
-      height: 64px;
-      border-radius: 50%;
-      object-fit: cover;
-      object-position: top;
-      border: 2px solid #c9a96e;
-    }
-    .brand-avatar-name {
-      color: #c9a96e;
-      font-family: Arial, sans-serif;
-      font-size: 0.62rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
-    nav { display: none; }
+    .nav-logo { font-family:'Playfair Display',serif; font-size:1.05rem; color:#fff; text-decoration:none; }
+    .nav-logo span { color:var(--oro); }
+    .nav-dx { display:flex; align-items:center; gap:12px; }
 
-    /* NEWSLETTER */
-    #newsletter {
-      background: #16213e;
-      padding: 60px 10%;
-      text-align: center;
+    /* Bottone audio */
+    .audio-btn {
+      width:38px; height:38px; border-radius:50%;
+      background:rgba(201,169,110,0.1); border:1px solid rgba(201,169,110,0.3);
+      cursor:pointer; display:flex; align-items:center; justify-content:center;
+      transition:all 0.3s; color:rgba(201,169,110,0.6);
+      position:relative;
     }
-    #newsletter h2 {
-      color: #fff;
-      font-size: 1.6rem;
-      margin-bottom: 10px;
+    .audio-btn:hover { background:rgba(201,169,110,0.2); color:var(--oro); border-color:var(--oro); }
+    .audio-btn.on { background:rgba(201,169,110,0.18); border-color:var(--oro); color:var(--oro); }
+    .audio-btn.on::after {
+      content:''; position:absolute; inset:-4px; border-radius:50%;
+      border:1px solid rgba(201,169,110,0.3);
+      animation:pulsa 2s ease infinite;
     }
-    #newsletter p {
-      color: #aab4c8;
-      font-family: Arial, sans-serif;
-      font-size: 0.95rem;
-      margin-bottom: 28px;
-    }
-    .newsletter-form {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    .newsletter-form input {
-      padding: 14px 20px;
-      background: #1a1a2e;
-      border: 1px solid #2a2a4e;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      font-size: 0.9rem;
-      width: 260px;
-      outline: none;
-    }
-    .newsletter-form input::placeholder { color: #555; }
-    .newsletter-nota {
-      color: #555;
-      font-family: Arial, sans-serif;
-      font-size: 0.75rem;
-      margin-top: 14px;
+    @keyframes pulsa {
+      0%,100%{ transform:scale(1); opacity:0.6; }
+      50%{ transform:scale(1.18); opacity:0; }
     }
 
-    /* SEZIONI */
-    section {
-      padding: 80px 40px;
-      max-width: 1100px;
-      margin: 0 auto;
+    .nav-cta {
+      background:var(--oro); color:var(--nero);
+      padding:10px 26px; font-size:0.78rem; font-weight:500;
+      letter-spacing:1px; text-transform:uppercase; text-decoration:none;
+      transition:background 0.2s,transform 0.2s;
+    }
+    .nav-cta:hover { background:var(--oro-c); transform:translateY(-1px); }
+
+    /* ─── HERO ─── */
+    #hero {
+      min-height:100vh; background:var(--nero);
+      display:flex; flex-direction:column; justify-content:center;
+      padding:110px 6% 80px; position:relative; overflow:hidden;
+    }
+    .hero-griglia {
+      position:absolute; inset:0;
+      background:
+        repeating-linear-gradient(90deg,rgba(201,169,110,0.022) 0,rgba(201,169,110,0.022) 1px,transparent 1px,transparent 80px),
+        repeating-linear-gradient(0deg, rgba(201,169,110,0.022) 0,rgba(201,169,110,0.022) 1px,transparent 1px,transparent 80px);
+      pointer-events:none;
+    }
+    .hero-glow {
+      position:absolute; top:-20%; right:-10%; width:60%; height:120%;
+      background:radial-gradient(ellipse,rgba(201,169,110,0.07) 0%,transparent 65%);
+      pointer-events:none;
+    }
+    .hero-inner {
+      position:relative; z-index:1;
+      max-width:1100px; margin:0 auto; width:100%;
+      display:grid; grid-template-columns:1.1fr 0.9fr; gap:80px; align-items:center;
+    }
+    .hero-chip {
+      display:inline-flex; align-items:center; gap:10px;
+      font-size:0.68rem; letter-spacing:3.5px; text-transform:uppercase;
+      color:var(--oro); margin-bottom:28px;
+    }
+    .hero-chip::before { content:''; width:22px; height:1px; background:var(--oro); }
+
+    .hero-domanda-wrap { margin-bottom:36px; min-height:130px; }
+    .hero-domanda {
+      font-family:'Playfair Display',serif;
+      font-size:clamp(2rem,4.2vw,3.4rem);
+      color:#fff; line-height:1.2; font-weight:400;
+    }
+    .hero-cursor {
+      display:inline-block; width:3px; height:0.85em;
+      background:var(--oro); margin-left:4px;
+      animation:lamp 0.9s infinite; vertical-align:middle;
+    }
+    @keyframes lamp { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+
+    .hero-risposta {
+      font-size:1.05rem; color:var(--muted);
+      line-height:1.85; margin-bottom:48px; font-weight:300; max-width:500px;
+    }
+    .hero-risposta strong { color:#fff; font-weight:500; }
+    .hero-btns { display:flex; gap:14px; flex-wrap:nowrap; align-items:center; }
+
+    .btn-oro {
+      background:var(--oro); color:var(--nero);
+      padding:15px 32px; font-size:0.72rem; font-weight:500;
+      letter-spacing:2px; text-transform:uppercase; white-space:nowrap;
+      text-decoration:none; border:none; cursor:pointer;
+      transition:all 0.28s; display:inline-block;
+      position:relative; overflow:hidden;
+    }
+    .btn-oro::after {
+      content:''; position:absolute; inset:0;
+      background:rgba(255,255,255,0); transition:background 0.28s;
+    }
+    .btn-oro:hover { background:var(--oro-c); transform:translateY(-2px); box-shadow:0 10px 34px rgba(201,169,110,0.28); }
+    .btn-ghost {
+      background:transparent; color:rgba(255,255,255,0.55);
+      padding:15px 32px; font-size:0.72rem; font-weight:400;
+      letter-spacing:2px; text-transform:uppercase; white-space:nowrap;
+      text-decoration:none; border:1px solid rgba(201,169,110,0.28);
+      transition:all 0.28s; display:inline-block;
+    }
+    .btn-ghost:hover { border-color:var(--oro); color:var(--oro); }
+
+    .hero-foto-wrap { position:relative; max-width:360px; margin:0 auto; }
+    .hero-foto-wrap::before {
+      content:''; position:absolute; top:20px; right:-20px;
+      width:100%; height:100%; border:2px solid rgba(201,169,110,0.3); z-index:0;
+    }
+    .hero-foto { width:100%; display:block; position:relative; z-index:1; border:3px solid rgba(201,169,110,0.2); }
+    .hero-badge {
+      position:absolute; bottom:-28px; left:-14px; z-index:2;
+      background:rgba(8,12,20,0.94); color:var(--oro-c);
+      border:1px solid rgba(201,169,110,0.32);
+      border-left:3px solid var(--oro);
+      padding:18px 22px 18px 20px;
+      font-family:'Playfair Display',serif; font-size:0.85rem; font-style:italic;
+      max-width:250px; line-height:1.6;
+      box-shadow:0 8px 32px rgba(0,0,0,0.5);
+    }
+    .hero-badge::before {
+      content:'\201C';
+      display:block; font-size:2.4rem; line-height:0.6;
+      color:rgba(201,169,110,0.3); margin-bottom:8px;
+      font-style:normal;
     }
 
-    /* HERO */
-    #home {
-      display: grid;
-      grid-template-columns: 1fr 300px;
-      align-items: start;
-      max-width: 100%;
-      padding: 60px 10%;
-      gap: 60px;
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
-      overflow: hidden;
-      box-sizing: border-box;
+    /* ─── STRISCIA ─── */
+    .striscia {
+      background:var(--oro); padding:20px 6%;
+      display:flex; justify-content:center; gap:72px; align-items:center; flex-wrap:wrap;
     }
-    .hero-testo {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      padding-top: 10px;
-    }
-    #home h1 {
-      color: #fff;
-      font-size: 4rem;
-      line-height: 1.15;
-      margin-bottom: 28px;
-    }
-    #home p {
-      color: #aab4c8;
-      font-size: 1.4rem;
-      line-height: 1.8;
-      margin-bottom: 40px;
-      font-family: 'Arial', sans-serif;
-    }
-    .header-social {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 30px;
-      height: 30px;
-      color: #666;
-      transition: color 0.2s;
-    }
-    .header-social:hover { color: #c9a96e; }
-    .header-social svg { width: 16px; height: 16px; fill: currentColor; }
-    .hero-foto {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-    }
-    .hero-foto img {
-      width: 280px;
-      height: 400px;
-      object-fit: cover;
-      object-position: center 5%;
-      display: block;
-      border: 2px solid #c9a96e;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-    }
-    .btn {
-      display: inline-block;
-      background: #c9a96e;
-      color: #1a1a2e;
-      padding: 14px 36px;
-      font-family: 'Arial', sans-serif;
-      font-size: 0.95rem;
-      font-weight: bold;
-      letter-spacing: 1px;
-      text-decoration: none;
-      border: none;
-      cursor: pointer;
-      transition: background 0.2s;
-    }
-    .btn:hover { background: #b8924f; }
+    .dato { display:flex; align-items:center; gap:14px; }
+    .dato-n { font-family:'Playfair Display',serif; font-size:2.4rem; color:var(--nero); line-height:1; }
+    .dato-l { font-size:0.72rem; color:var(--nero); text-transform:uppercase; letter-spacing:0.5px; opacity:0.72; max-width:120px; line-height:1.4; }
+    .dato-sep { width:1px; height:36px; background:rgba(8,12,20,0.15); }
 
-    /* STRIP NUMERI */
-    .strip-numeri {
-      background: #0f1a30;
-      border-top: 1px solid #2a2a4e;
-      border-bottom: 1px solid #2a2a4e;
-      padding: 32px 10%;
-      display: flex;
-      justify-content: center;
-      gap: 80px;
-      flex-wrap: wrap;
+    /* ─── BASE ─── */
+    section { padding:96px 6%; }
+    .max { max-width:1000px; margin:0 auto; }
+    .etichetta {
+      font-size:0.68rem; letter-spacing:4px; text-transform:uppercase;
+      color:var(--oro); margin-bottom:22px; display:flex; align-items:center; gap:12px;
     }
-    .numero-item {
-      text-align: center;
+    .etichetta::before { content:''; width:22px; height:1px; background:var(--oro); }
+    h2 {
+      font-family:'Playfair Display',serif;
+      font-size:clamp(1.9rem,3.4vw,2.9rem);
+      color:var(--blu); line-height:1.2; margin-bottom:20px; font-weight:400;
     }
-    .numero-item strong {
-      display: block;
-      color: #c9a96e;
-      font-family: 'Arial', sans-serif;
-      font-size: 2.4rem;
-      font-weight: bold;
-      line-height: 1;
+    .linea { width:44px; height:3px; background:var(--oro); margin-bottom:40px; }
+    .tm { font-size:1rem; color:var(--medio); line-height:1.9; max-width:680px; margin-bottom:22px; }
+    .tm strong { color:var(--testo); font-weight:500; }
+
+    /* ─── MANIFESTO ─── */
+    #manifesto { background:var(--grigio); }
+    .tre { display:grid; grid-template-columns:repeat(3,1fr); gap:2px; background:#ddd; margin-top:52px; }
+    .col { background:#fff; padding:40px 30px; border-top:3px solid transparent; transition:border-color 0.2s; }
+    .col:hover { border-top-color:var(--oro); }
+    .col-n { font-family:'Playfair Display',serif; font-size:3.2rem; color:rgba(201,169,110,0.16); line-height:1; margin-bottom:16px; }
+    .col-t { font-family:'Playfair Display',serif; font-size:1.12rem; color:var(--blu); margin-bottom:10px; }
+    .col-p { font-size:0.9rem; color:var(--medio); line-height:1.75; }
+
+    /* ─── FRASE MANIFESTO ─── */
+    #frase-manifesto {
+      background:var(--blu-m); padding:80px 6%; text-align:center;
     }
-    .numero-item span {
-      color: #aab4c8;
-      font-family: 'Arial', sans-serif;
-      font-size: 0.8rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      margin-top: 6px;
-      display: block;
+    .frase-grande {
+      font-family:'Playfair Display',serif;
+      font-size:clamp(1.6rem,3.5vw,2.6rem);
+      color:#fff; line-height:1.4; font-weight:400; font-style:italic;
+      max-width:780px; margin:0 auto;
+    }
+    .frase-grande em { color:var(--oro); font-style:normal; }
+    .frase-firma {
+      font-family:'DM Sans',sans-serif; font-size:0.75rem;
+      color:rgba(201,169,110,0.5); letter-spacing:3px; text-transform:uppercase;
+      margin-top:28px;
     }
 
-    /* FRASE EFFETTO */
-    .frase-effetto {
-      background: #1a1a2e;
-      text-align: center;
-      padding: 48px 10%;
-    }
-    .frase-effetto p {
-      color: #fff;
-      font-size: 1.8rem;
-      font-style: italic;
-      line-height: 1.4;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .frase-effetto p span {
-      color: #c9a96e;
-    }
+    /* ─── STORIA + TIMELINE ─── */
+    #storia { background:var(--nero); }
+    #storia h2 { color:#fff; }
+    #storia h2 em { font-style:italic; color:var(--oro); }
+    .storia-grid { display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:start; }
+    .tc { font-size:0.98rem; color:var(--muted); line-height:1.9; font-weight:300; margin-bottom:20px; }
+    .tc strong { color:#fff; font-weight:500; }
+    .tc em { color:var(--oro); font-style:italic; }
+    .tag { display:inline-block; background:rgba(201,169,110,0.08); border:1px solid rgba(201,169,110,0.22); color:var(--oro); font-size:0.7rem; letter-spacing:1.5px; text-transform:uppercase; padding:6px 14px; margin:0 8px 8px 0; }
 
-    /* SETTORI */
-    .settori {
-      background: #f7f5f0;
-      padding: 40px 10%;
-      text-align: center;
-    }
-    .settori h4 {
-      font-family: 'Arial', sans-serif;
-      font-size: 0.75rem;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: #999;
-      margin-bottom: 24px;
-    }
-    .settori-lista {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .settore-tag {
-      background: rgba(201,169,110,0.12);
-      color: #c9a96e;
-      border: 1px solid rgba(201,169,110,0.35);
-      font-family: 'Arial', sans-serif;
-      font-size: 0.95rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      padding: 10px 20px;
-    }
+    .timeline { display:flex; flex-direction:column; gap:0; }
+    .tl-item { display:flex; gap:20px; padding-bottom:28px; position:relative; }
+    .tl-item:not(:last-child)::after { content:''; position:absolute; left:86px; top:40px; bottom:0; width:1px; background:rgba(201,169,110,0.18); }
+    .tl-anno { min-width:66px; font-family:'Playfair Display',serif; font-size:0.85rem; color:var(--oro); line-height:1; padding-top:4px; text-align:right; }
+    .tl-dot { width:12px; height:12px; min-width:12px; border:2px solid var(--oro); border-radius:50%; margin-top:4px; background:var(--nero); }
+    .tl-testo { font-size:0.9rem; color:var(--muted); line-height:1.7; }
+    .tl-testo strong { color:#fff; font-weight:500; }
 
-    /* CARD TRIO HOME */
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 32px;
-      margin-top: 60px;
-      max-width: 1100px;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 0 40px 80px;
-    }
-    .card {
-      background: #f7f5f0;
-      padding: 36px 28px;
-      border-top: 3px solid #c9a96e;
-    }
-    .card h3 {
-      font-size: 1.1rem;
-      margin-bottom: 14px;
-      color: #1a1a2e;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      font-family: 'Arial', sans-serif;
-    }
-    .card p {
-      color: #555;
-      line-height: 1.7;
-      font-size: 1.2rem;
-    }
+    /* ─── AI DEMO ─── */
+    #ai-demo { background:var(--blu); }
+    #ai-demo h2 { color:#fff; }
+    #ai-demo h2 em { font-style:italic; color:var(--oro); }
+    .ai-intro { font-size:1rem; color:var(--muted); line-height:1.85; max-width:720px; margin-bottom:52px; font-weight:300; }
+    .ai-intro strong { color:#fff; font-weight:500; }
 
-    /* TITOLO SEZIONE */
-    .section-title {
-      font-size: 2rem;
-      color: #1a1a2e;
-      margin-bottom: 12px;
+    .ai-tabs { display:flex; gap:2px; flex-wrap:wrap; }
+    .ai-tab {
+      background:rgba(255,255,255,0.06); border:none; cursor:pointer;
+      color:var(--muted); font-family:'DM Sans',sans-serif; font-size:0.76rem;
+      letter-spacing:1px; text-transform:uppercase; padding:12px 20px; transition:all 0.2s;
     }
-    .section-line {
-      width: 48px;
-      height: 3px;
-      background: #c9a96e;
-      margin-bottom: 36px;
-    }
+    .ai-tab:hover { color:#fff; background:rgba(255,255,255,0.1); }
+    .ai-tab.attivo { background:rgba(201,169,110,0.15); color:var(--oro); border-bottom:2px solid var(--oro); }
 
-    /* CHI SONO */
-    #chisono {
-      background: #fff;
-      max-width: 100%;
-      padding: 80px 5%;
-    }
-    .chisono-grid {
-      display: grid;
-      grid-template-columns: 1fr 260px;
-      gap: 40px;
-      align-items: start;
-    }
-    .chisono-destra {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-    }
-    .chisono-testo-colonna {
-      display: flex;
-      flex-direction: column;
-    }
-    .chisono-cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 28px;
-      flex: 1;
-      margin-top: 40px;
-      align-items: stretch;
-    }
-    .chisono-card {
-      background: #f7f5f0;
-      border-left: 4px solid #c9a96e;
-      padding: 36px 28px;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      box-sizing: border-box;
-    }
-    .chisono-card h4 {
-      color: #1a1a2e;
-      font-family: Arial, sans-serif;
-      font-size: 1rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      margin-bottom: 16px;
-    }
-    .chisono-card p {
-      color: #555;
-      font-family: Arial, sans-serif;
-      font-size: 1.25rem;
-      line-height: 1.9;
-      margin: 0;
-      flex: 1;
-    }
-    .foto-profilo {
-      width: 100%;
-      height: 100%;
-      min-height: 400px;
-      object-fit: cover;
-      object-position: top;
-      display: block;
-      transform: scaleX(-1);
-    }
-    .qrcode-box {
-      background: #f7f5f0;
-      padding: 24px;
-      text-align: center;
-    }
-    .qrcode-box img {
-      width: 160px;
-      height: 160px;
-      display: block;
-      margin: 0 auto 12px;
-    }
-    .qrcode-box p {
-      font-family: Arial, sans-serif;
-      font-size: 0.8rem;
-      color: #888;
-      margin: 0;
-    }
-    .chisono-grid .testo p {
-      color: #444;
-      line-height: 2;
-      margin-bottom: 28px;
-      font-size: 1.35rem;
-    }
-    .sidebar {
-      background: #1a1a2e;
-      padding: 32px 28px;
-      color: #fff;
-    }
-    .sidebar h4 {
-      color: #c9a96e;
-      font-family: 'Arial', sans-serif;
-      font-size: 1rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      margin-bottom: 20px;
-    }
-    .sidebar ul {
-      list-style: none;
-    }
-    .sidebar ul li {
-      font-family: 'Arial', sans-serif;
-      font-size: 1rem;
-      color: #aab4c8;
-      padding: 8px 0;
-      border-bottom: 1px solid #2a2a4e;
-      line-height: 1.5;
-    }
+    .ai-scenario { display:none; background:rgba(0,0,0,0.25); padding:40px; margin-top:2px; }
+    .ai-scenario.attivo { display:block; }
 
-    /* CONSULENZA */
-    #consulenza {
-      background: #f7f5f0;
-    }
-    .aree {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 32px;
-      margin-bottom: 48px;
-    }
-    .area {
-      background: #fff;
-      padding: 32px 28px;
-      border-left: 4px solid #c9a96e;
-    }
-    .area h3 {
-      font-size: 1.3rem;
-      color: #1a1a2e;
-      margin-bottom: 12px;
-    }
-    .area p {
-      color: #555;
-      font-size: 1.4rem;
-      line-height: 1.8;
-      margin-bottom: 12px;
-    }
-    .area .tipologie {
-      font-family: 'Arial', sans-serif;
-      font-size: 1.1rem;
-      color: #888;
-      font-style: italic;
-    }
-    .come-funziona {
-      background: #1a1a2e;
-      color: #aab4c8;
-      padding: 32px 36px;
-      margin-bottom: 32px;
-      font-family: 'Arial', sans-serif;
-      font-size: 1.9rem;
-      line-height: 1.7;
-    }
-    .come-funziona strong { color: #c9a96e; }
+    .chat { display:flex; flex-direction:column; gap:20px; }
+    .chat-msg { display:flex; gap:14px; align-items:flex-start; }
+    .chat-avatar { width:38px; height:38px; min-width:38px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Playfair Display',serif; font-size:0.9rem; font-weight:700; }
+    .av-imp { background:rgba(255,255,255,0.1); color:#fff; }
+    .av-ai  { background:rgba(255,255,255,0.06); color:var(--muted); font-size:0.6rem; letter-spacing:1px; font-family:'DM Sans',sans-serif; }
+    .av-or  { background:var(--oro); color:var(--nero); font-size:0.72rem; letter-spacing:1px; font-family:'DM Sans',sans-serif; }
+    .chat-bolla { flex:1; }
+    .chat-chi { font-size:0.68rem; letter-spacing:2px; text-transform:uppercase; margin-bottom:8px; }
+    .chi-imp { color:rgba(255,255,255,0.38); }
+    .chi-ai  { color:var(--muted); }
+    .chi-or  { color:var(--oro); }
+    .chat-testo { font-size:0.92rem; line-height:1.75; padding:16px 20px; }
+    .bg-imp { background:rgba(255,255,255,0.05); color:#cdd; }
+    .bg-ai  { background:rgba(255,255,255,0.04); color:var(--muted); border-left:3px solid rgba(255,255,255,0.08); }
+    .bg-or  { background:rgba(201,169,110,0.1); color:#e0d0b0; border-left:3px solid var(--oro); }
+    .bias-badge { display:inline-block; margin-top:10px; background:rgba(201,169,110,0.2); border:1px solid rgba(201,169,110,0.4); color:var(--oro); font-size:0.68rem; letter-spacing:1.5px; text-transform:uppercase; padding:5px 12px; }
 
-    /* FORMAZIONE AI */
-    #formazione {
-      background: #fff;
+    /* ─── CASO STUDIO ─── */
+    #caso { background:var(--grigio); }
+    .caso-box {
+      background:#fff; border-left:4px solid var(--oro);
+      padding:44px 44px 44px 40px; max-width:800px;
+      box-shadow:0 4px 32px rgba(26,58,110,0.07);
     }
-    .formazione-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 60px;
-      align-items: start;
+    .caso-label { font-size:0.68rem; letter-spacing:3px; text-transform:uppercase; color:var(--oro); margin-bottom:20px; }
+    .caso-titolo { font-family:'Playfair Display',serif; font-size:1.4rem; color:var(--blu); margin-bottom:24px; }
+    .caso-testo { font-size:0.95rem; color:var(--medio); line-height:1.85; margin-bottom:14px; }
+    .caso-testo strong { color:var(--testo); font-weight:500; }
+    .caso-numero {
+      display:inline-block; background:var(--blu); color:var(--oro);
+      font-family:'Playfair Display',serif; font-size:1.5rem;
+      padding:12px 20px; margin-top:12px;
     }
-    .formazione-grid .intro p {
-      color: #444;
-      line-height: 1.9;
-      margin-bottom: 20px;
-      font-size: 1rem;
-    }
-    .formazione-grid .intro h2 {
-      font-size: 1.5rem;
-      color: #1a1a2e;
-      margin-bottom: 8px;
-      font-style: italic;
-    }
-    .target {
-      background: #f7f5f0;
-      padding: 32px 28px;
-    }
-    .target h4 {
-      font-family: 'Arial', sans-serif;
-      font-size: 0.85rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #c9a96e;
-      margin-bottom: 20px;
-    }
-    .target ul {
-      list-style: none;
-    }
-    .target ul li {
-      font-size: 0.95rem;
-      color: #444;
-      padding: 10px 0;
-      border-bottom: 1px solid #e0ddd6;
-      line-height: 1.5;
-    }
-    .target ul li::before {
-      content: "→ ";
-      color: #c9a96e;
-      font-weight: bold;
-    }
+    .caso-nota { font-size:0.78rem; color:#aaa; margin-top:8px; font-style:italic; }
 
-    /* CONTATTI */
-    #contatti {
-      background: #1a1a2e;
-      max-width: 100%;
-      padding: 80px 10%;
-    }
-    #contatti .section-title { color: #fff; }
-    #contatti .section-line { background: #c9a96e; }
-    #contatti p {
-      color: #aab4c8;
-      font-family: 'Arial', sans-serif;
-      font-size: 2rem;
-      line-height: 1.7;
-      margin-bottom: 48px;
-    }
-    .contatti-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 60px;
-    }
-    .info-contatto h4 {
-      color: #c9a96e;
-      font-family: 'Arial', sans-serif;
-      font-size: 0.85rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      margin-bottom: 20px;
-    }
-    .info-contatto p {
-      margin-bottom: 12px;
-      color: #aab4c8;
-    }
-    .form-contatto input,
-    .form-contatto textarea {
-      width: 100%;
-      background: #16213e;
-      border: 1px solid #2a2a4e;
-      color: #fff;
-      padding: 14px 16px;
-      margin-bottom: 16px;
-      font-family: 'Arial', sans-serif;
-      font-size: 0.9rem;
-      outline: none;
-    }
-    .form-contatto textarea { height: 120px; resize: vertical; }
-    .form-contatto input::placeholder,
-    .form-contatto textarea::placeholder { color: #555; }
+    /* ─── COME LAVORO ─── */
+    #come-lavoro { background:#fff; }
+    .passi { display:grid; grid-template-columns:repeat(3,1fr); gap:2px; background:#ddd; margin-top:52px; }
+    .passo { background:var(--grigio); padding:44px 30px; position:relative; }
+    .passo:not(:last-child)::after { content:'→'; position:absolute; top:44px; right:-16px; z-index:1; font-size:1.2rem; color:rgba(201,169,110,0.4); background:var(--grigio); padding:0 4px; }
+    .passo-n { font-family:'Playfair Display',serif; font-size:3.4rem; color:rgba(201,169,110,0.13); line-height:1; margin-bottom:14px; }
+    .passo-t { font-family:'Playfair Display',serif; font-size:1.12rem; color:var(--blu); margin-bottom:10px; }
+    .passo-p { font-size:0.9rem; color:var(--medio); line-height:1.75; }
 
-    /* SOCIAL */
-    .social-bar {
-      display: flex;
-      gap: 16px;
-      margin-top: 28px;
-      flex-wrap: wrap;
-    }
-    .social-bar a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 38px;
-      height: 38px;
-      border: 1px solid rgba(201,169,110,0.4);
-      color: #c9a96e;
-      text-decoration: none;
-      transition: background 0.2s, border-color 0.2s;
-    }
-    .social-bar a:hover {
-      background: rgba(201,169,110,0.15);
-      border-color: #c9a96e;
-    }
-    .social-bar svg { width: 18px; height: 18px; fill: #c9a96e; }
-    .footer-social { display: flex; gap: 14px; justify-content: center; margin-bottom: 12px; }
-    .footer-social a { color: #555; transition: color 0.2s; }
-    .footer-social a:hover { color: #c9a96e; }
-    .footer-social svg { width: 16px; height: 16px; fill: currentColor; }
+    /* ─── AREE ─── */
+    #aree { background:var(--grigio); }
+    .aree-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:52px; }
+    .area { background:#fff; border:1px solid #eaecf0; border-top:3px solid var(--oro); padding:36px 28px; transition:all 0.3s; }
+    .area:hover { box-shadow:0 14px 44px rgba(26,58,110,0.1); transform:translateY(-4px); }
+    .area-i { width:42px; height:42px; background:rgba(26,58,110,0.05); display:flex; align-items:center; justify-content:center; margin-bottom:18px; }
+    .area-t { font-family:'Playfair Display',serif; font-size:1.12rem; color:var(--blu); margin-bottom:10px; }
+    .area-p { font-size:0.88rem; color:var(--medio); line-height:1.7; margin-bottom:18px; }
+    .area-list { list-style:none; }
+    .area-list li { font-size:0.8rem; color:var(--medio); padding:6px 0; border-bottom:1px solid #f2f2f2; display:flex; align-items:center; gap:8px; }
+    .area-list li::before { content:'›'; color:var(--oro); font-size:1rem; font-weight:bold; }
 
-    /* FOOTER */
-    footer {
-      background: #0d0d1a;
-      color: #444;
-      text-align: center;
-      padding: 24px;
-      font-family: 'Arial', sans-serif;
-      font-size: 0.8rem;
-    }
+    /* ─── CONTATTI ─── */
+    #contatti { background:var(--nero); text-align:center; padding:120px 6%; }
+    #contatti .etichetta { justify-content:center; color:rgba(201,169,110,0.42); }
+    #contatti h2 { color:#fff; }
+    #contatti h2 em { font-style:italic; color:var(--oro); }
+    .c-sub { font-size:1rem; color:var(--muted); margin-bottom:52px; font-weight:300; max-width:520px; margin-left:auto; margin-right:auto; }
+    .c-btns { display:flex; gap:18px; justify-content:center; flex-wrap:wrap; margin-bottom:52px; }
+    .c-dati { display:flex; gap:44px; justify-content:center; flex-wrap:wrap; }
+    .c-dato { font-size:0.86rem; color:var(--muted); text-decoration:none; display:flex; align-items:center; gap:8px; transition:color 0.2s; }
+    .c-dato:hover { color:var(--oro); }
 
-    /* RESPONSIVE */
-    @media (max-width: 768px) {
-      /* LAYOUT GENERALE */
-      section { padding: 40px 5%; }
-      #home, #contatti { padding: 40px 5%; }
-      nav ul { display: none; }
+    /* ─── FOOTER ─── */
+    footer { background:#020509; padding:24px 6%; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; }
+    .f-t { font-size:0.74rem; color:#1e2a3a; }
+    .f-l { font-size:0.74rem; color:#1e2a3a; text-decoration:none; transition:color 0.2s; }
+    .f-l:hover { color:var(--oro); }
 
-      /* HEADER */
-      .header-brand { padding: 14px 16px; }
-      .logo-text span:first-child { font-size: 1.4rem; }
-      .logo-text span:last-child { font-size: 0.8rem; }
-      .brand-nav { display: none; }
-      .brand-avatar { width: 40px; height: 40px; }
-      .brand-avatar-name { font-size: 0.55rem; }
-      .header-social svg { width: 20px; height: 20px; }
+    /* ─── SCROLL REVEAL ─── */
+    .a { opacity:0; transform:translateY(20px); transition:opacity 0.65s ease,transform 0.65s ease; }
+    .a.v { opacity:1; transform:translateY(0); }
+    .d1 { transition-delay:0.1s; }
+    .d2 { transition-delay:0.2s; }
+    .d3 { transition-delay:0.3s; }
 
-      /* HERO */
-      .hero-brand-nome { font-size: 2.8rem; letter-spacing: 6px; }
-      .hero-brand-sub { font-size: 0.8rem; }
-      #home h1 { font-size: 1.5rem; }
-      #home p { font-size: 1rem; }
-
-      /* CHI SONO */
-      .chisono-grid { grid-template-columns: 1fr; }
-      .chisono-grid .testo p { font-size: 1rem; }
-      .chisono-cards { grid-template-columns: 1fr; }
-      .chisono-card p { font-size: 1rem; }
-      .chisono-card h4 { font-size: 0.9rem; }
-
-      /* CONSULENZA */
-      .aree { grid-template-columns: 1fr; }
-      .area h3 { font-size: 1.1rem; }
-      .area p { font-size: 1rem; }
-      .area .tipologie { font-size: 0.9rem; }
-      .come-funziona { font-size: 1rem; }
-
-      /* PERCHÉ SCEGLIERMI */
-      .cards { grid-template-columns: 1fr; padding: 0 0 40px; }
-
-      /* FORMAZIONE */
-      .formazione-grid { grid-template-columns: 1fr; }
-
-      /* CONTATTI */
-      .contatti-grid { grid-template-columns: 1fr; }
-      .form-contatto input, .form-contatto textarea { box-sizing: border-box; width: 100%; }
-
-      /* HERO FOTO */
-      .hero-foto { display: none; }
-
-      /* STRIP NUMERI */
-      .strip-numeri { flex-wrap: wrap; gap: 24px; padding: 32px 5%; justify-content: center; }
-      .numero-item { width: 45%; }
-
-      /* NORMATIVE */
-      div[style*="grid-template-columns:repeat(2,1fr)"] { grid-template-columns: 1fr !important; }
+    /* ─── MOBILE ─── */
+    @media(max-width:820px){
+      .hero-inner { grid-template-columns:1fr; gap:48px; }
+      .hero-foto-wrap { max-width:260px; order:-1; }
+      .hero-badge { display:none; }
+      .storia-grid { grid-template-columns:1fr; gap:44px; }
+      .tre,.passi { grid-template-columns:1fr; gap:2px; }
+      .passo::after { display:none; }
+      .aree-grid { grid-template-columns:1fr; }
+      .striscia { gap:28px; }
+      .dato-sep { display:none; }
+      .c-dati { flex-direction:column; align-items:center; gap:16px; }
+      .ai-scenario { padding:20px; }
     }
   </style>
 </head>
 <body>
 
-  <!-- BANNER FIERA -->
-  <div style="background:#c9a96e;padding:18px 20px;text-align:center;font-family:Arial,sans-serif;font-size:1.2rem;color:#1a1a2e;font-weight:bold;letter-spacing:1px;">
-    Sarò al <a href="https://www.wemakefuture.it/" target="_blank" rel="noopener" style="color:#1a1a2e;text-decoration:underline;">WMF — We Make Future</a> a Bologna il 24–26 giugno — vieni a trovarmi! &nbsp;
-    <a href="#contatti" style="color:#1a1a2e;text-decoration:none;border:1px solid #1a1a2e;padding:4px 12px;margin-left:8px;">Scrivimi prima</a>
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">Oscar Ribichini <span>· Advisor</span></a>
+  <div class="nav-dx">
+    <button class="audio-btn" id="audio-btn" onclick="toggleAudio()" title="Attiva musica ambiente">
+      <svg id="icon-off" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+        <line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>
+      </svg>
+      <svg id="icon-on" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="display:none">
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+      </svg>
+    </button>
+    <a href="#contatti" class="nav-cta">Parliamoci</a>
   </div>
+</nav>
 
-  <!-- HEADER BRAND -->
-  <div class="header-brand">
-    <a href="#home" class="nav-logo">
-      <img src="logo-quantum.png" alt="Quantum" class="logo-icon" style="object-fit:contain;">
-      <div class="logo-text">
-        <span style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:600;letter-spacing:6px;color:#c9a96e;">QUANTUM</span>
-        <span>consulenza &amp; advisory</span>
-      </div>
-    </a>
-    <nav class="brand-nav" style="position:absolute;left:50%;transform:translateX(-50%);">
-      <a href="#chisono">Chi sono</a>
-      <a href="#consulenza">Consulenza</a>
-      <a href="#formazione">Formazione AI</a>
-      <a href="#contatti">Contatti</a>
-    </nav>
-    <div style="display:flex;align-items:center;gap:20px;">
-      <div style="display:flex;gap:10px;align-items:center;">
-        <a href="https://www.linkedin.com/in/oscar-ribichini-6307341a" title="LinkedIn" target="_blank" class="header-social" style="color:#0A66C2;"><svg viewBox="0 0 24 24" style="fill:#0A66C2;width:22px;height:22px;"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
-        <a href="https://wa.me/393276113167" title="WhatsApp" target="_blank" class="header-social" style="color:#25D366;"><svg viewBox="0 0 24 24" style="fill:#25D366;width:22px;height:22px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
-        <a href="https://www.youtube.com/@QuantumAdvisor" title="YouTube Quantum Advisor" target="_blank" class="header-social" style="color:#FF0000;"><svg viewBox="0 0 24 24" style="fill:#FF0000;width:22px;height:22px;"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
-        <a href="https://www.facebook.com/profile.php?id=61576680591564" title="Facebook Quantum Srl" target="_blank" class="header-social" style="color:#1877F2;"><svg viewBox="0 0 24 24" style="fill:#1877F2;width:22px;height:22px;"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
-      </div>
-      <div class="brand-avatar-box" onclick="document.getElementById('chisono').scrollIntoView({behavior:'smooth'})">
-        <img src="foto-oscar.jpg" alt="Oscar Ribichini" class="brand-avatar">
-        <span class="brand-avatar-name">Oscar Ribichini</span>
-      </div>
-    </div>
-  </div>
 
-  <!-- NAV -->
-  <nav>
-    <ul>
-      <li><a href="#chisono">Chi sono</a></li>
-      <li><a href="#consulenza">Consulenza</a></li>
-      <li><a href="#formazione">Formazione AI</a></li>
-      <li><a href="#contatti">Contatti</a></li>
-    </ul>
-  </nav>
-
-  <!-- HOME -->
-  <section id="home">
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-griglia"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
     <div class="hero-testo">
-      <span style="font-family:Arial,sans-serif;font-size:0.85rem;letter-spacing:3px;text-transform:uppercase;color:#aab4c8;display:block;margin-bottom:10px;">Oscar Ribichini — consulente indipendente per</span>
-      <span class="hero-brand-nome">QUANTUM</span>
-      <span class="hero-brand-sub">consulenza &amp; advisory</span>
-      <h1>Consulenza aziendale e formazione sull'intelligenza artificiale.</h1>
-      <p>Accompagno imprenditori e aziende in percorsi di crescita, riorganizzazione e innovazione.<br>Lavoro in tutta Italia, in presenza e da remoto.</p>
-      <div style="margin-top:32px;">
-        <p style="display:inline-block;color:#1a1a2e;background:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;font-weight:bold;letter-spacing:3px;text-transform:uppercase;padding:10px 24px;margin-bottom:16px;">▼ &nbsp;APPROFONDISCI</p>
-        <div style="display:flex; gap:10px; flex-wrap:wrap;">
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';this.style.borderColor='#c9a96e';" style="cursor:pointer;">Finanza agevolata</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Identifico e gestisco le opportunità di finanziamento pubblico più adatte alla tua azienda: contributi a fondo perduto, crediti d'imposta, garanzie pubbliche e agevolazioni fiscali. Ti accompagno dalla ricerca alla presentazione della domanda.</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Energie rinnovabili</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Supporto alle imprese che vogliono investire in impianti fotovoltaici, sistemi di cogenerazione e fonti rinnovabili. Analisi di fattibilità, accesso agli incentivi disponibili e gestione delle pratiche autorizzative.</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Internazionalizzazione</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Affianco le imprese che vogliono espandersi all'estero: analisi dei mercati target, strutturazione delle operazioni commerciali internazionali, accesso ai finanziamenti per l'export e gestione dei rapporti con partner esteri.</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Intelligenza artificiale</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Formazione pratica sull'uso dell'AI per imprenditori, manager e team aziendali. Non teoria: strumenti concreti da usare subito nel lavoro quotidiano. Corsi in presenza o da remoto, costruiti sulle esigenze reali della tua azienda.</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Riorganizzazione aziendale</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Interventi strutturali per aziende che devono cambiare: ottimizzazione dei processi, ridefinizione della struttura societaria, riposizionamento strategico. Dalla diagnosi al piano operativo, fino all'esecuzione.</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Bandi pubblici</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Ricerca, analisi e gestione completa di bandi europei, nazionali e regionali. Identifico le opportunità più adatte alla tua impresa, preparo la documentazione e seguo l'iter fino all'erogazione del contributo.</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Servizio legale</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Supporto nella gestione di contratti commerciali, compliance aziendale e adempimenti societari. Coordinamento con professionisti legali specializzati per garantire la piena conformità normativa della tua impresa.</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Formazione lavoro</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Percorsi formativi aziendali finanziati tramite fondi interprofessionali e Fondo Nuove Competenze: aggiornamento del personale senza costi diretti per l'impresa. Gestione completa dalla progettazione del corso all'accesso ai fondi disponibili, inclusa la gestione delle pratiche per il Fondo Nuove Competenze (riduzione orario di lavoro + formazione finanziata dallo Stato).</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Passaggio generazionale</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Accompagno gli imprenditori nel trasferimento dell'azienda ai successori, con un approccio che tutela il valore costruito nel tempo. Pianificazione fiscale, strutturazione giuridica e supporto alle relazioni familiari e aziendali.</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Ristrutturazione del debito</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Supporto alle aziende in difficoltà finanziaria: rinegoziazione dei debiti con istituti di credito, piani di rientro sostenibili, accesso agli strumenti di composizione della crisi. Interveniamo prima che la situazione diventi irreversibile.</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Acquisizioni e cessioni</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Gestisco operazioni di compravendita aziendale dalla valutazione preliminare alla chiusura: due diligence, strutturazione dell'operazione, negoziazione con acquirenti o venditori, coordinamento con advisor legali e fiscali.</div>
-          <span class="settore-tag" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='block'?'none':'block';" style="cursor:pointer;">Business plan e finanziamenti</span>
-          <div style="display:none;width:100%;background:rgba(201,169,110,0.08);border-left:3px solid #c9a96e;padding:12px 16px;margin-bottom:8px;color:#aab4c8;font-family:Arial,sans-serif;font-size:1rem;line-height:1.7;">Costruisco business plan e piani industriali credibili per banche, investitori e partner. Dossier informativi completi, proiezioni finanziarie realistiche, supporto nella presentazione agli istituti di credito e ai fondi di investimento.</div>
+      <p class="hero-chip">Quantum Advisor · Civitanova Marche</p>
+      <div class="hero-domanda-wrap">
+        <span class="hero-domanda" id="hero-domanda"></span><span class="hero-cursor"></span>
+      </div>
+      <p class="hero-risposta">
+        Faccio questo.<br>
+        <strong>Per gli imprenditori che preferiscono la verità alle buone notizie.</strong>
+      </p>
+      <div class="hero-btns">
+        <a href="https://calendly.com/globalarea/30min" target="_blank" class="btn-oro">Prenota il primo incontro</a>
+        <a href="#storia" class="btn-ghost">Chi sono davvero →</a>
+      </div>
+    </div>
+    <div class="hero-foto-wrap">
+      <img src="foto-oscar.jpg" alt="Oscar Ribichini" class="hero-foto">
+      <div class="hero-badge">"Di un advisor che non ha mai sbagliato non puoi fidarti."</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- STRISCIA -->
+<div class="striscia">
+  <div class="dato"><span class="dato-n">25+</span><span class="dato-l">anni sul campo</span></div>
+  <div class="dato-sep"></div>
+  <div class="dato"><span class="dato-n">PMI</span><span class="dato-l">italiane affiancate</span></div>
+  <div class="dato-sep"></div>
+  <div class="dato"><span class="dato-n">1</span><span class="dato-l">principio: la verità prima</span></div>
+</div>
+
+
+<!-- MANIFESTO -->
+<section id="manifesto">
+  <div class="max">
+    <p class="etichetta a">Il metodo</p>
+    <h2 class="a">Il consulente viene dopo il problema.<br>
+      L'advisor è lì <em style="font-style:italic;color:var(--oro)">prima.</em></h2>
+    <div class="linea a"></div>
+    <p class="tm a">Il tuo commercialista registra quello che è già successo.
+      Il tuo avvocato interviene quando la firma è già data.
+      <strong>L'advisor affianca l'imprenditore nel momento che conta:</strong>
+      prima di firmare, prima di investire, prima di fidarsi di qualcuno.</p>
+    <p class="tm a">Non è una consulenza. È una relazione.
+      La chiami quando devi decidere qualcosa di importante
+      e vuoi <strong>qualcuno che ti dica quello che pensa davvero</strong> — non quello che vuoi sentire.</p>
+    <div class="tre">
+      <div class="col a d1">
+        <div class="col-n">01</div>
+        <div class="col-t">Ascolta</div>
+        <p class="col-p">Prima di tutto, capisce il tuo contesto. Non il tuo bilancio — il tuo contesto. Cosa stai costruendo, cosa ti spaventa, dove vuoi arrivare.</p>
+      </div>
+      <div class="col a d2">
+        <div class="col-n">02</div>
+        <div class="col-t">Vede prima</div>
+        <p class="col-p">Riconosce i segnali prima che diventino problemi. Non perché è più intelligente — perché li ha già visti su se stesso e sugli altri.</p>
+      </div>
+      <div class="col a d3">
+        <div class="col-n">03</div>
+        <div class="col-t">Rimane</div>
+        <p class="col-p">Non sparisce dopo aver consegnato il report. È il numero che chiami quando una cosa non torna. Prima, durante, dopo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FRASE MANIFESTO ISOLATA -->
+<div id="frase-manifesto" class="a">
+  <p class="frase-grande">
+    "Di un advisor che non ha mai sbagliato<br>
+    <em>non puoi fidarti.</em>"
+  </p>
+  <p class="frase-firma">— Oscar Ribichini</p>
+</div>
+
+
+<!-- STORIA + TIMELINE -->
+<section id="storia">
+  <div class="max">
+    <div class="storia-grid">
+      <div>
+        <p class="etichetta a" style="color:rgba(201,169,110,0.55)">Chi sono</p>
+        <h2 class="a">Ho sbagliato abbastanza<br>per essere <em>utile.</em></h2>
+        <div class="linea a" style="background:rgba(201,169,110,0.45)"></div>
+        <p class="tc a">Ho costruito aziende da zero.
+          Ho firmato fideiussioni che mi inseguono ancora oggi.
+          Ho prestato <strong>denaro a qualcuno di cui mi fidavo</strong> — con la carta scritta in mano.
+          Ho ceduto quote su consiglio di altri, tenendo il rischio tutto in mano.</p>
+        <p class="tc a">Non te lo racconto per impressionarti.
+          Te lo racconto perché <em>è così che si impara davvero</em> come funziona il rischio.
+          Non sui libri. Sulla propria pelle.</p>
+        <p class="tc a">Oggi affianco imprenditori che vogliono evitare quegli errori.
+          O che li hanno già fatti e devono uscirne.
+          <strong>Non giudico. Analizzo. Propongo. Rimango.</strong></p>
+        <div class="a" style="margin-top:28px">
+          <span class="tag">Imprenditore</span>
+          <span class="tag">Advisor AI</span>
+          <span class="tag">Quantum S.r.l.</span>
+          <span class="tag">25 anni sul campo</span>
         </div>
       </div>
-    </div>
-    <div class="hero-foto">
-      <img src="foto-oscar.jpg" alt="Oscar Ribichini">
-      <a href="https://calendly.com/globalarea/30min" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:12px;margin-top:14px;background:#c9a96e;color:#1a1a2e;font-family:Arial,sans-serif;font-size:1.1rem;font-weight:bold;letter-spacing:1px;text-decoration:none;padding:16px 20px;width:280px;box-sizing:border-box;justify-content:center;white-space:nowrap;"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#1a1a2e"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C11 21 3 13 3 5c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg> Prenota una chiamata</a>
-      <a href="#contatti" style="display:flex;align-items:center;gap:12px;margin-top:8px;background:transparent;color:#c9a96e;border:2px solid #c9a96e;font-family:Arial,sans-serif;font-size:1rem;font-weight:bold;letter-spacing:1px;text-decoration:none;padding:14px 20px;width:280px;box-sizing:border-box;justify-content:center;white-space:nowrap;">🤖 Analisi AI gratuita</a>
-    </div>
-  </section>
-
-  <!-- STRIP NUMERI -->
-  <div class="strip-numeri">
-    <div class="numero-item">
-      <strong>25+</strong>
-      <span>Anni di esperienza</span>
-    </div>
-    <div class="numero-item">
-      <strong>Multi</strong>
-      <span>settore</span>
-    </div>
-    <div class="numero-item">
-      <strong>Tutta Italia</strong>
-      <span>Operativo</span>
-    </div>
-    <div class="numero-item">
-      <strong>100%</strong>
-      <span>Approccio diretto</span>
-    </div>
-  </div>
-
-  <!-- FRASE EFFETTO -->
-  <div class="frase-effetto">
-    <p>"La consulenza giusta, <span>al momento giusto.</span>"</p>
-  </div>
-
-
-  <!-- CHECKLIST NORMATIVA -->
-  <div style="background:#1a1a2e;padding:60px 10%;">
-    <h2 style="font-size:2rem;color:#fff;margin-bottom:12px;font-family:Georgia,serif;">Cosa deve fare oggi la tua azienda</h2>
-    <div style="width:48px;height:3px;background:#c9a96e;margin-bottom:16px;"></div>
-    <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.2rem;line-height:1.8;margin-bottom:40px;max-width:800px;">Le normative europee si moltiplicano. Ecco le 10 aree in cui ogni PMI italiana deve essere in regola — o rischia sanzioni.</p>
-    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-bottom:40px;">
-
-      <div style="background:#16213e;padding:32px 36px;border-left:3px solid #c9a96e;">
-        <h3 style="color:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">1 — Privacy e GDPR</h3>
-        <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;">Registro dei trattamenti aggiornato, informative privacy corrette, nomina del DPO se obbligatorio, gestione dei consensi e delle violazioni dei dati.</p>
-      </div>
-
-      <div style="background:#16213e;padding:32px 36px;border-left:3px solid #c9a96e;">
-        <h3 style="color:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">2 — Sicurezza sul lavoro</h3>
-        <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;">DVR aggiornato, formazione obbligatoria dei dipendenti, sorveglianza sanitaria, nomina RSPP e RLS, piano di emergenza e primo soccorso.</p>
-      </div>
-
-      <div style="background:#16213e;padding:32px 36px;border-left:3px solid #c9a96e;">
-        <h3 style="color:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">3 — Antiriciclaggio</h3>
-        <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;">Adeguata verifica della clientela, registrazione delle operazioni sospette, formazione del personale, procedure interne di controllo e segnalazione alla UIF.</p>
-      </div>
-
-      <div style="background:#16213e;padding:32px 36px;border-left:3px solid #c9a96e;">
-        <h3 style="color:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">4 — ESG e sostenibilità</h3>
-        <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;">Rendicontazione non finanziaria (CSRD), due diligence sulla catena di fornitura, politiche ambientali e sociali. Obbligatorio per le grandi imprese, atteso per le PMI entro il 2026.</p>
-      </div>
-
-      <div style="background:#16213e;padding:32px 36px;border-left:3px solid #c9a96e;">
-        <h3 style="color:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">5 — AI Act europeo</h3>
-        <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;">In vigore dal 2024. Classificazione dei sistemi AI usati in azienda per livello di rischio, obblighi di trasparenza, formazione del personale che usa strumenti AI.</p>
-      </div>
-
-      <div style="background:#16213e;padding:32px 36px;border-left:3px solid #c9a96e;">
-        <h3 style="color:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">6 — Cyber security — NIS2</h3>
-        <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;">Direttiva europea obbligatoria dal 2024. Misure minime di sicurezza informatica, gestione degli incidenti, notifica alle autorità entro 24 ore, formazione obbligatoria del personale.</p>
-      </div>
-
-      <div style="background:#16213e;padding:32px 36px;border-left:3px solid #c9a96e;">
-        <h3 style="color:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">7 — Welfare aziendale</h3>
-        <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;">Piano welfare strutturato, gestione corretta dei fringe benefit (soglia 1.000€ per il 2024), buoni pasto, polizze sanitarie. Vantaggi fiscali significativi se gestito correttamente.</p>
-      </div>
-
-      <div style="background:#16213e;padding:32px 36px;border-left:3px solid #c9a96e;">
-        <h3 style="color:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">8 — Parità di genere</h3>
-        <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;">Certificazione UNI/PdR 125:2022 — obbligatoria per partecipare a molti bandi pubblici. Politiche di inclusione, parità retributiva, work-life balance documentati.</p>
-      </div>
-
-      <div style="background:#16213e;padding:32px 36px;border-left:3px solid #c9a96e;">
-        <h3 style="color:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">9 — Whistleblowing</h3>
-        <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;">D.Lgs. 24/2023 — obbligo per aziende con 50+ dipendenti. Canale interno di segnalazione anonima, procedure di gestione delle segnalazioni, divieto di ritorsioni.</p>
-      </div>
-
-      <div style="background:#16213e;padding:32px 36px;border-left:3px solid #c9a96e;">
-        <h3 style="color:#c9a96e;font-family:Arial,sans-serif;font-size:1rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">10 — Transizione digitale</h3>
-        <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;">Fatturazione elettronica obbligatoria, conservazione digitale a norma, firma elettronica qualificata, fascicolo digitale del dipendente. Sanzioni per chi non è adeguato.</p>
-      </div>
-
-    </div>
-    <div style="text-align:center;">
-      <a href="#contatti" target="_blank" rel="noopener" class="btn">Scarica la checklist completa</a>
-    </div>
-  </div>
-
-  <!-- ULTIME NOTIZIE -->
-  <div style="background:#fff;padding:60px 10%;">
-    <h2 style="font-size:2rem;color:#1a1a2e;margin-bottom:12px;font-family:Georgia,serif;">Aggiornamenti dal mondo delle imprese</h2>
-    <div style="width:48px;height:3px;background:#c9a96e;margin-bottom:40px;"></div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px;">
-      <div style="background:#f7f5f0;padding:28px;border-top:3px solid #c9a96e;">
-        <p style="font-family:Arial,sans-serif;font-size:0.75rem;letter-spacing:2px;text-transform:uppercase;color:#c9a96e;margin-bottom:12px;">Passaggio generazionale</p>
-        <h3 style="font-size:1rem;color:#1a1a2e;margin-bottom:12px;font-family:Arial,sans-serif;line-height:1.4;">Un milione di PMI italiane a rischio: solo il 30% sopravvive al primo passaggio</h3>
-        <p style="color:#555;font-size:0.88rem;line-height:1.6;font-family:Arial,sans-serif;margin-bottom:16px;">315.000 titolari hanno più di 70 anni. Nei prossimi 10 anni 4.000 imprese familiari italiane affronteranno operazioni straordinarie per un valore stimato di 346 miliardi di euro. L'80% degli imprenditori ci ha pensato — ma più della metà non ha fatto nulla. [Fonte: Pictet/Polimi, CNA 2026]</p>
-        <a href="https://www.milanofinanza.it/news/pmi-a-rischio-stallo-l-analisi-su-68-mila-societa-che-fa-emergere-la-fragilita-del-capitalismo-202603210934345556" target="_blank" rel="noopener" style="color:#c9a96e;font-family:Arial,sans-serif;font-size:0.82rem;font-weight:bold;text-decoration:none;">Milano Finanza →</a>
-      </div>
-      <div style="background:#f7f5f0;padding:28px;border-top:3px solid #c9a96e;">
-        <p style="font-family:Arial,sans-serif;font-size:0.75rem;letter-spacing:2px;text-transform:uppercase;color:#c9a96e;margin-bottom:12px;">Intelligenza artificiale</p>
-        <h3 style="font-size:1rem;color:#1a1a2e;margin-bottom:12px;font-family:Arial,sans-serif;line-height:1.4;">Il 76% delle PMI italiane non investe in AI — e non ha piani per farlo</h3>
-        <p style="color:#555;font-size:0.88rem;line-height:1.6;font-family:Arial,sans-serif;margin-bottom:16px;">Solo il 22% delle imprese italiane ha adottato sistemi di intelligenza artificiale, contro una media europea del 32%. Solo il 7% ha avviato programmi strutturati di formazione. Il Piano Transizione 5.0 offre credito d'imposta fino al 45% per chi investe adesso. [Fonte: Confartigianato/Polimi 2026]</p>
-        <a href="https://www.tomshw.it/business/pmi-italia-22-vs-europa-32-adozione-ai-confartigianato-openai" target="_blank" rel="noopener" style="color:#c9a96e;font-family:Arial,sans-serif;font-size:0.82rem;font-weight:bold;text-decoration:none;">Tom's Hardware Business →</a>
-      </div>
-      <div style="background:#f7f5f0;padding:28px;border-top:3px solid #c9a96e;">
-        <p style="font-family:Arial,sans-serif;font-size:0.75rem;letter-spacing:2px;text-transform:uppercase;color:#c9a96e;margin-bottom:12px;">Finanza straordinaria</p>
-        <h3 style="font-size:1rem;color:#1a1a2e;margin-bottom:12px;font-family:Arial,sans-serif;line-height:1.4;">M&A in Italia 2026: 326 operazioni nel primo trimestre, +8% rispetto al 2025</h3>
-        <p style="color:#555;font-size:0.88rem;line-height:1.6;font-family:Arial,sans-serif;margin-bottom:16px;">Aumentano le operazioni straordinarie tra le PMI italiane. I settori più attivi: industria (24%), beni di consumo (13%), tech (12%). Il dry powder globale supera i 2.000 miliardi — i fondi cercano PMI solide da acquisire. [Fonte: Milano Finanza, aprile 2026]</p>
-        <a href="https://www.milanofinanza.it/news/m-a-e-private-equity-in-italia-nel-2026-aumentano-i-deal-ma-scende-il-valore-degli-investimenti-202604231800319793" target="_blank" rel="noopener" style="color:#c9a96e;font-family:Arial,sans-serif;font-size:0.82rem;font-weight:bold;text-decoration:none;">Milano Finanza →</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- PERCHÉ SCEGLIERMI -->
-  <div style="background:#f7f5f0;padding:60px 10%;">
-    <h2 style="font-size:2rem;color:#1a1a2e;margin-bottom:12px;font-family:Georgia,serif;">Perché scegliermi</h2>
-    <div style="width:48px;height:3px;background:#c9a96e;margin-bottom:40px;"></div>
-    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:32px;">
-      <div style="background:#fff;padding:32px 28px;border-left:4px solid #c9a96e;">
-        <h3 style="font-size:1.4rem;color:#1a1a2e;margin-bottom:12px;font-family:Arial,sans-serif;">Esperienza imprenditoriale diretta</h3>
-        <p style="color:#555;font-size:1.6rem;line-height:1.8;font-family:Arial,sans-serif;">Non sono un consulente da scrivania. Ho fondato e gestito aziende in proprio, so cosa vuol dire rischiare in prima persona.</p>
-      </div>
-      <div style="background:#fff;padding:32px 28px;border-left:4px solid #c9a96e;">
-        <h3 style="font-size:1.4rem;color:#1a1a2e;margin-bottom:12px;font-family:Arial,sans-serif;">Lavoro in tutta Italia</h3>
-        <p style="color:#555;font-size:1.6rem;line-height:1.8;font-family:Arial,sans-serif;">In presenza o da remoto, senza vincoli geografici. Dall'analisi alla chiusura dell'operazione, ci sono sempre.</p>
-      </div>
-      <div style="background:#fff;padding:32px 28px;border-left:4px solid #c9a96e;">
-        <h3 style="font-size:1.4rem;color:#1a1a2e;margin-bottom:12px;font-family:Arial,sans-serif;">Linguaggio chiaro, zero burocrazia</h3>
-        <p style="color:#555;font-size:1.6rem;line-height:1.8;font-family:Arial,sans-serif;">Spiego le cose come stanno, senza tecnicismi inutili. Il cliente capisce sempre cosa sta succedendo e perché.</p>
-      </div>
-      <div style="background:#fff;padding:32px 28px;border-left:4px solid #c9a96e;">
-        <h3 style="font-size:1.4rem;color:#1a1a2e;margin-bottom:12px;font-family:Arial,sans-serif;">AI come strumento reale</h3>
-        <p style="color:#555;font-size:1.6rem;line-height:1.8;font-family:Arial,sans-serif;">Uso l'intelligenza artificiale ogni giorno nel mio lavoro. Non la insegno dai libri: la insegno perché la uso.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- CHI SONO -->
-  <section id="chisono">
-    <h2 class="section-title">Chi sono</h2>
-    <div class="section-line"></div>
-    <div class="chisono-grid">
-      <div class="testo chisono-testo-colonna">
-        <p>Mi chiamo Oscar Ribichini. Venticinque anni di esperienza sul campo, costruiti mattone dopo mattone: dall'imprenditoria in proprio alla direzione commerciale, dal trading internazionale con la Cina alle energie rinnovabili, fino alla consulenza aziendale e alla formazione sull'intelligenza artificiale.</p>
-        <p>Ho sempre lavorato a contatto diretto con imprenditori e aziende, con una costante: capire prima, proporre dopo.</p>
-        <p>Oggi collaboro con Quantum S.r.l. come consulente indipendente, portando ai clienti competenze solide in finanza straordinaria, riorganizzazione aziendale e sviluppo del business.</p>
-        <p>Nel contempo mi sono dedicato allo studio e all'applicazione concreta dell'intelligenza artificiale, con l'obiettivo di aiutare le aziende a usarla davvero — non come moda, ma come strumento di lavoro quotidiano.</p>
-        <div class="chisono-cards">
-          <div class="chisono-card">
-            <h4>Cosa faccio</h4>
-            <p>Supporto le aziende nella pianificazione finanziaria, nelle operazioni straordinarie e nella gestione dei processi. Erogo anche corsi pratici sull'intelligenza artificiale per imprenditori, manager e team aziendali.</p>
+      <div>
+        <div class="timeline">
+          <div class="tl-item a">
+            <div class="tl-anno">2000</div>
+            <div class="tl-dot"></div>
+            <div class="tl-testo"><strong>Prima azienda costruita da zero.</strong><br>L'entusiasmo del principiante — e tutti gli errori che porta con sé.</div>
           </div>
-          <div class="chisono-card">
-            <h4>Come lavoro</h4>
-            <p>Approccio diretto, linguaggio chiaro, soluzioni su misura. Niente burocrazia inutile: analizzo la situazione, propongo un percorso, lo seguiamo insieme.</p>
+          <div class="tl-item a d1">
+            <div class="tl-anno">2005</div>
+            <div class="tl-dot"></div>
+            <div class="tl-testo"><strong>Fideiussione su consiglio altrui.</strong><br>Struttura "furba" che lasciava il rischio in mano a me. Mi insegue ancora.</div>
+          </div>
+          <div class="tl-item a d2">
+            <div class="tl-anno">2018</div>
+            <div class="tl-dot"></div>
+            <div class="tl-testo"><strong>Soldi prestati alla persona sbagliata.</strong><br>Con una scrittura privata in mano. Non è bastata. Lezione pagata cara.</div>
+          </div>
+          <div class="tl-item a d3">
+            <div class="tl-anno">2022</div>
+            <div class="tl-dot" style="border-color:var(--oro-c)"></div>
+            <div class="tl-testo"><strong>Nasce il metodo.</strong><br>La capacità di leggere quando qualcosa non torna — prima che diventi un problema.</div>
+          </div>
+          <div class="tl-item a">
+            <div class="tl-anno">2024</div>
+            <div class="tl-dot" style="background:var(--oro);border-color:var(--oro)"></div>
+            <div class="tl-testo"><strong>Quantum Advisor.</strong><br>Tutto quello che ho imparato, messo al servizio degli imprenditori che decidono.</div>
           </div>
         </div>
       </div>
-      <div class="chisono-destra">
-        <div class="sidebar">
-          <h4>In sintesi</h4>
-          <ul>
-            <li>Sede operativa: Civitanova Marche</li>
-            <li>Operativo in tutta Italia</li>
-            <li>In presenza e da remoto</li>
-            <li>Oltre 25 anni di esperienza imprenditoriale e commerciale</li>
-            <li>Collaborazione con Quantum S.r.l., Roma</li>
-          </ul>
-        </div>
-        <div class="qrcode-box">
-          <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3AOscar%20Ribichini%0AORG%3AQuantum%20S.r.l.%0ATITLE%3AConsulente%20Aziendale%20%26%20Formazione%20AI%0ATEL%3A%2B393276113167%0AEMAIL%3Aoscar.ribichini%40quantumadvisor.it%0AEMAIL%3Aglobalarea%40gmail.com%0AURL%3Ahttps%3A%2F%2Foscar-ribichini.it%0AEND%3AVCARD&color=1a1a2e" alt="QR Code vCard Oscar Ribichini">
-          <p>Scansiona per salvare<br><strong>il mio contatto</strong></p>
-        </div>
-      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CONSULENZA -->
-  <section id="consulenza">
-    <h2 class="section-title">Consulenza aziendale</h2>
-    <div class="section-line"></div>
-    <p style="color:#555; margin-bottom:36px; font-family:Arial,sans-serif; font-size:1.2rem;">In collaborazione con Quantum S.r.l., offro supporto consulenziale in quattro aree principali.</p>
-    <div class="aree">
-      <div class="area">
-        <h3>Finanza straordinaria</h3>
-        <p>Acquisizioni, cessioni, fusioni, ristrutturazioni del debito, passaggi generazionali. Affianchiamo l'azienda in ogni fase dell'operazione, dalla valutazione preliminare alla chiusura.</p>
-        <p class="tipologie">Acquisizioni e cessioni aziendali · Fusioni e scissioni · Ristrutturazione del debito · Passaggi generazionali · Management buyout · Ricerca di soci e investitori</p>
-      </div>
-      <div class="area">
-        <h3>Finanza strutturata</h3>
-        <p>Business plan, piani industriali, dossier informativi per banche e investitori. Costruiamo insieme la documentazione necessaria per accedere a finanziamenti e capitali.</p>
-        <p class="tipologie">Business plan e piani industriali · Dossier per istituti di credito · Finanziamenti agevolati e bandi · Supporto con banche e investitori istituzionali</p>
-      </div>
-      <div class="area">
-        <h3>Consulenza amministrativa e fiscale societaria</h3>
-        <p>Supporto nella gestione ordinaria e straordinaria: compliance, riorganizzazioni societarie, ottimizzazione della struttura aziendale.</p>
-        <p class="tipologie">Revisione struttura societaria · Compliance amministrativa e fiscale · Pianificazione fiscale · Governance aziendale</p>
-      </div>
-      <div class="area">
-        <h3>Operazioni straordinarie e riqualificazione societaria</h3>
-        <p>Interventi di trasformazione, fusione, scissione e riposizionamento strategico.</p>
-        <p class="tipologie">Trasformazioni societarie · Fusioni per incorporazione · Scissioni parziali e totali · Riposizionamento strategico · Turnaround aziendale · Liquidazioni assistite</p>
-      </div>
-    </div>
-    <div class="come-funziona">
-      <strong>Come funziona:</strong> Il primo incontro è conoscitivo e senza impegno. Analizziamo insieme la situazione e valutiamo se e come possiamo esserti utili.
-    </div>
-    <a href="#contatti" class="btn">Richiedi un primo incontro</a>
-  </section>
 
-  <!-- FORMAZIONE AI -->
-  <section id="formazione">
-    <h2 class="section-title">Formazione AI</h2>
-    <div class="section-line"></div>
-    <div class="formazione-grid">
-      <div class="intro">
-        <h2>"L'intelligenza artificiale non è il futuro: è già il presente."</h2>
-        <p>La vera domanda non è "se" usarla, ma "come" usarla bene.</p>
-        <p>Erogo corsi pratici sull'intelligenza artificiale rivolti a imprenditori, manager e team aziendali. L'obiettivo non è formare tecnici, ma aiutare le persone a usare gli strumenti AI nel loro lavoro quotidiano, con concretezza e senza sprecare tempo.</p>
-        <p>I corsi si tengono in presenza o da remoto, singolarmente o in gruppo. Ogni percorso è costruito sulle esigenze reali del partecipante o dell'azienda.</p>
-        <a href="#contatti" class="btn" style="margin-top:16px;">Scopri i corsi</a>
+<!-- AI DEMO -->
+<section id="ai-demo">
+  <div class="max">
+    <p class="etichetta a">Il differenziante</p>
+    <h2 class="a">L'AI ti sta <em>mentendo.</em><br>Guarda com'è fatto dal vivo.</h2>
+    <p class="ai-intro a">Ogni giorno milioni di imprenditori usano l'AI per prendere decisioni aziendali.
+      <strong>La maggior parte non sa che l'AI produce risposte plausibili anche quando sbaglia.</strong>
+      Ho individuato 10 pattern ricorrenti. Eccone tre. Clicca e vedi.</p>
+
+    <div class="ai-tabs a">
+      <button class="ai-tab attivo" onclick="mostraScenario(0,this)">Bias #1 — Risposta senza dati</button>
+      <button class="ai-tab" onclick="mostraScenario(1,this)">Bias #2 — Brutte notizie in mezzo</button>
+      <button class="ai-tab" onclick="mostraScenario(2,this)">Bias #3 — Cede sotto pressione</button>
+    </div>
+
+    <div class="ai-scenario attivo" id="sc0">
+      <div class="chat">
+        <div class="chat-msg"><div class="chat-avatar av-imp">I</div><div class="chat-bolla"><div class="chat-chi chi-imp">Imprenditore</div><div class="chat-testo bg-imp">Posso fidarmi di questo fornitore cinese per un contratto da €200.000?</div></div></div>
+        <div class="chat-msg"><div class="chat-avatar av-ai">AI</div><div class="chat-bolla"><div class="chat-chi chi-ai">Risposta AI</div><div class="chat-testo bg-ai">Per valutare l'affidabilità di un fornitore cinese considera: verifica la registrazione presso le autorità locali, richiedi referenze da altri acquirenti europei, usa piattaforme come Alibaba Gold Supplier. Un contratto da €200.000 richiede una clausola penale e pagamenti a tranche legate alle consegne.</div></div></div>
+        <div class="chat-msg"><div class="chat-avatar av-or">OR</div><div class="chat-bolla"><div class="chat-chi chi-or">Oscar — cosa sta succedendo</div><div class="chat-testo bg-or">Hai visto? L'AI ha risposto come se avesse valutato quel fornitore specifico. Non sa nulla di lui. Ha usato un pattern da "guida all'export" applicato alla tua domanda.<br><br>Suona esperto. Non lo è. Questa è la risposta di chi non sa — presentata come chi sa.<div class="bias-badge">Bias #1 — Produce testo plausibile quando non ha i dati</div></div></div></div>
       </div>
-      <div class="target">
-        <h4>A chi si rivolge</h4>
-        <ul>
-          <li>Imprenditori che vogliono capire come l'AI può migliorare i processi aziendali</li>
-          <li>Manager e team che lavorano con dati, testi, comunicazione</li>
-          <li>Professionisti che vogliono restare competitivi e aggiornati</li>
+    </div>
+
+    <div class="ai-scenario" id="sc1">
+      <div class="chat">
+        <div class="chat-msg"><div class="chat-avatar av-imp">I</div><div class="chat-bolla"><div class="chat-chi chi-imp">Imprenditore</div><div class="chat-testo bg-imp">Questo contratto di partnership è solido?</div></div></div>
+        <div class="chat-msg"><div class="chat-avatar av-ai">AI</div><div class="chat-bolla"><div class="chat-chi chi-ai">Risposta AI</div><div class="chat-testo bg-ai">Il contratto presenta diversi punti di forza: clausole di esclusiva ben definite, termini di pagamento chiari, governance solida. Vale la pena notare che la clausola 7.3 sulla risoluzione delle controversie rimanda a un arbitrato in Svizzera — potenzialmente oneroso. Nel complesso, il contratto è strutturato in modo professionale.</div></div></div>
+        <div class="chat-msg"><div class="chat-avatar av-or">OR</div><div class="chat-bolla"><div class="chat-chi chi-or">Oscar — cosa sta succedendo</div><div class="chat-testo bg-or">Hai visto dove è finita la notizia critica? Sepolta in mezzo agli elogi.<br><br>Arbitrato in Svizzera: se litighi, spendi €30.000 solo per aprire la procedura. È il dato più importante di tutta la risposta — ed è quello che l'AI ha detto per ultimo, tra due buone notizie.<br><br>L'AI non mente. Cambia l'ordine di importanza.<div class="bias-badge">Bias #2 — Le brutte notizie finiscono in mezzo</div></div></div></div>
+      </div>
+    </div>
+
+    <div class="ai-scenario" id="sc2">
+      <div class="chat">
+        <div class="chat-msg"><div class="chat-avatar av-ai">AI</div><div class="chat-bolla"><div class="chat-chi chi-ai">Prima risposta AI</div><div class="chat-testo bg-ai">Questa struttura societaria presenta criticità fiscali rilevanti. Il trasferimento di immobili tra le due entità senza adeguata documentazione potrebbe configurare elusione fiscale ai sensi dell'art. 10-bis dello Statuto dei Contribuenti.</div></div></div>
+        <div class="chat-msg"><div class="chat-avatar av-imp">I</div><div class="chat-bolla"><div class="chat-chi chi-imp">Imprenditore — replica</div><div class="chat-testo bg-imp">Sei sicuro? Il mio commercialista l'ha già analizzata e dice che è tutto in regola.</div></div></div>
+        <div class="chat-msg"><div class="chat-avatar av-ai">AI</div><div class="chat-bolla"><div class="chat-chi chi-ai">Seconda risposta AI</div><div class="chat-testo bg-ai">Hai ragione. Se il tuo commercialista ha già esaminato la situazione specifica, avrà avuto accesso a informazioni che io non ho. La valutazione di un professionista sul campo supera la mia analisi generale. Ti suggerisco di fidarti della sua valutazione.</div></div></div>
+        <div class="chat-msg"><div class="chat-avatar av-or">OR</div><div class="chat-bolla"><div class="chat-chi chi-or">Oscar — cosa sta succedendo</div><div class="chat-testo bg-or">Non hai portato nessun fatto nuovo. Hai solo insistito.<br><br>L'AI aveva ragione nella prima risposta. Nella seconda ha ceduto — non perché tu abbia dimostrato qualcosa, ma perché interpreta la tua resistenza come una prova che tu sappia qualcosa che lei non sa.<br><br>Questo è il bias più pericoloso: conferma quello che vuoi sentire quando insisti abbastanza.<div class="bias-badge">Bias #3 — Cede sotto pressione senza un fatto nuovo</div></div></div></div>
+      </div>
+    </div>
+
+    <div style="margin-top:44px;text-align:center" class="a">
+      <a href="#contatti" class="btn-oro">Voglio conoscere tutti e 10 i bias</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- CASO STUDIO -->
+<section id="caso">
+  <div class="max">
+    <p class="etichetta a">Un caso reale</p>
+    <h2 class="a">Cosa succede quando arrivo prima</h2>
+    <div class="linea a"></div>
+    <div class="caso-box a">
+      <div class="caso-label">Settore manifatturiero · Marche · 18 dipendenti</div>
+      <div class="caso-titolo">Passaggio generazionale — decisione da €1,2 milioni</div>
+      <p class="caso-testo">L'imprenditore stava per cedere il 40% dell'azienda al figlio con una donazione diretta. Commercialista e notaio erano già convocati. <strong>Prima della firma, mi ha chiamato.</strong></p>
+      <p class="caso-testo">In 48 ore abbiamo identificato che la struttura proposta generava un'esposizione IRPEF di €180.000 evitabili e lasciava il controllo operativo in una zona giuridicamente ambigua. <strong>Abbiamo ridisegnato l'operazione con una holding intermedia.</strong></p>
+      <p class="caso-testo">Risultato: stessa intenzione, stessa famiglia, struttura completamente diversa.</p>
+      <div class="caso-numero">€180.000 risparmiati</div>
+      <p class="caso-nota">Il costo della mia consulenza: €3.800. ROI: 47x. Il costo di non chiamarmi prima: già scritto sopra.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- COME LAVORO -->
+<section id="come-lavoro">
+  <div class="max">
+    <p class="etichetta a">Il processo</p>
+    <h2 class="a">Come si lavora con un advisor</h2>
+    <div class="linea a"></div>
+    <div class="passi">
+      <div class="passo a">
+        <div class="passo-n">01</div>
+        <div class="passo-t">Prima chiamata — gratuita</div>
+        <p class="passo-p">30 minuti per capire se c'è qualcosa che non torna. Nessuna presentazione commerciale. Dico quello che penso. Se non sono la persona giusta, lo dico subito.</p>
+      </div>
+      <div class="passo a d1">
+        <div class="passo-n">02</div>
+        <div class="passo-t">Analisi e direzione</div>
+        <p class="passo-p">Entro la settimana porto una lettura della situazione. Non un report di 40 pagine — una mappa con le tre priorità e cosa fare adesso.</p>
+      </div>
+      <div class="passo a d2">
+        <div class="passo-n">03</div>
+        <div class="passo-t">Affiancamento continuativo</div>
+        <p class="passo-p">Resto nelle decisioni che seguono. Non sparisco dopo la prima fattura. Sei tu a scegliere quando e quanto supporto vuoi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- AREE -->
+<section id="aree">
+  <div class="max">
+    <p class="etichetta a">Dove lavoro</p>
+    <h2 class="a">Tre aree. Non dodici.</h2>
+    <div class="linea a"></div>
+    <div class="aree-grid">
+      <div class="area a">
+        <div class="area-i"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1a3a6e" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+        <div class="area-t">Finanza straordinaria</div>
+        <p class="area-p">Le decisioni che cambiano la struttura. Quelle da cui non si torna indietro facilmente.</p>
+        <ul class="area-list">
+          <li>Passaggio generazionale</li><li>Acquisizioni e cessioni</li>
+          <li>Ristrutturazione del debito</li><li>Finanziamenti agevolati 2026</li>
+          <li>Business plan e dossier bancari</li>
         </ul>
-        <h4 style="margin-top:28px;">Cosa impari</h4>
-        <ul>
-          <li>Come usare ChatGPT, Claude e altri strumenti AI nel lavoro quotidiano</li>
-          <li>Creare testi, email e presentazioni con l'AI in pochi minuti</li>
-          <li>Analizzare dati e documenti senza essere un tecnico</li>
-          <li>Automatizzare attività ripetitive con strumenti gratuiti</li>
-          <li>Valutare quali strumenti AI sono utili per la tua azienda</li>
-          <li>Cosa ho visto e selezionato all'<a href="https://www.aiweek.it/en/" target="_blank" rel="noopener" style="color:#c9a96e;">AI WEEK 2026</a> — i migliori strumenti AI per le PMI italiane</li>
+      </div>
+      <div class="area a d1">
+        <div class="area-i"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1a3a6e" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></div>
+        <div class="area-t">Intelligenza Artificiale</div>
+        <p class="area-p">Non come usarla. Come non farsi ingannare da essa.</p>
+        <ul class="area-list">
+          <li>I 10 bias da conoscere prima di fidarsi</li><li>Formazione pratica per il team</li>
+          <li>AI Act — compliance 2026</li><li>Automazione processi</li>
+          <li>Valutazione strumenti AI per PMI</li>
+        </ul>
+      </div>
+      <div class="area a d2">
+        <div class="area-i"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1a3a6e" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <div class="area-t">Strategia e protezione</div>
+        <p class="area-p">Crescita, posizionamento, protezione patrimoniale.</p>
+        <ul class="area-list">
+          <li>Riorganizzazione aziendale</li><li>Welfare — risparmio fiscale immediato</li>
+          <li>Internazionalizzazione</li><li>Bandi pubblici e incentivi</li>
+          <li>Compliance normativa PMI</li>
         </ul>
       </div>
     </div>
-  </section>
-
-  <!-- SEZIONE AI IN AZIONE -->
-  <div style="background:#f7f5f0;padding:80px 10%;">
-    <h2 style="font-family:Georgia,serif;font-size:2rem;color:#1a1a2e;margin-bottom:12px;">Ecco cosa produce l'AI quando lavoro con un cliente</h2>
-    <div style="width:48px;height:3px;background:#c9a96e;margin-bottom:16px;"></div>
-    <p style="font-family:Arial,sans-serif;font-size:0.95rem;color:#555;margin-bottom:48px;max-width:700px;">Un caso reale, anonimizzato. Dal problema alla soluzione concreta — in meno di 24 ore.</p>
-
-    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;max-width:1000px;margin:0 auto 48px;">
-      <!-- PROBLEMA -->
-      <div style="background:#1a1a2e;padding:36px 32px;border-top:4px solid #c9a96e;">
-        <div style="font-family:Arial,sans-serif;font-size:0.75rem;letter-spacing:3px;text-transform:uppercase;color:#c9a96e;margin-bottom:16px;">01 — Il problema</div>
-        <p style="font-family:Arial,sans-serif;font-size:0.95rem;color:#aab4c8;line-height:1.8;">PMI manifatturiera, 22 dipendenti, settore metalmeccanico. Il titolare vuole cedere l'azienda al figlio ma non sa da dove iniziare. Teme di perdere clienti storici durante il passaggio e non conosce le implicazioni fiscali.</p>
-      </div>
-      <!-- ANALISI AI -->
-      <div style="background:#0f3460;padding:36px 32px;border-top:4px solid #c9a96e;">
-        <div style="font-family:Arial,sans-serif;font-size:0.75rem;letter-spacing:3px;text-transform:uppercase;color:#c9a96e;margin-bottom:16px;">02 — Analisi AI</div>
-        <p style="font-family:Arial,sans-serif;font-size:0.95rem;color:#aab4c8;line-height:1.8;">Claude ha identificato 3 criticità principali: assenza di un patto di famiglia, nessuna pianificazione fiscale per la donazione d'azienda, e dipendenza da 2 clienti che rappresentano il 60% del fatturato. Ha prodotto una mappa delle priorità con 7 azioni concrete ordinate per urgenza.</p>
-      </div>
-      <!-- RISULTATO -->
-      <div style="background:#1a2a4a;padding:36px 32px;border-top:4px solid #c9a96e;">
-        <div style="font-family:Arial,sans-serif;font-size:0.75rem;letter-spacing:3px;text-transform:uppercase;color:#c9a96e;margin-bottom:16px;">03 — Il risultato</div>
-        <p style="font-family:Arial,sans-serif;font-size:0.95rem;color:#aab4c8;line-height:1.8;">In 24 ore il titolare aveva un piano d'azione chiaro. Abbiamo avviato la strutturazione del passaggio generazionale con Quantum, con un risparmio fiscale stimato di oltre 80.000€ rispetto a una cessione ordinaria.</p>
-      </div>
-    </div>
-
-    <div style="text-align:center;">
-      <p style="font-family:Arial,sans-serif;font-size:1rem;color:#555;margin-bottom:24px;">Vuoi vedere cosa produce l'AI analizzando la tua azienda?</p>
-      <a href="#contatti" style="display:inline-block;background:#c9a96e;color:#1a1a2e;padding:18px 48px;font-family:Arial,sans-serif;font-size:1rem;font-weight:bold;letter-spacing:1px;text-decoration:none;">Richiedi la tua analisi gratuita</a>
-    </div>
   </div>
+</section>
 
-  <!-- CONTATTI -->
-  <section id="contatti">
-    <h2 class="section-title">Contatti</h2>
-    <div class="section-line"></div>
-    <p>Sono disponibile per un primo confronto senza impegno.<br>Scrivimi o chiamami: rispondo di persona.</p>
 
-    <!-- MAPPA PIENA LARGHEZZA -->
-    <div style="margin:40px 0 0;width:100%;height:300px;overflow:hidden;">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2953.0!2d13.7302!3d43.3019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132c9b0e4e4e4e4f%3A0x1!2sCivitanova%20Marche%2C%20MC!5e0!3m2!1sit!2sit!4v1620000000000!5m2!1sit!2sit" width="100%" height="300" style="border:0;display:block;" allowfullscreen="" loading="lazy" title="Civitanova Marche"></iframe>
-    </div>
+<!-- FORM QUALIFICAZIONE -->
+<section id="form-qualificazione" style="background:var(--nero);padding:100px 6%;">
+  <div style="max-width:740px;margin:0 auto;">
+    <p class="etichetta a" style="color:rgba(201,169,110,0.5)">Prima della chiamata</p>
+    <h2 class="a" style="color:#fff;">Dimmi dove sei.<br>Arrivo <em style="font-style:italic;color:var(--oro)">preparato.</em></h2>
+    <div class="linea a" style="background:rgba(201,169,110,0.4)"></div>
+    <p class="a" style="font-size:0.95rem;color:var(--muted);line-height:1.85;margin-bottom:52px;font-weight:300;">
+      Quattro domande. Niente moduli lunghi, niente burocrazia.<br>
+      Ti rispondo entro 24 ore con un orario per la chiamata.
+    </p>
 
-    <!-- DATI + FORM -->
-    <div class="contatti-grid" style="margin-top:48px;">
-      <div class="info-contatto">
-        <h4>Dove trovarmi</h4>
-        <div style="display:flex;flex-direction:column;gap:20px;margin-top:24px;">
-          <div style="display:flex;align-items:flex-start;gap:16px;">
-            <span style="color:#c9a96e;font-size:1.3rem;flex-shrink:0;">📍</span>
-            <div>
-              <p style="color:#fff;font-weight:bold;margin-bottom:4px;">Oscar Ribichini</p>
-              <p style="color:#aab4c8;">Civitanova Marche (MC)</p>
-            </div>
-          </div>
-          <div style="display:flex;align-items:center;gap:16px;">
-            <span style="color:#c9a96e;font-size:1.3rem;flex-shrink:0;">📞</span>
-            <a href="tel:+393276113167" style="color:#c9a96e;text-decoration:none;">+39 327 611 3167</a>
-          </div>
-          <div style="display:flex;align-items:center;gap:16px;">
-            <span style="color:#c9a96e;font-size:1.3rem;flex-shrink:0;">✉️</span>
-            <div>
-              <a href="mailto:oscar.ribichini@quantumadvisor.it" style="color:#c9a96e;text-decoration:none;display:block;">oscar.ribichini@quantumadvisor.it</a>
-              <span style="color:#555;font-size:0.85rem;font-family:Arial,sans-serif;">Rispondo entro 24 ore lavorative.</span>
-            </div>
-          </div>
-          <div style="display:flex;align-items:center;gap:16px;">
-            <span style="color:#c9a96e;font-size:1.3rem;flex-shrink:0;">💼</span>
-            <a href="https://www.linkedin.com/in/oscar-ribichini-6307341a" target="_blank" rel="noopener" style="color:#c9a96e;text-decoration:none;">linkedin.com/in/oscar-ribichini</a>
-          </div>
-          <div style="display:flex;align-items:center;gap:16px;">
-            <span style="color:#c9a96e;font-size:1.3rem;flex-shrink:0;">💬</span>
-            <a href="https://wa.me/393276113167" target="_blank" rel="noopener" style="color:#c9a96e;text-decoration:none;">WhatsApp diretto</a>
-          </div>
+    <form id="form-oscar" class="a" action="https://formspree.io/f/mjglzajp" method="POST" onsubmit="inviaForm(event)">
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
+        <div class="campo-wrap">
+          <label class="campo-label">Nome e cognome</label>
+          <input type="text" name="nome" placeholder="Mario Rossi" required class="campo-input">
+        </div>
+        <div class="campo-wrap">
+          <label class="campo-label">Email o telefono</label>
+          <input type="text" name="contatto" placeholder="mario@azienda.it  oppure  333..." required class="campo-input">
         </div>
       </div>
-      <form class="form-contatto" action="https://formspree.io/f/mjglzajp" method="POST">
-        <input type="text" name="nome" placeholder="Nome e cognome">
-        <input type="email" name="email" placeholder="Email">
-        <input type="tel" name="telefono" placeholder="Telefono (facoltativo)">
-        <textarea name="messaggio" placeholder="Come posso aiutarti?"></textarea>
-        <button type="submit" class="btn" style="width:100%;">Invia messaggio</button>
-      </form>
-    </div>
-  </section>
 
-  <!-- FAQ -->
-  <section style="max-width:800px;margin:0 auto;padding:80px 40px;">
-    <h2 style="font-family:Georgia,serif;font-size:2rem;color:#1a1a2e;margin-bottom:8px;text-align:center;">Domande frequenti</h2>
-    <div style="width:48px;height:3px;background:#c9a96e;margin:0 auto 48px;"></div>
+      <div class="campo-wrap" style="margin-bottom:16px;">
+        <label class="campo-label">1 — Cosa fai? <span style="color:var(--muted);font-weight:300;letter-spacing:0;text-transform:none">(settore e dimensione dell'azienda)</span></label>
+        <input type="text" name="azienda" placeholder="Es: Produzione metalmeccanica, 20 dipendenti, Marche" required class="campo-input">
+      </div>
 
-    <div class="faq-item" style="border-bottom:1px solid #e8e0d0;padding:24px 0;">
-      <button onclick="toggleFaq(this)" style="width:100%;text-align:left;background:none;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-family:Georgia,serif;font-size:1.1rem;color:#1a1a2e;font-weight:bold;">Lavori solo nelle Marche o in tutta Italia?</span>
-        <span style="color:#c9a96e;font-size:1.4rem;font-weight:bold;flex-shrink:0;margin-left:16px;">+</span>
+      <div class="campo-wrap" style="margin-bottom:16px;">
+        <label class="campo-label">2 — Davanti a quale decisione ti trovi?</label>
+        <textarea name="decisione" rows="3" placeholder="Descrivi la situazione in 2–3 righe. Non serve essere precisi — basta l'idea." required class="campo-input" style="resize:vertical;min-height:96px;"></textarea>
+      </div>
+
+      <div class="campo-wrap" style="margin-bottom:16px;">
+        <label class="campo-label">3 — Entro quando devi decidere?</label>
+        <div class="radio-group">
+          <label class="radio-item"><input type="radio" name="urgenza" value="Pochi giorni"> <span>Pochi giorni</span></label>
+          <label class="radio-item"><input type="radio" name="urgenza" value="Entro il mese"> <span>Entro il mese</span></label>
+          <label class="radio-item"><input type="radio" name="urgenza" value="Entro 3 mesi"> <span>Entro 3 mesi</span></label>
+          <label class="radio-item"><input type="radio" name="urgenza" value="Sto esplorando"> <span>Sto esplorando</span></label>
+        </div>
+      </div>
+
+      <div class="campo-wrap" style="margin-bottom:40px;">
+        <label class="campo-label">4 — Come preferisci essere contattato?</label>
+        <div class="radio-group">
+          <label class="radio-item"><input type="radio" name="canale" value="Telefono"> <span>Telefono</span></label>
+          <label class="radio-item"><input type="radio" name="canale" value="WhatsApp"> <span>WhatsApp</span></label>
+          <label class="radio-item"><input type="radio" name="canale" value="Email"> <span>Email</span></label>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-oro" style="width:100%;text-align:center;font-size:0.92rem;padding:20px;border:none;cursor:pointer;">
+        Invia — ti rispondo entro 24 ore
       </button>
-      <p style="display:none;font-family:Arial,sans-serif;font-size:0.95rem;color:#555;line-height:1.8;margin-top:16px;">Lavoro in tutta Italia, sia in presenza che da remoto. La sede operativa è a Civitanova Marche, ma seguo clienti da nord a sud senza limitazioni geografiche.</p>
-    </div>
-
-    <div class="faq-item" style="border-bottom:1px solid #e8e0d0;padding:24px 0;">
-      <button onclick="toggleFaq(this)" style="width:100%;text-align:left;background:none;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-family:Georgia,serif;font-size:1.1rem;color:#1a1a2e;font-weight:bold;">Quanto costa una consulenza?</span>
-        <span style="color:#c9a96e;font-size:1.4rem;font-weight:bold;flex-shrink:0;margin-left:16px;">+</span>
-      </button>
-      <p style="display:none;font-family:Arial,sans-serif;font-size:0.95rem;color:#555;line-height:1.8;margin-top:16px;">Il primo confronto è gratuito e senza impegno. Il compenso dipende dalla complessità del progetto e viene concordato prima di iniziare qualsiasi attività — nessuna sorpresa.</p>
-    </div>
-
-    <div class="faq-item" style="border-bottom:1px solid #e8e0d0;padding:24px 0;">
-      <button onclick="toggleFaq(this)" style="width:100%;text-align:left;background:none;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-family:Georgia,serif;font-size:1.1rem;color:#1a1a2e;font-weight:bold;">Cosa fa esattamente Quantum S.r.l.?</span>
-        <span style="color:#c9a96e;font-size:1.4rem;font-weight:bold;flex-shrink:0;margin-left:16px;">+</span>
-      </button>
-      <p style="display:none;font-family:Arial,sans-serif;font-size:0.95rem;color:#555;line-height:1.8;margin-top:16px;">Quantum S.r.l. è una società di consulenza strategica per le PMI italiane specializzata in finanza straordinaria, passaggio generazionale, ristrutturazione aziendale e pianificazione strategica. Io collaboro con Quantum come consulente indipendente, portando i clienti e seguendo i progetti sul territorio.</p>
-    </div>
-
-    <div class="faq-item" style="border-bottom:1px solid #e8e0d0;padding:24px 0;">
-      <button onclick="toggleFaq(this)" style="width:100%;text-align:left;background:none;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-family:Georgia,serif;font-size:1.1rem;color:#1a1a2e;font-weight:bold;">Quanto tempo serve per vedere i primi risultati?</span>
-        <span style="color:#c9a96e;font-size:1.4rem;font-weight:bold;flex-shrink:0;margin-left:16px;">+</span>
-      </button>
-      <p style="display:none;font-family:Arial,sans-serif;font-size:0.95rem;color:#555;line-height:1.8;margin-top:16px;">Dipende dal tipo di intervento. Un'analisi preliminare si completa in pochi giorni. Un progetto strutturato come un passaggio generazionale o una ristrutturazione richiede mesi. In ogni caso, dal primo incontro si definisce subito un piano con tempi chiari.</p>
-    </div>
-
-    <div class="faq-item" style="border-bottom:1px solid #e8e0d0;padding:24px 0;">
-      <button onclick="toggleFaq(this)" style="width:100%;text-align:left;background:none;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-family:Georgia,serif;font-size:1.1rem;color:#1a1a2e;font-weight:bold;">Posso richiederti una consulenza anche se la mia azienda è piccola?</span>
-        <span style="color:#c9a96e;font-size:1.4rem;font-weight:bold;flex-shrink:0;margin-left:16px;">+</span>
-      </button>
-      <p style="display:none;font-family:Arial,sans-serif;font-size:0.95rem;color:#555;line-height:1.8;margin-top:16px;">Sì. Lavoro principalmente con PMI italiane — aziende da 5 a 200 dipendenti. La dimensione non è un limite: quello che conta è avere un problema reale da risolvere o un obiettivo concreto da raggiungere.</p>
-    </div>
-
-    <div class="faq-item" style="padding:24px 0;">
-      <button onclick="toggleFaq(this)" style="width:100%;text-align:left;background:none;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;">
-        <span style="font-family:Georgia,serif;font-size:1.1rem;color:#1a1a2e;font-weight:bold;">Come funziona la formazione sull'intelligenza artificiale?</span>
-        <span style="color:#c9a96e;font-size:1.4rem;font-weight:bold;flex-shrink:0;margin-left:16px;">+</span>
-      </button>
-      <p style="display:none;font-family:Arial,sans-serif;font-size:0.95rem;color:#555;line-height:1.8;margin-top:16px;">La formazione è pratica e su misura per l'azienda. Non teoria generica — strumenti concreti che il tuo team usa dal giorno dopo. Si parte da un'analisi dei processi aziendali e si identificano le aree dove l'AI produce il maggiore risparmio di tempo e costi.</p>
-    </div>
-  </section>
-  <script>
-    function toggleFaq(btn) {
-      var p = btn.nextElementSibling;
-      var icon = btn.querySelector('span:last-child');
-      if (p.style.display === 'none') {
-        p.style.display = 'block';
-        icon.textContent = '−';
-      } else {
-        p.style.display = 'none';
-        icon.textContent = '+';
-      }
-    }
-  </script>
-
-  <!-- NEWSLETTER -->
-  <div id="newsletter">
-    <h2>Resta aggiornato</h2>
-    <p>Ricevi approfondimenti su consulenza aziendale, finanza d'impresa e intelligenza artificiale.<br>Niente spam, solo contenuti utili.</p>
-    <form class="newsletter-form" action="https://formspree.io/f/mjglzajp" method="POST">
-      <input type="text" name="nome" placeholder="Nome">
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="hidden" name="_subject" value="Nuova iscrizione newsletter">
-      <button type="submit" class="btn">Iscriviti</button>
+      <p id="form-msg" style="display:none;text-align:center;margin-top:18px;font-size:0.85rem;color:var(--oro);"></p>
     </form>
-    <p class="newsletter-nota">Iscrivendoti accetti di ricevere comunicazioni professionali. Puoi cancellarti in qualsiasi momento.</p>
   </div>
+</section>
 
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-social">
-      <a href="https://www.linkedin.com/in/oscar-ribichini-6307341a" title="LinkedIn" target="_blank"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
-      <a href="https://wa.me/393276113167" title="WhatsApp" target="_blank"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
-      <a href="https://www.youtube.com/@QuantumAdvisor" title="YouTube Quantum Advisor" target="_blank"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
-      <a href="https://www.facebook.com/profile.php?id=61576680591564" title="Facebook Quantum Srl" target="_blank"><svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
-    </div>
-    <p>© 2026 Oscar Ribichini — P.IVA 01785850437 — Civitanova Marche &nbsp;|&nbsp; <a href="mailto:oscar.ribichini@quantumadvisor.it" style="color:#444;">oscar.ribichini@quantumadvisor.it</a> &nbsp;|&nbsp; +39 327 611 3167</p>
-  </footer>
+<style>
+.campo-wrap { display:flex; flex-direction:column; gap:8px; }
+.campo-label { font-size:0.7rem; letter-spacing:2.5px; text-transform:uppercase; color:rgba(201,169,110,0.65); font-weight:500; }
+.campo-input {
+  background:rgba(255,255,255,0.04); border:1px solid rgba(201,169,110,0.18);
+  color:#fff; padding:14px 18px; font-family:'DM Sans',sans-serif;
+  font-size:0.92rem; outline:none; transition:border-color 0.25s,background 0.25s; width:100%;
+}
+.campo-input::placeholder { color:rgba(255,255,255,0.18); }
+.campo-input:focus { border-color:rgba(201,169,110,0.55); background:rgba(255,255,255,0.06); }
+.radio-group { display:flex; gap:10px; flex-wrap:wrap; margin-top:4px; }
+.radio-item {
+  display:flex; align-items:center; gap:9px; cursor:pointer;
+  background:rgba(255,255,255,0.03); border:1px solid rgba(201,169,110,0.16);
+  padding:10px 18px; transition:all 0.2s; font-size:0.86rem; color:var(--muted);
+}
+.radio-item:hover { border-color:rgba(201,169,110,0.38); color:#fff; }
+.radio-item input[type="radio"] { display:none; }
+.radio-item:has(input:checked) { background:rgba(201,169,110,0.1); border-color:var(--oro); color:var(--oro); }
+@media(max-width:620px){
+  #form-qualificazione [style*="grid-template-columns"] { grid-template-columns:1fr !important; }
+}
+</style>
 
-  <!-- POPUP EXIT INTENT -->
-  <div id="exit-popup" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:99999;align-items:center;justify-content:center;">
-    <div style="background:#1a1a2e;max-width:480px;width:90%;padding:48px 40px;position:relative;border-top:4px solid #c9a96e;">
-      <button onclick="document.getElementById('exit-popup').style.display='none'" style="position:absolute;top:16px;right:20px;background:none;border:none;color:#aab4c8;font-size:1.4rem;cursor:pointer;">×</button>
-      <h3 style="color:#fff;font-family:Georgia,serif;font-size:1.5rem;margin-bottom:12px;">Prima di andare...</h3>
-      <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:1.3rem;line-height:1.9;margin-bottom:24px;">Scarica gratis la <strong style="color:#c9a96e;">Guida al Welfare Aziendale per PMI</strong> — strumento pratico per ridurre il costo del lavoro e motivare i dipendenti.</p>
-      <a href="#contatti" class="btn" style="display:block;text-align:center;margin-bottom:12px;">Inviami la guida gratuita</a>
-      <p style="color:#555;font-family:Arial,sans-serif;font-size:0.78rem;text-align:center;">Nessuno spam. Solo contenuti utili.</p>
-    </div>
-  </div>
-  <script>
-    let exitShown = false;
-    document.addEventListener('mouseleave', function(e) {
-      if (e.clientY < 10 && !exitShown) {
-        exitShown = true;
-        document.getElementById('exit-popup').style.display = 'flex';
+<script>
+function inviaForm(e) {
+  e.preventDefault();
+  const form = document.getElementById('form-oscar');
+  const msg  = document.getElementById('form-msg');
+  const btn  = form.querySelector('button[type="submit"]');
+  const data = new FormData(form);
+  btn.textContent = 'Invio in corso...';
+  btn.style.opacity = '0.6';
+  fetch(form.action, { method:'POST', body:data, headers:{'Accept':'application/json'} })
+    .then(r => {
+      if(r.ok) {
+        form.reset();
+        msg.textContent = 'Messaggio ricevuto. Ti rispondo entro 24 ore.';
+        msg.style.display = 'block';
+        btn.textContent = 'Inviato ✓';
+        btn.style.background = 'rgba(201,169,110,0.4)';
+      } else {
+        msg.textContent = 'Qualcosa non ha funzionato. Scrivimi direttamente: oscar.ribichini@quantumadvisor.it';
+        msg.style.color = '#e07070';
+        msg.style.display = 'block';
+        btn.textContent = 'Invia — ti rispondo entro 24 ore';
+        btn.style.opacity = '1';
       }
+    })
+    .catch(() => {
+      msg.textContent = 'Errore di rete. Scrivimi a: oscar.ribichini@quantumadvisor.it';
+      msg.style.color = '#e07070';
+      msg.style.display = 'block';
+      btn.textContent = 'Invia — ti rispondo entro 24 ore';
+      btn.style.opacity = '1';
     });
-  </script>
+}
+</script>
 
-  <!-- COOKIE BANNER GDPR -->
-  <div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;width:100%;background:#0d0d1a;border-top:2px solid #c9a96e;padding:16px 24px;z-index:99998;box-sizing:border-box;">
-    <div style="max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
-      <p style="color:#aab4c8;font-family:Arial,sans-serif;font-size:0.85rem;margin:0;flex:1;min-width:200px;">Questo sito usa cookie tecnici e Google Analytics per analizzare il traffico. Nessun dato viene venduto a terzi. <a href="mailto:oscar.ribichini@quantumadvisor.it" style="color:#c9a96e;">Contattami</a> per info.</p>
-      <div style="display:flex;gap:10px;flex-shrink:0;">
-        <button onclick="accettaCookie()" style="background:#c9a96e;color:#1a1a2e;border:none;padding:10px 20px;font-family:Arial,sans-serif;font-size:0.85rem;font-weight:bold;cursor:pointer;">Accetta</button>
-        <button onclick="rifiutaCookie()" style="background:transparent;color:#aab4c8;border:1px solid #aab4c8;padding:10px 20px;font-family:Arial,sans-serif;font-size:0.85rem;cursor:pointer;">Solo necessari</button>
-      </div>
-    </div>
+<!-- CONTATTI -->
+<section id="contatti">
+  <p class="etichetta a">Il primo passo</p>
+  <h2 class="a">30 minuti per capire<br>se c'è qualcosa che <em>non torna.</em></h2>
+  <p class="c-sub a">Gratuito. Senza presentazioni. Dico quello che penso.<br>Se posso aiutarti, lo dico subito. Se no, anche.</p>
+  <div class="c-btns a">
+    <a href="https://calendly.com/globalarea/30min" target="_blank" class="btn-oro">Prenota su Calendly</a>
+    <a href="https://wa.me/393276113167" target="_blank" class="btn-ghost">Scrivimi su WhatsApp</a>
   </div>
-  <script>
-    function accettaCookie() {
-      localStorage.setItem('cookie_consent', 'accepted');
-      document.getElementById('cookie-banner').style.display = 'none';
-    }
-    function rifiutaCookie() {
-      localStorage.setItem('cookie_consent', 'rejected');
-      document.getElementById('cookie-banner').style.display = 'none';
-    }
-    if (!localStorage.getItem('cookie_consent')) {
-      document.getElementById('cookie-banner').style.display = 'block';
-    }
-  </script>
+  <div class="c-dati a">
+    <a href="mailto:oscar.ribichini@quantumadvisor.it" class="c-dato">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      oscar.ribichini@quantumadvisor.it
+    </a>
+    <a href="tel:+393276113167" class="c-dato">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.6 19.79 19.79 0 0 1 1.62 4.93A2 2 0 0 1 3.6 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.6a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 17z"/></svg>
+      +39 327 611 3167
+    </a>
+    <a href="https://www.linkedin.com/in/oscar-ribichini" target="_blank" class="c-dato">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      linkedin.com/in/oscar-ribichini
+    </a>
+  </div>
+</section>
 
-  <!-- BOTTONE WHATSAPP FISSO -->
-  <a href="https://wa.me/393276113167" target="_blank" rel="noopener" title="Scrivimi su WhatsApp"
-    style="position:fixed;bottom:90px;right:28px;background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);z-index:9999;text-decoration:none;transition:background 0.2s;"
-    onmouseover="this.style.background='#1ebe57'" onmouseout="this.style.background='#25D366'">
-    <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-  </a>
+
+<!-- FOOTER -->
+<footer>
+  <span class="f-t">© 2026 Oscar Ribichini · P.IVA 01785850437 · Quantum S.r.l.</span>
+  <div style="display:flex;gap:20px">
+    <a href="privacy.html" class="f-l">Privacy</a>
+    <a href="cookie.html" class="f-l">Cookie</a>
+  </div>
+</footer>
+
+
+<script>
+  // ── Scroll reveal
+  const obs = new IntersectionObserver(e => {
+    e.forEach(x => { if(x.isIntersecting) x.target.classList.add('v'); });
+  }, { threshold:0.08 });
+  document.querySelectorAll('.a').forEach(el => obs.observe(el));
+
+  // ── Typewriter
+  const domande = [
+    "Quando è stata l'ultima volta che qualcuno ti ha detto quello che non volevi sentire?",
+    "Quante decisioni hai rimandato perché non avevi nessuno con cui confrontarti?",
+    "Hai mai firmato qualcosa pensando: dovevo parlarne prima?"
+  ];
+  let dI=0, cI=0, cancella=false;
+  const el = document.getElementById('hero-domanda');
+  function scrivi() {
+    const t = domande[dI];
+    if (!cancella) {
+      el.textContent = t.slice(0, ++cI);
+      if (cI === t.length) { cancella=true; setTimeout(scrivi,2800); return; }
+    } else {
+      el.textContent = t.slice(0, --cI);
+      if (cI === 0) { cancella=false; dI=(dI+1)%domande.length; setTimeout(scrivi,400); return; }
+    }
+    setTimeout(scrivi, cancella ? 20 : 46);
+  }
+  scrivi();
+
+  // ── AI tabs
+  function mostraScenario(idx, btn) {
+    document.querySelectorAll('.ai-scenario').forEach((s,i) => s.classList.toggle('attivo', i===idx));
+    document.querySelectorAll('.ai-tab').forEach((t,i) => t.classList.toggle('attivo', i===idx));
+  }
+
+  // ── DRONE AUDIO 40Hz (marchio sonoro Codice Reale)
+  let actx=null, master=null, oscs=[], audioOn=false;
+
+  function toggleAudio() {
+    if (!audioOn) {
+      actx = new (window.AudioContext || window.webkitAudioContext)();
+      master = actx.createGain();
+      master.gain.setValueAtTime(0, actx.currentTime);
+      master.gain.linearRampToValueAtTime(0.11, actx.currentTime + 3.5);
+      master.connect(actx.destination);
+
+      // Drone 40Hz + armoniche (marchio sonoro dei reel)
+      [[40,1],[80,0.5],[120,0.25],[160,0.12]].forEach(([freq,amp]) => {
+        const o = actx.createOscillator();
+        const g = actx.createGain();
+        o.type = 'sine';
+        o.frequency.value = freq;
+        g.gain.value = amp;
+        o.connect(g); g.connect(master);
+        o.start(); oscs.push(o);
+      });
+
+      audioOn = true;
+      document.getElementById('audio-btn').classList.add('on');
+      document.getElementById('icon-off').style.display = 'none';
+      document.getElementById('icon-on').style.display = 'block';
+    } else {
+      master.gain.linearRampToValueAtTime(0, actx.currentTime + 2);
+      setTimeout(() => {
+        oscs.forEach(o => { try{ o.stop(); }catch(e){} });
+        actx.close(); actx=null; master=null; oscs=[];
+      }, 2200);
+      audioOn = false;
+      document.getElementById('audio-btn').classList.remove('on');
+      document.getElementById('icon-off').style.display = 'block';
+      document.getElementById('icon-on').style.display = 'none';
+    }
+  }
+</script>
 
 </body>
 </html>
